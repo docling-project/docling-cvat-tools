@@ -225,8 +225,18 @@ def test_cvat_to_docling_conversion():
             print(f"\nProcessing {image_path.name}...")
 
             if annotations_xml.exists() and image_path.exists():
+                # For PDFs, construct the CVAT image name that references the rendered page image
+                # CVAT exports store rendered page images as "doc_{pdf_stem}_page_000001.png"
+                cvat_image_name = None
+                if image_path.suffix.lower() == ".pdf":
+                    cvat_image_name = f"doc_{image_path.stem}_page_000001.png"
+
                 validation_report, result = _test_conversion_with_sample_data(
-                    annotations_xml, image_path, output_dir=output_dir, verbose=True
+                    annotations_xml,
+                    image_path,
+                    output_dir=output_dir,
+                    verbose=True,
+                    cvat_image_name=cvat_image_name,
                 )
                 if validation_report.has_errors():
                     print(f"✗ Validation errors: {validation_report.errors}")

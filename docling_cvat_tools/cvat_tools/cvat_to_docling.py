@@ -1840,7 +1840,7 @@ class CVATToDoclingConverter:
                 return []
             merge_elements = [
                 e
-                for el_id in merge_group_ids
+                for el_id in sorted(merge_group_ids)
                 if (e := self.doc_structure.get_element_by_id(el_id)) is not None
             ]
             return merge_elements if len(merge_elements) > 1 else []
@@ -1968,7 +1968,11 @@ class CVATToDoclingConverter:
                     f"Valid cell_ids: {sorted(valid_cell_ids)}"
                 )
 
-        graph = GraphData(cells=list(unique_cells.values()), links=links)
+        # Sort cells by cell_id for deterministic output
+        graph = GraphData(
+            cells=[unique_cells[cid] for cid in sorted(unique_cells.keys())],
+            links=links,
+        )
 
         try:
             classify_cells(graph=graph)

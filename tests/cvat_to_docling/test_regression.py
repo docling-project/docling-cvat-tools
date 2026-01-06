@@ -39,7 +39,11 @@ def discover_fixtures() -> list[Path]:
 
     fixtures = []
     for item in sorted(fixtures_dir.iterdir()):
-        if item.is_dir() and (item / "metadata.json").exists():
+        if (
+            item.is_dir()
+            and not item.name.startswith("_")
+            and (item / "metadata.json").exists()
+        ):
             fixtures.append(item)
 
     return fixtures
