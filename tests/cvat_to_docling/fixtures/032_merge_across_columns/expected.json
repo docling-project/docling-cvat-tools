@@ -1,40 +1,45 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.8.0",
-  "name": "56ea50ddee03cabaa11c96976ed628e8a0dd8f1bb75f99a0a216500c9799f555",
+  "name": "input",
+  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
+    "parent": null,
     "children": [],
     "content_layer": "furniture",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
+    "parent": null,
     "children": [
       {
-        "$ref": "#/texts/0"
+        "cref": "#/texts/0"
       },
       {
-        "$ref": "#/texts/1"
+        "cref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/2"
+        "cref": "#/texts/2"
       },
       {
-        "$ref": "#/pictures/0"
+        "cref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/3"
+        "cref": "#/texts/3"
       },
       {
-        "$ref": "#/texts/4"
+        "cref": "#/texts/4"
       },
       {
-        "$ref": "#/texts/5"
+        "cref": "#/texts/5"
       }
     ],
     "content_layer": "body",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -43,10 +48,11 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -60,20 +66,23 @@
           },
           "charspan": [
             0,
-            265
+            252
           ]
         }
       ],
-      "orig": "streamlined  product-development  process  maximizes speed-to-market so agents have the right products to sell  at  the  right  time.  That's  one  reason  why  we  esti- mate The Hartford's small-business insurance growth is five to six times the industry average.",
-      "text": "streamlined  product-development  process  maximizes speed-to-market so agents have the right products to sell  at  the  right  time.  That's  one  reason  why  we  esti- mate The Hartford's small-business insurance growth is five to six times the industry average."
+      "orig": "streamlined product-development process maximizes speed-to-market so agents have the right products to sell at the right time. That's one reason why we esti- mate The Hartford's small-business insurance growth is five to six times the industry average.",
+      "text": "streamlined product-development process maximizes speed-to-market so agents have the right products to sell at the right time. That's one reason why we esti- mate The Hartford's small-business insurance growth is five to six times the industry average.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -87,20 +96,23 @@
           },
           "charspan": [
             0,
-            274
+            262
           ]
         }
       ],
-      "orig": "Developing  products  for  a  changing  business environment is also a proven skill of HFP . The unit com- pleted its first full year as part of The Hartford after our 2000  acquisition  of  Reliance  Group  Holdings,  Inc.'s financial products and excess and surplus lines.",
-      "text": "Developing  products  for  a  changing  business environment is also a proven skill of HFP . The unit com- pleted its first full year as part of The Hartford after our 2000  acquisition  of  Reliance  Group  Holdings,  Inc.'s financial products and excess and surplus lines."
+      "orig": "Developing products for a changing business environment is also a proven skill of HFP. The unit com- pleted its first full year as part of The Hartford after our 2000 acquisition of Reliance Group Holdings, Inc.'s financial products and excess and surplus lines.",
+      "text": "Developing products for a changing business environment is also a proven skill of HFP. The unit com- pleted its first full year as part of The Hartford after our 2000 acquisition of Reliance Group Holdings, Inc.'s financial products and excess and surplus lines.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -114,7 +126,7 @@
           },
           "charspan": [
             0,
-            106
+            100
           ]
         },
         {
@@ -127,21 +139,24 @@
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
-            107,
-            737
+            101,
+            695
           ]
         }
       ],
-      "orig": "It was quite a year after quite a decade. Demand for  HFP's  mainstay  directors  and  officers  liability insurance was high during the 1990s as the number of U.S.  public  corporations  tripled.  Amid  the  past  year's corporate  retrenchment,  loss  activity  led  to  industry- wide  premium  price  increases  of  up  to  30  percent.  A flight  to  quality  was  inevitable  under  such  conditions, and a strong brand and superior ratings helped HFP dis- tance  itself  from  lesser  competitors.  Even  the  horrific collapse of its World Trade Center headquarters couldn't hold HFP back in 2001. It renewed $43 million worth of business in September alone, fulfilling its commitment to protecting customers against uncertainty.",
-      "text": "It was quite a year after quite a decade. Demand for  HFP's  mainstay  directors  and  officers  liability insurance was high during the 1990s as the number of U.S.  public  corporations  tripled.  Amid  the  past  year's corporate  retrenchment,  loss  activity  led  to  industry- wide  premium  price  increases  of  up  to  30  percent.  A flight  to  quality  was  inevitable  under  such  conditions, and a strong brand and superior ratings helped HFP dis- tance  itself  from  lesser  competitors.  Even  the  horrific collapse of its World Trade Center headquarters couldn't hold HFP back in 2001. It renewed $43 million worth of business in September alone, fulfilling its commitment to protecting customers against uncertainty."
+      "orig": "It was quite a year after quite a decade. Demand for HFP's mainstay directors and officers liability insurance was high during the 1990s as the number of U.S. public corporations tripled. Amid the past year's corporate retrenchment, loss activity led to industry- wide premium price increases of up to 30 percent. A flight to quality was inevitable under such conditions, and a strong brand and superior ratings helped HFP dis- tance itself from lesser competitors. Even the horrific collapse of its World Trade Center headquarters couldn't hold HFP back in 2001. It renewed $43 million worth of business in September alone, fulfilling its commitment to protecting customers against uncertainty.",
+      "text": "It was quite a year after quite a decade. Demand for HFP's mainstay directors and officers liability insurance was high during the 1990s as the number of U.S. public corporations tripled. Amid the past year's corporate retrenchment, loss activity led to industry- wide premium price increases of up to 30 percent. A flight to quality was inevitable under such conditions, and a strong brand and superior ratings helped HFP dis- tance itself from lesser competitors. Even the horrific collapse of its World Trade Center headquarters couldn't hold HFP back in 2001. It renewed $43 million worth of business in September alone, fulfilling its commitment to protecting customers against uncertainty.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -155,7 +170,7 @@
           },
           "charspan": [
             0,
-            225
+            218
           ]
         },
         {
@@ -168,21 +183,24 @@
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
-            226,
-            438
+            219,
+            431
           ]
         }
       ],
-      "orig": "/H17076 A strong brand and superior  ratings help Hartford Financial Products (HFP) differentiate its directors and officers liability insurance from those of competi- tors. HFP's Boston Regional Manager Doreen Lukowski-Rizza works with HFP Underwriting Manager David Garrison, far right, and financial professionals such as William Gallagher Associates President and CEO Philip Edmundson, second from left, and Principal Richard Leavitt.",
-      "text": "/H17076 A strong brand and superior  ratings help Hartford Financial Products (HFP) differentiate its directors and officers liability insurance from those of competi- tors. HFP's Boston Regional Manager Doreen Lukowski-Rizza works with HFP Underwriting Manager David Garrison, far right, and financial professionals such as William Gallagher Associates President and CEO Philip Edmundson, second from left, and Principal Richard Leavitt."
+      "orig": "4 A strong brand and superior ratings help Hartford Financial Products (HFP) differentiate its directors and officers liability insurance from those of competi- tors. HFP's Boston Regional Manager Doreen Lukowski-Rizza works with HFP Underwriting Manager David Garrison, far right, and financial professionals such as William Gallagher Associates President and CEO Philip Edmundson, second from left, and Principal Richard Leavitt.",
+      "text": "4 A strong brand and superior ratings help Hartford Financial Products (HFP) differentiate its directors and officers liability insurance from those of competi- tors. HFP's Boston Regional Manager Doreen Lukowski-Rizza works with HFP Underwriting Manager David Garrison, far right, and financial professionals such as William Gallagher Associates President and CEO Philip Edmundson, second from left, and Principal Richard Leavitt.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -196,20 +214,23 @@
           },
           "charspan": [
             0,
-            323
+            315
           ]
         }
       ],
-      "orig": "/H17073 H artford Investment Management Co., which specializes in fixed- income asset management, has nearly $75 billion under manage- ment. Marcie Hayden, money  market trader, and Peter Perrotti, government portfolio manager, are two members of a professional organization whose annual trading volume exceeds $50 billion.",
-      "text": "/H17073 H artford Investment Management Co., which specializes in fixed- income asset management, has nearly $75 billion under manage- ment. Marcie Hayden, money  market trader, and Peter Perrotti, government portfolio manager, are two members of a professional organization whose annual trading volume exceeds $50 billion."
+      "orig": "A Hartford Investment Management Co., which specializes in fixed- income asset management, has nearly $75 billion under manage- ment. Marcie Hayden, money market trader, and Peter Perrotti, government portfolio manager, are two members of a professional organization whose annual trading volume exceeds S50 billion.",
+      "text": "A Hartford Investment Management Co., which specializes in fixed- income asset management, has nearly $75 billion under manage- ment. Marcie Hayden, money market trader, and Peter Perrotti, government portfolio manager, are two members of a professional organization whose annual trading volume exceeds S50 billion.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -228,17 +249,20 @@
         }
       ],
       "orig": "19",
-      "text": "19"
+      "text": "19",
+      "formatting": null,
+      "hyperlink": null
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -259,6 +283,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",

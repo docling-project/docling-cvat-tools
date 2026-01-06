@@ -1,91 +1,126 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.8.0",
-  "name": "canva-pink-and-yellow-playful-doodle-decorative-fashion-promotion-sale-trifold-brochure-Vqqe6Y5cBW4",
+  "name": "input",
+  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
+    "parent": null,
     "children": [],
     "content_layer": "furniture",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
+    "parent": null,
     "children": [
       {
-        "$ref": "#/texts/0"
+        "cref": "#/texts/0"
       },
       {
-        "$ref": "#/pictures/0"
+        "cref": "#/texts/1"
       },
       {
-        "$ref": "#/pictures/1"
+        "cref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/1"
+        "cref": "#/texts/2"
       },
       {
-        "$ref": "#/texts/2"
+        "cref": "#/texts/3"
       },
       {
-        "$ref": "#/texts/3"
+        "cref": "#/texts/4"
       },
       {
-        "$ref": "#/texts/4"
+        "cref": "#/texts/5"
       },
       {
-        "$ref": "#/pictures/2"
+        "cref": "#/pictures/1"
       },
       {
-        "$ref": "#/texts/5"
+        "cref": "#/texts/6"
       },
       {
-        "$ref": "#/pictures/3"
+        "cref": "#/pictures/2"
       },
       {
-        "$ref": "#/texts/6"
+        "cref": "#/texts/7"
       },
       {
-        "$ref": "#/pictures/4"
+        "cref": "#/pictures/5"
       },
       {
-        "$ref": "#/texts/7"
+        "cref": "#/texts/8"
       },
       {
-        "$ref": "#/pictures/5"
+        "cref": "#/pictures/6"
       },
       {
-        "$ref": "#/texts/8"
+        "cref": "#/texts/9"
       },
       {
-        "$ref": "#/texts/9"
+        "cref": "#/texts/10"
       },
       {
-        "$ref": "#/texts/10"
+        "cref": "#/pictures/8"
       },
       {
-        "$ref": "#/pictures/6"
+        "cref": "#/pictures/9"
       },
       {
-        "$ref": "#/texts/11"
+        "cref": "#/texts/11"
       },
       {
-        "$ref": "#/pictures/7"
+        "cref": "#/pictures/10"
       },
       {
-        "$ref": "#/pictures/8"
+        "cref": "#/pictures/11"
       },
       {
-        "$ref": "#/pictures/9"
+        "cref": "#/pictures/12"
       },
       {
-        "$ref": "#/pictures/10"
+        "cref": "#/pictures/13"
       },
       {
-        "$ref": "#/pictures/11"
+        "cref": "#/pictures/14"
+      },
+      {
+        "cref": "#/pictures/15"
+      },
+      {
+        "cref": "#/pictures/16"
+      },
+      {
+        "cref": "#/pictures/17"
+      },
+      {
+        "cref": "#/pictures/18"
+      },
+      {
+        "cref": "#/pictures/19"
+      },
+      {
+        "cref": "#/pictures/20"
+      },
+      {
+        "cref": "#/pictures/21"
+      },
+      {
+        "cref": "#/pictures/22"
+      },
+      {
+        "cref": "#/pictures/23"
+      },
+      {
+        "cref": "#/pictures/24"
       }
     ],
     "content_layer": "body",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -94,88 +129,125 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "label": "section_header",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 77.224,
-            "t": 1103.509452,
-            "r": 445.6784,
-            "b": 991.689768,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            31
-          ]
-        },
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 77.5648,
-            "t": 981.302424,
-            "r": 296.9728,
-            "b": 912.726672,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            23,
-            31
-          ]
-        }
-      ],
-      "orig": "LET'S GET TO KNOW MORE About us",
-      "text": "LET'S GET TO KNOW MORE About us",
-      "level": 1
-    },
-    {
-      "self_ref": "#/texts/1",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 75.38719999999999,
-            "t": 339.74179200000003,
-            "r": 474.9616,
-            "b": 86.20729200000005,
+            "l": 1199.84,
+            "t": 1099.901568,
+            "r": 1482.888,
+            "b": 1004.965644,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            325
+            0
           ]
         }
       ],
-      "orig": "trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels- two outer panels that fold inward to cover the central panel.",
-      "text": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels\u2014two outer panels that fold inward to cover the central panel."
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
     },
     {
-      "self_ref": "#/texts/2",
+      "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 600.1216000000001,
-            "t": 1101.402072,
-            "r": 908.6144,
-            "b": 1011.101148,
+            "l": 1276.7616,
+            "t": 1031.81898,
+            "r": 1409.232,
+            "b": 957.526728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            5
+          ]
+        },
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 1150.4288000000001,
+            "t": 934.6446599999999,
+            "r": 1520.4944,
+            "b": 817.5608520000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            6,
+            25
+          ]
+        }
+      ],
+      "orig": "Style WITH OUR COLLECTION",
+      "text": "Style WITH OUR COLLECTION",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 1
+    },
+    {
+      "self_ref": "#/texts/2",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 1274.4272,
+            "t": 118.24194000000011,
+            "r": 1412.776,
+            "b": 96.38204399999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "orig": "BORCELLE",
+      "text": "BORCELLE",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 600.6496000000001,
+            "t": 1102.181988,
+            "r": 909.3951999999999,
+            "b": 1011.1098,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -186,24 +258,27 @@
       ],
       "orig": "Find Your Perfect Style",
       "text": "Find Your Perfect Style",
+      "formatting": null,
+      "hyperlink": null,
       "level": 2
     },
     {
-      "self_ref": "#/texts/3",
+      "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 599.8608,
-            "t": 986.205636,
-            "r": 1028.2368,
-            "b": 814.577148,
+            "l": 600.4463999999999,
+            "t": 986.77296,
+            "r": 1027.1216000000002,
+            "b": 814.145784,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -213,24 +288,27 @@
         }
       ],
       "orig": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order.",
-      "text": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order."
+      "text": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 600.5584,
-            "t": 769.234488,
-            "r": 885.1648000000001,
-            "b": 689.3283240000001,
+            "l": 599.6544,
+            "t": 769.4779800000001,
+            "r": 887.2992,
+            "b": 688.718976,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -241,24 +319,27 @@
       ],
       "orig": "let's get in touch with us",
       "text": "let's get in touch with us",
+      "formatting": null,
+      "hyperlink": null,
       "level": 2
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 646.1616,
-            "t": 655.5558599999999,
-            "r": 826.68,
-            "b": 630.074484,
+            "l": 643.5392,
+            "t": 655.245624,
+            "r": 826.8528,
+            "b": 633.4635959999999,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -268,24 +349,27 @@
         }
       ],
       "orig": "123-456-7890",
-      "text": "123-456-7890"
+      "text": "123-456-7890",
+      "formatting": null,
+      "hyperlink": null
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 643.1632,
-            "t": 617.852916,
-            "r": 988.4128000000001,
-            "b": 584.649012,
+            "l": 642.3472,
+            "t": 612.01158,
+            "r": 987.904,
+            "b": 584.131128,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -295,24 +379,27 @@
         }
       ],
       "orig": "hello@reallygreatsite.com",
-      "text": "hello@reallygreatsite.com"
+      "text": "hello@reallygreatsite.com",
+      "formatting": null,
+      "hyperlink": null
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 638.9392,
-            "t": 565.979232,
-            "r": 968.3392,
-            "b": 536.3869199999999,
+            "l": 639.8192,
+            "t": 565.452696,
+            "r": 969.888,
+            "b": 537.5722440000001,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -322,24 +409,27 @@
         }
       ],
       "orig": "www.reallygreatsite.com",
-      "text": "www.reallygreatsite.com"
+      "text": "www.reallygreatsite.com",
+      "formatting": null,
+      "hyperlink": null
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 639.168,
-            "t": 519.987672,
-            "r": 976.9807999999999,
-            "b": 490.3212000000001,
+            "l": 640.1344,
+            "t": 519.7083359999999,
+            "r": 977.688,
+            "b": 490.099956,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -349,133 +439,90 @@
         }
       ],
       "orig": "123 Anywhere St., Any City",
-      "text": "123 Anywhere St., Any City"
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "$ref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 1199.8704,
-            "t": 1099.65684,
-            "r": 1481.8336,
-            "b": 1006.778856,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            19
-          ]
-        }
-      ],
-      "orig": "",
-      "text": "enchanse your style"
+      "text": "123 Anywhere St., Any City",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 1278.5872,
-            "t": 1031.351772,
-            "r": 1409.7808,
-            "b": 957.633024,
+            "l": 77.17439999999999,
+            "t": 1104.331392,
+            "r": 447.87679999999995,
+            "b": 914.130768,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            27
-          ]
-        },
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 1150.0048,
-            "t": 934.535892,
-            "r": 1521.1072,
-            "b": 819.51126,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            6,
-            25
+            31
           ]
         }
       ],
-      "orig": "Style WITH OUR COLLECTION",
-      "text": "Style . WITH OUR COLLECTION",
+      "orig": "LET'S GET TO KNOW MORE About us",
+      "text": "LET'S GET TO KNOW MORE About us",
+      "formatting": null,
+      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 1272.888,
-            "t": 119.35804800000005,
-            "r": 1412.856,
-            "b": 96.21518400000014,
+            "l": 74.4944,
+            "t": 341.64028799999994,
+            "r": 477.5824,
+            "b": 86.1640319999999,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            8
+            324
           ]
         }
       ],
-      "orig": "BORCELLE",
-      "text": "BORCELLE"
+      "orig": "trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels- two outer panels that fold inward to cover the central panel.",
+      "text": "trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels- two outer panels that fold inward to cover the central panel.",
+      "formatting": null,
+      "hyperlink": null
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "other"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 161.1824,
-            "t": 878.306544,
-            "r": 506.84959999999995,
-            "b": 513.4368720000001,
+            "l": 1120.6671999999999,
+            "t": 772.470336,
+            "r": 1556.232,
+            "b": 337.179564,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -487,6 +534,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -503,30 +551,20 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "person"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 35.7664,
-            "t": 623.762232,
-            "r": 373.424,
-            "b": 423.74406,
+            "l": 597.8416,
+            "t": 662.327904,
+            "r": 632.2896000000001,
+            "b": 629.110404,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -538,13 +576,14 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
           "provenance": "human",
           "predicted_classes": [
             {
-              "class_name": "person",
+              "class_name": "decoration",
               "confidence": 1.0
             }
           ]
@@ -554,30 +593,24 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
-      "children": [],
-      "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "decoration"
-            }
-          ]
+      "children": [
+        {
+          "cref": "#/pictures/3"
         }
-      },
+      ],
+      "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 597.6896,
-            "t": 662.78646,
-            "r": 633.6256,
-            "b": 628.5616200000001,
+            "l": 596.6111999999999,
+            "t": 618.03708,
+            "r": 633.9312,
+            "b": 583.178172,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -589,6 +622,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -605,30 +639,24 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/pictures/2"
       },
-      "children": [],
-      "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "decoration"
-            }
-          ]
+      "children": [
+        {
+          "cref": "#/pictures/4"
         }
-      },
+      ],
+      "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 597.6896,
-            "t": 618.579684,
-            "r": 633.6256,
-            "b": 584.354844,
+            "l": 596.0880000000001,
+            "t": 617.8158360000001,
+            "r": 634.2031999999999,
+            "b": 584.5983359999999,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -640,6 +668,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -656,30 +685,20 @@
     {
       "self_ref": "#/pictures/4",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/pictures/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "decoration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 597.928,
-            "t": 570.6500759999999,
-            "r": 633.864,
-            "b": 536.4252359999999,
+            "l": 597.72,
+            "t": 617.608188,
+            "r": 634.512,
+            "b": 585.2855519999999,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -691,6 +710,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -707,30 +727,20 @@
     {
       "self_ref": "#/pictures/5",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
-      "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "decoration"
-            }
-          ]
-        }
-      },
+      "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 598.3264,
-            "t": 523.0183440000001,
-            "r": 634.2624,
-            "b": 488.7935040000001,
+            "l": 598.4896,
+            "t": 569.865216,
+            "r": 633.6224,
+            "b": 537.342348,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -742,6 +752,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -758,30 +769,24 @@
     {
       "self_ref": "#/pictures/6",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
-      "children": [],
-      "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "other"
-            }
-          ]
+      "children": [
+        {
+          "cref": "#/pictures/7"
         }
-      },
+      ],
+      "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 1115.6624000000002,
-            "t": 687.590508,
-            "r": 1555.7792,
-            "b": 243.00625200000002,
+            "l": 597.3904,
+            "t": 523.0480080000001,
+            "r": 634.1888,
+            "b": 490.5251400000001,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -793,13 +798,14 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
           "provenance": "human",
           "predicted_classes": [
             {
-              "class_name": "other",
+              "class_name": "decoration",
               "confidence": 1.0
             }
           ]
@@ -809,30 +815,20 @@
     {
       "self_ref": "#/pictures/7",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/pictures/6"
       },
       "children": [],
-      "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "decoration"
-            }
-          ]
-        }
-      },
+      "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 538.4832,
-            "t": 1235.997528,
-            "r": 1069.1456,
-            "b": 1151.930988,
+            "l": 597.0352,
+            "t": 522.7266480000001,
+            "r": 633.8272,
+            "b": 490.40401199999997,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -844,6 +840,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -860,30 +857,20 @@
     {
       "self_ref": "#/pictures/8",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
-      "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "decoration"
-            }
-          ]
-        }
-      },
+      "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 268.77279999999996,
-            "t": 550.8889079999999,
-            "r": 478.32800000000003,
-            "b": 397.171296,
+            "l": 209.57119999999998,
+            "t": 879.017244,
+            "r": 466.1072,
+            "b": 505.9504199999999,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -895,13 +882,14 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
           "provenance": "human",
           "predicted_classes": [
             {
-              "class_name": "decoration",
+              "class_name": "other",
               "confidence": 1.0
             }
           ]
@@ -911,30 +899,20 @@
     {
       "self_ref": "#/pictures/9",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
-      "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "decoration"
-            }
-          ]
-        }
-      },
+      "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 540.0784,
-            "t": 447.81886799999995,
-            "r": 1068.104,
-            "b": 0.32136000000014064,
+            "l": 42.376000000000005,
+            "t": 631.733196,
+            "r": 367.4928,
+            "b": 414.6891239999999,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -946,13 +924,14 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
           "provenance": "human",
           "predicted_classes": [
             {
-              "class_name": "decoration",
+              "class_name": "person",
               "confidence": 1.0
             }
           ]
@@ -962,30 +941,20 @@
     {
       "self_ref": "#/pictures/10",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "decoration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 1115.0464,
-            "t": 344.1951,
-            "r": 1264.8224,
-            "b": 166.8278640000001,
+            "l": 539.1424,
+            "t": 1235.850444,
+            "r": 1069.248,
+            "b": 1154.53524,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -997,6 +966,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1013,30 +983,20 @@
     {
       "self_ref": "#/pictures/11",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "other"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 1378.2496,
-            "t": 235.13293199999998,
-            "r": 1534.7136,
-            "b": 142.71968400000014,
+            "l": 1460.7424,
+            "t": 990.57984,
+            "r": 1494.9088,
+            "b": 951.461676,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1048,6 +1008,301 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/12",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 1188.0832,
+            "t": 989.896332,
+            "r": 1222.2495999999999,
+            "b": 948.078744,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/13",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 127.2624,
+            "t": 842.790084,
+            "r": 184.2768,
+            "b": 783.182748,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/14",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 72.4064,
+            "t": 778.8641640000001,
+            "r": 172.6144,
+            "b": 675.199608,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/15",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 598.3632,
+            "t": 663.510756,
+            "r": 632.5872,
+            "b": 629.262432,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/16",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 597.2752,
+            "t": 569.244744,
+            "r": 634.0672,
+            "b": 536.922108,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/17",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 269.6368,
+            "t": 549.410652,
+            "r": 478.35679999999996,
+            "b": 396.3889079999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/18",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 627.9504000000001,
+            "t": 443.2605,
+            "r": 804.112,
+            "b": 312.51271199999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1055,6 +1310,258 @@
           "predicted_classes": [
             {
               "class_name": "other",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/19",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 1441.9632,
+            "t": 411.42732,
+            "r": 1548.4592,
+            "b": 307.34994000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "other",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/20",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 813.9887999999999,
+            "t": 407.4449280000001,
+            "r": 1027.288,
+            "b": 119.0947799999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "other",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/21",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 1115.6448,
+            "t": 344.32982400000003,
+            "r": 1266.6384,
+            "b": 169.90550400000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "other",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/22",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 609.5744,
+            "t": 305.40941999999995,
+            "r": 755.9024,
+            "b": 178.9728,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "other",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/23",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 1383.96,
+            "t": 236.04262799999992,
+            "r": 1533.7872,
+            "b": 144.87279599999988,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "other",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/24",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 572.0288,
+            "t": 86.44954800000005,
+            "r": 1056.4848,
+            "b": 0.11494799999991301,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
               "confidence": 1.0
             }
           ]

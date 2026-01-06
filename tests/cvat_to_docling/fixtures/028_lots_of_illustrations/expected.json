@@ -1,112 +1,117 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.8.0",
-  "name": "canva-indoor-plants-infographic-in-blue-yellow-simple-outlined-style-DuaXOn0sfgo",
+  "name": "input",
+  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
+    "parent": null,
     "children": [],
     "content_layer": "furniture",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
+    "parent": null,
     "children": [
       {
-        "$ref": "#/texts/0"
+        "cref": "#/texts/0"
       },
       {
-        "$ref": "#/texts/1"
+        "cref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/2"
+        "cref": "#/texts/2"
       },
       {
-        "$ref": "#/pictures/0"
+        "cref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/3"
+        "cref": "#/texts/3"
       },
       {
-        "$ref": "#/pictures/1"
+        "cref": "#/pictures/1"
       },
       {
-        "$ref": "#/texts/4"
+        "cref": "#/texts/4"
       },
       {
-        "$ref": "#/pictures/2"
+        "cref": "#/pictures/2"
       },
       {
-        "$ref": "#/texts/5"
+        "cref": "#/texts/5"
       },
       {
-        "$ref": "#/pictures/3"
+        "cref": "#/pictures/3"
       },
       {
-        "$ref": "#/texts/6"
+        "cref": "#/texts/6"
       },
       {
-        "$ref": "#/texts/7"
+        "cref": "#/texts/7"
       },
       {
-        "$ref": "#/pictures/4"
+        "cref": "#/pictures/4"
       },
       {
-        "$ref": "#/texts/8"
+        "cref": "#/texts/8"
       },
       {
-        "$ref": "#/pictures/5"
+        "cref": "#/pictures/5"
       },
       {
-        "$ref": "#/texts/9"
+        "cref": "#/texts/9"
       },
       {
-        "$ref": "#/pictures/6"
+        "cref": "#/pictures/6"
       },
       {
-        "$ref": "#/texts/10"
+        "cref": "#/texts/10"
       },
       {
-        "$ref": "#/texts/11"
+        "cref": "#/texts/11"
       },
       {
-        "$ref": "#/pictures/7"
+        "cref": "#/pictures/7"
       },
       {
-        "$ref": "#/texts/12"
+        "cref": "#/texts/12"
       },
       {
-        "$ref": "#/pictures/8"
+        "cref": "#/pictures/8"
       },
       {
-        "$ref": "#/texts/13"
+        "cref": "#/texts/13"
       },
       {
-        "$ref": "#/pictures/9"
+        "cref": "#/pictures/9"
       },
       {
-        "$ref": "#/texts/14"
+        "cref": "#/texts/14"
       },
       {
-        "$ref": "#/pictures/10"
+        "cref": "#/pictures/10"
       },
       {
-        "$ref": "#/texts/15"
+        "cref": "#/texts/15"
       },
       {
-        "$ref": "#/pictures/11"
+        "cref": "#/pictures/11"
       },
       {
-        "$ref": "#/texts/16"
+        "cref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/17"
+        "cref": "#/texts/17"
       },
       {
-        "$ref": "#/texts/18"
+        "cref": "#/texts/18"
       }
     ],
     "content_layer": "body",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -115,10 +120,11 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -138,15 +144,18 @@
       ],
       "orig": "A Guide to Indoor Plants",
       "text": "A Guide to Indoor Plants",
+      "formatting": null,
+      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -160,20 +169,23 @@
           },
           "charspan": [
             0,
-            103
+            100
           ]
         }
       ],
       "orig": "These plants are grown indoors and are often ornamental (which means grown for decorative purposes).",
-      "text": "These plants are grown indoors and are often ornamental ( which means grown for decorative purposes ) ."
+      "text": "These plants are grown indoors and are often ornamental (which means grown for decorative purposes).",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -187,20 +199,23 @@
           },
           "charspan": [
             0,
-            130
+            127
           ]
         }
       ],
       "orig": "In general, the soil in the pot of your houseplant should be moist but not wet. Here are house plants that like a lot of water.",
-      "text": "In general , the soil in the pot of your houseplant should be moist but not wet . Here are house plants that like a lot of water ."
+      "text": "In general, the soil in the pot of your houseplant should be moist but not wet. Here are house plants that like a lot of water.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -219,15 +234,18 @@
         }
       ],
       "orig": "Spider Plant",
-      "text": "Spider Plant"
+      "text": "Spider Plant",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -246,15 +264,18 @@
         }
       ],
       "orig": "Peace Lily",
-      "text": "Peace Lily"
+      "text": "Peace Lily",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -273,15 +294,18 @@
         }
       ],
       "orig": "Rubber Plant",
-      "text": "Rubber Plant"
+      "text": "Rubber Plant",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -295,20 +319,23 @@
           },
           "charspan": [
             0,
-            36
+            35
           ]
         }
       ],
       "orig": "Water these plants often in a week.",
-      "text": "Water these plants often in a week ."
+      "text": "Water these plants often in a week.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -327,15 +354,18 @@
         }
       ],
       "orig": "Pothos",
-      "text": "Pothos"
+      "text": "Pothos",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -354,15 +384,18 @@
         }
       ],
       "orig": "Monstera",
-      "text": "Monstera"
+      "text": "Monstera",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -381,15 +414,18 @@
         }
       ],
       "orig": "Fiddle Leaf Fig",
-      "text": "Fiddle Leaf Fig"
+      "text": "Fiddle Leaf Fig",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -403,20 +439,23 @@
           },
           "charspan": [
             0,
-            27
+            26
           ]
         }
       ],
       "orig": "Water these plants weekly.",
-      "text": "Water these plants weekly ."
+      "text": "Water these plants weekly.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -430,20 +469,23 @@
           },
           "charspan": [
             0,
-            125
+            120
           ]
         }
       ],
       "orig": "To tell if a plant needs watering, poke the soil to test if the top few centimeters feel dry. If so, it's watering time!",
-      "text": "To tell if a plant needs watering , poke the soil to test if the top few centimeters feel dry . If so , it 's watering time !"
+      "text": "To tell if a plant needs watering, poke the soil to test if the top few centimeters feel dry. If so, it's watering time!",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -457,20 +499,23 @@
           },
           "charspan": [
             0,
-            70
+            67
           ]
         }
       ],
       "orig": "These plants do not like damp soil, so hold back the water, please!",
-      "text": "These plants do not like damp soil , so hold back the water , please !"
+      "text": "These plants do not like damp soil, so hold back the water, please!",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -489,15 +534,18 @@
         }
       ],
       "orig": "Aloe Vera",
-      "text": "Aloe Vera"
+      "text": "Aloe Vera",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -516,15 +564,18 @@
         }
       ],
       "orig": "Snake Plant",
-      "text": "Snake Plant"
+      "text": "Snake Plant",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -543,15 +594,18 @@
         }
       ],
       "orig": "Succulents",
-      "text": "Succulents"
+      "text": "Succulents",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -565,20 +619,23 @@
           },
           "charspan": [
             0,
-            57
+            56
           ]
         }
       ],
       "orig": "Water these plants rarely and only when the soil is dry.",
-      "text": "Water these plants rarely and only when the soil is dry ."
+      "text": "Water these plants rarely and only when the soil is dry.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -597,15 +654,18 @@
         }
       ],
       "orig": "DID YOU KNOW?",
-      "text": "DID YOU KNOW?"
+      "text": "DID YOU KNOW?",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -624,28 +684,20 @@
         }
       ],
       "orig": "The collective noun for houseplants is la nursery of houseplants'.",
-      "text": "The collective noun for houseplants is 'a nursery of houseplants'."
+      "text": "The collective noun for houseplants is la nursery of houseplants'.",
+      "formatting": null,
+      "hyperlink": null
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "ui_element"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -666,6 +718,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -682,21 +735,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -717,6 +760,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -733,21 +777,11 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -768,6 +802,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -784,21 +819,11 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -819,6 +844,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -835,21 +861,11 @@
     {
       "self_ref": "#/pictures/4",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -870,6 +886,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -886,21 +903,11 @@
     {
       "self_ref": "#/pictures/5",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -921,6 +928,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -937,21 +945,11 @@
     {
       "self_ref": "#/pictures/6",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -972,6 +970,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -988,21 +987,11 @@
     {
       "self_ref": "#/pictures/7",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -1023,6 +1012,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1039,21 +1029,11 @@
     {
       "self_ref": "#/pictures/8",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "ui_element"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -1074,6 +1054,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1090,21 +1071,11 @@
     {
       "self_ref": "#/pictures/9",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -1125,6 +1096,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1141,21 +1113,11 @@
     {
       "self_ref": "#/pictures/10",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -1176,6 +1138,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1192,21 +1155,11 @@
     {
       "self_ref": "#/pictures/11",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -1227,6 +1180,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",

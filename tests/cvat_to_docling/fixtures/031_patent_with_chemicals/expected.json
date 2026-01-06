@@ -1,103 +1,108 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.8.0",
-  "name": "bab02b5d457daf2a2f2794cef76abbeaae757e5570a843a8b0e7bc059cc5a43f",
+  "name": "input",
+  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
+    "parent": null,
     "children": [],
     "content_layer": "furniture",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
+    "parent": null,
     "children": [
       {
-        "$ref": "#/texts/0"
+        "cref": "#/texts/0"
       },
       {
-        "$ref": "#/texts/1"
+        "cref": "#/texts/1"
       },
       {
-        "$ref": "#/groups/0"
+        "cref": "#/groups/0"
       },
       {
-        "$ref": "#/groups/1"
+        "cref": "#/groups/1"
       },
       {
-        "$ref": "#/groups/2"
+        "cref": "#/groups/2"
       },
       {
-        "$ref": "#/groups/3"
+        "cref": "#/groups/3"
       },
       {
-        "$ref": "#/groups/4"
+        "cref": "#/groups/4"
       },
       {
-        "$ref": "#/groups/5"
+        "cref": "#/groups/5"
       },
       {
-        "$ref": "#/groups/6"
+        "cref": "#/groups/6"
       },
       {
-        "$ref": "#/tables/0"
+        "cref": "#/tables/0"
       },
       {
-        "$ref": "#/groups/7"
+        "cref": "#/groups/7"
       },
       {
-        "$ref": "#/groups/8"
+        "cref": "#/groups/8"
       },
       {
-        "$ref": "#/groups/9"
+        "cref": "#/groups/9"
       },
       {
-        "$ref": "#/texts/14"
+        "cref": "#/texts/14"
       },
       {
-        "$ref": "#/texts/15"
+        "cref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/16"
+        "cref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/17"
+        "cref": "#/texts/17"
       },
       {
-        "$ref": "#/groups/10"
+        "cref": "#/groups/10"
       },
       {
-        "$ref": "#/pictures/0"
+        "cref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/21"
+        "cref": "#/texts/21"
       },
       {
-        "$ref": "#/pictures/1"
+        "cref": "#/pictures/1"
       },
       {
-        "$ref": "#/pictures/2"
+        "cref": "#/pictures/2"
       },
       {
-        "$ref": "#/pictures/3"
+        "cref": "#/pictures/3"
       },
       {
-        "$ref": "#/texts/22"
+        "cref": "#/texts/22"
       },
       {
-        "$ref": "#/pictures/4"
+        "cref": "#/pictures/4"
       },
       {
-        "$ref": "#/texts/23"
+        "cref": "#/texts/23"
       },
       {
-        "$ref": "#/texts/24"
+        "cref": "#/texts/24"
       },
       {
-        "$ref": "#/key_value_items/0"
+        "cref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -105,160 +110,171 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/2"
+          "cref": "#/texts/2"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "list_standalone_30",
       "label": "list"
     },
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/3"
+          "cref": "#/texts/3"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "list_standalone_31",
       "label": "list"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/4"
+          "cref": "#/texts/4"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "list_standalone_2",
       "label": "list"
     },
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/5"
+          "cref": "#/texts/5"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "list_standalone_3",
       "label": "list"
     },
     {
       "self_ref": "#/groups/4",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/6"
+          "cref": "#/texts/6"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "list_standalone_4",
       "label": "list"
     },
     {
       "self_ref": "#/groups/5",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/7"
+          "cref": "#/texts/7"
         },
         {
-          "$ref": "#/texts/8"
+          "cref": "#/texts/8"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "group_1",
       "label": "list"
     },
     {
       "self_ref": "#/groups/6",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/9"
+          "cref": "#/texts/9"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "list_standalone_7",
       "label": "list"
     },
     {
       "self_ref": "#/groups/7",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/10"
+          "cref": "#/texts/10"
         },
         {
-          "$ref": "#/texts/11"
+          "cref": "#/texts/11"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "group_2",
       "label": "list"
     },
     {
       "self_ref": "#/groups/8",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/12"
+          "cref": "#/texts/12"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "list_standalone_10",
       "label": "list"
     },
     {
       "self_ref": "#/groups/9",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/13"
+          "cref": "#/texts/13"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "list_standalone_11",
       "label": "list"
     },
     {
       "self_ref": "#/groups/10",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/18"
+          "cref": "#/texts/18"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "name": "list_standalone_12",
       "label": "list"
     }
@@ -267,10 +283,11 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -284,21 +301,24 @@
           },
           "charspan": [
             0,
-            26
+            24
           ]
         }
       ],
-      "orig": "United States Patent  [19J",
-      "text": "United States Patent  [19J",
+      "orig": "United States Patent [19",
+      "text": "United States Patent [19",
+      "formatting": null,
+      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -317,15 +337,18 @@
         }
       ],
       "orig": "Kawamura et al.",
-      "text": "Kawamura et al."
+      "text": "Kawamura et al.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/groups/0"
+        "cref": "#/groups/0"
       },
       "children": [],
       "content_layer": "furniture",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -339,22 +362,25 @@
           },
           "charspan": [
             0,
-            15
+            14
           ]
         }
       ],
-      "orig": "[11]  4,315,983",
-      "text": "[11]  4,315,983",
+      "orig": "[11] 4,315,983",
+      "text": "[11] 4,315,983",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/groups/1"
+        "cref": "#/groups/1"
       },
       "children": [],
       "content_layer": "furniture",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -368,22 +394,25 @@
           },
           "charspan": [
             0,
-            20
+            18
           ]
         }
       ],
-      "orig": "[45)  \u2022Feb. 16, 1982",
-      "text": "[45)  \u2022Feb. 16, 1982",
+      "orig": "[45] Feb. 16, 1982",
+      "text": "[45] Feb. 16, 1982",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/groups/2"
+        "cref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -397,22 +426,25 @@
           },
           "charspan": [
             0,
-            142
+            137
           ]
         }
       ],
-      "orig": "[54)  2,6-DI-TERT-BUTYL-4-SUBSTITUTED  THIOPYRYLIUM SALT; PROCESS FOR  PRODUCTION OF SAME, AND A  PHOTOCONDUCTIVE COMPOSITION  CONTAINING SAME",
-      "text": "[54)  2,6-DI-TERT-BUTYL-4-SUBSTITUTED  THIOPYRYLIUM SALT; PROCESS FOR  PRODUCTION OF SAME, AND A  PHOTOCONDUCTIVE COMPOSITION  CONTAINING SAME",
+      "orig": "[54] 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
+      "text": "[54] 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/groups/3"
+        "cref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -426,22 +458,25 @@
           },
           "charspan": [
             0,
-            87
+            82
           ]
         }
       ],
-      "orig": "[75)  Inventors:  Koichi Kawamura; Harumi  Katsuyama; Hideo Sato,  all of Asaka,  Japan",
-      "text": "[75)  Inventors:  Koichi Kawamura; Harumi  Katsuyama; Hideo Sato,  all of Asaka,  Japan",
+      "orig": "[75] Inventors: Koichi Kawamura; Harumi Katsuyama; Hideo Sato, all of Asaka, Japan",
+      "text": "[75] Inventors: Koichi Kawamura; Harumi Katsuyama; Hideo Sato, all of Asaka, Japan",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/groups/4"
+        "cref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -455,22 +490,25 @@
           },
           "charspan": [
             0,
-            61
+            57
           ]
         }
       ],
-      "orig": "[73]  Assignee:  Fuji Photo Film Co., Ltd.,  Kanagawa,  Japan",
-      "text": "[73]  Assignee:  Fuji Photo Film Co., Ltd.,  Kanagawa,  Japan",
+      "orig": "[73] Assignee: Fuji Photo Film Co., Ltd., Kanagawa, Japan",
+      "text": "[73] Assignee: Fuji Photo Film Co., Ltd., Kanagawa, Japan",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/groups/5"
+        "cref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -484,22 +522,25 @@
           },
           "charspan": [
             0,
-            25
+            23
           ]
         }
       ],
-      "orig": "[21)  Appl. No.:  168,855",
-      "text": "[21)  Appl. No.:  168,855",
+      "orig": "[21] Appl. No.: 168,855",
+      "text": "[21] Appl. No.: 168,855",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/groups/5"
+        "cref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -513,22 +554,25 @@
           },
           "charspan": [
             0,
-            29
+            25
           ]
         }
       ],
-      "orig": "[22]  Filed:  Jul.  14,  1980",
-      "text": "[22]  Filed:  Jul.  14,  1980",
+      "orig": "[22] Filed: Jul. 14, 1980",
+      "text": "[22] Filed: Jul. 14, 1980",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/groups/6"
+        "cref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -542,22 +586,25 @@
           },
           "charspan": [
             0,
-            39
+            38
           ]
         }
       ],
-      "orig": "[30]  Foreign Application Priority Data",
-      "text": "[30]  Foreign Application Priority Data",
+      "orig": "[30] Foreign Application Priority Data",
+      "text": "[30] Foreign Application Priority Data",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/groups/7"
+        "cref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -571,22 +618,25 @@
           },
           "charspan": [
             0,
-            76
+            24
           ]
         }
       ],
-      "orig": "[51]  Int.  Cl.3  ...............................................  G03G 5/09",
-      "text": "[51]  Int.  Cl.3  ...............................................  G03G 5/09",
+      "orig": "[51] Int. C1.3 G03G 5/09",
+      "text": "[51] Int. C1.3 G03G 5/09",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/groups/7"
+        "cref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -600,22 +650,25 @@
           },
           "charspan": [
             0,
-            225
+            107
           ]
         }
       ],
-      "orig": "Cl.3  ...............................................  G03G 5/09  [52)  U.S. CI.  ;  .......................................  430/70;  430/83;  430/81; 430/95; 430/82;  542/448;  542/449;  542/471;  542/473;  542/454;  549/13",
-      "text": "Cl.3  ...............................................  G03G 5/09  [52)  U.S. CI.  ;  .......................................  430/70;  430/83;  430/81; 430/95; 430/82;  542/448;  542/449;  542/471;  542/473;  542/454;  549/13",
+      "orig": "[52] : U.S. CI. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
+      "text": "[52] : U.S. CI. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/groups/8"
+        "cref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -629,22 +682,25 @@
           },
           "charspan": [
             0,
-            108
+            80
           ]
         }
       ],
-      "orig": "[58]  Fieid of  Search  ...............  542/448,  549,  471,  473,  542/454;  549/13; 430/81,  83,  82,  95",
-      "text": "[58]  Fieid of  Search  ...............  542/448,  549,  471,  473,  542/454;  549/13; 430/81,  83,  82,  95",
+      "orig": "[58] Field of Search 542/448, 549, 471, 473, 542/454; 549/13; 430/81, 83, 82, 95",
+      "text": "[58] Field of Search 542/448, 549, 471, 473, 542/454; 549/13; 430/81, 83, 82, 95",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/groups/9"
+        "cref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -658,22 +714,25 @@
           },
           "charspan": [
             0,
-            22
+            21
           ]
         }
       ],
-      "orig": "(56]  References Cited",
-      "text": "(56]  References Cited",
+      "orig": "[56] References Cited",
+      "text": "[56] References Cited",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -687,21 +746,24 @@
           },
           "charspan": [
             0,
-            22
+            21
           ]
         }
       ],
-      "orig": "U.S.  PATENT DOCUMENTS",
-      "text": "U.S.  PATENT DOCUMENTS",
+      "orig": "U.S. PATENT DOCUMENTS",
+      "text": "U.S. PATENT DOCUMENTS",
+      "formatting": null,
+      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -715,20 +777,23 @@
           },
           "charspan": [
             0,
-            62
+            41
           ]
         }
       ],
-      "orig": "4,283,475  8/1981  Kawamura et al.  ..................  430/81",
-      "text": "4,283,475  8/1981  Kawamura et al.  ..................  430/81"
+      "orig": "4,283,475 . 8/1981 Kawamura et al. 430/81",
+      "text": "4,283,475 . 8/1981 Kawamura et al. 430/81",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -742,20 +807,23 @@
           },
           "charspan": [
             0,
-            32
+            30
           ]
         }
       ],
-      "orig": "Primary Examiner-John  D.  Welsh",
-      "text": "Primary Examiner-John  D.  Welsh"
+      "orig": "Primary Examiner-John D. Welsh",
+      "text": "Primary Examiner-John D. Welsh",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -769,27 +837,30 @@
           },
           "charspan": [
             0,
-            65
+            62
           ]
         }
       ],
-      "orig": "Attorney, Agent,  or Firm-Sughrue,  Mion, Zinn,  Macpeak and Seas",
-      "text": "Attorney, Agent,  or Firm-Sughrue,  Mion, Zinn,  Macpeak and Seas"
+      "orig": "Attorney, Agent, or Firm-Sughrue, Mion, Zinn, Macpeak and Seas",
+      "text": "Attorney, Agent, or Firm-Sughrue, Mion, Zinn, Macpeak and Seas",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "$ref": "#/groups/10"
+        "cref": "#/groups/10"
       },
       "children": [
         {
-          "$ref": "#/texts/19"
+          "cref": "#/texts/19"
         },
         {
-          "$ref": "#/texts/20"
+          "cref": "#/texts/20"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -803,22 +874,25 @@
           },
           "charspan": [
             0,
-            14
+            13
           ]
         }
       ],
-      "orig": "(57]  ABSTRACT",
-      "text": "(57]  ABSTRACT",
+      "orig": "[57] ABSTRACT",
+      "text": "[57] ABSTRACT",
+      "formatting": null,
+      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "$ref": "#/texts/18"
+        "cref": "#/texts/18"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -832,20 +906,23 @@
           },
           "charspan": [
             0,
-            115
+            112
           ]
         }
       ],
-      "orig": "2,6-Di-tert-Butyl-4-substituted  thiopyrylium  salt repre\u203a sented by formula (I),  a process for production of said",
-      "text": "2,6-Di-tert-Butyl-4-substituted  thiopyrylium  salt repre\u203a sented by formula (I),  a process for production of said"
+      "orig": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said",
+      "text": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "$ref": "#/texts/18"
+        "cref": "#/texts/18"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -859,20 +936,23 @@
           },
           "charspan": [
             0,
-            61
+            60
           ]
         }
       ],
-      "orig": "salt and a photoconductive composition containing said  salt.",
-      "text": "salt and a photoconductive composition containing said  salt."
+      "orig": "salt and a photoconductive composition containing said salt.",
+      "text": "salt and a photoconductive composition containing said salt.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -891,15 +971,18 @@
         }
       ],
       "orig": "wherein A is",
-      "text": "wherein A is"
+      "text": "wherein A is",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -913,20 +996,23 @@
           },
           "charspan": [
             0,
-            2
+            0
           ]
         }
       ],
-      "orig": "or",
-      "text": "or"
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -940,20 +1026,23 @@
           },
           "charspan": [
             0,
-            183
+            170
           ]
         }
       ],
-      "orig": "wherein  ze is an  anion, X is a hydrogen atom, an aryl  group, a substituted aryl group or an alkyl group,  and  RI  and  R2  are the  same  or different and  include  alkyl  groups.",
-      "text": "wherein  ze is an  anion, X is a hydrogen atom, an aryl  group, a substituted aryl group or an alkyl group,  and  RI  and  R2  are the  same  or different and  include  alkyl  groups."
+      "orig": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and Rº are the same or different and include alkyl groups.",
+      "text": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and Rº are the same or different and include alkyl groups.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/24",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -972,17 +1061,20 @@
         }
       ],
       "orig": "47 Claims, 9 Drawing Figures",
-      "text": "47 Claims, 9 Drawing Figures"
+      "text": "47 Claims, 9 Drawing Figures",
+      "formatting": null,
+      "hyperlink": null
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -996,13 +1088,14 @@
           },
           "charspan": [
             0,
-            36
+            25
           ]
         }
       ],
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1019,10 +1112,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -1036,13 +1130,14 @@
           },
           "charspan": [
             0,
-            26
+            19
           ]
         }
       ],
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1059,10 +1154,11 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -1076,13 +1172,14 @@
           },
           "charspan": [
             0,
-            6
+            19
           ]
         }
       ],
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1099,10 +1196,11 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -1123,6 +1221,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1139,10 +1238,11 @@
     {
       "self_ref": "#/pictures/4",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -1163,6 +1263,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1181,10 +1282,11 @@
     {
       "self_ref": "#/tables/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -1198,13 +1300,14 @@
           },
           "charspan": [
             0,
-            376
+            173
           ]
         }
       ],
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "data": {
         "table_cells": [
           {
@@ -1221,7 +1324,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Jul.  13,  1979  [JP]",
+            "text": "Jul. 13, 1979 [JP]",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1241,7 +1344,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "Japan  ..................................  54-88317",
+            "text": "Japan",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1261,7 +1364,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "Japan  ..................................  54-88317",
+            "text": "54-88317",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1281,7 +1384,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Jul.  13,  1979  [JP]",
+            "text": "Jul. 13, 1979 [JP]",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1301,7 +1404,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "Japan  ..................................  54-88318",
+            "text": "Japan",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1321,7 +1424,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "Japan  ..................................  54-88318",
+            "text": ".54-88318",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1341,7 +1444,7 @@
             "end_row_offset_idx": 3,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Aug.  21,  1979  [JP]",
+            "text": "Aug. 21, 1979 [JP]",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1361,7 +1464,7 @@
             "end_row_offset_idx": 3,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "Japan  ................................  54-105546",
+            "text": "Japan",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1381,7 +1484,7 @@
             "end_row_offset_idx": 3,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "Japan  ................................  54-105546",
+            "text": "54-105546",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1401,7 +1504,7 @@
             "end_row_offset_idx": 4,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Aug.  21,  1979  [JP]",
+            "text": "Aug. 21, 1979 [JP]",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1421,7 +1524,7 @@
             "end_row_offset_idx": 4,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "Japa11  ................................  54-105547",
+            "text": "Japan",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1441,7 +1544,7 @@
             "end_row_offset_idx": 4,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "Japa11  ................................  54-105547",
+            "text": "54-105547",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1461,7 +1564,7 @@
             "end_row_offset_idx": 5,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Aug.  31,  1979  [JP]",
+            "text": "Aug. 31, 1979 [JP]",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1481,7 +1584,7 @@
             "end_row_offset_idx": 5,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "Japan  ................................  54-110457",
+            "text": "Japan",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1501,7 +1604,7 @@
             "end_row_offset_idx": 5,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "Japan  ................................  54-110457",
+            "text": "54-110457",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1526,7 +1629,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Jul.  13,  1979  [JP]",
+              "text": "Jul. 13, 1979 [JP]",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1546,7 +1649,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "Japan  ..................................  54-88317",
+              "text": "Japan",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1566,7 +1669,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "Japan  ..................................  54-88317",
+              "text": "54-88317",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1588,7 +1691,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Jul.  13,  1979  [JP]",
+              "text": "Jul. 13, 1979 [JP]",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1608,7 +1711,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "Japan  ..................................  54-88318",
+              "text": "Japan",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1628,7 +1731,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "Japan  ..................................  54-88318",
+              "text": ".54-88318",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1650,7 +1753,7 @@
               "end_row_offset_idx": 3,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Aug.  21,  1979  [JP]",
+              "text": "Aug. 21, 1979 [JP]",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1670,7 +1773,7 @@
               "end_row_offset_idx": 3,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "Japan  ................................  54-105546",
+              "text": "Japan",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1690,7 +1793,7 @@
               "end_row_offset_idx": 3,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "Japan  ................................  54-105546",
+              "text": "54-105546",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1712,7 +1815,7 @@
               "end_row_offset_idx": 4,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Aug.  21,  1979  [JP]",
+              "text": "Aug. 21, 1979 [JP]",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1732,7 +1835,7 @@
               "end_row_offset_idx": 4,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "Japa11  ................................  54-105547",
+              "text": "Japan",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1752,7 +1855,7 @@
               "end_row_offset_idx": 4,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "Japa11  ................................  54-105547",
+              "text": "54-105547",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1774,7 +1877,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Aug.  31,  1979  [JP]",
+              "text": "Aug. 31, 1979 [JP]",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1794,7 +1897,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "Japan  ................................  54-110457",
+              "text": "Japan",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1814,7 +1917,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "Japan  ................................  54-110457",
+              "text": "54-110457",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1830,15 +1933,17 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "graph": {
         "cells": [
           {
@@ -1859,7 +1964,8 @@
                 0,
                 10
               ]
-            }
+            },
+            "item_ref": null
           },
           {
             "label": "value",
@@ -1879,7 +1985,8 @@
                 0,
                 7
               ]
-            }
+            },
+            "item_ref": null
           },
           {
             "label": "key",
@@ -1899,13 +2006,14 @@
                 0,
                 6
               ]
-            }
+            },
+            "item_ref": null
           },
           {
             "label": "value",
             "cell_id": 3,
-            "text": "Jul.  14,  1980",
-            "orig": "Jul.  14,  1980",
+            "text": "Jul. 14, 1980",
+            "orig": "Jul. 14, 1980",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -1917,9 +2025,10 @@
               },
               "charspan": [
                 0,
-                15
+                13
               ]
-            }
+            },
+            "item_ref": null
           },
           {
             "label": "key",
@@ -1939,13 +2048,14 @@
                 0,
                 10
               ]
-            }
+            },
+            "item_ref": null
           },
           {
             "label": "value",
             "cell_id": 5,
-            "text": "Koichi Kawamura; Harumi  Katsuyama; Hideo Sato,  all of Asaka,  Japan",
-            "orig": "Koichi Kawamura; Harumi  Katsuyama; Hideo Sato,  all of Asaka,  Japan",
+            "text": "Koichi Kawamura; Harumi Katsuyama; Hideo Sato, all of Asaka, Japan",
+            "orig": "Koichi Kawamura; Harumi Katsuyama; Hideo Sato, all of Asaka, Japan",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -1957,9 +2067,10 @@
               },
               "charspan": [
                 0,
-                69
+                66
               ]
-            }
+            },
+            "item_ref": null
           },
           {
             "label": "key",
@@ -1979,13 +2090,14 @@
                 0,
                 9
               ]
-            }
+            },
+            "item_ref": null
           },
           {
             "label": "value",
             "cell_id": 7,
-            "text": "Fuji Photo Film Co., Ltd.,  Kanagawa,  Japan",
-            "orig": "Fuji Photo Film Co., Ltd.,  Kanagawa,  Japan",
+            "text": "Fuji Photo Film Co., Ltd., Kanagawa, Japan",
+            "orig": "Fuji Photo Film Co., Ltd., Kanagawa, Japan",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -1997,9 +2109,10 @@
               },
               "charspan": [
                 0,
-                44
+                42
               ]
-            }
+            },
+            "item_ref": null
           }
         ],
         "links": [

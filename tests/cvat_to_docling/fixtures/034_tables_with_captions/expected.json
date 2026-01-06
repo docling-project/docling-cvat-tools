@@ -1,52 +1,57 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.8.0",
-  "name": "4f95af3dc08127d47aba2619ccda80c7e9721522ccc0e03d320358527a6fc003",
+  "name": "input",
+  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
+    "parent": null,
     "children": [],
     "content_layer": "furniture",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
+    "parent": null,
     "children": [
       {
-        "$ref": "#/texts/0"
+        "cref": "#/texts/0"
       },
       {
-        "$ref": "#/texts/1"
+        "cref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/2"
+        "cref": "#/texts/2"
       },
       {
-        "$ref": "#/texts/3"
+        "cref": "#/texts/3"
       },
       {
-        "$ref": "#/texts/4"
+        "cref": "#/texts/4"
       },
       {
-        "$ref": "#/tables/0"
+        "cref": "#/tables/0"
       },
       {
-        "$ref": "#/texts/5"
+        "cref": "#/texts/5"
       },
       {
-        "$ref": "#/tables/1"
+        "cref": "#/tables/1"
       },
       {
-        "$ref": "#/texts/6"
+        "cref": "#/texts/6"
       },
       {
-        "$ref": "#/texts/7"
+        "cref": "#/texts/7"
       },
       {
-        "$ref": "#/texts/8"
+        "cref": "#/texts/8"
       }
     ],
     "content_layer": "body",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -55,10 +60,11 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -72,20 +78,23 @@
           },
           "charspan": [
             0,
-            2
+            0
           ]
         }
       ],
-      "orig": "24",
-      "text": "24"
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -105,15 +114,18 @@
       ],
       "orig": "Management's Discussion and Analysis of Financial Condition and Results of Operations",
       "text": "Management's Discussion and Analysis of Financial Condition and Results of Operations",
+      "formatting": null,
+      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -131,16 +143,19 @@
           ]
         }
       ],
-      "orig": "Slot revenues increased substantially in both 2003 and 2004. Improvements were the result of strong customer visitation, enhanced marketing programs, the impact of our Players Club rewards program, and the implementation of cashless gaming technology in 2003. Slot win percentages were consistent among all three periods.",
-      "text": "Slot revenues increased substantially in both 2003 and 2004. Improvements were the result of strong customer visitation, enhanced marketing programs, the impact of our Players Club rewards program, and the implementation of cashless gaming technology in 2003. Slot win percentages were consistent among all three periods."
+      "orig": "Slot revenues increased substantially in both 2003 and 2004. Improvements were the result of strong customer visitation, enhanced marketing programs, the impact of our Players Club rewards program, and the implementation of cashless gaming rechnology in 2003. Slot win percentages were consistent among all three periods.",
+      "text": "Slot revenues increased substantially in both 2003 and 2004. Improvements were the result of strong customer visitation, enhanced marketing programs, the impact of our Players Club rewards program, and the implementation of cashless gaming rechnology in 2003. Slot win percentages were consistent among all three periods.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -154,20 +169,23 @@
           },
           "charspan": [
             0,
-            733
+            728
           ]
         }
       ],
-      "orig": "Non-casino revenue increased in 2004 primarily due to the enhanced amenities at our resorts. In addition, we were able to increase the pricing for our rooms and other non-gaming amenities. Our hotel results began to improve notably in the  latter half of 2003, particularly at our Las Vegas Strip resorts. For the year ended December 31, 2004 REVPAR at our Las Vegas Strip resorts was $141 compared to $126 in 2003, an increase of 12%. Company-wide REVPAR was $121, an increase of 10% over 2003. This increase was largely rate driven, as occupancy increased from 91% to 92% and ADR increased from $121 to $132. In 2003, company-wide REVPAR increased 6% from $104 to $110, with most of the gains coming in the second half of the year.",
-      "text": "Non-casino revenue increased in 2004 primarily due to the enhanced amenities at our resorts. In addition, we were able to increase the pricing for our rooms and other non-gaming amenities. Our hotel results began to improve notably in the  latter half of 2003, particularly at our Las Vegas Strip resorts. For the year ended December 31, 2004 REVPAR at our Las Vegas Strip resorts was $141 compared to $126 in 2003, an increase of 12%. Company-wide REVPAR was $121, an increase of 10% over 2003. This increase was largely rate driven, as occupancy increased from 91% to 92% and ADR increased from $121 to $132. In 2003, company-wide REVPAR increased 6% from $104 to $110, with most of the gains coming in the second half of the year."
+      "orig": "Non-casino revenue increased in 2004 primarily due to the enhanced amenities at our resorts. In addition, we were able to increase the pricing for our rooms and other non-gaming amenities. Our hotel results began to improve notably in the latter half of 2003, particularly at our Las Vegas Strip resorts. For the year ended ecember 31, 2004 REVPAR at our Las Vegas Strip resorts was $141 compared t 126 in 2003, an increase of 12%. Company-wide REVPAR was $121, an increas of 10% over 2003. This increase was largely rate driven, as occupancy increased from 91% to 92% and ADR increased from $121 to $132. In 2003, company-wide REVPAR increased 6% from $104 to $110, with most of the gains coming in the second half of the year.",
+      "text": "Non-casino revenue increased in 2004 primarily due to the enhanced amenities at our resorts. In addition, we were able to increase the pricing for our rooms and other non-gaming amenities. Our hotel results began to improve notably in the latter half of 2003, particularly at our Las Vegas Strip resorts. For the year ended ecember 31, 2004 REVPAR at our Las Vegas Strip resorts was $141 compared t 126 in 2003, an increase of 12%. Company-wide REVPAR was $121, an increas of 10% over 2003. This increase was largely rate driven, as occupancy increased from 91% to 92% and ADR increased from $121 to $132. In 2003, company-wide REVPAR increased 6% from $104 to $110, with most of the gains coming in the second half of the year.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -187,15 +205,18 @@
       ],
       "orig": "Operating Results - Details of Certain Charges",
       "text": "Operating Results - Details of Certain Charges",
+      "formatting": null,
+      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -209,20 +230,23 @@
           },
           "charspan": [
             0,
-            141
+            140
           ]
         }
       ],
-      "orig": "Pre-opening and start-up expenses related to Borgata represent our share of the  operating results of Borgata prior to its July 2003 opening.",
-      "text": "Pre-opening and start-up expenses related to Borgata represent our share of the  operating results of Borgata prior to its July 2003 opening."
+      "orig": "Pre-opening and start-up expenses related to Borgata represent our share of the operating results of Borgata prior to its July 2003 opening.",
+      "text": "Pre-opening and start-up expenses related to Borgata represent our share of the operating results of Borgata prior to its July 2003 opening.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -236,20 +260,23 @@
           },
           "charspan": [
             0,
-            275
+            271
           ]
         }
       ],
-      "orig": "In 2004, restructuring costs include $3 million for contract termination costs  related to the Aqua restaurant at Bellagio and $2 million of workforce reduction costs at MGM Grand Detroit as a result of our efforts to minimize the impact of a gaming tax increase in Michigan.",
-      "text": "In 2004, restructuring costs include $3 million for contract termination costs  related to the Aqua restaurant at Bellagio and $2 million of workforce reduction costs at MGM Grand Detroit as a result of our efforts to minimize the impact of a gaming tax increase in Michigan."
+      "orig": "2004, restructuring costs include $3 million for contract termination costs related to the Aqua restaurant at Bellagio and $2 million of workforce reduction costs at MGM Grand Detroit as a result of our efforts to minimize the impact of a gaming tax increase in Michigan.",
+      "text": "2004, restructuring costs include $3 million for contract termination costs related to the Aqua restaurant at Bellagio and $2 million of workforce reduction costs at MGM Grand Detroit as a result of our efforts to minimize the impact of a gaming tax increase in Michigan.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -268,15 +295,18 @@
         }
       ],
       "orig": "In 2003, our primary restructuring activities included closing two marketing offices and terminating the related leases, terminating a lease agreement with a restaurant tenant at MGM Grand Las Vegas, and closing the Siegfried & Roy show, which resulted in a charge for employee severance costs.",
-      "text": "In 2003, our primary restructuring activities included closing two marketing offices and terminating the related leases, terminating a lease agreement with a restaurant tenant at MGM Grand Las Vegas, and closing the Siegfried & Roy show, which resulted in a charge for employee severance costs."
+      "text": "In 2003, our primary restructuring activities included closing two marketing offices and terminating the related leases, terminating a lease agreement with a restaurant tenant at MGM Grand Las Vegas, and closing the Siegfried & Roy show, which resulted in a charge for employee severance costs.",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -290,20 +320,23 @@
           },
           "charspan": [
             0,
-            789
+            787
           ]
         }
       ],
-      "orig": "In December 2002, we recorded a restructuring credit of $10 million related to a lease contract termination accrual originally recorded in June 2000 as we deter- mined that payment under this obligation was not probable. We recorded  $3 million of restructuring charges in December 2002 related to contract termina- tion costs for a restaurant lease and the EFX! show at MGM Grand Las Vegas. In 2001, management responded to a decline in business volumes caused by the September 11 attacks by implementing cost containment strategies which included a significant reduction in payroll and a refocusing of several of our marketing  programs. This resulted in a $22 million charge against earnings. As a result of improving business levels and our success at re-hiring a substantial number of",
-      "text": "In December 2002, we recorded a restructuring credit of $10 million related to a lease contract termination accrual originally recorded in June 2000 as we deter- mined that payment under this obligation was not probable. We recorded  $3 million of restructuring charges in December 2002 related to contract termina- tion costs for a restaurant lease and the EFX! show at MGM Grand Las Vegas. In 2001, management responded to a decline in business volumes caused by the September 11 attacks by implementing cost containment strategies which included a significant reduction in payroll and a refocusing of several of our marketing  programs. This resulted in a $22 million charge against earnings. As a result of improving business levels and our success at re-hiring a substantial number of"
+      "orig": "In December 2002, we recorded a restructuring credit of $10 million related to a lease contract termination accrual originally recorded in June 2000 as we deter- mined that payment under this obligation was not probable. We recorded $3 million of restructuring charges in December 2002 related to contract termina- tion costs for a restaurant lease and the EFX! show at MGM Grand Las Vegas. In 2001, management responded to a decline in business volumes caused by the September 11 attacks by implementing cost containment strategies which included a significant reduction in payroll and a refocusing of several of our marketing programs. This resulted in a $22 million charge against earnings. As a result of improving business levels and our success at re-hiring a substantial number of",
+      "text": "In December 2002, we recorded a restructuring credit of $10 million related to a lease contract termination accrual originally recorded in June 2000 as we deter- mined that payment under this obligation was not probable. We recorded $3 million of restructuring charges in December 2002 related to contract termina- tion costs for a restaurant lease and the EFX! show at MGM Grand Las Vegas. In 2001, management responded to a decline in business volumes caused by the September 11 attacks by implementing cost containment strategies which included a significant reduction in payroll and a refocusing of several of our marketing programs. This resulted in a $22 million charge against earnings. As a result of improving business levels and our success at re-hiring a substantial number of",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/tables/0"
+        "cref": "#/tables/0"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "caption",
       "prov": [
         {
@@ -322,15 +355,18 @@
         }
       ],
       "orig": "Pre-opening and start-up expenses consisted of the following:",
-      "text": "Pre-opening and start-up expenses consisted of the following:"
+      "text": "Pre-opening and start-up expenses consisted of the following:",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/tables/1"
+        "cref": "#/tables/1"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "caption",
       "prov": [
         {
@@ -349,7 +385,9 @@
         }
       ],
       "orig": "Restructuring costs (credit) consisted of the following:",
-      "text": "Restructuring costs (credit) consisted of the following:"
+      "text": "Restructuring costs (credit) consisted of the following:",
+      "formatting": null,
+      "hyperlink": null
     }
   ],
   "pictures": [],
@@ -357,14 +395,15 @@
     {
       "self_ref": "#/tables/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/9"
+          "cref": "#/texts/9"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -378,17 +417,18 @@
           },
           "charspan": [
             0,
-            589
+            300
           ]
         }
       ],
       "captions": [
         {
-          "$ref": "#/texts/9"
+          "cref": "#/texts/9"
         }
       ],
       "references": [],
       "footnotes": [],
+      "image": null,
       "data": {
         "table_cells": [
           {
@@ -485,7 +525,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Bellagio expansion  . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "text": "Bellagio expansion",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -545,7 +585,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 3,
             "end_col_offset_idx": 4,
-            "text": "$ -",
+            "text": "ー $",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -565,7 +605,7 @@
             "end_row_offset_idx": 3,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "K\u00c0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "text": "",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -605,7 +645,7 @@
             "end_row_offset_idx": 3,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "-",
+            "text": "",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -625,7 +665,7 @@
             "end_row_offset_idx": 3,
             "start_col_offset_idx": 3,
             "end_col_offset_idx": 4,
-            "text": "-",
+            "text": "",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -645,7 +685,7 @@
             "end_row_offset_idx": 4,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Borgata  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "text": "Borgata.",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -665,7 +705,7 @@
             "end_row_offset_idx": 4,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "-",
+            "text": "=",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -725,7 +765,7 @@
             "end_row_offset_idx": 5,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "New York-New York ( Zumanity, Nine Fine Irishmen)",
+            "text": "N e w   Y o r k - N e w   Y o r k   ( Z u m a n i t y ,   N i n e   F i n e   I r i s h m e n )",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -745,7 +785,7 @@
             "end_row_offset_idx": 5,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "-",
+            "text": "_",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -785,7 +825,7 @@
             "end_row_offset_idx": 5,
             "start_col_offset_idx": 3,
             "end_col_offset_idx": 4,
-            "text": "-",
+            "text": "",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -805,7 +845,7 @@
             "end_row_offset_idx": 6,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Players Club  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "text": "Players Club",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -885,7 +925,7 @@
             "end_row_offset_idx": 7,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "text": "Other..",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -1132,7 +1172,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Bellagio expansion  . . . . . . . . . . . . . . . . . . . . . . . . .",
+              "text": "Bellagio expansion",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -1192,7 +1232,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 3,
               "end_col_offset_idx": 4,
-              "text": "$ -",
+              "text": "ー $",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1214,7 +1254,7 @@
               "end_row_offset_idx": 3,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "K\u00c0 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+              "text": "",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -1254,7 +1294,7 @@
               "end_row_offset_idx": 3,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "-",
+              "text": "",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1274,7 +1314,7 @@
               "end_row_offset_idx": 3,
               "start_col_offset_idx": 3,
               "end_col_offset_idx": 4,
-              "text": "-",
+              "text": "",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1296,7 +1336,7 @@
               "end_row_offset_idx": 4,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Borgata  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+              "text": "Borgata.",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -1316,7 +1356,7 @@
               "end_row_offset_idx": 4,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "-",
+              "text": "=",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1378,7 +1418,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "New York-New York ( Zumanity, Nine Fine Irishmen)",
+              "text": "N e w   Y o r k - N e w   Y o r k   ( Z u m a n i t y ,   N i n e   F i n e   I r i s h m e n )",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -1398,7 +1438,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "-",
+              "text": "_",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1438,7 +1478,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 3,
               "end_col_offset_idx": 4,
-              "text": "-",
+              "text": "",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1460,7 +1500,7 @@
               "end_row_offset_idx": 6,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Players Club  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+              "text": "Players Club",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -1542,7 +1582,7 @@
               "end_row_offset_idx": 7,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+              "text": "Other..",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -1698,14 +1738,15 @@
     {
       "self_ref": "#/tables/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/10"
+          "cref": "#/texts/10"
         }
       ],
       "content_layer": "body",
+      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -1719,17 +1760,18 @@
           },
           "charspan": [
             0,
-            466
+            330
           ]
         }
       ],
       "captions": [
         {
-          "$ref": "#/texts/10"
+          "cref": "#/texts/10"
         }
       ],
       "references": [],
       "footnotes": [],
+      "image": null,
       "data": {
         "table_cells": [
           {
@@ -1826,7 +1868,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Contract termination costs . . . . . . . . . . . . . . . . . . . .",
+            "text": "Contract termination costs ........ ..",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -1906,7 +1948,7 @@
             "end_row_offset_idx": 3,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Reversal of certain September 11 charges . . . . . . . .",
+            "text": "Reversal of certain September 11 charges........",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -1926,7 +1968,7 @@
             "end_row_offset_idx": 3,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "-",
+            "text": "",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1946,7 +1988,7 @@
             "end_row_offset_idx": 3,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "-",
+            "text": "",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1986,7 +2028,7 @@
             "end_row_offset_idx": 4,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Siegfried & Roy show closure - The Mirage  . . . . . . .",
+            "text": "Siegfried & Roy show closure - The Mirage .......",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -2046,7 +2088,7 @@
             "end_row_offset_idx": 4,
             "start_col_offset_idx": 3,
             "end_col_offset_idx": 4,
-            "text": "-",
+            "text": "",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -2066,7 +2108,7 @@
             "end_row_offset_idx": 5,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Reversal of 2000 contract termination costs  . . . . . .",
+            "text": "Reversal of 2000 contract termination costs",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -2086,7 +2128,7 @@
             "end_row_offset_idx": 5,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "-",
+            "text": "",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -2106,7 +2148,7 @@
             "end_row_offset_idx": 5,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "-",
+            "text": "",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -2146,7 +2188,7 @@
             "end_row_offset_idx": 6,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+            "text": "Other....",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -2206,7 +2248,7 @@
             "end_row_offset_idx": 6,
             "start_col_offset_idx": 3,
             "end_col_offset_idx": 4,
-            "text": "-",
+            "text": "",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -2393,7 +2435,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Contract termination costs . . . . . . . . . . . . . . . . . . . .",
+              "text": "Contract termination costs ........ ..",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -2475,7 +2517,7 @@
               "end_row_offset_idx": 3,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Reversal of certain September 11 charges . . . . . . . .",
+              "text": "Reversal of certain September 11 charges........",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -2495,7 +2537,7 @@
               "end_row_offset_idx": 3,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "-",
+              "text": "",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -2515,7 +2557,7 @@
               "end_row_offset_idx": 3,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "-",
+              "text": "",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -2557,7 +2599,7 @@
               "end_row_offset_idx": 4,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Siegfried & Roy show closure - The Mirage  . . . . . . .",
+              "text": "Siegfried & Roy show closure - The Mirage .......",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -2617,7 +2659,7 @@
               "end_row_offset_idx": 4,
               "start_col_offset_idx": 3,
               "end_col_offset_idx": 4,
-              "text": "-",
+              "text": "",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -2639,7 +2681,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Reversal of 2000 contract termination costs  . . . . . .",
+              "text": "Reversal of 2000 contract termination costs",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -2659,7 +2701,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "-",
+              "text": "",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -2679,7 +2721,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "-",
+              "text": "",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -2721,7 +2763,7 @@
               "end_row_offset_idx": 6,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Other . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+              "text": "Other....",
               "column_header": false,
               "row_header": true,
               "row_section": false,
@@ -2781,7 +2823,7 @@
               "end_row_offset_idx": 6,
               "start_col_offset_idx": 3,
               "end_col_offset_idx": 4,
-              "text": "-",
+              "text": "",
               "column_header": false,
               "row_header": false,
               "row_section": false,

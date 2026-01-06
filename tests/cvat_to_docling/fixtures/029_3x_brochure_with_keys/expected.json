@@ -1,94 +1,99 @@
 {
   "schema_name": "DoclingDocument",
   "version": "1.8.0",
-  "name": "canva-blue-and-white-illustrative-zero-waste-lifestyle-trifold-brochure-w1lPwiMP7oU",
+  "name": "input",
+  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
+    "parent": null,
     "children": [],
     "content_layer": "furniture",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
+    "parent": null,
     "children": [
       {
-        "$ref": "#/pictures/0"
+        "cref": "#/pictures/0"
       },
       {
-        "$ref": "#/texts/1"
+        "cref": "#/texts/1"
       },
       {
-        "$ref": "#/texts/2"
+        "cref": "#/texts/2"
       },
       {
-        "$ref": "#/texts/3"
+        "cref": "#/texts/3"
       },
       {
-        "$ref": "#/texts/4"
+        "cref": "#/texts/4"
       },
       {
-        "$ref": "#/texts/5"
+        "cref": "#/texts/5"
       },
       {
-        "$ref": "#/texts/6"
+        "cref": "#/texts/6"
       },
       {
-        "$ref": "#/texts/7"
+        "cref": "#/texts/7"
       },
       {
-        "$ref": "#/texts/8"
+        "cref": "#/texts/8"
       },
       {
-        "$ref": "#/texts/9"
+        "cref": "#/texts/9"
       },
       {
-        "$ref": "#/texts/10"
+        "cref": "#/texts/10"
       },
       {
-        "$ref": "#/texts/11"
+        "cref": "#/texts/11"
       },
       {
-        "$ref": "#/texts/12"
+        "cref": "#/texts/12"
       },
       {
-        "$ref": "#/texts/13"
+        "cref": "#/texts/13"
       },
       {
-        "$ref": "#/texts/14"
+        "cref": "#/texts/14"
       },
       {
-        "$ref": "#/texts/15"
+        "cref": "#/texts/15"
       },
       {
-        "$ref": "#/texts/16"
+        "cref": "#/texts/16"
       },
       {
-        "$ref": "#/texts/17"
+        "cref": "#/texts/17"
       },
       {
-        "$ref": "#/pictures/1"
+        "cref": "#/pictures/1"
       },
       {
-        "$ref": "#/pictures/2"
+        "cref": "#/pictures/2"
       },
       {
-        "$ref": "#/pictures/3"
+        "cref": "#/pictures/3"
       },
       {
-        "$ref": "#/pictures/4"
+        "cref": "#/pictures/4"
       },
       {
-        "$ref": "#/pictures/5"
+        "cref": "#/pictures/5"
       },
       {
-        "$ref": "#/pictures/6"
+        "cref": "#/pictures/6"
       },
       {
-        "$ref": "#/key_value_items/0"
+        "cref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
+    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -97,10 +102,11 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "$ref": "#/pictures/0"
+        "cref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -119,15 +125,18 @@
         }
       ],
       "orig": "RIMBERIO",
-      "text": "RIMBERIO"
+      "text": "RIMBERIO",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -147,15 +156,18 @@
       ],
       "orig": "LIVING ZERO WASTE",
       "text": "LIVING ZERO WASTE",
+      "formatting": null,
+      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -174,15 +186,18 @@
         }
       ],
       "orig": "SIMPLE STEPS TO A SUSTAINABLE LIFE",
-      "text": "SIMPLE STEPS TO A SUSTAINABLE LIFE"
+      "text": "SIMPLE STEPS TO A SUSTAINABLE LIFE",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -202,15 +217,18 @@
       ],
       "orig": "THE PHILOSOPHY OF ZERO WASTE",
       "text": "THE PHILOSOPHY OF ZERO WASTE",
+      "formatting": null,
+      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -229,15 +247,18 @@
         }
       ],
       "orig": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit ex Curabitur quis felis eu metus vehicula porttitor. Aenean leo scelerisque a",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit ex Curabitur quis felis eu metus vehicula porttitor. Aenean leo scelerisque a"
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit ex Curabitur quis felis eu metus vehicula porttitor. Aenean leo scelerisque a",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -257,15 +278,18 @@
       ],
       "orig": "OUR CONTACT",
       "text": "OUR CONTACT",
+      "formatting": null,
+      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -284,15 +308,18 @@
         }
       ],
       "orig": "Email",
-      "text": "Email"
+      "text": "Email",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -311,15 +338,18 @@
         }
       ],
       "orig": "hello@reallygreatsite.com",
-      "text": "hello@reallygreatsite.com"
+      "text": "hello@reallygreatsite.com",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -338,15 +368,18 @@
         }
       ],
       "orig": "Phone",
-      "text": "Phone"
+      "text": "Phone",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -365,15 +398,18 @@
         }
       ],
       "orig": "+123-456-7890",
-      "text": "+123-456-7890"
+      "text": "+123-456-7890",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -392,15 +428,18 @@
         }
       ],
       "orig": "Address",
-      "text": "Address"
+      "text": "Address",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -419,15 +458,18 @@
         }
       ],
       "orig": "123 Anywhere St., Any City, ST 12345",
-      "text": "123 Anywhere St., Any City, ST 12345"
+      "text": "123 Anywhere St., Any City, ST 12345",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -446,15 +488,18 @@
         }
       ],
       "orig": "Website",
-      "text": "Website"
+      "text": "Website",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -473,15 +518,18 @@
         }
       ],
       "orig": "www.reallygreatsite.com",
-      "text": "www.reallygreatsite.com"
+      "text": "www.reallygreatsite.com",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -501,15 +549,18 @@
       ],
       "orig": "THE ZERO WASTE MOVEMENT",
       "text": "THE ZERO WASTE MOVEMENT",
+      "formatting": null,
+      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -528,15 +579,18 @@
         }
       ],
       "orig": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit ex Curabitur quis felis eu metus vehicula porttitor. Aenean leo scelerisque a",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit ex Curabitur quis felis eu metus vehicula porttitor. Aenean leo scelerisque a"
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis blandit ex Curabitur quis felis eu metus vehicula porttitor. Aenean leo scelerisque a",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -555,15 +609,18 @@
         }
       ],
       "orig": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nisl urna mattis enim, sit amet",
-      "text": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nisl urna mattis enim, sit amet"
+      "text": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nisl urna mattis enim, sit amet",
+      "formatting": null,
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -582,32 +639,24 @@
         }
       ],
       "orig": "YOUR NEXT STEPS TOWARDS ZERO WASTE",
-      "text": "YOUR NEXT STEPS TOWARDS ZERO WASTE"
+      "text": "YOUR NEXT STEPS TOWARDS ZERO WASTE",
+      "formatting": null,
+      "hyperlink": null
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [
         {
-          "$ref": "#/texts/0"
+          "cref": "#/texts/0"
         }
       ],
       "content_layer": "body",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "logo"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -628,6 +677,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -644,21 +694,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -679,6 +719,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -695,21 +736,11 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "illustration"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -730,6 +761,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -746,21 +778,11 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "other"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -781,6 +803,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -797,21 +820,11 @@
     {
       "self_ref": "#/pictures/4",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "other"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -832,6 +845,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -848,21 +862,11 @@
     {
       "self_ref": "#/pictures/5",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "other"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -883,6 +887,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -899,21 +904,11 @@
     {
       "self_ref": "#/pictures/6",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": {
-        "classification": {
-          "predictions": [
-            {
-              "confidence": 1.0,
-              "created_by": "human",
-              "class_name": "other"
-            }
-          ]
-        }
-      },
+      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -934,6 +929,7 @@
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -953,15 +949,17 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "$ref": "#/body"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
+      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
+      "image": null,
       "graph": {
         "cells": [
           {
@@ -984,7 +982,7 @@
               ]
             },
             "item_ref": {
-              "$ref": "#/texts/6"
+              "cref": "#/texts/6"
             }
           },
           {
@@ -1007,7 +1005,7 @@
               ]
             },
             "item_ref": {
-              "$ref": "#/texts/7"
+              "cref": "#/texts/7"
             }
           },
           {
@@ -1030,7 +1028,7 @@
               ]
             },
             "item_ref": {
-              "$ref": "#/texts/8"
+              "cref": "#/texts/8"
             }
           },
           {
@@ -1053,7 +1051,7 @@
               ]
             },
             "item_ref": {
-              "$ref": "#/texts/9"
+              "cref": "#/texts/9"
             }
           },
           {
@@ -1076,7 +1074,7 @@
               ]
             },
             "item_ref": {
-              "$ref": "#/texts/12"
+              "cref": "#/texts/12"
             }
           },
           {
@@ -1099,7 +1097,7 @@
               ]
             },
             "item_ref": {
-              "$ref": "#/texts/13"
+              "cref": "#/texts/13"
             }
           },
           {
@@ -1122,7 +1120,7 @@
               ]
             },
             "item_ref": {
-              "$ref": "#/texts/10"
+              "cref": "#/texts/10"
             }
           },
           {
@@ -1145,7 +1143,7 @@
               ]
             },
             "item_ref": {
-              "$ref": "#/texts/11"
+              "cref": "#/texts/11"
             }
           }
         ],
