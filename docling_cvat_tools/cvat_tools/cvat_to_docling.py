@@ -21,6 +21,7 @@ Scale Handling:
 
 import copy
 import logging
+import sys
 from dataclasses import dataclass, field
 from enum import Enum
 from pathlib import Path
@@ -1840,7 +1841,7 @@ class CVATToDoclingConverter:
                 return []
             merge_elements = [
                 e
-                for el_id in merge_group_ids
+                for el_id in sorted(merge_group_ids)
                 if (e := self.doc_structure.get_element_by_id(el_id)) is not None
             ]
             return merge_elements if len(merge_elements) > 1 else []
@@ -1968,7 +1969,11 @@ class CVATToDoclingConverter:
                     f"Valid cell_ids: {sorted(valid_cell_ids)}"
                 )
 
-        graph = GraphData(cells=list(unique_cells.values()), links=links)
+        # Sort cells by cell_id for deterministic output
+        graph = GraphData(
+            cells=[unique_cells[cid] for cid in sorted(unique_cells.keys())],
+            links=links,
+        )
 
         try:
             classify_cells(graph=graph)
@@ -2209,7 +2214,19 @@ def create_segmented_page_from_ocr(
     Returns:
         SegmentedPage object with coordinates mapped to target dimensions
     """
-    from ocrmac import ocrmac
+    if sys.platform != "darwin":
+        raise RuntimeError(
+            "create_segmented_page_from_ocr requires ocrmac which is only available on macOS. "
+            "Consider using PDF input instead of PNG, or run on macOS."
+        )
+
+    try:
+        from ocrmac import ocrmac
+    except ImportError as e:
+        raise ImportError(
+            "ocrmac is required for OCR on PNG images but is not installed. "
+            "Install with: pip install ocrmac"
+        ) from e
 
     ocr_results = ocrmac.OCR(image, framework="livetext").recognize(px=True)
 

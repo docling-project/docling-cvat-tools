@@ -1,0 +1,12 @@
+{
+  "test_id": "026",
+  "name": "026_keyvalues_empty_table",
+  "description": "Table with empty body, several key-values",
+  "observation": "",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_b49c88605d88f2b9781e0859a104ebd37db452454905ea3d2b030ef003a07c9f_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}

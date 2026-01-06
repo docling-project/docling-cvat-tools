@@ -2,6 +2,7 @@
 
 import json
 import os
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -11,6 +12,24 @@ from docling_core.types.doc.document import ContentLayer
 
 from docling_cvat_tools.cvat_tools.cvat_to_docling import convert_cvat_to_docling
 from docling_cvat_tools.visualisation.visualisations import save_single_document_html
+
+
+def strip_image_uris(d):
+    """Strip image URIs from dict for platform-independent comparison.
+
+    Adopted from docling-core tests - images are platform-dependent due to
+    rendering differences (fonts, anti-aliasing, etc.) between macOS and Linux.
+    """
+    if isinstance(d, dict):
+        return {
+            k: strip_image_uris(v)
+            for k, v in d.items()
+            if k not in {"uri", "image_uri"}
+        }
+    elif isinstance(d, list):
+        return [strip_image_uris(x) for x in d]
+    else:
+        return d
 
 
 def load_metadata(fixture_dir: Path) -> dict[str, Any]:
@@ -39,7 +58,11 @@ def discover_fixtures() -> list[Path]:
 
     fixtures = []
     for item in sorted(fixtures_dir.iterdir()):
-        if item.is_dir() and (item / "metadata.json").exists():
+        if (
+            item.is_dir()
+            and not item.name.startswith("_")
+            and (item / "metadata.json").exists()
+        ):
             fixtures.append(item)
 
     return fixtures
@@ -87,6 +110,17 @@ def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
         page_number = None
     else:
         pytest.fail(f"Missing input file (input.pdf or input.png) in {fixture_dir}")
+
+    # TODO: PNG inputs require OCR which uses ocrmac (macOS-only).
+    # On Linux CI, ocrmac is not available.
+    # Potentially better solutions:
+    #   1. Pre-generate OCR results and store in fixtures
+    #   3. Mock OCR with cached results for non-macOS platforms
+    # For now, skip PNG-based tests on non-macOS platforms.
+    if input_type == "png" and sys.platform != "darwin":
+        pytest.skip(
+            f"Test {fixture_dir.name} requires OCR (PNG input) which is only available on macOS"
+        )
 
     # Get conversion parameters
     conversion_params = metadata.get("conversion_params", {})
@@ -174,8 +208,11 @@ def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
         actual_doc._normalize_references()
         expected_doc._normalize_references()
 
-        # Compare using DoclingDocument equality
-        matches = actual_doc == expected_doc
+        # Compare using stripped dicts (ignore image URIs - platform-dependent rendering)
+        # Following docling-core test pattern: "test was flaky due to URIs"
+        actual_stripped = strip_image_uris(actual_doc.export_to_dict())
+        expected_stripped = strip_image_uris(expected_doc.export_to_dict())
+        matches = actual_stripped == expected_stripped
 
         # Get observation status
         observation_status = metadata.get("observation_status", "unknown")
