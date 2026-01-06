@@ -1,5 +1,6 @@
 """Regression tests for CVAT to DoclingDocument conversion."""
 
+import difflib
 import json
 import os
 from pathlib import Path
@@ -11,6 +12,32 @@ from docling_core.types.doc.document import ContentLayer
 
 from docling_cvat_tools.cvat_tools.cvat_to_docling import convert_cvat_to_docling
 from docling_cvat_tools.visualisation.visualisations import save_single_document_html
+
+
+def print_doc_diff(
+    actual: DoclingDocument, expected: DoclingDocument, test_name: str
+) -> None:
+    """Print a concise diff between two DoclingDocuments."""
+    actual_json = json.dumps(actual.export_to_dict(), indent=2, sort_keys=True)
+    expected_json = json.dumps(expected.export_to_dict(), indent=2, sort_keys=True)
+
+    diff = difflib.unified_diff(
+        expected_json.splitlines(keepends=True),
+        actual_json.splitlines(keepends=True),
+        fromfile=f"expected ({test_name})",
+        tofile=f"actual ({test_name})",
+        lineterm="",
+    )
+
+    diff_lines = list(diff)
+    if diff_lines:
+        print(f"\n{'=' * 80}")
+        print(f"DIFF for {test_name}:")
+        print("=" * 80)
+        print("".join(diff_lines[:100]))  # Limit to first 100 lines
+        if len(diff_lines) > 100:
+            print(f"\n... ({len(diff_lines) - 100} more diff lines truncated)")
+        print("=" * 80 + "\n")
 
 
 def load_metadata(fixture_dir: Path) -> dict[str, Any]:
@@ -183,6 +210,10 @@ def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
 
         # Get observation status
         observation_status = metadata.get("observation_status", "unknown")
+
+        # Print diff if mismatch
+        if not matches:
+            print_doc_diff(actual_doc, expected_doc, fixture_dir.name)
 
         # Handle broken tests
         if matches and observation_status == "broken":
