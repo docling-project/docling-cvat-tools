@@ -1,0 +1,12 @@
+{
+  "test_id": "028",
+  "name": "028_lots_of_illustrations",
+  "description": "Pictures in the interesting reading order",
+  "observation": "",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_8faff281d27a356c6be6f0e3086b72e6cd8f9df92af8828922b02626331620ca_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}
