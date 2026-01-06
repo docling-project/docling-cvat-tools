@@ -6,13 +6,13 @@ license = "MIT"
 keywords = ["docling", "cvat", "annotation", "evaluation"]
 readme = "README.md"
 authors = [
-    { name = "Peter Staar", email = "taa@zurich.ibm.com" },
+    { name = "Christoph Auer", email = "cau@zurich.ibm.com" },
     { name = "Panos Vagenas", email = "pva@zurich.ibm.com" },
     { name = "Ahmed Nassar", email = "ahn@zurich.ibm.com" },
     { name = "Nikos Livathinos", email = "nli@zurich.ibm.com" },
     { name = "Maxim Lysak", email = "mly@zurich.ibm.com" },
     { name = "Michele Dolfi", email = "dol@zurich.ibm.com" },
-    { name = "Christoph Auer", email = "cau@zurich.ibm.com" },
+    { name = "Peter Staar", email = "taa@zurich.ibm.com" },
 ]
 classifiers = [
     "Operating System :: MacOS :: MacOS X",
