@@ -1,0 +1,12 @@
+{
+  "test_id": "031",
+  "name": "031_patent_with_chemicals",
+  "description": "Patent page sample",
+  "observation": "",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_1a76084e42086c05bfb22dadb5b96347bc425505b517af6471bc4310ee23c546_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}

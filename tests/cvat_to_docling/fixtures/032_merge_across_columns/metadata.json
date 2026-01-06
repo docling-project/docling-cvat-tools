@@ -1,0 +1,12 @@
+{
+  "test_id": "032",
+  "name": "032_merge_across_columns",
+  "description": "Paragraph merge across columns, with some illustration",
+  "observation": "",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_1d71ca76baef5642d3f7fd47ee6f0c0074c1de8125b481786319bc60168d11da_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}

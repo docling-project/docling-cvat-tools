@@ -1,0 +1,12 @@
+{
+  "test_id": "033",
+  "name": "033_complex_rich_table",
+  "description": "Complex table with merges and multiple paragraphs in a cell",
+  "observation": "",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_8f4109357ac9ab0e1eb52bcbbdf7185d1db6b9f1d1b024c4331b94376c684a70_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}
