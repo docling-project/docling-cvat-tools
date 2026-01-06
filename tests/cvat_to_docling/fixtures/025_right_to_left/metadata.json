@@ -1,0 +1,12 @@
+{
+  "test_id": "025",
+  "name": "025_right_to_left",
+  "description": "Triple fold brochure.",
+  "observation": "",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_5449e9aa1ae2061b3e665ab77c9f57a2554aed69f83f141b7fb0216b149cf931_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}
