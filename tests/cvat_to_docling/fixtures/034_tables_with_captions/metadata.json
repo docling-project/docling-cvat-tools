@@ -1,0 +1,12 @@
+{
+  "test_id": "034",
+  "name": "034_tables_with_captions",
+  "description": "Tables with caption",
+  "observation": "",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_5afa96c196fc1f21d31cdecff28872f033684f1ebc9ff378a4c3802e316ee39a_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}
