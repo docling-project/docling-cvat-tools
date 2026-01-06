@@ -2,6 +2,7 @@
 
 import json
 import os
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -109,6 +110,17 @@ def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
         page_number = None
     else:
         pytest.fail(f"Missing input file (input.pdf or input.png) in {fixture_dir}")
+
+    # TODO: PNG inputs require OCR which uses ocrmac (macOS-only).
+    # On Linux CI, ocrmac is not available.
+    # Potentially better solutions:
+    #   1. Pre-generate OCR results and store in fixtures
+    #   3. Mock OCR with cached results for non-macOS platforms
+    # For now, skip PNG-based tests on non-macOS platforms.
+    if input_type == "png" and sys.platform != "darwin":
+        pytest.skip(
+            f"Test {fixture_dir.name} requires OCR (PNG input) which is only available on macOS"
+        )
 
     # Get conversion parameters
     conversion_params = metadata.get("conversion_params", {})

@@ -21,6 +21,7 @@ Scale Handling:
 
 import copy
 import logging
+import sys
 from dataclasses import dataclass, field
 from enum import Enum
 from pathlib import Path
@@ -2213,7 +2214,19 @@ def create_segmented_page_from_ocr(
     Returns:
         SegmentedPage object with coordinates mapped to target dimensions
     """
-    from ocrmac import ocrmac
+    if sys.platform != "darwin":
+        raise RuntimeError(
+            "create_segmented_page_from_ocr requires ocrmac which is only available on macOS. "
+            "Consider using PDF input instead of PNG, or run on macOS."
+        )
+
+    try:
+        from ocrmac import ocrmac
+    except ImportError as e:
+        raise ImportError(
+            "ocrmac is required for OCR on PNG images but is not installed. "
+            "Install with: pip install ocrmac"
+        ) from e
 
     ocr_results = ocrmac.OCR(image, framework="livetext").recognize(px=True)
 
