@@ -1,6 +1,6 @@
 [project]
 name = "docling-cvat-tools"
-version = "0.1.0" # DO NOT EDIT, updated automatically
+version = "0.0.1" # DO NOT EDIT, updated automatically
 description = "CVAT annotation tools for Docling document processing and evaluation"
 license = "MIT"
 keywords = ["docling", "cvat", "annotation", "evaluation"]
