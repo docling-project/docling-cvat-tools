@@ -1,6 +1,5 @@
 """Regression tests for CVAT to DoclingDocument conversion."""
 
-import difflib
 import json
 import os
 from pathlib import Path
@@ -14,30 +13,22 @@ from docling_cvat_tools.cvat_tools.cvat_to_docling import convert_cvat_to_doclin
 from docling_cvat_tools.visualisation.visualisations import save_single_document_html
 
 
-def print_doc_diff(
-    actual: DoclingDocument, expected: DoclingDocument, test_name: str
-) -> None:
-    """Print a concise diff between two DoclingDocuments."""
-    actual_json = json.dumps(actual.export_to_dict(), indent=2, sort_keys=True)
-    expected_json = json.dumps(expected.export_to_dict(), indent=2, sort_keys=True)
+def strip_image_uris(d):
+    """Strip image URIs from dict for platform-independent comparison.
 
-    diff = difflib.unified_diff(
-        expected_json.splitlines(keepends=True),
-        actual_json.splitlines(keepends=True),
-        fromfile=f"expected ({test_name})",
-        tofile=f"actual ({test_name})",
-        lineterm="",
-    )
-
-    diff_lines = list(diff)
-    if diff_lines:
-        print(f"\n{'=' * 80}")
-        print(f"DIFF for {test_name}:")
-        print("=" * 80)
-        print("".join(diff_lines[:100]))  # Limit to first 100 lines
-        if len(diff_lines) > 100:
-            print(f"\n... ({len(diff_lines) - 100} more diff lines truncated)")
-        print("=" * 80 + "\n")
+    Adopted from docling-core tests - images are platform-dependent due to
+    rendering differences (fonts, anti-aliasing, etc.) between macOS and Linux.
+    """
+    if isinstance(d, dict):
+        return {
+            k: strip_image_uris(v)
+            for k, v in d.items()
+            if k not in {"uri", "image_uri"}
+        }
+    elif isinstance(d, list):
+        return [strip_image_uris(x) for x in d]
+    else:
+        return d
 
 
 def load_metadata(fixture_dir: Path) -> dict[str, Any]:
@@ -205,15 +196,14 @@ def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
         actual_doc._normalize_references()
         expected_doc._normalize_references()
 
-        # Compare using DoclingDocument equality
-        matches = actual_doc == expected_doc
+        # Compare using stripped dicts (ignore image URIs - platform-dependent rendering)
+        # Following docling-core test pattern: "test was flaky due to URIs"
+        actual_stripped = strip_image_uris(actual_doc.export_to_dict())
+        expected_stripped = strip_image_uris(expected_doc.export_to_dict())
+        matches = actual_stripped == expected_stripped
 
         # Get observation status
         observation_status = metadata.get("observation_status", "unknown")
-
-        # Print diff if mismatch
-        if not matches:
-            print_doc_diff(actual_doc, expected_doc, fixture_dir.name)
 
         # Handle broken tests
         if matches and observation_status == "broken":
