@@ -953,7 +953,7 @@ class CVATToDoclingConverter:
 
     def _prune_empty_groups(self) -> None:
         """Remove group containers that ended up without children."""
-        empty_groups: List[GroupItem] = []
+        empty_groups: List[NodeItem] = []
 
         for item, _ in self.doc.iterate_items(with_groups=True):
             if (
@@ -2428,8 +2428,9 @@ def load_document_pages(
 
             if has_text and has_good_quality and native_seg_page is not None:
                 # Use native text layer
-                seg_page = scale_segmented_pdf_page(native_seg_page, cvat_input_scale)
-                segmented_pages[page_no] = seg_page
+                segmented_pages[page_no] = scale_segmented_pdf_page(
+                    native_seg_page, cvat_input_scale
+                )
             else:
                 # Fallback to OCR
                 if not has_text:
@@ -2442,13 +2443,13 @@ def load_document_pages(
                 if ocr_image is not None and page_image is not None:
                     ensure_ocr_image_within_limit(ocr_image, input_path.name, page_no)
                     coord_scale = cvat_input_scale / ocr_scale
-                    seg_page = create_segmented_page_from_ocr(
+                    ocr_seg_page = create_segmented_page_from_ocr(
                         ocr_image,
                         coordinate_scale=coord_scale,
                         target_width=page_image.width,
                         target_height=page_image.height,
                     )
-                    segmented_pages[page_no] = seg_page
+                    segmented_pages[page_no] = ocr_seg_page
                     ocr_pages.add(page_no)
 
             if page_image is not None:
@@ -2502,13 +2503,13 @@ def load_document_pages(
                 ensure_ocr_image_within_limit(ocr_image, input_path.name, page_no)
                 # Map OCR coordinates from ocr_scale to cvat_input_scale
                 coord_scale = cvat_input_scale / ocr_scale
-                seg_page = create_segmented_page_from_ocr(
+                ocr_seg_page = create_segmented_page_from_ocr(
                     ocr_image,
                     coordinate_scale=coord_scale,
                     target_width=cvat_image.width,
                     target_height=cvat_image.height,
                 )
-                segmented_pages[page_no] = seg_page
+                segmented_pages[page_no] = ocr_seg_page
                 page_images[page_no] = cvat_image
                 ocr_pages.add(page_no)
 
@@ -2521,9 +2522,9 @@ def load_document_pages(
         image = PILImage.open(input_path)
         page_no = page_numbers[0] if page_numbers else 1
         ensure_ocr_image_within_limit(image, input_path.name, page_no)
-        seg_page = create_segmented_page_from_ocr(image)
+        ocr_seg_page = create_segmented_page_from_ocr(image)
 
-        segmented_pages[page_no] = seg_page
+        segmented_pages[page_no] = ocr_seg_page
         page_images[page_no] = image
         ocr_pages.add(page_no)
 

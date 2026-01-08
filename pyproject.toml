@@ -99,8 +99,6 @@ exclude = '^\\.venv/'
 
 [[tool.mypy.overrides]]
 module = [
-    "docling_core.*",
-    "docling.*",
     "cvat_sdk.*",
     "lxml.*",
     "PIL.*",
