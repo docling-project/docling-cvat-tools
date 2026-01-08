@@ -953,7 +953,7 @@ class CVATToDoclingConverter:
 
     def _prune_empty_groups(self) -> None:
         """Remove group containers that ended up without children."""
-        empty_groups: List[GroupItem] = []
+        empty_groups: List[NodeItem] = []
 
         for item, _ in self.doc.iterate_items(with_groups=True):
             if (
