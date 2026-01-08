@@ -604,12 +604,12 @@
           },
           "charspan": [
             0,
-            109
+            108
           ]
         }
       ],
-      "orig": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nisl urna mattis enim, sit amet",
-      "text": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nisl urna mattis enim, sit amet",
+      "orig": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nis urna mattis enim, sit amet",
+      "text": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nis urna mattis enim, sit amet",
       "formatting": null,
       "hyperlink": null
     },
@@ -754,7 +754,7 @@
           },
           "charspan": [
             0,
-            329
+            328
           ]
         }
       ],

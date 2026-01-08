@@ -44,6 +44,12 @@
         "cref": "#/pictures/4"
       },
       {
+        "cref": "#/groups/2"
+      },
+      {
+        "cref": "#/groups/3"
+      },
+      {
         "cref": "#/pictures/5"
       },
       {
@@ -59,19 +65,25 @@
         "cref": "#/pictures/9"
       },
       {
+        "cref": "#/groups/4"
+      },
+      {
         "cref": "#/pictures/10"
       },
       {
         "cref": "#/pictures/11"
       },
       {
-        "cref": "#/groups/4"
+        "cref": "#/groups/5"
+      },
+      {
+        "cref": "#/groups/6"
       },
       {
         "cref": "#/pictures/12"
       },
       {
-        "cref": "#/groups/5"
+        "cref": "#/groups/7"
       },
       {
         "cref": "#/pictures/13"
@@ -80,28 +92,28 @@
         "cref": "#/pictures/14"
       },
       {
-        "cref": "#/texts/26"
+        "cref": "#/texts/19"
       },
       {
-        "cref": "#/groups/6"
+        "cref": "#/groups/8"
       },
       {
-        "cref": "#/groups/7"
+        "cref": "#/groups/9"
       },
       {
         "cref": "#/pictures/15"
       },
       {
-        "cref": "#/texts/32"
+        "cref": "#/texts/25"
       },
       {
-        "cref": "#/texts/33"
+        "cref": "#/texts/26"
       },
       {
-        "cref": "#/texts/34"
+        "cref": "#/texts/27"
       },
       {
-        "cref": "#/groups/8"
+        "cref": "#/groups/10"
       },
       {
         "cref": "#/pictures/16"
@@ -110,10 +122,10 @@
         "cref": "#/pictures/17"
       },
       {
-        "cref": "#/texts/38"
+        "cref": "#/texts/29"
       },
       {
-        "cref": "#/texts/39"
+        "cref": "#/texts/30"
       },
       {
         "cref": "#/pictures/18"
@@ -166,18 +178,6 @@
       "children": [
         {
           "cref": "#/texts/5"
-        },
-        {
-          "cref": "#/groups/2"
-        },
-        {
-          "cref": "#/texts/10"
-        },
-        {
-          "cref": "#/texts/13"
-        },
-        {
-          "cref": "#/groups/3"
         }
       ],
       "content_layer": "body",
@@ -188,7 +188,7 @@
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/body"
       },
       "children": [
         {
@@ -206,35 +206,95 @@
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "sublist_level_3_of_5",
+      "name": "group_0",
       "label": "list"
     },
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/16"
-        },
-        {
-          "cref": "#/texts/17"
-        },
-        {
-          "cref": "#/texts/18"
-        },
-        {
-          "cref": "#/texts/19"
+          "cref": "#/texts/10"
         }
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "sublist_level_3_of_13",
+      "name": "list_standalone_18",
       "label": "list"
     },
     {
       "self_ref": "#/groups/4",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "list_standalone_26",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/5",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/12"
+        },
+        {
+          "cref": "#/texts/13"
+        },
+        {
+          "cref": "#/texts/14"
+        },
+        {
+          "cref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group_1",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/6",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/16"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "list_standalone_35",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/7",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/18"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "list_standalone_38",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/8",
       "parent": {
         "cref": "#/body"
       },
@@ -245,47 +305,17 @@
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "list_standalone_35",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/5",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [
-        {
-          "cref": "#/texts/22"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "list_standalone_38",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/6",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [
-        {
-          "cref": "#/texts/27"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_46",
       "label": "list"
     },
     {
-      "self_ref": "#/groups/7",
+      "self_ref": "#/groups/9",
       "parent": {
         "cref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/31"
+          "cref": "#/texts/24"
         }
       ],
       "content_layer": "body",
@@ -294,13 +324,13 @@
       "label": "list"
     },
     {
-      "self_ref": "#/groups/8",
+      "self_ref": "#/groups/10",
       "parent": {
         "cref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/35"
+          "cref": "#/texts/28"
         }
       ],
       "content_layer": "body",
@@ -517,12 +547,12 @@
           },
           "charspan": [
             0,
-            6
+            7
           ]
         }
       ],
-      "orig": "A. 0#3",
-      "text": "A. 0#3",
+      "orig": "A. OFI3",
+      "text": "A. OFI3",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -627,7 +657,7 @@
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -659,67 +689,7 @@
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/pictures/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 219.67296,
-            "t": 711.8412,
-            "r": 285.456,
-            "b": 695.87864,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            7
-          ]
-        }
-      ],
-      "orig": "从 上 面 者",
-      "text": "从 上 面 者",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "cref": "#/pictures/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 318.85152,
-            "t": 712.098832,
-            "r": 384.3888,
-            "b": 694.910528,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            7
-          ]
-        }
-      ],
-      "orig": "从 左 面 看",
-      "text": "从 左 面 看",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -749,69 +719,9 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/pictures/10"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 209.13984,
-            "t": 424.629328,
-            "r": 275.29344000000003,
-            "b": 408.43304,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            7
-          ]
-        }
-      ],
-      "orig": "从 上 面 看",
-      "text": "从 上 面 看",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "cref": "#/pictures/11"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 317.62464,
-            "t": 424.73025599999994,
-            "r": 383.17728,
-            "b": 408.53396799999996,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            7
-          ]
-        }
-      ],
-      "orig": "从 正 面 看",
-      "text": "从 正 面 看",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "cref": "#/groups/3"
+        "cref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -841,9 +751,9 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/3"
+        "cref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -873,9 +783,9 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/groups/3"
+        "cref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -905,9 +815,9 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/groups/3"
+        "cref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -937,13 +847,13 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/groups/4"
+        "cref": "#/groups/6"
       },
       "children": [
         {
-          "cref": "#/texts/21"
+          "cref": "#/texts/17"
         }
       ],
       "content_layer": "body",
@@ -973,9 +883,9 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/texts/20"
+        "cref": "#/texts/16"
       },
       "children": [],
       "content_layer": "body",
@@ -1003,9 +913,9 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/groups/5"
+        "cref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
@@ -1035,97 +945,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/23",
-      "parent": {
-        "cref": "#/pictures/14"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 661.7875200000001,
-            "t": 1108.092496,
-            "r": 692.74368,
-            "b": 1093.58144,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            3
-          ]
-        }
-      ],
-      "orig": "正 面",
-      "text": "正 面",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/24",
-      "parent": {
-        "cref": "#/pictures/14"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 728.0544,
-            "t": 1108.092496,
-            "r": 760.54848,
-            "b": 1093.58144,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            3
-          ]
-        }
-      ],
-      "orig": "左 面",
-      "text": "左 面",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/25",
-      "parent": {
-        "cref": "#/pictures/14"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 794.93664,
-            "t": 1108.400592,
-            "r": 827.43072,
-            "b": 1093.889536,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            3
-          ]
-        }
-      ],
-      "orig": "上 面",
-      "text": "上 面",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/26",
+      "self_ref": "#/texts/19",
       "parent": {
         "cref": "#/body"
       },
@@ -1156,19 +976,19 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/27",
+      "self_ref": "#/texts/20",
       "parent": {
-        "cref": "#/groups/6"
+        "cref": "#/groups/8"
       },
       "children": [
         {
-          "cref": "#/texts/28"
+          "cref": "#/texts/21"
         },
         {
-          "cref": "#/texts/29"
+          "cref": "#/texts/22"
         },
         {
-          "cref": "#/texts/30"
+          "cref": "#/texts/23"
         }
       ],
       "content_layer": "body",
@@ -1198,9 +1018,9 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/28",
+      "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/texts/27"
+        "cref": "#/texts/20"
       },
       "children": [],
       "content_layer": "body",
@@ -1228,9 +1048,9 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/29",
+      "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/texts/27"
+        "cref": "#/texts/20"
       },
       "children": [],
       "content_layer": "body",
@@ -1258,9 +1078,9 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/30",
+      "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/texts/27"
+        "cref": "#/texts/20"
       },
       "children": [],
       "content_layer": "body",
@@ -1288,9 +1108,9 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/31",
+      "self_ref": "#/texts/24",
       "parent": {
-        "cref": "#/groups/7"
+        "cref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
@@ -1320,7 +1140,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/32",
+      "self_ref": "#/texts/25",
       "parent": {
         "cref": "#/body"
       },
@@ -1350,7 +1170,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/33",
+      "self_ref": "#/texts/26",
       "parent": {
         "cref": "#/body"
       },
@@ -1370,17 +1190,17 @@
           },
           "charspan": [
             0,
-            29
+            32
           ]
         }
       ],
-      "orig": "3.14X(4÷2)*X(4X2)=100.48(dm')",
-      "text": "3.14X(4÷2)*X(4X2)=100.48(dm')",
+      "orig": "3.14 X (4÷2)ªX(4X2)= 100.48(dm*)",
+      "text": "3.14 X (4÷2)ªX(4X2)= 100.48(dm*)",
       "formatting": null,
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/34",
+      "self_ref": "#/texts/27",
       "parent": {
         "cref": "#/body"
       },
@@ -1411,9 +1231,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/35",
+      "self_ref": "#/texts/28",
       "parent": {
-        "cref": "#/groups/8"
+        "cref": "#/groups/10"
       },
       "children": [],
       "content_layer": "body",
@@ -1443,67 +1263,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/36",
-      "parent": {
-        "cref": "#/pictures/16"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 575.97216,
-            "t": 142.70422400000007,
-            "r": 607.5408,
-            "b": 128.65663999999992,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            3
-          ]
-        }
-      ],
-      "orig": "正 面",
-      "text": "正 面",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/37",
-      "parent": {
-        "cref": "#/pictures/17"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 765.91968,
-            "t": 143.27792,
-            "r": 797.48832,
-            "b": 129.23033599999985,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            3
-          ]
-        }
-      ],
-      "orig": "上 面",
-      "text": "上 面",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/29",
       "parent": {
         "cref": "#/body"
       },
@@ -1533,7 +1293,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/39",
+      "self_ref": "#/texts/30",
       "parent": {
         "cref": "#/body"
       },
@@ -1559,6 +1319,276 @@
       ],
       "orig": "61",
       "text": "61",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "cref": "#/pictures/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 661.7875200000001,
+            "t": 1108.092496,
+            "r": 692.74368,
+            "b": 1093.58144,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "正 面",
+      "text": "正 面",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "cref": "#/pictures/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 728.0544,
+            "t": 1108.092496,
+            "r": 760.54848,
+            "b": 1093.58144,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "左 面",
+      "text": "左 面",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "cref": "#/pictures/14"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 794.93664,
+            "t": 1108.400592,
+            "r": 827.43072,
+            "b": 1093.889536,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "上 面",
+      "text": "上 面",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "cref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 219.67296,
+            "t": 711.8412,
+            "r": 285.456,
+            "b": 695.87864,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "从 上 面 者",
+      "text": "从 上 面 者",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "cref": "#/pictures/5"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 318.85152,
+            "t": 712.098832,
+            "r": 384.3888,
+            "b": 694.910528,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "从 左 面 看",
+      "text": "从 左 面 看",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "cref": "#/pictures/11"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 317.62464,
+            "t": 424.73025599999994,
+            "r": 383.17728,
+            "b": 408.53396799999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "从 正 面 看",
+      "text": "从 正 面 看",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "cref": "#/pictures/10"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 209.13984,
+            "t": 424.629328,
+            "r": 275.29344000000003,
+            "b": 408.43304,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "从 上 面 看",
+      "text": "从 上 面 看",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "cref": "#/pictures/17"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 765.91968,
+            "t": 143.27792,
+            "r": 797.48832,
+            "b": 129.23033599999985,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "上 面",
+      "text": "上 面",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "cref": "#/pictures/16"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 575.97216,
+            "t": 142.70422400000007,
+            "r": 607.5408,
+            "b": 128.65663999999992,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            3
+          ]
+        }
+      ],
+      "orig": "正 面",
+      "text": "正 面",
       "formatting": null,
       "hyperlink": null
     }
@@ -1785,10 +1815,10 @@
       },
       "children": [
         {
-          "cref": "#/texts/11"
+          "cref": "#/texts/34"
         },
         {
-          "cref": "#/texts/12"
+          "cref": "#/texts/35"
         }
       ],
       "content_layer": "body",
@@ -2002,7 +2032,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/14"
+          "cref": "#/texts/37"
         }
       ],
       "content_layer": "body",
@@ -2048,7 +2078,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/15"
+          "cref": "#/texts/36"
         }
       ],
       "content_layer": "body",
@@ -2178,13 +2208,13 @@
       },
       "children": [
         {
-          "cref": "#/texts/23"
+          "cref": "#/texts/31"
         },
         {
-          "cref": "#/texts/24"
+          "cref": "#/texts/32"
         },
         {
-          "cref": "#/texts/25"
+          "cref": "#/texts/33"
         }
       ],
       "content_layer": "body",
@@ -2272,7 +2302,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/36"
+          "cref": "#/texts/39"
         }
       ],
       "content_layer": "body",
@@ -2318,7 +2348,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/37"
+          "cref": "#/texts/38"
         }
       ],
       "content_layer": "body",

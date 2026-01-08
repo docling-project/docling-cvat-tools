@@ -29,7 +29,7 @@
         "cref": "#/tables/0"
       },
       {
-        "cref": "#/texts/6"
+        "cref": "#/texts/2"
       },
       {
         "cref": "#/groups/0"
@@ -38,7 +38,7 @@
         "cref": "#/tables/1"
       },
       {
-        "cref": "#/texts/9"
+        "cref": "#/texts/5"
       }
     ],
     "content_layer": "body",
@@ -54,7 +54,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/7"
+          "cref": "#/texts/3"
         }
       ],
       "content_layer": "body",
@@ -68,9 +68,6 @@
         "cref": "#/tables/0"
       },
       "children": [
-        {
-          "cref": "#/texts/2"
-        },
         {
           "cref": "#/groups/10"
         },
@@ -99,7 +96,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/3"
+          "cref": "#/texts/7"
         },
         {
           "cref": "#/groups/5"
@@ -301,126 +298,6 @@
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/groups/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 315.96166,
-            "t": 1376.3348839999999,
-            "r": 452.51773000000003,
-            "b": 1361.1334160000001,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            14
-          ]
-        }
-      ],
-      "orig": "Wände zwischen",
-      "text": "Wände zwischen",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "cref": "#/groups/2"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 316.58165,
-            "t": 1222.762504,
-            "r": 453.13772,
-            "b": 1207.561036,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            14
-          ]
-        }
-      ],
-      "orig": "Wände zwischen",
-      "text": "Wände zwischen",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 316.2782,
-            "t": 1109.5825479999999,
-            "r": 555.27661,
-            "b": 1094.38108,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            28
-          ]
-        }
-      ],
-      "orig": "Türen in Wänden nach Zeile 1",
-      "text": "Türen in Wänden nach Zeile 1",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 315.8617,
-            "t": 1079.19982,
-            "r": 557.71849,
-            "b": 1063.998352,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            28
-          ]
-        }
-      ],
-      "orig": "Türen in Wänden nach Zeile 2",
-      "text": "Türen in Wänden nach Zeile 2",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
         "cref": "#/body"
       },
       "children": [],
@@ -449,13 +326,13 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "cref": "#/groups/0"
       },
       "children": [
         {
-          "cref": "#/texts/8"
+          "cref": "#/texts/4"
         }
       ],
       "content_layer": "body",
@@ -485,9 +362,9 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/texts/7"
+        "cref": "#/texts/3"
       },
       "children": [],
       "content_layer": "body",
@@ -515,7 +392,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/5",
       "parent": {
         "cref": "#/body"
       },
@@ -541,6 +418,126 @@
       ],
       "orig": "1) Nicht erforderlich, wenn geräuscherzeugende Anlagen ausreichend köperschallgedämmt aufge- stellt werden.",
       "text": "1) Nicht erforderlich, wenn geräuscherzeugende Anlagen ausreichend köperschallgedämmt aufge- stellt werden.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "cref": "#/tables/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 315.96166,
+            "t": 1376.3348839999999,
+            "r": 452.51773000000003,
+            "b": 1361.1334160000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Wände zwischen",
+      "text": "Wände zwischen",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 316.58165,
+            "t": 1222.762504,
+            "r": 453.13772,
+            "b": 1207.561036,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "Wände zwischen",
+      "text": "Wände zwischen",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "cref": "#/tables/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 316.2782,
+            "t": 1109.5825479999999,
+            "r": 555.27661,
+            "b": 1094.38108,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Türen in Wänden nach Zeile 1",
+      "text": "Türen in Wänden nach Zeile 1",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "cref": "#/tables/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 315.8617,
+            "t": 1079.19982,
+            "r": 557.71849,
+            "b": 1063.998352,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "Türen in Wänden nach Zeile 2",
+      "text": "Türen in Wänden nach Zeile 2",
       "formatting": null,
       "hyperlink": null
     },
@@ -1159,7 +1156,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/texts/4"
+              "cref": "#/texts/8"
             }
           },
           {
@@ -1216,7 +1213,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/texts/5"
+              "cref": "#/texts/9"
             }
           },
           {

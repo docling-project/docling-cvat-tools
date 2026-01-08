@@ -32,16 +32,13 @@
         "cref": "#/texts/3"
       },
       {
-        "cref": "#/pictures/1"
-      },
-      {
         "cref": "#/texts/4"
       },
       {
         "cref": "#/texts/5"
       },
       {
-        "cref": "#/pictures/2"
+        "cref": "#/texts/6"
       },
       {
         "cref": "#/texts/7"
@@ -53,10 +50,70 @@
         "cref": "#/texts/9"
       },
       {
+        "cref": "#/texts/10"
+      },
+      {
+        "cref": "#/texts/11"
+      },
+      {
+        "cref": "#/pictures/1"
+      },
+      {
+        "cref": "#/texts/12"
+      },
+      {
+        "cref": "#/texts/13"
+      },
+      {
+        "cref": "#/texts/14"
+      },
+      {
+        "cref": "#/texts/15"
+      },
+      {
+        "cref": "#/texts/16"
+      },
+      {
+        "cref": "#/texts/17"
+      },
+      {
+        "cref": "#/texts/18"
+      },
+      {
+        "cref": "#/texts/19"
+      },
+      {
+        "cref": "#/texts/20"
+      },
+      {
+        "cref": "#/pictures/2"
+      },
+      {
+        "cref": "#/texts/21"
+      },
+      {
+        "cref": "#/pictures/3"
+      },
+      {
         "cref": "#/pictures/4"
       },
       {
         "cref": "#/pictures/5"
+      },
+      {
+        "cref": "#/pictures/6"
+      },
+      {
+        "cref": "#/pictures/7"
+      },
+      {
+        "cref": "#/pictures/8"
+      },
+      {
+        "cref": "#/pictures/9"
+      },
+      {
+        "cref": "#/pictures/10"
       }
     ],
     "content_layer": "body",
@@ -79,23 +136,23 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 67.9088,
-            "t": 1507.0923520000001,
-            "r": 401.00160000000005,
-            "b": 1353.614524,
+            "l": 63.090559999999996,
+            "t": 1495.7488,
+            "r": 575.57568,
+            "b": 1369.7968,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            23
+            42
           ]
         }
       ],
-      "orig": "Scientific the Scale of",
-      "text": "Scientific the Scale of",
+      "orig": "Scientific Notation in the Scale of Things",
+      "text": "Scientific Notation in the Scale of Things",
       "formatting": null,
       "hyperlink": null,
-      "level": 2
+      "level": 1
     },
     {
       "self_ref": "#/texts/1",
@@ -110,20 +167,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 72.6416,
-            "t": 1230.906916,
-            "r": 446.06719999999996,
-            "b": 1105.307068,
+            "l": 136.2528,
+            "t": 1339.4288000000001,
+            "r": 502.91904,
+            "b": 1261.3952,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            86
+            87
           ]
         }
       ],
-      "orig": "Describe here how you will compare scientific based on their powers of 10. Approximate",
-      "text": "Describe here how you will compare scientific based on their powers of 10. Approximate",
+      "orig": "Create an infographic showing the comparison of scientific notations used in real-life.",
+      "text": "Create an infographic showing the comparison of scientific notations used in real-life.",
       "formatting": null,
       "hyperlink": null
     },
@@ -140,20 +197,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 72.43039999999999,
-            "t": 1066.62892,
-            "r": 444.8112,
-            "b": 991.8299079999999,
+            "l": 109.32032,
+            "t": 1208.2128,
+            "r": 543.4848000000001,
+            "b": 1167.7712,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            21
+            83
           ]
         }
       ],
-      "orig": "blood cell 8.7 × 10-6",
-      "text": "blood cell 8.7 × 10-6",
+      "orig": "Describe here how you will compare scientific notation based on their powers of 10.",
+      "text": "Describe here how you will compare scientific notation based on their powers of 10.",
       "formatting": null,
       "hyperlink": null
     },
@@ -170,20 +227,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 586.3664,
-            "t": 1508.847472,
-            "r": 857.4112,
-            "b": 1397.6878120000001,
+            "l": 336.3904,
+            "t": 1124.9168,
+            "r": 522.68992,
+            "b": 1048.7136,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            40
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "Approximate diameter of a red blood cell",
+      "text": "Approximate diameter of a red blood cell",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -196,31 +253,61 @@
       "children": [],
       "content_layer": "body",
       "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 337.03936,
+            "t": 1030.6192,
+            "r": 546.36736,
+            "b": 1001.8864,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "8.7 × 10-6 meters",
+      "text": "8.7 × 10-6 meters",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
       "label": "section_header",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 623.176,
-            "t": 583.258984,
-            "r": 797.7024,
-            "b": 562.9292560000001,
+            "l": 97.85728,
+            "t": 978.8016,
+            "r": 273.95968,
+            "b": 926.2752,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            29
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "(Description of your example)",
+      "text": "(Description of your example)",
       "formatting": null,
       "hyperlink": null,
       "level": 2
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/6",
       "parent": {
         "cref": "#/body"
       },
@@ -232,50 +319,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 623.5744000000001,
-            "t": 526.5661360000001,
-            "r": 874.536,
-            "b": 442.676344,
+            "l": 98.45888000000001,
+            "t": 911.9696,
+            "r": 290.25792,
+            "b": 858.8976,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            26
           ]
         }
       ],
-      "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "cref": "#/pictures/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 1417.5056,
-            "t": 1474.9477,
-            "r": 1545.1472,
-            "b": 1435.650316,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            0
-          ]
-        }
-      ],
-      "orig": "",
-      "text": "",
+      "orig": "(Scientific Notation here)",
+      "text": "(Scientific Notation here)",
       "formatting": null,
       "hyperlink": null
     },
@@ -287,28 +344,27 @@
       "children": [],
       "content_layer": "body",
       "meta": null,
-      "label": "section_header",
+      "label": "text",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 1160.2624,
-            "t": 810.0909399999999,
-            "r": 1545.3296,
-            "b": 696.535912,
+            "l": 364.25663999999995,
+            "t": 938.7456,
+            "r": 517.1136,
+            "b": 897.4352,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            34
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "Add an image of your example here.",
+      "text": "Add an image of your example here.",
       "formatting": null,
-      "hyperlink": null,
-      "level": 1
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/8",
@@ -318,27 +374,28 @@
       "children": [],
       "content_layer": "body",
       "meta": null,
-      "label": "text",
+      "label": "section_header",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 1187.3072,
-            "t": 644.326036,
-            "r": 1545.7872,
-            "b": 542.48458,
+            "l": 336.53695999999997,
+            "t": 823.9904,
+            "r": 512.79168,
+            "b": 771.4176,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            27
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "Description of your example",
+      "text": "Description of your example",
       "formatting": null,
-      "hyperlink": null
+      "hyperlink": null,
+      "level": 2
     },
     {
       "self_ref": "#/texts/9",
@@ -353,20 +410,383 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 1314.8688,
-            "t": 475.8518200000001,
-            "r": 1544.7343999999998,
-            "b": 456.456508,
+            "l": 125.01760000000002,
+            "t": 784.1216,
+            "r": 276.5856,
+            "b": 742.8112000000001,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            34
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "Add an image of your example here.",
+      "text": "Add an image of your example here.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 336.39167999999995,
+            "t": 756.2127999999999,
+            "r": 529.08736,
+            "b": 704.8847999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "(Scientific Notation here)",
+      "text": "(Scientific Notation here)",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 102.14591999999999,
+            "t": 643.4368,
+            "r": 550.83136,
+            "b": 603.8592,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            90
+          ]
+        }
+      ],
+      "orig": "Describe here how you will compare scientific notation if their powers of 10 are the same.",
+      "text": "Describe here how you will compare scientific notation if their powers of 10 are the same.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 337.01312,
+            "t": 527.4304000000002,
+            "r": 545.02528,
+            "b": 508.0783999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Mars' Surface Area",
+      "text": "Mars' Surface Area",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/13",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 336.71936000000005,
+            "t": 486.97119999999995,
+            "r": 516.3712,
+            "b": 424.9599999999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "1.45 × 108 square kilometers",
+      "text": "1.45 × 108 square kilometers",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/14",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 336.43712,
+            "t": 379.9488000000001,
+            "r": 512.6169600000001,
+            "b": 327.51520000000005,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            29
+          ]
+        }
+      ],
+      "orig": "(Description of your example)",
+      "text": "(Description of your example)",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/15",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 125.86304,
+            "t": 339.3904,
+            "r": 277.91168,
+            "b": 298.71039999999994,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Add an image of your example here.",
+      "text": "Add an image of your example here.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/16",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 336.84672,
+            "t": 313.39520000000016,
+            "r": 529.1136,
+            "b": 260.8912,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "(Scientific Notation here)",
+      "text": "(Scientific Notation here)",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 335.76448,
+            "t": 227.22399999999993,
+            "r": 512.3020799999999,
+            "b": 174.24,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "(Description of your example",
+      "text": "(Description of your example",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/18",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 124.72704,
+            "t": 186.9728,
+            "r": 277.19232,
+            "b": 146.7152000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            34
+          ]
+        }
+      ],
+      "orig": "Add an image of your example here.",
+      "text": "Add an image of your example here.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 336.63104,
+            "t": 159.04320000000007,
+            "r": 528.71552,
+            "b": 107.28800000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "(Scientific Notation here)",
+      "text": "(Scientific Notation here)",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 215.86687999999998,
+            "t": 36.937599999999975,
+            "r": 292.69248,
+            "b": 25.372800000000097,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "INSPIRED BY",
+      "text": "INSPIRED BY",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 337.50847999999996,
+            "t": 37.31680000000006,
+            "r": 424.86976,
+            "b": 20.243199999999888,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "mathspace",
+      "text": "mathspace",
       "formatting": null,
       "hyperlink": null
     }
@@ -385,15 +805,15 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 36.4672,
-            "t": 886.8749680000001,
-            "r": 488.85759999999993,
-            "b": 465.85628799999995,
+            "l": 129.48544,
+            "t": 1119.7328,
+            "r": 258.07872,
+            "b": 1022.2496,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            198
+            0
           ]
         }
       ],
@@ -407,7 +827,7 @@
           "provenance": "human",
           "predicted_classes": [
             {
-              "class_name": "person",
+              "class_name": "illustration",
               "confidence": 1.0
             }
           ]
@@ -427,10 +847,10 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 577.3504,
-            "t": 1325.390464,
-            "r": 1017.7696,
-            "b": 646.492744,
+            "l": 118.85056,
+            "t": 550.8592000000001,
+            "r": 271.36832,
+            "b": 400.9248,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -449,7 +869,7 @@
           "provenance": "human",
           "predicted_classes": [
             {
-              "class_name": "person",
+              "class_name": "illustration",
               "confidence": 1.0
             }
           ]
@@ -461,22 +881,18 @@
       "parent": {
         "cref": "#/body"
       },
-      "children": [
-        {
-          "cref": "#/pictures/3"
-        }
-      ],
-      "content_layer": "body",
+      "children": [],
+      "content_layer": "furniture",
       "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 1104.7856,
-            "t": 1517.220136,
-            "r": 1557.2800000000002,
-            "b": 880.825984,
+            "l": 304.28096,
+            "t": 40.67360000000008,
+            "r": 329.33632,
+            "b": 22.443199999999933,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -495,7 +911,7 @@
           "provenance": "human",
           "predicted_classes": [
             {
-              "class_name": "person",
+              "class_name": "other",
               "confidence": 1.0
             }
           ]
@@ -505,24 +921,20 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "cref": "#/pictures/2"
+        "cref": "#/body"
       },
-      "children": [
-        {
-          "cref": "#/texts/6"
-        }
-      ],
-      "content_layer": "body",
+      "children": [],
+      "content_layer": "background",
       "meta": null,
       "label": "picture",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 1413.808,
-            "t": 1524.09106,
-            "r": 1545.1152,
-            "b": 1433.743168,
+            "l": 557.14368,
+            "t": 1581.9024,
+            "r": 639.99936,
+            "b": 1426.4,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -541,7 +953,7 @@
           "provenance": "human",
           "predicted_classes": [
             {
-              "class_name": "logo",
+              "class_name": "decoration",
               "confidence": 1.0
             }
           ]
@@ -561,10 +973,10 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 953.7584,
-            "t": 1541.603944,
-            "r": 1013.9519999999999,
-            "b": 1432.446604,
+            "l": 7.1372800000000005,
+            "t": 1552.168,
+            "r": 163.0464,
+            "b": 1550.1856,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -583,7 +995,7 @@
           "provenance": "human",
           "predicted_classes": [
             {
-              "class_name": "other",
+              "class_name": "decoration",
               "confidence": 1.0
             }
           ]
@@ -603,10 +1015,10 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 66.8928,
-            "t": 542.1409719999999,
-            "r": 127.0864,
-            "b": 432.20742399999995,
+            "l": 532.21632,
+            "t": 1388.3184,
+            "r": 616.2336,
+            "b": 1215.3856,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -625,7 +1037,217 @@
           "provenance": "human",
           "predicted_classes": [
             {
-              "class_name": "other",
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/6",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": -0.00384,
+            "t": 1375.288,
+            "r": 107.13856,
+            "b": 1219.1104,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/7",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 600.11776,
+            "t": 757.9744,
+            "r": 639.9859200000001,
+            "b": 683.2592,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/8",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": -0.027520000000000003,
+            "t": 417.3263999999999,
+            "r": 64.96128,
+            "b": 324.6543999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/9",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 0.0006399999999999999,
+            "t": 222.10079999999994,
+            "r": 128.27136,
+            "b": 0.0,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
+              "confidence": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "self_ref": "#/pictures/10",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "background",
+      "meta": null,
+      "label": "picture",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 468.56960000000004,
+            "t": 216.17599999999993,
+            "r": 640.0102400000001,
+            "b": 21.86559999999986,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            8
+          ]
+        }
+      ],
+      "captions": [],
+      "references": [],
+      "footnotes": [],
+      "image": null,
+      "annotations": [
+        {
+          "kind": "classification",
+          "provenance": "human",
+          "predicted_classes": [
+            {
+              "class_name": "decoration",
               "confidence": 1.0
             }
           ]

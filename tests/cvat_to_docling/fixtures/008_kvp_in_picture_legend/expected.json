@@ -50,7 +50,7 @@
         "cref": "#/pictures/9"
       },
       {
-        "cref": "#/texts/24"
+        "cref": "#/texts/20"
       },
       {
         "cref": "#/key_value_items/0"
@@ -519,66 +519,6 @@
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/pictures/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 330.582,
-            "t": 572.7819,
-            "r": 452.05856000000006,
-            "b": 541.95606,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            38
-          ]
-        }
-      ],
-      "orig": "Beneficial ownership by fund type 2003",
-      "text": "Beneficial ownership by fund type 2003",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "cref": "#/pictures/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 842.16232,
-            "t": 572.74884,
-            "r": 962.5264000000001,
-            "b": 541.923,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            38
-          ]
-        }
-      ],
-      "orig": "Beneficial ownership by fund type 2002",
-      "text": "Beneficial ownership by fund type 2002",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
         "cref": "#/pictures/9"
       },
       "children": [],
@@ -607,7 +547,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/16",
       "parent": {
         "cref": "#/pictures/9"
       },
@@ -637,7 +577,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/17",
       "parent": {
         "cref": "#/pictures/9"
       },
@@ -667,7 +607,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/18",
       "parent": {
         "cref": "#/pictures/9"
       },
@@ -697,7 +637,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/19",
       "parent": {
         "cref": "#/pictures/9"
       },
@@ -727,7 +667,97 @@
       "hyperlink": null
     },
     {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "furniture",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 95.1932,
+            "t": 63.96587999999997,
+            "r": 115.27768,
+            "b": 50.183340000000044,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            2
+          ]
+        }
+      ],
+      "orig": "90",
+      "text": "90",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "cref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 330.582,
+            "t": 572.7819,
+            "r": 452.05856000000006,
+            "b": 541.95606,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Beneficial ownership by fund type 2003",
+      "text": "Beneficial ownership by fund type 2003",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
       "self_ref": "#/texts/22",
+      "parent": {
+        "cref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 842.16232,
+            "t": 572.74884,
+            "r": 962.5264000000001,
+            "b": 541.923,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            38
+          ]
+        }
+      ],
+      "orig": "Beneficial ownership by fund type 2002",
+      "text": "Beneficial ownership by fund type 2002",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/23",
       "parent": {
         "cref": "#/pictures/9"
       },
@@ -757,7 +787,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/24",
       "parent": {
         "cref": "#/pictures/9"
       },
@@ -783,36 +813,6 @@
       ],
       "orig": "Beneficial ownership by geographic region 2002",
       "text": "Beneficial ownership by geographic region 2002",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/24",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 95.1932,
-            "t": 63.96587999999997,
-            "r": 115.27768,
-            "b": 50.183340000000044,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            2
-          ]
-        }
-      ],
-      "orig": "90",
-      "text": "90",
       "formatting": null,
       "hyperlink": null
     },
@@ -903,10 +903,10 @@
           "cref": "#/pictures/8"
         },
         {
-          "cref": "#/texts/15"
+          "cref": "#/texts/21"
         },
         {
-          "cref": "#/texts/16"
+          "cref": "#/texts/22"
         }
       ],
       "content_layer": "body",
@@ -1288,40 +1288,40 @@
       },
       "children": [
         {
-          "cref": "#/texts/17"
+          "cref": "#/texts/15"
         },
         {
           "cref": "#/pictures/10"
         },
         {
-          "cref": "#/texts/18"
+          "cref": "#/texts/16"
         },
         {
           "cref": "#/pictures/11"
         },
         {
-          "cref": "#/texts/19"
+          "cref": "#/texts/17"
         },
         {
           "cref": "#/pictures/12"
         },
         {
-          "cref": "#/texts/20"
+          "cref": "#/texts/18"
         },
         {
           "cref": "#/pictures/13"
         },
         {
-          "cref": "#/texts/21"
+          "cref": "#/texts/19"
         },
         {
           "cref": "#/pictures/14"
         },
         {
-          "cref": "#/texts/22"
+          "cref": "#/texts/23"
         },
         {
-          "cref": "#/texts/23"
+          "cref": "#/texts/24"
         }
       ],
       "content_layer": "body",
@@ -3825,7 +3825,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/17"
+              "cref": "#/texts/15"
             }
           },
           {
@@ -3871,7 +3871,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/18"
+              "cref": "#/texts/16"
             }
           },
           {
@@ -3917,7 +3917,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/19"
+              "cref": "#/texts/17"
             }
           },
           {
@@ -3963,7 +3963,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/20"
+              "cref": "#/texts/18"
             }
           },
           {
@@ -4009,7 +4009,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/21"
+              "cref": "#/texts/19"
             }
           }
         ],
