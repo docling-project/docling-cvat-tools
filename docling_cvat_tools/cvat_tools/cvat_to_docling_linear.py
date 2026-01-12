@@ -636,7 +636,7 @@ class CVATToDoclingConverter:
 
         print("==========================================")
         print(global_order)
-        print("==========================================")        
+        print("==========================================")
 
         # Process elements in reading order, building list hierarchy on-demand
         self._process_elements_in_order_linear(global_order)
