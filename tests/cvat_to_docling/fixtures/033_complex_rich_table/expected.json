@@ -32,7 +32,7 @@
         "cref": "#/tables/0"
       },
       {
-        "cref": "#/texts/4"
+        "cref": "#/texts/12"
       },
       {
         "cref": "#/groups/0"
@@ -41,10 +41,10 @@
         "cref": "#/pictures/1"
       },
       {
-        "cref": "#/texts/9"
+        "cref": "#/texts/17"
       },
       {
-        "cref": "#/texts/10"
+        "cref": "#/texts/18"
       },
       {
         "cref": "#/key_value_items/0"
@@ -63,8 +63,44 @@
       },
       "children": [
         {
-          "cref": "#/texts/5"
+          "cref": "#/texts/13"
         },
+        {
+          "cref": "#/texts/14"
+        },
+        {
+          "cref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group_1",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "cref": "#/tables/0"
+      },
+      "children": [
+        {
+          "cref": "#/texts/4"
+        },
+        {
+          "cref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "rich_cell_group_0_2_1",
+      "label": "unspecified"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "cref": "#/tables/0"
+      },
+      "children": [
         {
           "cref": "#/texts/6"
         },
@@ -74,8 +110,44 @@
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "group_1",
-      "label": "list"
+      "name": "rich_cell_group_0_2_7",
+      "label": "unspecified"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "cref": "#/tables/0"
+      },
+      "children": [
+        {
+          "cref": "#/texts/8"
+        },
+        {
+          "cref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "rich_cell_group_0_2_10",
+      "label": "unspecified"
+    },
+    {
+      "self_ref": "#/groups/4",
+      "parent": {
+        "cref": "#/tables/0"
+      },
+      "children": [
+        {
+          "cref": "#/texts/10"
+        },
+        {
+          "cref": "#/texts/11"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "rich_cell_group_0_2_12",
+      "label": "unspecified"
     }
   ],
   "texts": [
@@ -203,6 +275,246 @@
     {
       "self_ref": "#/texts/4",
       "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 704.9826750000001,
+            "t": 1123.982432,
+            "r": 1131.47382,
+            "b": 1080.222008,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            43
+          ]
+        }
+      ],
+      "orig": "and dated forms listed in the column to the",
+      "text": "and dated forms listed in the column to the",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 705.686556,
+            "t": 1073.01954,
+            "r": 1132.177701,
+            "b": 1029.259116,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Submission. To be uploaded in section concerned in e-",
+      "text": "Submission. To be uploaded in section concerned in e-",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 703.340286,
+            "t": 994.3346399999999,
+            "r": 1136.686827,
+            "b": 873.241568,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            183
+          ]
+        }
+      ],
+      "orig": "Sole tenderers, members of a Group of economic operators (e.g. consortium) including subcontractors - if applicable - to selection criteria. must provide the documentation in relation",
+      "text": "Sole tenderers, members of a Group of economic operators (e.g. consortium) including subcontractors - if applicable - to selection criteria. must provide the documentation in relation",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 706.567896,
+            "t": 867.544596,
+            "r": 1131.906153,
+            "b": 821.813892,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Submission. To be uploaded in section concerned in e-",
+      "text": "Submission. To be uploaded in section concerned in e-",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "cref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 705.3375930000001,
+            "t": 788.511108,
+            "r": 1133.322252,
+            "b": 744.7506839999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            71
+          ]
+        }
+      ],
+      "orig": "down in 'Terms of Reference'. It must address all the requirements laid",
+      "text": "down in 'Terms of Reference'. It must address all the requirements laid",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "cref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 706.228461,
+            "t": 737.856388,
+            "r": 1132.646955,
+            "b": 694.0959639999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Submission. To be uploaded in section concerned in e-",
+      "text": "Submission. To be uploaded in section concerned in e-",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "cref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 704.6480039999999,
+            "t": 634.6490800000001,
+            "r": 1133.608092,
+            "b": 585.9629560000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            49
+          ]
+        }
+      ],
+      "orig": "proposal form. The completed and signed financial",
+      "text": "proposal form. The completed and signed financial",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "cref": "#/groups/4"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 706.2248880000001,
+            "t": 583.7990160000002,
+            "r": 1132.413519,
+            "b": 540.584208,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            53
+          ]
+        }
+      ],
+      "orig": "Submission. To be uploaded in section concerned in e-",
+      "text": "Submission. To be uploaded in section concerned in e-",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/12",
+      "parent": {
         "cref": "#/body"
       },
       "children": [],
@@ -231,7 +543,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/13",
       "parent": {
         "cref": "#/groups/0"
       },
@@ -263,7 +575,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/14",
       "parent": {
         "cref": "#/groups/0"
       },
@@ -295,7 +607,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/15",
       "parent": {
         "cref": "#/groups/0"
       },
@@ -327,7 +639,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/16",
       "parent": {
         "cref": "#/pictures/1"
       },
@@ -357,7 +669,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/17",
       "parent": {
         "cref": "#/body"
       },
@@ -387,7 +699,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/18",
       "parent": {
         "cref": "#/body"
       },
@@ -413,246 +725,6 @@
       ],
       "orig": "Page 20 of 21",
       "text": "Page 20 of 21",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 704.9826750000001,
-            "t": 1123.982432,
-            "r": 1131.47382,
-            "b": 1080.222008,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            43
-          ]
-        }
-      ],
-      "orig": "and dated forms listed in the column to the",
-      "text": "and dated forms listed in the column to the",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 705.686556,
-            "t": 1073.01954,
-            "r": 1132.177701,
-            "b": 1029.259116,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            53
-          ]
-        }
-      ],
-      "orig": "Submission. To be uploaded in section concerned in e-",
-      "text": "Submission. To be uploaded in section concerned in e-",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 703.340286,
-            "t": 994.3346399999999,
-            "r": 1136.686827,
-            "b": 873.241568,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            183
-          ]
-        }
-      ],
-      "orig": "Sole tenderers, members of a Group of economic operators (e.g. consortium) including subcontractors - if applicable - to selection criteria. must provide the documentation in relation",
-      "text": "Sole tenderers, members of a Group of economic operators (e.g. consortium) including subcontractors - if applicable - to selection criteria. must provide the documentation in relation",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 706.567896,
-            "t": 867.544596,
-            "r": 1131.906153,
-            "b": 821.813892,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            53
-          ]
-        }
-      ],
-      "orig": "Submission. To be uploaded in section concerned in e-",
-      "text": "Submission. To be uploaded in section concerned in e-",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 705.3375930000001,
-            "t": 788.511108,
-            "r": 1133.322252,
-            "b": 744.7506839999999,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            71
-          ]
-        }
-      ],
-      "orig": "down in 'Terms of Reference'. It must address all the requirements laid",
-      "text": "down in 'Terms of Reference'. It must address all the requirements laid",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 706.228461,
-            "t": 737.856388,
-            "r": 1132.646955,
-            "b": 694.0959639999999,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            53
-          ]
-        }
-      ],
-      "orig": "Submission. To be uploaded in section concerned in e-",
-      "text": "Submission. To be uploaded in section concerned in e-",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 704.6480039999999,
-            "t": 634.6490800000001,
-            "r": 1133.608092,
-            "b": 585.9629560000001,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            49
-          ]
-        }
-      ],
-      "orig": "proposal form. The completed and signed financial",
-      "text": "proposal form. The completed and signed financial",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/18",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 706.2248880000001,
-            "t": 583.7990160000002,
-            "r": 1132.413519,
-            "b": 540.584208,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            53
-          ]
-        }
-      ],
-      "orig": "Submission. To be uploaded in section concerned in e-",
-      "text": "Submission. To be uploaded in section concerned in e-",
       "formatting": null,
       "hyperlink": null
     }
@@ -711,7 +783,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/8"
+          "cref": "#/texts/16"
         }
       ],
       "content_layer": "furniture",
@@ -757,7 +829,20 @@
       "parent": {
         "cref": "#/body"
       },
-      "children": [],
+      "children": [
+        {
+          "cref": "#/groups/1"
+        },
+        {
+          "cref": "#/groups/2"
+        },
+        {
+          "cref": "#/groups/3"
+        },
+        {
+          "cref": "#/groups/4"
+        }
+      ],
       "content_layer": "body",
       "meta": null,
       "label": "table",
@@ -784,13 +869,7 @@
       "data": {
         "table_cells": [
           {
-            "bbox": {
-              "l": 693.453795,
-              "t": 452.719824,
-              "r": 1143.2682929999999,
-              "b": 659.644692,
-              "coord_origin": "TOPLEFT"
-            },
+            "bbox": null,
             "row_span": 5,
             "col_span": 1,
             "start_row_offset_idx": 1,
@@ -801,16 +880,13 @@
             "column_header": false,
             "row_header": false,
             "row_section": false,
-            "fillable": false
+            "fillable": false,
+            "ref": {
+              "cref": "#/groups/1"
+            }
           },
           {
-            "bbox": {
-              "l": 693.453795,
-              "t": 686.965908,
-              "r": 1143.2682929999999,
-              "b": 863.1459880000001,
-              "coord_origin": "TOPLEFT"
-            },
+            "bbox": null,
             "row_span": 2,
             "col_span": 1,
             "start_row_offset_idx": 7,
@@ -821,7 +897,10 @@
             "column_header": false,
             "row_header": false,
             "row_section": false,
-            "fillable": false
+            "fillable": false,
+            "ref": {
+              "cref": "#/groups/2"
+            }
           },
           {
             "bbox": {
@@ -1324,13 +1403,7 @@
             "fillable": false
           },
           {
-            "bbox": {
-              "l": 693.453795,
-              "t": 891.7975640000001,
-              "r": 1143.2682929999999,
-              "b": 1019.195532,
-              "coord_origin": "TOPLEFT"
-            },
+            "bbox": null,
             "row_span": 1,
             "col_span": 1,
             "start_row_offset_idx": 10,
@@ -1341,7 +1414,10 @@
             "column_header": false,
             "row_header": false,
             "row_section": false,
-            "fillable": false
+            "fillable": false,
+            "ref": {
+              "cref": "#/groups/3"
+            }
           },
           {
             "bbox": {
@@ -1444,13 +1520,7 @@
             "fillable": false
           },
           {
-            "bbox": {
-              "l": 693.453795,
-              "t": 1044.8849519999999,
-              "r": 1143.2349450000002,
-              "b": 1147.758828,
-              "coord_origin": "TOPLEFT"
-            },
+            "bbox": null,
             "row_span": 1,
             "col_span": 1,
             "start_row_offset_idx": 12,
@@ -1461,7 +1531,10 @@
             "column_header": false,
             "row_header": false,
             "row_section": false,
-            "fillable": false
+            "fillable": false,
+            "ref": {
+              "cref": "#/groups/4"
+            }
           },
           {
             "bbox": {
@@ -1631,13 +1704,7 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 693.453795,
-                "t": 452.719824,
-                "r": 1143.2682929999999,
-                "b": 659.644692,
-                "coord_origin": "TOPLEFT"
-              },
+              "bbox": null,
               "row_span": 5,
               "col_span": 1,
               "start_row_offset_idx": 1,
@@ -1693,13 +1760,7 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 693.453795,
-                "t": 452.719824,
-                "r": 1143.2682929999999,
-                "b": 659.644692,
-                "coord_origin": "TOPLEFT"
-              },
+              "bbox": null,
               "row_span": 5,
               "col_span": 1,
               "start_row_offset_idx": 1,
@@ -1755,13 +1816,7 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 693.453795,
-                "t": 452.719824,
-                "r": 1143.2682929999999,
-                "b": 659.644692,
-                "coord_origin": "TOPLEFT"
-              },
+              "bbox": null,
               "row_span": 5,
               "col_span": 1,
               "start_row_offset_idx": 1,
@@ -1817,13 +1872,7 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 693.453795,
-                "t": 452.719824,
-                "r": 1143.2682929999999,
-                "b": 659.644692,
-                "coord_origin": "TOPLEFT"
-              },
+              "bbox": null,
               "row_span": 5,
               "col_span": 1,
               "start_row_offset_idx": 1,
@@ -1879,13 +1928,7 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 693.453795,
-                "t": 452.719824,
-                "r": 1143.2682929999999,
-                "b": 659.644692,
-                "coord_origin": "TOPLEFT"
-              },
+              "bbox": null,
               "row_span": 5,
               "col_span": 1,
               "start_row_offset_idx": 1,
@@ -2003,13 +2046,7 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 693.453795,
-                "t": 686.965908,
-                "r": 1143.2682929999999,
-                "b": 863.1459880000001,
-                "coord_origin": "TOPLEFT"
-              },
+              "bbox": null,
               "row_span": 2,
               "col_span": 1,
               "start_row_offset_idx": 7,
@@ -2065,13 +2102,7 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 693.453795,
-                "t": 686.965908,
-                "r": 1143.2682929999999,
-                "b": 863.1459880000001,
-                "coord_origin": "TOPLEFT"
-              },
+              "bbox": null,
               "row_span": 2,
               "col_span": 1,
               "start_row_offset_idx": 7,
@@ -2189,13 +2220,7 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 693.453795,
-                "t": 891.7975640000001,
-                "r": 1143.2682929999999,
-                "b": 1019.195532,
-                "coord_origin": "TOPLEFT"
-              },
+              "bbox": null,
               "row_span": 1,
               "col_span": 1,
               "start_row_offset_idx": 10,
@@ -2313,13 +2338,7 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 693.453795,
-                "t": 1044.8849519999999,
-                "r": 1143.2349450000002,
-                "b": 1147.758828,
-                "coord_origin": "TOPLEFT"
-              },
+              "bbox": null,
               "row_span": 1,
               "col_span": 1,
               "start_row_offset_idx": 12,

@@ -23,13 +23,13 @@
         "cref": "#/tables/0"
       },
       {
-        "cref": "#/texts/2"
+        "cref": "#/texts/6"
       },
       {
         "cref": "#/tables/1"
       },
       {
-        "cref": "#/texts/3"
+        "cref": "#/texts/8"
       }
     ],
     "content_layer": "body",
@@ -45,16 +45,16 @@
       },
       "children": [
         {
+          "cref": "#/groups/7"
+        },
+        {
+          "cref": "#/groups/6"
+        },
+        {
+          "cref": "#/groups/5"
+        },
+        {
           "cref": "#/groups/4"
-        },
-        {
-          "cref": "#/groups/3"
-        },
-        {
-          "cref": "#/groups/2"
-        },
-        {
-          "cref": "#/groups/1"
         }
       ],
       "content_layer": "body",
@@ -64,6 +64,63 @@
     },
     {
       "self_ref": "#/groups/1",
+      "parent": {
+        "cref": "#/tables/0"
+      },
+      "children": [
+        {
+          "cref": "#/texts/2"
+        },
+        {
+          "cref": "#/texts/3"
+        },
+        {
+          "cref": "#/texts/4"
+        },
+        {
+          "cref": "#/texts/5"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "rich_cell_group_0_1_2",
+      "label": "unspecified"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "cref": "#/tables/1"
+      },
+      "children": [
+        {
+          "cref": "#/texts/7"
+        },
+        {
+          "cref": "#/groups/3"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "rich_cell_group_1_1_2",
+      "label": "unspecified"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [
+        {
+          "cref": "#/texts/9"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
       "parent": {
         "cref": "#/groups/0"
       },
@@ -78,7 +135,7 @@
       "label": "list"
     },
     {
-      "self_ref": "#/groups/2",
+      "self_ref": "#/groups/5",
       "parent": {
         "cref": "#/groups/0"
       },
@@ -93,7 +150,7 @@
       "label": "list"
     },
     {
-      "self_ref": "#/groups/3",
+      "self_ref": "#/groups/6",
       "parent": {
         "cref": "#/groups/0"
       },
@@ -108,7 +165,7 @@
       "label": "list"
     },
     {
-      "self_ref": "#/groups/4",
+      "self_ref": "#/groups/7",
       "parent": {
         "cref": "#/groups/0"
       },
@@ -187,6 +244,126 @@
     {
       "self_ref": "#/texts/2",
       "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 327.372552,
+            "t": 1184.52558,
+            "r": 1038.000567,
+            "b": 1044.581812,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            377
+          ]
+        }
+      ],
+      "orig": "Tenderers must provide  minimum 10 (and in any case no more  than  20)  contract  references .  Evidence  must  be  provided  in  the  form  of  a  filled-in  contract  reference  per  project.  For  each  contract  reference  the  use  of  the  templates  provided  in  Annex  09   to  this  document is mandatory. Only references submitted on these forms will  be considered.",
+      "text": "Tenderers must provide  minimum 10 (and in any case no more  than  20)  contract  references .  Evidence  must  be  provided  in  the  form  of  a  filled-in  contract  reference  per  project.  For  each  contract  reference  the  use  of  the  templates  provided  in  Annex  09   to  this  document is mandatory. Only references submitted on these forms will  be considered.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/3",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 327.14387999999997,
+            "t": 1014.9316239999999,
+            "r": 1037.771895,
+            "b": 895.83746,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            349
+          ]
+        }
+      ],
+      "orig": "Tenderers who fail to provide a description, or who only provide generic  content,  which  does  not  specifically  describe  the  relevance  of  the  contract  reference  with  regard  to  the  minimum  level  of  capacity  detailed  above,  will  be  considered  as  not  having  the  technical  and  professional capacity to perform the contract.",
+      "text": "Tenderers who fail to provide a description, or who only provide generic  content,  which  does  not  specifically  describe  the  relevance  of  the  contract  reference  with  regard  to  the  minimum  level  of  capacity  detailed  above,  will  be  considered  as  not  having  the  technical  and  professional capacity to perform the contract.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 327.140307,
+            "t": 868.6341239999999,
+            "r": 1037.768322,
+            "b": 629.583588,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            716
+          ]
+        }
+      ],
+      "orig": "The references must concern at least 3 different clients. Departments,  divisions, directorates, and other entities of a same body (including the  same EU Institution)  will  be  regarded  as  the  same  client.  Each  EU  Institution (including an EU agency) is considered a different client.   Under a framework contract (or framework contracts) with different  specific  contracts,  a  specific  contract  (alone  or  in  combination  with  other specific contracts) can be used only once (i.e. it will be considered  as a single reference). In case of a joint tender, the same reference  contract  cannot  be  submitted  as  a  separate  contract  reference  by  different economic operators for the same tender.",
+      "text": "The references must concern at least 3 different clients. Departments,  divisions, directorates, and other entities of a same body (including the  same EU Institution)  will  be  regarded  as  the  same  client.  Each  EU  Institution (including an EU agency) is considered a different client.   Under a framework contract (or framework contracts) with different  specific  contracts,  a  specific  contract  (alone  or  in  combination  with  other specific contracts) can be used only once (i.e. it will be considered  as a single reference). In case of a joint tender, the same reference  contract  cannot  be  submitted  as  a  separate  contract  reference  by  different economic operators for the same tender.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 326.438808,
+            "t": 597.2474199999999,
+            "r": 1039.603653,
+            "b": 430.704872,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            477
+          ]
+        }
+      ],
+      "orig": "The Contracting Authority may request  statements issued by the  clients , public or private, as supporting documents for each contract  reference. These documents should be ready to be provided within five  working  days  of  the  Contracting  Authority 's   request.  The  contact  persons for the customers indicated in the contract reference form may  be contacted in the context of this call for tenders to crosscheck the  validity of the information provided as evidence.",
+      "text": "The Contracting Authority may request  statements issued by the  clients , public or private, as supporting documents for each contract  reference. These documents should be ready to be provided within five  working  days  of  the  Contracting  Authority 's   request.  The  contact  persons for the customers indicated in the contract reference form may  be contacted in the context of this call for tenders to crosscheck the  validity of the information provided as evidence.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
         "cref": "#/body"
       },
       "children": [],
@@ -216,7 +393,37 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/3",
+      "self_ref": "#/texts/7",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 307.21725899999996,
+            "t": 260.4238439999999,
+            "r": 991.818351,
+            "b": 215.6344959999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "The tenderer must be certified in the following ISO standards in the  areas covered by this call for tenders:",
+      "text": "The tenderer must be certified in the following ISO standards in the  areas covered by this call for tenders:",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/8",
       "parent": {
         "cref": "#/body"
       },
@@ -246,159 +453,9 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 327.372552,
-            "t": 1184.52558,
-            "r": 1038.000567,
-            "b": 1044.581812,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            377
-          ]
-        }
-      ],
-      "orig": "Tenderers must provide  minimum 10 (and in any case no more  than  20)  contract  references .  Evidence  must  be  provided  in  the  form  of  a  filled-in  contract  reference  per  project.  For  each  contract  reference  the  use  of  the  templates  provided  in  Annex  09   to  this  document is mandatory. Only references submitted on these forms will  be considered.",
-      "text": "Tenderers must provide  minimum 10 (and in any case no more  than  20)  contract  references .  Evidence  must  be  provided  in  the  form  of  a  filled-in  contract  reference  per  project.  For  each  contract  reference  the  use  of  the  templates  provided  in  Annex  09   to  this  document is mandatory. Only references submitted on these forms will  be considered.",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 327.14387999999997,
-            "t": 1014.9316239999999,
-            "r": 1037.771895,
-            "b": 895.83746,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            349
-          ]
-        }
-      ],
-      "orig": "Tenderers who fail to provide a description, or who only provide generic  content,  which  does  not  specifically  describe  the  relevance  of  the  contract  reference  with  regard  to  the  minimum  level  of  capacity  detailed  above,  will  be  considered  as  not  having  the  technical  and  professional capacity to perform the contract.",
-      "text": "Tenderers who fail to provide a description, or who only provide generic  content,  which  does  not  specifically  describe  the  relevance  of  the  contract  reference  with  regard  to  the  minimum  level  of  capacity  detailed  above,  will  be  considered  as  not  having  the  technical  and  professional capacity to perform the contract.",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 327.140307,
-            "t": 868.6341239999999,
-            "r": 1037.768322,
-            "b": 629.583588,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            716
-          ]
-        }
-      ],
-      "orig": "The references must concern at least 3 different clients. Departments,  divisions, directorates, and other entities of a same body (including the  same EU Institution)  will  be  regarded  as  the  same  client.  Each  EU  Institution (including an EU agency) is considered a different client.   Under a framework contract (or framework contracts) with different  specific  contracts,  a  specific  contract  (alone  or  in  combination  with  other specific contracts) can be used only once (i.e. it will be considered  as a single reference). In case of a joint tender, the same reference  contract  cannot  be  submitted  as  a  separate  contract  reference  by  different economic operators for the same tender.",
-      "text": "The references must concern at least 3 different clients. Departments,  divisions, directorates, and other entities of a same body (including the  same EU Institution)  will  be  regarded  as  the  same  client.  Each  EU  Institution (including an EU agency) is considered a different client.   Under a framework contract (or framework contracts) with different  specific  contracts,  a  specific  contract  (alone  or  in  combination  with  other specific contracts) can be used only once (i.e. it will be considered  as a single reference). In case of a joint tender, the same reference  contract  cannot  be  submitted  as  a  separate  contract  reference  by  different economic operators for the same tender.",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/7",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 326.438808,
-            "t": 597.2474199999999,
-            "r": 1039.603653,
-            "b": 430.704872,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            477
-          ]
-        }
-      ],
-      "orig": "The Contracting Authority may request  statements issued by the  clients , public or private, as supporting documents for each contract  reference. These documents should be ready to be provided within five  working  days  of  the  Contracting  Authority 's   request.  The  contact  persons for the customers indicated in the contract reference form may  be contacted in the context of this call for tenders to crosscheck the  validity of the information provided as evidence.",
-      "text": "The Contracting Authority may request  statements issued by the  clients , public or private, as supporting documents for each contract  reference. These documents should be ready to be provided within five  working  days  of  the  Contracting  Authority 's   request.  The  contact  persons for the customers indicated in the contract reference form may  be contacted in the context of this call for tenders to crosscheck the  validity of the information provided as evidence.",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "cref": "#/tables/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 307.21725899999996,
-            "t": 260.4238439999999,
-            "r": 991.818351,
-            "b": 215.6344959999999,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            109
-          ]
-        }
-      ],
-      "orig": "The tenderer must be certified in the following ISO standards in the  areas covered by this call for tenders:",
-      "text": "The tenderer must be certified in the following ISO standards in the  areas covered by this call for tenders:",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "cref": "#/tables/1"
+        "cref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -430,7 +487,7 @@
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -462,7 +519,7 @@
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/groups/2"
+        "cref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
@@ -494,7 +551,7 @@
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/groups/3"
+        "cref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
@@ -526,7 +583,7 @@
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/4"
+        "cref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
@@ -616,6 +673,9 @@
       "children": [
         {
           "cref": "#/groups/0"
+        },
+        {
+          "cref": "#/groups/1"
         }
       ],
       "content_layer": "body",
@@ -741,13 +801,7 @@
             "fillable": false
           },
           {
-            "bbox": {
-              "l": 318.079179,
-              "t": 495.94136799999995,
-              "r": 1050.737121,
-              "b": 1254.88312,
-              "coord_origin": "TOPLEFT"
-            },
+            "bbox": null,
             "row_span": 1,
             "col_span": 1,
             "start_row_offset_idx": 2,
@@ -758,7 +812,10 @@
             "column_header": false,
             "row_header": false,
             "row_section": false,
-            "fillable": false
+            "fillable": false,
+            "ref": {
+              "cref": "#/groups/1"
+            }
           }
         ],
         "num_rows": 3,
@@ -864,13 +921,7 @@
               "fillable": false
             },
             {
-              "bbox": {
-                "l": 318.079179,
-                "t": 495.94136799999995,
-                "r": 1050.737121,
-                "b": 1254.88312,
-                "coord_origin": "TOPLEFT"
-              },
+              "bbox": null,
               "row_span": 1,
               "col_span": 1,
               "start_row_offset_idx": 2,
@@ -893,7 +944,11 @@
       "parent": {
         "cref": "#/body"
       },
-      "children": [],
+      "children": [
+        {
+          "cref": "#/groups/2"
+        }
+      ],
       "content_layer": "body",
       "meta": null,
       "label": "table",
@@ -1013,7 +1068,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/texts/9"
+              "cref": "#/groups/2"
             }
           }
         ],

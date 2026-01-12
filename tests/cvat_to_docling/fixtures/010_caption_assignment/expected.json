@@ -26,10 +26,10 @@
         "cref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/37"
+        "cref": "#/texts/38"
       },
       {
-        "cref": "#/texts/38"
+        "cref": "#/texts/39"
       },
       {
         "cref": "#/key_value_items/0"
@@ -1155,6 +1155,36 @@
     {
       "self_ref": "#/texts/37",
       "parent": {
+        "cref": "#/pictures/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 763.528072,
+            "t": 688.8843,
+            "r": 873.31728,
+            "b": 669.65454,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            0
+          ]
+        }
+      ],
+      "orig": "",
+      "text": "",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
         "cref": "#/body"
       },
       "children": [],
@@ -1183,7 +1213,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/38",
+      "self_ref": "#/texts/39",
       "parent": {
         "cref": "#/body"
       },
@@ -1199,36 +1229,6 @@
             "t": 607.8158080000001,
             "r": 84.90610400000006,
             "b": 575.42993,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            0
-          ]
-        }
-      ],
-      "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/39",
-      "parent": {
-        "cref": "#/pictures/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 763.528072,
-            "t": 688.8843,
-            "r": 873.31728,
-            "b": 669.65454,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -1356,7 +1356,7 @@
           "cref": "#/texts/36"
         },
         {
-          "cref": "#/texts/39"
+          "cref": "#/texts/37"
         }
       ],
       "content_layer": "body",

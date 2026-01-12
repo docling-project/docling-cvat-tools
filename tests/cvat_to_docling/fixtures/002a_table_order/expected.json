@@ -29,7 +29,7 @@
         "cref": "#/tables/0"
       },
       {
-        "cref": "#/texts/2"
+        "cref": "#/texts/6"
       },
       {
         "cref": "#/groups/0"
@@ -38,7 +38,7 @@
         "cref": "#/tables/1"
       },
       {
-        "cref": "#/texts/5"
+        "cref": "#/texts/9"
       }
     ],
     "content_layer": "body",
@@ -54,7 +54,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/3"
+          "cref": "#/texts/7"
         }
       ],
       "content_layer": "body",
@@ -68,6 +68,9 @@
         "cref": "#/tables/0"
       },
       "children": [
+        {
+          "cref": "#/texts/2"
+        },
         {
           "cref": "#/groups/10"
         },
@@ -96,7 +99,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/7"
+          "cref": "#/texts/3"
         },
         {
           "cref": "#/groups/5"
@@ -298,133 +301,7 @@
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "footnote",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 241.62117,
-            "t": 1016.8463519999999,
-            "r": 917.61852,
-            "b": 993.876592,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            81
-          ]
-        }
-      ],
-      "orig": "1) Bei Türen gilt nach Tabelle 1 der DIN 4109-1 erforderliches Schalldämm-Maß Rw.",
-      "text": "1) Bei Türen gilt nach Tabelle 1 der DIN 4109-1 erforderliches Schalldämm-Maß Rw.",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/3",
-      "parent": {
-        "cref": "#/groups/0"
-      },
-      "children": [
-        {
-          "cref": "#/texts/4"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 140.56042,
-            "t": 906.940092,
-            "r": 1050.09765,
-            "b": 847.473,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            81
-          ]
-        }
-      ],
-      "orig": "Schalldämmung zwischen besonders lauten Räumen und schutzbedürftigen 4.2.4 Räumen",
-      "text": "Schalldämmung zwischen besonders lauten Räumen und schutzbedürftigen 4.2.4 Räumen",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/4",
-      "parent": {
-        "cref": "#/texts/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 239.56842,
-            "t": 793.2094679999999,
-            "r": 1049.18611,
-            "b": 694.501808,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            218
-          ]
-        }
-      ],
-      "orig": "Für die Luft- und Trittschalldämmung von Bauteilen zwischen besonders lauten Technikräumen (z. B. 5. Obergeschoss) und schutzbedürftigen Räumen (Betten- zimmern) sind gemäß DIN 4109-1 folgende Anforderungen zu stellen:",
-      "text": "Für die Luft- und Trittschalldämmung von Bauteilen zwischen besonders lauten Technikräumen (z. B. 5. Obergeschoss) und schutzbedürftigen Räumen (Betten- zimmern) sind gemäß DIN 4109-1 folgende Anforderungen zu stellen:",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/5",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "footnote",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 241.55453,
-            "t": 377.60332000000017,
-            "r": 1048.09012,
-            "b": 336.95156,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            107
-          ]
-        }
-      ],
-      "orig": "1) Nicht erforderlich, wenn geräuscherzeugende Anlagen ausreichend köperschallgedämmt aufge- stellt werden.",
-      "text": "1) Nicht erforderlich, wenn geräuscherzeugende Anlagen ausreichend köperschallgedämmt aufge- stellt werden.",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/6",
-      "parent": {
-        "cref": "#/tables/0"
+        "cref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -452,7 +329,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/3",
       "parent": {
         "cref": "#/groups/2"
       },
@@ -482,7 +359,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/12",
       "parent": {
         "cref": "#/tables/0"
       },
@@ -512,7 +389,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/13",
       "parent": {
         "cref": "#/tables/0"
       },
@@ -538,6 +415,132 @@
       ],
       "orig": "Türen in Wänden nach Zeile 2",
       "text": "Türen in Wänden nach Zeile 2",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 241.62117,
+            "t": 1016.8463519999999,
+            "r": 917.61852,
+            "b": 993.876592,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            81
+          ]
+        }
+      ],
+      "orig": "1) Bei Türen gilt nach Tabelle 1 der DIN 4109-1 erforderliches Schalldämm-Maß Rw.",
+      "text": "1) Bei Türen gilt nach Tabelle 1 der DIN 4109-1 erforderliches Schalldämm-Maß Rw.",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [
+        {
+          "cref": "#/texts/8"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 140.56042,
+            "t": 906.940092,
+            "r": 1050.09765,
+            "b": 847.473,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            81
+          ]
+        }
+      ],
+      "orig": "Schalldämmung zwischen besonders lauten Räumen und schutzbedürftigen 4.2.4 Räumen",
+      "text": "Schalldämmung zwischen besonders lauten Räumen und schutzbedürftigen 4.2.4 Räumen",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "cref": "#/texts/7"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 239.56842,
+            "t": 793.2094679999999,
+            "r": 1049.18611,
+            "b": 694.501808,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            218
+          ]
+        }
+      ],
+      "orig": "Für die Luft- und Trittschalldämmung von Bauteilen zwischen besonders lauten Technikräumen (z. B. 5. Obergeschoss) und schutzbedürftigen Räumen (Betten- zimmern) sind gemäß DIN 4109-1 folgende Anforderungen zu stellen:",
+      "text": "Für die Luft- und Trittschalldämmung von Bauteilen zwischen besonders lauten Technikräumen (z. B. 5. Obergeschoss) und schutzbedürftigen Räumen (Betten- zimmern) sind gemäß DIN 4109-1 folgende Anforderungen zu stellen:",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "footnote",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 241.55453,
+            "t": 377.60332000000017,
+            "r": 1048.09012,
+            "b": 336.95156,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            107
+          ]
+        }
+      ],
+      "orig": "1) Nicht erforderlich, wenn geräuscherzeugende Anlagen ausreichend köperschallgedämmt aufge- stellt werden.",
+      "text": "1) Nicht erforderlich, wenn geräuscherzeugende Anlagen ausreichend köperschallgedämmt aufge- stellt werden.",
       "formatting": null,
       "hyperlink": null
     },
@@ -1156,7 +1159,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/texts/8"
+              "cref": "#/texts/4"
             }
           },
           {
@@ -1213,7 +1216,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/texts/9"
+              "cref": "#/texts/5"
             }
           },
           {

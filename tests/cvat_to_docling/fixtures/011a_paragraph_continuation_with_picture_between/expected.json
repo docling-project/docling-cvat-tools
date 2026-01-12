@@ -26,13 +26,13 @@
         "cref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/15"
+        "cref": "#/texts/19"
       },
       {
-        "cref": "#/texts/16"
+        "cref": "#/texts/20"
       },
       {
-        "cref": "#/texts/17"
+        "cref": "#/texts/21"
       },
       {
         "cref": "#/key_value_items/0"
@@ -550,96 +550,6 @@
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 633.7982159999999,
-            "t": 771.70896,
-            "r": 1124.77032,
-            "b": 584.524512,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            424
-          ]
-        }
-      ],
-      "orig": "and two electrons, where each MI represents a spin qubit. The result is compared to a two qubit system realized by two electrons in a DQD. The calculation is performed by using the quasi-static bath approximation [15-17], where the host nuclear spins are approximated by a random magnetic field glyph[vector] B n with a Gaussian distribution. In this limit the two-electron and two-MI nuclear bath Hamilto- nian are given by",
-      "text": "and two electrons, where each MI represents a spin qubit. The result is compared to a two qubit system realized by two electrons in a DQD. The calculation is performed by using the quasi-static bath approximation [15-17], where the host nuclear spins are approximated by a random magnetic field glyph[vector] B n with a Gaussian distribution. In this limit the two-electron and two-MI nuclear bath Hamilto- nian are given by",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "formula",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 776.333016,
-            "t": 564.404544,
-            "r": 1122.674832,
-            "b": 505.26273600000013,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            68
-          ]
-        }
-      ],
-      "orig": "H kn = 2 ∑ i =1 g k µ b glyph[vector] B n · glyph[vector] K i , (12)",
-      "text": "H kn = 2 ∑ i =1 g k µ b glyph[vector] B n · glyph[vector] K i , (12)",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 633.341664,
-            "t": 484.52659200000016,
-            "r": 1123.758072,
-            "b": 135.370224,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            1007
-          ]
-        }
-      ],
-      "orig": "where k = e , m and glyph[vector] K = glyph[vector] S, glyph[vector] M for electrons and MI, respectively. The coherence time is obtained by solving the equation of motion for glyph[vector] K 1 and glyph[vector] K 2 with initial state |↑↓〉 and by averaging over the Gaussian magnetic field distribution. From that we obtain 〈 B e 〉 = 〈 B m 〉 = 0, 〈 B 2 e 〉 = 1 / ( g e µ b ) 2 ∑ l I l ( I l +1) ˜ A 2 l | ϕ + ( R l ) | 4 , and 〈 B 2 m 〉 = 1 / ( g m µ b ) 2 ∑ l I l ( I l +1) ˜ A 2 l | ϕ + ( R l ) ϕ - ( R l ) | 2 . From there an effective Zeeman splitting ˜ ∆ k = (2 〈 B 2 k 〉 / 3) 1 / 2 is cal- culated, hence τ k = ¯ h/ ( g k µ b ˜ ∆ k ). Assuming I l = 1 / 2 we find the spin relaxation time τ e = ¯ h/ (2 A e ) and τ m = C ¯ h/ (2 A m ). Here A e = ( ∑ l ˜ A 2 l | ϕ + ( R l ) | 4 ) 1 / 2 , A m = ( ∑ l ˜ A 2 l | ϕ + ( R l ) ϕ - ( R l ) | 2 ) 1 / 2 , and C = ∆ e / [ γ 2 J em Λ( glyph[vector] R 1 , glyph[vector] R 2 )] is the RKKY correction to the MI coherence time, stems from the MI-nuclear-spin in-",
-      "text": "where k = e , m and glyph[vector] K = glyph[vector] S, glyph[vector] M for electrons and MI, respectively. The coherence time is obtained by solving the equation of motion for glyph[vector] K 1 and glyph[vector] K 2 with initial state |↑↓〉 and by averaging over the Gaussian magnetic field distribution. From that we obtain 〈 B e 〉 = 〈 B m 〉 = 0, 〈 B 2 e 〉 = 1 / ( g e µ b ) 2 ∑ l I l ( I l +1) ˜ A 2 l | ϕ + ( R l ) | 4 , and 〈 B 2 m 〉 = 1 / ( g m µ b ) 2 ∑ l I l ( I l +1) ˜ A 2 l | ϕ + ( R l ) ϕ - ( R l ) | 2 . From there an effective Zeeman splitting ˜ ∆ k = (2 〈 B 2 k 〉 / 3) 1 / 2 is cal- culated, hence τ k = ¯ h/ ( g k µ b ˜ ∆ k ). Assuming I l = 1 / 2 we find the spin relaxation time τ e = ¯ h/ (2 A e ) and τ m = C ¯ h/ (2 A m ). Here A e = ( ∑ l ˜ A 2 l | ϕ + ( R l ) | 4 ) 1 / 2 , A m = ( ∑ l ˜ A 2 l | ϕ + ( R l ) ϕ - ( R l ) | 2 ) 1 / 2 , and C = ∆ e / [ γ 2 J em Λ( glyph[vector] R 1 , glyph[vector] R 2 )] is the RKKY correction to the MI coherence time, stems from the MI-nuclear-spin in-",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/18",
-      "parent": {
         "cref": "#/pictures/0"
       },
       "children": [],
@@ -668,7 +578,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/16",
       "parent": {
         "cref": "#/pictures/0"
       },
@@ -698,7 +608,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/20",
+      "self_ref": "#/texts/17",
       "parent": {
         "cref": "#/pictures/0"
       },
@@ -728,7 +638,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/18",
       "parent": {
         "cref": "#/pictures/0"
       },
@@ -754,6 +664,96 @@
       ],
       "orig": "B (T)",
       "text": "B (T)",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/19",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 633.7982159999999,
+            "t": 771.70896,
+            "r": 1124.77032,
+            "b": 584.524512,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            424
+          ]
+        }
+      ],
+      "orig": "and two electrons, where each MI represents a spin qubit. The result is compared to a two qubit system realized by two electrons in a DQD. The calculation is performed by using the quasi-static bath approximation [15-17], where the host nuclear spins are approximated by a random magnetic field glyph[vector] B n with a Gaussian distribution. In this limit the two-electron and two-MI nuclear bath Hamilto- nian are given by",
+      "text": "and two electrons, where each MI represents a spin qubit. The result is compared to a two qubit system realized by two electrons in a DQD. The calculation is performed by using the quasi-static bath approximation [15-17], where the host nuclear spins are approximated by a random magnetic field glyph[vector] B n with a Gaussian distribution. In this limit the two-electron and two-MI nuclear bath Hamilto- nian are given by",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "formula",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 776.333016,
+            "t": 564.404544,
+            "r": 1122.674832,
+            "b": 505.26273600000013,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            68
+          ]
+        }
+      ],
+      "orig": "H kn = 2 ∑ i =1 g k µ b glyph[vector] B n · glyph[vector] K i , (12)",
+      "text": "H kn = 2 ∑ i =1 g k µ b glyph[vector] B n · glyph[vector] K i , (12)",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 633.341664,
+            "t": 484.52659200000016,
+            "r": 1123.758072,
+            "b": 135.370224,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            1007
+          ]
+        }
+      ],
+      "orig": "where k = e , m and glyph[vector] K = glyph[vector] S, glyph[vector] M for electrons and MI, respectively. The coherence time is obtained by solving the equation of motion for glyph[vector] K 1 and glyph[vector] K 2 with initial state |↑↓〉 and by averaging over the Gaussian magnetic field distribution. From that we obtain 〈 B e 〉 = 〈 B m 〉 = 0, 〈 B 2 e 〉 = 1 / ( g e µ b ) 2 ∑ l I l ( I l +1) ˜ A 2 l | ϕ + ( R l ) | 4 , and 〈 B 2 m 〉 = 1 / ( g m µ b ) 2 ∑ l I l ( I l +1) ˜ A 2 l | ϕ + ( R l ) ϕ - ( R l ) | 2 . From there an effective Zeeman splitting ˜ ∆ k = (2 〈 B 2 k 〉 / 3) 1 / 2 is cal- culated, hence τ k = ¯ h/ ( g k µ b ˜ ∆ k ). Assuming I l = 1 / 2 we find the spin relaxation time τ e = ¯ h/ (2 A e ) and τ m = C ¯ h/ (2 A m ). Here A e = ( ∑ l ˜ A 2 l | ϕ + ( R l ) | 4 ) 1 / 2 , A m = ( ∑ l ˜ A 2 l | ϕ + ( R l ) ϕ - ( R l ) | 2 ) 1 / 2 , and C = ∆ e / [ γ 2 J em Λ( glyph[vector] R 1 , glyph[vector] R 2 )] is the RKKY correction to the MI coherence time, stems from the MI-nuclear-spin in-",
+      "text": "where k = e , m and glyph[vector] K = glyph[vector] S, glyph[vector] M for electrons and MI, respectively. The coherence time is obtained by solving the equation of motion for glyph[vector] K 1 and glyph[vector] K 2 with initial state |↑↓〉 and by averaging over the Gaussian magnetic field distribution. From that we obtain 〈 B e 〉 = 〈 B m 〉 = 0, 〈 B 2 e 〉 = 1 / ( g e µ b ) 2 ∑ l I l ( I l +1) ˜ A 2 l | ϕ + ( R l ) | 4 , and 〈 B 2 m 〉 = 1 / ( g m µ b ) 2 ∑ l I l ( I l +1) ˜ A 2 l | ϕ + ( R l ) ϕ - ( R l ) | 2 . From there an effective Zeeman splitting ˜ ∆ k = (2 〈 B 2 k 〉 / 3) 1 / 2 is cal- culated, hence τ k = ¯ h/ ( g k µ b ˜ ∆ k ). Assuming I l = 1 / 2 we find the spin relaxation time τ e = ¯ h/ (2 A e ) and τ m = C ¯ h/ (2 A m ). Here A e = ( ∑ l ˜ A 2 l | ϕ + ( R l ) | 4 ) 1 / 2 , A m = ( ∑ l ˜ A 2 l | ϕ + ( R l ) ϕ - ( R l ) | 2 ) 1 / 2 , and C = ∆ e / [ γ 2 J em Λ( glyph[vector] R 1 , glyph[vector] R 2 )] is the RKKY correction to the MI coherence time, stems from the MI-nuclear-spin in-",
       "formatting": null,
       "hyperlink": null
     },
@@ -808,16 +808,16 @@
           "cref": "#/texts/14"
         },
         {
+          "cref": "#/texts/15"
+        },
+        {
+          "cref": "#/texts/16"
+        },
+        {
+          "cref": "#/texts/17"
+        },
+        {
           "cref": "#/texts/18"
-        },
-        {
-          "cref": "#/texts/19"
-        },
-        {
-          "cref": "#/texts/20"
-        },
-        {
-          "cref": "#/texts/21"
         },
         {
           "cref": "#/texts/22"

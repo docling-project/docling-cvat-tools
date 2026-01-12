@@ -1136,6 +1136,31 @@ class CVATToDoclingConverter:
             self.processed_elements.add(element.id)
             self.element_to_item[element.id] = item
 
+        if item and element.label in {
+            DocItemLabel.TABLE,
+            DocItemLabel.DOCUMENT_INDEX,
+            DocItemLabel.FORM,
+            DocItemLabel.PICTURE,
+        }:
+            node = self.doc_structure.get_node(element.id)
+            if node and node.children:
+                sorted_children = sorted(
+                    node.children,
+                    key=lambda child: (
+                        global_order.index(child.element.id)
+                        if child.element.id in global_order
+                        else float("inf")
+                    ),
+                )
+                for child in sorted_children:
+                    if child.element.id in self.processed_elements:
+                        continue
+                    self._process_node(
+                        child, node, item, global_order, current_position=None
+                    )
+                # Avoid list hierarchy leakage outside the container.
+                self.list_manager.clear()
+
     def _find_processed_parent_item(self, element_id: int) -> Optional[NodeItem]:
         """Find the nearest processed ancestor item for ``element_id``."""
         node = self.doc_structure.get_node(element_id)
