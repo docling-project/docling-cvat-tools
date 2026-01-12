@@ -1,0 +1,12 @@
+{
+  "test_id": "035",
+  "name": "035_list_with_keyvalue_inside",
+  "description": "List that has key-value pairs embedded inside.",
+  "observation": "",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_f4fbd6381327c66f1d68cb6b7c9c0893a82bd44e11a3ac92e8417e54a93e887c_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}

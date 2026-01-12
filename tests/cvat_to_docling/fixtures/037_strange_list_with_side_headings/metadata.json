@@ -1,0 +1,12 @@
+{
+  "test_id": "037",
+  "name": "037_strange_list_with_side_headings",
+  "description": "Strange list with side headings interrupting. Difficult annotation task, inconsistent text-inclusion in lists.",
+  "observation": "",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_6d76de24e7ffe95856ee7d455fa61176e51756f73fa6a034267735d958a530cc_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}

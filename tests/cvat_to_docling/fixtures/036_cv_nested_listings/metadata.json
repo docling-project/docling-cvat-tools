@@ -1,0 +1,12 @@
+{
+  "test_id": "036",
+  "name": "036_cv_nested_listings",
+  "description": "Nested listings in a CV.",
+  "observation": "Creates separate lists for every item, output is flat.",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_9dd496f53967235960bdd3543d450bc19a44c3ed6d185ab03191c6b10f37acae_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}

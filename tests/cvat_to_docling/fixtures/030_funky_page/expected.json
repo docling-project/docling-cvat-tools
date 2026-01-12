@@ -296,12 +296,12 @@
           },
           "charspan": [
             0,
-            29
+            28
           ]
         }
       ],
-      "orig": "(Description of your example)",
-      "text": "(Description of your example)",
+      "orig": "(Description of your example",
+      "text": "(Description of your example",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -387,12 +387,12 @@
           },
           "charspan": [
             0,
-            27
+            28
           ]
         }
       ],
-      "orig": "Description of your example",
-      "text": "Description of your example",
+      "orig": "(Description of your example",
+      "text": "(Description of your example",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -448,12 +448,12 @@
           },
           "charspan": [
             0,
-            26
+            25
           ]
         }
       ],
-      "orig": "(Scientific Notation here)",
-      "text": "(Scientific Notation here)",
+      "orig": "(Scientific Notation here",
+      "text": "(Scientific Notation here",
       "formatting": null,
       "hyperlink": null
     },
@@ -508,12 +508,12 @@
           },
           "charspan": [
             0,
-            18
+            17
           ]
         }
       ],
-      "orig": "Mars' Surface Area",
-      "text": "Mars' Surface Area",
+      "orig": "Mars Surface Area",
+      "text": "Mars Surface Area",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -569,12 +569,12 @@
           },
           "charspan": [
             0,
-            29
+            28
           ]
         }
       ],
-      "orig": "(Description of your example)",
-      "text": "(Description of your example)",
+      "orig": "(Description of your example",
+      "text": "(Description of your example",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -630,12 +630,12 @@
           },
           "charspan": [
             0,
-            26
+            25
           ]
         }
       ],
-      "orig": "(Scientific Notation here)",
-      "text": "(Scientific Notation here)",
+      "orig": "(Scientific Notation here",
+      "text": "(Scientific Notation here",
       "formatting": null,
       "hyperlink": null
     },
@@ -721,12 +721,12 @@
           },
           "charspan": [
             0,
-            26
+            25
           ]
         }
       ],
-      "orig": "(Scientific Notation here)",
-      "text": "(Scientific Notation here)",
+      "orig": "(Scientific Notation here",
+      "text": "(Scientific Notation here",
       "formatting": null,
       "hyperlink": null
     },

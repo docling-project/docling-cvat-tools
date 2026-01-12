@@ -301,12 +301,12 @@
           },
           "charspan": [
             0,
-            25
+            24
           ]
         }
       ],
-      "orig": "United States Patent (19)",
-      "text": "United States Patent (19)",
+      "orig": "United States Patent [19",
+      "text": "United States Patent [19",
       "formatting": null,
       "hyperlink": null,
       "level": 1
@@ -430,8 +430,8 @@
           ]
         }
       ],
-      "orig": "(54) 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
-      "text": "(54) 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
+      "orig": "[54] 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
+      "text": "[54] 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -650,12 +650,12 @@
           },
           "charspan": [
             0,
-            105
+            107
           ]
         }
       ],
-      "orig": "(52] U.S. Cl. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
-      "text": "(52] U.S. Cl. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
+      "orig": "[52] : U.S. CI. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
+      "text": "[52] : U.S. CI. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -777,12 +777,12 @@
           },
           "charspan": [
             0,
-            39
+            41
           ]
         }
       ],
-      "orig": "4,283,475 8/1981 Kawamura et al. 430/81",
-      "text": "4,283,475 8/1981 Kawamura et al. 430/81",
+      "orig": "4,283,475 . 8/1981 Kawamura et al. 430/81",
+      "text": "4,283,475 . 8/1981 Kawamura et al. 430/81",
       "formatting": null,
       "hyperlink": null
     },
@@ -1030,8 +1030,8 @@
           ]
         }
       ],
-      "orig": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and R? are the same or different and include alkyl groups.",
-      "text": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and R? are the same or different and include alkyl groups.",
+      "orig": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and Rº are the same or different and include alkyl groups.",
+      "text": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and Rº are the same or different and include alkyl groups.",
       "formatting": null,
       "hyperlink": null
     },
@@ -1172,7 +1172,7 @@
           },
           "charspan": [
             0,
-            20
+            19
           ]
         }
       ],
@@ -1300,7 +1300,7 @@
           },
           "charspan": [
             0,
-            172
+            173
           ]
         }
       ],
@@ -1424,7 +1424,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "54-88318",
+            "text": ".54-88318",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1731,7 +1731,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "54-88318",
+              "text": ".54-88318",
               "column_header": false,
               "row_header": false,
               "row_section": false,

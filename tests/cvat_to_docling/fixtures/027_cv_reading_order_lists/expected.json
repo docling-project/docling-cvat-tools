@@ -433,8 +433,8 @@
           ]
         }
       ],
-      "orig": "WORK EXPERIENCE",
-      "text": "WORK EXPERIENCE",
+      "orig": "WORK EHPERIENCE",
+      "text": "WORK EHPERIENCE",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -1117,12 +1117,12 @@
           },
           "charspan": [
             0,
-            9
+            10
           ]
         }
       ],
-      "orig": "LANGUAGES",
-      "text": "LANGUAGES",
+      "orig": "LANGUGAGES",
+      "text": "LANGUGAGES",
       "formatting": null,
       "hyperlink": null,
       "level": 2
