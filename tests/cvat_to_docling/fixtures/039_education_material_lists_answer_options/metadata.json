@@ -1,0 +1,12 @@
+{
+  "test_id": "039",
+  "name": "039_education_material_lists_answer_options",
+  "description": "Learning material with difficult interleaving of lists, answer options and pictures.",
+  "observation": "",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_3738c7ba006daccdacd922d2115303fa6226bb9fd3c3077c189cd3f39c06adf2_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}
