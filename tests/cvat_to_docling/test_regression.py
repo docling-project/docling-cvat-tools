@@ -147,7 +147,7 @@ def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
     image_identifier = metadata["source"]["image_identifier"]
 
     # Perform conversion
-    actual_doc = convert_cvat_to_docling(
+    actual_doc: DoclingDocument = convert_cvat_to_docling(
         xml_path=xml_path,
         input_path=input_path,
         image_identifier=image_identifier,
@@ -183,6 +183,9 @@ def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
         save_single_document_html(
             visualization_path, actual_doc, draw_reading_order=True
         )
+
+        with open(viz_dir / "output_tree.txt", "w") as f:
+            f.write(actual_doc.export_to_element_tree())
 
     if GENERATE_MODE:
         # Generate expected output
