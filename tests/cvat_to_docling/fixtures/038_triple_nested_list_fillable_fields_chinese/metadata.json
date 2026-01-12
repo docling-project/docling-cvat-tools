@@ -1,0 +1,12 @@
+{
+  "test_id": "038",
+  "name": "038_triple_nested_list_chinese",
+  "description": "Triple-nested list in chinese. First list element (I) is not grouped with II and III in annotation. Fillable fields inside list items.",
+  "observation": "",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_4b7ec91685cf95aa2909e1e5251f143919a14acc4fffa2e9732bc0d4530a6f94_page_000001.png"
+  },
+  "input_type": "png",
+  "page_number": 1
+}
