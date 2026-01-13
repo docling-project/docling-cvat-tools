@@ -114,6 +114,9 @@
           "cref": "#/groups/3"
         },
         {
+          "cref": "#/groups/4"
+        },
+        {
           "cref": "#/texts/15"
         },
         {
@@ -152,7 +155,7 @@
     {
       "self_ref": "#/groups/4",
       "parent": {
-        "cref": "#/texts/13"
+        "cref": "#/groups/2"
       },
       "children": [
         {
@@ -600,11 +603,7 @@
       "parent": {
         "cref": "#/groups/3"
       },
-      "children": [
-        {
-          "cref": "#/groups/4"
-        }
-      ],
+      "children": [],
       "content_layer": "body",
       "meta": null,
       "label": "list_item",

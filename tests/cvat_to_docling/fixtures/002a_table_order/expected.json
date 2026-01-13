@@ -35,6 +35,9 @@
         "cref": "#/groups/0"
       },
       {
+        "cref": "#/texts/8"
+      },
+      {
         "cref": "#/tables/1"
       },
       {
@@ -453,11 +456,7 @@
       "parent": {
         "cref": "#/groups/0"
       },
-      "children": [
-        {
-          "cref": "#/texts/8"
-        }
-      ],
+      "children": [],
       "content_layer": "body",
       "meta": null,
       "label": "list_item",
@@ -487,7 +486,7 @@
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/texts/7"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",

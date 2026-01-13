@@ -94,6 +94,12 @@
         },
         {
           "cref": "#/groups/1"
+        },
+        {
+          "cref": "#/pictures/10"
+        },
+        {
+          "cref": "#/pictures/11"
         }
       ],
       "content_layer": "body",
@@ -693,14 +699,7 @@
       "parent": {
         "cref": "#/groups/1"
       },
-      "children": [
-        {
-          "cref": "#/pictures/10"
-        },
-        {
-          "cref": "#/pictures/11"
-        }
-      ],
+      "children": [],
       "content_layer": "body",
       "meta": null,
       "label": "list_item",
@@ -2003,7 +2002,7 @@
     {
       "self_ref": "#/pictures/10",
       "parent": {
-        "cref": "#/texts/13"
+        "cref": "#/groups/0"
       },
       "children": [
         {
@@ -2049,7 +2048,7 @@
     {
       "self_ref": "#/pictures/11",
       "parent": {
-        "cref": "#/texts/13"
+        "cref": "#/groups/0"
       },
       "children": [
         {

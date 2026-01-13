@@ -963,6 +963,27 @@ class CVATToDoclingConverter:
         max_level = max(self.list_manager.level_stack)
         return self.list_manager.level_stack[max_level]
 
+    def _get_active_list_container(self) -> Optional[NodeItem]:
+        """Return the list container for the active sequence, if available."""
+        if self._active_list_group_id is not None:
+            container = self.list_manager.group_containers.get(
+                self._active_list_group_id
+            )
+            if container is not None:
+                return container
+
+        level_one_item = self.list_manager.level_stack.get(1)
+        if level_one_item and level_one_item.parent:
+            try:
+                return level_one_item.parent.resolve(self.doc)
+            except Exception as exc:
+                _logger.warning(
+                    "Failed to resolve list container for list item %s: %s",
+                    level_one_item.self_ref,
+                    exc,
+                )
+        return None
+
     def _find_next_list_item_info(
         self, global_order: List[int], current_position: int
     ) -> Tuple[bool, Optional[int], Optional[int]]:
@@ -978,6 +999,30 @@ class CVATToDoclingConverter:
                     next_element.level or 1,
                 )
         return False, None, None
+
+    def _has_future_list_item_at_level(
+        self,
+        global_order: List[int],
+        current_position: int,
+        target_level: int,
+        group_id: Optional[int],
+    ) -> bool:
+        """Return True if a later list item exists at ``target_level`` in the same group."""
+        for element_id in global_order[current_position + 1 :]:
+            next_element = self.doc_structure.get_element_by_id(element_id)
+            if not next_element:
+                continue
+            if next_element.label != DocItemLabel.LIST_ITEM:
+                continue
+            if (next_element.level or 1) != target_level:
+                continue
+            next_group_id = self._find_group_id_for_element(next_element)
+            if group_id is None:
+                if next_group_id is None:
+                    return True
+            elif next_group_id == group_id:
+                return True
+        return False
 
     def _find_group_id_for_element(self, element: CVATElement) -> Optional[int]:
         """Find which group this element belongs to."""
@@ -1023,6 +1068,12 @@ class CVATToDoclingConverter:
         """
         group_id = self._find_group_id_for_element(list_element)
         list_content_layer = list_element.content_layer
+        list_level = list_element.level or 1
+
+        if not self._has_future_list_item_at_level(
+            global_order, current_pos, list_level, group_id
+        ):
+            return []
 
         children = []
         # Look ahead in reading order
@@ -1176,11 +1227,25 @@ class CVATToDoclingConverter:
                     or element_group_id == self._active_list_group_id
                 ):
                     active_list_item = self._get_active_list_item()
+                    target_item = active_list_item
+                    if self.list_manager.level_stack:
+                        current_max_level = max(self.list_manager.level_stack)
+                        has_future_same_level = self._has_future_list_item_at_level(
+                            global_order,
+                            current_position,
+                            current_max_level,
+                            self._active_list_group_id,
+                        )
+                        if current_max_level > 1 and not has_future_same_level:
+                            target_item = (
+                                self._get_active_list_container() or active_list_item
+                            )
+
                     if (
-                        active_list_item
-                        and active_list_item.content_layer == element.content_layer
+                        target_item
+                        and target_item.content_layer == element.content_layer
                     ):
-                        list_parent = active_list_item
+                        list_parent = target_item
             else:
                 self._close_list_sequence()
         else:

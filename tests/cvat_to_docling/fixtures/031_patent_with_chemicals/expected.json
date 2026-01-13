@@ -59,10 +59,13 @@
         "cref": "#/groups/10"
       },
       {
+        "cref": "#/texts/19"
+      },
+      {
         "cref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/21"
+        "cref": "#/texts/20"
       },
       {
         "cref": "#/pictures/1"
@@ -74,16 +77,16 @@
         "cref": "#/pictures/3"
       },
       {
-        "cref": "#/texts/22"
+        "cref": "#/texts/21"
       },
       {
         "cref": "#/pictures/4"
       },
       {
-        "cref": "#/texts/23"
+        "cref": "#/texts/22"
       },
       {
-        "cref": "#/texts/24"
+        "cref": "#/texts/23"
       },
       {
         "cref": "#/key_value_items/0"
@@ -852,14 +855,7 @@
       "parent": {
         "cref": "#/groups/10"
       },
-      "children": [
-        {
-          "cref": "#/texts/19"
-        },
-        {
-          "cref": "#/texts/20"
-        }
-      ],
+      "children": [],
       "content_layer": "body",
       "meta": null,
       "label": "list_item",
@@ -889,7 +885,7 @@
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/texts/18"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -909,23 +905,7 @@
             0,
             112
           ]
-        }
-      ],
-      "orig": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said",
-      "text": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "cref": "#/texts/18"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
+        },
         {
           "page_no": 1,
           "bbox": {
@@ -936,18 +916,18 @@
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
-            0,
-            60
+            113,
+            173
           ]
         }
       ],
-      "orig": "salt and a photoconductive composition containing said salt.",
-      "text": "salt and a photoconductive composition containing said salt.",
+      "orig": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said salt and a photoconductive composition containing said salt.",
+      "text": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said salt and a photoconductive composition containing said salt.",
       "formatting": null,
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/20",
       "parent": {
         "cref": "#/body"
       },
@@ -977,7 +957,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/21",
       "parent": {
         "cref": "#/body"
       },
@@ -1007,7 +987,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/22",
       "parent": {
         "cref": "#/body"
       },
@@ -1037,7 +1017,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/23",
       "parent": {
         "cref": "#/body"
       },

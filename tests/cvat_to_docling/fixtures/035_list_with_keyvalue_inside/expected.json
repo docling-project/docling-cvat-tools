@@ -47,6 +47,12 @@
         "cref": "#/groups/0"
       },
       {
+        "cref": "#/texts/14"
+      },
+      {
+        "cref": "#/texts/15"
+      },
+      {
         "cref": "#/texts/16"
       },
       {
@@ -496,14 +502,7 @@
       "parent": {
         "cref": "#/groups/0"
       },
-      "children": [
-        {
-          "cref": "#/texts/14"
-        },
-        {
-          "cref": "#/texts/15"
-        }
-      ],
+      "children": [],
       "content_layer": "body",
       "meta": null,
       "label": "list_item",
@@ -533,7 +532,7 @@
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/texts/13"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -563,7 +562,7 @@
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/texts/13"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",

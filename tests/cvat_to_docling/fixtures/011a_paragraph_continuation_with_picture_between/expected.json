@@ -23,6 +23,39 @@
         "cref": "#/groups/0"
       },
       {
+        "cref": "#/texts/2"
+      },
+      {
+        "cref": "#/texts/3"
+      },
+      {
+        "cref": "#/texts/4"
+      },
+      {
+        "cref": "#/texts/5"
+      },
+      {
+        "cref": "#/texts/6"
+      },
+      {
+        "cref": "#/texts/7"
+      },
+      {
+        "cref": "#/texts/8"
+      },
+      {
+        "cref": "#/texts/9"
+      },
+      {
+        "cref": "#/texts/10"
+      },
+      {
+        "cref": "#/texts/11"
+      },
+      {
+        "cref": "#/texts/12"
+      },
+      {
         "cref": "#/pictures/0"
       },
       {
@@ -30,9 +63,6 @@
       },
       {
         "cref": "#/texts/20"
-      },
-      {
-        "cref": "#/texts/21"
       },
       {
         "cref": "#/key_value_items/0"
@@ -96,41 +126,7 @@
       "parent": {
         "cref": "#/groups/0"
       },
-      "children": [
-        {
-          "cref": "#/texts/2"
-        },
-        {
-          "cref": "#/texts/3"
-        },
-        {
-          "cref": "#/texts/4"
-        },
-        {
-          "cref": "#/texts/5"
-        },
-        {
-          "cref": "#/texts/6"
-        },
-        {
-          "cref": "#/texts/7"
-        },
-        {
-          "cref": "#/texts/8"
-        },
-        {
-          "cref": "#/texts/9"
-        },
-        {
-          "cref": "#/texts/10"
-        },
-        {
-          "cref": "#/texts/11"
-        },
-        {
-          "cref": "#/texts/12"
-        }
-      ],
+      "children": [],
       "content_layer": "body",
       "meta": null,
       "label": "list_item",
@@ -160,7 +156,7 @@
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -190,7 +186,7 @@
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -220,7 +216,7 @@
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -250,7 +246,7 @@
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -280,7 +276,7 @@
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -310,7 +306,7 @@
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -340,7 +336,7 @@
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -370,7 +366,7 @@
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -400,7 +396,7 @@
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -430,7 +426,7 @@
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -460,7 +456,7 @@
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/texts/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -480,10 +476,24 @@
             0,
             110
           ]
+        },
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 633.7982159999999,
+            "t": 771.70896,
+            "r": 1124.77032,
+            "b": 584.524512,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            111,
+            535
+          ]
         }
       ],
-      "orig": "In the following we use the effective Hamiltonian 11 to calculate the decoherence time of the DQD with two MIs",
-      "text": "In the following we use the effective Hamiltonian 11 to calculate the decoherence time of the DQD with two MIs",
+      "orig": "In the following we use the effective Hamiltonian 11 to calculate the decoherence time of the DQD with two MIs and two electrons, where each MI represents a spin qubit. The result is compared to a two qubit system realized by two electrons in a DQD. The calculation is performed by using the quasi-static bath approximation [15-17], where the host nuclear spins are approximated by a random magnetic field glyph[vector] B n with a Gaussian distribution. In this limit the two-electron and two-MI nuclear bath Hamilto- nian are given by",
+      "text": "In the following we use the effective Hamiltonian 11 to calculate the decoherence time of the DQD with two MIs and two electrons, where each MI represents a spin qubit. The result is compared to a two qubit system realized by two electrons in a DQD. The calculation is performed by using the quasi-static bath approximation [15-17], where the host nuclear spins are approximated by a random magnetic field glyph[vector] B n with a Gaussian distribution. In this limit the two-electron and two-MI nuclear bath Hamilto- nian are given by",
       "formatting": null,
       "hyperlink": null
     },
@@ -675,36 +685,6 @@
       "children": [],
       "content_layer": "body",
       "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 633.7982159999999,
-            "t": 771.70896,
-            "r": 1124.77032,
-            "b": 584.524512,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            424
-          ]
-        }
-      ],
-      "orig": "and two electrons, where each MI represents a spin qubit. The result is compared to a two qubit system realized by two electrons in a DQD. The calculation is performed by using the quasi-static bath approximation [15-17], where the host nuclear spins are approximated by a random magnetic field glyph[vector] B n with a Gaussian distribution. In this limit the two-electron and two-MI nuclear bath Hamilto- nian are given by",
-      "text": "and two electrons, where each MI represents a spin qubit. The result is compared to a two qubit system realized by two electrons in a DQD. The calculation is performed by using the quasi-static bath approximation [15-17], where the host nuclear spins are approximated by a random magnetic field glyph[vector] B n with a Gaussian distribution. In this limit the two-electron and two-MI nuclear bath Hamilto- nian are given by",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
       "label": "formula",
       "prov": [
         {
@@ -728,7 +708,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/20",
       "parent": {
         "cref": "#/body"
       },
@@ -758,7 +738,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/21",
       "parent": {
         "cref": "#/pictures/0"
       },
@@ -820,7 +800,7 @@
           "cref": "#/texts/18"
         },
         {
-          "cref": "#/texts/22"
+          "cref": "#/texts/21"
         }
       ],
       "content_layer": "body",
@@ -844,7 +824,7 @@
       ],
       "captions": [
         {
-          "cref": "#/texts/22"
+          "cref": "#/texts/21"
         }
       ],
       "references": [],
