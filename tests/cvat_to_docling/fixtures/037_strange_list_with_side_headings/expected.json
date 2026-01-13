@@ -44,12 +44,6 @@
         "cref": "#/groups/2"
       },
       {
-        "cref": "#/groups/3"
-      },
-      {
-        "cref": "#/groups/4"
-      },
-      {
         "cref": "#/texts/18"
       },
       {
@@ -59,10 +53,7 @@
         "cref": "#/texts/20"
       },
       {
-        "cref": "#/groups/5"
-      },
-      {
-        "cref": "#/groups/6"
+        "cref": "#/groups/4"
       }
     ],
     "content_layer": "body",
@@ -118,34 +109,10 @@
       "children": [
         {
           "cref": "#/texts/14"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group_2",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [
+        },
         {
-          "cref": "#/texts/15"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "list_standalone_18",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/4",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [
+          "cref": "#/groups/3"
+        },
         {
           "cref": "#/texts/17"
         }
@@ -156,7 +123,22 @@
       "label": "list"
     },
     {
-      "self_ref": "#/groups/5",
+      "self_ref": "#/groups/3",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [
+        {
+          "cref": "#/texts/15"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "sublist_level_2_of_14",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/4",
       "parent": {
         "cref": "#/body"
       },
@@ -166,6 +148,9 @@
         },
         {
           "cref": "#/texts/22"
+        },
+        {
+          "cref": "#/groups/5"
         }
       ],
       "content_layer": "body",
@@ -174,9 +159,9 @@
       "label": "list"
     },
     {
-      "self_ref": "#/groups/6",
+      "self_ref": "#/groups/5",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/groups/4"
       },
       "children": [
         {
@@ -185,7 +170,7 @@
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "list_standalone_23",
+      "name": "sublist_level_2_of_22",
       "label": "list"
     }
   ],
@@ -734,7 +719,7 @@
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/groups/4"
+        "cref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -858,7 +843,7 @@
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/groups/5"
+        "cref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -890,7 +875,7 @@
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/groups/5"
+        "cref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -922,7 +907,7 @@
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/groups/6"
+        "cref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
