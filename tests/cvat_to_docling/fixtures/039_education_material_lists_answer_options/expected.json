@@ -119,22 +119,13 @@
         "cref": "#/groups/7"
       },
       {
-        "cref": "#/groups/8"
-      },
-      {
         "cref": "#/groups/9"
       },
       {
         "cref": "#/groups/10"
       },
       {
-        "cref": "#/groups/12"
-      },
-      {
         "cref": "#/groups/13"
-      },
-      {
-        "cref": "#/groups/14"
       },
       {
         "cref": "#/pictures/11"
@@ -298,6 +289,9 @@
       "children": [
         {
           "cref": "#/texts/33"
+        },
+        {
+          "cref": "#/groups/8"
         }
       ],
       "content_layer": "body",
@@ -308,7 +302,7 @@
     {
       "self_ref": "#/groups/8",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/groups/7"
       },
       "children": [
         {
@@ -323,7 +317,7 @@
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "group_2",
+      "name": "sublist_level_2_of_33",
       "label": "list"
     },
     {
@@ -367,6 +361,9 @@
       "children": [
         {
           "cref": "#/texts/39"
+        },
+        {
+          "cref": "#/groups/12"
         }
       ],
       "content_layer": "body",
@@ -377,7 +374,7 @@
     {
       "self_ref": "#/groups/12",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/groups/11"
       },
       "children": [
         {
@@ -392,7 +389,7 @@
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "group_3",
+      "name": "sublist_level_3_of_39",
       "label": "list"
     },
     {
@@ -403,6 +400,9 @@
       "children": [
         {
           "cref": "#/texts/43"
+        },
+        {
+          "cref": "#/groups/14"
         }
       ],
       "content_layer": "body",
@@ -413,7 +413,7 @@
     {
       "self_ref": "#/groups/14",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/groups/13"
       },
       "children": [
         {
@@ -428,7 +428,7 @@
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "group_4",
+      "name": "sublist_level_2_of_43",
       "label": "list"
     },
     {

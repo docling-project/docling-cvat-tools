@@ -955,6 +955,29 @@ class CVATToDoclingConverter:
 
         return list_item
 
+    def _get_active_list_item(self) -> Optional[ListItem]:
+        """Return the most recent list item in the active list sequence."""
+        if not self.list_manager.level_stack:
+            return None
+        max_level = max(self.list_manager.level_stack)
+        return self.list_manager.level_stack[max_level]
+
+    def _find_next_list_item_info(
+        self, global_order: List[int], current_position: int
+    ) -> Tuple[bool, Optional[int], Optional[int]]:
+        """Find the next list item's group id and level in the global reading order."""
+        for element_id in global_order[current_position + 1 :]:
+            next_element = self.doc_structure.get_element_by_id(element_id)
+            if not next_element:
+                continue
+            if next_element.label == DocItemLabel.LIST_ITEM:
+                return (
+                    True,
+                    self._find_group_id_for_element(next_element),
+                    next_element.level or 1,
+                )
+        return False, None, None
+
     def _find_group_id_for_element(self, element: CVATElement) -> Optional[int]:
         """Find which group this element belongs to."""
         return self.doc_structure.find_group_id_for_element(element.id)
@@ -1088,13 +1111,34 @@ class CVATToDoclingConverter:
     ) -> None:
         """Process a single element without traversing the containment tree."""
         if self._is_caption_or_footnote_target(element.id):
-            self._close_list_sequence()
+            if self._list_sequence_active:
+                has_next_list_item, next_list_group_id, next_list_level = (
+                    self._find_next_list_item_info(global_order, current_position)
+                )
+                if not (
+                    has_next_list_item
+                    and (
+                        (
+                            next_list_level == 1
+                            and next_list_group_id == self._active_list_group_id
+                        )
+                        or (
+                            next_list_level is not None
+                            and next_list_level > 1
+                            and (next_list_level - 1) in self.list_manager.level_stack
+                        )
+                    )
+                ):
+                    self._close_list_sequence()
+            else:
+                self._close_list_sequence()
             return
 
         if element.label == DocItemLabel.LIST_ITEM:
             group_id = self._find_group_id_for_element(element)
+            level = element.level or 1
             if (not self._list_sequence_active) or (
-                group_id != self._active_list_group_id
+                level == 1 and group_id != self._active_list_group_id
             ):
                 self._start_list_sequence(group_id)
 
@@ -1105,14 +1149,43 @@ class CVATToDoclingConverter:
                 self.element_to_item[element.id] = list_item
                 self.processed_elements.add(element.id)
                 self._list_sequence_active = True
-                self._active_list_group_id = group_id
+                if level == 1:
+                    self._active_list_group_id = group_id
             else:
                 self._close_list_sequence()
             return
 
-        self._close_list_sequence()
+        list_parent: Optional[NodeItem] = None
+        if self._list_sequence_active:
+            has_next_list_item, next_list_group_id, next_list_level = (
+                self._find_next_list_item_info(global_order, current_position)
+            )
+            keep_list_open = False
+            if has_next_list_item:
+                if next_list_level == 1:
+                    keep_list_open = next_list_group_id == self._active_list_group_id
+                elif next_list_level and next_list_level > 1:
+                    keep_list_open = (
+                        next_list_level - 1
+                    ) in self.list_manager.level_stack
+            if keep_list_open:
+                element_group_id = self._find_group_id_for_element(element)
+                if (
+                    element_group_id is None
+                    or element_group_id == self._active_list_group_id
+                ):
+                    active_list_item = self._get_active_list_item()
+                    if (
+                        active_list_item
+                        and active_list_item.content_layer == element.content_layer
+                    ):
+                        list_parent = active_list_item
+            else:
+                self._close_list_sequence()
+        else:
+            self._close_list_sequence()
 
-        parent_item = self._find_processed_parent_item(element.id)
+        parent_item = list_parent or self._find_processed_parent_item(element.id)
         group_info = self._get_group_for_element(element.id)
 
         if group_info:
@@ -1144,6 +1217,7 @@ class CVATToDoclingConverter:
         }:
             node = self.doc_structure.get_node(element.id)
             if node and node.children:
+                list_state = self._snapshot_list_state()
                 sorted_children = sorted(
                     node.children,
                     key=lambda child: (
@@ -1158,8 +1232,7 @@ class CVATToDoclingConverter:
                     self._process_node(
                         child, node, item, global_order, current_position=None
                     )
-                # Avoid list hierarchy leakage outside the container.
-                self.list_manager.clear()
+                self._restore_list_state(list_state)
 
     def _find_processed_parent_item(self, element_id: int) -> Optional[NodeItem]:
         """Find the nearest processed ancestor item for ``element_id``."""
@@ -1196,6 +1269,26 @@ class CVATToDoclingConverter:
         self.list_manager.clear()
         self._list_sequence_active = False
         self._active_list_group_id = None
+
+    def _snapshot_list_state(
+        self,
+    ) -> Tuple[Dict[int, NodeItem], Dict[int, ListItem], Dict[str, NodeItem]]:
+        """Capture list manager state for temporary isolation."""
+        return (
+            dict(self.list_manager.group_containers),
+            dict(self.list_manager.level_stack),
+            dict(self.list_manager.sublist_containers),
+        )
+
+    def _restore_list_state(
+        self,
+        state: Tuple[Dict[int, NodeItem], Dict[int, ListItem], Dict[str, NodeItem]],
+    ) -> None:
+        """Restore list manager state after isolated processing."""
+        group_containers, level_stack, sublist_containers = state
+        self.list_manager.group_containers = group_containers
+        self.list_manager.level_stack = level_stack
+        self.list_manager.sublist_containers = sublist_containers
 
     def _process_table_data(self):
         # After all CVAT elements have been processed,

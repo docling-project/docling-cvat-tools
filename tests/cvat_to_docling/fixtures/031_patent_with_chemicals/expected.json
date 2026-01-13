@@ -56,18 +56,6 @@
         "cref": "#/groups/9"
       },
       {
-        "cref": "#/texts/14"
-      },
-      {
-        "cref": "#/texts/15"
-      },
-      {
-        "cref": "#/texts/16"
-      },
-      {
-        "cref": "#/texts/17"
-      },
-      {
         "cref": "#/groups/10"
       },
       {
@@ -698,7 +686,20 @@
       "parent": {
         "cref": "#/groups/9"
       },
-      "children": [],
+      "children": [
+        {
+          "cref": "#/texts/14"
+        },
+        {
+          "cref": "#/texts/15"
+        },
+        {
+          "cref": "#/texts/16"
+        },
+        {
+          "cref": "#/texts/17"
+        }
+      ],
       "content_layer": "body",
       "meta": null,
       "label": "list_item",
@@ -728,7 +729,7 @@
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
@@ -759,7 +760,7 @@
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
@@ -789,7 +790,7 @@
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
@@ -819,7 +820,7 @@
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
