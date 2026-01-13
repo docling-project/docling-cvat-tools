@@ -51,6 +51,12 @@
       },
       {
         "cref": "#/tables/1"
+      },
+      {
+        "cref": "#/tables/2"
+      },
+      {
+        "cref": "#/tables/3"
       }
     ],
     "content_layer": "body",
@@ -74,7 +80,7 @@
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "rich_cell_group_1_3_1",
+      "name": "rich_cell_group_1_1_1",
       "label": "unspecified"
     }
   ],
@@ -2029,8 +2035,8 @@
             "col_span": 1,
             "start_row_offset_idx": 0,
             "end_row_offset_idx": 1,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
             "text": "",
             "column_header": true,
             "row_header": false,
@@ -2063,8 +2069,8 @@
             "col_span": 1,
             "start_row_offset_idx": 1,
             "end_row_offset_idx": 2,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
             "text": "Annual bonus payments for senior executives with an emphasis on the achievement of annual financial  performance\tcriteria\tfor\tthe\tGroup\tas\twell\tas\tspecific\tstrategic\tand\toperational\tcriteria.\tFor\tkey\tsenior\texecutives\t other than the CEO, the bonus criteria were set by the P&CC. Bonus criteria for the CEO were set by the Board.  For the 2013 financial year, an incentive gate applied which required a threshold level of financial performance  to be achieved before any bonuses became payable. The incentive gate was set at the achievement of the  Group's budgeted EBIT. This was not achieved in 2013 so no STI was paid.",
             "column_header": false,
             "row_header": false,
@@ -2073,618 +2079,10 @@
             "ref": {
               "cref": "#/groups/0"
             }
-          },
-          {
-            "bbox": {
-              "l": 330.219042,
-              "t": 1190.236044,
-              "r": 593.07036,
-              "b": 1217.5757839999999,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 2,
-            "end_row_offset_idx": 3,
-            "start_col_offset_idx": 1,
-            "end_col_offset_idx": 2,
-            "text": "LEVEL",
-            "column_header": true,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.219042,
-              "t": 1190.236044,
-              "r": 1077.663249,
-              "b": 1217.5757839999999,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 2,
-            "end_row_offset_idx": 3,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
-            "text": "LEVEL  COMPONENT",
-            "column_header": true,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 593.1287189999999,
-              "t": 1190.236044,
-              "r": 1077.663249,
-              "b": 1217.5757839999999,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 2,
-            "end_row_offset_idx": 3,
-            "start_col_offset_idx": 4,
-            "end_col_offset_idx": 5,
-            "text": "COMPONENT",
-            "column_header": true,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 329.78551799999997,
-              "t": 1217.5589439999999,
-              "r": 330.10589699999997,
-              "b": 1277.80236,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 3,
-            "end_row_offset_idx": 4,
-            "start_col_offset_idx": 0,
-            "end_col_offset_idx": 1,
-            "text": "",
-            "column_header": false,
-            "row_header": true,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.18093,
-              "t": 1217.5589439999999,
-              "r": 593.07036,
-              "b": 1277.80236,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 3,
-            "end_row_offset_idx": 4,
-            "start_col_offset_idx": 1,
-            "end_col_offset_idx": 2,
-            "text": "Corporate Level (50%)",
-            "column_header": false,
-            "row_header": true,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.167829,
-              "t": 1217.5589439999999,
-              "r": 1077.67635,
-              "b": 1277.80236,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 3,
-            "end_row_offset_idx": 4,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
-            "text": "Corporate Level (50%) drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 593.1287189999999,
-              "t": 1217.5589439999999,
-              "r": 1077.663249,
-              "b": 1277.80236,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 3,
-            "end_row_offset_idx": 4,
-            "start_col_offset_idx": 4,
-            "end_col_offset_idx": 5,
-            "text": "drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 112.66621800000001,
-              "t": 1165.696796,
-              "r": 330.10589699999997,
-              "b": 1398.4154919999999,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 4,
-            "end_row_offset_idx": 5,
-            "start_col_offset_idx": 0,
-            "end_col_offset_idx": 1,
-            "text": "What were the performance  measures and why were  they chosen?",
-            "column_header": false,
-            "row_header": true,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.18093,
-              "t": 1165.888772,
-              "r": 593.07036,
-              "b": 1398.4154919999999,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 4,
-            "end_row_offset_idx": 5,
-            "start_col_offset_idx": 1,
-            "end_col_offset_idx": 2,
-            "text": "Three components applied in respect of FY13. LEVEL  Corporate Level (50%) Business Unit Level (25%) Strategic Level (25%)",
-            "column_header": false,
-            "row_header": true,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": null,
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 4,
-            "end_row_offset_idx": 5,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
-            "text": "Three components applied in respect of FY13. LEVEL  COMPONENT  Corporate Level (50%) drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group Business Unit Level (25%) drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue) Strategic Level (25%) indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false,
-            "ref": {
-              "cref": "#/tables/2"
-            }
-          },
-          {
-            "bbox": null,
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 4,
-            "end_row_offset_idx": 5,
-            "start_col_offset_idx": 4,
-            "end_col_offset_idx": 5,
-            "text": "Three components applied in respect of FY13. COMPONENT  drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue) indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false,
-            "ref": {
-              "cref": "#/tables/2"
-            }
-          },
-          {
-            "bbox": {
-              "l": 330.232143,
-              "t": 1277.841092,
-              "r": 593.07036,
-              "b": 1339.507488,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 5,
-            "end_row_offset_idx": 6,
-            "start_col_offset_idx": 1,
-            "end_col_offset_idx": 2,
-            "text": "Business Unit Level (25%)",
-            "column_header": false,
-            "row_header": true,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.232143,
-              "t": 1277.841092,
-              "r": 1077.097524,
-              "b": 1339.507488,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 5,
-            "end_row_offset_idx": 6,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
-            "text": "Business Unit Level (25%) drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue)",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 593.1287189999999,
-              "t": 1277.841092,
-              "r": 1077.097524,
-              "b": 1339.507488,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 5,
-            "end_row_offset_idx": 6,
-            "start_col_offset_idx": 4,
-            "end_col_offset_idx": 5,
-            "text": "drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue)",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.18093,
-              "t": 1339.31046,
-              "r": 593.07036,
-              "b": 1398.255512,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 6,
-            "end_row_offset_idx": 7,
-            "start_col_offset_idx": 1,
-            "end_col_offset_idx": 2,
-            "text": "Strategic Level (25%)",
-            "column_header": false,
-            "row_header": true,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.167829,
-              "t": 1339.31046,
-              "r": 1077.326196,
-              "b": 1398.255512,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 6,
-            "end_row_offset_idx": 7,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
-            "text": "Strategic Level (25%) indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 593.1287189999999,
-              "t": 1339.31046,
-              "r": 1077.326196,
-              "b": 1398.255512,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 6,
-            "end_row_offset_idx": 7,
-            "start_col_offset_idx": 4,
-            "end_col_offset_idx": 5,
-            "text": "indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.211896,
-              "t": 1458.8879319999999,
-              "r": 667.967586,
-              "b": 1482.175968,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 7,
-            "end_row_offset_idx": 8,
-            "start_col_offset_idx": 2,
-            "end_col_offset_idx": 3,
-            "text": "PERFORMANCE LEVEL",
-            "column_header": true,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.196413,
-              "t": 1458.8879319999999,
-              "r": 1077.5405759999999,
-              "b": 1482.175968,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 7,
-            "end_row_offset_idx": 8,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
-            "text": "PERFORMANCE LEVEL OPPORTUNITY",
-            "column_header": true,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 667.9604400000001,
-              "t": 1459.00076,
-              "r": 1077.5405759999999,
-              "b": 1482.175968,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 7,
-            "end_row_offset_idx": 8,
-            "start_col_offset_idx": 5,
-            "end_col_offset_idx": 6,
-            "text": "OPPORTUNITY",
-            "column_header": true,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 112.77579000000003,
-              "t": 1398.459276,
-              "r": 330.10589699999997,
-              "b": 1587.660044,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 8,
-            "end_row_offset_idx": 9,
-            "start_col_offset_idx": 0,
-            "end_col_offset_idx": 1,
-            "text": "What could executives earn  under the STi?",
-            "column_header": false,
-            "row_header": true,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.211896,
-              "t": 1458.785208,
-              "r": 667.967586,
-              "b": 1587.543848,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 8,
-            "end_row_offset_idx": 9,
-            "start_col_offset_idx": 2,
-            "end_col_offset_idx": 3,
-            "text": "PERFORMANCE LEVEL 'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year 'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met.",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": null,
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 8,
-            "end_row_offset_idx": 9,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
-            "text": "Each senior executive had a target opportunity depending on the accountabilities of the role and impact on  Company or business unit performance. There are two levels of performance:  PERFORMANCE LEVEL OPPORTUNITY 'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration 'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met. CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false,
-            "ref": {
-              "cref": "#/tables/3"
-            }
-          },
-          {
-            "bbox": null,
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 8,
-            "end_row_offset_idx": 9,
-            "start_col_offset_idx": 5,
-            "end_col_offset_idx": 6,
-            "text": "OPPORTUNITY CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false,
-            "ref": {
-              "cref": "#/tables/3"
-            }
-          },
-          {
-            "bbox": {
-              "l": 330.07969499999996,
-              "t": 1482.268588,
-              "r": 330.10589699999997,
-              "b": 1541.3618319999998,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 9,
-            "end_row_offset_idx": 10,
-            "start_col_offset_idx": 0,
-            "end_col_offset_idx": 1,
-            "text": "",
-            "column_header": false,
-            "row_header": true,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.211896,
-              "t": 1482.268588,
-              "r": 667.967586,
-              "b": 1541.3618319999998,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 9,
-            "end_row_offset_idx": 10,
-            "start_col_offset_idx": 2,
-            "end_col_offset_idx": 3,
-            "text": "'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.167829,
-              "t": 1482.268588,
-              "r": 1077.644193,
-              "b": 1541.3618319999998,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 9,
-            "end_row_offset_idx": 10,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
-            "text": "'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 667.9604400000001,
-              "t": 1482.268588,
-              "r": 1077.5977440000001,
-              "b": 1541.3618319999998,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 9,
-            "end_row_offset_idx": 10,
-            "start_col_offset_idx": 5,
-            "end_col_offset_idx": 6,
-            "text": "CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.241671,
-              "t": 1541.3567799999998,
-              "r": 667.967586,
-              "b": 1587.442808,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 10,
-            "end_row_offset_idx": 11,
-            "start_col_offset_idx": 2,
-            "end_col_offset_idx": 3,
-            "text": "'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met.",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.241671,
-              "t": 1541.3567799999998,
-              "r": 1077.577497,
-              "b": 1587.442808,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 10,
-            "end_row_offset_idx": 11,
-            "start_col_offset_idx": 3,
-            "end_col_offset_idx": 4,
-            "text": "'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met. CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 667.9604400000001,
-              "t": 1541.3567799999998,
-              "r": 1077.577497,
-              "b": 1587.442808,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 10,
-            "end_row_offset_idx": 11,
-            "start_col_offset_idx": 5,
-            "end_col_offset_idx": 6,
-            "text": "CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
           }
         ],
-        "num_rows": 11,
-        "num_cols": 6,
+        "num_rows": 2,
+        "num_cols": 2,
         "grid": [
           [
             {
@@ -2708,34 +2106,6 @@
               "fillable": false
             },
             {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 0,
-              "end_row_offset_idx": 1,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 0,
-              "end_row_offset_idx": 1,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
               "bbox": {
                 "l": 330.167829,
                 "t": 1022.896964,
@@ -2747,38 +2117,10 @@
               "col_span": 1,
               "start_row_offset_idx": 0,
               "end_row_offset_idx": 1,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
               "text": "",
               "column_header": true,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 0,
-              "end_row_offset_idx": 1,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 0,
-              "end_row_offset_idx": 1,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "",
-              "column_header": false,
               "row_header": false,
               "row_section": false,
               "fillable": false
@@ -2813,999 +2155,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 1,
-              "end_row_offset_idx": 2,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 1,
-              "end_row_offset_idx": 2,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
               "text": "Annual bonus payments for senior executives with an emphasis on the achievement of annual financial  performance\tcriteria\tfor\tthe\tGroup\tas\twell\tas\tspecific\tstrategic\tand\toperational\tcriteria.\tFor\tkey\tsenior\texecutives\t other than the CEO, the bonus criteria were set by the P&CC. Bonus criteria for the CEO were set by the Board.  For the 2013 financial year, an incentive gate applied which required a threshold level of financial performance  to be achieved before any bonuses became payable. The incentive gate was set at the achievement of the  Group's budgeted EBIT. This was not achieved in 2013 so no STI was paid.",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 1,
-              "end_row_offset_idx": 2,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 1,
-              "end_row_offset_idx": 2,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 2,
-              "end_row_offset_idx": 3,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.219042,
-                "t": 1190.236044,
-                "r": 593.07036,
-                "b": 1217.5757839999999,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 2,
-              "end_row_offset_idx": 3,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "LEVEL",
-              "column_header": true,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 2,
-              "end_row_offset_idx": 3,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.219042,
-                "t": 1190.236044,
-                "r": 1077.663249,
-                "b": 1217.5757839999999,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 2,
-              "end_row_offset_idx": 3,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
-              "text": "LEVEL  COMPONENT",
-              "column_header": true,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 593.1287189999999,
-                "t": 1190.236044,
-                "r": 1077.663249,
-                "b": 1217.5757839999999,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 2,
-              "end_row_offset_idx": 3,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "COMPONENT",
-              "column_header": true,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 2,
-              "end_row_offset_idx": 3,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": {
-                "l": 329.78551799999997,
-                "t": 1217.5589439999999,
-                "r": 330.10589699999997,
-                "b": 1277.80236,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 3,
-              "end_row_offset_idx": 4,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "",
-              "column_header": false,
-              "row_header": true,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.18093,
-                "t": 1217.5589439999999,
-                "r": 593.07036,
-                "b": 1277.80236,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 3,
-              "end_row_offset_idx": 4,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "Corporate Level (50%)",
-              "column_header": false,
-              "row_header": true,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 3,
-              "end_row_offset_idx": 4,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.167829,
-                "t": 1217.5589439999999,
-                "r": 1077.67635,
-                "b": 1277.80236,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 3,
-              "end_row_offset_idx": 4,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
-              "text": "Corporate Level (50%) drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 593.1287189999999,
-                "t": 1217.5589439999999,
-                "r": 1077.663249,
-                "b": 1277.80236,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 3,
-              "end_row_offset_idx": 4,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 3,
-              "end_row_offset_idx": 4,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": {
-                "l": 112.66621800000001,
-                "t": 1165.696796,
-                "r": 330.10589699999997,
-                "b": 1398.4154919999999,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 4,
-              "end_row_offset_idx": 5,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "What were the performance  measures and why were  they chosen?",
-              "column_header": false,
-              "row_header": true,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.18093,
-                "t": 1165.888772,
-                "r": 593.07036,
-                "b": 1398.4154919999999,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 4,
-              "end_row_offset_idx": 5,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "Three components applied in respect of FY13. LEVEL  Corporate Level (50%) Business Unit Level (25%) Strategic Level (25%)",
-              "column_header": false,
-              "row_header": true,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 4,
-              "end_row_offset_idx": 5,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 4,
-              "end_row_offset_idx": 5,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
-              "text": "Three components applied in respect of FY13. LEVEL  COMPONENT  Corporate Level (50%) drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group Business Unit Level (25%) drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue) Strategic Level (25%) indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 4,
-              "end_row_offset_idx": 5,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "Three components applied in respect of FY13. COMPONENT  drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue) indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 4,
-              "end_row_offset_idx": 5,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 5,
-              "end_row_offset_idx": 6,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.232143,
-                "t": 1277.841092,
-                "r": 593.07036,
-                "b": 1339.507488,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 5,
-              "end_row_offset_idx": 6,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "Business Unit Level (25%)",
-              "column_header": false,
-              "row_header": true,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 5,
-              "end_row_offset_idx": 6,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.232143,
-                "t": 1277.841092,
-                "r": 1077.097524,
-                "b": 1339.507488,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 5,
-              "end_row_offset_idx": 6,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
-              "text": "Business Unit Level (25%) drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue)",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 593.1287189999999,
-                "t": 1277.841092,
-                "r": 1077.097524,
-                "b": 1339.507488,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 5,
-              "end_row_offset_idx": 6,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue)",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 5,
-              "end_row_offset_idx": 6,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 6,
-              "end_row_offset_idx": 7,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.18093,
-                "t": 1339.31046,
-                "r": 593.07036,
-                "b": 1398.255512,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 6,
-              "end_row_offset_idx": 7,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "Strategic Level (25%)",
-              "column_header": false,
-              "row_header": true,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 6,
-              "end_row_offset_idx": 7,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.167829,
-                "t": 1339.31046,
-                "r": 1077.326196,
-                "b": 1398.255512,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 6,
-              "end_row_offset_idx": 7,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
-              "text": "Strategic Level (25%) indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 593.1287189999999,
-                "t": 1339.31046,
-                "r": 1077.326196,
-                "b": 1398.255512,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 6,
-              "end_row_offset_idx": 7,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 6,
-              "end_row_offset_idx": 7,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 7,
-              "end_row_offset_idx": 8,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 7,
-              "end_row_offset_idx": 8,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.211896,
-                "t": 1458.8879319999999,
-                "r": 667.967586,
-                "b": 1482.175968,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 7,
-              "end_row_offset_idx": 8,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "PERFORMANCE LEVEL",
-              "column_header": true,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.196413,
-                "t": 1458.8879319999999,
-                "r": 1077.5405759999999,
-                "b": 1482.175968,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 7,
-              "end_row_offset_idx": 8,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
-              "text": "PERFORMANCE LEVEL OPPORTUNITY",
-              "column_header": true,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 7,
-              "end_row_offset_idx": 8,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 667.9604400000001,
-                "t": 1459.00076,
-                "r": 1077.5405759999999,
-                "b": 1482.175968,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 7,
-              "end_row_offset_idx": 8,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "OPPORTUNITY",
-              "column_header": true,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": {
-                "l": 112.77579000000003,
-                "t": 1398.459276,
-                "r": 330.10589699999997,
-                "b": 1587.660044,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 8,
-              "end_row_offset_idx": 9,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "What could executives earn  under the STi?",
-              "column_header": false,
-              "row_header": true,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 8,
-              "end_row_offset_idx": 9,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.211896,
-                "t": 1458.785208,
-                "r": 667.967586,
-                "b": 1587.543848,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 8,
-              "end_row_offset_idx": 9,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "PERFORMANCE LEVEL 'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year 'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met.",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 8,
-              "end_row_offset_idx": 9,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
-              "text": "Each senior executive had a target opportunity depending on the accountabilities of the role and impact on  Company or business unit performance. There are two levels of performance:  PERFORMANCE LEVEL OPPORTUNITY 'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration 'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met. CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 8,
-              "end_row_offset_idx": 9,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 8,
-              "end_row_offset_idx": 9,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "OPPORTUNITY CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": {
-                "l": 330.07969499999996,
-                "t": 1482.268588,
-                "r": 330.10589699999997,
-                "b": 1541.3618319999998,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 9,
-              "end_row_offset_idx": 10,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "",
-              "column_header": false,
-              "row_header": true,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 9,
-              "end_row_offset_idx": 10,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.211896,
-                "t": 1482.268588,
-                "r": 667.967586,
-                "b": 1541.3618319999998,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 9,
-              "end_row_offset_idx": 10,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.167829,
-                "t": 1482.268588,
-                "r": 1077.644193,
-                "b": 1541.3618319999998,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 9,
-              "end_row_offset_idx": 10,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
-              "text": "'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 9,
-              "end_row_offset_idx": 10,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 667.9604400000001,
-                "t": 1482.268588,
-                "r": 1077.5977440000001,
-                "b": 1541.3618319999998,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 9,
-              "end_row_offset_idx": 10,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 10,
-              "end_row_offset_idx": 11,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 10,
-              "end_row_offset_idx": 11,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.241671,
-                "t": 1541.3567799999998,
-                "r": 667.967586,
-                "b": 1587.442808,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 10,
-              "end_row_offset_idx": 11,
-              "start_col_offset_idx": 2,
-              "end_col_offset_idx": 3,
-              "text": "'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met.",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 330.241671,
-                "t": 1541.3567799999998,
-                "r": 1077.577497,
-                "b": 1587.442808,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 10,
-              "end_row_offset_idx": 11,
-              "start_col_offset_idx": 3,
-              "end_col_offset_idx": 4,
-              "text": "'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met. CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": null,
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 10,
-              "end_row_offset_idx": 11,
-              "start_col_offset_idx": 4,
-              "end_col_offset_idx": 5,
-              "text": "",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 667.9604400000001,
-                "t": 1541.3567799999998,
-                "r": 1077.577497,
-                "b": 1587.442808,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 10,
-              "end_row_offset_idx": 11,
-              "start_col_offset_idx": 5,
-              "end_col_offset_idx": 6,
-              "text": "CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -3819,7 +2169,7 @@
     {
       "self_ref": "#/tables/2",
       "parent": {
-        "cref": "#/tables/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -3929,46 +2279,6 @@
           },
           {
             "bbox": {
-              "l": 330.18093,
-              "t": 1165.888772,
-              "r": 593.07036,
-              "b": 1398.4154919999999,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 2,
-            "end_row_offset_idx": 3,
-            "start_col_offset_idx": 0,
-            "end_col_offset_idx": 1,
-            "text": "Three components applied in respect of FY13. LEVEL  Corporate Level (50%) Business Unit Level (25%) Strategic Level (25%)",
-            "column_header": false,
-            "row_header": true,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 593.1287189999999,
-              "t": 1166.215468,
-              "r": 1077.663249,
-              "b": 1398.348132,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 2,
-            "end_row_offset_idx": 3,
-            "start_col_offset_idx": 1,
-            "end_col_offset_idx": 2,
-            "text": "Three components applied in respect of FY13. COMPONENT  drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue) indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
               "l": 330.232143,
               "t": 1277.841092,
               "r": 593.07036,
@@ -3977,8 +2287,8 @@
             },
             "row_span": 1,
             "col_span": 1,
-            "start_row_offset_idx": 3,
-            "end_row_offset_idx": 4,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
             "text": "Business Unit Level (25%)",
@@ -3997,8 +2307,8 @@
             },
             "row_span": 1,
             "col_span": 1,
-            "start_row_offset_idx": 3,
-            "end_row_offset_idx": 4,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
             "text": "drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue)",
@@ -4017,8 +2327,8 @@
             },
             "row_span": 1,
             "col_span": 1,
-            "start_row_offset_idx": 4,
-            "end_row_offset_idx": 5,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
             "text": "Strategic Level (25%)",
@@ -4037,8 +2347,8 @@
             },
             "row_span": 1,
             "col_span": 1,
-            "start_row_offset_idx": 4,
-            "end_row_offset_idx": 5,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
             "text": "indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
@@ -4048,7 +2358,7 @@
             "fillable": false
           }
         ],
-        "num_rows": 5,
+        "num_rows": 4,
         "num_cols": 2,
         "grid": [
           [
@@ -4138,48 +2448,6 @@
           [
             {
               "bbox": {
-                "l": 330.18093,
-                "t": 1165.888772,
-                "r": 593.07036,
-                "b": 1398.4154919999999,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 2,
-              "end_row_offset_idx": 3,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "Three components applied in respect of FY13. LEVEL  Corporate Level (50%) Business Unit Level (25%) Strategic Level (25%)",
-              "column_header": false,
-              "row_header": true,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 593.1287189999999,
-                "t": 1166.215468,
-                "r": 1077.663249,
-                "b": 1398.348132,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 2,
-              "end_row_offset_idx": 3,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "Three components applied in respect of FY13. COMPONENT  drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue) indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": {
                 "l": 330.232143,
                 "t": 1277.841092,
                 "r": 593.07036,
@@ -4188,8 +2456,8 @@
               },
               "row_span": 1,
               "col_span": 1,
-              "start_row_offset_idx": 3,
-              "end_row_offset_idx": 4,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
               "text": "Business Unit Level (25%)",
@@ -4208,8 +2476,8 @@
               },
               "row_span": 1,
               "col_span": 1,
-              "start_row_offset_idx": 3,
-              "end_row_offset_idx": 4,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
               "text": "drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue)",
@@ -4230,8 +2498,8 @@
               },
               "row_span": 1,
               "col_span": 1,
-              "start_row_offset_idx": 4,
-              "end_row_offset_idx": 5,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
               "text": "Strategic Level (25%)",
@@ -4250,8 +2518,8 @@
               },
               "row_span": 1,
               "col_span": 1,
-              "start_row_offset_idx": 4,
-              "end_row_offset_idx": 5,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
               "text": "indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
@@ -4268,7 +2536,7 @@
     {
       "self_ref": "#/tables/3",
       "parent": {
-        "cref": "#/tables/1"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -4339,46 +2607,6 @@
           {
             "bbox": {
               "l": 330.211896,
-              "t": 1458.785208,
-              "r": 667.967586,
-              "b": 1587.543848,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 1,
-            "end_row_offset_idx": 2,
-            "start_col_offset_idx": 0,
-            "end_col_offset_idx": 1,
-            "text": "PERFORMANCE LEVEL 'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year 'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met.",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 667.9604400000001,
-              "t": 1459.00076,
-              "r": 1077.5977440000001,
-              "b": 1587.4512280000001,
-              "coord_origin": "TOPLEFT"
-            },
-            "row_span": 1,
-            "col_span": 1,
-            "start_row_offset_idx": 1,
-            "end_row_offset_idx": 2,
-            "start_col_offset_idx": 1,
-            "end_col_offset_idx": 2,
-            "text": "OPPORTUNITY CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
-            "column_header": false,
-            "row_header": false,
-            "row_section": false,
-            "fillable": false
-          },
-          {
-            "bbox": {
-              "l": 330.211896,
               "t": 1482.268588,
               "r": 667.967586,
               "b": 1541.3618319999998,
@@ -4386,8 +2614,8 @@
             },
             "row_span": 1,
             "col_span": 1,
-            "start_row_offset_idx": 2,
-            "end_row_offset_idx": 3,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
             "text": "'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year",
@@ -4406,8 +2634,8 @@
             },
             "row_span": 1,
             "col_span": 1,
-            "start_row_offset_idx": 2,
-            "end_row_offset_idx": 3,
+            "start_row_offset_idx": 1,
+            "end_row_offset_idx": 2,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
             "text": "CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration",
@@ -4426,8 +2654,8 @@
             },
             "row_span": 1,
             "col_span": 1,
-            "start_row_offset_idx": 3,
-            "end_row_offset_idx": 4,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
             "text": "'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met.",
@@ -4446,8 +2674,8 @@
             },
             "row_span": 1,
             "col_span": 1,
-            "start_row_offset_idx": 3,
-            "end_row_offset_idx": 4,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
             "text": "CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
@@ -4457,7 +2685,7 @@
             "fillable": false
           }
         ],
-        "num_rows": 4,
+        "num_rows": 3,
         "num_cols": 2,
         "grid": [
           [
@@ -4506,48 +2734,6 @@
             {
               "bbox": {
                 "l": 330.211896,
-                "t": 1458.785208,
-                "r": 667.967586,
-                "b": 1587.543848,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 1,
-              "end_row_offset_idx": 2,
-              "start_col_offset_idx": 0,
-              "end_col_offset_idx": 1,
-              "text": "PERFORMANCE LEVEL 'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year 'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met.",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            },
-            {
-              "bbox": {
-                "l": 667.9604400000001,
-                "t": 1459.00076,
-                "r": 1077.5977440000001,
-                "b": 1587.4512280000001,
-                "coord_origin": "TOPLEFT"
-              },
-              "row_span": 1,
-              "col_span": 1,
-              "start_row_offset_idx": 1,
-              "end_row_offset_idx": 2,
-              "start_col_offset_idx": 1,
-              "end_col_offset_idx": 2,
-              "text": "OPPORTUNITY CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
-              "column_header": false,
-              "row_header": false,
-              "row_section": false,
-              "fillable": false
-            }
-          ],
-          [
-            {
-              "bbox": {
-                "l": 330.211896,
                 "t": 1482.268588,
                 "r": 667.967586,
                 "b": 1541.3618319999998,
@@ -4555,8 +2741,8 @@
               },
               "row_span": 1,
               "col_span": 1,
-              "start_row_offset_idx": 2,
-              "end_row_offset_idx": 3,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
               "text": "'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year",
@@ -4575,8 +2761,8 @@
               },
               "row_span": 1,
               "col_span": 1,
-              "start_row_offset_idx": 2,
-              "end_row_offset_idx": 3,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
               "text": "CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration",
@@ -4597,8 +2783,8 @@
               },
               "row_span": 1,
               "col_span": 1,
-              "start_row_offset_idx": 3,
-              "end_row_offset_idx": 4,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
               "text": "'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met.",
@@ -4617,8 +2803,8 @@
               },
               "row_span": 1,
               "col_span": 1,
-              "start_row_offset_idx": 3,
-              "end_row_offset_idx": 4,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
               "text": "CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",

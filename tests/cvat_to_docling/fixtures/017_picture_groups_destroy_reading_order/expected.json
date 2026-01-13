@@ -473,12 +473,12 @@
           },
           "charspan": [
             0,
-            6
+            7
           ]
         }
       ],
-      "orig": "A. 0#3",
-      "text": "A. 0#3",
+      "orig": "A. OFI3",
+      "text": "A. OFI3",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1375,12 +1375,12 @@
           },
           "charspan": [
             0,
-            29
+            32
           ]
         }
       ],
-      "orig": "3.14X(4÷2)*X(4X2)=100.48(dm')",
-      "text": "3.14X(4÷2)*X(4X2)=100.48(dm')",
+      "orig": "3.14 X (4÷2)ªX(4X2)= 100.48(dm*)",
+      "text": "3.14 X (4÷2)ªX(4X2)= 100.48(dm*)",
       "formatting": null,
       "hyperlink": null
     },

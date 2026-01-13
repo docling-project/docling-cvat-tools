@@ -1801,6 +1801,31 @@ class CVATToDoclingConverter:
             )
 
             tb = element.bbox
+            nested_tables = (
+                self.doc_structure.get_elements_by_label(DocItemLabel.TABLE)
+                + self.doc_structure.get_elements_by_label(DocItemLabel.DOCUMENT_INDEX)
+            )
+            nested_table_bboxes = [
+                table_el.bbox
+                for table_el in nested_tables
+                if table_el.id != element.id
+                and bbox_contains(
+                    table_el.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH
+                )
+                and table_el.bbox.area() < tb.area()
+            ]
+
+            def _in_nested_table(bbox: BoundingBox) -> bool:
+                return any(
+                    bbox_contains(
+                        bbox, nested_bbox, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
+                    for nested_bbox in nested_table_bboxes
+                )
+
+            def _belongs_to_current_table(candidate: CVATElement) -> bool:
+                ancestor_id = self._get_container_ancestor_id(candidate.id)
+                return ancestor_id is None or ancestor_id == element.id
 
             pool_rows.extend(
                 pool_row_sections
@@ -1812,6 +1837,8 @@ class CVATToDoclingConverter:
                     e
                     for e in pool_rows
                     if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
             cols = dedupe_items_by_bbox(
@@ -1819,6 +1846,8 @@ class CVATToDoclingConverter:
                     e
                     for e in pool_cols
                     if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
             merges = dedupe_items_by_bbox(
@@ -1826,6 +1855,8 @@ class CVATToDoclingConverter:
                     e
                     for e in pool_merges
                     if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
 
@@ -1834,6 +1865,8 @@ class CVATToDoclingConverter:
                     e
                     for e in pool_col_headers
                     if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
             row_headers = dedupe_items_by_bbox(
@@ -1841,6 +1874,8 @@ class CVATToDoclingConverter:
                     e
                     for e in pool_row_headers
                     if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
             row_sections = dedupe_items_by_bbox(
@@ -1848,6 +1883,8 @@ class CVATToDoclingConverter:
                     e
                     for e in pool_row_sections
                     if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
             fillable_cells = dedupe_items_by_bbox(
@@ -1855,6 +1892,8 @@ class CVATToDoclingConverter:
                     e
                     for e in pool_fillable_cells
                     if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
 
