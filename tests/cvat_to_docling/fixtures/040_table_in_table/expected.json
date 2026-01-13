@@ -51,12 +51,6 @@
       },
       {
         "cref": "#/tables/1"
-      },
-      {
-        "cref": "#/tables/2"
-      },
-      {
-        "cref": "#/tables/3"
       }
     ],
     "content_layer": "body",
@@ -2079,9 +2073,83 @@
             "ref": {
               "cref": "#/groups/0"
             }
+          },
+          {
+            "bbox": {
+              "l": 112.66621800000001,
+              "t": 1165.696796,
+              "r": 330.10589699999997,
+              "b": 1398.4154919999999,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "What were the performance  measures and why were  they chosen?",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": null,
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 2,
+            "end_row_offset_idx": 3,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Three components applied in respect of FY13. LEVEL  COMPONENT  Corporate Level (50%) drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group Business Unit Level (25%) drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue) Strategic Level (25%) indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false,
+            "ref": {
+              "cref": "#/tables/2"
+            }
+          },
+          {
+            "bbox": {
+              "l": 112.77579000000003,
+              "t": 1398.459276,
+              "r": 330.10589699999997,
+              "b": 1587.660044,
+              "coord_origin": "TOPLEFT"
+            },
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 0,
+            "end_col_offset_idx": 1,
+            "text": "What could executives earn  under the STi?",
+            "column_header": false,
+            "row_header": true,
+            "row_section": false,
+            "fillable": false
+          },
+          {
+            "bbox": null,
+            "row_span": 1,
+            "col_span": 1,
+            "start_row_offset_idx": 3,
+            "end_row_offset_idx": 4,
+            "start_col_offset_idx": 1,
+            "end_col_offset_idx": 2,
+            "text": "Each senior executive had a target opportunity depending on the accountabilities of the role and impact on  Company or business unit performance. There are two levels of performance:  PERFORMANCE LEVEL OPPORTUNITY 'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration 'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met. CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
+            "column_header": false,
+            "row_header": false,
+            "row_section": false,
+            "fillable": false,
+            "ref": {
+              "cref": "#/tables/3"
+            }
           }
         ],
-        "num_rows": 2,
+        "num_rows": 4,
         "num_cols": 2,
         "grid": [
           [
@@ -2161,6 +2229,78 @@
               "row_section": false,
               "fillable": false
             }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 112.66621800000001,
+                "t": 1165.696796,
+                "r": 330.10589699999997,
+                "b": 1398.4154919999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "What were the performance  measures and why were  they chosen?",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": null,
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Three components applied in respect of FY13. LEVEL  COMPONENT  Corporate Level (50%) drives corporate financial results (EBIT) and encourages  senior\tmanagement\tto\twork\ttogether\tfor\tthe\toverall\t benefit of the Group Business Unit Level (25%) drives business unit financial and other operational metrics  to encourage team behaviour (e.g. EBIT, cost reductions,  audience,\tmarket\tposition\tand\trevenue) Strategic Level (25%) indicators of future Group, business unit and personal  success (delivery against milestones and personal  development) to drive the delivery of the Corporate strategy.",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
+          ],
+          [
+            {
+              "bbox": {
+                "l": 112.77579000000003,
+                "t": 1398.459276,
+                "r": 330.10589699999997,
+                "b": 1587.660044,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "What could executives earn  under the STi?",
+              "column_header": false,
+              "row_header": true,
+              "row_section": false,
+              "fillable": false
+            },
+            {
+              "bbox": null,
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Each senior executive had a target opportunity depending on the accountabilities of the role and impact on  Company or business unit performance. There are two levels of performance:  PERFORMANCE LEVEL OPPORTUNITY 'on-target'\tperformance\t-\te.g.\tfor\tEBIT\tthe\t'on- target' performance is typically achievement of  budget or prior year CEO\t-\t75%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t45%\tof\tfixed\tremuneration 'maximum'\tperformance\t-\trequires\tstretching\t performance targets to be met. CEO\t-\t150%\tof\tfixed\tremuneration Other\texecutive\tKMP\t-\t90%\tof\tfixed\tremuneration",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false,
+              "fillable": false
+            }
           ]
         ]
       },
@@ -2169,7 +2309,7 @@
     {
       "self_ref": "#/tables/2",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/tables/1"
       },
       "children": [],
       "content_layer": "body",
@@ -2536,7 +2676,7 @@
     {
       "self_ref": "#/tables/3",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/tables/1"
       },
       "children": [],
       "content_layer": "body",

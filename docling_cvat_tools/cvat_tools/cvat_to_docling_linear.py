@@ -71,6 +71,7 @@ from docling_cvat_tools.cvat_tools.folder_models import (
 from docling_cvat_tools.cvat_tools.folder_parser import parse_cvat_folder
 from docling_cvat_tools.cvat_tools.geometry import (
     bbox_contains,
+    bbox_fraction_inside,
     bbox_intersection,
     dedupe_items_by_bbox,
 )
@@ -1775,7 +1776,7 @@ class CVATToDoclingConverter:
             )
 
         elif doc_label in [DocItemLabel.TABLE, DocItemLabel.DOCUMENT_INDEX]:
-            # TODO: INSERT TABLE DATA PREP HERE
+            # TABLE DATA PREP HERE
             pool_rows = self.doc_structure.get_elements_by_label(
                 TableStructLabel.TABLE_ROW
             )
@@ -1801,10 +1802,9 @@ class CVATToDoclingConverter:
             )
 
             tb = element.bbox
-            nested_tables = (
-                self.doc_structure.get_elements_by_label(DocItemLabel.TABLE)
-                + self.doc_structure.get_elements_by_label(DocItemLabel.DOCUMENT_INDEX)
-            )
+            nested_tables = self.doc_structure.get_elements_by_label(
+                DocItemLabel.TABLE
+            ) + self.doc_structure.get_elements_by_label(DocItemLabel.DOCUMENT_INDEX)
             nested_table_bboxes = [
                 table_el.bbox
                 for table_el in nested_tables
@@ -1814,14 +1814,16 @@ class CVATToDoclingConverter:
                 )
                 and table_el.bbox.area() < tb.area()
             ]
+            nested_threshold = 0.9
 
             def _in_nested_table(bbox: BoundingBox) -> bool:
-                return any(
-                    bbox_contains(
-                        bbox, nested_bbox, threshold=DEFAULT_CONTAINMENT_THRESH
-                    )
-                    for nested_bbox in nested_table_bboxes
-                )
+                for nested_bbox in nested_table_bboxes:
+                    if (
+                        bbox_fraction_inside(bbox, nested_bbox) >= nested_threshold
+                        and bbox_fraction_inside(nested_bbox, bbox) < nested_threshold
+                    ):
+                        return True
+                return False
 
             def _belongs_to_current_table(candidate: CVATElement) -> bool:
                 ancestor_id = self._get_container_ancestor_id(candidate.id)
