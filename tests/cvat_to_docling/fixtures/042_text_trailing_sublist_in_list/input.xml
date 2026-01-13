@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+<image id="481" name="doc_ebf4832a78ba60bf07e6a6eeaf692a1bf40815cbacdada7865fea47fe4b693c8_page_000001.png" width="1191" height="1684">
+        <box label="text" source="" occluded="0" xtl="559.7842919999999" ytl="28.297936" xbr="1088.946783" ybr="65.175852" rotation="0" z_order="2">
+            <attribute name="content_layer">FURNITURE</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="100.76693699999998" ytl="129.10386" xbr="1080.366819" ybr="173.67092" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="100.04161799999997" ytl="872.386096" xbr="1110.61941" ybr="919.7704879999999" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="98.93994299999997" ytl="1310.6925640000002" xbr="1081.080228" ybr="1429.4213" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="101.919825" ytl="198.026612" xbr="1010.7076109999999" ybr="243.19485999999998" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="103.66702199999997" ytl="289.40045200000003" xbr="921.002682" ybr="311.083636" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">2</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="104.31254399999997" ytl="254.88181999999998" xbr="398.71464299999997" ybr="277.27396799999997" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">2</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="101.93768999999998" ytl="345.374928" xbr="1125.7463010000001" ybr="439.636828" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="102.22352999999998" ytl="462.54428" xbr="1105.330179" ybr="484.523848" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="101.42317800000001" ytl="507.61822399999994" xbr="1112.735817" ybr="552.126344" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="100.226223" ytl="618.6140320000001" xbr="1029.209796" ybr="666.11462" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="101.976993" ytl="687.565412" xbr="1113.280104" ybr="735.066" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="103.24898100000001" ytl="746.768116" xbr="992.325717" ybr="769.860808" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">2</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="105.059301" ytl="780.7445" xbr="992.883105" ybr="803.239372" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">2</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="104.217264" ytl="814.512068" xbr="1119.113622" ybr="860.205724" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">2</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="100.70143200000001" ytl="940.763232" xbr="1102.2752639999999" ybr="1009.6573559999999" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="101.47677299999998" ytl="1034.6192879999999" xbr="1118.070306" ybr="1178.845468" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="98.87920199999996" ytl="1201.928056" xbr="1103.8902600000001" ybr="1248.3811959999998" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="99.50566800000001" ytl="1494.395072" xbr="1039.523856" ybr="1538.032564" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="101.09803499999998" ytl="1561.75002" xbr="667.500714" ybr="1582.936424" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="558.413451" ytl="1637.9442840000002" xbr="672.361185" ybr="1651.6672" rotation="0" z_order="2">
+            <attribute name="content_layer">FURNITURE</attribute>
+        </box>
+        <box label="section_header" source="" occluded="0" xtl="98.94828" ytl="573.408736" xbr="353.69127000000003" ybr="594.2886520000001" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">2</attribute>
+        </box>
+        <box label="section_header" source="" occluded="0" xtl="101.158776" ytl="1266.054776" xbr="278.346228" ybr="1286.934692" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">2</attribute>
+        </box>
+        <box label="section_header" source="" occluded="0" xtl="101.54227800000001" ytl="1448.453868" xbr="458.396844" ybr="1465.922" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">2</attribute>
+        </box>
+        <polyline label="reading_order" source="" occluded="0" points="836.782308,32.110512;248.19249,148.45302;246.339294,211.449776;251.89769099999998,261.478048;242.63409299999998,302.240952;257.457279,378.207876;251.39985299999998,468.36586800000003;256.110258,521.354612;247.867347,584.942452;257.288157,641.464228;244.03947300000002,709.482672;258.810255,759.704604;246.993153,795.154488;272.104197,845.37642;263.751714,886.316144;270.034239,958.510908;260.770641,1082.65202;271.889817,1226.337636;262.626219,1274.511824;279.25377000000003,1349.5929640000002;254.36425200000002,1455.105668;186.74165399999998,1521.421588;261.516207,1571.968532;589.433046,1645.82372">
+            <attribute name="level">1</attribute>
+        </polyline>
+        <polyline label="group" source="" occluded="0" points="447.471801,1513.542152;488.918601,1572.339012" />
+        <polyline label="group" source="" occluded="0" points="326.41736999999995,263.552736;360.153636,297.288308" />
+        <polyline label="group" source="" occluded="0" points="366.27775799999995,753.349188;327.58693200000005,793.249884;402.550854,835.56712" />
+        <polyline label="group" source="" occluded="0" points="147.679236,634.49752;182.398077,708.0175919999999;138.578805,891.996276;122.49315899999999,964.6221439999999;190.380159,1091.4307119999999;140.42604599999999,1227.20658" />
+        <polyline label="group" source="" occluded="0" points="164.771277,225.98606400000003;170.21771999999999,388.284932;133.182384,468.88959200000005;164.771277,530.976988" />
+    </image>
+</annotations>
