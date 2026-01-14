@@ -10,7 +10,7 @@ import pytest
 from docling_core.types.doc import DoclingDocument, ImageRefMode
 from docling_core.types.doc.document import ContentLayer
 
-from docling_cvat_tools.cvat_tools.cvat_to_docling_linear import convert_cvat_to_docling
+from docling_cvat_tools.cvat_tools.cvat_to_docling import convert_cvat_to_docling
 from docling_cvat_tools.visualisation.visualisations import save_single_document_html
 
 
