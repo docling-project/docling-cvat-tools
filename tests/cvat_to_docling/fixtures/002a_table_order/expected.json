@@ -29,19 +29,19 @@
         "cref": "#/tables/0"
       },
       {
-        "cref": "#/texts/6"
+        "cref": "#/texts/14"
       },
       {
-        "cref": "#/groups/0"
+        "cref": "#/groups/2"
       },
       {
-        "cref": "#/texts/8"
+        "cref": "#/texts/16"
       },
       {
         "cref": "#/tables/1"
       },
       {
-        "cref": "#/texts/9"
+        "cref": "#/texts/17"
       }
     ],
     "content_layer": "body",
@@ -53,151 +53,55 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/body"
-      },
-      "children": [
-        {
-          "cref": "#/texts/7"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "list_standalone_6",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/1",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [
-        {
-          "cref": "#/texts/2"
-        },
-        {
-          "cref": "#/groups/10"
-        },
-        {
-          "cref": "#/groups/9"
-        },
-        {
-          "cref": "#/groups/8"
-        },
-        {
-          "cref": "#/groups/7"
-        },
-        {
-          "cref": "#/groups/6"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "rich_cell_group_0_1_1",
-      "label": "unspecified"
-    },
-    {
-      "self_ref": "#/groups/2",
-      "parent": {
-        "cref": "#/tables/0"
+        "cref": "#/groups/3"
       },
       "children": [
         {
           "cref": "#/texts/3"
         },
         {
-          "cref": "#/groups/5"
+          "cref": "#/texts/4"
         },
         {
-          "cref": "#/groups/4"
+          "cref": "#/texts/5"
         },
         {
-          "cref": "#/groups/3"
+          "cref": "#/texts/6"
+        },
+        {
+          "cref": "#/texts/7"
         }
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "rich_cell_group_0_1_2",
-      "label": "unspecified"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "cref": "#/groups/2"
-      },
-      "children": [
-        {
-          "cref": "#/texts/10"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
+      "name": "group_3",
       "label": "list"
     },
     {
-      "self_ref": "#/groups/4",
+      "self_ref": "#/groups/1",
       "parent": {
-        "cref": "#/groups/2"
+        "cref": "#/groups/4"
       },
       "children": [
+        {
+          "cref": "#/texts/9"
+        },
+        {
+          "cref": "#/texts/10"
+        },
         {
           "cref": "#/texts/11"
         }
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "group",
+      "name": "group_2",
       "label": "list"
     },
     {
-      "self_ref": "#/groups/5",
+      "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/groups/2"
-      },
-      "children": [
-        {
-          "cref": "#/texts/12"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/6",
-      "parent": {
-        "cref": "#/groups/1"
-      },
-      "children": [
-        {
-          "cref": "#/texts/13"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/7",
-      "parent": {
-        "cref": "#/groups/1"
-      },
-      "children": [
-        {
-          "cref": "#/texts/14"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/8",
-      "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/body"
       },
       "children": [
         {
@@ -206,38 +110,44 @@
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "group",
+      "name": "list_standalone_6",
       "label": "list"
     },
     {
-      "self_ref": "#/groups/9",
+      "self_ref": "#/groups/3",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/tables/0"
       },
       "children": [
         {
-          "cref": "#/texts/16"
+          "cref": "#/texts/2"
+        },
+        {
+          "cref": "#/groups/0"
         }
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "group",
-      "label": "list"
+      "name": "rich_cell_group_0_1_1",
+      "label": "unspecified"
     },
     {
-      "self_ref": "#/groups/10",
+      "self_ref": "#/groups/4",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/tables/0"
       },
       "children": [
         {
-          "cref": "#/texts/17"
+          "cref": "#/texts/8"
+        },
+        {
+          "cref": "#/groups/1"
         }
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "group",
-      "label": "list"
+      "name": "rich_cell_group_0_1_2",
+      "label": "unspecified"
     }
   ],
   "texts": [
@@ -304,7 +214,7 @@
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -334,7 +244,167 @@
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/groups/2"
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 316.54,
+            "t": 1355.635156,
+            "r": 593.21619,
+            "b": 1340.746912,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            28
+          ]
+        }
+      ],
+      "orig": "- Arztzimmern bzw. U+B-Räume",
+      "text": "- Arztzimmern bzw. U+B-Räume",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 316.2663,
+            "t": 1334.9068,
+            "r": 687.0929100000001,
+            "b": 1320.018556,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            42
+          ]
+        }
+      ],
+      "orig": "- Personal- und Patientenaufenthaltsräumen",
+      "text": "- Personal- und Patientenaufenthaltsräumen",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 316.71136,
+            "t": 1313.636196,
+            "r": 444.30911000000003,
+            "b": 1298.747952,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            12
+          ]
+        }
+      ],
+      "orig": "- Büroräumen",
+      "text": "- Büroräumen",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 316.57331999999997,
+            "t": 1292.670396,
+            "r": 452.80214,
+            "b": 1277.782152,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "- Laborräumen",
+      "text": "- Laborräumen",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 316.80656000000005,
+            "t": 1272.416928,
+            "r": 739.70757,
+            "b": 1235.5423799999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            72
+          ]
+        }
+      ],
+      "orig": "- Fluren und Arztzimmern bzw. Aufenthaltsräumen, Büroräumen, Laborräumen",
+      "text": "- Fluren und Arztzimmern bzw. Aufenthaltsräumen, Büroräumen, Laborräumen",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "cref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
@@ -360,6 +430,102 @@
       "text": "Wände zwischen",
       "formatting": null,
       "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 316.63282,
+            "t": 1201.83712,
+            "r": 521.54249,
+            "b": 1183.395636,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "- Besprechungsräumen",
+      "text": "- Besprechungsräumen",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 316.64234,
+            "t": 1181.1256039999998,
+            "r": 474.74455,
+            "b": 1166.0150720000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "- Chefarzträumen",
+      "text": "- Chefarzträumen",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 316.50073000000003,
+            "t": 1160.348412,
+            "r": 839.01188,
+            "b": 1121.481692,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            109
+          ]
+        }
+      ],
+      "orig": "- Fluren und Besprechungsräumen bzw. Chefarzträumen sowie Räumen zur Behandlung vertraulicher Angelegenheiten",
+      "text": "- Fluren und Besprechungsräumen bzw. Chefarzträumen sowie Räumen zur Behandlung vertraulicher Angelegenheiten",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
     },
     {
       "self_ref": "#/texts/12",
@@ -422,7 +588,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/14",
       "parent": {
         "cref": "#/body"
       },
@@ -452,9 +618,9 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/groups/0"
+        "cref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -484,7 +650,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/16",
       "parent": {
         "cref": "#/body"
       },
@@ -514,7 +680,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/17",
       "parent": {
         "cref": "#/body"
       },
@@ -542,262 +708,6 @@
       "text": "1) Nicht erforderlich, wenn geräuscherzeugende Anlagen ausreichend köperschallgedämmt aufge- stellt werden.",
       "formatting": null,
       "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "cref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 316.50073000000003,
-            "t": 1160.348412,
-            "r": 839.01188,
-            "b": 1121.481692,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            109
-          ]
-        }
-      ],
-      "orig": "- Fluren und Besprechungsräumen bzw. Chefarzträumen sowie Räumen zur Behandlung vertraulicher Angelegenheiten",
-      "text": "- Fluren und Besprechungsräumen bzw. Chefarzträumen sowie Räumen zur Behandlung vertraulicher Angelegenheiten",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "cref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 316.64234,
-            "t": 1181.1256039999998,
-            "r": 474.74455,
-            "b": 1166.0150720000001,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            16
-          ]
-        }
-      ],
-      "orig": "- Chefarzträumen",
-      "text": "- Chefarzträumen",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "cref": "#/groups/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 316.63282,
-            "t": 1201.83712,
-            "r": 521.54249,
-            "b": 1183.395636,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            20
-          ]
-        }
-      ],
-      "orig": "- Besprechungsräumen",
-      "text": "- Besprechungsräumen",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "cref": "#/groups/6"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 316.80656000000005,
-            "t": 1272.416928,
-            "r": 739.70757,
-            "b": 1235.5423799999999,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            72
-          ]
-        }
-      ],
-      "orig": "- Fluren und Arztzimmern bzw. Aufenthaltsräumen, Büroräumen, Laborräumen",
-      "text": "- Fluren und Arztzimmern bzw. Aufenthaltsräumen, Büroräumen, Laborräumen",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "cref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 316.57331999999997,
-            "t": 1292.670396,
-            "r": 452.80214,
-            "b": 1277.782152,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            13
-          ]
-        }
-      ],
-      "orig": "- Laborräumen",
-      "text": "- Laborräumen",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "cref": "#/groups/8"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 316.71136,
-            "t": 1313.636196,
-            "r": 444.30911000000003,
-            "b": 1298.747952,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            12
-          ]
-        }
-      ],
-      "orig": "- Büroräumen",
-      "text": "- Büroräumen",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "cref": "#/groups/9"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 316.2663,
-            "t": 1334.9068,
-            "r": 687.0929100000001,
-            "b": 1320.018556,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            42
-          ]
-        }
-      ],
-      "orig": "- Personal- und Patientenaufenthaltsräumen",
-      "text": "- Personal- und Patientenaufenthaltsräumen",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "cref": "#/groups/10"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 316.54,
-            "t": 1355.635156,
-            "r": 593.21619,
-            "b": 1340.746912,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            28
-          ]
-        }
-      ],
-      "orig": "- Arztzimmern bzw. U+B-Räume",
-      "text": "- Arztzimmern bzw. U+B-Räume",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
     }
   ],
   "pictures": [
@@ -852,10 +762,10 @@
       },
       "children": [
         {
-          "cref": "#/groups/1"
+          "cref": "#/groups/3"
         },
         {
-          "cref": "#/groups/2"
+          "cref": "#/groups/4"
         }
       ],
       "content_layer": "body",
@@ -881,7 +791,7 @@
       "references": [],
       "footnotes": [
         {
-          "cref": "#/texts/6"
+          "cref": "#/texts/14"
         }
       ],
       "image": null,
@@ -981,7 +891,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/1"
+              "cref": "#/groups/3"
             }
           },
           {
@@ -1038,7 +948,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/2"
+              "cref": "#/groups/4"
             }
           },
           {
@@ -1095,7 +1005,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/texts/4"
+              "cref": "#/texts/12"
             }
           },
           {
@@ -1152,7 +1062,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/texts/5"
+              "cref": "#/texts/13"
             }
           },
           {
@@ -1498,7 +1408,7 @@
       "references": [],
       "footnotes": [
         {
-          "cref": "#/texts/9"
+          "cref": "#/texts/17"
         }
       ],
       "image": null,

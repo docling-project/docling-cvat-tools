@@ -32,31 +32,31 @@
         "cref": "#/tables/0"
       },
       {
-        "cref": "#/texts/3"
+        "cref": "#/texts/11"
       },
       {
         "cref": "#/tables/1"
       },
       {
-        "cref": "#/texts/4"
+        "cref": "#/texts/12"
       },
       {
         "cref": "#/pictures/1"
       },
       {
-        "cref": "#/groups/0"
+        "cref": "#/groups/2"
       },
       {
-        "cref": "#/texts/9"
+        "cref": "#/texts/17"
       },
       {
         "cref": "#/tables/2"
       },
       {
-        "cref": "#/texts/10"
+        "cref": "#/texts/18"
       },
       {
-        "cref": "#/texts/11"
+        "cref": "#/texts/19"
       },
       {
         "cref": "#/pictures/3"
@@ -74,22 +74,25 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/tables/0"
       },
       "children": [
         {
+          "cref": "#/texts/3"
+        },
+        {
+          "cref": "#/texts/4"
+        },
+        {
+          "cref": "#/texts/5"
+        },
+        {
           "cref": "#/texts/6"
-        },
-        {
-          "cref": "#/texts/7"
-        },
-        {
-          "cref": "#/texts/8"
         }
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "group_0",
+      "name": "group_1",
       "label": "list"
     },
     {
@@ -99,165 +102,42 @@
       },
       "children": [
         {
-          "cref": "#/groups/10"
+          "cref": "#/texts/7"
         },
         {
-          "cref": "#/groups/9"
+          "cref": "#/texts/8"
         },
         {
-          "cref": "#/groups/8"
+          "cref": "#/texts/9"
         },
         {
-          "cref": "#/groups/7"
+          "cref": "#/texts/10"
         }
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "rich_cell_group_0_0_1",
-      "label": "unspecified"
+      "name": "group_2",
+      "label": "list"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [
-        {
-          "cref": "#/groups/6"
-        },
-        {
-          "cref": "#/groups/5"
-        },
-        {
-          "cref": "#/groups/4"
-        },
-        {
-          "cref": "#/groups/3"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "rich_cell_group_0_1_1",
-      "label": "unspecified"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "cref": "#/groups/2"
-      },
-      "children": [
-        {
-          "cref": "#/texts/12"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/4",
-      "parent": {
-        "cref": "#/groups/2"
-      },
-      "children": [
-        {
-          "cref": "#/texts/13"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/5",
-      "parent": {
-        "cref": "#/groups/2"
+        "cref": "#/body"
       },
       "children": [
         {
           "cref": "#/texts/14"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/6",
-      "parent": {
-        "cref": "#/groups/2"
-      },
-      "children": [
+        },
         {
           "cref": "#/texts/15"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/7",
-      "parent": {
-        "cref": "#/groups/1"
-      },
-      "children": [
+        },
         {
           "cref": "#/texts/16"
         }
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/8",
-      "parent": {
-        "cref": "#/groups/1"
-      },
-      "children": [
-        {
-          "cref": "#/texts/17"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/9",
-      "parent": {
-        "cref": "#/groups/1"
-      },
-      "children": [
-        {
-          "cref": "#/texts/18"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/10",
-      "parent": {
-        "cref": "#/groups/1"
-      },
-      "children": [
-        {
-          "cref": "#/texts/19"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
+      "name": "group_0",
       "label": "list"
     }
   ],
@@ -357,6 +237,262 @@
     {
       "self_ref": "#/texts/3",
       "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 90.41855999999999,
+            "t": 1067.9184,
+            "r": 180.41728,
+            "b": 1056.8319999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            13
+          ]
+        }
+      ],
+      "orig": "• Sex: Female",
+      "text": "• Sex: Female",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/4",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 90.01472,
+            "t": 1049.192,
+            "r": 215.04064,
+            "b": 1037.0176000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "• Age: 20 - 30 years",
+      "text": "• Age: 20 - 30 years",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/5",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 90.06528,
+            "t": 1031.8848,
+            "r": 253.16288,
+            "b": 1002.8704,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "• Income: Approximately $4000/month",
+      "text": "• Income: Approximately $4000/month",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/6",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 90.47808,
+            "t": 997.3216,
+            "r": 236.17984,
+            "b": 985.9552,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "• Location: Urban area",
+      "text": "• Location: Urban area",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 351.38944000000004,
+            "t": 1067.888,
+            "r": 424.14592,
+            "b": 1056.4688,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            11
+          ]
+        }
+      ],
+      "orig": "• Sex: Male",
+      "text": "• Sex: Male",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 351.59232000000003,
+            "t": 1049.2944,
+            "r": 475.81696,
+            "b": 1037.0095999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "• Age: 20 - 25 years",
+      "text": "• Age: 20 - 25 years",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 352.03200000000004,
+            "t": 1032.6016,
+            "r": 515.53024,
+            "b": 1002.9008,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            35
+          ]
+        }
+      ],
+      "orig": "• Income: Approximately $3500/month",
+      "text": "• Income: Approximately $3500/month",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 351.53855999999996,
+            "t": 997.9024,
+            "r": 497.53728,
+            "b": 985.3824000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "• Location: Urban area",
+      "text": "• Location: Urban area",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/11",
+      "parent": {
         "cref": "#/body"
       },
       "children": [],
@@ -386,7 +522,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/4",
+      "self_ref": "#/texts/12",
       "parent": {
         "cref": "#/body"
       },
@@ -417,7 +553,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/5",
+      "self_ref": "#/texts/13",
       "parent": {
         "cref": "#/pictures/1"
       },
@@ -447,9 +583,9 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/6",
+      "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/groups/0"
+        "cref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -479,9 +615,9 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/groups/0"
+        "cref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -511,9 +647,9 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/groups/0"
+        "cref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -543,7 +679,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/9",
+      "self_ref": "#/texts/17",
       "parent": {
         "cref": "#/body"
       },
@@ -574,7 +710,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/10",
+      "self_ref": "#/texts/18",
       "parent": {
         "cref": "#/body"
       },
@@ -605,7 +741,7 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/11",
+      "self_ref": "#/texts/19",
       "parent": {
         "cref": "#/body"
       },
@@ -633,262 +769,6 @@
       "text": "The customer approach used is Segmentation Approach, which is based on market segmentation, as customers from different geographic segments will have different needs and preferences.",
       "formatting": null,
       "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "cref": "#/groups/3"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 351.53855999999996,
-            "t": 997.9024,
-            "r": 497.53728,
-            "b": 985.3824000000001,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            22
-          ]
-        }
-      ],
-      "orig": "• Location: Urban area",
-      "text": "• Location: Urban area",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/13",
-      "parent": {
-        "cref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 352.03200000000004,
-            "t": 1032.6016,
-            "r": 515.53024,
-            "b": 1002.9008,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            35
-          ]
-        }
-      ],
-      "orig": "• Income: Approximately $3500/month",
-      "text": "• Income: Approximately $3500/month",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/14",
-      "parent": {
-        "cref": "#/groups/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 351.59232000000003,
-            "t": 1049.2944,
-            "r": 475.81696,
-            "b": 1037.0095999999999,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            20
-          ]
-        }
-      ],
-      "orig": "• Age: 20 - 25 years",
-      "text": "• Age: 20 - 25 years",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/15",
-      "parent": {
-        "cref": "#/groups/6"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 351.38944000000004,
-            "t": 1067.888,
-            "r": 424.14592,
-            "b": 1056.4688,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            11
-          ]
-        }
-      ],
-      "orig": "• Sex: Male",
-      "text": "• Sex: Male",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/16",
-      "parent": {
-        "cref": "#/groups/7"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 90.47808,
-            "t": 997.3216,
-            "r": 236.17984,
-            "b": 985.9552,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            22
-          ]
-        }
-      ],
-      "orig": "• Location: Urban area",
-      "text": "• Location: Urban area",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/17",
-      "parent": {
-        "cref": "#/groups/8"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 90.06528,
-            "t": 1031.8848,
-            "r": 253.16288,
-            "b": 1002.8704,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            35
-          ]
-        }
-      ],
-      "orig": "• Income: Approximately $4000/month",
-      "text": "• Income: Approximately $4000/month",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/18",
-      "parent": {
-        "cref": "#/groups/9"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 90.01472,
-            "t": 1049.192,
-            "r": 215.04064,
-            "b": 1037.0176000000001,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            20
-          ]
-        }
-      ],
-      "orig": "• Age: 20 - 30 years",
-      "text": "• Age: 20 - 30 years",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/19",
-      "parent": {
-        "cref": "#/groups/10"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 90.41855999999999,
-            "t": 1067.9184,
-            "r": 180.41728,
-            "b": 1056.8319999999999,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            13
-          ]
-        }
-      ],
-      "orig": "• Sex: Female",
-      "text": "• Sex: Female",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
     }
   ],
   "pictures": [
@@ -944,7 +824,7 @@
           "cref": "#/pictures/2"
         },
         {
-          "cref": "#/texts/5"
+          "cref": "#/texts/13"
         }
       ],
       "content_layer": "body",
@@ -1074,14 +954,7 @@
       "parent": {
         "cref": "#/body"
       },
-      "children": [
-        {
-          "cref": "#/groups/1"
-        },
-        {
-          "cref": "#/groups/2"
-        }
-      ],
+      "children": [],
       "content_layer": "body",
       "meta": null,
       "label": "table",
@@ -1161,7 +1034,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/1"
+              "cref": "#/groups/0"
             }
           },
           {
@@ -1178,7 +1051,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/2"
+              "cref": "#/groups/1"
             }
           }
         ],

@@ -1386,6 +1386,25 @@ class CVATToDoclingConverter:
                 # Convert cell bbox to BOTTOM_LEFT once (provs are in BOTTOM_LEFT)
                 cell_bbox_bl = c.bbox.to_bottom_left_origin(page_height)
 
+                def _docitem_in_cell(doc_item: DocItem) -> bool:
+                    return any(
+                        is_bbox_within(cell_bbox_bl, prov.bbox)
+                        for prov in doc_item.prov
+                    )
+
+                def _group_inside_cell(group: GroupItem) -> bool:
+                    stack = [group]
+                    while stack:
+                        current = stack.pop()
+                        for child_ref in current.children:
+                            child = child_ref.resolve(self.doc)
+                            if isinstance(child, DocItem):
+                                if not _docitem_in_cell(child):
+                                    return False
+                            elif isinstance(child, GroupItem):
+                                stack.append(child)
+                    return True
+
                 # FIND RICH ELEMENTS REFs HERE, MAKE A GROUP IF MANY
                 for item_ref in all_items:
                     item = item_ref.resolve(self.doc)
@@ -1395,6 +1414,33 @@ class CVATToDoclingConverter:
                         continue
 
                     if isinstance(item, DocItem):
+                        if isinstance(item, ListItem) and item.parent:
+                            parent_group = item.parent.resolve(self.doc)
+                            if (
+                                isinstance(parent_group, GroupItem)
+                                and parent_group.label == GroupLabel.LIST
+                                and _group_inside_cell(parent_group)
+                            ):
+                                ref = parent_group.get_ref()
+                                if ref.cref in seen_refs:
+                                    continue
+                                seen_refs.add(ref.cref)
+                                rich_cell = True
+                                item_parent = (
+                                    parent_group.parent.resolve(self.doc)
+                                    if parent_group.parent
+                                    else None
+                                )
+                                if (
+                                    item_parent
+                                    and item_parent != table_item
+                                    and ref in item_parent.children
+                                ):
+                                    item_parent.children.remove(ref)
+                                parent_group.parent = table_item.get_ref()
+                                provs_in_cell.append(ref)
+                                continue
+
                         for prov in item.prov:
                             # Both are now in BOTTOM_LEFT, no conversion needed
                             if is_bbox_within(cell_bbox_bl, prov.bbox):
