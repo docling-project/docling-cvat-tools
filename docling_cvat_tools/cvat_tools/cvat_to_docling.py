@@ -20,6 +20,7 @@ Scale Handling:
 """
 
 import copy
+import math
 import logging
 import sys
 from dataclasses import dataclass, field
@@ -1373,7 +1374,6 @@ class CVATToDoclingConverter:
                 all_items.append(item.get_ref())
 
             for c in table_cell_data:
-                # Get page number from bbox position
                 # Get text to populate TableData
                 cell_text = self._extract_text_from_bbox(c.bbox, page_no)
 
@@ -1913,17 +1913,126 @@ class CVATToDoclingConverter:
             )
 
             tb = element.bbox
+
+            def _normalize_rotation(angle: float) -> float:
+                normalized = angle % 360.0
+                if normalized > 180.0:
+                    normalized -= 360.0
+                return normalized
+
+            rotation_deg = _normalize_rotation(element.rotation_deg or 0.0)
+            if abs(rotation_deg) <= 1.0e-3:
+                candidate_rotations = [
+                    _normalize_rotation(col.rotation_deg or 0.0)
+                    for col in pool_cols
+                    if abs(col.rotation_deg or 0.0) > 1.0e-3
+                    and bbox_contains(
+                        col.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
+                ]
+                if candidate_rotations:
+                    candidate_rotations.sort()
+                    rotation_deg = candidate_rotations[len(candidate_rotations) // 2]
+
+            rotation_active = abs(rotation_deg) > 1.0e-3
+            base_table_bbox = element.bbox_unrotated or tb
+            table_center = (
+                (base_table_bbox.l + base_table_bbox.r) / 2.0,
+                (base_table_bbox.t + base_table_bbox.b) / 2.0,
+            )
+
+            def _rotate_points(
+                points: list[tuple[float, float]],
+                origin: tuple[float, float],
+                angle_deg: float,
+            ) -> list[tuple[float, float]]:
+                if abs(angle_deg % 360.0) <= 1.0e-3:
+                    return points
+                cx, cy = origin
+                theta = math.radians(angle_deg)
+                cos_t = math.cos(theta)
+                sin_t = math.sin(theta)
+                rotated = []
+                for x, y in points:
+                    dx = x - cx
+                    dy = y - cy
+                    rotated.append(
+                        (
+                            cx + (dx * cos_t) - (dy * sin_t),
+                            cy + (dx * sin_t) + (dy * cos_t),
+                        )
+                    )
+                return rotated
+
+            def _bbox_from_points(
+                points: list[tuple[float, float]], coord_origin: CoordOrigin
+            ) -> BoundingBox:
+                xs = [p[0] for p in points]
+                ys = [p[1] for p in points]
+                return BoundingBox(
+                    l=min(xs),
+                    t=min(ys),
+                    r=max(xs),
+                    b=max(ys),
+                    coord_origin=coord_origin,
+                )
+
+            def _element_corners(el: CVATElement) -> list[tuple[float, float]]:
+                base_bbox = el.bbox_unrotated or el.bbox
+                corners = [
+                    (base_bbox.l, base_bbox.t),
+                    (base_bbox.r, base_bbox.t),
+                    (base_bbox.r, base_bbox.b),
+                    (base_bbox.l, base_bbox.b),
+                ]
+                if abs(el.rotation_deg % 360.0) <= 1.0e-3:
+                    return corners
+                center = (
+                    (base_bbox.l + base_bbox.r) / 2.0,
+                    (base_bbox.t + base_bbox.b) / 2.0,
+                )
+                return _rotate_points(corners, center, el.rotation_deg)
+
+            def _derotate_bbox(el: CVATElement) -> BoundingBox:
+                if not rotation_active:
+                    return el.bbox
+                corners = _element_corners(el)
+                corners = _rotate_points(corners, table_center, -rotation_deg)
+                return _bbox_from_points(corners, el.bbox.coord_origin)
+
+            def _rotate_bbox(bbox: BoundingBox) -> BoundingBox:
+                corners = [
+                    (bbox.l, bbox.t),
+                    (bbox.r, bbox.t),
+                    (bbox.r, bbox.b),
+                    (bbox.l, bbox.b),
+                ]
+                rotated = _rotate_points(corners, table_center, rotation_deg)
+                return _bbox_from_points(rotated, bbox.coord_origin)
+
+            def _derotate_elements(elements: list[CVATElement]) -> list[CVATElement]:
+                if not rotation_active:
+                    return elements
+                return [el.copy(update={"bbox": _derotate_bbox(el)}) for el in elements]
+
+            tb_for_cells = _derotate_bbox(element) if rotation_active else tb
             nested_tables = self.doc_structure.get_elements_by_label(
                 DocItemLabel.TABLE
             ) + self.doc_structure.get_elements_by_label(DocItemLabel.DOCUMENT_INDEX)
             nested_table_bboxes = [
-                table_el.bbox
+                _derotate_bbox(table_el) if rotation_active else table_el.bbox
                 for table_el in nested_tables
                 if table_el.id != element.id
                 and bbox_contains(
-                    table_el.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH
+                    _derotate_bbox(table_el) if rotation_active else table_el.bbox,
+                    tb_for_cells,
+                    threshold=DEFAULT_CONTAINMENT_THRESH,
                 )
-                and table_el.bbox.area() < tb.area()
+                and (
+                    (_derotate_bbox(table_el).area() < tb_for_cells.area())
+                    if rotation_active
+                    else table_el.bbox.area() < tb.area()
+                )
             ]
             nested_threshold = 0.9
 
@@ -1940,16 +2049,23 @@ class CVATToDoclingConverter:
                 ancestor_id = self._get_container_ancestor_id(candidate.id)
                 return ancestor_id is None or ancestor_id == element.id
 
-            pool_rows.extend(
-                pool_row_sections
-            )  # use row sections to compensate for missing rows
+            pool_rows = pool_rows + pool_row_sections
+            pool_rows = _derotate_elements(pool_rows)
+            pool_cols = _derotate_elements(pool_cols)
+            pool_merges = _derotate_elements(pool_merges)
+            pool_col_headers = _derotate_elements(pool_col_headers)
+            pool_row_headers = _derotate_elements(pool_row_headers)
+            pool_row_sections = _derotate_elements(pool_row_sections)
+            pool_fillable_cells = _derotate_elements(pool_fillable_cells)
             # pool_rows.extend(pool_col_headers)  # use column headers to compensate for missing rows
 
             rows = dedupe_items_by_bbox(
                 [
                     e
                     for e in pool_rows
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
                     and not _in_nested_table(e.bbox)
                     and _belongs_to_current_table(e)
                 ]
@@ -1958,7 +2074,9 @@ class CVATToDoclingConverter:
                 [
                     e
                     for e in pool_cols
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
                     and not _in_nested_table(e.bbox)
                     and _belongs_to_current_table(e)
                 ]
@@ -1967,7 +2085,9 @@ class CVATToDoclingConverter:
                 [
                     e
                     for e in pool_merges
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
                     and not _in_nested_table(e.bbox)
                     and _belongs_to_current_table(e)
                 ]
@@ -1977,7 +2097,9 @@ class CVATToDoclingConverter:
                 [
                     e
                     for e in pool_col_headers
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
                     and not _in_nested_table(e.bbox)
                     and _belongs_to_current_table(e)
                 ]
@@ -1986,7 +2108,9 @@ class CVATToDoclingConverter:
                 [
                     e
                     for e in pool_row_headers
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
                     and not _in_nested_table(e.bbox)
                     and _belongs_to_current_table(e)
                 ]
@@ -1995,7 +2119,9 @@ class CVATToDoclingConverter:
                 [
                     e
                     for e in pool_row_sections
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
                     and not _in_nested_table(e.bbox)
                     and _belongs_to_current_table(e)
                 ]
@@ -2004,7 +2130,9 @@ class CVATToDoclingConverter:
                 [
                     e
                     for e in pool_fillable_cells
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
                     and not _in_nested_table(e.bbox)
                     and _belongs_to_current_table(e)
                 ]
@@ -2020,6 +2148,23 @@ class CVATToDoclingConverter:
                 row_sections,
                 fillable_cells,
             )
+            if rotation_active:
+                computed_table_cells = [
+                    Cell(
+                        start_row=cell.start_row,
+                        end_row=cell.end_row,
+                        start_column=cell.start_column,
+                        end_column=cell.end_column,
+                        row_span_length=cell.row_span_length,
+                        column_span_length=cell.column_span_length,
+                        bbox=_rotate_bbox(cell.bbox),
+                        column_header=cell.column_header,
+                        row_header=cell.row_header,
+                        row_section=cell.row_section,
+                        fillable_cell=cell.fillable_cell,
+                    )
+                    for cell in computed_table_cells
+                ]
 
             # If no table structure found, create single fake cell for content
             if not rows or not cols:
