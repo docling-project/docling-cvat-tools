@@ -20,8 +20,8 @@ Scale Handling:
 """
 
 import copy
-import math
 import logging
+import math
 import sys
 from dataclasses import dataclass, field
 from enum import Enum
@@ -1921,6 +1921,7 @@ class CVATToDoclingConverter:
                 return normalized
 
             rotation_deg = _normalize_rotation(element.rotation_deg or 0.0)
+            rotation_from_columns = False
             if abs(rotation_deg) <= 1.0e-3:
                 candidate_rotations = [
                     _normalize_rotation(col.rotation_deg or 0.0)
@@ -1933,6 +1934,7 @@ class CVATToDoclingConverter:
                 if candidate_rotations:
                     candidate_rotations.sort()
                     rotation_deg = candidate_rotations[len(candidate_rotations) // 2]
+                    rotation_from_columns = True
 
             rotation_active = abs(rotation_deg) > 1.0e-3
             base_table_bbox = element.bbox_unrotated or tb
@@ -2148,6 +2150,94 @@ class CVATToDoclingConverter:
                 row_sections,
                 fillable_cells,
             )
+            if rotation_active and rows and cols:
+
+                def _center_x(bbox: BoundingBox) -> float:
+                    return (bbox.l + bbox.r) / 2.0
+
+                def _center_y(bbox: BoundingBox) -> float:
+                    return (bbox.t + bbox.b) / 2.0
+
+                def _order_ids(elements: list[CVATElement], axis: str) -> list[int]:
+                    key = (
+                        (lambda el: _center_x(el.bbox))
+                        if axis == "x"
+                        else (lambda el: _center_y(el.bbox))
+                    )
+                    return [el.id for el in sorted(elements, key=key)]
+
+                original_rows = [
+                    self.doc_structure.get_element_by_id(el.id) or el for el in rows
+                ]
+                original_cols = [
+                    self.doc_structure.get_element_by_id(el.id) or el for el in cols
+                ]
+
+                row_vertical = sum(
+                    el.bbox.height > el.bbox.width for el in original_rows
+                ) >= (len(original_rows) / 2)
+                col_horizontal = sum(
+                    el.bbox.width > el.bbox.height for el in original_cols
+                ) >= (len(original_cols) / 2)
+
+                desired_row_axis = "x" if row_vertical else "y"
+                desired_col_axis = "y" if col_horizontal else "x"
+                if 45.0 <= abs(rotation_deg) <= 135.0:
+                    desired_col_axis = "y"
+
+                desired_row_order = _order_ids(original_rows, desired_row_axis)
+                desired_col_order = _order_ids(original_cols, desired_col_axis)
+                actual_row_order = _order_ids(rows, "y")
+                actual_col_order = _order_ids(cols, "x")
+
+                reverse_rows = (
+                    actual_row_order == list(reversed(desired_row_order))
+                    and actual_row_order != desired_row_order
+                )
+                reverse_cols = (
+                    actual_col_order == list(reversed(desired_col_order))
+                    and actual_col_order != desired_col_order
+                )
+
+                if (
+                    rotation_from_columns
+                    and 45.0 <= abs(rotation_deg) <= 135.0
+                    and reverse_rows
+                    and not reverse_cols
+                ):
+                    reverse_cols = True
+
+                if reverse_rows or reverse_cols:
+                    flipped_cells: list[Cell] = []
+                    row_max = len(rows) - 1
+                    col_max = len(cols) - 1
+                    for cell in computed_table_cells:
+                        start_row = cell.start_row
+                        end_row = cell.end_row
+                        start_col = cell.start_column
+                        end_col = cell.end_column
+                        if reverse_rows:
+                            start_row = row_max - cell.end_row
+                            end_row = row_max - cell.start_row
+                        if reverse_cols:
+                            start_col = col_max - cell.end_column
+                            end_col = col_max - cell.start_column
+                        flipped_cells.append(
+                            Cell(
+                                start_row=start_row,
+                                end_row=end_row,
+                                start_column=start_col,
+                                end_column=end_col,
+                                row_span_length=cell.row_span_length,
+                                column_span_length=cell.column_span_length,
+                                bbox=cell.bbox,
+                                column_header=cell.column_header,
+                                row_header=cell.row_header,
+                                row_section=cell.row_section,
+                                fillable_cell=cell.fillable_cell,
+                            )
+                        )
+                    computed_table_cells = flipped_cells
             if rotation_active:
                 computed_table_cells = [
                     Cell(
