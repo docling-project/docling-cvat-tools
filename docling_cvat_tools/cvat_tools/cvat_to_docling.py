@@ -2090,7 +2090,9 @@ class CVATToDoclingConverter:
             if not self._has_valid_container_relationship(container_id, target_id):
                 return
 
-            self._add_caption_or_footnote(container_id, target_id, is_caption=is_caption)
+            self._add_caption_or_footnote(
+                container_id, target_id, is_caption=is_caption
+            )
             processed_targets.add(target_id)
 
         # Process captions
