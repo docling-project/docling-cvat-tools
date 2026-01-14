@@ -113,8 +113,15 @@ def map_path_points_to_elements(
                     f"Caption path {path.id}: Backwards annotation detected, auto-correcting"
                 )
                 container_id, caption_id = caption_id, container_id
+                container_el, caption_el = caption_el, container_el
 
-            to_caption[path.id] = (container_id, caption_id)
+            if caption_el and is_footnote_element(caption_el):
+                logger.debug(
+                    f"Caption path {path.id}: Target is footnote, treating as to_footnote"
+                )
+                to_footnote[path.id] = (container_id, caption_id)
+            else:
+                to_caption[path.id] = (container_id, caption_id)
         elif path.label == "to_footnote" and len(touched_elements) == 2:
             # First element should be container, second should be footnote
             container_id, footnote_id = touched_elements[0], touched_elements[1]
@@ -134,8 +141,15 @@ def map_path_points_to_elements(
                     f"Footnote path {path.id}: Backwards annotation detected, auto-correcting"
                 )
                 container_id, footnote_id = footnote_id, container_id
+                container_el, footnote_el = footnote_el, container_el
 
-            to_footnote[path.id] = (container_id, footnote_id)
+            if footnote_el and is_caption_element(footnote_el):
+                logger.debug(
+                    f"Footnote path {path.id}: Target is caption, treating as to_caption"
+                )
+                to_caption[path.id] = (container_id, footnote_id)
+            else:
+                to_footnote[path.id] = (container_id, footnote_id)
         elif path.label == "to_value":
             if len(touched_elements) == 2:
                 # Simple case: exactly 2 elements

@@ -2074,16 +2074,32 @@ class CVATToDoclingConverter:
         Skips invalid paths where neither side is a container element (these are
         already validated and reported as warnings).
         """
+        processed_targets: Set[int] = set()
+
+        def _handle_link(container_id: int, target_id: int, is_caption: bool) -> None:
+            if target_id in processed_targets:
+                return
+
+            target_element = self.doc_structure.get_element_by_id(target_id)
+            if target_element:
+                if target_element.label == DocItemLabel.FOOTNOTE:
+                    is_caption = False
+                elif target_element.label == DocItemLabel.CAPTION:
+                    is_caption = True
+
+            if not self._has_valid_container_relationship(container_id, target_id):
+                return
+
+            self._add_caption_or_footnote(container_id, target_id, is_caption=is_caption)
+            processed_targets.add(target_id)
+
         # Process captions
         for (
             path_id,
             container_id,
             caption_id,
         ) in self.doc_structure.iter_to_caption_links():
-            # Skip if neither side is a container (invalid path)
-            if not self._has_valid_container_relationship(container_id, caption_id):
-                continue
-            self._add_caption_or_footnote(container_id, caption_id, is_caption=True)
+            _handle_link(container_id, caption_id, is_caption=True)
 
         # Process footnotes
         for (
@@ -2091,10 +2107,7 @@ class CVATToDoclingConverter:
             container_id,
             footnote_id,
         ) in self.doc_structure.iter_to_footnote_links():
-            # Skip if neither side is a container (invalid path)
-            if not self._has_valid_container_relationship(container_id, footnote_id):
-                continue
-            self._add_caption_or_footnote(container_id, footnote_id, is_caption=False)
+            _handle_link(container_id, footnote_id, is_caption=False)
 
     def _process_to_value_relationships(self) -> None:  # noqa: C901
         """Convert CVAT *to_value* links into a single KeyValueItem graph."""
@@ -2345,6 +2358,22 @@ class CVATToDoclingConverter:
         target_element = self.doc_structure.get_element_by_id(target_id)
         if not target_element:
             return False
+
+        existing_item = self.element_to_item.get(target_id)
+        if isinstance(existing_item, DocItem):
+            if target_element.label == DocItemLabel.FOOTNOTE:
+                is_caption = False
+            elif target_element.label == DocItemLabel.CAPTION:
+                is_caption = True
+
+            ref = existing_item.get_ref()
+            if is_caption:
+                if all(ref.cref != item.cref for item in container_item.captions):
+                    container_item.captions.append(ref)
+            else:
+                if all(ref.cref != item.cref for item in container_item.footnotes):
+                    container_item.footnotes.append(ref)
+            return True
 
         page_no, text, provenance = self._process_element_bbox(target_element)
 

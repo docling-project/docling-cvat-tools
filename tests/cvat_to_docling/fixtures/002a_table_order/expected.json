@@ -126,7 +126,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/12"
+          "cref": "#/texts/10"
         }
       ],
       "content_layer": "body",
@@ -141,7 +141,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/13"
+          "cref": "#/texts/11"
         }
       ],
       "content_layer": "body",
@@ -156,7 +156,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/14"
+          "cref": "#/texts/12"
         }
       ],
       "content_layer": "body",
@@ -171,7 +171,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/15"
+          "cref": "#/texts/13"
         }
       ],
       "content_layer": "body",
@@ -186,7 +186,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/16"
+          "cref": "#/texts/14"
         }
       ],
       "content_layer": "body",
@@ -201,7 +201,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/17"
+          "cref": "#/texts/15"
         }
       ],
       "content_layer": "body",
@@ -216,7 +216,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/18"
+          "cref": "#/texts/16"
         }
       ],
       "content_layer": "body",
@@ -231,7 +231,7 @@
       },
       "children": [
         {
-          "cref": "#/texts/19"
+          "cref": "#/texts/17"
         }
       ],
       "content_layer": "body",
@@ -546,66 +546,6 @@
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/tables/1"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "caption",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 241.55453,
-            "t": 377.60332000000017,
-            "r": 1048.09012,
-            "b": 336.95156,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            107
-          ]
-        }
-      ],
-      "orig": "1) Nicht erforderlich, wenn geräuscherzeugende Anlagen ausreichend köperschallgedämmt aufge- stellt werden.",
-      "text": "1) Nicht erforderlich, wenn geräuscherzeugende Anlagen ausreichend köperschallgedämmt aufge- stellt werden.",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "cref": "#/tables/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "caption",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 241.62117,
-            "t": 1016.8463519999999,
-            "r": 917.61852,
-            "b": 993.876592,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            81
-          ]
-        }
-      ],
-      "orig": "1) Bei Türen gilt nach Tabelle 1 der DIN 4109-1 erforderliches Schalldämm-Maß Rw.",
-      "text": "1) Bei Türen gilt nach Tabelle 1 der DIN 4109-1 erforderliches Schalldämm-Maß Rw.",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
         "cref": "#/groups/3"
       },
       "children": [],
@@ -636,7 +576,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/13",
+      "self_ref": "#/texts/11",
       "parent": {
         "cref": "#/groups/4"
       },
@@ -668,7 +608,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/14",
+      "self_ref": "#/texts/12",
       "parent": {
         "cref": "#/groups/5"
       },
@@ -700,7 +640,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/15",
+      "self_ref": "#/texts/13",
       "parent": {
         "cref": "#/groups/6"
       },
@@ -732,7 +672,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/16",
+      "self_ref": "#/texts/14",
       "parent": {
         "cref": "#/groups/7"
       },
@@ -764,7 +704,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/15",
       "parent": {
         "cref": "#/groups/8"
       },
@@ -796,7 +736,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/18",
+      "self_ref": "#/texts/16",
       "parent": {
         "cref": "#/groups/9"
       },
@@ -828,7 +768,7 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/19",
+      "self_ref": "#/texts/17",
       "parent": {
         "cref": "#/groups/10"
       },
@@ -916,9 +856,6 @@
         },
         {
           "cref": "#/groups/2"
-        },
-        {
-          "cref": "#/texts/11"
         }
       ],
       "content_layer": "body",
@@ -940,13 +877,13 @@
           ]
         }
       ],
-      "captions": [
+      "captions": [],
+      "references": [],
+      "footnotes": [
         {
-          "cref": "#/texts/11"
+          "cref": "#/texts/6"
         }
       ],
-      "references": [],
-      "footnotes": [],
       "image": null,
       "data": {
         "table_cells": [
@@ -1537,11 +1474,7 @@
       "parent": {
         "cref": "#/body"
       },
-      "children": [
-        {
-          "cref": "#/texts/10"
-        }
-      ],
+      "children": [],
       "content_layer": "body",
       "meta": null,
       "label": "table",
@@ -1561,13 +1494,13 @@
           ]
         }
       ],
-      "captions": [
+      "captions": [],
+      "references": [],
+      "footnotes": [
         {
-          "cref": "#/texts/10"
+          "cref": "#/texts/9"
         }
       ],
-      "references": [],
-      "footnotes": [],
       "image": null,
       "data": {
         "table_cells": [
