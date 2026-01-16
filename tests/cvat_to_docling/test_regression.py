@@ -4,7 +4,7 @@ import json
 import os
 import sys
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 import pytest
 from docling_core.types.doc import DoclingDocument, ImageRefMode
@@ -147,7 +147,7 @@ def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
     image_identifier = metadata["source"]["image_identifier"]
 
     # Perform conversion
-    actual_doc: DoclingDocument = convert_cvat_to_docling(
+    actual_doc: Optional[DoclingDocument] = convert_cvat_to_docling(
         xml_path=xml_path,
         input_path=input_path,
         image_identifier=image_identifier,

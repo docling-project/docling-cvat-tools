@@ -1,6 +1,6 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "name": "input",
   "origin": null,
   "furniture": {
@@ -683,8 +683,8 @@
           ]
         }
       ],
-      "orig": "The collective noun for houseplants is 'a nursery of houseplants'.",
-      "text": "The collective noun for houseplants is 'a nursery of houseplants'.",
+      "orig": "The collective noun for houseplants is la nursery of houseplants'.",
+      "text": "The collective noun for houseplants is la nursery of houseplants'.",
       "formatting": null,
       "hyperlink": null
     }

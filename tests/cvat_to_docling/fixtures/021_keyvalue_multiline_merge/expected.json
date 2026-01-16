@@ -1,6 +1,6 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "name": "input",
   "origin": null,
   "furniture": {
@@ -1155,7 +1155,7 @@
           },
           "charspan": [
             0,
-            433
+            432
           ]
         }
       ],
@@ -1199,7 +1199,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "Based on the geographical location of the market area we are targeting area that has two seasons (rainy and dry season). So we have to make products that are in accordance with these geographical conditions.",
+            "text": "Based on the geographical location of the market area we are targeting area that has two seasons (rainy and dry season. So we have to make products that are in accordance with these geographical conditions.",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1324,7 +1324,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "Based on the geographical location of the market area we are targeting area that has two seasons (rainy and dry season). So we have to make products that are in accordance with these geographical conditions.",
+              "text": "Based on the geographical location of the market area we are targeting area that has two seasons (rainy and dry season. So we have to make products that are in accordance with these geographical conditions.",
               "column_header": false,
               "row_header": false,
               "row_section": false,
