@@ -1,0 +1,12 @@
+{
+  "test_id": "043",
+  "name": "043_docvqa_form_with_listitems_b",
+  "description": "Scanned form with list items as sections, tables and key-values.",
+  "observation": "The annotation is sane and does not connect the section list items through a group. The resulting reading order is broken.",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_e1c60a1fa598b938fdd1400f372d2ea2c5a69f5e78865b6f2e8a26b3c4258472_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}

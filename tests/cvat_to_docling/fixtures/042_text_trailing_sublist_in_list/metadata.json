@@ -1,0 +1,12 @@
+{
+  "test_id": "042",
+  "name": "041_text_trailing_sublist_in_list",
+  "description": "Text trailing after a sublist which belongs to the previous parent list item.",
+  "observation": "Trailing text is placed completely out of order after the end of the full list.",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_ebf4832a78ba60bf07e6a6eeaf692a1bf40815cbacdada7865fea47fe4b693c8_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}

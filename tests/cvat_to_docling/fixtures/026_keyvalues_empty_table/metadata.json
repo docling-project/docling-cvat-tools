@@ -1,11 +1,11 @@
 {
-  "test_id": "027",
-  "name": "027_cv_reading_order_lists",
+  "test_id": "026",
+  "name": "026_keyvalues_empty_table",
   "description": "CV template",
   "observation": "",
   "observation_status": "correct",
   "source": {
-    "image_identifier": "doc_ab9c81380e5a50b4b41921955b7618e7998885f4716bc07b5af7d9e618e3c318_page_000001.png"
+    "image_identifier": "doc_d06f376f7d910f13d272283897d6a90f9ebc1813dfe56ff1c8eaa8e451859539_page_000001.png"
   },
   "input_type": "png",
   "page_number": 1

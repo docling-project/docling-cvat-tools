@@ -21,6 +21,7 @@ Scale Handling:
 
 import copy
 import logging
+import math
 import sys
 from dataclasses import dataclass, field
 from enum import Enum
@@ -71,6 +72,7 @@ from docling_cvat_tools.cvat_tools.folder_models import (
 from docling_cvat_tools.cvat_tools.folder_parser import parse_cvat_folder
 from docling_cvat_tools.cvat_tools.geometry import (
     bbox_contains,
+    bbox_fraction_inside,
     bbox_intersection,
     dedupe_items_by_bbox,
 )
@@ -544,6 +546,8 @@ class CVATToDoclingConverter:
 
         # Centralized list hierarchy management
         self.list_manager = ListHierarchyManager(self.doc)
+        self._list_sequence_active = False
+        self._active_list_group_id: Optional[int] = None
 
         # Calculate page widths for multi-page handling (in CVAT pixel coordinates at cvat_input_scale)
         # SegmentedPages are already at cvat_input_scale, so we can use their dimensions directly
@@ -632,8 +636,12 @@ class CVATToDoclingConverter:
         # Build global reading order
         global_order = self._build_global_reading_order()
 
+        print("==========================================")
+        print(global_order)
+        print("==========================================")
+
         # Process elements in reading order, building list hierarchy on-demand
-        self._process_elements_in_order(global_order)
+        self._process_elements_in_order_linear(global_order)
 
         # Process table data
         self._process_table_data()
@@ -763,6 +771,8 @@ class CVATToDoclingConverter:
     def _reset_list_state(self):
         """Reset list processing state for clean conversion."""
         self.list_manager.clear()
+        self._list_sequence_active = False
+        self._active_list_group_id = None
 
     def _add_pages(self):
         """Add page information to the document."""
@@ -947,6 +957,74 @@ class CVATToDoclingConverter:
 
         return list_item
 
+    def _get_active_list_item(self) -> Optional[ListItem]:
+        """Return the most recent list item in the active list sequence."""
+        if not self.list_manager.level_stack:
+            return None
+        max_level = max(self.list_manager.level_stack)
+        return self.list_manager.level_stack[max_level]
+
+    def _get_active_list_container(self) -> Optional[NodeItem]:
+        """Return the list container for the active sequence, if available."""
+        if self._active_list_group_id is not None:
+            container = self.list_manager.group_containers.get(
+                self._active_list_group_id
+            )
+            if container is not None:
+                return container
+
+        level_one_item = self.list_manager.level_stack.get(1)
+        if level_one_item and level_one_item.parent:
+            try:
+                return level_one_item.parent.resolve(self.doc)
+            except Exception as exc:
+                _logger.warning(
+                    "Failed to resolve list container for list item %s: %s",
+                    level_one_item.self_ref,
+                    exc,
+                )
+        return None
+
+    def _find_next_list_item_info(
+        self, global_order: List[int], current_position: int
+    ) -> Tuple[bool, Optional[int], Optional[int]]:
+        """Find the next list item's group id and level in the global reading order."""
+        for element_id in global_order[current_position + 1 :]:
+            next_element = self.doc_structure.get_element_by_id(element_id)
+            if not next_element:
+                continue
+            if next_element.label == DocItemLabel.LIST_ITEM:
+                return (
+                    True,
+                    self._find_group_id_for_element(next_element),
+                    next_element.level or 1,
+                )
+        return False, None, None
+
+    def _has_future_list_item_at_level(
+        self,
+        global_order: List[int],
+        current_position: int,
+        target_level: int,
+        group_id: Optional[int],
+    ) -> bool:
+        """Return True if a later list item exists at ``target_level`` in the same group."""
+        for element_id in global_order[current_position + 1 :]:
+            next_element = self.doc_structure.get_element_by_id(element_id)
+            if not next_element:
+                continue
+            if next_element.label != DocItemLabel.LIST_ITEM:
+                continue
+            if (next_element.level or 1) != target_level:
+                continue
+            next_group_id = self._find_group_id_for_element(next_element)
+            if group_id is None:
+                if next_group_id is None:
+                    return True
+            elif next_group_id == group_id:
+                return True
+        return False
+
     def _find_group_id_for_element(self, element: CVATElement) -> Optional[int]:
         """Find which group this element belongs to."""
         return self.doc_structure.find_group_id_for_element(element.id)
@@ -991,6 +1069,12 @@ class CVATToDoclingConverter:
         """
         group_id = self._find_group_id_for_element(list_element)
         list_content_layer = list_element.content_layer
+        list_level = list_element.level or 1
+
+        if not self._has_future_list_item_at_level(
+            global_order, current_pos, list_level, group_id
+        ):
+            return []
 
         children = []
         # Look ahead in reading order
@@ -1038,11 +1122,15 @@ class CVATToDoclingConverter:
         return children
 
     def _process_elements_in_order(self, global_order: List[int]) -> None:
-        """Process elements in reading order."""
+        """Backward-compatible wrapper for linear processing."""
+        self._process_elements_in_order_linear(global_order)
+
+    def _process_elements_in_order_linear(self, global_order: List[int]) -> None:
+        """Process elements in global reading order without containment recursion."""
         primary_order = (
             global_order if global_order else self._build_fallback_global_order()
         )
-        self._process_order_sequence(primary_order)
+        self._process_linear_sequence(primary_order)
 
         if global_order:
             fallback_order = self._build_fallback_global_order()
@@ -1050,25 +1138,224 @@ class CVATToDoclingConverter:
                 element_id not in self.processed_elements
                 for element_id in fallback_order
             ):
-                self._process_order_sequence(fallback_order)
+                self._process_linear_sequence(fallback_order)
 
-    def _process_order_sequence(self, processing_order: List[int]) -> None:
-        """Process elements according to the supplied order."""
+    def _process_linear_sequence(self, processing_order: List[int]) -> None:
+        """Process elements according to the supplied linear order."""
+        self._close_list_sequence()
+
         for index, element_id in enumerate(processing_order):
             if element_id in self.processed_elements:
                 continue
 
-            node = self.doc_structure.get_node(element_id)
-            if not node:
+            element = self.doc_structure.get_element_by_id(element_id)
+            if not element:
                 continue
 
-            self._process_node(
-                node,
-                None,
-                parent_item=None,
-                global_order=processing_order,
-                current_position=index,
+            self._process_element_linear(
+                element, global_order=processing_order, current_position=index
             )
+
+    def _process_element_linear(
+        self,
+        element: CVATElement,
+        global_order: List[int],
+        current_position: int,
+    ) -> None:
+        """Process a single element without traversing the containment tree."""
+        if self._is_caption_or_footnote_target(element.id):
+            if self._list_sequence_active:
+                has_next_list_item, next_list_group_id, next_list_level = (
+                    self._find_next_list_item_info(global_order, current_position)
+                )
+                if not (
+                    has_next_list_item
+                    and (
+                        (
+                            next_list_level == 1
+                            and next_list_group_id == self._active_list_group_id
+                        )
+                        or (
+                            next_list_level is not None
+                            and next_list_level > 1
+                            and (next_list_level - 1) in self.list_manager.level_stack
+                        )
+                    )
+                ):
+                    self._close_list_sequence()
+            else:
+                self._close_list_sequence()
+            return
+
+        if element.label == DocItemLabel.LIST_ITEM:
+            group_id = self._find_group_id_for_element(element)
+            level = element.level or 1
+            if (not self._list_sequence_active) or (
+                level == 1 and group_id != self._active_list_group_id
+            ):
+                self._start_list_sequence(group_id)
+
+            list_item = self._process_list_item_with_hierarchy(
+                element, global_order, current_position
+            )
+            if list_item:
+                self.element_to_item[element.id] = list_item
+                self.processed_elements.add(element.id)
+                self._list_sequence_active = True
+                if level == 1:
+                    self._active_list_group_id = group_id
+            else:
+                self._close_list_sequence()
+            return
+
+        list_parent: Optional[NodeItem] = None
+        if self._list_sequence_active:
+            has_next_list_item, next_list_group_id, next_list_level = (
+                self._find_next_list_item_info(global_order, current_position)
+            )
+            keep_list_open = False
+            if has_next_list_item:
+                if next_list_level == 1:
+                    keep_list_open = next_list_group_id == self._active_list_group_id
+                elif next_list_level and next_list_level > 1:
+                    keep_list_open = (
+                        next_list_level - 1
+                    ) in self.list_manager.level_stack
+            if keep_list_open:
+                element_group_id = self._find_group_id_for_element(element)
+                if (
+                    element_group_id is None
+                    or element_group_id == self._active_list_group_id
+                ):
+                    active_list_item = self._get_active_list_item()
+                    target_item = active_list_item
+                    if self.list_manager.level_stack:
+                        current_max_level = max(self.list_manager.level_stack)
+                        has_future_same_level = self._has_future_list_item_at_level(
+                            global_order,
+                            current_position,
+                            current_max_level,
+                            self._active_list_group_id,
+                        )
+                        if current_max_level > 1 and not has_future_same_level:
+                            target_item = (
+                                self._get_active_list_container() or active_list_item
+                            )
+
+                    if (
+                        target_item
+                        and target_item.content_layer == element.content_layer
+                    ):
+                        list_parent = target_item
+            else:
+                self._close_list_sequence()
+        else:
+            self._close_list_sequence()
+
+        parent_item = list_parent or self._find_processed_parent_item(element.id)
+        group_info = self._get_group_for_element(element.id)
+
+        if group_info:
+            path_id, element_ids = group_info
+            group = self._create_group_on_demand(path_id, element_ids, parent_item)
+            item_parent = group
+        else:
+            item_parent = parent_item
+
+        merge_elements = self._get_merge_elements(element.id)
+
+        item: Optional[NodeItem] = None
+        if merge_elements:
+            item = self._create_merged_item(merge_elements, item_parent)
+            for el in merge_elements:
+                self.processed_elements.add(el.id)
+                if el.id not in self.element_to_item:
+                    self.element_to_item[el.id] = item
+        else:
+            item = self._create_single_item(element, item_parent)
+            self.processed_elements.add(element.id)
+            self.element_to_item[element.id] = item
+
+        if item and element.label in {
+            DocItemLabel.TABLE,
+            DocItemLabel.DOCUMENT_INDEX,
+            DocItemLabel.FORM,
+            DocItemLabel.PICTURE,
+        }:
+            node = self.doc_structure.get_node(element.id)
+            if node and node.children:
+                list_state = self._snapshot_list_state()
+                sorted_children = sorted(
+                    node.children,
+                    key=lambda child: (
+                        global_order.index(child.element.id)
+                        if child.element.id in global_order
+                        else float("inf")
+                    ),
+                )
+                for child in sorted_children:
+                    if child.element.id in self.processed_elements:
+                        continue
+                    self._process_node(
+                        child, node, item, global_order, current_position=None
+                    )
+                self._restore_list_state(list_state)
+
+    def _find_processed_parent_item(self, element_id: int) -> Optional[NodeItem]:
+        """Find the nearest processed ancestor item for ``element_id``."""
+        node = self.doc_structure.get_node(element_id)
+        if node is None:
+            return None
+
+        parent = node.parent
+        while parent is not None:
+            parent_item = self.element_to_item.get(parent.element.id)
+            if parent_item is not None:
+                return parent_item
+            parent = parent.parent
+        return None
+
+    def _start_list_sequence(self, group_id: Optional[int]) -> None:
+        """Begin a new list sequence, forcing a new group container."""
+        self._close_list_sequence()
+
+        if group_id is not None:
+            self.created_groups.pop(group_id, None)
+
+        self._list_sequence_active = True
+        self._active_list_group_id = group_id
+
+    def _close_list_sequence(self) -> None:
+        """Close out any active list sequence."""
+        if not self._list_sequence_active:
+            return
+
+        if self._active_list_group_id is not None:
+            self.created_groups.pop(self._active_list_group_id, None)
+
+        self.list_manager.clear()
+        self._list_sequence_active = False
+        self._active_list_group_id = None
+
+    def _snapshot_list_state(
+        self,
+    ) -> Tuple[Dict[int, NodeItem], Dict[int, ListItem], Dict[str, NodeItem]]:
+        """Capture list manager state for temporary isolation."""
+        return (
+            dict(self.list_manager.group_containers),
+            dict(self.list_manager.level_stack),
+            dict(self.list_manager.sublist_containers),
+        )
+
+    def _restore_list_state(
+        self,
+        state: Tuple[Dict[int, NodeItem], Dict[int, ListItem], Dict[str, NodeItem]],
+    ) -> None:
+        """Restore list manager state after isolated processing."""
+        group_containers, level_stack, sublist_containers = state
+        self.list_manager.group_containers = group_containers
+        self.list_manager.level_stack = level_stack
+        self.list_manager.sublist_containers = sublist_containers
 
     def _process_table_data(self):
         # After all CVAT elements have been processed,
@@ -1087,7 +1374,6 @@ class CVATToDoclingConverter:
                 all_items.append(item.get_ref())
 
             for c in table_cell_data:
-                # Get page number from bbox position
                 # Get text to populate TableData
                 cell_text = self._extract_text_from_bbox(c.bbox, page_no)
 
@@ -1100,6 +1386,25 @@ class CVATToDoclingConverter:
                 # Convert cell bbox to BOTTOM_LEFT once (provs are in BOTTOM_LEFT)
                 cell_bbox_bl = c.bbox.to_bottom_left_origin(page_height)
 
+                def _docitem_in_cell(doc_item: DocItem) -> bool:
+                    return any(
+                        is_bbox_within(cell_bbox_bl, prov.bbox)
+                        for prov in doc_item.prov
+                    )
+
+                def _group_inside_cell(group: GroupItem) -> bool:
+                    stack = [group]
+                    while stack:
+                        current = stack.pop()
+                        for child_ref in current.children:
+                            child = child_ref.resolve(self.doc)
+                            if isinstance(child, DocItem):
+                                if not _docitem_in_cell(child):
+                                    return False
+                            elif isinstance(child, GroupItem):
+                                stack.append(child)
+                    return True
+
                 # FIND RICH ELEMENTS REFs HERE, MAKE A GROUP IF MANY
                 for item_ref in all_items:
                     item = item_ref.resolve(self.doc)
@@ -1109,6 +1414,33 @@ class CVATToDoclingConverter:
                         continue
 
                     if isinstance(item, DocItem):
+                        if isinstance(item, ListItem) and item.parent:
+                            parent_group = item.parent.resolve(self.doc)
+                            if (
+                                isinstance(parent_group, GroupItem)
+                                and parent_group.label == GroupLabel.LIST
+                                and _group_inside_cell(parent_group)
+                            ):
+                                ref = parent_group.get_ref()
+                                if ref.cref in seen_refs:
+                                    continue
+                                seen_refs.add(ref.cref)
+                                rich_cell = True
+                                item_parent = (
+                                    parent_group.parent.resolve(self.doc)
+                                    if parent_group.parent
+                                    else None
+                                )
+                                if (
+                                    item_parent
+                                    and item_parent != table_item
+                                    and ref in item_parent.children
+                                ):
+                                    item_parent.children.remove(ref)
+                                parent_group.parent = table_item.get_ref()
+                                provs_in_cell.append(ref)
+                                continue
+
                         for prov in item.prov:
                             # Both are now in BOTTOM_LEFT, no conversion needed
                             if is_bbox_within(cell_bbox_bl, prov.bbox):
@@ -1555,7 +1887,7 @@ class CVATToDoclingConverter:
             )
 
         elif doc_label in [DocItemLabel.TABLE, DocItemLabel.DOCUMENT_INDEX]:
-            # TODO: INSERT TABLE DATA PREP HERE
+            # TABLE DATA PREP HERE
             pool_rows = self.doc_structure.get_elements_by_label(
                 TableStructLabel.TABLE_ROW
             )
@@ -1582,30 +1914,184 @@ class CVATToDoclingConverter:
 
             tb = element.bbox
 
-            pool_rows.extend(
-                pool_row_sections
-            )  # use row sections to compensate for missing rows
+            def _normalize_rotation(angle: float) -> float:
+                normalized = angle % 360.0
+                if normalized > 180.0:
+                    normalized -= 360.0
+                return normalized
+
+            rotation_deg = _normalize_rotation(element.rotation_deg or 0.0)
+            rotation_from_columns = False
+            if abs(rotation_deg) <= 1.0e-3:
+                candidate_rotations = [
+                    _normalize_rotation(col.rotation_deg or 0.0)
+                    for col in pool_cols
+                    if abs(col.rotation_deg or 0.0) > 1.0e-3
+                    and bbox_contains(
+                        col.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
+                ]
+                if candidate_rotations:
+                    candidate_rotations.sort()
+                    rotation_deg = candidate_rotations[len(candidate_rotations) // 2]
+                    rotation_from_columns = True
+
+            rotation_active = abs(rotation_deg) > 1.0e-3
+            base_table_bbox = element.bbox_unrotated or tb
+            table_center = (
+                (base_table_bbox.l + base_table_bbox.r) / 2.0,
+                (base_table_bbox.t + base_table_bbox.b) / 2.0,
+            )
+
+            def _rotate_points(
+                points: list[tuple[float, float]],
+                origin: tuple[float, float],
+                angle_deg: float,
+            ) -> list[tuple[float, float]]:
+                if abs(angle_deg % 360.0) <= 1.0e-3:
+                    return points
+                cx, cy = origin
+                theta = math.radians(angle_deg)
+                cos_t = math.cos(theta)
+                sin_t = math.sin(theta)
+                rotated = []
+                for x, y in points:
+                    dx = x - cx
+                    dy = y - cy
+                    rotated.append(
+                        (
+                            cx + (dx * cos_t) - (dy * sin_t),
+                            cy + (dx * sin_t) + (dy * cos_t),
+                        )
+                    )
+                return rotated
+
+            def _bbox_from_points(
+                points: list[tuple[float, float]], coord_origin: CoordOrigin
+            ) -> BoundingBox:
+                xs = [p[0] for p in points]
+                ys = [p[1] for p in points]
+                return BoundingBox(
+                    l=min(xs),
+                    t=min(ys),
+                    r=max(xs),
+                    b=max(ys),
+                    coord_origin=coord_origin,
+                )
+
+            def _element_corners(el: CVATElement) -> list[tuple[float, float]]:
+                base_bbox = el.bbox_unrotated or el.bbox
+                corners = [
+                    (base_bbox.l, base_bbox.t),
+                    (base_bbox.r, base_bbox.t),
+                    (base_bbox.r, base_bbox.b),
+                    (base_bbox.l, base_bbox.b),
+                ]
+                if abs(el.rotation_deg % 360.0) <= 1.0e-3:
+                    return corners
+                center = (
+                    (base_bbox.l + base_bbox.r) / 2.0,
+                    (base_bbox.t + base_bbox.b) / 2.0,
+                )
+                return _rotate_points(corners, center, el.rotation_deg)
+
+            def _derotate_bbox(el: CVATElement) -> BoundingBox:
+                if not rotation_active:
+                    return el.bbox
+                corners = _element_corners(el)
+                corners = _rotate_points(corners, table_center, -rotation_deg)
+                return _bbox_from_points(corners, el.bbox.coord_origin)
+
+            def _rotate_bbox(bbox: BoundingBox) -> BoundingBox:
+                corners = [
+                    (bbox.l, bbox.t),
+                    (bbox.r, bbox.t),
+                    (bbox.r, bbox.b),
+                    (bbox.l, bbox.b),
+                ]
+                rotated = _rotate_points(corners, table_center, rotation_deg)
+                return _bbox_from_points(rotated, bbox.coord_origin)
+
+            def _derotate_elements(elements: list[CVATElement]) -> list[CVATElement]:
+                if not rotation_active:
+                    return elements
+                return [el.copy(update={"bbox": _derotate_bbox(el)}) for el in elements]
+
+            tb_for_cells = _derotate_bbox(element) if rotation_active else tb
+            nested_tables = self.doc_structure.get_elements_by_label(
+                DocItemLabel.TABLE
+            ) + self.doc_structure.get_elements_by_label(DocItemLabel.DOCUMENT_INDEX)
+            nested_table_bboxes = [
+                _derotate_bbox(table_el) if rotation_active else table_el.bbox
+                for table_el in nested_tables
+                if table_el.id != element.id
+                and bbox_contains(
+                    _derotate_bbox(table_el) if rotation_active else table_el.bbox,
+                    tb_for_cells,
+                    threshold=DEFAULT_CONTAINMENT_THRESH,
+                )
+                and (
+                    (_derotate_bbox(table_el).area() < tb_for_cells.area())
+                    if rotation_active
+                    else table_el.bbox.area() < tb.area()
+                )
+            ]
+            nested_threshold = 0.9
+
+            def _in_nested_table(bbox: BoundingBox) -> bool:
+                for nested_bbox in nested_table_bboxes:
+                    if (
+                        bbox_fraction_inside(bbox, nested_bbox) >= nested_threshold
+                        and bbox_fraction_inside(nested_bbox, bbox) < nested_threshold
+                    ):
+                        return True
+                return False
+
+            def _belongs_to_current_table(candidate: CVATElement) -> bool:
+                ancestor_id = self._get_container_ancestor_id(candidate.id)
+                return ancestor_id is None or ancestor_id == element.id
+
+            pool_rows = pool_rows + pool_row_sections
+            pool_rows = _derotate_elements(pool_rows)
+            pool_cols = _derotate_elements(pool_cols)
+            pool_merges = _derotate_elements(pool_merges)
+            pool_col_headers = _derotate_elements(pool_col_headers)
+            pool_row_headers = _derotate_elements(pool_row_headers)
+            pool_row_sections = _derotate_elements(pool_row_sections)
+            pool_fillable_cells = _derotate_elements(pool_fillable_cells)
             # pool_rows.extend(pool_col_headers)  # use column headers to compensate for missing rows
 
             rows = dedupe_items_by_bbox(
                 [
                     e
                     for e in pool_rows
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
             cols = dedupe_items_by_bbox(
                 [
                     e
                     for e in pool_cols
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
             merges = dedupe_items_by_bbox(
                 [
                     e
                     for e in pool_merges
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
 
@@ -1613,28 +2099,44 @@ class CVATToDoclingConverter:
                 [
                     e
                     for e in pool_col_headers
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
             row_headers = dedupe_items_by_bbox(
                 [
                     e
                     for e in pool_row_headers
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
             row_sections = dedupe_items_by_bbox(
                 [
                     e
                     for e in pool_row_sections
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
             fillable_cells = dedupe_items_by_bbox(
                 [
                     e
                     for e in pool_fillable_cells
-                    if bbox_contains(e.bbox, tb, threshold=DEFAULT_CONTAINMENT_THRESH)
+                    if bbox_contains(
+                        e.bbox, tb_for_cells, threshold=DEFAULT_CONTAINMENT_THRESH
+                    )
+                    and not _in_nested_table(e.bbox)
+                    and _belongs_to_current_table(e)
                 ]
             )
 
@@ -1648,6 +2150,111 @@ class CVATToDoclingConverter:
                 row_sections,
                 fillable_cells,
             )
+            if rotation_active and rows and cols:
+
+                def _center_x(bbox: BoundingBox) -> float:
+                    return (bbox.l + bbox.r) / 2.0
+
+                def _center_y(bbox: BoundingBox) -> float:
+                    return (bbox.t + bbox.b) / 2.0
+
+                def _order_ids(elements: list[CVATElement], axis: str) -> list[int]:
+                    key = (
+                        (lambda el: _center_x(el.bbox))
+                        if axis == "x"
+                        else (lambda el: _center_y(el.bbox))
+                    )
+                    return [el.id for el in sorted(elements, key=key)]
+
+                original_rows = [
+                    self.doc_structure.get_element_by_id(el.id) or el for el in rows
+                ]
+                original_cols = [
+                    self.doc_structure.get_element_by_id(el.id) or el for el in cols
+                ]
+
+                row_vertical = sum(
+                    el.bbox.height > el.bbox.width for el in original_rows
+                ) >= (len(original_rows) / 2)
+                col_horizontal = sum(
+                    el.bbox.width > el.bbox.height for el in original_cols
+                ) >= (len(original_cols) / 2)
+
+                desired_row_axis = "x" if row_vertical else "y"
+                desired_col_axis = "y" if col_horizontal else "x"
+                if 45.0 <= abs(rotation_deg) <= 135.0:
+                    desired_col_axis = "y"
+
+                desired_row_order = _order_ids(original_rows, desired_row_axis)
+                desired_col_order = _order_ids(original_cols, desired_col_axis)
+                actual_row_order = _order_ids(rows, "y")
+                actual_col_order = _order_ids(cols, "x")
+
+                reverse_rows = (
+                    actual_row_order == list(reversed(desired_row_order))
+                    and actual_row_order != desired_row_order
+                )
+                reverse_cols = (
+                    actual_col_order == list(reversed(desired_col_order))
+                    and actual_col_order != desired_col_order
+                )
+
+                if (
+                    rotation_from_columns
+                    and 45.0 <= abs(rotation_deg) <= 135.0
+                    and reverse_rows
+                    and not reverse_cols
+                ):
+                    reverse_cols = True
+
+                if reverse_rows or reverse_cols:
+                    flipped_cells: list[Cell] = []
+                    row_max = len(rows) - 1
+                    col_max = len(cols) - 1
+                    for cell in computed_table_cells:
+                        start_row = cell.start_row
+                        end_row = cell.end_row
+                        start_col = cell.start_column
+                        end_col = cell.end_column
+                        if reverse_rows:
+                            start_row = row_max - cell.end_row
+                            end_row = row_max - cell.start_row
+                        if reverse_cols:
+                            start_col = col_max - cell.end_column
+                            end_col = col_max - cell.start_column
+                        flipped_cells.append(
+                            Cell(
+                                start_row=start_row,
+                                end_row=end_row,
+                                start_column=start_col,
+                                end_column=end_col,
+                                row_span_length=cell.row_span_length,
+                                column_span_length=cell.column_span_length,
+                                bbox=cell.bbox,
+                                column_header=cell.column_header,
+                                row_header=cell.row_header,
+                                row_section=cell.row_section,
+                                fillable_cell=cell.fillable_cell,
+                            )
+                        )
+                    computed_table_cells = flipped_cells
+            if rotation_active:
+                computed_table_cells = [
+                    Cell(
+                        start_row=cell.start_row,
+                        end_row=cell.end_row,
+                        start_column=cell.start_column,
+                        end_column=cell.end_column,
+                        row_span_length=cell.row_span_length,
+                        column_span_length=cell.column_span_length,
+                        bbox=_rotate_bbox(cell.bbox),
+                        column_header=cell.column_header,
+                        row_header=cell.row_header,
+                        row_section=cell.row_section,
+                        fillable_cell=cell.fillable_cell,
+                    )
+                    for cell in computed_table_cells
+                ]
 
             # If no table structure found, create single fake cell for content
             if not rows or not cols:
@@ -1748,16 +2355,34 @@ class CVATToDoclingConverter:
         Skips invalid paths where neither side is a container element (these are
         already validated and reported as warnings).
         """
+        processed_targets: Set[int] = set()
+
+        def _handle_link(container_id: int, target_id: int, is_caption: bool) -> None:
+            if target_id in processed_targets:
+                return
+
+            target_element = self.doc_structure.get_element_by_id(target_id)
+            if target_element:
+                if target_element.label == DocItemLabel.FOOTNOTE:
+                    is_caption = False
+                elif target_element.label == DocItemLabel.CAPTION:
+                    is_caption = True
+
+            if not self._has_valid_container_relationship(container_id, target_id):
+                return
+
+            self._add_caption_or_footnote(
+                container_id, target_id, is_caption=is_caption
+            )
+            processed_targets.add(target_id)
+
         # Process captions
         for (
             path_id,
             container_id,
             caption_id,
         ) in self.doc_structure.iter_to_caption_links():
-            # Skip if neither side is a container (invalid path)
-            if not self._has_valid_container_relationship(container_id, caption_id):
-                continue
-            self._add_caption_or_footnote(container_id, caption_id, is_caption=True)
+            _handle_link(container_id, caption_id, is_caption=True)
 
         # Process footnotes
         for (
@@ -1765,10 +2390,7 @@ class CVATToDoclingConverter:
             container_id,
             footnote_id,
         ) in self.doc_structure.iter_to_footnote_links():
-            # Skip if neither side is a container (invalid path)
-            if not self._has_valid_container_relationship(container_id, footnote_id):
-                continue
-            self._add_caption_or_footnote(container_id, footnote_id, is_caption=False)
+            _handle_link(container_id, footnote_id, is_caption=False)
 
     def _process_to_value_relationships(self) -> None:  # noqa: C901
         """Convert CVAT *to_value* links into a single KeyValueItem graph."""
@@ -2019,6 +2641,22 @@ class CVATToDoclingConverter:
         target_element = self.doc_structure.get_element_by_id(target_id)
         if not target_element:
             return False
+
+        existing_item = self.element_to_item.get(target_id)
+        if isinstance(existing_item, DocItem):
+            if target_element.label == DocItemLabel.FOOTNOTE:
+                is_caption = False
+            elif target_element.label == DocItemLabel.CAPTION:
+                is_caption = True
+
+            ref = existing_item.get_ref()
+            if is_caption:
+                if all(ref.cref != item.cref for item in container_item.captions):
+                    container_item.captions.append(ref)
+            else:
+                if all(ref.cref != item.cref for item in container_item.footnotes):
+                    container_item.footnotes.append(ref)
+            return True
 
         page_no, text, provenance = self._process_element_bbox(target_element)
 

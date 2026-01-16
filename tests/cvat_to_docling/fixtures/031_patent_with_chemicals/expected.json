@@ -56,25 +56,16 @@
         "cref": "#/groups/9"
       },
       {
-        "cref": "#/texts/14"
-      },
-      {
-        "cref": "#/texts/15"
-      },
-      {
-        "cref": "#/texts/16"
-      },
-      {
-        "cref": "#/texts/17"
-      },
-      {
         "cref": "#/groups/10"
+      },
+      {
+        "cref": "#/texts/19"
       },
       {
         "cref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/21"
+        "cref": "#/texts/20"
       },
       {
         "cref": "#/pictures/1"
@@ -86,16 +77,16 @@
         "cref": "#/pictures/3"
       },
       {
-        "cref": "#/texts/22"
+        "cref": "#/texts/21"
       },
       {
         "cref": "#/pictures/4"
       },
       {
-        "cref": "#/texts/23"
+        "cref": "#/texts/22"
       },
       {
-        "cref": "#/texts/24"
+        "cref": "#/texts/23"
       },
       {
         "cref": "#/key_value_items/0"
@@ -301,12 +292,12 @@
           },
           "charspan": [
             0,
-            24
+            25
           ]
         }
       ],
-      "orig": "United States Patent [19",
-      "text": "United States Patent [19",
+      "orig": "United States Patent (19)",
+      "text": "United States Patent (19)",
       "formatting": null,
       "hyperlink": null,
       "level": 1
@@ -430,8 +421,8 @@
           ]
         }
       ],
-      "orig": "[54] 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
-      "text": "[54] 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
+      "orig": "(54) 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
+      "text": "(54) 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -650,12 +641,12 @@
           },
           "charspan": [
             0,
-            107
+            105
           ]
         }
       ],
-      "orig": "[52] : U.S. CI. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
-      "text": "[52] : U.S. CI. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
+      "orig": "(52] U.S. Cl. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
+      "text": "(52] U.S. Cl. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -698,7 +689,20 @@
       "parent": {
         "cref": "#/groups/9"
       },
-      "children": [],
+      "children": [
+        {
+          "cref": "#/texts/14"
+        },
+        {
+          "cref": "#/texts/15"
+        },
+        {
+          "cref": "#/texts/16"
+        },
+        {
+          "cref": "#/texts/17"
+        }
+      ],
       "content_layer": "body",
       "meta": null,
       "label": "list_item",
@@ -728,7 +732,7 @@
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
@@ -759,7 +763,7 @@
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
@@ -777,19 +781,19 @@
           },
           "charspan": [
             0,
-            41
+            39
           ]
         }
       ],
-      "orig": "4,283,475 . 8/1981 Kawamura et al. 430/81",
-      "text": "4,283,475 . 8/1981 Kawamura et al. 430/81",
+      "orig": "4,283,475 8/1981 Kawamura et al. 430/81",
+      "text": "4,283,475 8/1981 Kawamura et al. 430/81",
       "formatting": null,
       "hyperlink": null
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
@@ -819,7 +823,7 @@
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
@@ -851,14 +855,7 @@
       "parent": {
         "cref": "#/groups/10"
       },
-      "children": [
-        {
-          "cref": "#/texts/19"
-        },
-        {
-          "cref": "#/texts/20"
-        }
-      ],
+      "children": [],
       "content_layer": "body",
       "meta": null,
       "label": "list_item",
@@ -888,7 +885,7 @@
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/texts/18"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -908,23 +905,7 @@
             0,
             112
           ]
-        }
-      ],
-      "orig": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said",
-      "text": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "cref": "#/texts/18"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
+        },
         {
           "page_no": 1,
           "bbox": {
@@ -935,18 +916,18 @@
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
-            0,
-            60
+            113,
+            173
           ]
         }
       ],
-      "orig": "salt and a photoconductive composition containing said salt.",
-      "text": "salt and a photoconductive composition containing said salt.",
+      "orig": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said salt and a photoconductive composition containing said salt.",
+      "text": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said salt and a photoconductive composition containing said salt.",
       "formatting": null,
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/21",
+      "self_ref": "#/texts/20",
       "parent": {
         "cref": "#/body"
       },
@@ -976,7 +957,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/22",
+      "self_ref": "#/texts/21",
       "parent": {
         "cref": "#/body"
       },
@@ -1006,7 +987,7 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/23",
+      "self_ref": "#/texts/22",
       "parent": {
         "cref": "#/body"
       },
@@ -1030,13 +1011,13 @@
           ]
         }
       ],
-      "orig": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and Rº are the same or different and include alkyl groups.",
-      "text": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and Rº are the same or different and include alkyl groups.",
+      "orig": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and R? are the same or different and include alkyl groups.",
+      "text": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and R? are the same or different and include alkyl groups.",
       "formatting": null,
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/24",
+      "self_ref": "#/texts/23",
       "parent": {
         "cref": "#/body"
       },
@@ -1172,7 +1153,7 @@
           },
           "charspan": [
             0,
-            19
+            20
           ]
         }
       ],
@@ -1300,7 +1281,7 @@
           },
           "charspan": [
             0,
-            173
+            172
           ]
         }
       ],
@@ -1424,7 +1405,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": ".54-88318",
+            "text": "54-88318",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -1731,7 +1712,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": ".54-88318",
+              "text": "54-88318",
               "column_header": false,
               "row_header": false,
               "row_section": false,

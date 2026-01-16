@@ -1,0 +1,12 @@
+{
+  "test_id": "041",
+  "name": "041_text_trailing_list",
+  "description": "Text trailing after the end of a list before next section starts.",
+  "observation": "Trailing text is included inside the list, should continue after list.",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_b50cdc36a36b7a94189c6e9b373aa8a1cc1dbe1408df33058bb500ff480eb356_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}

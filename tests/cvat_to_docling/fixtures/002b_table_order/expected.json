@@ -23,13 +23,13 @@
         "cref": "#/tables/0"
       },
       {
-        "cref": "#/texts/6"
+        "cref": "#/texts/10"
       },
       {
         "cref": "#/tables/1"
       },
       {
-        "cref": "#/texts/8"
+        "cref": "#/texts/13"
       }
     ],
     "content_layer": "body",
@@ -45,25 +45,40 @@
       },
       "children": [
         {
-          "cref": "#/groups/7"
+          "cref": "#/texts/6"
         },
         {
-          "cref": "#/groups/6"
+          "cref": "#/texts/7"
         },
         {
-          "cref": "#/groups/5"
+          "cref": "#/texts/8"
         },
         {
-          "cref": "#/groups/4"
+          "cref": "#/texts/9"
         }
       ],
       "content_layer": "body",
       "meta": null,
-      "name": "rich_cell_group_0_1_0",
-      "label": "unspecified"
+      "name": "group_2",
+      "label": "list"
     },
     {
       "self_ref": "#/groups/1",
+      "parent": {
+        "cref": "#/groups/3"
+      },
+      "children": [
+        {
+          "cref": "#/texts/12"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "list_standalone_18",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
       "parent": {
         "cref": "#/tables/0"
       },
@@ -87,97 +102,22 @@
       "label": "unspecified"
     },
     {
-      "self_ref": "#/groups/2",
+      "self_ref": "#/groups/3",
       "parent": {
         "cref": "#/tables/1"
       },
       "children": [
         {
-          "cref": "#/texts/7"
+          "cref": "#/texts/11"
         },
         {
-          "cref": "#/groups/3"
+          "cref": "#/groups/1"
         }
       ],
       "content_layer": "body",
       "meta": null,
       "name": "rich_cell_group_1_1_2",
       "label": "unspecified"
-    },
-    {
-      "self_ref": "#/groups/3",
-      "parent": {
-        "cref": "#/groups/2"
-      },
-      "children": [
-        {
-          "cref": "#/texts/9"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/4",
-      "parent": {
-        "cref": "#/groups/0"
-      },
-      "children": [
-        {
-          "cref": "#/texts/10"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/5",
-      "parent": {
-        "cref": "#/groups/0"
-      },
-      "children": [
-        {
-          "cref": "#/texts/11"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/6",
-      "parent": {
-        "cref": "#/groups/0"
-      },
-      "children": [
-        {
-          "cref": "#/texts/12"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
-    },
-    {
-      "self_ref": "#/groups/7",
-      "parent": {
-        "cref": "#/groups/0"
-      },
-      "children": [
-        {
-          "cref": "#/texts/13"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "name": "group",
-      "label": "list"
     }
   ],
   "texts": [
@@ -244,7 +184,7 @@
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -274,7 +214,7 @@
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -304,7 +244,7 @@
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -334,7 +274,7 @@
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/groups/1"
+        "cref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
@@ -363,6 +303,134 @@
     },
     {
       "self_ref": "#/texts/6",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 365.092713,
+            "t": 1455.5047559999998,
+            "r": 1022.541387,
+            "b": 1413.731452,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            83
+          ]
+        }
+      ],
+      "orig": "k.   Master Data Management (bespoke or commercial solution)  - minimum 1 reference",
+      "text": "k.   Master Data Management (bespoke or commercial solution)  - minimum 1 reference",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/7",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 365.234442,
+            "t": 1394.8975959999998,
+            "r": 925.984635,
+            "b": 1373.75666,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            55
+          ]
+        }
+      ],
+      "orig": "l.   BPMN, UML (or equivalent)  -  minimum 3 references",
+      "text": "l.   BPMN, UML (or equivalent)  -  minimum 3 references",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/8",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 365.52504600000003,
+            "t": 1357.445436,
+            "r": 1020.1200839999999,
+            "b": 1318.3345359999998,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            79
+          ]
+        }
+      ],
+      "orig": "m.   RUP, Prince2 or equivalent waterfall methodology  -  minimum  2 references",
+      "text": "m.   RUP, Prince2 or equivalent waterfall methodology  -  minimum  2 references",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/9",
+      "parent": {
+        "cref": "#/groups/0"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 365.395227,
+            "t": 1297.671856,
+            "r": 951.4839450000001,
+            "b": 1276.864352,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            58
+          ]
+        }
+      ],
+      "orig": "n.   Agile/Scaled Agile Framework  -  minimum 3 references",
+      "text": "n.   Agile/Scaled Agile Framework  -  minimum 3 references",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/10",
       "parent": {
         "cref": "#/body"
       },
@@ -393,9 +461,9 @@
       "level": 2
     },
     {
-      "self_ref": "#/texts/7",
+      "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/groups/2"
+        "cref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
@@ -423,39 +491,9 @@
       "hyperlink": null
     },
     {
-      "self_ref": "#/texts/8",
+      "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/body"
-      },
-      "children": [],
-      "content_layer": "furniture",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 612.980307,
-            "t": 103.26454399999989,
-            "r": 634.88637,
-            "b": 88.31567599999994,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            2
-          ]
-        }
-      ],
-      "orig": "26",
-      "text": "26",
-      "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/9",
-      "parent": {
-        "cref": "#/groups/3"
+        "cref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
@@ -485,132 +523,34 @@
       "marker": ""
     },
     {
-      "self_ref": "#/texts/10",
-      "parent": {
-        "cref": "#/groups/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 365.395227,
-            "t": 1297.671856,
-            "r": 951.4839450000001,
-            "b": 1276.864352,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            58
-          ]
-        }
-      ],
-      "orig": "n.   Agile/Scaled Agile Framework  -  minimum 3 references",
-      "text": "n.   Agile/Scaled Agile Framework  -  minimum 3 references",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/11",
-      "parent": {
-        "cref": "#/groups/5"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 365.52504600000003,
-            "t": 1357.445436,
-            "r": 1020.1200839999999,
-            "b": 1318.3345359999998,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            79
-          ]
-        }
-      ],
-      "orig": "m.   RUP, Prince2 or equivalent waterfall methodology  -  minimum  2 references",
-      "text": "m.   RUP, Prince2 or equivalent waterfall methodology  -  minimum  2 references",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/12",
-      "parent": {
-        "cref": "#/groups/6"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 365.234442,
-            "t": 1394.8975959999998,
-            "r": 925.984635,
-            "b": 1373.75666,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            55
-          ]
-        }
-      ],
-      "orig": "l.   BPMN, UML (or equivalent)  -  minimum 3 references",
-      "text": "l.   BPMN, UML (or equivalent)  -  minimum 3 references",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/7"
+        "cref": "#/body"
       },
       "children": [],
-      "content_layer": "body",
+      "content_layer": "furniture",
       "meta": null,
-      "label": "list_item",
+      "label": "text",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 365.092713,
-            "t": 1455.5047559999998,
-            "r": 1022.541387,
-            "b": 1413.731452,
+            "l": 612.980307,
+            "t": 103.26454399999989,
+            "r": 634.88637,
+            "b": 88.31567599999994,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            83
+            2
           ]
         }
       ],
-      "orig": "k.   Master Data Management (bespoke or commercial solution)  - minimum 1 reference",
-      "text": "k.   Master Data Management (bespoke or commercial solution)  - minimum 1 reference",
+      "orig": "26",
+      "text": "26",
       "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
+      "hyperlink": null
     }
   ],
   "pictures": [
@@ -672,10 +612,7 @@
       },
       "children": [
         {
-          "cref": "#/groups/0"
-        },
-        {
-          "cref": "#/groups/1"
+          "cref": "#/groups/2"
         }
       ],
       "content_layer": "body",
@@ -814,7 +751,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/1"
+              "cref": "#/groups/2"
             }
           }
         ],
@@ -946,7 +883,7 @@
       },
       "children": [
         {
-          "cref": "#/groups/2"
+          "cref": "#/groups/3"
         }
       ],
       "content_layer": "body",
@@ -1068,7 +1005,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/2"
+              "cref": "#/groups/3"
             }
           }
         ],

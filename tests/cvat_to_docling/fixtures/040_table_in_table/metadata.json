@@ -1,0 +1,12 @@
+{
+  "test_id": "040",
+  "name": "040_table_in_table",
+  "description": "Sample with a table nesting two subtables in rich cells.",
+  "observation": "Table-in-table reconstruction goes bananas.",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_e181da98061952ebcab29a89292713ac6b1b916fc23ce028b9cb328b4e088a88_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}

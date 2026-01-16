@@ -26,7 +26,13 @@
         "cref": "#/texts/1"
       },
       {
+        "cref": "#/pictures/1"
+      },
+      {
         "cref": "#/texts/2"
+      },
+      {
+        "cref": "#/pictures/2"
       },
       {
         "cref": "#/texts/3"
@@ -44,40 +50,73 @@
         "cref": "#/texts/7"
       },
       {
-        "cref": "#/pictures/1"
-      },
-      {
         "cref": "#/texts/8"
-      },
-      {
-        "cref": "#/pictures/2"
       },
       {
         "cref": "#/texts/9"
       },
       {
-        "cref": "#/pictures/3"
-      },
-      {
         "cref": "#/texts/10"
-      },
-      {
-        "cref": "#/texts/11"
-      },
-      {
-        "cref": "#/texts/12"
-      },
-      {
-        "cref": "#/texts/13"
       },
       {
         "cref": "#/groups/0"
       },
       {
+        "cref": "#/texts/15"
+      },
+      {
         "cref": "#/texts/16"
       },
       {
-        "cref": "#/pictures/4"
+        "cref": "#/texts/17"
+      },
+      {
+        "cref": "#/texts/18"
+      },
+      {
+        "cref": "#/groups/1"
+      },
+      {
+        "cref": "#/texts/22"
+      },
+      {
+        "cref": "#/groups/2"
+      },
+      {
+        "cref": "#/texts/28"
+      },
+      {
+        "cref": "#/texts/29"
+      },
+      {
+        "cref": "#/texts/30"
+      },
+      {
+        "cref": "#/texts/31"
+      },
+      {
+        "cref": "#/texts/32"
+      },
+      {
+        "cref": "#/texts/33"
+      },
+      {
+        "cref": "#/texts/34"
+      },
+      {
+        "cref": "#/texts/35"
+      },
+      {
+        "cref": "#/texts/36"
+      },
+      {
+        "cref": "#/texts/37"
+      },
+      {
+        "cref": "#/texts/38"
+      },
+      {
+        "cref": "#/groups/3"
       },
       {
         "cref": "#/key_value_items/0"
@@ -96,15 +135,93 @@
       },
       "children": [
         {
-          "cref": "#/texts/14"
+          "cref": "#/texts/11"
         },
         {
-          "cref": "#/texts/15"
+          "cref": "#/texts/12"
+        },
+        {
+          "cref": "#/texts/13"
+        },
+        {
+          "cref": "#/texts/14"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group_3",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/1",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/19"
+        },
+        {
+          "cref": "#/texts/20"
+        },
+        {
+          "cref": "#/texts/21"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group_5",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/2",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/23"
+        },
+        {
+          "cref": "#/texts/24"
+        },
+        {
+          "cref": "#/texts/25"
+        },
+        {
+          "cref": "#/texts/26"
+        },
+        {
+          "cref": "#/texts/27"
         }
       ],
       "content_layer": "body",
       "meta": null,
       "name": "group_2",
+      "label": "list"
+    },
+    {
+      "self_ref": "#/groups/3",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [
+        {
+          "cref": "#/texts/39"
+        },
+        {
+          "cref": "#/texts/40"
+        },
+        {
+          "cref": "#/texts/41"
+        },
+        {
+          "cref": "#/texts/42"
+        }
+      ],
+      "content_layer": "body",
+      "meta": null,
+      "name": "group_4",
       "label": "list"
     }
   ],
@@ -122,20 +239,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 554.581326,
-            "t": 1430.9056,
-            "r": 872.494116,
-            "b": 1202.3392,
+            "l": 117.750672,
+            "t": 1470.2208,
+            "r": 499.980039,
+            "b": 1417.0432,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            25
+            10
           ]
         }
       ],
-      "orig": "hello@reallygreatsite.com",
-      "text": "hello@reallygreatsite.com",
+      "orig": "HOWARD ONG",
+      "text": "HOWARD ONG",
       "formatting": null,
       "hyperlink": null,
       "level": 1
@@ -153,20 +270,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 555.310821,
-            "t": 1172.0576,
-            "r": 998.4784679999999,
-            "b": 1124.6384,
+            "l": 113.22441,
+            "t": 1390.7888,
+            "r": 437.723013,
+            "b": 1370.9888,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            15
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "PRODUCT MANAGER",
+      "text": "PRODUCT MANAGER",
       "formatting": null,
       "hyperlink": null
     },
@@ -178,28 +295,27 @@
       "children": [],
       "content_layer": "body",
       "meta": null,
-      "label": "section_header",
+      "label": "text",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 118.367067,
-            "t": 951.2192,
-            "r": 311.238759,
-            "b": 911.2815999999999,
+            "l": 156.778089,
+            "t": 1326.3616,
+            "r": 329.292912,
+            "b": 1306.5616,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            27
+            13
           ]
         }
       ],
-      "orig": "• Data Analyst • Full Stack",
-      "text": "• Data Analyst • Full Stack",
+      "orig": "+123-456-7890",
+      "text": "+123-456-7890",
       "formatting": null,
-      "hyperlink": null,
-      "level": 2
+      "hyperlink": null
     },
     {
       "self_ref": "#/texts/3",
@@ -214,20 +330,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 111.544875,
-            "t": 889.2192,
-            "r": 535.289859,
-            "b": 760.5072,
+            "l": 428.55173399999995,
+            "t": 1326.9056,
+            "r": 724.598901,
+            "b": 1301.1168,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            20
+            25
           ]
         }
       ],
-      "orig": "LANGUGAGES Indonesia",
-      "text": "LANGUGAGES Indonesia",
+      "orig": "hello@reallygreatsite.com",
+      "text": "hello@reallygreatsite.com",
       "formatting": null,
       "hyperlink": null
     },
@@ -244,20 +360,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 114.097542,
-            "t": 666.4911999999999,
-            "r": 318.442098,
-            "b": 629.5248000000001,
+            "l": 511.637256,
+            "t": 1113.8272,
+            "r": 612.167322,
+            "b": 1088.672,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            6
+            7
           ]
         }
       ],
-      "orig": "Fluent",
-      "text": "Fluent",
+      "orig": "PROFILE",
+      "text": "PROFILE",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -275,20 +391,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 113.464182,
-            "t": 607.2048000000001,
-            "r": 425.814714,
-            "b": 577.3744,
+            "l": 511.931316,
+            "t": 1051.1888,
+            "r": 1010.248785,
+            "b": 932.0384,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            139
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "Introduce my name is Howard Ong, I am a Product Manager with 7 years of experience in the field, I have handled many products and projects.",
+      "text": "Introduce my name is Howard Ong, I am a Product Manager with 7 years of experience in the field, I have handled many products and projects.",
       "formatting": null,
       "hyperlink": null
     },
@@ -300,27 +416,28 @@
       "children": [],
       "content_layer": "body",
       "meta": null,
-      "label": "text",
+      "label": "section_header",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 113.95051199999999,
-            "t": 561.8352,
-            "r": 491.426286,
-            "b": 530.2464,
+            "l": 512.125848,
+            "t": 875.5328000000001,
+            "r": 737.686833,
+            "b": 850.3776,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            6
+            15
           ]
         }
       ],
-      "orig": "AWARDS",
-      "text": "AWARDS",
+      "orig": "WORK EXPERIENCE",
+      "text": "WORK EXPERIENCE",
       "formatting": null,
-      "hyperlink": null
+      "hyperlink": null,
+      "level": 2
     },
     {
       "self_ref": "#/texts/7",
@@ -335,23 +452,23 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 113.434776,
-            "t": 459.95039999999995,
-            "r": 344.8419,
-            "b": 422.82719999999995,
+            "l": 511.880421,
+            "t": 815.5952,
+            "r": 717.119598,
+            "b": 789.4848,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            6
+            15
           ]
         }
       ],
-      "orig": "Design",
-      "text": "Design",
+      "orig": "Product Manager",
+      "text": "Product Manager",
       "formatting": null,
       "hyperlink": null,
-      "level": 2
+      "level": 3
     },
     {
       "self_ref": "#/texts/8",
@@ -366,20 +483,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 158.232555,
-            "t": 388.3663999999999,
-            "r": 356.703828,
-            "b": 366.3488,
+            "l": 510.45762299999996,
+            "t": 782.4688,
+            "r": 839.212179,
+            "b": 752.712,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            29
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "Borcelle Startup/ 2021 - 2022",
+      "text": "Borcelle Startup/ 2021 - 2022",
       "formatting": null,
       "hyperlink": null
     },
@@ -396,20 +513,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 157.01673000000002,
-            "t": 342.30240000000003,
-            "r": 489.28077900000005,
-            "b": 314.3904,
+            "l": 511.97090099999997,
+            "t": 729.7936,
+            "r": 980.829213,
+            "b": 703.7167999999999,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            37
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "Become a product manager at a unicorn",
+      "text": "Become a product manager at a unicorn",
       "formatting": null,
       "hyperlink": null
     },
@@ -426,114 +543,118 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 157.472523,
-            "t": 293.9695999999999,
-            "r": 509.037087,
-            "b": 267.0719999999999,
+            "l": 511.57278900000006,
+            "t": 689.9775999999999,
+            "r": 922.755756,
+            "b": 663.9008,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            6
+            35
           ]
         }
       ],
-      "orig": "AWARDS",
-      "text": "AWARDS",
+      "orig": "startup with a product marketplace.",
+      "text": "startup with a product marketplace.",
       "formatting": null,
       "hyperlink": null
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": null,
-      "label": "section_header",
+      "label": "list_item",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 629.295186,
-            "t": 951.1504,
-            "r": 979.228848,
-            "b": 914.5264,
+            "l": 522.66903,
+            "t": 641.5184,
+            "r": 740.521119,
+            "b": 614.9696,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            16
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "• Manage Product",
+      "text": "• Manage Product",
       "formatting": null,
       "hyperlink": null,
-      "level": 2
+      "enumerated": false,
+      "marker": ""
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": null,
-      "label": "section_header",
+      "label": "list_item",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 629.337033,
-            "t": 892.224,
-            "r": 976.09824,
-            "b": 868.6256000000001,
+            "l": 523.1553600000001,
+            "t": 601.4944,
+            "r": 876.527262,
+            "b": 574.9456,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            25
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "• Manage Development Team",
+      "text": "• Manage Development Team",
       "formatting": null,
       "hyperlink": null,
-      "level": 3
+      "enumerated": false,
+      "marker": ""
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/body"
+        "cref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": null,
-      "label": "text",
+      "label": "list_item",
       "prov": [
         {
           "page_no": 1,
           "bbox": {
-            "l": 630.0755760000001,
-            "t": 857.8752,
-            "r": 1083.9956399999999,
-            "b": 826.5088000000001,
+            "l": 522.730104,
+            "t": 561.3968,
+            "r": 876.1020060000001,
+            "b": 534.848,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            28
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "• Track Development Progress",
+      "text": "• Track Development Progress",
       "formatting": null,
-      "hyperlink": null
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
     },
     {
       "self_ref": "#/texts/14",
@@ -548,20 +669,20 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 640.798587,
-            "t": 781.1856,
-            "r": 939.924336,
-            "b": 627.5472000000001,
+            "l": 522.932553,
+            "t": 519.0896,
+            "r": 708.421077,
+            "b": 500.74400000000014,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            72
+            14
           ]
         }
       ],
-      "orig": "Startup/ 2021 - 2022 product manager at a unicorn a product marketplace.",
-      "text": "Startup/ 2021 - 2022 product manager at a unicorn a product marketplace.",
+      "orig": "• Scrum Master",
+      "text": "• Scrum Master",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -569,38 +690,6 @@
     },
     {
       "self_ref": "#/texts/15",
-      "parent": {
-        "cref": "#/groups/0"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "list_item",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 641.111874,
-            "t": 615.248,
-            "r": 966.497181,
-            "b": 545.0511999999999,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            25
-          ]
-        }
-      ],
-      "orig": "Development Team Progress",
-      "text": "Development Team Progress",
-      "formatting": null,
-      "hyperlink": null,
-      "enumerated": false,
-      "marker": ""
-    },
-    {
-      "self_ref": "#/texts/16",
       "parent": {
         "cref": "#/body"
       },
@@ -612,28 +701,28 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 637.937157,
-            "t": 466.9312,
-            "r": 741.040248,
-            "b": 428.5344,
+            "l": 511.314921,
+            "t": 444.56320000000005,
+            "r": 705.852576,
+            "b": 417.0608,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            15
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "Project Manager",
+      "text": "Project Manager",
       "formatting": null,
       "hyperlink": null,
-      "level": 2
+      "level": 3
     },
     {
-      "self_ref": "#/texts/17",
+      "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/pictures/4"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -643,27 +732,57 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 638.838564,
-            "t": 331.8432,
-            "r": 848.779308,
-            "b": 306.82719999999995,
+            "l": 510.877224,
+            "t": 409.4992,
+            "r": 922.060191,
+            "b": 379.82079999999996,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            0
+            34
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "Fauget Design Agency / 2020 - 2021",
+      "text": "Fauget Design Agency / 2020 - 2021",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/17",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 512.414253,
+            "t": 358.24160000000006,
+            "r": 958.49988,
+            "b": 331.03840000000014,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            36
+          ]
+        }
+      ],
+      "orig": "Become a project manager in a design",
+      "text": "Become a project manager in a design",
       "formatting": null,
       "hyperlink": null
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/pictures/4"
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -673,27 +792,345 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 639.743364,
-            "t": 395.9504000000002,
-            "r": 887.8881570000001,
-            "b": 366.7056,
+            "l": 511.817085,
+            "t": 317.3696,
+            "r": 998.4253110000001,
+            "b": 251.55040000000008,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            15
+            69
           ]
         }
       ],
-      "orig": "Agency / 2020 -",
-      "text": "Agency / 2020 -",
+      "orig": "agency, in charge of keeping the project in line with the final goal.",
+      "text": "agency, in charge of keeping the project in line with the final goal.",
       "formatting": null,
       "hyperlink": null
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/pictures/4"
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 522.8386800000001,
+            "t": 229.74239999999986,
+            "r": 730.853331,
+            "b": 203.45280000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "• Manage Project",
+      "text": "• Manage Project",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/20",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 523.345368,
+            "t": 189.22080000000005,
+            "r": 800.133867,
+            "b": 162.9312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            20
+          ]
+        }
+      ],
+      "orig": "• Manage Design Team",
+      "text": "• Manage Design Team",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/21",
+      "parent": {
+        "cref": "#/groups/1"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 522.992496,
+            "t": 149.67679999999996,
+            "r": 800.525193,
+            "b": 123.3871999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            23
+          ]
+        }
+      ],
+      "orig": "• Track Design Progress",
+      "text": "• Track Design Progress",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/22",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 114.013848,
+            "t": 1113.1616,
+            "r": 225.375501,
+            "b": 1088.856,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "MY SKILLS",
+      "text": "MY SKILLS",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/23",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 124.89633,
+            "t": 1052.672,
+            "r": 333.266115,
+            "b": 1026.6896000000002,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            16
+          ]
+        }
+      ],
+      "orig": "• Manage Project",
+      "text": "• Manage Project",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/24",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 125.346468,
+            "t": 1022.0896,
+            "r": 412.052706,
+            "b": 996.1071999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "• Business Development",
+      "text": "• Business Development",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/25",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 124.89859200000001,
+            "t": 990.6927999999999,
+            "r": 331.448598,
+            "b": 964.7103999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            17
+          ]
+        }
+      ],
+      "orig": "• User Experience",
+      "text": "• User Experience",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/26",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 125.512725,
+            "t": 957.8096,
+            "r": 298.888239,
+            "b": 931.8272000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "• Data Analyst",
+      "text": "• Data Analyst",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/27",
+      "parent": {
+        "cref": "#/groups/2"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 126.055605,
+            "t": 926.9136,
+            "r": 381.059913,
+            "b": 900.9312,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            22
+          ]
+        }
+      ],
+      "orig": "• Full Stack Developer",
+      "text": "• Full Stack Developer",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/28",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 114.200463,
+            "t": 842.3744,
+            "r": 256.844445,
+            "b": 817.2192,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "LANGUAGES",
+      "text": "LANGUAGES",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/29",
+      "parent": {
+        "cref": "#/body"
       },
       "children": [],
       "content_layer": "body",
@@ -703,10 +1140,408 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 638.137344,
-            "t": 364.6895999999999,
-            "r": 811.248204,
-            "b": 333.14559999999983,
+            "l": 113.535435,
+            "t": 783.5824,
+            "r": 229.46519700000002,
+            "b": 761.5168000000001,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "Indonesia",
+      "text": "Indonesia",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/30",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 113.686989,
+            "t": 744.4240000000001,
+            "r": 186.024618,
+            "b": 724.7936,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "Native",
+      "text": "Native",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/31",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 114.821382,
+            "t": 688.5888,
+            "r": 198.07655400000002,
+            "b": 661.7968,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "English",
+      "text": "English",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/32",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 112.88058600000001,
+            "t": 650.3024,
+            "r": 185.218215,
+            "b": 630.672,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "Fluent",
+      "text": "Fluent",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/33",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 113.871342,
+            "t": 566.296,
+            "r": 212.76485100000002,
+            "b": 541.1407999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "AWARDS",
+      "text": "AWARDS",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/34",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 112.774272,
+            "t": 507.5791999999999,
+            "r": 364.478322,
+            "b": 481.7647999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Best App in App Store",
+      "text": "Best App in App Store",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/35",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 113.03214,
+            "t": 469.9903999999999,
+            "r": 375.726117,
+            "b": 443.15840000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            21
+          ]
+        }
+      ],
+      "orig": "Product Design Awards",
+      "text": "Product Design Awards",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/36",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 114.404043,
+            "t": 414.80320000000006,
+            "r": 404.987349,
+            "b": 391.42560000000003,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            26
+          ]
+        }
+      ],
+      "orig": "Get $1 Million in One Year",
+      "text": "Get $1 Million in One Year",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/37",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "text",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 112.781058,
+            "t": 375.23680000000013,
+            "r": 351.504621,
+            "b": 350.8879999999999,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            18
+          ]
+        }
+      ],
+      "orig": "Fauget Achievement",
+      "text": "Fauget Achievement",
+      "formatting": null,
+      "hyperlink": null
+    },
+    {
+      "self_ref": "#/texts/38",
+      "parent": {
+        "cref": "#/body"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "section_header",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 113.128275,
+            "t": 292.8800000000001,
+            "r": 212.021784,
+            "b": 267.72479999999996,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            6
+          ]
+        }
+      ],
+      "orig": "AWARDS",
+      "text": "AWARDS",
+      "formatting": null,
+      "hyperlink": null,
+      "level": 2
+    },
+    {
+      "self_ref": "#/texts/39",
+      "parent": {
+        "cref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 125.942505,
+            "t": 231.89120000000003,
+            "r": 218.061324,
+            "b": 211.46080000000006,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            7
+          ]
+        }
+      ],
+      "orig": "• Music",
+      "text": "• Music",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/40",
+      "parent": {
+        "cref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 125.527428,
+            "t": 201.1168,
+            "r": 312.697749,
+            "b": 175.21759999999995,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            14
+          ]
+        }
+      ],
+      "orig": "• Playing Game",
+      "text": "• Playing Game",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/41",
+      "parent": {
+        "cref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 125.36004,
+            "t": 168.84799999999996,
+            "r": 232.190907,
+            "b": 143.98239999999987,
+            "coord_origin": "BOTTOMLEFT"
+          },
+          "charspan": [
+            0,
+            9
+          ]
+        }
+      ],
+      "orig": "• Fishing",
+      "text": "• Fishing",
+      "formatting": null,
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
+    },
+    {
+      "self_ref": "#/texts/42",
+      "parent": {
+        "cref": "#/groups/3"
+      },
+      "children": [],
+      "content_layer": "body",
+      "meta": null,
+      "label": "list_item",
+      "prov": [
+        {
+          "page_no": 1,
+          "bbox": {
+            "l": 124.754955,
+            "t": 138.5039999999999,
+            "r": 332.34548099999995,
+            "b": 112.14560000000006,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -715,40 +1550,12 @@
           ]
         }
       ],
-      "orig": "project manager",
-      "text": "project manager",
+      "orig": "• Shadow Puppet",
+      "text": "• Shadow Puppet",
       "formatting": null,
-      "hyperlink": null
-    },
-    {
-      "self_ref": "#/texts/20",
-      "parent": {
-        "cref": "#/pictures/4"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "text",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 639.8021759999999,
-            "t": 299.83680000000004,
-            "r": 888.45705,
-            "b": 267.7296000000001,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            0
-          ]
-        }
-      ],
-      "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "hyperlink": null,
+      "enumerated": false,
+      "marker": ""
     }
   ],
   "pictures": [
@@ -765,15 +1572,15 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 87.49189799999999,
-            "t": 1489.84,
-            "r": 502.92290099999997,
-            "b": 1074.6224,
+            "l": 813.4672260000001,
+            "t": 1486.5904,
+            "r": 1008.321561,
+            "b": 1292.2768,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
             0,
-            50
+            0
           ]
         }
       ],
@@ -807,10 +1614,10 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 112.175973,
-            "t": 394.3248000000001,
-            "r": 138.23082,
-            "b": 368.4448,
+            "l": 112.419138,
+            "t": 1335.7424,
+            "r": 137.354295,
+            "b": 1294.9679999999998,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -849,10 +1656,10 @@
         {
           "page_no": 1,
           "bbox": {
-            "l": 112.191807,
-            "t": 340.2256,
-            "r": 143.32710600000001,
-            "b": 316.94399999999996,
+            "l": 368.131452,
+            "t": 1332.5456,
+            "r": 411.046116,
+            "b": 1298.512,
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
@@ -872,103 +1679,6 @@
           "predicted_classes": [
             {
               "class_name": "icon",
-              "confidence": 1.0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "self_ref": "#/pictures/3",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [],
-      "content_layer": "body",
-      "meta": null,
-      "label": "picture",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 119.526342,
-            "t": 292.05279999999993,
-            "r": 138.374457,
-            "b": 266.61439999999993,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            0
-          ]
-        }
-      ],
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "image": null,
-      "annotations": [
-        {
-          "kind": "classification",
-          "provenance": "human",
-          "predicted_classes": [
-            {
-              "class_name": "icon",
-              "confidence": 1.0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "self_ref": "#/pictures/4",
-      "parent": {
-        "cref": "#/body"
-      },
-      "children": [
-        {
-          "cref": "#/texts/17"
-        },
-        {
-          "cref": "#/texts/18"
-        },
-        {
-          "cref": "#/texts/19"
-        },
-        {
-          "cref": "#/texts/20"
-        }
-      ],
-      "content_layer": "body",
-      "meta": null,
-      "label": "picture",
-      "prov": [
-        {
-          "page_no": 1,
-          "bbox": {
-            "l": 638.3115180000001,
-            "t": 397.52480000000014,
-            "r": 1050.9828810000001,
-            "b": 267.04320000000007,
-            "coord_origin": "BOTTOMLEFT"
-          },
-          "charspan": [
-            0,
-            81
-          ]
-        }
-      ],
-      "captions": [],
-      "references": [],
-      "footnotes": [],
-      "image": null,
-      "annotations": [
-        {
-          "kind": "classification",
-          "provenance": "human",
-          "predicted_classes": [
-            {
-              "class_name": "chart",
               "confidence": 1.0
             }
           ]
@@ -1002,10 +1712,10 @@
             "prov": {
               "page_no": 1,
               "bbox": {
-                "l": 112.175973,
-                "t": 394.3248000000001,
-                "r": 138.23082,
-                "b": 368.4448,
+                "l": 112.419138,
+                "t": 1335.7424,
+                "r": 137.354295,
+                "b": 1294.9679999999998,
                 "coord_origin": "BOTTOMLEFT"
               },
               "charspan": [
@@ -1020,24 +1730,24 @@
           {
             "label": "value",
             "cell_id": 1,
-            "text": "",
-            "orig": "",
+            "text": "+123-456-7890",
+            "orig": "+123-456-7890",
             "prov": {
               "page_no": 1,
               "bbox": {
-                "l": 158.232555,
-                "t": 388.3663999999999,
-                "r": 356.703828,
-                "b": 366.3488,
+                "l": 156.778089,
+                "t": 1326.3616,
+                "r": 329.292912,
+                "b": 1306.5616,
                 "coord_origin": "BOTTOMLEFT"
               },
               "charspan": [
                 0,
-                0
+                13
               ]
             },
             "item_ref": {
-              "cref": "#/texts/8"
+              "cref": "#/texts/2"
             }
           },
           {
@@ -1048,232 +1758,10 @@
             "prov": {
               "page_no": 1,
               "bbox": {
-                "l": 119.526342,
-                "t": 292.05279999999993,
-                "r": 138.374457,
-                "b": 266.61439999999993,
-                "coord_origin": "BOTTOMLEFT"
-              },
-              "charspan": [
-                0,
-                0
-              ]
-            },
-            "item_ref": {
-              "cref": "#/pictures/3"
-            }
-          },
-          {
-            "label": "value",
-            "cell_id": 3,
-            "text": "AWARDS",
-            "orig": "AWARDS",
-            "prov": {
-              "page_no": 1,
-              "bbox": {
-                "l": 157.472523,
-                "t": 293.9695999999999,
-                "r": 509.037087,
-                "b": 267.0719999999999,
-                "coord_origin": "BOTTOMLEFT"
-              },
-              "charspan": [
-                0,
-                6
-              ]
-            },
-            "item_ref": {
-              "cref": "#/texts/10"
-            }
-          },
-          {
-            "label": "key",
-            "cell_id": 4,
-            "text": "",
-            "orig": "",
-            "prov": {
-              "page_no": 1,
-              "bbox": {
-                "l": 639.8021759999999,
-                "t": 299.83680000000004,
-                "r": 888.45705,
-                "b": 267.7296000000001,
-                "coord_origin": "BOTTOMLEFT"
-              },
-              "charspan": [
-                0,
-                0
-              ]
-            },
-            "item_ref": {
-              "cref": "#/texts/20"
-            }
-          },
-          {
-            "label": "value",
-            "cell_id": 5,
-            "text": "",
-            "orig": "",
-            "prov": {
-              "page_no": 1,
-              "bbox": {
-                "l": 912.299661,
-                "t": 296.65280000000007,
-                "r": 1050.700131,
-                "b": 272.1951999999999,
-                "coord_origin": "BOTTOMLEFT"
-              },
-              "charspan": [
-                0,
-                0
-              ]
-            },
-            "item_ref": null
-          },
-          {
-            "label": "key",
-            "cell_id": 6,
-            "text": "",
-            "orig": "",
-            "prov": {
-              "page_no": 1,
-              "bbox": {
-                "l": 638.838564,
-                "t": 331.8432,
-                "r": 848.779308,
-                "b": 306.82719999999995,
-                "coord_origin": "BOTTOMLEFT"
-              },
-              "charspan": [
-                0,
-                0
-              ]
-            },
-            "item_ref": {
-              "cref": "#/texts/17"
-            }
-          },
-          {
-            "label": "value",
-            "cell_id": 7,
-            "text": "",
-            "orig": "",
-            "prov": {
-              "page_no": 1,
-              "bbox": {
-                "l": 912.806349,
-                "t": 330.8896,
-                "r": 994.689618,
-                "b": 306.432,
-                "coord_origin": "BOTTOMLEFT"
-              },
-              "charspan": [
-                0,
-                0
-              ]
-            },
-            "item_ref": null
-          },
-          {
-            "label": "key",
-            "cell_id": 8,
-            "text": "project manager",
-            "orig": "project manager",
-            "prov": {
-              "page_no": 1,
-              "bbox": {
-                "l": 638.137344,
-                "t": 364.6895999999999,
-                "r": 811.248204,
-                "b": 333.14559999999983,
-                "coord_origin": "BOTTOMLEFT"
-              },
-              "charspan": [
-                0,
-                15
-              ]
-            },
-            "item_ref": {
-              "cref": "#/texts/19"
-            }
-          },
-          {
-            "label": "value",
-            "cell_id": 9,
-            "text": "",
-            "orig": "",
-            "prov": {
-              "page_no": 1,
-              "bbox": {
-                "l": 911.985243,
-                "t": 363.08799999999997,
-                "r": 1022.2498260000001,
-                "b": 338.6304,
-                "coord_origin": "BOTTOMLEFT"
-              },
-              "charspan": [
-                0,
-                0
-              ]
-            },
-            "item_ref": null
-          },
-          {
-            "label": "key",
-            "cell_id": 10,
-            "text": "Agency / 2020 -",
-            "orig": "Agency / 2020 -",
-            "prov": {
-              "page_no": 1,
-              "bbox": {
-                "l": 639.743364,
-                "t": 395.9504000000002,
-                "r": 887.8881570000001,
-                "b": 366.7056,
-                "coord_origin": "BOTTOMLEFT"
-              },
-              "charspan": [
-                0,
-                15
-              ]
-            },
-            "item_ref": {
-              "cref": "#/texts/18"
-            }
-          },
-          {
-            "label": "value",
-            "cell_id": 11,
-            "text": "",
-            "orig": "",
-            "prov": {
-              "page_no": 1,
-              "bbox": {
-                "l": 912.478359,
-                "t": 395.67679999999996,
-                "r": 1050.662808,
-                "b": 369.6784,
-                "coord_origin": "BOTTOMLEFT"
-              },
-              "charspan": [
-                0,
-                0
-              ]
-            },
-            "item_ref": null
-          },
-          {
-            "label": "key",
-            "cell_id": 12,
-            "text": "",
-            "orig": "",
-            "prov": {
-              "page_no": 1,
-              "bbox": {
-                "l": 112.191807,
-                "t": 340.2256,
-                "r": 143.32710600000001,
-                "b": 316.94399999999996,
+                "l": 368.131452,
+                "t": 1332.5456,
+                "r": 411.046116,
+                "b": 1298.512,
                 "coord_origin": "BOTTOMLEFT"
               },
               "charspan": [
@@ -1287,25 +1775,25 @@
           },
           {
             "label": "value",
-            "cell_id": 13,
-            "text": "",
-            "orig": "",
+            "cell_id": 3,
+            "text": "hello@reallygreatsite.com",
+            "orig": "hello@reallygreatsite.com",
             "prov": {
               "page_no": 1,
               "bbox": {
-                "l": 157.01673000000002,
-                "t": 342.30240000000003,
-                "r": 489.28077900000005,
-                "b": 314.3904,
+                "l": 428.55173399999995,
+                "t": 1326.9056,
+                "r": 724.598901,
+                "b": 1301.1168,
                 "coord_origin": "BOTTOMLEFT"
               },
               "charspan": [
                 0,
-                0
+                25
               ]
             },
             "item_ref": {
-              "cref": "#/texts/9"
+              "cref": "#/texts/3"
             }
           }
         ],
@@ -1319,31 +1807,6 @@
             "label": "to_value",
             "source_cell_id": 2,
             "target_cell_id": 3
-          },
-          {
-            "label": "to_value",
-            "source_cell_id": 4,
-            "target_cell_id": 5
-          },
-          {
-            "label": "to_value",
-            "source_cell_id": 6,
-            "target_cell_id": 7
-          },
-          {
-            "label": "to_value",
-            "source_cell_id": 8,
-            "target_cell_id": 9
-          },
-          {
-            "label": "to_value",
-            "source_cell_id": 10,
-            "target_cell_id": 11
-          },
-          {
-            "label": "to_value",
-            "source_cell_id": 12,
-            "target_cell_id": 13
           }
         ]
       }
