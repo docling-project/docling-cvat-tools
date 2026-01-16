@@ -1228,7 +1228,7 @@ class CVATToDoclingConverter:
                     or element_group_id == self._active_list_group_id
                 ):
                     active_list_item = self._get_active_list_item()
-                    target_item = active_list_item
+                    target_item: Optional[NodeItem] = active_list_item
                     if self.list_manager.level_stack:
                         current_max_level = max(self.list_manager.level_stack)
                         has_future_same_level = self._has_future_list_item_at_level(
@@ -1258,7 +1258,7 @@ class CVATToDoclingConverter:
         if group_info:
             path_id, element_ids = group_info
             group = self._create_group_on_demand(path_id, element_ids, parent_item)
-            item_parent = group
+            item_parent: Optional[NodeItem] = group
         else:
             item_parent = parent_item
 

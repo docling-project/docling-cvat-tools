@@ -1,6 +1,6 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "name": "input",
   "origin": null,
   "furniture": {
@@ -604,12 +604,12 @@
           },
           "charspan": [
             0,
-            108
+            109
           ]
         }
       ],
-      "orig": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nis urna mattis enim, sit amet",
-      "text": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nis urna mattis enim, sit amet",
+      "orig": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nisl urna mattis enim, sit amet",
+      "text": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nisl urna mattis enim, sit amet",
       "formatting": null,
       "hyperlink": null
     },
@@ -754,7 +754,7 @@
           },
           "charspan": [
             0,
-            328
+            329
           ]
         }
       ],

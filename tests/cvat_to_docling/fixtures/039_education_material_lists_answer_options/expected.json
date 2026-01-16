@@ -1,6 +1,6 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "name": "input",
   "origin": null,
   "furniture": {
@@ -502,7 +502,7 @@
           },
           "charspan": [
             0,
-            9
+            8
           ]
         },
         {
@@ -515,13 +515,13 @@
             "coord_origin": "BOTTOMLEFT"
           },
           "charspan": [
-            10,
-            42
+            9,
+            41
           ]
         }
       ],
-      "orig": "Modulie 2 Unit 1 When are we going to eat?",
-      "text": "Modulie 2 Unit 1 When are we going to eat?",
+      "orig": "Module ? Unit 1 When are we going to eat?",
+      "text": "Module ? Unit 1 When are we going to eat?",
       "formatting": null,
       "hyperlink": null,
       "level": 1
@@ -608,12 +608,12 @@
           },
           "charspan": [
             0,
-            17
+            16
           ]
         }
       ],
-      "orig": "( A )1. breakfast",
-      "text": "( A )1. breakfast",
+      "orig": "(^ )1. breakfast",
+      "text": "(^ )1. breakfast",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -992,12 +992,12 @@
           },
           "charspan": [
             0,
-            7
+            0
           ]
         }
       ],
-      "orig": "1970801",
-      "text": "1970801",
+      "orig": "",
+      "text": "",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -1243,12 +1243,12 @@
           },
           "charspan": [
             0,
-            1
+            0
           ]
         }
       ],
-      "orig": "2",
-      "text": "2",
+      "orig": "",
+      "text": "",
       "formatting": null,
       "hyperlink": null
     },
@@ -1676,12 +1676,12 @@
           },
           "charspan": [
             0,
-            30
+            26
           ]
         }
       ],
-      "orig": "A.)2. are you going to get up?",
-      "text": "A.)2. are you going to get up?",
+      "orig": "( are you going to get up?",
+      "text": "( are you going to get up?",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1840,12 +1840,12 @@
           },
           "charspan": [
             0,
-            37
+            38
           ]
         }
       ],
-      "orig": "( )3. There are some dark in the sky.",
-      "text": "( )3. There are some dark in the sky.",
+      "orig": "(• )3. There are some dark in the sky.",
+      "text": "(• )3. There are some dark in the sky.",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,

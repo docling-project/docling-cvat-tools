@@ -37,6 +37,7 @@ dependencies = [
     "cvat-sdk>=2.40.0",
     'ocrmac>=1.0.0; sys_platform == "darwin" and platform_machine == "arm64"',
     "xlsxwriter>=3.1.0",
+    "docling-parse>=4.7.2",
 ]
 
 [project.urls]

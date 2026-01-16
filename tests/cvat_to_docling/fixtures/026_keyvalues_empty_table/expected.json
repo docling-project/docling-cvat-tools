@@ -1,6 +1,6 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "name": "input",
   "origin": null,
   "furniture": {
@@ -193,12 +193,12 @@
           },
           "charspan": [
             0,
-            9
+            8
           ]
         }
       ],
-      "orig": "Student :",
-      "text": "Student :",
+      "orig": "Student:",
+      "text": "Student:",
       "formatting": null,
       "hyperlink": null
     },
@@ -2937,8 +2937,8 @@
           {
             "label": "key",
             "cell_id": 0,
-            "text": "Student :",
-            "orig": "Student :",
+            "text": "Student:",
+            "orig": "Student:",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -2950,7 +2950,7 @@
               },
               "charspan": [
                 0,
-                9
+                8
               ]
             },
             "item_ref": {

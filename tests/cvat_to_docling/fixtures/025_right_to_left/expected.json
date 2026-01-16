@@ -1,6 +1,6 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "name": "input",
   "origin": null,
   "furniture": {
@@ -495,12 +495,12 @@
           },
           "charspan": [
             0,
-            326
+            324
           ]
         }
       ],
-      "orig": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels- two outer panels that fold inward to cover the central panel.",
-      "text": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels- two outer panels that fold inward to cover the central panel.",
+      "orig": "trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels- two outer panels that fold inward to cover the central panel.",
+      "text": "trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels- two outer panels that fold inward to cover the central panel.",
       "formatting": null,
       "hyperlink": null
     }
