@@ -1,0 +1,11 @@
+{
+  "test_id": "051",
+  "name": "051_complex_table_with_multiple_lists_nested_inside_user_a",
+  "description": "Complex\n  table with multiple lists nested inside (User A).",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_a8b90cff810a8fbb0aa121f6ae8383c30b6784b9992f49c818faf466f90c0ee8_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}

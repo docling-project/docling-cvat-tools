@@ -1,0 +1,12 @@
+{
+  "test_id": "045",
+  "name": "045_reading_order_in_document_index_must_be_respected",
+  "description": "Reading order in Document index must be respected",
+  "observation": "On document_index elements there is a single fake cell inserted which flattens the whole text. The layout should be preserved in a rich cell.",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_d91390a57e458b549b0b6ffc7e94c221a0024d086c7f1e857bbffb9494da19a8_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}

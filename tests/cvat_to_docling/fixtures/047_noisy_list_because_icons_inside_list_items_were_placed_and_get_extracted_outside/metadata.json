@@ -1,0 +1,12 @@
+{
+  "test_id": "047",
+  "name": "047_noisy_list_because_icons_inside_list_items_were_placed_and_get_extracted_outside",
+  "description": "Noisy list because icons inside list items were placed inside list item.",
+  "observation": "Document is correctly populated with picture children of list items, but HTML serialization looks noisy.",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_a3596afaaf66518dd403f23e54f3d90e5329be223e2de20fc253fd22f902cfd2_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}

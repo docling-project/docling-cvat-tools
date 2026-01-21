@@ -2987,7 +2987,7 @@ def load_document_pages(
         )
         from docling.datamodel.base_models import InputFormat
         from docling.datamodel.document import InputDocument
-        from docling.models.page_preprocessing_model import (
+        from docling.models.stages.page_preprocessing.page_preprocessing_model import (
             PagePreprocessingModel,
             PagePreprocessingOptions,
         )
