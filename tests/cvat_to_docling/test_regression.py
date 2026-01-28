@@ -18,6 +18,8 @@ from docling_core.types.doc.document import ContentLayer
 from docling_cvat_tools.cvat_tools.cvat_to_docling import convert_cvat_to_docling
 from docling_cvat_tools.visualisation.visualisations import save_single_document_html
 
+IS_CI = bool(os.getenv("CI"))
+
 
 def strip_image_uris(d):
     """Strip image URIs from dict for platform-independent comparison.
@@ -91,6 +93,9 @@ GENERATE_VIZ = os.environ.get("DOCLING_GEN_VIZ", "").lower() in ("1", "true", "y
 VIZ_OUTPUT_DIR = Path(__file__).parent.parent.parent / "scratch" / "cvat_regression_viz"
 
 
+@pytest.mark.skipif(
+    IS_CI, reason="Skipping test in CI because cvat_to_docling only runs on macOS."
+)
 @pytest.mark.parametrize("fixture_dir", FIXTURES, ids=FIXTURE_IDS)
 def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
     """Test CVAT to DoclingDocument conversion against expected output."""
