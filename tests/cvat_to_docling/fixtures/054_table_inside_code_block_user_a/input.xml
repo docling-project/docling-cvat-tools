@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+    <image id="849" name="doc_b2704f5af817673887674a7349e4889615e495839ce3bb1c0400388d4bc594db_page_000001.png" width="1224" height="1584">
+        <box label="text" source="" occluded="0" xtl="414.99352799999997" ytl="74.216736" xbr="845.7399360000001" ybr="93.78072" rotation="0" z_order="2">
+            <attribute name="content_layer">FURNITURE</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="204.269688" ytl="149.5692" xbr="421.04865600000005" ybr="163.201104" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="list_item" source="" occluded="0" xtl="203.69073600000002" ytl="257.205168" xbr="332.118936" ybr="271.784304" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">1</attribute>
+        </box>
+        <box label="section_header" source="" occluded="0" xtl="107.92008" ytl="390.93912" xbr="278.724384" ybr="415.05552" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+            <attribute name="level">2</attribute>
+        </box>
+        <box label="table_column" source="" occluded="0" xtl="224.335944" ytl="292.99248" xbr="687.8916720000001" ybr="326.663568" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_column" source="" occluded="0" xtl="687.993264" ytl="293.616576" xbr="1151.82684" ybr="327.010464" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="224.317584" ytl="293.621328" xbr="1151.785224" ybr="326.809296" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="224.0838" ytl="188.483328" xbr="1102.13856" ybr="233.247168" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="224.94427199999998" ytl="347.049648" xbr="544.5857520000001" ybr="367.215552" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="203.986944" ytl="437.23943999999995" xbr="574.005816" ybr="457.405344" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="204.27825599999994" ytl="729.343296" xbr="735.945912" ybr="751.8408479999999" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="203.70787199999995" ytl="1001.533104" xbr="1124.753184" ybr="1045.791648" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="203.738472" ytl="1375.320672" xbr="871.528392" ybr="1397.138688" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="code" source="" occluded="0" xtl="203.39819999999997" ytl="474.05001599999997" xbr="1153.654272" ybr="708.600816" rotation="0" z_order="1">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="code" source="" occluded="0" xtl="203.71276799999998" ytl="765.830736" xbr="1153.8146160000001" ybr="981.1406880000001" rotation="0" z_order="1">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="code" source="" occluded="0" xtl="204.05181600000003" ytl="1063.2774239999999" xbr="1153.94436" ybr="1354.389696" rotation="0" z_order="1">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="code" source="" occluded="0" xtl="202.13870399999996" ytl="1412.9707680000001" xbr="1154.119392" ybr="1433.577024" rotation="0" z_order="1">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="text" source="" occluded="0" xtl="1106.62452" ytl="1490.344416" xbr="1151.5991760000002" ybr="1506.453696" rotation="0" z_order="2">
+            <attribute name="content_layer">FURNITURE</attribute>
+        </box>
+        <box label="table" source="" occluded="0" xtl="222.813288" ytl="292.403232" xbr="1153.0630800000001" ybr="328.527936" rotation="0" z_order="1">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="209.519424" ytl="504.80495999999994" xbr="370.92096" ybr="540.63504" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="209.657736" ytl="541.5695999999999" xbr="371.059272" ybr="571.23792" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="209.651616" ytl="571.310784" xbr="371.05315199999995" ybr="592.854768" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="209.96373599999998" ytl="592.7533920000001" xbr="371.36527199999995" ybr="613.367568" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="209.78748" ytl="613.685952" xbr="371.189016" ybr="632.63376" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="209.902536" ytl="632.65752" xbr="371.30407199999996" ybr="652.1058720000001" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="209.935584" ytl="651.936384" xbr="371.33711999999997" ybr="671.384736" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_column" source="" occluded="0" xtl="209.34684" ytl="504.264816" xbr="256.47940800000003" ybr="671.921712" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_column" source="" occluded="0" xtl="256.99960799999997" ytl="505.09008" xbr="370.85486399999996" ybr="671.6825279999999" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="col_header" source="" occluded="0" xtl="209.43986400000003" ytl="504.534096" xbr="370.616184" ybr="540.46872" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="row_header" source="" occluded="0" xtl="209.374992" ytl="542.958768" xbr="255.62628" ybr="671.237424" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table" source="" occluded="0" xtl="208.75932" ytl="504.04464" xbr="371.91362399999997" ybr="672.4761120000001" rotation="0" z_order="1">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="204.87067199999998" ytl="786.6761759999999" xbr="381.474288" ybr="803.376288" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="204.685848" ytl="803.786544" xbr="381.81333600000005" ybr="823.203216" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="203.996736" ytl="823.59288" xbr="381.910032" ybr="843.009552" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="203.66747999999998" ytl="843.644736" xbr="381.842712" ybr="863.0614079999999" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="204.982056" ytl="864.683424" xbr="382.709304" ybr="884.100096" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="205.91351999999998" ytl="884.4549119999999" xbr="383.640768" ybr="903.871584" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_row" source="" occluded="0" xtl="205.695648" ytl="904.6588320000001" xbr="383.422896" ybr="921.3589440000001" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_column" source="" occluded="0" xtl="204.747048" ytl="786.8741759999999" xbr="258.656904" ybr="921.156192" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table_column" source="" occluded="0" xtl="260.22729599999997" ytl="785.94912" xbr="382.509792" ybr="920.231136" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="col_header" source="" occluded="0" xtl="205.109352" ytl="787.365216" xbr="381.67992" ybr="803.1640320000001" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="row_header" source="" occluded="0" xtl="205.831512" ytl="805.15512" xbr="258.89436" ybr="920.278656" rotation="0" z_order="2">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <box label="table" source="" occluded="0" xtl="203.58669600000002" ytl="785.421648" xbr="384.251544" ybr="921.7074240000001" rotation="0" z_order="1">
+            <attribute name="content_layer">BODY</attribute>
+        </box>
+        <polyline label="reading_order" source="" occluded="0" points="502.351632,83.098224;314.00128800000005,156.754224;417.11961599999995,206.209872;298.217808,263.029536;413.96292,309.328272;312.948648,359.83569600000004;235.083888,402.97751999999997;359.95514399999996,446.456736;293.81752800000004,644.9699519999999;420.37790399999994,738.758592;316.635336,870.165648;456.303528,1033.675632;310.3452,1178.795376;520.871976,1385.668944;411.73524,1426.064112;1136.824272,1496.194128">
+            <attribute name="level">1</attribute>
+        </polyline>
+        <polyline label="group" source="" occluded="0" points="235.688544,154.682352;279.747648,207.732096;231.192792,265.278816" />
+    </image>
+</annotations>

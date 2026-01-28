@@ -1,0 +1,12 @@
+{
+  "test_id": "044",
+  "name": "044_table_within_picture_reading_order_starts_inside_picture_not_shown_in_visualizer",
+  "description": "Table within picture. Reading order starts inside picture. Not shown in visualizer.",
+  "observation": "There are elements out of reading order after the picture/table, which are in the picture. The table itself is not inspectable.",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_65c081c9caa90edd3b54df54a2d42b7d9edee9bda7bc5335ec908efae4f5eb06_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}

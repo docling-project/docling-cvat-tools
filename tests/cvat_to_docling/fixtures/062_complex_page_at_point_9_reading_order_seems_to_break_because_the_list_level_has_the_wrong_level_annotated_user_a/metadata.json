@@ -1,0 +1,9 @@
+{
+  "test_id": "062",
+  "name": "062_complex_page_at_point_9_reading_order_seems_to_break_because_the_list_level_has_the_wrong_level_annotated_user_a",
+  "description": "complex page, at point 9. reading order seems to break because the list level has the wrong level annotated (User A)",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_09088459ce84e562f25db10a5aafadd0e0b301046cc6f2d3bc60b4aa9d93387e_page_000001.png"
+  }
+}

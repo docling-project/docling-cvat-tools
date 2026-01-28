@@ -1,0 +1,11 @@
+{
+  "test_id": "057",
+  "name": "057_for_some_reasons_part_of_text_missing_at_the_end_of_the_document_user_a",
+  "description": "For some reasons part of text missing at the end of the document (User A)",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_4aee1896c7448f1f64b2d1d90820e13d363ad613ad7dfebce89c00baa44233f7_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}

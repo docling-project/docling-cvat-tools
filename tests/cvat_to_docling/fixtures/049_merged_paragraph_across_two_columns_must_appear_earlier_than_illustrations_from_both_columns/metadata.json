@@ -1,0 +1,12 @@
+{
+  "test_id": "049",
+  "name": "049_merged_paragraph_across_two_columns_must_appear_earlier_than_illustrations_from_both_columns",
+  "description": "Merged paragraph across two columns must appear earlier than illustrations from both columns (User A).",
+  "observation": "",
+  "observation_status": "correct",
+  "source": {
+    "image_identifier": "doc_14a7c1f19611717823aad1384a73809a2a4503c8d4d00a3454fe80502921c4bb_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}
