@@ -1,0 +1,11 @@
+{
+  "test_id": "061",
+  "name": "061_weird_reading_order_despite_correct_annotation_user_a_b",
+  "description": "Weird reading order, despite correct annotation (User A+B)",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_0b8fe336bea6acd6939a7d5d6098244d1841ec824912fd581b934e1650664f8f_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}

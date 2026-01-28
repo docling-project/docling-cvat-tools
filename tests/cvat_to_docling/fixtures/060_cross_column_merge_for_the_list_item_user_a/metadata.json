@@ -1,0 +1,11 @@
+{
+  "test_id": "060",
+  "name": "060_cross_column_merge_for_the_list_item_user_a",
+  "description": "cross-column merge for the list item (User A)",
+  "observation_status": "broken",
+  "source": {
+    "image_identifier": "doc_88677137cd5ec450c5d0cc5690182e0d22a523de5a0e577c70f31e4dcc9baaca_page_000001.png"
+  },
+  "input_type": "pdf",
+  "page_number": 1
+}
