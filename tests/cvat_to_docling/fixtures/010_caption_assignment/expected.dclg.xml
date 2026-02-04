@@ -1,0 +1,38 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="482"/>
+    <location value="46"/>
+    <location value="489"/>
+    <location value="131"/>
+  </text>
+  <text>
+    <location value="474"/>
+    <location value="46"/>
+    <location value="481"/>
+    <location value="163"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="49"/>
+      <location value="51"/>
+      <location value="452"/>
+      <location value="451"/>
+    </picture>
+  </floating_group>
+  <caption>
+    <location value="143"/>
+    <location value="457"/>
+    <location value="372"/>
+    <location value="467"/>
+    Figure  3.7 1.  Schlieren  Photographs  of  Supersonic  Flight  (sheet  2  of  2)
+  </caption>
+  <text>
+    <location value="23"/>
+    <location value="256"/>
+    <location value="28"/>
+    <location value="269"/>
+  </text>
+</doclang>

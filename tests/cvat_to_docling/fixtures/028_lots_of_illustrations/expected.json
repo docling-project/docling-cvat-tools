@@ -683,8 +683,8 @@
           ]
         }
       ],
-      "orig": "The collective noun for houseplants is la nursery of houseplants'.",
-      "text": "The collective noun for houseplants is la nursery of houseplants'.",
+      "orig": "The collective noun for houseplants is 'a nursery of houseplants'.",
+      "text": "The collective noun for houseplants is 'a nursery of houseplants'.",
       "formatting": null,
       "hyperlink": null
     }
@@ -697,7 +697,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "ui_element"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -739,7 +753,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -781,7 +809,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -823,7 +865,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -865,7 +921,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -907,7 +977,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -949,7 +1033,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -991,7 +1089,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1033,7 +1145,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "ui_element"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1075,7 +1201,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1117,7 +1257,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1159,7 +1313,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {

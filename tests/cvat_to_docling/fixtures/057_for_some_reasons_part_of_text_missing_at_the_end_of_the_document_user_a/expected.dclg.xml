@@ -1,0 +1,103 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="23"/>
+    <location value="16"/>
+    <location value="112"/>
+    <location value="24"/>
+  </text>
+  <text>
+    <location value="23"/>
+    <location value="26"/>
+    <location value="139"/>
+    <location value="36"/>
+  </text>
+  <text>
+    <location value="23"/>
+    <location value="36"/>
+    <location value="141"/>
+    <location value="45"/>
+  </text>
+  <text>
+    <location value="32"/>
+    <location value="46"/>
+    <location value="82"/>
+    <location value="54"/>
+  </text>
+  <text>
+    <location value="387"/>
+    <location value="45"/>
+    <location value="472"/>
+    <location value="55"/>
+  </text>
+  <text>
+    <location value="71"/>
+    <location value="76"/>
+    <location value="432"/>
+    <location value="87"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="30"/>
+      <location value="97"/>
+      <location value="500"/>
+      <location value="391"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Logo</classification>
+      </meta>
+      <location value="15"/>
+      <location value="408"/>
+      <location value="39"/>
+      <location value="452"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="171"/>
+    <location value="412"/>
+    <location value="241"/>
+    <location value="419"/>
+  </text>
+  <text>
+    <location value="331"/>
+    <location value="417"/>
+    <location value="357"/>
+    <location value="426"/>
+  </text>
+  <text>
+    <location value="367"/>
+    <location value="413"/>
+    <location value="470"/>
+    <location value="426"/>
+  </text>
+  <text>
+    <location value="367"/>
+    <location value="428"/>
+    <location value="418"/>
+    <location value="434"/>
+  </text>
+  <text>
+    <location value="371"/>
+    <location value="444"/>
+    <location value="380"/>
+    <location value="449"/>
+  </text>
+  <text>
+    <location value="403"/>
+    <location value="439"/>
+    <location value="435"/>
+    <location value="446"/>
+  </text>
+  <text>
+    <location value="150"/>
+    <location value="491"/>
+    <location value="362"/>
+    <location value="501"/>
+    Source:  https://www.industrydocuments.ucsf.edu/docs/ftgd0346
+  </text>
+</doclang>

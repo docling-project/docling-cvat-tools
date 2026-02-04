@@ -1,0 +1,324 @@
+<doclang version="1.0.0">
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Person</classification>
+      </meta>
+      <location value="337"/>
+      <location value="29"/>
+      <location value="483"/>
+      <location value="132"/>
+    </picture>
+  </floating_group>
+  <heading level="1">
+    <location value="27"/>
+    <location value="37"/>
+    <location value="212"/>
+    <location value="50"/>
+    Katrina Marchesi
+  </heading>
+  <text>
+    <location value="28"/>
+    <location value="57"/>
+    <location value="169"/>
+    <location value="69"/>
+    UI / UX Designer
+  </text>
+  <heading level="2">
+    <location value="28"/>
+    <location value="122"/>
+    <location value="122"/>
+    <location value="134"/>
+    Education
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="27"/>
+      <location value="146"/>
+      <location value="241"/>
+      <location value="154"/>
+      • 2012-2013 Bachelor in Product Design
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="112"/>
+        <location value="166"/>
+        <location value="295"/>
+        <location value="191"/>
+        • There are many variations of passages of Lore Ipsum available, but the majority.
+      </list_text>
+    </list>
+    <list_text>
+      <location value="27"/>
+      <location value="198"/>
+      <location value="238"/>
+      <location value="206"/>
+      • 2014-2015 Masters in Product Design
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="112"/>
+        <location value="217"/>
+        <location value="295"/>
+        <location value="242"/>
+        • There are many variations of passages of Lore Ipsum available, but the majority.
+      </list_text>
+    </list>
+  </list>
+  <text>
+    <location value="108"/>
+    <location value="157"/>
+    <location value="209"/>
+    <location value="164"/>
+    University of Borcelle
+  </text>
+  <text>
+    <location value="108"/>
+    <location value="208"/>
+    <location value="209"/>
+    <location value="215"/>
+    University of Borcelle
+  </text>
+  <heading level="2">
+    <location value="27"/>
+    <location value="243"/>
+    <location value="133"/>
+    <location value="257"/>
+    Experience
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="27"/>
+      <location value="267"/>
+      <location value="225"/>
+      <location value="275"/>
+      • 2022-2023 General Graphic Design
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="112"/>
+        <location value="291"/>
+        <location value="285"/>
+        <location value="307"/>
+        • Tasked to make graphics for off line and offline layouts.
+      </list_text>
+      <list_text>
+        <location value="112"/>
+        <location value="309"/>
+        <location value="291"/>
+        <location value="325"/>
+        • Edited editorial photos for clients and magazines, and social media posts
+      </list_text>
+    </list>
+    <list_text>
+      <location value="27"/>
+      <location value="335"/>
+      <location value="233"/>
+      <location value="343"/>
+      • 2024-2025 General Product Designer
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="112"/>
+        <location value="359"/>
+        <location value="285"/>
+        <location value="375"/>
+        • Tasked to make graphics for off line and offline layouts.
+      </list_text>
+    </list>
+    <list_text>
+      <location value="26"/>
+      <location value="382"/>
+      <location value="218"/>
+      <location value="391"/>
+      • 2026-2027 Senior Graphic Design
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="112"/>
+        <location value="407"/>
+        <location value="285"/>
+        <location value="423"/>
+        • Tasked to make graphics for off line and offline layouts.
+      </list_text>
+    </list>
+  </list>
+  <text>
+    <location value="108"/>
+    <location value="279"/>
+    <location value="171"/>
+    <location value="284"/>
+<![CDATA[Salford & Co.]]>  </text>
+  <text>
+    <location value="107"/>
+    <location value="347"/>
+    <location value="171"/>
+    <location value="352"/>
+<![CDATA[Salford & Co.]]>  </text>
+  <text>
+    <location value="108"/>
+    <location value="395"/>
+    <location value="170"/>
+    <location value="400"/>
+<![CDATA[Salford & Co.]]>  </text>
+  <heading level="2">
+    <location value="27"/>
+    <location value="429"/>
+    <location value="109"/>
+    <location value="440"/>
+    Portfolio
+  </heading>
+  <text>
+    <location value="27"/>
+    <location value="457"/>
+    <location value="154"/>
+    <location value="464"/>
+    www.reallygreatsite.com
+  </text>
+  <heading level="2">
+    <location value="338"/>
+    <location value="144"/>
+    <location value="424"/>
+    <location value="156"/>
+    Contact
+  </heading>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Icon</classification>
+      </meta>
+      <location value="337"/>
+      <location value="171"/>
+      <location value="353"/>
+      <location value="181"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="363"/>
+    <location value="174"/>
+    <location value="427"/>
+    <location value="178"/>
+    +123-456-7890
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Icon</classification>
+      </meta>
+      <location value="337"/>
+      <location value="195"/>
+      <location value="352"/>
+      <location value="202"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="362"/>
+    <location value="197"/>
+    <location value="475"/>
+    <location value="203"/>
+    hello@reallygreatsite.com
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Icon</classification>
+      </meta>
+      <location value="337"/>
+      <location value="217"/>
+      <location value="352"/>
+      <location value="227"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="362"/>
+    <location value="220"/>
+    <location value="468"/>
+    <location value="227"/>
+    www.reallygreatsite.com
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Icon</classification>
+      </meta>
+      <location value="338"/>
+      <location value="241"/>
+      <location value="350"/>
+      <location value="253"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="362"/>
+    <location value="243"/>
+    <location value="473"/>
+    <location value="257"/>
+    123 Anywhere St., Any City, ST 12345
+  </text>
+  <heading level="2">
+    <location value="338"/>
+    <location value="274"/>
+    <location value="398"/>
+    <location value="287"/>
+    Skills
+  </heading>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="339"/>
+      <location value="305"/>
+      <location value="437"/>
+      <location value="385"/>
+    </picture>
+  </floating_group>
+  <heading level="2">
+    <location value="338"/>
+    <location value="397"/>
+    <location value="449"/>
+    <location value="410"/>
+    Refrences
+  </heading>
+  <text>
+    <location value="339"/>
+    <location value="428"/>
+    <location value="408"/>
+    <location value="435"/>
+    Kyrie Petrakis
+  </text>
+  <text>
+    <location value="339"/>
+    <location value="438"/>
+    <location value="436"/>
+    <location value="445"/>
+    Fauget Studios, CEO
+  </text>
+  <text>
+    <location value="339"/>
+    <location value="447"/>
+    <location value="405"/>
+    <location value="452"/>
+    123-456-7890
+  </text>
+  <text>
+    <location value="339"/>
+    <location value="461"/>
+    <location value="407"/>
+    <location value="466"/>
+    Sacha Dubois
+  </text>
+  <text>
+    <location value="339"/>
+    <location value="471"/>
+    <location value="436"/>
+    <location value="478"/>
+    Fauget Studios, CEO
+  </text>
+  <text>
+    <location value="339"/>
+    <location value="480"/>
+    <location value="405"/>
+    <location value="485"/>
+    123-456-7890
+  </text>
+</doclang>

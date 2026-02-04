@@ -502,7 +502,7 @@
           },
           "charspan": [
             0,
-            8
+            9
           ]
         },
         {
@@ -520,8 +520,8 @@
           ]
         }
       ],
-      "orig": "Module ? Unit 1 When are we going to eat?",
-      "text": "Module ? Unit 1 When are we going to eat?",
+      "orig": "Modulie 2 Unit 1 When are we going to eat?",
+      "text": "Modulie 2 Unit 1 When are we going to eat?",
       "formatting": null,
       "hyperlink": null,
       "level": 1
@@ -608,12 +608,12 @@
           },
           "charspan": [
             0,
-            16
+            17
           ]
         }
       ],
-      "orig": "(^ )1. breakfast",
-      "text": "(^ )1. breakfast",
+      "orig": "( A )1. breakfast",
+      "text": "( A )1. breakfast",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -992,12 +992,12 @@
           },
           "charspan": [
             0,
-            0
+            7
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "1970801",
+      "text": "1970801",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -1243,12 +1243,12 @@
           },
           "charspan": [
             0,
-            0
+            1
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "2",
+      "text": "2",
       "formatting": null,
       "hyperlink": null
     },
@@ -1676,12 +1676,12 @@
           },
           "charspan": [
             0,
-            26
+            30
           ]
         }
       ],
-      "orig": "( are you going to get up?",
-      "text": "( are you going to get up?",
+      "orig": "A.)2. are you going to get up?",
+      "text": "A.)2. are you going to get up?",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1840,12 +1840,12 @@
           },
           "charspan": [
             0,
-            38
+            37
           ]
         }
       ],
-      "orig": "(• )3. There are some dark in the sky.",
-      "text": "(• )3. There are some dark in the sky.",
+      "orig": "( )3. There are some dark in the sky.",
+      "text": "( )3. There are some dark in the sky.",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -2076,7 +2076,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "bar_code"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2118,7 +2132,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2160,7 +2188,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2202,7 +2244,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2244,7 +2300,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2286,7 +2356,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2328,7 +2412,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2370,7 +2468,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2412,7 +2524,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2454,7 +2580,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2496,7 +2636,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2538,7 +2692,21 @@
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2580,7 +2748,21 @@
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "logo"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {

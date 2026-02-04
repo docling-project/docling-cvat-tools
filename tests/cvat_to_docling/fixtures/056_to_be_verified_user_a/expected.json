@@ -637,12 +637,12 @@
           },
           "charspan": [
             0,
-            68
+            70
           ]
         }
       ],
-      "orig": "1 Individual income tax returns (Forms 1040, 1040-SR, 1040-NR, etc.)",
-      "text": "1 Individual income tax returns (Forms 1040, 1040-SR, 1040-NR, etc.)",
+      "orig": "1 * Individual income tax returns (Forms 1040, 1040-SR, 1040-NR, etc.)",
+      "text": "1 * Individual income tax returns (Forms 1040, 1040-SR, 1040-NR, etc.)",
       "formatting": null,
       "hyperlink": null
     },
@@ -671,12 +671,12 @@
           },
           "charspan": [
             0,
-            166
+            162
           ]
         }
       ],
-      "orig": "• If your last return was a joint return and you are now establishing a residence separate from the spouse with whom you filed that return, check here . . . . . . . •",
-      "text": "• If your last return was a joint return and you are now establishing a residence separate from the spouse with whom you filed that return, check here . . . . . . . •",
+      "orig": "• If your last return was a joint return and you are now establishing a residence separate from the spouse with whom you filed that return, check here.. . . . . .",
+      "text": "• If your last return was a joint return and you are now establishing a residence separate from the spouse with whom you filed that return, check here.. . . . . .",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -707,8 +707,8 @@
           ]
         }
       ],
-      "orig": "2 • Gift, estate, or generation-skipping transfer tax returns (Forms 706, 709, etc.)",
-      "text": "2 • Gift, estate, or generation-skipping transfer tax returns (Forms 706, 709, etc.)",
+      "orig": "2 [ Gift, estate, or generation-skipping transfer tax returns (Forms 706, 709, etc.)",
+      "text": "2 [ Gift, estate, or generation-skipping transfer tax returns (Forms 706, 709, etc.)",
       "formatting": null,
       "hyperlink": null
     },
@@ -833,8 +833,8 @@
           ]
         }
       ],
-      "orig": "За Your name (first name, initial, and last name)",
-      "text": "За Your name (first name, initial, and last name)",
+      "orig": "3а Your name (first name, initial, and last name)",
+      "text": "3а Your name (first name, initial, and last name)",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -987,12 +987,12 @@
           },
           "charspan": [
             0,
-            41
+            40
           ]
         }
       ],
-      "orig": "5a Your prior name (s). See instructions.",
-      "text": "5a Your prior name (s). See instructions.",
+      "orig": "5a Your prior name(s). See instructions.",
+      "text": "5a Your prior name(s). See instructions.",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1019,12 +1019,12 @@
           },
           "charspan": [
             0,
-            43
+            44
           ]
         }
       ],
-      "orig": "5b Spouse's prior names). See instructions.",
-      "text": "5b Spouse's prior names). See instructions.",
+      "orig": "5b Spouse's prior name(s). See instructions.",
+      "text": "5b Spouse's prior name(s). See instructions.",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1055,8 +1055,8 @@
           ]
         }
       ],
-      "orig": "6a Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
-      "text": "6a Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
+      "orig": "6а Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
+      "text": "6а Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1564,8 +1564,8 @@
           ]
         }
       ],
-      "orig": "•",
-      "text": "•",
+      "orig": "»",
+      "text": "»",
       "formatting": null,
       "hyperlink": null
     },
@@ -2442,7 +2442,7 @@
           },
           "charspan": [
             0,
-            3
+            2
           ]
         }
       ],
@@ -2614,7 +2614,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2670,7 +2684,7 @@
           },
           "charspan": [
             0,
-            7
+            6
           ]
         }
       ],
@@ -2718,7 +2732,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2760,7 +2788,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2802,7 +2844,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2943,8 +2999,8 @@
           {
             "label": "key",
             "cell_id": 4,
-            "text": "За Your name (first name, initial, and last name)",
-            "orig": "За Your name (first name, initial, and last name)",
+            "text": "3а Your name (first name, initial, and last name)",
+            "orig": "3а Your name (first name, initial, and last name)",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3081,8 +3137,8 @@
           {
             "label": "key",
             "cell_id": 10,
-            "text": "5b Spouse's prior names). See instructions.",
-            "orig": "5b Spouse's prior names). See instructions.",
+            "text": "5b Spouse's prior name(s). See instructions.",
+            "orig": "5b Spouse's prior name(s). See instructions.",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3094,7 +3150,7 @@
               },
               "charspan": [
                 0,
-                43
+                44
               ]
             },
             "item_ref": {
@@ -3127,8 +3183,8 @@
           {
             "label": "key",
             "cell_id": 12,
-            "text": "6a Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
-            "orig": "6a Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
+            "text": "6а Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
+            "orig": "6а Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3150,8 +3206,8 @@
           {
             "label": "value",
             "cell_id": 13,
-            "text": "6423 Oak terrace Circle, White Plains, Ny 10528",
-            "orig": "6423 Oak terrace Circle, White Plains, Ny 10528",
+            "text": "6423 Oak Terrace Circle, White Plains, Ny 10528",
+            "orig": "6423 Oak Terrace Circle, White Plains, Ny 10528",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3196,8 +3252,8 @@
           {
             "label": "value",
             "cell_id": 15,
-            "text": "N/A",
-            "orig": "N/A",
+            "text": "NIA",
+            "orig": "NIA",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3334,8 +3390,8 @@
           {
             "label": "value",
             "cell_id": 21,
-            "text": "NIA",
-            "orig": "NIA",
+            "text": "NA",
+            "orig": "NA",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3347,7 +3403,7 @@
               },
               "charspan": [
                 0,
-                3
+                2
               ]
             },
             "item_ref": {
@@ -3518,8 +3574,8 @@
           {
             "label": "value",
             "cell_id": 29,
-            "text": "instructions. 7 1 2 Pennoni Drive, New Rochelle, Ny 10538",
-            "orig": "instructions. 7 1 2 Pennoni Drive, New Rochelle, Ny 10538",
+            "text": "instructions. 7 1 2 Pennoni Drive, New Rochelle, NY 10538",
+            "orig": "instructions. 7 1 2 Pennoni Drive, New Rochelle, NY 10538",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3610,8 +3666,8 @@
           {
             "label": "value",
             "cell_id": 33,
-            "text": "N/A",
-            "orig": "N/A",
+            "text": "NIA",
+            "orig": "NIA",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3702,8 +3758,8 @@
           {
             "label": "value",
             "cell_id": 37,
-            "text": "Shan Of",
-            "orig": "Shan Of",
+            "text": "ShanOL",
+            "orig": "ShanOL",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3715,7 +3771,7 @@
               },
               "charspan": [
                 0,
-                7
+                6
               ]
             },
             "item_ref": {
@@ -4047,8 +4103,8 @@
           {
             "label": "key",
             "cell_id": 52,
-            "text": "5a Your prior name (s). See instructions.",
-            "orig": "5a Your prior name (s). See instructions.",
+            "text": "5a Your prior name(s). See instructions.",
+            "orig": "5a Your prior name(s). See instructions.",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4060,7 +4116,7 @@
               },
               "charspan": [
                 0,
-                41
+                40
               ]
             },
             "item_ref": {
@@ -4639,7 +4695,7 @@
           },
           "charspan": [
             0,
-            1992
+            1991
           ]
         }
       ],

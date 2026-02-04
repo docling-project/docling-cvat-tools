@@ -1,0 +1,344 @@
+<doclang version="1.0.0">
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Person</classification>
+      </meta>
+      <location value="368"/>
+      <location value="36"/>
+      <location value="456"/>
+      <location value="98"/>
+    </picture>
+  </floating_group>
+  <heading level="1">
+    <location value="53"/>
+    <location value="42"/>
+    <location value="226"/>
+    <location value="59"/>
+    HOWARD ONG
+  </heading>
+  <text>
+    <location value="51"/>
+    <location value="67"/>
+    <location value="198"/>
+    <location value="73"/>
+    PRODUCT MANAGER
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Icon</classification>
+      </meta>
+      <location value="51"/>
+      <location value="85"/>
+      <location value="62"/>
+      <location value="98"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="71"/>
+    <location value="88"/>
+    <location value="149"/>
+    <location value="94"/>
+    +123-456-7890
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Icon</classification>
+      </meta>
+      <location value="167"/>
+      <location value="86"/>
+      <location value="186"/>
+      <location value="96"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="194"/>
+    <location value="87"/>
+    <location value="328"/>
+    <location value="96"/>
+    hello@reallygreatsite.com
+  </text>
+  <heading level="2">
+    <location value="232"/>
+    <location value="156"/>
+    <location value="277"/>
+    <location value="164"/>
+    PROFILE
+  </heading>
+  <text>
+    <location value="232"/>
+    <location value="176"/>
+    <location value="457"/>
+    <location value="214"/>
+    Introduce my name is Howard Ong, I am a Product Manager with 7 years of experience in the field, I have handled many products and projects.
+  </text>
+  <heading level="2">
+    <location value="232"/>
+    <location value="232"/>
+    <location value="334"/>
+    <location value="240"/>
+    WORK EXPERIENCE
+  </heading>
+  <heading level="3">
+    <location value="232"/>
+    <location value="251"/>
+    <location value="325"/>
+    <location value="259"/>
+    Product Manager
+  </heading>
+  <text>
+    <location value="231"/>
+    <location value="262"/>
+    <location value="380"/>
+    <location value="271"/>
+    Borcelle Startup/ 2021 - 2022
+  </text>
+  <text>
+    <location value="232"/>
+    <location value="278"/>
+    <location value="444"/>
+    <location value="287"/>
+    Become a product manager at a unicorn
+  </text>
+  <text>
+    <location value="232"/>
+    <location value="291"/>
+    <location value="418"/>
+    <location value="300"/>
+    startup with a product marketplace.
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="237"/>
+      <location value="307"/>
+      <location value="335"/>
+      <location value="315"/>
+      • Manage Product
+    </list_text>
+    <list_text>
+      <location value="237"/>
+      <location value="320"/>
+      <location value="397"/>
+      <location value="328"/>
+      • Manage Development Team
+    </list_text>
+    <list_text>
+      <location value="237"/>
+      <location value="332"/>
+      <location value="397"/>
+      <location value="341"/>
+      • Track Development Progress
+    </list_text>
+    <list_text>
+      <location value="237"/>
+      <location value="346"/>
+      <location value="321"/>
+      <location value="352"/>
+      • Scrum Master
+    </list_text>
+  </list>
+  <heading level="3">
+    <location value="231"/>
+    <location value="370"/>
+    <location value="320"/>
+    <location value="379"/>
+    Project Manager
+  </heading>
+  <text>
+    <location value="231"/>
+    <location value="381"/>
+    <location value="417"/>
+    <location value="390"/>
+    Fauget Design Agency / 2020 - 2021
+  </text>
+  <text>
+    <location value="232"/>
+    <location value="397"/>
+    <location value="434"/>
+    <location value="406"/>
+    Become a project manager in a design
+  </text>
+  <text>
+    <location value="232"/>
+    <location value="410"/>
+    <location value="452"/>
+    <location value="432"/>
+    agency, in charge of keeping the project in line with the final goal.
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="237"/>
+      <location value="438"/>
+      <location value="331"/>
+      <location value="447"/>
+      • Manage Project
+    </list_text>
+    <list_text>
+      <location value="237"/>
+      <location value="451"/>
+      <location value="362"/>
+      <location value="460"/>
+      • Manage Design Team
+    </list_text>
+    <list_text>
+      <location value="237"/>
+      <location value="464"/>
+      <location value="362"/>
+      <location value="473"/>
+      • Track Design Progress
+    </list_text>
+  </list>
+  <heading level="2">
+    <location value="52"/>
+    <location value="156"/>
+    <location value="102"/>
+    <location value="164"/>
+    MY SKILLS
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="57"/>
+      <location value="175"/>
+      <location value="151"/>
+      <location value="183"/>
+      • Manage Project
+    </list_text>
+    <list_text>
+      <location value="57"/>
+      <location value="185"/>
+      <location value="187"/>
+      <location value="193"/>
+      • Business Development
+    </list_text>
+    <list_text>
+      <location value="57"/>
+      <location value="195"/>
+      <location value="150"/>
+      <location value="203"/>
+      • User Experience
+    </list_text>
+    <list_text>
+      <location value="57"/>
+      <location value="206"/>
+      <location value="135"/>
+      <location value="214"/>
+      • Data Analyst
+    </list_text>
+    <list_text>
+      <location value="57"/>
+      <location value="215"/>
+      <location value="173"/>
+      <location value="224"/>
+      • Full Stack Developer
+    </list_text>
+  </list>
+  <heading level="2">
+    <location value="52"/>
+    <location value="242"/>
+    <location value="116"/>
+    <location value="250"/>
+    LANGUAGES
+  </heading>
+  <text>
+    <location value="51"/>
+    <location value="261"/>
+    <location value="104"/>
+    <location value="268"/>
+    Indonesia
+  </text>
+  <text>
+    <location value="51"/>
+    <location value="274"/>
+    <location value="84"/>
+    <location value="280"/>
+    Native
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="292"/>
+    <location value="90"/>
+    <location value="300"/>
+    English
+  </text>
+  <text>
+    <location value="51"/>
+    <location value="304"/>
+    <location value="84"/>
+    <location value="310"/>
+    Fluent
+  </text>
+  <heading level="2">
+    <location value="52"/>
+    <location value="331"/>
+    <location value="96"/>
+    <location value="339"/>
+    AWARDS
+  </heading>
+  <text>
+    <location value="51"/>
+    <location value="350"/>
+    <location value="165"/>
+    <location value="358"/>
+    Best App in App Store
+  </text>
+  <text>
+    <location value="51"/>
+    <location value="362"/>
+    <location value="170"/>
+    <location value="370"/>
+    Product Design Awards
+  </text>
+  <text>
+    <location value="52"/>
+    <location value="379"/>
+    <location value="183"/>
+    <location value="387"/>
+    Get $1 Million in One Year
+  </text>
+  <text>
+    <location value="51"/>
+    <location value="392"/>
+    <location value="159"/>
+    <location value="400"/>
+    Fauget Achievement
+  </text>
+  <heading level="2">
+    <location value="51"/>
+    <location value="418"/>
+    <location value="96"/>
+    <location value="426"/>
+    AWARDS
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="57"/>
+      <location value="438"/>
+      <location value="99"/>
+      <location value="444"/>
+      • Music
+    </list_text>
+    <list_text>
+      <location value="57"/>
+      <location value="448"/>
+      <location value="142"/>
+      <location value="456"/>
+      • Playing Game
+    </list_text>
+    <list_text>
+      <location value="57"/>
+      <location value="458"/>
+      <location value="105"/>
+      <location value="466"/>
+      • Fishing
+    </list_text>
+    <list_text>
+      <location value="56"/>
+      <location value="468"/>
+      <location value="150"/>
+      <location value="476"/>
+      • Shadow Puppet
+    </list_text>
+  </list>
+</doclang>

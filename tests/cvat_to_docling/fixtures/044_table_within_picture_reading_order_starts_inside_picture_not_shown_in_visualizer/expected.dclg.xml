@@ -1,0 +1,48 @@
+<doclang version="1.0.0">
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="61"/>
+      <location value="30"/>
+      <location value="483"/>
+      <location value="388"/>
+    </picture>
+  </floating_group>
+  <footnote>
+    <location value="140"/>
+    <location value="394"/>
+    <location value="284"/>
+    <location value="399"/>
+    *Exception: temporary tower or control tower present
+  </footnote>
+  <text>
+    <location value="407"/>
+    <location value="395"/>
+    <location value="477"/>
+    <location value="400"/>
+    AGL-above ground level
+  </text>
+  <text>
+    <location value="407"/>
+    <location value="400"/>
+    <location value="448"/>
+    <location value="405"/>
+    FL-flight level
+  </text>
+  <text>
+    <location value="469"/>
+    <location value="483"/>
+    <location value="481"/>
+    <location value="488"/>
+    1-3
+  </text>
+  <text>
+    <location value="407"/>
+    <location value="406"/>
+    <location value="467"/>
+    <location value="410"/>
+    MSL-mean sea level
+  </text>
+</doclang>

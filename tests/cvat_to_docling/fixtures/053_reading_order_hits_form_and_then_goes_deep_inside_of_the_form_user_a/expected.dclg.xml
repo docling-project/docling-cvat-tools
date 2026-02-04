@@ -1,0 +1,1123 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="0"/>
+    <location value="3"/>
+    <location value="87"/>
+    <location value="11"/>
+    Form 990 (2020)
+  </text>
+  <page_break/>
+  <text>
+    <location value="0"/>
+    <location value="4"/>
+    <location value="35"/>
+    <location value="10"/>
+    Form 990
+  </text>
+  <page_break/>
+  <text>
+    <location value="0"/>
+    <location value="3"/>
+    <location value="100"/>
+    <location value="12"/>
+    Form 990 (2020)
+  </text>
+  <page_break/>
+  <text>
+    <location value="0"/>
+    <location value="4"/>
+    <location value="73"/>
+    <location value="11"/>
+  </text>
+  <text>
+    <location value="1"/>
+    <location value="13"/>
+    <location value="51"/>
+    <location value="23"/>
+    Form 990
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="3"/>
+      <location value="25"/>
+      <location value="13"/>
+      <location value="30"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="0"/>
+    <location value="36"/>
+    <location value="69"/>
+    <location value="50"/>
+    Department of the Treasury Internal Revenue Service
+  </text>
+  <heading level="1">
+    <location value="0"/>
+    <location value="15"/>
+    <location value="179"/>
+    <location value="24"/>
+    8a, 8b, or 10b below, describe the
+  </heading>
+  <text>
+    <location value="0"/>
+    <location value="29"/>
+    <location value="211"/>
+    <location value="34"/>
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="37"/>
+      <location value="168"/>
+      <location value="43"/>
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="47"/>
+      <location value="174"/>
+      <location value="53"/>
+      la Enter the number of voting members of the
+    </list_text>
+  </list>
+  <text>
+    <location value="4"/>
+    <location value="15"/>
+    <location value="73"/>
+    <location value="20"/>
+  </text>
+  <text>
+    <location value="13"/>
+    <location value="28"/>
+    <location value="63"/>
+    <location value="43"/>
+  </text>
+  <text>
+    <location value="8"/>
+    <location value="50"/>
+    <location value="70"/>
+    <location value="65"/>
+  </text>
+  <heading level="2">
+    <location value="0"/>
+    <location value="61"/>
+    <location value="175"/>
+    <location value="67"/>
+<![CDATA[b If "Yes," has it filed a Form 990-T for this]]>  </heading>
+  <heading level="2">
+    <location value="1"/>
+    <location value="61"/>
+    <location value="64"/>
+    <location value="65"/>
+    B Check if applicable:
+  </heading>
+  <location value="3"/>
+  <location value="65"/>
+  <location value="57"/>
+  <location value="70"/>
+  <checkbox class="unselected"/>
+  • Address change
+  <location value="3"/>
+  <location value="72"/>
+  <location value="51"/>
+  <location value="76"/>
+  <checkbox class="unselected"/>
+  • Name change
+  <location value="3"/>
+  <location value="78"/>
+  <location value="48"/>
+  <location value="82"/>
+  <checkbox class="selected"/>
+  • Initial return
+  <location value="4"/>
+  <location value="83"/>
+  <location value="67"/>
+  <location value="88"/>
+  <checkbox class="unselected"/>
+  • Final return/terminated
+  <location value="4"/>
+  <location value="89"/>
+  <location value="59"/>
+  <location value="93"/>
+  <checkbox class="unselected"/>
+  • Amended return
+  <location value="4"/>
+  <location value="95"/>
+  <location value="68"/>
+  <location value="100"/>
+  <checkbox class="unselected"/>
+  Application pending
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="73"/>
+      <location value="54"/>
+      <location value="78"/>
+      4 Section
+    </list_text>
+  </list>
+  <text>
+    <location value="0"/>
+    <location value="78"/>
+    <location value="55"/>
+    <location value="83"/>
+    election in
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="93"/>
+    <location value="153"/>
+    <location value="109"/>
+    2 Did any officer, director, trustee, or key officer, director, trustee, or key employee?
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="95"/>
+    <location value="46"/>
+    <location value="100"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="105"/>
+    <location value="117"/>
+    <location value="115"/>
+    b Did any taxable party notify
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="130"/>
+    <location value="68"/>
+    <location value="148"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="131"/>
+    <location value="27"/>
+    <location value="136"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="121"/>
+    <location value="112"/>
+    <location value="131"/>
+<![CDATA[c If "Yes," to line 5a or 5b,]]>  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="83"/>
+      <location value="55"/>
+      <location value="89"/>
+    </list_text>
+  </list>
+  <text>
+    <location value="0"/>
+    <location value="80"/>
+    <location value="34"/>
+    <location value="85"/>
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="102"/>
+      <location value="50"/>
+      <location value="107"/>
+      4 Benefits
+    </list_text>
+  </list>
+  <text>
+    <location value="0"/>
+    <location value="112"/>
+    <location value="44"/>
+    <location value="118"/>
+    5
+  </text>
+  <heading level="2">
+    <location value="0"/>
+    <location value="144"/>
+    <location value="82"/>
+    <location value="150"/>
+  </heading>
+  <text>
+    <location value="0"/>
+    <location value="152"/>
+    <location value="52"/>
+    <location value="167"/>
+    8 Did the complete
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="130"/>
+      <location value="74"/>
+      <location value="135"/>
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="106"/>
+      <location value="90"/>
+      <location value="117"/>
+      and h Total. Add lines
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="117"/>
+      <location value="73"/>
+      <location value="126"/>
+      2a Program
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="132"/>
+      <location value="100"/>
+      <location value="137"/>
+      n u
+    </list_text>
+  </list>
+  <location value="21"/>
+  <location value="174"/>
+  <location value="42"/>
+  <location value="182"/>
+  <checkbox class="unselected"/>
+  <page_break/>
+  <location value="4"/>
+  <location value="239"/>
+  <location value="23"/>
+  <location value="251"/>
+  <checkbox class="selected"/>
+  <location value="21"/>
+  <location value="185"/>
+  <location value="44"/>
+  <location value="194"/>
+  <checkbox class="unselected"/>
+  <location value="6"/>
+  <location value="256"/>
+  <location value="23"/>
+  <location value="267"/>
+  <checkbox class="unselected"/>
+  <text>
+    <location value="0"/>
+    <location value="166"/>
+    <location value="93"/>
+    <location value="172"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="285"/>
+    <location value="36"/>
+    <location value="304"/>
+    2a Were If
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="1"/>
+      <location value="139"/>
+      <location value="68"/>
+      <location value="143"/>
+      I Tax-exempt
+    </list_text>
+  </list>
+  <location value="0"/>
+  <location value="173"/>
+  <location value="29"/>
+  <location value="182"/>
+  <checkbox class="selected"/>
+  for
+  <location value="0"/>
+  <location value="172"/>
+  <location value="86"/>
+  <location value="180"/>
+  <checkbox class="unselected"/>
+  26 Did the organization officer, director,
+  <location value="11"/>
+  <location value="171"/>
+  <location value="64"/>
+  <location value="179"/>
+  <checkbox class="unselected"/>
+  persons other
+  <location value="29"/>
+  <location value="160"/>
+  <location value="53"/>
+  <location value="167"/>
+  <checkbox class="unselected"/>
+  <list ordered="false">
+    <list_text>
+      <location value="1"/>
+      <location value="149"/>
+      <location value="52"/>
+      <location value="154"/>
+      J Website: *
+    </list_text>
+  </list>
+  <text>
+    <location value="0"/>
+    <location value="186"/>
+    <location value="71"/>
+    <location value="192"/>
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="1"/>
+      <location value="164"/>
+      <location value="70"/>
+      <location value="168"/>
+      K Form of organization:
+    </list_text>
+  </list>
+  <location value="0"/>
+  <location value="201"/>
+  <location value="36"/>
+  <location value="209"/>
+  <checkbox class="selected"/>
+  <location value="0"/>
+  <location value="199"/>
+  <location value="24"/>
+  <location value="206"/>
+  <checkbox class="unselected"/>
+  <location value="0"/>
+  <location value="190"/>
+  <location value="30"/>
+  <location value="197"/>
+  <checkbox class="unselected"/>
+  c Did
+  <location value="0"/>
+  <location value="198"/>
+  <location value="29"/>
+  <location value="205"/>
+  <checkbox class="unselected"/>
+  a
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="145"/>
+      <location value="59"/>
+      <location value="149"/>
+      R
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="226"/>
+      <location value="70"/>
+      <location value="232"/>
+    </list_text>
+  </list>
+  <heading level="2">
+    <location value="13"/>
+    <location value="176"/>
+    <location value="30"/>
+    <location value="180"/>
+    Part I
+  </heading>
+  <heading level="2">
+    <location value="6"/>
+    <location value="351"/>
+    <location value="48"/>
+    <location value="360"/>
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="0"/>
+      <location value="221"/>
+      <location value="292"/>
+      <location value="491"/>
+      <ecel/>
+      <fcel/>
+<![CDATA[organization's mailing address? If "Yes," provide the names and addresses in Section B. Policies (This Section B requests information about policies 10a Did the organization have local chapters, branches, or affiliates?]]>      <lcel/>
+      <lcel/>
+      <lcel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+<![CDATA[b If "Yes," did the organization have written policies and]]>      <lcel/>
+      <lcel/>
+      <fcel/>
+      procedures governing the
+      <nl/>
+      <ecel/>
+      <fcel/>
+      and branches to ensure their operations are consistent
+      <lcel/>
+      <fcel/>
+      with
+      <fcel/>
+<![CDATA[the organization's]]>      <nl/>
+      <ecel/>
+      <fcel/>
+      11a Has the organization provided a complete copy of this form?
+      <lcel/>
+      <fcel/>
+      Form
+      <fcel/>
+      990 to all members
+      <nl/>
+      <ecel/>
+      <fcel/>
+      Describe in Schedule O the process, if any, used by
+      <lcel/>
+      <ecel/>
+      <fcel/>
+      to review
+      <nl/>
+      <ecel/>
+      <fcel/>
+      Did the organization have a written conflict of interest
+      <lcel/>
+      <ecel/>
+      <fcel/>
+<![CDATA[If "No," go to line]]>      <nl/>
+      <ecel/>
+      <ecel/>
+      <lcel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+      b Were officers, directors, or trustees, and key conflicts?
+      <lcel/>
+      <ecel/>
+      <fcel/>
+      to disclose
+      <nl/>
+      <ecel/>
+      <fcel/>
+      Did the organization regularly
+      <ched/>
+      and consistently monitor
+      <ched/>
+      and
+      <ched/>
+      enforce compliance
+      <nl/>
+      <ucel/>
+      <fcel/>
+      Schedule O how this was
+      <fcel/>
+      .
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <ucel/>
+      <fcel/>
+      13 Did the organization have a
+      <fcel/>
+      written whistleblower policy?
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <ucel/>
+      <fcel/>
+      14 Did the organization have a
+      <fcel/>
+      written document retention
+      <fcel/>
+      and
+      <fcel/>
+      destruction policy?
+      <nl/>
+      <ucel/>
+      <fcel/>
+      15 Did the process for determining comparability data,
+      <fcel/>
+      compensation of the and contemporaneous
+      <ecel/>
+      <fcel/>
+      persons include a of the
+      <nl/>
+      <ucel/>
+      <fcel/>
+<![CDATA[persons, a The organization's CEO,]]>      <fcel/>
+      Director, or top
+      <ecel/>
+      <fcel/>
+      official
+      <nl/>
+      <ecel/>
+      <fcel/>
+      b Other officers or key
+      <fcel/>
+      of the organization
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <ucel/>
+      <fcel/>
+<![CDATA[If "Yes" to line 15a or 15b,]]>      <fcel/>
+      the process in
+      <ecel/>
+      <fcel/>
+      O (see instructions).
+      <nl/>
+      <ucel/>
+      <fcel/>
+      16a Did the organization invest
+      <fcel/>
+      contribute assets to, or
+      <ecel/>
+      <fcel/>
+      in a joint
+      <nl/>
+      <ucel/>
+      <fcel/>
+      taxable entity during the year?
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <ucel/>
+      <fcel/>
+<![CDATA[If "Yes," did the organization]]>      <fcel/>
+      follow a written policy or
+      <ecel/>
+      <fcel/>
+      procedure requiring the
+      <nl/>
+      <ucel/>
+      <fcel/>
+      in joint venture arrangements
+      <fcel/>
+      under applicable federal
+      <fcel/>
+      tax
+      <fcel/>
+      law, and take steps
+      <nl/>
+      <ucel/>
+      <fcel/>
+      status with respect to such
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <ucel/>
+      <fcel/>
+      Section C. Disclosure
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+      17 18 List the states with which a Section 6104 requires an
+      <ched/>
+      copy of this Form 990 is organization to make its Form
+      <ched/>
+      1023
+      <ched/>
+      to be filed» (or 1024-A if
+      <nl/>
+      <ucel/>
+      <fcel/>
+      only) available for public
+      <fcel/>
+      Indicate how you
+      <fcel/>
+      made
+      <fcel/>
+      these available.
+      <nl/>
+      <ucel/>
+      <fcel/>
+      19 • Own website •
+      <fcel/>
+      website • Upon
+      <ecel/>
+      <fcel/>
+      | • Other
+      <nl/>
+      <ucel/>
+      <fcel/>
+      Describe in Schedule O policy, and financial statements
+      <fcel/>
+      (and if so, how) the available to the public
+      <fcel/>
+      during
+      <fcel/>
+      made its the tax year.
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="1">
+    <location value="12"/>
+    <location value="402"/>
+    <location value="31"/>
+    <location value="406"/>
+    Part Il
+  </heading>
+  <heading level="1">
+    <location value="7"/>
+    <location value="511"/>
+    <location value="74"/>
+    <location value="511"/>
+  </heading>
+  <text>
+    <location value="0"/>
+    <location value="499"/>
+    <location value="283"/>
+    <location value="511"/>
+    • Robert Simpson 315 Future Drive 27 Oakland, CA 12345 (000)
+  </text>
+  <heading level="2">
+    <location value="1"/>
+    <location value="437"/>
+    <location value="22"/>
+    <location value="447"/>
+    Sign Here
+  </heading>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="1"/>
+      <location value="511"/>
+      <location value="7"/>
+      <location value="511"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="7"/>
+      <location value="511"/>
+      <location value="28"/>
+      <location value="511"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="7"/>
+    <location value="511"/>
+    <location value="63"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="70"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="7"/>
+    <location value="385"/>
+    <location value="37"/>
+    <location value="389"/>
+    b
+  </text>
+  <text>
+    <location value="14"/>
+    <location value="390"/>
+    <location value="27"/>
+    <location value="393"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="1"/>
+      <location value="511"/>
+      <location value="6"/>
+      <location value="511"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="45"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="197"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="102"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="59"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="98"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="35"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="17"/>
+    <location value="511"/>
+    <location value="30"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="17"/>
+    <location value="511"/>
+    <location value="46"/>
+    <location value="511"/>
+  </text>
+  <location value="14"/>
+  <location value="412"/>
+  <location value="55"/>
+  <location value="422"/>
+  <checkbox class="unselected"/>
+  b Less:
+  <text>
+    <location value="14"/>
+    <location value="414"/>
+    <location value="31"/>
+    <location value="417"/>
+  </text>
+  <text>
+    <location value="19"/>
+    <location value="511"/>
+    <location value="34"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="19"/>
+    <location value="511"/>
+    <location value="48"/>
+    <location value="511"/>
+  </text>
+  <heading level="2">
+    <location value="1"/>
+    <location value="464"/>
+    <location value="46"/>
+    <location value="486"/>
+    Paid Preparer Use Only
+  </heading>
+  <text>
+    <location value="23"/>
+    <location value="511"/>
+    <location value="58"/>
+    <location value="511"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="24"/>
+      <location value="511"/>
+      <location value="28"/>
+      <location value="511"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="35"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="22"/>
+    <location value="511"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="24"/>
+      <location value="511"/>
+      <location value="29"/>
+      <location value="511"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="52"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="15"/>
+    <location value="423"/>
+    <location value="44"/>
+    <location value="426"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="4"/>
+      <location value="511"/>
+      <location value="8"/>
+      <location value="511"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="12"/>
+    <location value="511"/>
+    <location value="45"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="47"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="235"/>
+    <location value="511"/>
+  </text>
+  <location value="0"/>
+  <location value="511"/>
+  <location value="17"/>
+  <location value="511"/>
+  <checkbox class="selected"/>
+  <location value="22"/>
+  <location value="511"/>
+  <location value="43"/>
+  <location value="511"/>
+  <checkbox class="unselected"/>
+  <text>
+    <location value="1"/>
+    <location value="191"/>
+    <location value="9"/>
+    <location value="250"/>
+<![CDATA[Activities & Govemance]]>  </text>
+  <text>
+    <location value="4"/>
+    <location value="323"/>
+    <location value="13"/>
+    <location value="347"/>
+    Expenses
+  </text>
+  <text>
+    <location value="1"/>
+    <location value="366"/>
+    <location value="17"/>
+    <location value="398"/>
+    Net Assets or Fund Balances
+  </text>
+  <text>
+    <location value="5"/>
+    <location value="272"/>
+    <location value="12"/>
+    <location value="291"/>
+    Revenue
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="331"/>
+      <location value="170"/>
+      <location value="337"/>
+      Schedule N, Part /I .
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="340"/>
+      <location value="171"/>
+      <location value="346"/>
+      33 Did the organization own 100% of an entity
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="349"/>
+      <location value="170"/>
+      <location value="355"/>
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="359"/>
+      <location value="147"/>
+      <location value="365"/>
+      Part V, line 1
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="368"/>
+      <location value="181"/>
+      <location value="374"/>
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="377"/>
+      <location value="163"/>
+      <location value="384"/>
+      35a Did the organization have a controlled
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="386"/>
+      <location value="173"/>
+      <location value="392"/>
+<![CDATA[b If 'Yes' to line 35a, did the organization receive]]>    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="395"/>
+      <location value="184"/>
+      <location value="402"/>
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="0"/>
+        <location value="405"/>
+        <location value="173"/>
+        <location value="411"/>
+<![CDATA[organization? If "Yes," complete Schedule R,]]>      </list_text>
+      <list_text>
+        <location value="0"/>
+        <location value="417"/>
+        <location value="148"/>
+        <location value="424"/>
+      </list_text>
+    </list>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="422"/>
+      <location value="166"/>
+      <location value="429"/>
+      is treated as a partnership for federal income
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="431"/>
+      <location value="157"/>
+      <location value="439"/>
+      38 Did the organization complete Schedule
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="441"/>
+      <location value="175"/>
+      <location value="448"/>
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="465"/>
+      <location value="171"/>
+      <location value="472"/>
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="475"/>
+      <location value="179"/>
+      <location value="482"/>
+      1a Enter the number reported in Box 3 of Form
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="484"/>
+      <location value="164"/>
+      <location value="491"/>
+      b Enter the number of Forms W-2G included
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="0"/>
+      <location value="222"/>
+      <location value="149"/>
+      <location value="230"/>
+      28 Was the organization a party to a instructions for applicable filing
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="254"/>
+      <location value="196"/>
+      <location value="261"/>
+      If the organization received a contribution of cars,
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="262"/>
+      <location value="199"/>
+      <location value="270"/>
+      1098-C?
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="272"/>
+      <location value="200"/>
+      <location value="279"/>
+    </list_text>
+    <list_text>
+      <location value="0"/>
+      <location value="281"/>
+      <location value="206"/>
+      <location value="287"/>
+      8 Sponsoring organizations maintaining donor advised
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="0"/>
+        <location value="289"/>
+        <location value="198"/>
+        <location value="296"/>
+        sponsoring organization have excess business
+      </list_text>
+      <list_text>
+        <location value="0"/>
+        <location value="298"/>
+        <location value="200"/>
+        <location value="305"/>
+      </list_text>
+    </list>
+  </list>
+  <location value="0"/>
+  <location value="256"/>
+  <location value="212"/>
+  <location value="265"/>
+  <checkbox class="unselected"/>
+<![CDATA[b If "Yes," did the organization have written policies and]]>  
+  <location value="13"/>
+  <location value="260"/>
+  <location value="22"/>
+  <location value="267"/>
+  <checkbox class="unselected"/>
+  <text>
+    <location value="0"/>
+    <location value="230"/>
+    <location value="117"/>
+    <location value="236"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="167"/>
+    <location value="511"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="454"/>
+    <location value="47"/>
+    <location value="458"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="33"/>
+    <location value="511"/>
+  </text>
+</doclang>

@@ -1,0 +1,174 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="466"/>
+    <location value="19"/>
+    <location value="470"/>
+    <location value="24"/>
+    3
+  </text>
+  <text>
+    <location value="45"/>
+    <location value="35"/>
+    <location value="250"/>
+    <location value="49"/>
+    explicitly compute the derivatives of (10) as long as these derivatives converge. For arbitrary m we have
+  </text>
+  <formula>
+    <location value="46"/>
+    <location value="57"/>
+    <location value="200"/>
+    <location value="78"/>
+    ∂I n ∂δ m = ∂ ∂δ m n +1 ∑ i,j =0 ∞ ∑ k =1 2 q i + q j ( - 1) i + j ∆ k ij k ! k z k c
+  </formula>
+  <formula>
+    <location value="67"/>
+    <location value="81"/>
+    <location value="209"/>
+    <location value="100"/>
+    = ∂ ∂δ m { n +1 ∑ i =0 ∞ ∑ k =1 2 q i + q m ( - 1) i + m ∆ k im k ! k z k c
+  </formula>
+  <formula>
+    <location value="78"/>
+    <location value="104"/>
+    <location value="199"/>
+    <location value="123"/>
+    + n +1 ∑ i =0 ∞ ∑ k =1 2 q m + q i ( - 1) m + i ∆ k mi k ! k z k c }
+  </formula>
+  <formula>
+    <location value="67"/>
+    <location value="126"/>
+    <location value="260"/>
+    <location value="146"/>
+    = n +1 ∑ i =0 ∞ ∑ k =1 2 q m + q i ( - 1) m + i z k c k ! i[∆ k - 1 mi - ( - 1) k - 1 ∆ k - 1 mi ] .
+  </formula>
+  <text>
+    <location value="245"/>
+    <location value="148"/>
+    <location value="259"/>
+    <location value="155"/>
+    (11)
+  </text>
+  <text>
+    <location value="45"/>
+    <location value="163"/>
+    <location value="250"/>
+    <location value="177"/>
+    The terms with k odd cancel, so the result can be sim- plified as
+  </text>
+  <formula>
+    <location value="50"/>
+    <location value="186"/>
+    <location value="231"/>
+    <location value="205"/>
+    = n +1 ∑ i =0 ∞ ∑ k =1 2 q m + q i +1 ( - 1) m + i z 2 k c (2 k )! i 2 k ( δ m - δ i ) 2 k - 1
+  </formula>
+  <formula>
+    <location value="50"/>
+    <location value="208"/>
+    <location value="253"/>
+    <location value="228"/>
+    = n +1 ∑ i = m 1 δ m - δ i 2 q m + q i +1 ( - 1) m + i ∞ ∑ k =1 z 2 k c (2 k )! i 2 k ( δ m - δ i ) 2 k
+  </formula>
+  <formula>
+    <location value="50"/>
+    <location value="232"/>
+    <location value="250"/>
+    <location value="252"/>
+    = n +1 ∑ i = m 1 δ m - δ i 2 q m + q i +1 ( - 1) m + i { cos[( δ m - δ i ) z c ] - 1 } .
+  </formula>
+  <text>
+    <location value="239"/>
+    <location value="254"/>
+    <location value="253"/>
+    <location value="262"/>
+    (12)
+  </text>
+  <text>
+    <location value="45"/>
+    <location value="274"/>
+    <location value="167"/>
+    <location value="280"/>
+    Here we have used the expansion cos (
+  </text>
+  <formula>
+    <location value="170"/>
+    <location value="270"/>
+    <location value="250"/>
+    <location value="285"/>
+    Here we have used the expansion cos ( z ) = ∞ ∑ k =0 ( - 1) k (2 k )! z 2 k
+  </formula>
+  <text>
+    <location value="45"/>
+    <location value="286"/>
+    <location value="250"/>
+    <location value="314"/>
+    ∑ which converges on the whole complex plane. From (12) we know that the derivatives of I n indeed converge to a fi- nite value. Thus the optimal pulse locations { δ 1 , δ 2 , ...δ n } shall satisfy the following non-linear equations
+  </text>
+  <formula>
+    <location value="45"/>
+    <location value="322"/>
+    <location value="249"/>
+    <location value="342"/>
+    n +1 ∑ i = m 1 δ m - δ i 2 q m + q i +1 ( - 1) m + i { cos[( δ m - δ i ) z c ] - 1 } = 0 .
+  </formula>
+  <text>
+    <location value="236"/>
+    <location value="344"/>
+    <location value="250"/>
+    <location value="350"/>
+    (13)
+  </text>
+  <text>
+    <location value="45"/>
+    <location value="351"/>
+    <location value="250"/>
+    <location value="372"/>
+    Equations (13) are main results of this paper. The opti- mal sequence obtained from (13) is quite different from the UDD sequence obeying
+  </text>
+  <formula>
+    <location value="112"/>
+    <location value="381"/>
+    <location value="182"/>
+    <location value="401"/>
+    n +1 ∑ j =1 2 q j ( - 1) j δ p j = 0
+  </formula>
+  <text>
+    <location value="45"/>
+    <location value="410"/>
+    <location value="250"/>
+    <location value="469"/>
+    for p = { 1 , 2 , ...n } . For the ohmic spectrum, our equa- tions incorporate the UV cutoff frequency ω c , indicating that the solutions are specially tailored to combat this kind of noise. Although the UDD sequence is universal in suppressing decoherence, we believe that the HLODD sequence will outperform the UDD sequence in the ohmic environment. In the next section, we use numeric meth- ods to illustrate the performance of HLODD sequence.
+  </text>
+  <floating_group class="picture">
+    <caption>
+      <location value="265"/>
+      <location value="350"/>
+      <location value="471"/>
+      <location value="369"/>
+      FIG. 1: Comparison between UDD and HLODD sequence for different UV cutoff frequency ω c . Pulse sequences δ i for n = 2 and n = 5 are plotted in one figure under the same ω c .
+    </caption>
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="288"/>
+      <location value="35"/>
+      <location value="441"/>
+      <location value="338"/>
+    </picture>
+  </floating_group>
+  <heading level="2">
+    <location value="307"/>
+    <location value="386"/>
+    <location value="428"/>
+    <location value="391"/>
+    IV. NUMERICAL RESULTS
+  </heading>
+  <text>
+    <location value="264"/>
+    <location value="403"/>
+    <location value="471"/>
+    <location value="469"/>
+    We start our simulation by solving the non-linear equa- tions (13) and evaluate the decoherence function with these solutions. First, we set the total evolution time t = 1 without loss of generality. Then z c = ω c and we can concentrate on analyzing the influence of the cutoff frequency ω c . Computing solutions to (13) for differ- ent ω c , we find that the optimal pulse sequences behave differently. We also evaluate the UDD sequence for com- parison.
+  </text>
+</doclang>

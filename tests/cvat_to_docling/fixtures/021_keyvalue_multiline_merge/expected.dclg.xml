@@ -1,0 +1,256 @@
+<doclang version="1.0.0">
+  <heading level="1">
+    <location value="53"/>
+    <location value="21"/>
+    <location value="265"/>
+    <location value="52"/>
+    Market Research
+  </heading>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="0"/>
+      <location value="60"/>
+      <location value="171"/>
+      <location value="126"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="189"/>
+    <location value="69"/>
+    <location value="461"/>
+    <location value="117"/>
+<![CDATA[Our knowledge of customers is very important to make the products we sell acceptable to them & can help solve their problems. We need to conduct customer research regularly to keep us aware of market movements & follow ongoing trends. These are the results of research that can be used as a guide to understand consumers & sell products to them better.]]>  </text>
+  <heading level="2">
+    <location value="149"/>
+    <location value="137"/>
+    <location value="364"/>
+    <location value="146"/>
+    Customer Profiling
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="51"/>
+      <location value="151"/>
+      <location value="461"/>
+      <location value="198"/>
+      <ched/>
+      Customer 1
+      <ched/>
+      Customer 2
+      <nl/>
+      <fcel/>
+      <list ordered="false">
+        <list_text>
+          <location value="72"/>
+          <location value="170"/>
+          <location value="144"/>
+          <location value="174"/>
+          • Sex: Female
+        </list_text>
+        <list_text>
+          <location value="72"/>
+          <location value="176"/>
+          <location value="172"/>
+          <location value="180"/>
+          • Age: 20 - 30 years
+        </list_text>
+        <list_text>
+          <location value="72"/>
+          <location value="182"/>
+          <location value="203"/>
+          <location value="191"/>
+          • Income: Approximately $4000/month
+        </list_text>
+        <list_text>
+          <location value="72"/>
+          <location value="193"/>
+          <location value="189"/>
+          <location value="196"/>
+          • Location: Urban area
+        </list_text>
+      </list>
+      <fcel/>
+      <list ordered="false">
+        <list_text>
+          <location value="281"/>
+          <location value="170"/>
+          <location value="339"/>
+          <location value="174"/>
+          • Sex: Male
+        </list_text>
+        <list_text>
+          <location value="281"/>
+          <location value="176"/>
+          <location value="381"/>
+          <location value="180"/>
+          • Age: 20 - 25 years
+        </list_text>
+        <list_text>
+          <location value="282"/>
+          <location value="182"/>
+          <location value="412"/>
+          <location value="191"/>
+          • Income: Approximately $3500/month
+        </list_text>
+        <list_text>
+          <location value="281"/>
+          <location value="193"/>
+          <location value="398"/>
+          <location value="197"/>
+          • Location: Urban area
+        </list_text>
+      </list>
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="216"/>
+    <location value="209"/>
+    <location value="296"/>
+    <location value="216"/>
+    Trends
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="51"/>
+      <location value="222"/>
+      <location value="461"/>
+      <location value="301"/>
+      <fcel/>
+      Geography:
+      <fcel/>
+      Based on the geographical location of the market area we are targeting area that has two seasons (rainy and dry season). So we have to make products that are in accordance with these geographical conditions.
+      <nl/>
+      <fcel/>
+      Behavioral:
+      <fcel/>
+      Consumers who are loyal to a particular brand are more likely to try new products than those who are.
+      <nl/>
+      <fcel/>
+      Psychographic:
+      <fcel/>
+      Their lifestyle tends to be relaxed and reserved, but they care about sustainability.
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="99"/>
+    <location value="308"/>
+    <location value="412"/>
+    <location value="316"/>
+    Addressable Market Sizeds
+  </heading>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="51"/>
+      <location value="323"/>
+      <location value="339"/>
+      <location value="364"/>
+    </picture>
+  </floating_group>
+  <list ordered="false">
+    <list_text>
+      <location value="364"/>
+      <location value="332"/>
+      <location value="427"/>
+      <location value="344"/>
+      • TAM: Total Addressable Market
+    </list_text>
+    <list_text>
+      <location value="365"/>
+      <location value="346"/>
+      <location value="447"/>
+      <location value="353"/>
+      • SAM: Serviceable Available Market
+    </list_text>
+    <list_text>
+      <location value="365"/>
+      <location value="355"/>
+      <location value="455"/>
+      <location value="363"/>
+      • SOM: Serviceable Obtainable Market
+    </list_text>
+  </list>
+  <heading level="2">
+    <location value="143"/>
+    <location value="375"/>
+    <location value="369"/>
+    <location value="384"/>
+    Financial Projection
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="51"/>
+      <location value="390"/>
+      <location value="458"/>
+      <location value="440"/>
+      <ched/>
+      Year
+      <ched/>
+      E s p e n s e s
+      <ched/>
+      Revenue
+      <ched/>
+      Margin
+      <nl/>
+      <rhed/>
+      2023
+      <fcel/>
+      890 T
+      <fcel/>
+      4560 T
+      <fcel/>
+      15%
+      <nl/>
+      <rhed/>
+      2024
+      <fcel/>
+      1270 T
+      <fcel/>
+      7203 T
+      <fcel/>
+      20%
+      <nl/>
+      <rhed/>
+      2025
+      <fcel/>
+      1540 T
+      <fcel/>
+      9302 T
+      <fcel/>
+      25%
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="139"/>
+    <location value="448"/>
+    <location value="373"/>
+    <location value="457"/>
+    Customer Approach
+  </heading>
+  <text>
+    <location value="112"/>
+    <location value="472"/>
+    <location value="399"/>
+    <location value="495"/>
+    The customer approach used is Segmentation Approach, which is based on market segmentation, as customers from different geographic segments will have different needs and preferences.
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Decoration</classification>
+      </meta>
+      <location value="434"/>
+      <location value="20"/>
+      <location value="482"/>
+      <location value="37"/>
+    </picture>
+  </floating_group>
+</doclang>

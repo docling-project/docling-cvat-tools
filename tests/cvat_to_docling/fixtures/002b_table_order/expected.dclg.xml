@@ -1,0 +1,140 @@
+<doclang version="1.0.0">
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Logo</classification>
+      </meta>
+      <location value="61"/>
+      <location value="17"/>
+      <location value="203"/>
+      <location value="43"/>
+    </picture>
+  </floating_group>
+  <floating_group class="table">
+    <otsl>
+      <location value="61"/>
+      <location value="67"/>
+      <location value="452"/>
+      <location value="382"/>
+      <ecel/>
+      <fcel/>
+      <list ordered="false">
+        <list_text>
+          <location value="157"/>
+          <location value="69"/>
+          <location value="440"/>
+          <location value="82"/>
+          k.   Master Data Management (bespoke or commercial solution)  - minimum 1 reference
+        </list_text>
+        <list_text>
+          <location value="157"/>
+          <location value="88"/>
+          <location value="398"/>
+          <location value="94"/>
+          l.   BPMN, UML (or equivalent)  -  minimum 3 references
+        </list_text>
+        <list_text>
+          <location value="157"/>
+          <location value="99"/>
+          <location value="439"/>
+          <location value="111"/>
+          m.   RUP, Prince2 or equivalent waterfall methodology  -  minimum  2 references
+        </list_text>
+        <list_text>
+          <location value="157"/>
+          <location value="117"/>
+          <location value="409"/>
+          <location value="124"/>
+          n.   Agile/Scaled Agile Framework  -  minimum 3 references
+        </list_text>
+      </list>
+      <nl/>
+      <rhed/>
+      Basis for  assessment
+      <fcel/>
+      A consolidated assessment of the tenderer as a whole (including, if  applicable, all members of a joint tender and/or other entities on which  the tenderer relies to fulfil this selection criterion) will be carried out.
+      <nl/>
+      <rhed/>
+      Evidence
+      <ecel/>
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="141"/>
+    <location value="152"/>
+    <location value="446"/>
+    <location value="194"/>
+    Tenderers must provide  minimum 10 (and in any case no more  than  20)  contract  references .  Evidence  must  be  provided  in  the  form  of  a  filled-in  contract  reference  per  project.  For  each  contract  reference  the  use  of  the  templates  provided  in  Annex  09   to  this  document is mandatory. Only references submitted on these forms will  be considered.
+  </text>
+  <text>
+    <location value="141"/>
+    <location value="203"/>
+    <location value="446"/>
+    <location value="240"/>
+    Tenderers who fail to provide a description, or who only provide generic  content,  which  does  not  specifically  describe  the  relevance  of  the  contract  reference  with  regard  to  the  minimum  level  of  capacity  detailed  above,  will  be  considered  as  not  having  the  technical  and  professional capacity to perform the contract.
+  </text>
+  <text>
+    <location value="141"/>
+    <location value="248"/>
+    <location value="446"/>
+    <location value="321"/>
+    The references must concern at least 3 different clients. Departments,  divisions, directorates, and other entities of a same body (including the  same EU Institution)  will  be  regarded  as  the  same  client.  Each  EU  Institution (including an EU agency) is considered a different client.   Under a framework contract (or framework contracts) with different  specific  contracts,  a  specific  contract  (alone  or  in  combination  with  other specific contracts) can be used only once (i.e. it will be considered  as a single reference). In case of a joint tender, the same reference  contract  cannot  be  submitted  as  a  separate  contract  reference  by  different economic operators for the same tender.
+  </text>
+  <text>
+    <location value="140"/>
+    <location value="330"/>
+    <location value="447"/>
+    <location value="381"/>
+<![CDATA[The Contracting Authority may request  statements issued by the  clients , public or private, as supporting documents for each contract  reference. These documents should be ready to be provided within five  working  days  of  the  Contracting  Authority 's   request.  The  contact  persons for the customers indicated in the contract reference form may  be contacted in the context of this call for tenders to crosscheck the  validity of the information provided as evidence.]]>  </text>
+  <heading level="2">
+    <location value="61"/>
+    <location value="390"/>
+    <location value="140"/>
+    <location value="395"/>
+    LOT 1 and LOT 2
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="61"/>
+      <location value="403"/>
+      <location value="452"/>
+      <location value="469"/>
+      <srow/>
+      Criterion T2
+      <ecel/>
+      <nl/>
+      <ched/>
+      Capacity to deliver within a quality and security framework in compliance with  relevant ISO standards
+      <lcel/>
+      <nl/>
+      <rhed/>
+      Minimum  level of  capacity
+      <ecel/>
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="132"/>
+    <location value="433"/>
+    <location value="427"/>
+    <location value="446"/>
+    The tenderer must be certified in the following ISO standards in the  areas covered by this call for tenders:
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="151"/>
+      <location value="455"/>
+      <location value="439"/>
+      <location value="469"/>
+      •   T 2.1 : ISO 9001:2015 or equivalent (specify): for all the parts  of the organisation(s) and all location(s) that will be used by
+    </list_text>
+  </list>
+  <text>
+    <location value="264"/>
+    <location value="481"/>
+    <location value="273"/>
+    <location value="485"/>
+    26
+  </text>
+</doclang>

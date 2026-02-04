@@ -1,0 +1,525 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="388"/>
+    <location value="21"/>
+    <location value="456"/>
+    <location value="30"/>
+    扬 帆 天 天 练
+  </text>
+  <heading level="1">
+    <location value="220"/>
+    <location value="41"/>
+    <location value="291"/>
+    <location value="50"/>
+    Modulie 2
+  </heading>
+  <heading level="1">
+    <location value="134"/>
+    <location value="63"/>
+    <location value="376"/>
+    <location value="75"/>
+    Unit 1 When are we going to eat?
+  </heading>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Bar code</classification>
+      </meta>
+      <location value="413"/>
+      <location value="36"/>
+      <location value="462"/>
+      <location value="72"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="417"/>
+    <location value="72"/>
+    <location value="457"/>
+    <location value="78"/>
+    听 谍 文 朗 读
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="49"/>
+      <location value="79"/>
+      <location value="74"/>
+      <location value="99"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="71"/>
+      <location value="84"/>
+      <location value="89"/>
+      <location value="97"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="89"/>
+      <location value="84"/>
+      <location value="107"/>
+      <location value="97"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="107"/>
+      <location value="84"/>
+      <location value="125"/>
+      <location value="97"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="125"/>
+      <location value="84"/>
+      <location value="143"/>
+      <location value="97"/>
+    </picture>
+  </floating_group>
+  <heading level="2">
+    <location value="49"/>
+    <location value="108"/>
+    <location value="245"/>
+    <location value="116"/>
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="66"/>
+      <location value="124"/>
+      <location value="152"/>
+      <location value="131"/>
+      ( A )1. breakfast
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="195"/>
+      <location value="124"/>
+      <location value="227"/>
+      <location value="130"/>
+      A .   早 餐
+    </list_text>
+    <list_text>
+      <location value="281"/>
+      <location value="124"/>
+      <location value="312"/>
+      <location value="130"/>
+      B .   午 餐
+    </list_text>
+    <list_text>
+      <location value="367"/>
+      <location value="124"/>
+      <location value="398"/>
+      <location value="130"/>
+      C .   晚 餐
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="68"/>
+      <location value="140"/>
+      <location value="139"/>
+      <location value="148"/>
+      ( )2. hungry
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="194"/>
+      <location value="140"/>
+      <location value="227"/>
+      <location value="146"/>
+      A .   渴 的
+    </list_text>
+    <list_text>
+      <location value="281"/>
+      <location value="140"/>
+      <location value="312"/>
+      <location value="146"/>
+      B .   累 的
+    </list_text>
+    <list_text>
+      <location value="367"/>
+      <location value="140"/>
+      <location value="409"/>
+      <location value="146"/>
+      C . 饥 饿 的
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="67"/>
+      <location value="156"/>
+      <location value="129"/>
+      <location value="163"/>
+      )3. duck
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="194"/>
+      <location value="155"/>
+      <location value="226"/>
+      <location value="162"/>
+      A .   母 鸡
+    </list_text>
+    <list_text>
+      <location value="281"/>
+      <location value="155"/>
+      <location value="312"/>
+      <location value="162"/>
+      B .   鸭 子
+    </list_text>
+    <list_text>
+      <location value="367"/>
+      <location value="155"/>
+      <location value="398"/>
+      <location value="162"/>
+      C .   绵 羊
+    </list_text>
+  </list>
+  <heading level="2">
+    <location value="49"/>
+    <location value="171"/>
+    <location value="221"/>
+    <location value="180"/>
+    1970801
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="81"/>
+      <location value="194"/>
+      <location value="151"/>
+      <location value="201"/>
+      A. have a picnic
+    </list_text>
+    <list_text>
+      <location value="215"/>
+      <location value="193"/>
+      <location value="298"/>
+      <location value="201"/>
+      B. half past eleven
+    </list_text>
+    <list_text>
+      <location value="352"/>
+      <location value="193"/>
+      <location value="410"/>
+      <location value="200"/>
+      C. have lunch
+    </list_text>
+    <list_text>
+      <location value="81"/>
+      <location value="209"/>
+      <location value="152"/>
+      <location value="216"/>
+      D. play football
+    </list_text>
+    <list_text>
+      <location value="215"/>
+      <location value="209"/>
+      <location value="294"/>
+      <location value="216"/>
+      E. a beautiful day
+    </list_text>
+  </list>
+  <text>
+    <location value="68"/>
+    <location value="245"/>
+    <location value="76"/>
+    <location value="251"/>
+    1.
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="81"/>
+      <location value="237"/>
+      <location value="124"/>
+      <location value="259"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="99"/>
+    <location value="268"/>
+    <location value="106"/>
+    <location value="273"/>
+  </text>
+  <text>
+    <location value="213"/>
+    <location value="245"/>
+    <location value="222"/>
+    <location value="251"/>
+    2
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="226"/>
+      <location value="238"/>
+      <location value="272"/>
+      <location value="259"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="244"/>
+    <location value="268"/>
+    <location value="251"/>
+    <location value="273"/>
+  </text>
+  <text>
+    <location value="359"/>
+    <location value="245"/>
+    <location value="367"/>
+    <location value="251"/>
+    3
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="376"/>
+      <location value="234"/>
+      <location value="412"/>
+      <location value="262"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="390"/>
+    <location value="267"/>
+    <location value="397"/>
+    <location value="273"/>
+  </text>
+  <text>
+    <location value="68"/>
+    <location value="298"/>
+    <location value="76"/>
+    <location value="303"/>
+    4.
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="79"/>
+      <location value="289"/>
+      <location value="128"/>
+      <location value="313"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="100"/>
+    <location value="321"/>
+    <location value="107"/>
+    <location value="326"/>
+  </text>
+  <text>
+    <location value="213"/>
+    <location value="298"/>
+    <location value="221"/>
+    <location value="304"/>
+    5
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="223"/>
+      <location value="287"/>
+      <location value="275"/>
+      <location value="315"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="245"/>
+    <location value="321"/>
+    <location value="252"/>
+    <location value="326"/>
+  </text>
+  <heading level="2">
+    <location value="50"/>
+    <location value="337"/>
+    <location value="122"/>
+    <location value="346"/>
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="67"/>
+      <location value="353"/>
+      <location value="233"/>
+      <location value="360"/>
+<![CDATA[( )1. It's going to soon.]]>    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="107"/>
+        <location value="369"/>
+        <location value="143"/>
+        <location value="376"/>
+        A. rainy
+      </list_text>
+      <list_text>
+        <location value="248"/>
+        <location value="369"/>
+        <location value="277"/>
+        <location value="375"/>
+        B. rain
+      </list_text>
+      <list_text>
+        <location value="372"/>
+        <location value="369"/>
+        <location value="413"/>
+        <location value="376"/>
+        C. raining
+      </list_text>
+    </list>
+  </list>
+  <text>
+    <location value="167"/>
+    <location value="353"/>
+    <location value="208"/>
+    <location value="360"/>
+  </text>
+  <text>
+    <location value="118"/>
+    <location value="385"/>
+    <location value="159"/>
+    <location value="392"/>
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="66"/>
+      <location value="384"/>
+      <location value="270"/>
+      <location value="392"/>
+      A.)2. are you going to get up?
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="109"/>
+        <location value="400"/>
+        <location value="227"/>
+        <location value="409"/>
+        At 6:00 in the morning.
+      </list_text>
+      <list ordered="false">
+        <list_text>
+          <location value="109"/>
+          <location value="416"/>
+          <location value="148"/>
+          <location value="422"/>
+          A. When
+        </list_text>
+        <list_text>
+          <location value="248"/>
+          <location value="416"/>
+          <location value="290"/>
+          <location value="422"/>
+          B. Where
+        </list_text>
+        <list_text>
+          <location value="372"/>
+          <location value="416"/>
+          <location value="403"/>
+          <location value="422"/>
+          C. How
+        </list_text>
+      </list>
+    </list>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="68"/>
+      <location value="431"/>
+      <location value="297"/>
+      <location value="440"/>
+      ( )3. There are some dark in the sky.
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="109"/>
+        <location value="448"/>
+        <location value="145"/>
+        <location value="454"/>
+        A. cloud
+      </list_text>
+      <list_text>
+        <location value="248"/>
+        <location value="448"/>
+        <location value="288"/>
+        <location value="455"/>
+        B. cloudy
+      </list_text>
+      <list_text>
+        <location value="372"/>
+        <location value="448"/>
+        <location value="411"/>
+        <location value="453"/>
+        C. clouds
+      </list_text>
+    </list>
+  </list>
+  <text>
+    <location value="206"/>
+    <location value="431"/>
+    <location value="248"/>
+    <location value="439"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="62"/>
+      <location value="466"/>
+      <location value="105"/>
+      <location value="493"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="431"/>
+    <location value="477"/>
+    <location value="435"/>
+    <location value="482"/>
+  </text>
+  <text>
+    <location value="129"/>
+    <location value="503"/>
+    <location value="379"/>
+    <location value="511"/>
+    关 注 微 信 哈 众 “ 教 辅 资 料 站 ” 就 取 更 多 哈 习 资 料
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Logo</classification>
+      </meta>
+      <location value="194"/>
+      <location value="355"/>
+      <location value="317"/>
+      <location value="474"/>
+    </picture>
+  </floating_group>
+</doclang>

@@ -1,0 +1,128 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="462"/>
+    <location value="19"/>
+    <location value="470"/>
+    <location value="24"/>
+    12
+  </text>
+  <text>
+    <location value="45"/>
+    <location value="35"/>
+    <location value="145"/>
+    <location value="42"/>
+    form of the imaginary part.
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="81"/>
+      <location value="50"/>
+      <location value="204"/>
+      <location value="126"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <caption>
+      <location value="45"/>
+      <location value="225"/>
+      <location value="251"/>
+      <location value="258"/>
+      FIG. 17: Conductivities and ∆ W for a fixed λω sf . Top - ω sf = 26 meV , λ = 1, ω o = 40 meV , Z o = 0 . 77 Bottom - ω sf = 2 . 6 meV , λ = 10, ω o = 13 . 5 meV , Z o = 1 . 22. The zero crossing for ∆ W is not affected by a change in λ because it is determined only by λω sf . We set ∆ = 30 meV .
+    </caption>
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="84"/>
+      <location value="137"/>
+      <location value="204"/>
+      <location value="214"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <caption>
+      <location value="45"/>
+      <location value="366"/>
+      <location value="251"/>
+      <location value="386"/>
+      FIG. 18: The behavior of Kubo sums in the CB model. Note that the spectral weight in the NS is always larger than in the SCS. We set ω sf = 26 meV , λ = 1, and ∆ = 30 meV .
+    </caption>
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="81"/>
+      <location value="274"/>
+      <location value="205"/>
+      <location value="356"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="45"/>
+    <location value="395"/>
+    <location value="250"/>
+    <location value="468"/>
+    We performed the same calculations of conductivities and optical integrals as in the previous three cases. The results are summarized in Figs. 17 - 22. Fig 17 shows con- ductivities in the NS and the SCS for two couplings λ = 1 and λ = 10 (keeping λω sf constant). Other parameters Z o and ω o are calculated according to the discussion after Eq 21. for ω sf = 26 meV , λ = 1, we find ω o = 40 meV , Z o = 0 . 77. And for ω sf = 2 . 6 meV , λ = 10, we find ω o = 13 . 5 meV , Z o = 1 . 22. Note that the conductivity in the SCS starts at 2∆ + ω o (i.e. the resonance energy
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="305"/>
+      <location value="38"/>
+      <location value="425"/>
+      <location value="116"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <caption>
+      <location value="265"/>
+      <location value="210"/>
+      <location value="471"/>
+      <location value="236"/>
+      FIG. 19: The evolution of the optical integrals in the NS and the SCS in the CB model. Note that about ∼ 75% of the spectral weight is recovered up to 1 eV . We set ω sf = 26 meV , λ = 1, and ∆ = 30 meV .
+    </caption>
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="302"/>
+      <location value="120"/>
+      <location value="423"/>
+      <location value="199"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="301"/>
+      <location value="258"/>
+      <location value="430"/>
+      <location value="336"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <caption>
+      <location value="265"/>
+      <location value="432"/>
+      <location value="470"/>
+      <location value="459"/>
+      FIG. 20: ∆ W (in meV) for λ = 1(top) and λ = 10(bottom). We used ω sf = 26 meV/λ and ∆ = 30 meV . The zero crossing is not affected because we keep λω sf constant. The notable difference is the widening of the dip at a larger λ .
+    </caption>
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="296"/>
+      <location value="342"/>
+      <location value="428"/>
+      <location value="423"/>
+    </picture>
+  </floating_group>
+</doclang>

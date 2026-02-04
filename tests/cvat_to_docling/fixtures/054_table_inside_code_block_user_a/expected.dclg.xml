@@ -1,0 +1,204 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="174"/>
+    <location value="24"/>
+    <location value="354"/>
+    <location value="30"/>
+    ndb_select_all - Print Rows from an NDB Table
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="85"/>
+      <location value="48"/>
+      <location value="176"/>
+      <location value="53"/>
+      • --useHexFormat   -x
+    </list_text>
+    <list_text>
+      <location value="85"/>
+      <location value="83"/>
+      <location value="139"/>
+      <location value="88"/>
+      • --version
+    </list_text>
+  </list>
+  <text>
+    <location value="94"/>
+    <location value="61"/>
+    <location value="461"/>
+    <location value="75"/>
+    Causes all numeric values to be displayed in hexadecimal format. This does not affect the output of numerals contained in strings or datetime values.
+  </text>
+  <floating_group class="table">
+    <otsl>
+      <location value="93"/>
+      <location value="95"/>
+      <location value="482"/>
+      <location value="106"/>
+      <fcel/>
+      Command-Line Format
+      <fcel/>
+      --version
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="94"/>
+    <location value="112"/>
+    <location value="228"/>
+    <location value="119"/>
+    Display version information and exit.
+  </text>
+  <heading level="2">
+    <location value="45"/>
+    <location value="126"/>
+    <location value="117"/>
+    <location value="134"/>
+    Sample Output
+  </heading>
+  <text>
+    <location value="85"/>
+    <location value="141"/>
+    <location value="240"/>
+    <location value="148"/>
+    Output from a MySQL  SELECT  statement:
+  </text>
+  <code>
+    <location value="85"/>
+    <location value="153"/>
+    <location value="483"/>
+    <location value="229"/>
+<![CDATA[mysql>  SELECT * FROM ctest1.fish; +----+-----------+ | id | name      | +----+-----------+ |  3 | shark     | |  6 | puffer    | |  2 | tuna      | |  4 | manta ray | |  5 | grouper   | |  1 | guppy     | +----+-----------+ 6 rows in set (0.04 sec)]]>  </code>
+  <floating_group class="table">
+    <otsl>
+      <location value="87"/>
+      <location value="163"/>
+      <location value="156"/>
+      <location value="217"/>
+      <ched/>
+      +----+-----------+ | id | name      |
+      <ched/>
+      +----+-----------+ | id | name      | +----+-----------+
+      <nl/>
+      <rhed/>
+      +----+-----------+ |  3 | shark     |
+      <fcel/>
+      +----+-----------+ |  3 | shark     |
+      <nl/>
+      <rhed/>
+      |  6 | puffer    |
+      <fcel/>
+      |  6 | puffer    |
+      <nl/>
+      <rhed/>
+      |  2 | tuna      |
+      <fcel/>
+      |  2 | tuna      |
+      <nl/>
+      <rhed/>
+      |  4 | manta ray |
+      <fcel/>
+      |  4 | manta ray |
+      <nl/>
+      <rhed/>
+      |  5 | grouper   |
+      <fcel/>
+      |  5 | grouper   |
+      <nl/>
+      <rhed/>
+      |  1 | guppy     |
+      <fcel/>
+      |  1 | guppy     |
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="85"/>
+    <location value="236"/>
+    <location value="308"/>
+    <location value="243"/>
+    Output from the equivalent invocation of  ndb_select_all :
+  </text>
+  <code>
+    <location value="85"/>
+    <location value="248"/>
+    <location value="483"/>
+    <location value="317"/>
+<![CDATA[shell>  ./ndb_select_all -c localhost fish -d ctest1 id      name 3       [shark] 6       [puffer] 2       [tuna] 4       [manta ray] 5       [grouper] 1       [guppy] 6 rows returned NDBT_ProgramExit: 0 - OK]]>  </code>
+  <floating_group class="table">
+    <otsl>
+      <location value="85"/>
+      <location value="254"/>
+      <location value="161"/>
+      <location value="298"/>
+      <ched/>
+      id      name
+      <ched/>
+      id      name
+      <nl/>
+      <rhed/>
+      3       [shark]
+      <fcel/>
+      3       [shark]
+      <nl/>
+      <rhed/>
+      6       [puffer]
+      <fcel/>
+      6       [puffer]
+      <nl/>
+      <rhed/>
+      2       [tuna]
+      <fcel/>
+      2       [tuna]
+      <nl/>
+      <rhed/>
+      4       [manta ray]
+      <fcel/>
+      4       [manta ray]
+      <nl/>
+      <rhed/>
+      5       [grouper]
+      <fcel/>
+      5       [grouper]
+      <nl/>
+      <rhed/>
+      1       [guppy]
+      <fcel/>
+      1       [guppy]
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="85"/>
+    <location value="324"/>
+    <location value="470"/>
+    <location value="338"/>
+    All string values are enclosed by square brackets ( [ ... ] ) in the output of  ndb_select_all . For another example, consider the table created and populated as shown here:
+  </text>
+  <code>
+    <location value="85"/>
+    <location value="344"/>
+    <location value="483"/>
+    <location value="438"/>
+<![CDATA[CREATE TABLE dogs (     id INT(11) NOT NULL AUTO_INCREMENT,     name VARCHAR(25) NOT NULL,     breed VARCHAR(50) NOT NULL,     PRIMARY KEY pk (id),     KEY ix (name) ) TABLESPACE ts STORAGE DISK ENGINE=NDBCLUSTER; INSERT INTO dogs VALUES     ('', 'Lassie', 'collie'),     ('', 'Scooby-Doo', 'Great Dane'),     ('', 'Rin-Tin-Tin', 'Alsatian'),     ('', 'Rosscoe', 'Mutt');]]>  </code>
+  <text>
+    <location value="85"/>
+    <location value="445"/>
+    <location value="365"/>
+    <location value="452"/>
+    This demonstrates the use of several additional  ndb_select_all  options:
+  </text>
+  <code>
+    <location value="85"/>
+    <location value="457"/>
+    <location value="483"/>
+    <location value="463"/>
+<![CDATA[shell>  ./ndb_select_all -d ctest1 dogs -o ix -z --gci --disk]]>  </code>
+  <text>
+    <location value="463"/>
+    <location value="482"/>
+    <location value="482"/>
+    <location value="487"/>
+    4405
+  </text>
+</doclang>

@@ -1,0 +1,295 @@
+<doclang version="1.0.0">
+  <heading level="1">
+    <location value="80"/>
+    <location value="28"/>
+    <location value="230"/>
+    <location value="39"/>
+    United States Patent (19)
+  </heading>
+  <text>
+    <location value="80"/>
+    <location value="43"/>
+    <location value="147"/>
+    <location value="48"/>
+    Kawamura et al.
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="354"/>
+      <location value="31"/>
+      <location value="442"/>
+      <location value="40"/>
+      [11] 4,315,983
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="354"/>
+      <location value="44"/>
+      <location value="442"/>
+      <location value="51"/>
+      [45] Feb. 16, 1982
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="80"/>
+      <location value="61"/>
+      <location value="238"/>
+      <location value="92"/>
+      (54) 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="79"/>
+      <location value="97"/>
+      <location value="254"/>
+      <location value="116"/>
+      [75] Inventors: Koichi Kawamura; Harumi Katsuyama; Hideo Sato, all of Asaka, Japan
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="80"/>
+      <location value="120"/>
+      <location value="253"/>
+      <location value="132"/>
+      [73] Assignee: Fuji Photo Film Co., Ltd., Kanagawa, Japan
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="79"/>
+      <location value="136"/>
+      <location value="161"/>
+      <location value="142"/>
+      [21] Appl. No.: 168,855
+    </list_text>
+    <list_text>
+      <location value="79"/>
+      <location value="146"/>
+      <location value="177"/>
+      <location value="152"/>
+      [22] Filed: Jul. 14, 1980
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="79"/>
+      <location value="155"/>
+      <location value="220"/>
+      <location value="162"/>
+      [30] Foreign Application Priority Data
+    </list_text>
+  </list>
+  <floating_group class="table">
+    <otsl>
+      <location value="82"/>
+      <location value="165"/>
+      <location value="253"/>
+      <location value="196"/>
+      <fcel/>
+      Jul. 13, 1979 [JP]
+      <fcel/>
+      Japan
+      <fcel/>
+      54-88317
+      <nl/>
+      <fcel/>
+      Jul. 13, 1979 [JP]
+      <fcel/>
+      Japan
+      <fcel/>
+      54-88318
+      <nl/>
+      <fcel/>
+      Aug. 21, 1979 [JP]
+      <fcel/>
+      Japan
+      <fcel/>
+      54-105546
+      <nl/>
+      <fcel/>
+      Aug. 21, 1979 [JP]
+      <fcel/>
+      Japan
+      <fcel/>
+      54-105547
+      <nl/>
+      <fcel/>
+      Aug. 31, 1979 [JP]
+      <fcel/>
+      Japan
+      <fcel/>
+      54-110457
+      <nl/>
+    </otsl>
+  </floating_group>
+  <list ordered="false">
+    <list_text>
+      <location value="79"/>
+      <location value="199"/>
+      <location value="253"/>
+      <location value="206"/>
+      [51] Int. C1.3 G03G 5/09
+    </list_text>
+    <list_text>
+      <location value="79"/>
+      <location value="206"/>
+      <location value="253"/>
+      <location value="225"/>
+      (52] U.S. Cl. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="79"/>
+      <location value="225"/>
+      <location value="253"/>
+      <location value="238"/>
+      [58] Field of Search 542/448, 549, 471, 473, 542/454; 549/13; 430/81, 83, 82, 95
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="79"/>
+      <location value="241"/>
+      <location value="192"/>
+      <location value="247"/>
+      [56] References Cited
+    </list_text>
+  </list>
+  <heading level="2">
+    <location value="115"/>
+    <location value="250"/>
+    <location value="217"/>
+    <location value="256"/>
+    U.S. PATENT DOCUMENTS
+  </heading>
+  <text>
+    <location value="93"/>
+    <location value="259"/>
+    <location value="252"/>
+    <location value="265"/>
+    4,283,475 8/1981 Kawamura et al. 430/81
+  </text>
+  <text>
+    <location value="78"/>
+    <location value="269"/>
+    <location value="191"/>
+    <location value="274"/>
+    Primary Examiner-John D. Welsh
+  </text>
+  <text>
+    <location value="78"/>
+    <location value="275"/>
+    <location value="231"/>
+    <location value="287"/>
+    Attorney, Agent, or Firm-Sughrue, Mion, Zinn, Macpeak and Seas
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="78"/>
+      <location value="291"/>
+      <location value="185"/>
+      <location value="297"/>
+      [57] ABSTRACT
+    </list_text>
+  </list>
+  <text>
+    <location value="78"/>
+    <location value="300"/>
+    <location value="253"/>
+    <location value="313"/>
+    2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said
+  </text>
+  <text>
+    <location value="268"/>
+    <location value="63"/>
+    <location value="443"/>
+    <location value="74"/>
+    salt and a photoconductive composition containing said salt.
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="302"/>
+      <location value="84"/>
+      <location value="443"/>
+      <location value="126"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="329"/>
+    <location value="126"/>
+    <location value="361"/>
+    <location value="130"/>
+    wherein A is
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="304"/>
+      <location value="132"/>
+      <location value="442"/>
+      <location value="165"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="291"/>
+      <location value="167"/>
+      <location value="443"/>
+      <location value="200"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="303"/>
+      <location value="202"/>
+      <location value="441"/>
+      <location value="231"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="342"/>
+    <location value="233"/>
+    <location value="348"/>
+    <location value="236"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="316"/>
+      <location value="237"/>
+      <location value="442"/>
+      <location value="267"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="267"/>
+    <location value="276"/>
+    <location value="442"/>
+    <location value="301"/>
+<![CDATA[wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and R? are the same or different and include alkyl groups.]]>  </text>
+  <text>
+    <location value="307"/>
+    <location value="308"/>
+    <location value="400"/>
+    <location value="314"/>
+    47 Claims, 9 Drawing Figures
+  </text>
+</doclang>

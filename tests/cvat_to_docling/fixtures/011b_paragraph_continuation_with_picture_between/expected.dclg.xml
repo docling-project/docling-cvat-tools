@@ -1,0 +1,81 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="466"/>
+    <location value="18"/>
+    <location value="471"/>
+    <location value="24"/>
+    6
+  </text>
+  <text>
+    <location value="44"/>
+    <location value="35"/>
+    <location value="251"/>
+    <location value="102"/>
+<![CDATA[± 1 meV in the determination of the Ps mean emission energy < E z > (for implantation energies above 3 keV). The subtraction procedure described above introduces a systematic error that we estimated analyzing the data using different values of L 2 keV ± 50 nm and L 3 keV ± 50 nm. The estimated error is ± 2 . 2 meV for the C and ± 1 . 6 meV for the F sample. Thus the combined statistical and systematic error is at a level of ± 2.9 meV for the F and ± 3.0 meV for the C sample.]]>  </text>
+  <text>
+    <location value="44"/>
+    <location value="102"/>
+    <location value="252"/>
+    <location value="190"/>
+<![CDATA[The results for the C and the F samples at room tem- perature and at 50 K are shown in Figs. 6-7. For implan- tation energies higher than 4 keV for the C and 5 keV for the F sample the values < E z > of the mean emission energy are constant. In the C sample, < E z > reaches its constant value at lower implantation voltages because the pore size is smaller than in the F sample (see Fig. 6). Those values are higher than the thermal energy that Ps will have if it would thermalize at the temperature of the film. As expected in the presence of confinement in the pores, the mean emission energy is higher for the C sample with pore sizes smaller than the F sample.]]>  </text>
+  <floating_group class="picture">
+    <caption>
+      <location value="44"/>
+      <location value="300"/>
+      <location value="252"/>
+      <location value="319"/>
+<![CDATA[FIG. 6: Ps mean emission energy < E z > as a function of the positron implantation energy for C and F samples at 300 K.]]>    </caption>
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="67"/>
+      <location value="207"/>
+      <location value="237"/>
+      <location value="283"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="44"/>
+    <location value="335"/>
+    <location value="251"/>
+    <location value="467"/>
+<![CDATA[The TOF technique measures < E z > , the mean en- ergy of the Ps atoms in the z-direction. To find the mean emission energy of Ps in vacuum, < E z > should be mul- tiplied by a factor ξ that takes into account the angular distribution. Assuming that the Ps is emitted mono- energetically and isotropically from the surface, one can calculate that ξ is equal 2. In this estimation, the reflec- tion of Ps in the beam pipe and the detector acceptance, i.e. the fact that a fraction of events decaying before or after the collimator aperture are detected, are not taken into account. Therefore, to determine ξ considering these effects we used the MC simulation we described in Sec- tion III. As shown in the upper plot of Fig. 8, a satis- factory agreement between the data and the MC (adding the spectra at 2 keV that takes into account the non- thermalized Ps) is achieved. We attribute the difference between 40 and 100 ns to the approximation used in the subtraction method where the contribution of the non-]]>  </text>
+  <text>
+    <location value="264"/>
+    <location value="201"/>
+    <location value="471"/>
+    <location value="281"/>
+    thermalized Ps is underestimated since only a spectrum of a defined energy is used for this correction. The fact that the Ps is emitted with an angular spread is clearly supported by the data. As one can see in the lower plot of Fig. 8 for Ps emitted with no angular spread the data are not reproduced. The physical interpretation is that in the films we studied the pores have no organization thus they are expected to be randomly aligned. The value of ξ estimated with the MC is 1.7. This is consistent with the expectation of the analytical result and the values reported in previous experiments [30, 32, 33, 38, 40].
+  </text>
+  <floating_group class="picture">
+    <caption>
+      <location value="264"/>
+      <location value="136"/>
+      <location value="472"/>
+      <location value="170"/>
+<![CDATA[FIG. 7: Upper plot: Ps mean energy < E z > for implantation energies higher than 2 keV at 50 K and 300 K for the C sample. Lower plot: Ps mean energy as a function of the implantation energies higher than 4 keV at 50 K and 300 K for the F sample.]]>    </caption>
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="274"/>
+      <location value="37"/>
+      <location value="457"/>
+      <location value="129"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="264"/>
+    <location value="286"/>
+    <location value="471"/>
+    <location value="405"/>
+<![CDATA[A detailed scan shows that the mean Ps energy ( < E PS > = ξ < E z > ) decreases with the sample temper- ature down to a minimum level (see Fig. 9). For the C sample this value is basically constant (73 ± 5 meV) in the range of temperature in which we performed our measurement. This can be understood by the fact that in this sample the confinement energy is much higher than the thermal energy at room temperature ( kT /similarequal 25 meV) thus almost all Ps is in the ground state. For the F sam- ple there is a weak dependence on the temperature. Due to the bigger pore size compared to the C sample, the en- ergy of the ground state is only twice the thermal energy at room temperature. Therefore, the probability to find the Ps occupying an excited state is higher. As expected, this probability decreases with the temperature thus the minimal energy reaches its constant value of 48 ± 5 meV.]]>  </text>
+  <text>
+    <location value="265"/>
+    <location value="410"/>
+    <location value="472"/>
+    <location value="469"/>
+    The time that Ps spends in the films before being emit- ted in vacuum was not considered in our determination of the emission energy. The measurements presented in Fig. 9 are in a regime in which a classical approach is not expected to give reliable results. Some theoretical work to develop a full quantum mechanical picture of the emission process is required to address this problem (as pointed out in [40] as well).
+  </text>
+</doclang>

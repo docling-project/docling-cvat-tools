@@ -176,8 +176,8 @@
           ]
         }
       ],
-      "orig": "European /hestment Bank The Ell bank:",
-      "text": "European /hestment Bank The Ell bank:",
+      "orig": "European investment Bank The Ell bank",
+      "text": "European investment Bank The Ell bank",
       "formatting": null,
       "hyperlink": null
     },
@@ -236,8 +236,8 @@
           ]
         }
       ],
-      "orig": "Il. Information to be submitted",
-      "text": "Il. Information to be submitted",
+      "orig": "II. Information to be submitted",
+      "text": "II. Information to be submitted",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -267,8 +267,8 @@
           ]
         }
       ],
-      "orig": "Tenderers must ensure that their tenders submitted via e-Submission contain all the information and documents required by the EIB at the time of submission as set out in the 'Terms of Reference' including:",
-      "text": "Tenderers must ensure that their tenders submitted via e-Submission contain all the information and documents required by the EIB at the time of submission as set out in the 'Terms of Reference' including:",
+      "orig": "Tenderers must ensure that their tenders submitted via e-Submission contain all the information and documents required by the ElB at the time of submission as set out in the 'Terms of Reference' including:",
+      "text": "Tenderers must ensure that their tenders submitted via e-Submission contain all the information and documents required by the ElB at the time of submission as set out in the 'Terms of Reference' including:",
       "formatting": null,
       "hyperlink": null
     },
@@ -567,8 +567,8 @@
           ]
         }
       ],
-      "orig": "• Declaration(s) on honour (Form 5 of the \"Administrative Forms for EIB Tenders'), in case of a joint tender to be signed by the authorised representatives of each member of the Group;",
-      "text": "• Declaration(s) on honour (Form 5 of the \"Administrative Forms for EIB Tenders'), in case of a joint tender to be signed by the authorised representatives of each member of the Group;",
+      "orig": "• Declaration(s) on honour (Form 5 of the 'Administrative Forms for EIB Tenders'), in case of a joint tender to be signed by the authorised representatives of each member of the Group;",
+      "text": "• Declaration(s) on honour (Form 5 of the 'Administrative Forms for EIB Tenders'), in case of a joint tender to be signed by the authorised representatives of each member of the Group;",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -741,7 +741,21 @@
         }
       ],
       "content_layer": "furniture",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "logo"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -755,7 +769,7 @@
           },
           "charspan": [
             0,
-            37
+            39
           ]
         }
       ],
@@ -787,7 +801,21 @@
         }
       ],
       "content_layer": "furniture",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -936,7 +964,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "Administrative forms for EIB tenders",
+            "text": "Administrative forms for ElB tenders",
             "column_header": false,
             "row_header": false,
             "row_section": true,
@@ -1635,7 +1663,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "Administrative forms for EIB tenders",
+              "text": "Administrative forms for ElB tenders",
               "column_header": false,
               "row_header": false,
               "row_section": true,

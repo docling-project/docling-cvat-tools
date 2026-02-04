@@ -1,0 +1,232 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="198"/>
+    <location value="24"/>
+    <location value="329"/>
+    <location value="31"/>
+    Retrieving Information from a Table
+  </text>
+  <code>
+    <location value="84"/>
+    <location value="47"/>
+    <location value="483"/>
+    <location value="85"/>
+<![CDATA[mysql>  SELECT 1 = NULL, 1 <> NULL, 1 < NULL, 1 > NULL; +----------+-----------+----------+----------+ | 1 = NULL | 1 <> NULL | 1 < NULL | 1 > NULL | +----------+-----------+----------+----------+ |     NULL |      NULL |     NULL |     NULL | +----------+-----------+----------+----------+]]>  </code>
+  <floating_group class="table">
+    <otsl>
+      <location value="86"/>
+      <location value="55"/>
+      <location value="271"/>
+      <location value="83"/>
+      <ched/>
+<![CDATA[+----------+-----------+----------+----------+ | 1 = NULL | 1 <> NULL | 1 < NULL | 1 > NULL |]]>      <ched/>
+<![CDATA[+----------+-----------+----------+----------+ | 1 = NULL | 1 <> NULL | 1 < NULL | 1 > NULL |]]>      <ched/>
+<![CDATA[+----------+-----------+----------+----------+ | 1 = NULL | 1 <> NULL | 1 < NULL | 1 > NULL |]]>      <ched/>
+<![CDATA[+----------+-----------+----------+----------+ | 1 = NULL | 1 <> NULL | 1 < NULL | 1 > NULL |]]>      <nl/>
+      <fcel/>
+      +----------+-----------+----------+----------+ |     NULL |      NULL |     NULL |     NULL |
+      <fcel/>
+      +----------+-----------+----------+----------+ |     NULL |      NULL |     NULL |     NULL | +----------+-----------+----------+----------+
+      <fcel/>
+      +----------+-----------+----------+----------+ |     NULL |      NULL |     NULL |     NULL |
+      <fcel/>
+      +----------+-----------+----------+----------+ |     NULL |      NULL |     NULL |     NULL |
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="85"/>
+    <location value="92"/>
+    <location value="482"/>
+    <location value="106"/>
+    Because the result of any arithmetic comparison with  NULL  is also  NULL , you cannot obtain any meaningful results from such comparisons.
+  </text>
+  <text>
+    <location value="85"/>
+    <location value="114"/>
+    <location value="470"/>
+    <location value="129"/>
+    In MySQL,  0  or  NULL  means false and anything else means true. The default truth value from a boolean operation is  1 .
+  </text>
+  <text>
+    <location value="85"/>
+    <location value="136"/>
+    <location value="452"/>
+    <location value="150"/>
+<![CDATA[This special treatment of  NULL  is why, in the previous section, it was necessary to determine which animals are no longer alive using  death IS NOT NULL  instead of  death <> NULL .]]>  </text>
+  <text>
+    <location value="85"/>
+    <location value="158"/>
+    <location value="294"/>
+    <location value="164"/>
+    Two  NULL  values are regarded as equal in a  GROUP BY .
+  </text>
+  <text>
+    <location value="85"/>
+    <location value="172"/>
+    <location value="476"/>
+    <location value="185"/>
+    When doing an  ORDER BY ,  NULL  values are presented first if you do  ORDER BY ... ASC  and last if you do  ORDER BY ... DESC .
+  </text>
+  <text>
+    <location value="85"/>
+    <location value="194"/>
+    <location value="481"/>
+    <location value="216"/>
+<![CDATA[A common error when working with  NULL  is to assume that it is not possible to insert a zero or an empty string into a column defined as  NOT NULL , but this is not the case. These are in fact values, whereas  NULL means 'not having a value.' You can test this easily enough by using  IS [NOT] NULL  as shown:]]>  </text>
+  <code>
+    <location value="85"/>
+    <location value="221"/>
+    <location value="482"/>
+    <location value="260"/>
+<![CDATA[mysql>  SELECT 0 IS NULL, 0 IS NOT NULL, '' IS NULL, '' IS NOT NULL; +-----------+---------------+------------+----------------+ | 0 IS NULL | 0 IS NOT NULL | '' IS NULL | '' IS NOT NULL | +-----------+---------------+------------+----------------+ |         0 |             1 |          0 |              1 | +-----------+---------------+------------+----------------+]]>  </code>
+  <floating_group class="table">
+    <otsl>
+      <location value="85"/>
+      <location value="229"/>
+      <location value="324"/>
+      <location value="257"/>
+      <ched/>
+<![CDATA[| 0 IS NULL | 0 IS NOT NULL | '' IS NULL | '' IS NOT NULL |]]>      <ched/>
+<![CDATA[+-----------+---------------+------------+----------------+ | 0 IS NULL | 0 IS NOT NULL | '' IS NULL | '' IS NOT NULL | +-----------+---------------+------------+----------------+]]>      <ched/>
+<![CDATA[| 0 IS NULL | 0 IS NOT NULL | '' IS NULL | '' IS NOT NULL |]]>      <ched/>
+<![CDATA[+-----------+---------------+------------+----------------+ | 0 IS NULL | 0 IS NOT NULL | '' IS NULL | '' IS NOT NULL | +-----------+---------------+------------+----------------+]]>      <nl/>
+      <fcel/>
+      +-----------+---------------+------------+----------------+ |         0 |             1 |          0 |              1 |
+      <fcel/>
+      +-----------+---------------+------------+----------------+ |         0 |             1 |          0 |              1 | +-----------+---------------+------------+----------------+
+      <fcel/>
+      +-----------+---------------+------------+----------------+ |         0 |             1 |          0 |              1 |
+      <fcel/>
+      +-----------+---------------+------------+----------------+ |         0 |             1 |          0 |              1 | +-----------+---------------+------------+----------------+
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="85"/>
+    <location value="267"/>
+    <location value="467"/>
+    <location value="281"/>
+<![CDATA[Thus it is entirely possible to insert a zero or empty string into a  NOT NULL  column, as these are in fact NOT NULL . See Section B.3.4.3, 'Problems with NULL Values'.]]>  </text>
+  <heading level="2">
+    <location value="45"/>
+    <location value="289"/>
+    <location value="160"/>
+    <location value="297"/>
+    3.3.4.7 Pattern Matching
+  </heading>
+  <text>
+    <location value="85"/>
+    <location value="305"/>
+    <location value="478"/>
+    <location value="319"/>
+    MySQL provides standard SQL pattern matching as well as a form of pattern matching based on extended regular expressions similar to those used by Unix utilities such as  vi ,  grep , and  sed .
+  </text>
+  <text>
+    <location value="85"/>
+    <location value="326"/>
+    <location value="478"/>
+    <location value="357"/>
+<![CDATA[SQL pattern matching enables you to use  _  to match any single character and  %  to match an arbitrary number of characters (including zero characters). In MySQL, SQL patterns are case-insensitive by default. Some examples are shown here. Do not use  =  or  <>  when you use SQL patterns. Use the  LIKE  or  NOT LIKE  comparison operators instead.]]>  </text>
+  <text>
+    <location value="85"/>
+    <location value="364"/>
+    <location value="203"/>
+    <location value="370"/>
+    To find names beginning with  b :
+  </text>
+  <code>
+    <location value="85"/>
+    <location value="376"/>
+    <location value="483"/>
+    <location value="421"/>
+<![CDATA[mysql>  SELECT * FROM pet WHERE name LIKE 'b%'; +--------+--------+---------+------+------------+------------+ | name   | owner  | species | sex  | birth      | death      | +--------+--------+---------+------+------------+------------+ | Buffy  | Harold | dog     | f    | 1989-05-13 | NULL       | | Bowser | Diane  | dog     | m    | 1989-08-31 | 1995-07-29 | +--------+--------+---------+------+------------+------------+]]>  </code>
+  <floating_group class="table">
+    <otsl>
+      <location value="86"/>
+      <location value="384"/>
+      <location value="334"/>
+      <location value="418"/>
+      <ched/>
+      +--------+--------+---------+------+------------+------------+ | name   | owner  | species | sex  | birth      | death      |
+      <ched/>
+      +--------+--------+---------+------+------------+------------+ | name   | owner  | species | sex  | birth      | death      |
+      <ched/>
+      +--------+--------+---------+------+------------+------------+ | name   | owner  | species | sex  | birth      | death      |
+      <ched/>
+      +--------+--------+---------+------+------------+------------+ | name   | owner  | species | sex  | birth      | death      |
+      <ched/>
+      +--------+--------+---------+------+------------+------------+ | name   | owner  | species | sex  | birth      | death      |
+      <ched/>
+      +--------+--------+---------+------+------------+------------+ | name   | owner  | species | sex  | birth      | death      |
+      <nl/>
+      <fcel/>
+      | Buffy  | Harold | dog     | f    | 1989-05-13 | NULL       |
+      <fcel/>
+      | Buffy  | Harold | dog     | f    | 1989-05-13 | NULL       |
+      <fcel/>
+      +--------+--------+---------+------+------------+------------+ | Buffy  | Harold | dog     | f    | 1989-05-13 | NULL       |
+      <fcel/>
+      | Buffy  | Harold | dog     | f    | 1989-05-13 | NULL       |
+      <fcel/>
+      +--------+--------+---------+------+------------+------------+ | Buffy  | Harold | dog     | f    | 1989-05-13 | NULL       |
+      <fcel/>
+      +--------+--------+---------+------+------------+------------+ | Buffy  | Harold | dog     | f    | 1989-05-13 | NULL       |
+      <nl/>
+      <fcel/>
+      | Bowser | Diane  | dog     | m    | 1989-08-31 | 1995-07-29 |
+      <fcel/>
+      | Bowser | Diane  | dog     | m    | 1989-08-31 | 1995-07-29 |
+      <fcel/>
+      | Bowser | Diane  | dog     | m    | 1989-08-31 | 1995-07-29 |
+      <fcel/>
+      | Bowser | Diane  | dog     | m    | 1989-08-31 | 1995-07-29 |
+      <fcel/>
+      | Bowser | Diane  | dog     | m    | 1989-08-31 | 1995-07-29 |
+      <fcel/>
+      | Bowser | Diane  | dog     | m    | 1989-08-31 | 1995-07-29 | +--------+--------+---------+------+------------+------------+
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="85"/>
+    <location value="428"/>
+    <location value="197"/>
+    <location value="434"/>
+    To find names ending with  fy :
+  </text>
+  <code>
+    <location value="85"/>
+    <location value="440"/>
+    <location value="483"/>
+    <location value="466"/>
+<![CDATA[mysql>  SELECT * FROM pet WHERE name LIKE '%fy'; +--------+--------+---------+------+------------+-------+ | name   | owner  | species | sex  | birth      | death | +--------+--------+---------+------+------------+-------+]]>  </code>
+  <floating_group class="table">
+    <otsl>
+      <location value="86"/>
+      <location value="448"/>
+      <location value="314"/>
+      <location value="464"/>
+      <fcel/>
+      +--------+--------+---------+------+------------+-------+ | name   | owner  | species | sex  | birth      | death | +--------+--------+---------+------+------------+-------+
+      <fcel/>
+      +--------+--------+---------+------+------------+-------+ | name   | owner  | species | sex  | birth      | death | +--------+--------+---------+------+------------+-------+
+      <fcel/>
+      +--------+--------+---------+------+------------+-------+ | name   | owner  | species | sex  | birth      | death | +--------+--------+---------+------+------------+-------+
+      <fcel/>
+      +--------+--------+---------+------+------------+-------+ | name   | owner  | species | sex  | birth      | death |
+      <fcel/>
+      +--------+--------+---------+------+------------+-------+ | name   | owner  | species | sex  | birth      | death | +--------+--------+---------+------+------------+-------+
+      <fcel/>
+      +--------+--------+---------+------+------------+-------+ | name   | owner  | species | sex  | birth      | death |
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="468"/>
+    <location value="482"/>
+    <location value="482"/>
+    <location value="487"/>
+    319
+  </text>
+</doclang>

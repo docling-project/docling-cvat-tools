@@ -193,12 +193,12 @@
           },
           "charspan": [
             0,
-            8
+            9
           ]
         }
       ],
-      "orig": "Student:",
-      "text": "Student:",
+      "orig": "Student :",
+      "text": "Student :",
       "formatting": null,
       "hyperlink": null
     },
@@ -576,7 +576,21 @@
         }
       ],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "logo"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -618,7 +632,21 @@
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "decoration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -2937,8 +2965,8 @@
           {
             "label": "key",
             "cell_id": 0,
-            "text": "Student:",
-            "orig": "Student:",
+            "text": "Student :",
+            "orig": "Student :",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -2950,7 +2978,7 @@
               },
               "charspan": [
                 0,
-                8
+                9
               ]
             },
             "item_ref": {

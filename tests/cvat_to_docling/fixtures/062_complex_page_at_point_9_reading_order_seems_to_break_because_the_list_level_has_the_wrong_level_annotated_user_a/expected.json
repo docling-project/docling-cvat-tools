@@ -332,8 +332,8 @@
           ]
         }
       ],
-      "orig": "Form W-8IMY",
-      "text": "Form W-8IMY",
+      "orig": "Form W-SIMY",
+      "text": "Form W-SIMY",
       "formatting": null,
       "hyperlink": null
     },
@@ -631,12 +631,12 @@
           },
           "charspan": [
             0,
-            180
+            181
           ]
         }
       ],
-      "orig": "• A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Q) acting as a qualified derivatives dealer (QDD)) . W-8BEN or W-8BEN-E",
-      "text": "• A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Q) acting as a qualified derivatives dealer (QDD)) . W-8BEN or W-8BEN-E",
+      "orig": "• A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Ql) acting as a qualified derivatives dealer (QDD)) . W-8BEN or W-8BEN-E",
+      "text": "• A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Ql) acting as a qualified derivatives dealer (QDD)) . W-8BEN or W-8BEN-E",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1125,8 +1125,8 @@
           ]
         }
       ],
-      "orig": "/ QI (including a QDD). Complete Part III.",
-      "text": "/ QI (including a QDD). Complete Part III.",
+      "orig": "• QI (including a QDD). Complete Part III.",
+      "text": "• QI (including a QDD). Complete Part III.",
       "formatting": null,
       "hyperlink": null
     },
@@ -1301,12 +1301,12 @@
           },
           "charspan": [
             0,
-            57
+            55
           ]
         }
       ],
-      "orig": "- Nonwithholding foreign partnership. Complete Part VIII.",
-      "text": "- Nonwithholding foreign partnership. Complete Part VIII.",
+      "orig": "Nonwithholding foreign partnership. Complete Part VIII.",
+      "text": "Nonwithholding foreign partnership. Complete Part VIII.",
       "formatting": null,
       "hyperlink": null
     },
@@ -1365,8 +1365,8 @@
           ]
         }
       ],
-      "orig": "- Nonwithholding foreign grantor trust. Complete Part VIII.",
-      "text": "- Nonwithholding foreign grantor trust. Complete Part VIII.",
+      "orig": "_ Nonwithholding foreign grantor trust. Complete Part VIII.",
+      "text": "_ Nonwithholding foreign grantor trust. Complete Part VIII.",
       "formatting": null,
       "hyperlink": null
     },
@@ -1426,8 +1426,8 @@
           ]
         }
       ],
-      "orig": "• Nonparticipating foreign financial institution (FFI) (including an FFI related to a Reporting IGA FFI other than a deemed-compliant FFi, participating FFI, or exempt beneficial owner). Complete Part IX (if applicable).",
-      "text": "• Nonparticipating foreign financial institution (FFI) (including an FFI related to a Reporting IGA FFI other than a deemed-compliant FFi, participating FFI, or exempt beneficial owner). Complete Part IX (if applicable).",
+      "orig": "• Nonparticipating foreign financial institution (FFI) (including an FFI related to a Reporting IGA FFI other than a deemed-compliant FFI, participating FFI, or exempt beneficial owner). Complete Part IX (if applicable).",
+      "text": "• Nonparticipating foreign financial institution (FFI) (including an FFI related to a Reporting IGA FFI other than a deemed-compliant FFI, participating FFI, or exempt beneficial owner). Complete Part IX (if applicable).",
       "formatting": null,
       "hyperlink": null
     },
@@ -1486,8 +1486,8 @@
           ]
         }
       ],
-      "orig": "- Reporting Model 1 FFI.",
-      "text": "- Reporting Model 1 FFI.",
+      "orig": "• Reporting Model 1 FFI.",
+      "text": "• Reporting Model 1 FFI.",
       "formatting": null,
       "hyperlink": null
     },
@@ -1516,8 +1516,8 @@
           ]
         }
       ],
-      "orig": "- Reporting Model 2 FFI.",
-      "text": "- Reporting Model 2 FFI.",
+      "orig": "• Reporting Model 2 FFI.",
+      "text": "• Reporting Model 2 FFI.",
       "formatting": null,
       "hyperlink": null
     },
@@ -1662,12 +1662,12 @@
           },
           "charspan": [
             0,
-            80
+            78
           ]
         }
       ],
-      "orig": "• Certified deemed-compliant FFl with only low-value accounts. Complete Part XI.",
-      "text": "• Certified deemed-compliant FFl with only low-value accounts. Complete Part XI.",
+      "orig": "Certified deemed-compliant FI with only low-value accounts. Complete Part XII.",
+      "text": "Certified deemed-compliant FI with only low-value accounts. Complete Part XII.",
       "formatting": null,
       "hyperlink": null
     },
@@ -1816,8 +1816,8 @@
           ]
         }
       ],
-      "orig": "- Restricted distributor. Complete Part XVII.",
-      "text": "- Restricted distributor. Complete Part XVII.",
+      "orig": "• Restricted distributor. Complete Part XVII.",
+      "text": "• Restricted distributor. Complete Part XVII.",
       "formatting": null,
       "hyperlink": null
     },
@@ -1996,8 +1996,8 @@
           ]
         }
       ],
-      "orig": "| Excepted nonfinancial entity in liquidation or bankruptcy. Complete Part XXIII.",
-      "text": "| Excepted nonfinancial entity in liquidation or bankruptcy. Complete Part XXIII.",
+      "orig": "I Excepted nonfinancial entity in liquidation or bankruptcy. Complete Part XXIII.",
+      "text": "I Excepted nonfinancial entity in liquidation or bankruptcy. Complete Part XXIII.",
       "formatting": null,
       "hyperlink": null
     },
@@ -2052,12 +2052,12 @@
           },
           "charspan": [
             0,
-            44
+            42
           ]
         }
       ],
-      "orig": "• Excepted teritory NFFE. Complete Part XXV.",
-      "text": "• Excepted teritory NFFE. Complete Part XXV.",
+      "orig": "Excepted territory NFE. Complete Part XXV.",
+      "text": "Excepted territory NFE. Complete Part XXV.",
       "formatting": null,
       "hyperlink": null
     },
@@ -2082,12 +2082,12 @@
           },
           "charspan": [
             0,
-            34
+            32
           ]
         }
       ],
-      "orig": "• Active NFFE. Complete Part XXVI.",
-      "text": "• Active NFFE. Complete Part XXVI.",
+      "orig": "Active NFFE. Complete Part XXVI.",
+      "text": "Active NFFE. Complete Part XXVI.",
       "formatting": null,
       "hyperlink": null
     },
@@ -2172,12 +2172,12 @@
           },
           "charspan": [
             0,
-            56
+            55
           ]
         }
       ],
-      "orig": "• Sponsored direct reporting NFFE. Complete Part XXVIII.",
-      "text": "• Sponsored direct reporting NFFE. Complete Part XXVIII.",
+      "orig": "• Sponsored direct reporting NFFE. Complete Part XXVII.",
+      "text": "• Sponsored direct reporting NFFE. Complete Part XXVII.",
       "formatting": null,
       "hyperlink": null
     },
@@ -2715,12 +2715,12 @@
           },
           "charspan": [
             0,
-            3
+            4
           ]
         }
       ],
-      "orig": "DEN",
-      "text": "DEN",
+      "orig": "• EN",
+      "text": "• EN",
       "formatting": null,
       "hyperlink": null
     },
@@ -2873,12 +2873,12 @@
           },
           "charspan": [
             0,
-            40
+            41
           ]
         }
       ],
-      "orig": "10 Reference numbers) (see instructions)",
-      "text": "10 Reference numbers) (see instructions)",
+      "orig": "10 Reference number(s) (see instructions)",
+      "text": "10 Reference number(s) (see instructions)",
       "formatting": null,
       "hyperlink": null
     },
@@ -2903,12 +2903,12 @@
           },
           "charspan": [
             0,
-            40
+            41
           ]
         }
       ],
-      "orig": "10 Reference numbers) (see instructions)",
-      "text": "10 Reference numbers) (see instructions)",
+      "orig": "10 Reference number(s) (see instructions)",
+      "text": "10 Reference number(s) (see instructions)",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -3013,7 +3013,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -3055,7 +3069,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -3097,7 +3125,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -3139,7 +3181,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -3181,7 +3237,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -3223,7 +3293,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -3237,7 +3321,7 @@
           },
           "charspan": [
             0,
-            1
+            0
           ]
         }
       ],
@@ -3874,8 +3958,8 @@
           {
             "label": "key",
             "cell_id": 26,
-            "text": "10 Reference numbers) (see instructions)",
-            "orig": "10 Reference numbers) (see instructions)",
+            "text": "10 Reference number(s) (see instructions)",
+            "orig": "10 Reference number(s) (see instructions)",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3887,7 +3971,7 @@
               },
               "charspan": [
                 0,
-                40
+                41
               ]
             },
             "item_ref": {
@@ -3897,8 +3981,8 @@
           {
             "label": "value",
             "cell_id": 27,
-            "text": "10 Reference numbers) (see instructions)",
-            "orig": "10 Reference numbers) (see instructions)",
+            "text": "10 Reference number(s) (see instructions)",
+            "orig": "10 Reference number(s) (see instructions)",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3910,7 +3994,7 @@
               },
               "charspan": [
                 0,
-                40
+                41
               ]
             },
             "item_ref": {
@@ -4031,8 +4115,8 @@
           {
             "label": "value",
             "cell_id": 33,
-            "text": "DEN",
-            "orig": "DEN",
+            "text": "• EN",
+            "orig": "• EN",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4044,7 +4128,7 @@
               },
               "charspan": [
                 0,
-                3
+                4
               ]
             },
             "item_ref": {
@@ -4054,8 +4138,8 @@
           {
             "label": "key",
             "cell_id": 34,
-            "text": "A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Q) acting as a qualified derivatives dealer (QDD)) . W-8BEN or",
-            "orig": "A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Q) acting as a qualified derivatives dealer (QDD)) . W-8BEN or",
+            "text": "A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Ql) acting as a qualified derivatives dealer (QDD)) . W-8BEN or",
+            "orig": "A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Ql) acting as a qualified derivatives dealer (QDD)) . W-8BEN or",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4067,7 +4151,7 @@
               },
               "charspan": [
                 0,
-                169
+                170
               ]
             },
             "item_ref": null
@@ -4639,7 +4723,7 @@
           },
           "charspan": [
             0,
-            4870
+            4860
           ]
         }
       ],

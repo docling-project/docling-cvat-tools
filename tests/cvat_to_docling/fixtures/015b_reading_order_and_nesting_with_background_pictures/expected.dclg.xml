@@ -1,0 +1,351 @@
+<doclang version="1.0.0">
+  <heading level="2">
+    <location value="60"/>
+    <location value="43"/>
+    <location value="274"/>
+    <location value="53"/>
+    Step 2 - Creating a PFD Definition File
+  </heading>
+  <text>
+    <location value="145"/>
+    <location value="58"/>
+    <location value="440"/>
+    <location value="80"/>
+    Example Actions: To create a PFD definition file, type 12 (Work with PFD definition files) on the command line on the IBM Advanced Function Printing Utilities for iSeries menu and press the Enter key.
+  </text>
+  <text>
+    <location value="145"/>
+    <location value="89"/>
+    <location value="458"/>
+    <location value="96"/>
+    The Work with PFD Definition Files display appears to create a PFD definition file.
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Screenshot</classification>
+      </meta>
+      <location value="145"/>
+      <location value="98"/>
+      <location value="460"/>
+      <location value="246"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="145"/>
+    <location value="259"/>
+    <location value="459"/>
+    <location value="273"/>
+    The library name that you used last is displayed in the Library prompt and *ALL is displayed in the File prompt.
+  </text>
+  <text>
+    <location value="145"/>
+    <location value="281"/>
+    <location value="456"/>
+    <location value="296"/>
+    Example Actions: Type MYLIB in the Library prompt and press the Enter key to list PFD definition files stored in MYLIB.
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Screenshot</classification>
+      </meta>
+      <location value="146"/>
+      <location value="298"/>
+      <location value="460"/>
+      <location value="446"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="145"/>
+    <location value="459"/>
+    <location value="460"/>
+    <location value="472"/>
+    Note: No PFD definition file is shown because no PFD definition files are stored in MYLIB.
+  </text>
+  <text>
+    <location value="281"/>
+    <location value="485"/>
+    <location value="437"/>
+    <location value="491"/>
+    Chapter 8. Getting Started with Print Format Utility
+  </text>
+  <text>
+    <location value="447"/>
+    <location value="484"/>
+    <location value="461"/>
+    <location value="489"/>
+    107
+  </text>
+  <heading level="3">
+    <location value="237"/>
+    <location value="102"/>
+    <location value="337"/>
+    <location value="107"/>
+    Work with PFD Definition Files
+  </heading>
+  <text>
+    <location value="157"/>
+    <location value="114"/>
+    <location value="243"/>
+    <location value="119"/>
+    Type choices, press Enter.
+  </text>
+  <text>
+    <location value="164"/>
+    <location value="125"/>
+    <location value="284"/>
+    <location value="130"/>
+    Library . . . . . . . . . . MYLIB
+  </text>
+  <text>
+    <location value="317"/>
+    <location value="125"/>
+    <location value="391"/>
+    <location value="142"/>
+    Name, *USRLIBL, *LIBL *CURLIB, *ALLUSR, *ALL Name, generic*, *ALL
+  </text>
+  <text>
+    <location value="164"/>
+    <location value="137"/>
+    <location value="280"/>
+    <location value="142"/>
+    File . . . . . . . . . . . . *ALL
+  </text>
+  <text>
+    <location value="157"/>
+    <location value="218"/>
+    <location value="227"/>
+    <location value="222"/>
+    Parameters or command
+  </text>
+  <text>
+    <location value="157"/>
+    <location value="225"/>
+    <location value="170"/>
+    <location value="228"/>
+<![CDATA[===>]]>  </text>
+  <text>
+    <location value="230"/>
+    <location value="230"/>
+    <location value="264"/>
+    <location value="234"/>
+    F5=Refresh
+  </text>
+  <text>
+    <location value="274"/>
+    <location value="230"/>
+    <location value="310"/>
+    <location value="234"/>
+    F9=Retrieve
+  </text>
+  <text>
+    <location value="157"/>
+    <location value="230"/>
+    <location value="180"/>
+    <location value="234"/>
+    F3=Exit
+  </text>
+  <text>
+    <location value="321"/>
+    <location value="230"/>
+    <location value="353"/>
+    <location value="234"/>
+    F12=Cancel
+  </text>
+  <text>
+    <location value="190"/>
+    <location value="230"/>
+    <location value="220"/>
+    <location value="235"/>
+    F4=Prompt
+  </text>
+  <heading level="3">
+    <location value="237"/>
+    <location value="303"/>
+    <location value="337"/>
+    <location value="307"/>
+    Work with PFD Definition Files
+  </heading>
+  <text>
+    <location value="157"/>
+    <location value="314"/>
+    <location value="267"/>
+    <location value="319"/>
+    Library . . . . . . . . . MYLIB
+  </text>
+  <text>
+    <location value="294"/>
+    <location value="314"/>
+    <location value="403"/>
+    <location value="331"/>
+    Name, *USRLIBL, *LIBL, *CURLIB... Name, generic*, *ALL Starting characters
+  </text>
+  <text>
+    <location value="157"/>
+    <location value="320"/>
+    <location value="263"/>
+    <location value="324"/>
+    File . . . . . . . . . . *ALL
+  </text>
+  <text>
+    <location value="157"/>
+    <location value="326"/>
+    <location value="240"/>
+    <location value="330"/>
+    Position to . . . . . . .
+  </text>
+  <text>
+    <location value="157"/>
+    <location value="338"/>
+    <location value="243"/>
+    <location value="343"/>
+    Type options, press Enter.
+  </text>
+  <text>
+    <location value="267"/>
+    <location value="343"/>
+    <location value="294"/>
+    <location value="348"/>
+    4=Delete
+  </text>
+  <text>
+    <location value="200"/>
+    <location value="343"/>
+    <location value="227"/>
+    <location value="348"/>
+    2=Change
+  </text>
+  <text>
+    <location value="304"/>
+    <location value="343"/>
+    <location value="330"/>
+    <location value="348"/>
+    7=Rename
+  </text>
+  <text>
+    <location value="237"/>
+    <location value="343"/>
+    <location value="257"/>
+    <location value="348"/>
+    3=Copy
+  </text>
+  <text>
+    <location value="164"/>
+    <location value="343"/>
+    <location value="191"/>
+    <location value="348"/>
+    1=Create
+  </text>
+  <text>
+    <location value="340"/>
+    <location value="343"/>
+    <location value="411"/>
+    <location value="349"/>
+    8=Display description
+  </text>
+  <text>
+    <location value="164"/>
+    <location value="349"/>
+    <location value="257"/>
+    <location value="354"/>
+    12=Work with PFD definitions
+  </text>
+  <floating_group class="table">
+    <otsl>
+      <location value="156"/>
+      <location value="360"/>
+      <location value="384"/>
+      <location value="373"/>
+      <ched/>
+      Opt
+      <ched/>
+      File
+      <ched/>
+      Library
+      <ched/>
+      Text
+      <fcel/>
+      Changed
+      <nl/>
+      <fcel/>
+      1
+      <fcel/>
+      PFDFILE
+      <fcel/>
+      MYLIB
+      <ecel/>
+      <ecel/>
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="164"/>
+    <location value="378"/>
+    <location value="284"/>
+    <location value="384"/>
+    (No PFD definition files in library)
+  </text>
+  <text>
+    <location value="397"/>
+    <location value="413"/>
+    <location value="418"/>
+    <location value="417"/>
+    Bottom
+  </text>
+  <text>
+    <location value="157"/>
+    <location value="419"/>
+    <location value="227"/>
+    <location value="423"/>
+    Parameters or command
+  </text>
+  <text>
+    <location value="157"/>
+    <location value="426"/>
+    <location value="171"/>
+    <location value="428"/>
+<![CDATA[===>]]>  </text>
+  <text>
+    <location value="321"/>
+    <location value="430"/>
+    <location value="394"/>
+    <location value="436"/>
+    F11=Display names only
+  </text>
+  <text>
+    <location value="230"/>
+    <location value="430"/>
+    <location value="264"/>
+    <location value="435"/>
+    F5=Refresh
+  </text>
+  <text>
+    <location value="157"/>
+    <location value="430"/>
+    <location value="180"/>
+    <location value="435"/>
+    F3=Exit
+  </text>
+  <text>
+    <location value="274"/>
+    <location value="430"/>
+    <location value="311"/>
+    <location value="435"/>
+    F9=Retrieve
+  </text>
+  <text>
+    <location value="190"/>
+    <location value="430"/>
+    <location value="220"/>
+    <location value="435"/>
+    F4=Prompt
+  </text>
+  <text>
+    <location value="157"/>
+    <location value="436"/>
+    <location value="190"/>
+    <location value="441"/>
+    F12=Cancel
+  </text>
+</doclang>

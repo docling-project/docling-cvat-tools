@@ -1,0 +1,134 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="466"/>
+    <location value="19"/>
+    <location value="470"/>
+    <location value="24"/>
+    3
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="45"/>
+      <location value="35"/>
+      <location value="250"/>
+      <location value="57"/>
+      15]. Here µ l and R l are magnetic moment, and position of the l th nucleus and sum goes over all nucleus in the lattice. In second quantization it can be written as
+    </list_text>
+  </list>
+  <formula>
+    <location value="61"/>
+    <location value="63"/>
+    <location value="249"/>
+    <location value="94"/>
+    H en = - ∑ αβ ∑ l A αβ ( R l ) 2 [ I zl ( c † α ↑ c β ↑ - c † α ↓ c β ↓ ) + I + l c † α ↓ c β ↑ + I - l c † α ↑ c β ↓ ] , (8)
+  </formula>
+  <text>
+    <location value="45"/>
+    <location value="99"/>
+    <location value="205"/>
+    <location value="108"/>
+    where A αβ ( R l ) = ˜ A l ϕ ∗ α ( R l ) ϕ β ( R l ). Finally
+  </text>
+  <formula>
+    <location value="74"/>
+    <location value="114"/>
+    <location value="249"/>
+    <location value="131"/>
+    H int = - 1 2 ∑ αα ′ ∑ σσ ′ glyph[vector] Q αα ′ · τ σσ ′ c † ασ c α ′ σ ′ , (9)
+  </formula>
+  <text>
+    <location value="45"/>
+    <location value="137"/>
+    <location value="222"/>
+    <location value="146"/>
+    where glyph[vector] Q αα ′ = ∑ I J αα ′ ( glyph[vector] R j ) glyph[vector] M j - ∑ n A αα ′ ( glyph[vector] R l ) glyph[vector] I l .
+  </text>
+  <text>
+    <location value="45"/>
+    <location value="147"/>
+    <location value="251"/>
+    <location value="184"/>
+    From the total Hamiltonian H an effective Hamilto- nian is obtained by tracing over the degrees of freedom of the electron wavefunction and by taking the interaction term H in into account to second order of perturbation theory, which yields
+  </text>
+  <formula>
+    <location value="77"/>
+    <location value="190"/>
+    <location value="250"/>
+    <location value="207"/>
+    H eff = H m + H n + ∑ x |〈 Ψ x | H in | Ψ g 〉| 2 E g - E x . (10)
+  </formula>
+  <text>
+    <location value="45"/>
+    <location value="214"/>
+    <location value="250"/>
+    <location value="306"/>
+    Here we limit our calculation to a two electron and two MI system in a DQD. The two-electron wavefunction is confined to the Hilbert sub-space constructed from the bonding and anti-bonding (HOMO, LUMO) one-electron orbitals of the DQD, ϕ ± . Below the magnetic field cor- responding to spin singlet-triplet transition, this results in six basis functions of two-electron, a spin singlet ( S 0 ) ground state Ψ g that can be expressed as superposition of ϕ + ( glyph[vector] r 1 ) ϕ + ( glyph[vector] r 2 ) | S 0 〉 and ϕ - ( glyph[vector] r 1 ) ϕ - ( glyph[vector] r 2 ) | S 0 〉 with binding energy E g , and five excited states Ψ x with energy E x , consisting of three degenerate first excited triplet states, and two higher excited singlet states [11].
+  </text>
+  <text>
+    <location value="45"/>
+    <location value="307"/>
+    <location value="250"/>
+    <location value="319"/>
+    Calculating the matrix elements in Eq. 10 yields the effective Hamiltonian
+  </text>
+  <formula>
+    <location value="89"/>
+    <location value="328"/>
+    <location value="249"/>
+    <location value="334"/>
+    H eff = H m + H n + H mm + H mn , (11)
+  </formula>
+  <text>
+    <location value="45"/>
+    <location value="342"/>
+    <location value="251"/>
+    <location value="453"/>
+    where H mm = ∑ j,j ′ ∆ jj ′ glyph[vector] M j · glyph[vector] M j ′ is the electron medi- ated (RKKY-type [14]) interaction between the MIs, and H mn = ∑ j,l ∆ jl glyph[vector] I l · glyph[vector] M j is the electron mediated interac- tion between MIs and nuclear spin bath; the electron mediated interaction between host nuclear spins H nn is neglected. Here, ∆ jj ′ = - γ 2 J 2 em U ( glyph[vector] R j , glyph[vector] R j ′ ) / (2∆ e ) and ∆ j,l = γ 2 ˜ AJ em U ( glyph[vector] R j , glyph[vector] R l ) / ∆ e . Further, γ = α + - α - , where α + , and α - are the coefficients of the two-electrons ground state that is expressed as linear combination of bonding-antibonding in two level model Ψ g ( glyph[vector] r 1 , glyph[vector] r 2 ) = [ α + ϕ + ( glyph[vector] r 1 ) ϕ + ( glyph[vector] r 2 ) + α - ϕ - ( glyph[vector] r 1 ) ϕ - ( glyph[vector] r 2 )] | S 0 〉 , ∆ e is the two electron singlet-triplet splitting, ˜ A = 1 /L ∑ L l =1 ˜ A l , and U ( glyph[vector] R j , glyph[vector] R λ ) = ϕ + ( glyph[vector] R j ) ϕ - ( glyph[vector] R j ) ϕ + ( glyph[vector] R λ ) ϕ - ( glyph[vector] R λ ) with λ = j ′ , l .
+  </text>
+  <text>
+    <location value="45"/>
+    <location value="454"/>
+    <location value="250"/>
+    <location value="468"/>
+    In the following we use the effective Hamiltonian 11 to calculate the decoherence time of the DQD with two MIs
+  </text>
+  <text>
+    <location value="265"/>
+    <location value="263"/>
+    <location value="470"/>
+    <location value="323"/>
+    and two electrons, where each MI represents a spin qubit. The result is compared to a two qubit system realized by two electrons in a DQD. The calculation is performed by using the quasi-static bath approximation [15-17], where the host nuclear spins are approximated by a random magnetic field glyph[vector] B n with a Gaussian distribution. In this limit the two-electron and two-MI nuclear bath Hamilto- nian are given by
+  </text>
+  <floating_group class="picture">
+    <caption>
+      <location value="265"/>
+      <location value="181"/>
+      <location value="470"/>
+      <location value="241"/>
+      FIG. 2: N i , the maximum number of elementary gate op- erations within the coherence-time normalized by factor 2 πA ( A ≡ A e ≈ A m ) in meV in a Fe:ZnSe DQD (2MI), com- pared with ZnSe DQD filled with two-electrons (2e) versus parabolic strength of confining potential of each dot, ω 0 , for various gate voltages, V g = 110 (circles), V g = 154 (squares), V g = 198 (triangles), and V g = 242 (diamonds) in meV. N i as a function of external magnetic field for ω 0 = 27 . 5 meV and V g = 110 meV is shown in the inset.
+    </caption>
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="275"/>
+      <location value="67"/>
+      <location value="449"/>
+      <location value="169"/>
+    </picture>
+  </floating_group>
+  <formula>
+    <location value="325"/>
+    <location value="330"/>
+    <location value="470"/>
+    <location value="349"/>
+    H kn = 2 ∑ i =1 g k µ b glyph[vector] B n · glyph[vector] K i , (12)
+  </formula>
+  <text>
+    <location value="265"/>
+    <location value="355"/>
+    <location value="470"/>
+    <location value="468"/>
+    where k = e , m and glyph[vector] K = glyph[vector] S, glyph[vector] M for electrons and MI, respectively. The coherence time is obtained by solving the equation of motion for glyph[vector] K 1 and glyph[vector] K 2 with initial state |↑↓〉 and by averaging over the Gaussian magnetic field distribution. From that we obtain 〈 B e 〉 = 〈 B m 〉 = 0, 〈 B 2 e 〉 = 1 / ( g e µ b ) 2 ∑ l I l ( I l +1) ˜ A 2 l | ϕ + ( R l ) | 4 , and 〈 B 2 m 〉 = 1 / ( g m µ b ) 2 ∑ l I l ( I l +1) ˜ A 2 l | ϕ + ( R l ) ϕ - ( R l ) | 2 . From there an effective Zeeman splitting ˜ ∆ k = (2 〈 B 2 k 〉 / 3) 1 / 2 is cal- culated, hence τ k = ¯ h/ ( g k µ b ˜ ∆ k ). Assuming I l = 1 / 2 we find the spin relaxation time τ e = ¯ h/ (2 A e ) and τ m = C ¯ h/ (2 A m ). Here A e = ( ∑ l ˜ A 2 l | ϕ + ( R l ) | 4 ) 1 / 2 , A m = ( ∑ l ˜ A 2 l | ϕ + ( R l ) ϕ - ( R l ) | 2 ) 1 / 2 , and C = ∆ e / [ γ 2 J em Λ( glyph[vector] R 1 , glyph[vector] R 2 )] is the RKKY correction to the MI coherence time, stems from the MI-nuclear-spin in-
+  </text>
+</doclang>

@@ -529,12 +529,12 @@
           },
           "charspan": [
             0,
-            14
+            15
           ]
         }
       ],
-      "orig": "Form 990(2020)",
-      "text": "Form 990(2020)",
+      "orig": "Form 990 (2020)",
+      "text": "Form 990 (2020)",
       "formatting": null,
       "hyperlink": null
     },
@@ -559,12 +559,12 @@
           },
           "charspan": [
             0,
-            4
+            8
           ]
         }
       ],
-      "orig": "Form",
-      "text": "Form",
+      "orig": "Form 990",
+      "text": "Form 990",
       "formatting": null,
       "hyperlink": null
     },
@@ -589,12 +589,12 @@
           },
           "charspan": [
             0,
-            14
+            15
           ]
         }
       ],
-      "orig": "Form 990(2020)",
-      "text": "Form 990(2020)",
+      "orig": "Form 990 (2020)",
+      "text": "Form 990 (2020)",
       "formatting": null,
       "hyperlink": null
     },
@@ -806,8 +806,8 @@
           ]
         }
       ],
-      "orig": "1a Enter the number of voting members of the",
-      "text": "1a Enter the number of voting members of the",
+      "orig": "la Enter the number of voting members of the",
+      "text": "la Enter the number of voting members of the",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1136,12 +1136,12 @@
           },
           "charspan": [
             0,
-            21
+            19
           ]
         }
       ],
-      "orig": "J Application pending",
-      "text": "J Application pending",
+      "orig": "Application pending",
+      "text": "Application pending",
       "formatting": null,
       "hyperlink": null
     },
@@ -2065,8 +2065,8 @@
           ]
         }
       ],
-      "orig": "j Website: •",
-      "text": "j Website: •",
+      "orig": "J Website: *",
+      "text": "J Website: *",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -2245,12 +2245,12 @@
           },
           "charspan": [
             0,
-            0
+            1
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "a",
+      "text": "a",
       "formatting": null,
       "hyperlink": null
     },
@@ -2357,8 +2357,8 @@
           ]
         }
       ],
-      "orig": "Part l ",
-      "text": "Part l ",
+      "orig": "Part I ",
+      "text": "Part I ",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -2508,8 +2508,8 @@
           ]
         }
       ],
-      "orig": "Schedule N, Part // .",
-      "text": "Schedule N, Part // .",
+      "orig": "Schedule N, Part /I .",
+      "text": "Schedule N, Part /I .",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -3382,8 +3382,8 @@
           ]
         }
       ],
-      "orig": "Part I| ",
-      "text": "Part I| ",
+      "orig": "Part Il ",
+      "text": "Part Il ",
       "formatting": null,
       "hyperlink": null,
       "level": 1
@@ -3842,12 +3842,12 @@
           },
           "charspan": [
             0,
-            6
+            7
           ]
         }
       ],
-      "orig": "bLess:",
-      "text": "bLess:",
+      "orig": "b Less:",
+      "text": "b Less:",
       "formatting": null,
       "hyperlink": null
     },
@@ -4371,7 +4371,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -4413,7 +4427,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -4455,7 +4483,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -4497,7 +4539,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -4539,7 +4595,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -4581,7 +4651,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -4623,7 +4707,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -4681,7 +4779,7 @@
           },
           "charspan": [
             0,
-            2191
+            2189
           ]
         }
       ],
@@ -5345,7 +5443,7 @@
             "end_row_offset_idx": 9,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "• Did the organization regularly",
+            "text": "Did the organization regularly",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -6645,7 +6743,7 @@
             "end_row_offset_idx": 25,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "website V Upon",
+            "text": "website • Upon",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -6685,7 +6783,7 @@
             "end_row_offset_idx": 25,
             "start_col_offset_idx": 4,
             "end_col_offset_idx": 5,
-            "text": "/ • Other",
+            "text": "| • Other",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -7626,7 +7724,7 @@
               "end_row_offset_idx": 9,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "• Did the organization regularly",
+              "text": "Did the organization regularly",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9278,7 +9376,7 @@
               "end_row_offset_idx": 25,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "website V Upon",
+              "text": "website • Upon",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9318,7 +9416,7 @@
               "end_row_offset_idx": 25,
               "start_col_offset_idx": 4,
               "end_col_offset_idx": 5,
-              "text": "/ • Other",
+              "text": "| • Other",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9992,8 +10090,8 @@
           {
             "label": "key",
             "cell_id": 24,
-            "text": "j Website: •",
-            "orig": "j Website: •",
+            "text": "J Website: *",
+            "orig": "J Website: *",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -10291,8 +10389,8 @@
           {
             "label": "value",
             "cell_id": 37,
-            "text": "bLess:",
-            "orig": "bLess:",
+            "text": "b Less:",
+            "orig": "b Less:",
             "prov": {
               "page_no": 9,
               "bbox": {
@@ -10304,7 +10402,7 @@
               },
               "charspan": [
                 0,
-                6
+                7
               ]
             },
             "item_ref": {
@@ -10785,8 +10883,8 @@
           {
             "label": "key",
             "cell_id": 59,
-            "text": "Form",
-            "orig": "Form",
+            "text": "Form 990",
+            "orig": "Form 990",
             "prov": {
               "page_no": 6,
               "bbox": {
@@ -10798,7 +10896,7 @@
               },
               "charspan": [
                 0,
-                4
+                8
               ]
             },
             "item_ref": {
@@ -10808,8 +10906,8 @@
           {
             "label": "value",
             "cell_id": 60,
-            "text": "Form 990(2020)",
-            "orig": "Form 990(2020)",
+            "text": "Form 990 (2020)",
+            "orig": "Form 990 (2020)",
             "prov": {
               "page_no": 8,
               "bbox": {
@@ -10821,7 +10919,7 @@
               },
               "charspan": [
                 0,
-                14
+                15
               ]
             },
             "item_ref": {
@@ -11328,7 +11426,7 @@
           },
           "charspan": [
             0,
-            3992
+            3984
           ]
         }
       ],

@@ -259,12 +259,12 @@
           },
           "charspan": [
             0,
-            14
+            15
           ]
         }
       ],
-      "orig": "Form 990(2020)",
-      "text": "Form 990(2020)",
+      "orig": "Form 990 (2020)",
+      "text": "Form 990 (2020)",
       "formatting": null,
       "hyperlink": null
     },
@@ -429,8 +429,8 @@
           ]
         }
       ],
-      "orig": "1a Federated campaigns.",
-      "text": "1a Federated campaigns.",
+      "orig": "la Federated campaigns.",
+      "text": "la Federated campaigns.",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -457,12 +457,12 @@
           },
           "charspan": [
             0,
-            19
+            17
           ]
         }
       ],
-      "orig": "b Membership dues •",
-      "text": "b Membership dues •",
+      "orig": "b Membership dues",
+      "text": "b Membership dues",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -489,12 +489,12 @@
           },
           "charspan": [
             0,
-            22
+            21
           ]
         }
       ],
-      "orig": "c Fundraising events .",
-      "text": "c Fundraising events .",
+      "orig": "c Fundraising events.",
+      "text": "c Fundraising events.",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -649,12 +649,12 @@
           },
           "charspan": [
             0,
-            32
+            26
           ]
         }
       ],
-      "orig": "h Total. Add lines 1a-1f . ・ • •",
-      "text": "h Total. Add lines 1a-1f . ・ • •",
+      "orig": "h Total. Add lines la-lf ・",
+      "text": "h Total. Add lines la-lf ・",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1447,12 +1447,12 @@
           },
           "charspan": [
             0,
-            80
+            78
           ]
         }
       ],
-      "orig": "3 Investment income (including dividends, interest, and other similar amounts) •",
-      "text": "3 Investment income (including dividends, interest, and other similar amounts) •",
+      "orig": "3 Investment income (including dividends, interest, and other similar amounts)",
+      "text": "3 Investment income (including dividends, interest, and other similar amounts)",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1577,8 +1577,8 @@
           ]
         }
       ],
-      "orig": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line ic). See Part IV, line 18",
-      "text": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line ic). See Part IV, line 18",
+      "orig": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line 1c). See Part IV, line 18",
+      "text": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line 1c). See Part IV, line 18",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1733,12 +1733,12 @@
           },
           "charspan": [
             0,
-            25
+            26
           ]
         }
       ],
-      "orig": "bLess: cost of goods sold",
-      "text": "bLess: cost of goods sold",
+      "orig": "b Less: cost of goods sold",
+      "text": "b Less: cost of goods sold",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1923,12 +1923,12 @@
           },
           "charspan": [
             0,
-            28
+            26
           ]
         }
       ],
-      "orig": "e Total. Add lines 11a-11d •",
-      "text": "e Total. Add lines 11a-11d •",
+      "orig": "e Total. Add lines 11a-11d",
+      "text": "e Total. Add lines 11a-11d",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -1955,12 +1955,12 @@
           },
           "charspan": [
             0,
-            38
+            34
           ]
         }
       ],
-      "orig": "12 Total revenue. See instructions . •",
-      "text": "12 Total revenue. See instructions . •",
+      "orig": "12 Total revenue. See instructions",
+      "text": "12 Total revenue. See instructions",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -2051,12 +2051,12 @@
           },
           "charspan": [
             0,
-            50
+            48
           ]
         }
       ],
-      "orig": "c Net income or (loss) from fundraising events . •",
-      "text": "c Net income or (loss) from fundraising events . •",
+      "orig": "c Net income or (loss) from fundraising events .",
+      "text": "c Net income or (loss) from fundraising events .",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -2115,12 +2115,12 @@
           },
           "charspan": [
             0,
-            48
+            50
           ]
         }
       ],
-      "orig": "c Net income or (loss) from sales of inventory •",
-      "text": "c Net income or (loss) from sales of inventory •",
+      "orig": "c Net income or (loss) from sales of inventory • •",
+      "text": "c Net income or (loss) from sales of inventory • •",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -2243,12 +2243,12 @@
           },
           "charspan": [
             0,
-            56
+            57
           ]
         }
       ],
-      "orig": "7a Gross amount from sales of assets other tan inventory",
-      "text": "7a Gross amount from sales of assets other tan inventory",
+      "orig": "7a Gross amount from sales of assets other than Inventory",
+      "text": "7a Gross amount from sales of assets other than Inventory",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -2275,12 +2275,12 @@
           },
           "charspan": [
             0,
-            45
+            46
           ]
         }
       ],
-      "orig": "b Less. COSLOr other basis and sales expenses",
-      "text": "b Less. COSLOr other basis and sales expenses",
+      "orig": "b Less. cost Ol other basis and sales expenses",
+      "text": "b Less. cost Ol other basis and sales expenses",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -2372,7 +2372,7 @@
           },
           "charspan": [
             0,
-            142
+            143
           ]
         }
       ],
@@ -2416,7 +2416,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "(B) Related or exempt function revenue",
+            "text": "(B). Related or exempt function revenue",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -2436,7 +2436,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "(C) Unrelated business revenue",
+            "text": "(c) Unrelated business revenue",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -2501,7 +2501,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "(B) Related or exempt function revenue",
+              "text": "(B). Related or exempt function revenue",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -2521,7 +2521,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "(C) Unrelated business revenue",
+              "text": "(c) Unrelated business revenue",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -4483,7 +4483,7 @@
           },
           "charspan": [
             0,
-            1240
+            1231
           ]
         }
       ],
@@ -4501,7 +4501,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 5,
-            "text": "3 Investment income (including dividends, interest, and other similar amounts) •",
+            "text": "3 Investment income (including dividends, interest, and other similar amounts)",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -4586,7 +4586,7 @@
             "end_row_offset_idx": 13,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 5,
-            "text": "d Net gain or (loss) •",
+            "text": "d Net gain or (loss)",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -4603,7 +4603,7 @@
             "end_row_offset_idx": 16,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 5,
-            "text": "c Net income or (loss) from fundraising events . •",
+            "text": "c Net income or (loss) from fundraising events .",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -4620,7 +4620,7 @@
             "end_row_offset_idx": 19,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 5,
-            "text": "c Net income or (loss) from gaming activities •",
+            "text": "c Net income or (loss) from gaming activities",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -4637,7 +4637,7 @@
             "end_row_offset_idx": 22,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 5,
-            "text": "c Net income or (loss) from sales of inventory •",
+            "text": "c Net income or (loss) from sales of inventory • •",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -4654,7 +4654,7 @@
             "end_row_offset_idx": 28,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 5,
-            "text": "e Total. Add lines 11a-11d •",
+            "text": "e Total. Add lines 11a-11d",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -4671,7 +4671,7 @@
             "end_row_offset_idx": 29,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 5,
-            "text": "12 Total revenue. See instructions . •",
+            "text": "12 Total revenue. See instructions",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -4694,7 +4694,7 @@
             "end_row_offset_idx": 5,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "6a",
+            "text": "ба",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -4728,7 +4728,7 @@
             "end_row_offset_idx": 12,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "7a Gross amount from sales of assets other tan inventory b Less. COSLOr other basis and sales expenses Gain or (loss)",
+            "text": "7a Gross amount from sales of assets other than Inventory b Less. cost Ol other basis and sales expenses Gain or (loss)",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -4745,7 +4745,7 @@
             "end_row_offset_idx": 14,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 3,
-            "text": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line ic). See Part IV, line 18",
+            "text": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line 1c). See Part IV, line 18",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -4830,7 +4830,7 @@
             "end_row_offset_idx": 21,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 3,
-            "text": "bLess: cost of goods sold",
+            "text": "b Less: cost of goods sold",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -5855,7 +5855,7 @@
             "end_row_offset_idx": 7,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "6c",
+            "text": "6с",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -6135,7 +6135,7 @@
             "end_row_offset_idx": 12,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "70",
+            "text": "7c",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -6954,7 +6954,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "3 Investment income (including dividends, interest, and other similar amounts) •",
+              "text": "3 Investment income (including dividends, interest, and other similar amounts)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -6968,7 +6968,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "3 Investment income (including dividends, interest, and other similar amounts) •",
+              "text": "3 Investment income (including dividends, interest, and other similar amounts)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -6982,7 +6982,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "3 Investment income (including dividends, interest, and other similar amounts) •",
+              "text": "3 Investment income (including dividends, interest, and other similar amounts)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -6996,7 +6996,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "3 Investment income (including dividends, interest, and other similar amounts) •",
+              "text": "3 Investment income (including dividends, interest, and other similar amounts)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -7010,7 +7010,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "3 Investment income (including dividends, interest, and other similar amounts) •",
+              "text": "3 Investment income (including dividends, interest, and other similar amounts)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -7430,7 +7430,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "6a",
+              "text": "ба",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -7606,7 +7606,7 @@
               "end_row_offset_idx": 5,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "6a",
+              "text": "ба",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -7958,7 +7958,7 @@
               "end_row_offset_idx": 7,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "6c",
+              "text": "6с",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -8266,7 +8266,7 @@
               "end_row_offset_idx": 12,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "7a Gross amount from sales of assets other tan inventory b Less. COSLOr other basis and sales expenses Gain or (loss)",
+              "text": "7a Gross amount from sales of assets other than Inventory b Less. cost Ol other basis and sales expenses Gain or (loss)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -8442,7 +8442,7 @@
               "end_row_offset_idx": 12,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "7a Gross amount from sales of assets other tan inventory b Less. COSLOr other basis and sales expenses Gain or (loss)",
+              "text": "7a Gross amount from sales of assets other than Inventory b Less. cost Ol other basis and sales expenses Gain or (loss)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -8618,7 +8618,7 @@
               "end_row_offset_idx": 12,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "7a Gross amount from sales of assets other tan inventory b Less. COSLOr other basis and sales expenses Gain or (loss)",
+              "text": "7a Gross amount from sales of assets other than Inventory b Less. cost Ol other basis and sales expenses Gain or (loss)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -8794,7 +8794,7 @@
               "end_row_offset_idx": 12,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "7a Gross amount from sales of assets other tan inventory b Less. COSLOr other basis and sales expenses Gain or (loss)",
+              "text": "7a Gross amount from sales of assets other than Inventory b Less. cost Ol other basis and sales expenses Gain or (loss)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -8814,7 +8814,7 @@
               "end_row_offset_idx": 12,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "70",
+              "text": "7c",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -8970,7 +8970,7 @@
               "end_row_offset_idx": 13,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "d Net gain or (loss) •",
+              "text": "d Net gain or (loss)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -8984,7 +8984,7 @@
               "end_row_offset_idx": 13,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "d Net gain or (loss) •",
+              "text": "d Net gain or (loss)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -8998,7 +8998,7 @@
               "end_row_offset_idx": 13,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "d Net gain or (loss) •",
+              "text": "d Net gain or (loss)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9012,7 +9012,7 @@
               "end_row_offset_idx": 13,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "d Net gain or (loss) •",
+              "text": "d Net gain or (loss)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9026,7 +9026,7 @@
               "end_row_offset_idx": 13,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "d Net gain or (loss) •",
+              "text": "d Net gain or (loss)",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9122,7 +9122,7 @@
               "end_row_offset_idx": 14,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 3,
-              "text": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line ic). See Part IV, line 18",
+              "text": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line 1c). See Part IV, line 18",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9136,7 +9136,7 @@
               "end_row_offset_idx": 14,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 3,
-              "text": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line ic). See Part IV, line 18",
+              "text": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line 1c). See Part IV, line 18",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9150,7 +9150,7 @@
               "end_row_offset_idx": 14,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 3,
-              "text": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line ic). See Part IV, line 18",
+              "text": "8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line 1c). See Part IV, line 18",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9438,7 +9438,7 @@
               "end_row_offset_idx": 16,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from fundraising events . •",
+              "text": "c Net income or (loss) from fundraising events .",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9452,7 +9452,7 @@
               "end_row_offset_idx": 16,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from fundraising events . •",
+              "text": "c Net income or (loss) from fundraising events .",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9466,7 +9466,7 @@
               "end_row_offset_idx": 16,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from fundraising events . •",
+              "text": "c Net income or (loss) from fundraising events .",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9480,7 +9480,7 @@
               "end_row_offset_idx": 16,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from fundraising events . •",
+              "text": "c Net income or (loss) from fundraising events .",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9494,7 +9494,7 @@
               "end_row_offset_idx": 16,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from fundraising events . •",
+              "text": "c Net income or (loss) from fundraising events .",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9912,7 +9912,7 @@
               "end_row_offset_idx": 19,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from gaming activities •",
+              "text": "c Net income or (loss) from gaming activities",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9926,7 +9926,7 @@
               "end_row_offset_idx": 19,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from gaming activities •",
+              "text": "c Net income or (loss) from gaming activities",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9940,7 +9940,7 @@
               "end_row_offset_idx": 19,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from gaming activities •",
+              "text": "c Net income or (loss) from gaming activities",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9954,7 +9954,7 @@
               "end_row_offset_idx": 19,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from gaming activities •",
+              "text": "c Net income or (loss) from gaming activities",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -9968,7 +9968,7 @@
               "end_row_offset_idx": 19,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from gaming activities •",
+              "text": "c Net income or (loss) from gaming activities",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -10228,7 +10228,7 @@
               "end_row_offset_idx": 21,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 3,
-              "text": "bLess: cost of goods sold",
+              "text": "b Less: cost of goods sold",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -10242,7 +10242,7 @@
               "end_row_offset_idx": 21,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 3,
-              "text": "bLess: cost of goods sold",
+              "text": "b Less: cost of goods sold",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -10256,7 +10256,7 @@
               "end_row_offset_idx": 21,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 3,
-              "text": "bLess: cost of goods sold",
+              "text": "b Less: cost of goods sold",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -10392,7 +10392,7 @@
               "end_row_offset_idx": 22,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from sales of inventory •",
+              "text": "c Net income or (loss) from sales of inventory • •",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -10406,7 +10406,7 @@
               "end_row_offset_idx": 22,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from sales of inventory •",
+              "text": "c Net income or (loss) from sales of inventory • •",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -10420,7 +10420,7 @@
               "end_row_offset_idx": 22,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from sales of inventory •",
+              "text": "c Net income or (loss) from sales of inventory • •",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -10434,7 +10434,7 @@
               "end_row_offset_idx": 22,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from sales of inventory •",
+              "text": "c Net income or (loss) from sales of inventory • •",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -10448,7 +10448,7 @@
               "end_row_offset_idx": 22,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "c Net income or (loss) from sales of inventory •",
+              "text": "c Net income or (loss) from sales of inventory • •",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11334,7 +11334,7 @@
               "end_row_offset_idx": 28,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "e Total. Add lines 11a-11d •",
+              "text": "e Total. Add lines 11a-11d",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11348,7 +11348,7 @@
               "end_row_offset_idx": 28,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "e Total. Add lines 11a-11d •",
+              "text": "e Total. Add lines 11a-11d",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11362,7 +11362,7 @@
               "end_row_offset_idx": 28,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "e Total. Add lines 11a-11d •",
+              "text": "e Total. Add lines 11a-11d",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11376,7 +11376,7 @@
               "end_row_offset_idx": 28,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "e Total. Add lines 11a-11d •",
+              "text": "e Total. Add lines 11a-11d",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11390,7 +11390,7 @@
               "end_row_offset_idx": 28,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "e Total. Add lines 11a-11d •",
+              "text": "e Total. Add lines 11a-11d",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11486,7 +11486,7 @@
               "end_row_offset_idx": 29,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "12 Total revenue. See instructions . •",
+              "text": "12 Total revenue. See instructions",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11500,7 +11500,7 @@
               "end_row_offset_idx": 29,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "12 Total revenue. See instructions . •",
+              "text": "12 Total revenue. See instructions",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11514,7 +11514,7 @@
               "end_row_offset_idx": 29,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "12 Total revenue. See instructions . •",
+              "text": "12 Total revenue. See instructions",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11528,7 +11528,7 @@
               "end_row_offset_idx": 29,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "12 Total revenue. See instructions . •",
+              "text": "12 Total revenue. See instructions",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11542,7 +11542,7 @@
               "end_row_offset_idx": 29,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 5,
-              "text": "12 Total revenue. See instructions . •",
+              "text": "12 Total revenue. See instructions",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -11976,8 +11976,8 @@
           {
             "label": "key",
             "cell_id": 14,
-            "text": "h Total. Add lines 1a-1f . ・ • •",
-            "orig": "h Total. Add lines 1a-1f . ・ • •",
+            "text": "h Total. Add lines la-lf ・",
+            "orig": "h Total. Add lines la-lf ・",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -11989,7 +11989,7 @@
               },
               "charspan": [
                 0,
-                32
+                26
               ]
             },
             "item_ref": {
@@ -12160,7 +12160,7 @@
           },
           "charspan": [
             0,
-            2094
+            2077
           ]
         }
       ],

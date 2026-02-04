@@ -7,11 +7,7 @@ from pathlib import Path
 from typing import Any, Optional
 
 import pytest
-from docling_core.experimental.idoctags import (
-    EscapeMode,
-    IDocTagsDocSerializer,
-    IDocTagsParams,
-)
+from docling_core.experimental.doclang import DoclangDocSerializer
 from docling_core.types.doc import DoclingDocument, ImageRefMode
 from docling_core.types.doc.document import ContentLayer
 
@@ -194,26 +190,17 @@ def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
             visualization_path, actual_doc, draw_reading_order=True
         )
 
-        if True:
-            serializer = IDocTagsDocSerializer(
-                doc=actual_doc,
-                params=IDocTagsParams(
-                    # escape_mode=EscapeMode.CDATA_ALWAYS,
-                    pretty_indentation=None
-                ),
-            )
-            ser_res = serializer.serialize()
-            ser_txt = ser_res.text
-
-            with open(viz_dir / "output.idoctags", "w") as f:
-                f.write(ser_txt)
-
-        with open(viz_dir / "output_tree.txt", "w") as f:
-            f.write(actual_doc.export_to_element_tree())
+    serializer = DoclangDocSerializer(
+        doc=actual_doc,
+    )
+    ser_res = serializer.serialize()
+    ser_txt = ser_res.text
 
     if GENERATE_MODE:
         # Generate expected output
         save_expected_output(fixture_dir, actual_doc)
+        with open(fixture_dir / "expected.dclg.xml", "w") as f:
+            f.write(f"{ser_txt}\n")
         pytest.skip(f"Generated expected output for {fixture_dir.name}")
     else:
         # Compare with expected output
@@ -262,6 +249,10 @@ def test_cvat_to_docling_regression(fixture_dir: Path) -> None:
             f"Conversion output differs from expected for {fixture_dir.name}. "
             f"Test ID: {metadata['test_id']}, Description: {metadata['description']}"
         )
+
+        with open(fixture_dir / "expected.dclg.xml") as f:
+            expected_dclg_xml = f.read()
+        assert ser_txt.strip() == expected_dclg_xml.strip()
 
 
 def test_fixtures_exist() -> None:

@@ -1,0 +1,215 @@
+<doclang version="1.0.0">
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Logo</classification>
+      </meta>
+      <location value="90"/>
+      <location value="34"/>
+      <location value="177"/>
+      <location value="78"/>
+    </picture>
+  </floating_group>
+  <heading level="1">
+    <location value="185"/>
+    <location value="39"/>
+    <location value="365"/>
+    <location value="54"/>
+    REPORT CARD
+  </heading>
+  <text>
+    <location value="198"/>
+    <location value="65"/>
+    <location value="352"/>
+    <location value="72"/>
+    SALFORD HIGH SCHOOL
+  </text>
+  <text>
+    <location value="54"/>
+    <location value="112"/>
+    <location value="103"/>
+    <location value="118"/>
+    Student :
+  </text>
+  <text>
+    <location value="106"/>
+    <location value="109"/>
+    <location value="306"/>
+    <location value="123"/>
+  </text>
+  <text>
+    <location value="54"/>
+    <location value="130"/>
+    <location value="103"/>
+    <location value="136"/>
+    Level :
+  </text>
+  <text>
+    <location value="106"/>
+    <location value="126"/>
+    <location value="307"/>
+    <location value="141"/>
+  </text>
+  <text>
+    <location value="54"/>
+    <location value="148"/>
+    <location value="103"/>
+    <location value="154"/>
+    Class :
+  </text>
+  <text>
+    <location value="107"/>
+    <location value="144"/>
+    <location value="306"/>
+    <location value="158"/>
+  </text>
+  <floating_group class="table">
+    <otsl>
+      <location value="46"/>
+      <location value="175"/>
+      <location value="462"/>
+      <location value="380"/>
+      <ched/>
+      Subject
+      <ched/>
+      Ist Quarter
+      <ched/>
+      2nd Quarter
+      <ched/>
+      3rd Quarter
+      <ched/>
+      4th Quarter
+      <nl/>
+      <rhed/>
+      Economic
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Economic
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Biology
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <rhed/>
+      History
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Math
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Science
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Social Studies
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Art
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Physical Education
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Chemistry
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="61"/>
+    <location value="407"/>
+    <location value="148"/>
+    <location value="413"/>
+    GRADING SCALE:
+  </heading>
+  <text>
+    <location value="60"/>
+    <location value="423"/>
+    <location value="128"/>
+    <location value="429"/>
+    A = 90% -100%
+  </text>
+  <text>
+    <location value="61"/>
+    <location value="432"/>
+    <location value="127"/>
+    <location value="438"/>
+    B = 80% - 89%
+  </text>
+  <text>
+    <location value="60"/>
+    <location value="441"/>
+    <location value="126"/>
+    <location value="447"/>
+    C = 60% - 79%
+  </text>
+  <text>
+    <location value="61"/>
+    <location value="450"/>
+    <location value="121"/>
+    <location value="456"/>
+    D = 0% - 59%
+  </text>
+  <text>
+    <location value="202"/>
+    <location value="407"/>
+    <location value="253"/>
+    <location value="412"/>
+    Comment:
+  </text>
+  <text>
+    <location value="187"/>
+    <location value="396"/>
+    <location value="459"/>
+    <location value="467"/>
+    Comment:
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Decoration</classification>
+      </meta>
+      <location value="0"/>
+      <location value="0"/>
+      <location value="50"/>
+      <location value="125"/>
+    </picture>
+  </floating_group>
+</doclang>
