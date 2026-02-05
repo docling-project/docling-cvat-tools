@@ -1,0 +1,80 @@
+<doclang version="1.0.0">
+  <heading level="2">
+    <location value="60"/>
+    <location value="43"/>
+    <location value="274"/>
+    <location value="53"/>
+    Step 2 - Creating a PFD Definition File
+  </heading>
+  <text>
+    <location value="145"/>
+    <location value="58"/>
+    <location value="440"/>
+    <location value="80"/>
+    Example Actions: To create a PFD definition file, type 12 (Work with PFD definition files) on the command line on the IBM Advanced Function Printing Utilities for iSeries menu and press the Enter key.
+  </text>
+  <text>
+    <location value="145"/>
+    <location value="89"/>
+    <location value="458"/>
+    <location value="96"/>
+    The Work with PFD Definition Files display appears to create a PFD definition file.
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Screenshot</classification>
+      </meta>
+      <location value="145"/>
+      <location value="98"/>
+      <location value="460"/>
+      <location value="246"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="145"/>
+    <location value="259"/>
+    <location value="459"/>
+    <location value="273"/>
+    The library name that you used last is displayed in the Library prompt and *ALL is displayed in the File prompt.
+  </text>
+  <text>
+    <location value="145"/>
+    <location value="281"/>
+    <location value="456"/>
+    <location value="296"/>
+    Example Actions: Type MYLIB in the Library prompt and press the Enter key to list PFD definition files stored in MYLIB.
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Screenshot</classification>
+      </meta>
+      <location value="146"/>
+      <location value="298"/>
+      <location value="460"/>
+      <location value="446"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="145"/>
+    <location value="459"/>
+    <location value="460"/>
+    <location value="472"/>
+    Note: No PFD definition file is shown because no PFD definition files are stored in MYLIB.
+  </text>
+  <text>
+    <location value="281"/>
+    <location value="485"/>
+    <location value="437"/>
+    <location value="491"/>
+    Chapter 8. Getting Started with Print Format Utility
+  </text>
+  <text>
+    <location value="447"/>
+    <location value="484"/>
+    <location value="461"/>
+    <location value="489"/>
+    107
+  </text>
+</doclang>

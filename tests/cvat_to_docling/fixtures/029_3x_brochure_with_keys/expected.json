@@ -604,12 +604,12 @@
           },
           "charspan": [
             0,
-            109
+            108
           ]
         }
       ],
-      "orig": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nisl urna mattis enim, sit amet",
-      "text": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nisl urna mattis enim, sit amet",
+      "orig": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nis urna mattis enim, sit amet",
+      "text": "Porttitor a, posue vel massa. Maecenas sodales, nunc ut ullamcorper molestie, nis urna mattis enim, sit amet",
       "formatting": null,
       "hyperlink": null
     },
@@ -656,7 +656,21 @@
         }
       ],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "logo"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -698,7 +712,21 @@
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -740,7 +768,21 @@
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "illustration"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -754,7 +796,7 @@
           },
           "charspan": [
             0,
-            329
+            328
           ]
         }
       ],
@@ -782,7 +824,21 @@
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -824,7 +880,21 @@
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -866,7 +936,21 @@
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -908,7 +992,21 @@
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {

@@ -1,0 +1,222 @@
+<doclang version="1.0.0">
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Logo</classification>
+      </meta>
+      <location value="72"/>
+      <location value="29"/>
+      <location value="185"/>
+      <location value="58"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="311"/>
+    <location value="61"/>
+    <location value="474"/>
+    <location value="66"/>
+    General Administrative and Submission Clauses
+  </text>
+  <heading level="2">
+    <location value="63"/>
+    <location value="82"/>
+    <location value="259"/>
+    <location value="90"/>
+    II. Information to be submitted
+  </heading>
+  <text>
+    <location value="62"/>
+    <location value="103"/>
+    <location value="475"/>
+    <location value="125"/>
+<![CDATA[Tenderers must ensure that their tenders submitted via e-Submission contain all the information and documents required by the ElB at the time of submission as set out in the 'Terms of Reference' including:]]>  </text>
+  <floating_group class="table">
+    <otsl>
+      <location value="66"/>
+      <location value="129"/>
+      <location value="492"/>
+      <location value="357"/>
+      <srow/>
+      a)
+      <srow/>
+      Administrative forms for ElB tenders
+      <ecel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+      Form 1: Tenderer Contact Form
+      <ecel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+      Form 2: Deed of Undertaking
+      <ucel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+      Form 3: Group member declaration
+      <ucel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+      Form 4: Subcontractor declaration
+      <ucel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+      Form 5: Declaration on honour on exclusion criteria and selection criteria and on absence of conflict of interest
+      <ucel/>
+      <nl/>
+      <srow/>
+      b)
+      <srow/>
+      Documentation concerning selection criteria
+      <ecel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+      Form 6: Financial capacity
+      <ecel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+<![CDATA[Other documentation as per the requirements stated in point 1.7 of the 'Terms of Reference']]>      <ucel/>
+      <nl/>
+      <srow/>
+      c)
+      <srow/>
+      Technical proposal
+      <ecel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+<![CDATA[As per the requirements stated in point 2.2 of the 'Terms of Reference' or in the 'Technical proposal form']]>      <ecel/>
+      <nl/>
+      <srow/>
+      d)
+      <srow/>
+      proposal
+      <ecel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+<![CDATA[Financial proposal form as attached to the 'Terms of Reference']]>      <ecel/>
+      <nl/>
+      <srow/>
+      e) Any
+      <srow/>
+      further documentation required by the Terms
+      <srow/>
+      of Reference
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="303"/>
+    <location value="170"/>
+    <location value="486"/>
+    <location value="184"/>
+    and dated forms listed in the column to the
+  </text>
+  <text>
+    <location value="303"/>
+    <location value="186"/>
+    <location value="487"/>
+    <location value="199"/>
+    Submission. To be uploaded in section concerned in e-
+  </text>
+  <text>
+    <location value="302"/>
+    <location value="210"/>
+    <location value="489"/>
+    <location value="247"/>
+    Sole tenderers, members of a Group of economic operators (e.g. consortium) including subcontractors - if applicable - to selection criteria. must provide the documentation in relation
+  </text>
+  <text>
+    <location value="304"/>
+    <location value="248"/>
+    <location value="487"/>
+    <location value="262"/>
+    Submission. To be uploaded in section concerned in e-
+  </text>
+  <text>
+    <location value="303"/>
+    <location value="272"/>
+    <location value="487"/>
+    <location value="286"/>
+<![CDATA[down in 'Terms of Reference'. It must address all the requirements laid]]>  </text>
+  <text>
+    <location value="304"/>
+    <location value="288"/>
+    <location value="487"/>
+    <location value="301"/>
+    Submission. To be uploaded in section concerned in e-
+  </text>
+  <text>
+    <location value="303"/>
+    <location value="319"/>
+    <location value="487"/>
+    <location value="334"/>
+    proposal form. The completed and signed financial
+  </text>
+  <text>
+    <location value="304"/>
+    <location value="335"/>
+    <location value="487"/>
+    <location value="348"/>
+    Submission. To be uploaded in section concerned in e-
+  </text>
+  <text>
+    <location value="62"/>
+    <location value="367"/>
+    <location value="475"/>
+    <location value="382"/>
+    N.B. The following documents shall be dated and signed, either by hand or by applying an advanced electronic signature based on a qualified certificate, by an authorised representative of the signatory:
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="78"/>
+      <location value="394"/>
+      <location value="476"/>
+      <location value="408"/>
+<![CDATA[• Declaration(s) on honour (Form 5 of the 'Administrative Forms for EIB Tenders'), in case of a joint tender to be signed by the authorised representatives of each member of the Group;]]>    </list_text>
+    <list_text>
+      <location value="78"/>
+      <location value="410"/>
+      <location value="476"/>
+      <location value="432"/>
+      The tender report (a document generated by e-Submission and listing all the documents included in the tender, to be signed by the tenderer or the group leader in case of a joint tender);
+    </list_text>
+    <list_text>
+      <location value="77"/>
+      <location value="433"/>
+      <location value="476"/>
+      <location value="454"/>
+<![CDATA[• If applicable, the group member/subcontractor declarations (Form 3 and/or Form 4 of the 'Administrative Forms for EIB Tenders'), to be signed by the respective consortium member or subcontractor.]]>    </list_text>
+  </list>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="70"/>
+      <location value="482"/>
+      <location value="94"/>
+      <location value="493"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="227"/>
+    <location value="489"/>
+    <location value="312"/>
+    <location value="495"/>
+    Last updated: June 2020
+  </text>
+  <text>
+    <location value="429"/>
+    <location value="489"/>
+    <location value="474"/>
+    <location value="495"/>
+    Page 20 of 21
+  </text>
+</doclang>

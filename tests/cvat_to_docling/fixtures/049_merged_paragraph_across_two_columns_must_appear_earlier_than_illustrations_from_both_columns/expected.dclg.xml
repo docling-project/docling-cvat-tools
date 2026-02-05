@@ -1,0 +1,164 @@
+<doclang version="1.0.0">
+  <floating_group class="picture">
+    <caption>
+      <location value="62"/>
+      <location value="134"/>
+      <location value="267"/>
+      <location value="149"/>
+      Figure 5-20.  Torsion on a rotating shaft, made up of tension and  compression.
+    </caption>
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="62"/>
+      <location value="30"/>
+      <location value="267"/>
+      <location value="128"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="62"/>
+    <location value="161"/>
+    <location value="266"/>
+    <location value="177"/>
+    length from the blades to the center of the shaft, and creates  the torque that causes rotation.  [Figure 5-21]
+  </text>
+  <heading level="2">
+    <location value="62"/>
+    <location value="186"/>
+    <location value="96"/>
+    <location value="192"/>
+    Bending
+  </heading>
+  <text>
+    <location value="62"/>
+    <location value="195"/>
+    <location value="266"/>
+    <location value="284"/>
+    An airplane in flight experiences a bending force on the wing  as aerodynamic lift tries to raise the wing. This force of lift  causes the skin on the top of the wing to compress and the  skin on the bottom of the wing to be under tension. When the  airplane is on the ground sitting on is landing gear, the force  of gravity tries to bend the wing downward, subjecting the  bottom of the wing to compression and the top of the wing  tension.  [Figure 5-22]  During the testing that occurs prior  to FAA certification, an airplane manufacturer intentionally  bends the wing up and down to make sure it can take the  stress without failing.
+  </text>
+  <heading level="2">
+    <location value="62"/>
+    <location value="293"/>
+    <location value="86"/>
+    <location value="299"/>
+    Shear
+  </heading>
+  <text>
+    <location value="62"/>
+    <location value="302"/>
+    <location value="267"/>
+    <location value="326"/>
+    When a shear stress is applied to an object, the force trues  to cut or slice through, like a knife cutting through butter.  A clevis bolt, which is often used to secure a cable to a part
+  </text>
+  <text>
+    <location value="276"/>
+    <location value="129"/>
+    <location value="481"/>
+    <location value="177"/>
+    of the airframe, has shear stress acting on it. As shown in  Figure 5-23 , a fork fitting is secured to the end of the cable,  and the fork attaches to an eye on the airframe with the clevis  bolt. When the cable is put under tension, the fork tries to  slide off the eye by cutting through the clevis bolt. This bolt  would be designed to take very high shear loads.
+  </text>
+  <floating_group class="picture">
+    <caption>
+      <location value="62"/>
+      <location value="458"/>
+      <location value="265"/>
+      <location value="464"/>
+      Figure 5-21.  Turbofan engine, torque creating torsion in the shaft.
+    </caption>
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="62"/>
+      <location value="334"/>
+      <location value="267"/>
+      <location value="452"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <caption>
+      <location value="277"/>
+      <location value="103"/>
+      <location value="481"/>
+      <location value="117"/>
+      Figure 5-22.  Airplane on the ground, wing under tension and  compression.
+    </caption>
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="276"/>
+      <location value="30"/>
+      <location value="482"/>
+      <location value="97"/>
+    </picture>
+  </floating_group>
+  <heading level="2">
+    <location value="277"/>
+    <location value="186"/>
+    <location value="301"/>
+    <location value="192"/>
+    Strain
+  </heading>
+  <text>
+    <location value="277"/>
+    <location value="195"/>
+    <location value="481"/>
+    <location value="250"/>
+    If the stress acting on an object is great enough, it can cause  the object to change its shape or to become distorted. One  characteristic of matter is that it tends to be elastic, meaning  it can be forced out of shape when a force is applied and then  return to its original shape when the force is removed. When  an object becomes distorted by an applied force, the object  is said to be strained.
+  </text>
+  <text>
+    <location value="277"/>
+    <location value="261"/>
+    <location value="481"/>
+    <location value="301"/>
+    On turbine engine test cells,  the  thrust  of  the  engine  is  typically measured by what are called strain gages. When  the force, or thrust, of the engine is pulling out against the  strain gages, the amount of distortion is measured and then  translated into the appropriate thrust reading.
+  </text>
+  <text>
+    <location value="277"/>
+    <location value="311"/>
+    <location value="482"/>
+    <location value="334"/>
+    A deflecting beam style of torque wrench uses the strain on the  drive end of the wrench and the resulting distortion of the beam  to indicate the amount of torque on a bolt or nut.  [Figure 5-24]
+  </text>
+  <heading level="2">
+    <location value="277"/>
+    <location value="342"/>
+    <location value="310"/>
+    <location value="349"/>
+    Motion
+  </heading>
+  <text>
+    <location value="277"/>
+    <location value="354"/>
+    <location value="481"/>
+    <location value="378"/>
+<![CDATA[The study of the relationship between the motion of bodies  or objects and the forces acting on them is often called the  study of 'force and motion.' In a more specific sense, the]]>  </text>
+  <floating_group class="picture">
+    <caption>
+      <location value="277"/>
+      <location value="450"/>
+      <location value="481"/>
+      <location value="464"/>
+      Figure 5-23.  Clevis bolt, red arrows show opposing forces trying  to shear the bolt.
+    </caption>
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="276"/>
+      <location value="385"/>
+      <location value="482"/>
+      <location value="444"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="464"/>
+    <location value="483"/>
+    <location value="481"/>
+    <location value="488"/>
+    5-15
+  </text>
+</doclang>

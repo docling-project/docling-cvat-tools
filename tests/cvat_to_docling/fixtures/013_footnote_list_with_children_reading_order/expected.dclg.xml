@@ -1,0 +1,205 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="35"/>
+    <location value="13"/>
+    <location value="53"/>
+    <location value="32"/>
+    7
+  </text>
+  <text>
+    <location value="69"/>
+    <location value="24"/>
+    <location value="169"/>
+    <location value="28"/>
+    CORPORATE GOVERNANCE
+  </text>
+  <text>
+    <location value="64"/>
+    <location value="35"/>
+    <location value="110"/>
+    <location value="40"/>
+    Compensation
+  </text>
+  <text>
+    <location value="56"/>
+    <location value="69"/>
+    <location value="422"/>
+    <location value="90"/>
+    Stock options granted to and exercised by the ten Group employees receiving  or exercising the largest number of options (other than corporate offi   cers)  during Fiscal 2013
+  </text>
+  <floating_group class="table">
+    <otsl>
+      <location value="55"/>
+      <location value="96"/>
+      <location value="471"/>
+      <location value="149"/>
+      <ecel/>
+      <ched/>
+      Total number
+      <ched/>
+      Weighted average price (in euro)
+      <nl/>
+      <rhed/>
+      Options granted during the fiscal year to the ten Group employees  receiving the largest number of options
+      <fcel/>
+      0
+      <fcel/>
+      -
+      <nl/>
+      <rhed/>
+      Options exercised during the fiscal year by the ten Group employees  exercising the largest number of options (1)
+      <fcel/>
+      270,761
+      <fcel/>
+      41.00
+      <nl/>
+    </otsl>
+    <footnote>
+      <location value="55"/>
+      <location value="155"/>
+      <location value="466"/>
+      <location value="165"/>
+      (1) Including  34,576  options  granted  January  1,  2007,  40,810  options  granted  on  January  7,  2008,  142,500  options  granted  on  January 19, 2009 and 52,875 options granted on January 10, 2010.
+    </footnote>
+  </floating_group>
+  <heading level="2">
+    <location value="56"/>
+    <location value="177"/>
+    <location value="285"/>
+    <location value="183"/>
+    7.3.4.2  FREE SHARES GRANTED TO MANAGERS
+  </heading>
+  <text>
+    <location value="55"/>
+    <location value="195"/>
+    <location value="252"/>
+    <location value="223"/>
+    A  total  of  840,755  free  shares  had  been  granted  to  managers  as  of  August  31,  2013  (representing  approximately 0.53% of the capital and a dilutive impact  of no more than 0.53% based on the share capital at that
+  </text>
+  <text>
+    <location value="274"/>
+    <location value="195"/>
+    <location value="470"/>
+    <location value="223"/>
+    date). The cost of these free shares was 47,199,986 euro  based on fair value at the grant date, taking into account  the related terms and conditions. This fi  rst allocation  concerned 1,123 benefi  ciaries.
+  </text>
+  <floating_group class="table">
+    <otsl>
+      <location value="55"/>
+      <location value="235"/>
+      <location value="471"/>
+      <location value="313"/>
+      <ched/>
+<![CDATA[Date of  Shareholders'  Meeting]]>      <ched/>
+      Date of Board  meeting (1)
+      <ched/>
+      Total  number  of shares  granted
+      <ched/>
+      Total number  of shares  granted to  Corporate  Officers  (Michel Landel)
+      <ched/>
+      Vesting date (2)
+      <ched/>
+      End of lock-up  period
+      <ched/>
+      Number  of vested  shares at  October 31,  2013
+      <ched/>
+      Cumulative  number of  free shares  cancelled (4)
+      <ched/>
+      Free share  outstanding  as of  October 31,  2013
+      <nl/>
+      <rhed/>
+      January 21,  2013
+      <fcel/>
+      April 25, 2013 (France)
+      <fcel/>
+      288,975
+      <fcel/>
+      37,000
+      <fcel/>
+      April 25, 2015  or  April 25, 2016
+      <fcel/>
+      April 25, 2017  or  April 25, 2018
+      <fcel/>
+      0
+      <fcel/>
+      900
+      <fcel/>
+      288,075
+      <nl/>
+      <rhed/>
+      January 21,  2013
+      <fcel/>
+      April 25, 2013  (International)
+      <fcel/>
+      551,780
+      <ecel/>
+      <fcel/>
+      April 25, 2017
+      <fcel/>
+      April 25, 2017
+      <fcel/>
+      0
+      <fcel/>
+      1,550
+      <fcel/>
+      550,230
+      <nl/>
+    </otsl>
+    <footnote>
+      <location value="55"/>
+      <location value="319"/>
+      <location value="119"/>
+      <location value="323"/>
+      (1) Plan beneficiaries:
+    </footnote>
+    <footnote>
+      <location value="55"/>
+      <location value="336"/>
+      <location value="467"/>
+      <location value="346"/>
+      (2) The  vesting  date  of  shares  varies  for  the  Plan  reserved  for  employees  in  France,  depending  on  whether  or  not  they  are  subject  to  performance conditions.
+    </footnote>
+    <footnote>
+      <location value="55"/>
+      <location value="352"/>
+      <location value="301"/>
+      <location value="357"/>
+      (4) Total number of free shares cancelled due to the beneficiaries leaving the Group.
+    </footnote>
+  </floating_group>
+  <text>
+    <location value="65"/>
+    <location value="325"/>
+    <location value="226"/>
+    <location value="329"/>
+    France: Plan reserved for employees resident in France.
+  </text>
+  <text>
+    <location value="65"/>
+    <location value="330"/>
+    <location value="316"/>
+    <location value="335"/>
+    International: Plan reserved for employees not resident in France and for U.S. citizens.
+  </text>
+  <footnote>
+    <location value="55"/>
+    <location value="347"/>
+    <location value="437"/>
+    <location value="352"/>
+    (3) Shares not subject to performance conditions for employees in France are subject to a two-year lock-up after the vesting date.
+  </footnote>
+  <text>
+    <location value="29"/>
+    <location value="494"/>
+    <location value="47"/>
+    <location value="500"/>
+    322
+  </text>
+  <text>
+    <location value="55"/>
+    <location value="496"/>
+    <location value="201"/>
+    <location value="501"/>
+    Sodexo  - Registration Document Fiscal 2013
+  </text>
+</doclang>

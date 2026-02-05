@@ -1,0 +1,206 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="186"/>
+    <location value="26"/>
+    <location value="232"/>
+    <location value="31"/>
+    share ownership
+  </text>
+  <heading level="1">
+    <location value="106"/>
+    <location value="61"/>
+    <location value="232"/>
+    <location value="72"/>
+    share ownership (continued)
+  </heading>
+  <text>
+    <location value="79"/>
+    <location value="99"/>
+    <location value="122"/>
+    <location value="104"/>
+    at 30 June 2003
+  </text>
+  <heading level="2">
+    <location value="80"/>
+    <location value="111"/>
+    <location value="135"/>
+    <location value="116"/>
+    Major shareholders
+  </heading>
+  <text>
+    <location value="80"/>
+    <location value="118"/>
+    <location value="416"/>
+    <location value="129"/>
+    Pursuant to section 140A of the South African Companies Act, the following beneficial shareholdings exceeding 5% in aggregate, as at 30 June 2003, were disclosed or established from enquiries:
+  </text>
+  <floating_group class="table">
+    <otsl>
+      <location value="79"/>
+      <location value="132"/>
+      <location value="433"/>
+      <location value="182"/>
+      <ecel/>
+      <ched/>
+      Number of shares (millions)
+      <ched/>
+      % of shares
+      <nl/>
+      <rhed/>
+      Public Investment Commissioner
+      <fcel/>
+      89
+      <fcel/>
+      13,4
+      <nl/>
+      <rhed/>
+      Sasol Investment Company (Pty) Limited*
+      <fcel/>
+      60
+      <fcel/>
+      8,9
+      <nl/>
+      <rhed/>
+      Industrial Development Corporation of South Africa Limited
+      <fcel/>
+      53
+      <fcel/>
+      8,0
+      <nl/>
+    </otsl>
+    <footnote>
+      <location value="80"/>
+      <location value="184"/>
+      <location value="173"/>
+      <location value="189"/>
+      * A wholly-owned subsidiary of Sasol Limited.
+    </footnote>
+  </floating_group>
+  <text>
+    <location value="79"/>
+    <location value="195"/>
+    <location value="432"/>
+    <location value="212"/>
+    Furthermore the directors have ascertained that some of the shares registered in the names of nominee holders are managed by various fund managers and that, at 30 June 2003, the following fund managers were responsible for managing 2% or more of the share capital of Sasol Limited:
+  </text>
+  <floating_group class="table">
+    <otsl>
+      <location value="79"/>
+      <location value="215"/>
+      <location value="433"/>
+      <location value="314"/>
+      <ecel/>
+      <ched/>
+      Number of shares (millions)
+      <ched/>
+      % of shares
+      <nl/>
+      <rhed/>
+      Old Mutual Asset Management
+      <fcel/>
+      83
+      <fcel/>
+      12,5
+      <nl/>
+      <rhed/>
+      Sanlam Investment Managers
+      <fcel/>
+      42
+      <fcel/>
+      6,3
+      <nl/>
+      <rhed/>
+      Stanlib Limited
+      <fcel/>
+      40
+      <fcel/>
+      6,1
+      <nl/>
+      <rhed/>
+      Stanlib Limited Allan Gray Limited
+      <fcel/>
+      40  35
+      <fcel/>
+      5,3
+      <nl/>
+      <rhed/>
+      Capital International Inc. (USA)
+      <fcel/>
+      33
+      <fcel/>
+      5,1
+      <nl/>
+      <rhed/>
+      RMB Asset Management
+      <fcel/>
+      24
+      <fcel/>
+      3,7
+      <nl/>
+      <rhed/>
+      Investec Asset Management
+      <fcel/>
+      17
+      <fcel/>
+      2,7
+      <nl/>
+      <rhed/>
+      PIC Equities
+      <fcel/>
+      17
+      <fcel/>
+      2,7
+      <nl/>
+      <rhed/>
+      Wellington Management Company LLP (USA)
+      <fcel/>
+      15
+      <fcel/>
+      2,4
+      <nl/>
+      <rhed/>
+      Coronation Asset Management
+      <fcel/>
+      15
+      <fcel/>
+      2,4
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="80"/>
+    <location value="325"/>
+    <location value="164"/>
+    <location value="331"/>
+    Beneficial holding disclosures
+  </heading>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="116"/>
+      <location value="342"/>
+      <location value="376"/>
+      <location value="396"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="113"/>
+      <location value="419"/>
+      <location value="380"/>
+      <location value="468"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="36"/>
+    <location value="493"/>
+    <location value="43"/>
+    <location value="497"/>
+    90
+  </text>
+</doclang>

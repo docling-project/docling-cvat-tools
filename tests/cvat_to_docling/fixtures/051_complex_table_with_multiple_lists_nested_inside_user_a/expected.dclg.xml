@@ -1,0 +1,201 @@
+<doclang version="1.0.0">
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Logo</classification>
+      </meta>
+      <location value="87"/>
+      <location value="29"/>
+      <location value="170"/>
+      <location value="55"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="150"/>
+    <location value="48"/>
+    <location value="194"/>
+    <location value="55"/>
+  </text>
+  <heading level="1">
+    <location value="210"/>
+    <location value="58"/>
+    <location value="338"/>
+    <location value="65"/>
+    Terms of Reference
+  </heading>
+  <heading level="2">
+    <location value="78"/>
+    <location value="111"/>
+    <location value="236"/>
+    <location value="117"/>
+    1.8.1.   Qualitative award criteria
+  </heading>
+  <text>
+    <location value="77"/>
+    <location value="125"/>
+    <location value="435"/>
+    <location value="141"/>
+    A maximum of 100 points will be awarded for the quality of the tender. The overall  quality  of  each  tender  for  each  lot  will be evaluated  on  the  basis  of  the  following  criteria:
+  </text>
+  <floating_group class="table">
+    <otsl>
+      <location value="81"/>
+      <location value="145"/>
+      <location value="429"/>
+      <location value="427"/>
+      <ched/>
+      Qualitative award criteria (Q)
+      <ched/>
+      WEIGHTING
+      <nl/>
+      <fcel/>
+      1.  Quality of the blended learning approach
+      <fcel/>
+      20 points
+      <nl/>
+      <ecel/>
+      <fcel/>
+      5 points per aspect
+      <nl/>
+      <fcel/>
+      2. Quality of the proposal for a classroom course as part  of the blended learning approach
+      <fcel/>
+      40 points
+      <nl/>
+      <ecel/>
+      <fcel/>
+      10 points per aspect
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="86"/>
+    <location value="170"/>
+    <location value="323"/>
+    <location value="190"/>
+    Tenderers must submit a document in A4 format of no more  than 2,000 words containing a proposal for a blended learning  concept in response to the exercise in Annex F - Exercises.
+  </text>
+  <text>
+    <location value="87"/>
+    <location value="202"/>
+    <location value="287"/>
+    <location value="208"/>
+    The following aspects will be used to assess quality:
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="103"/>
+      <location value="211"/>
+      <location value="324"/>
+      <location value="224"/>
+      1.  the approach takes into account key challenges and  learning objectives;
+    </list_text>
+    <list_text>
+      <location value="102"/>
+      <location value="226"/>
+      <location value="323"/>
+      <location value="246"/>
+      2.  it proposes a blend of solutions adapted to the needs  of  the  target  group  and  ensures  effective  learning  transfer;
+    </list_text>
+    <list_text>
+      <location value="103"/>
+      <location value="249"/>
+      <location value="324"/>
+      <location value="270"/>
+      3.  the  content  and  methods  are  consistent  and  complementary across the  various  learning  formats  proposed;
+    </list_text>
+    <list_text>
+      <location value="102"/>
+      <location value="272"/>
+      <location value="324"/>
+      <location value="292"/>
+      4.  the  tools  proposed  ensure  that  pre-requisites  are  completed on time and allow effective evaluation of the  impact of the blended learning approach.
+    </list_text>
+  </list>
+  <text>
+    <location value="88"/>
+    <location value="324"/>
+    <location value="324"/>
+    <location value="344"/>
+    Tenderers must submit a document in A4 format of no more  than  2,000  words  describing a  1-day  classroom course in  response to the exercise in Annex F - Exercises.
+  </text>
+  <text>
+    <location value="87"/>
+    <location value="355"/>
+    <location value="287"/>
+    <location value="361"/>
+    The following aspects will be used to assess quality:
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="103"/>
+      <location value="364"/>
+      <location value="324"/>
+      <location value="378"/>
+      1.  the learning objectives are clear and suitable for the  target group;
+    </list_text>
+    <list_text>
+      <location value="103"/>
+      <location value="380"/>
+      <location value="323"/>
+      <location value="393"/>
+      2.  the course methodology, timing and evaluation tools  are appropriate;
+    </list_text>
+    <list_text>
+      <location value="103"/>
+      <location value="396"/>
+      <location value="323"/>
+      <location value="409"/>
+      3.  the  course  is  dynamic,  interactive  and  promotes  exchange among participants;
+    </list_text>
+    <list_text>
+      <location value="102"/>
+      <location value="412"/>
+      <location value="323"/>
+      <location value="425"/>
+      4.  the proposed examples, case studies and/or exercises  are practical and relevant.
+    </list_text>
+  </list>
+  <text>
+    <location value="77"/>
+    <location value="459"/>
+    <location value="106"/>
+    <location value="463"/>
+    CFT-1626
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="278"/>
+      <location value="452"/>
+      <location value="296"/>
+      <location value="457"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="272"/>
+    <location value="460"/>
+    <location value="297"/>
+    <location value="463"/>
+  </text>
+  <text>
+    <location value="388"/>
+    <location value="459"/>
+    <location value="434"/>
+    <location value="464"/>
+    Page 19 of 52
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Decoration</classification>
+      </meta>
+      <location value="178"/>
+      <location value="42"/>
+      <location value="200"/>
+      <location value="58"/>
+    </picture>
+  </floating_group>
+</doclang>

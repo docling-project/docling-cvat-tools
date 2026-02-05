@@ -433,8 +433,8 @@
           ]
         }
       ],
-      "orig": "WORK EHPERIENCE",
-      "text": "WORK EHPERIENCE",
+      "orig": "WORK EXPERIENCE",
+      "text": "WORK EXPERIENCE",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -1117,12 +1117,12 @@
           },
           "charspan": [
             0,
-            10
+            9
           ]
         }
       ],
-      "orig": "LANGUGAGES",
-      "text": "LANGUGAGES",
+      "orig": "LANGUAGES",
+      "text": "LANGUAGES",
       "formatting": null,
       "hyperlink": null,
       "level": 2
@@ -1566,7 +1566,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "person"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1608,7 +1622,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "icon"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1650,7 +1678,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "icon"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {

@@ -1,0 +1,620 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="41"/>
+    <location value="34"/>
+    <location value="55"/>
+    <location value="39"/>
+    Form
+  </text>
+  <text>
+    <location value="58"/>
+    <location value="27"/>
+    <location value="99"/>
+    <location value="39"/>
+    8822
+  </text>
+  <text>
+    <location value="41"/>
+    <location value="43"/>
+    <location value="94"/>
+    <location value="49"/>
+    (Rev. February 2021)
+  </text>
+  <text>
+    <location value="41"/>
+    <location value="52"/>
+    <location value="108"/>
+    <location value="61"/>
+    Department of the Treasury Internal Revenue Service
+  </text>
+  <heading level="1">
+    <location value="206"/>
+    <location value="28"/>
+    <location value="317"/>
+    <location value="37"/>
+    Change of Address
+  </heading>
+  <text>
+    <location value="127"/>
+    <location value="40"/>
+    <location value="396"/>
+    <location value="47"/>
+    (For Individual, Gift, Estate, or Generation-Skipping Transfer Tax Returns)
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="117"/>
+      <location value="49"/>
+      <location value="187"/>
+      <location value="54"/>
+      • Please type or print.
+    </list_text>
+    <list_text>
+      <location value="190"/>
+      <location value="49"/>
+      <location value="277"/>
+      <location value="54"/>
+      • See instructions on back.
+    </list_text>
+    <list_text>
+      <location value="279"/>
+      <location value="49"/>
+      <location value="406"/>
+      <location value="55"/>
+      • Do not attach this form to your return.
+    </list_text>
+    <list_text>
+      <location value="153"/>
+      <location value="56"/>
+      <location value="370"/>
+      <location value="61"/>
+      • Information about Form 8822 is available at www.irs.gov/form8822
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="70"/>
+        <location value="94"/>
+        <location value="481"/>
+        <location value="109"/>
+        • If your last return was a joint return and you are now establishing a residence separate from the spouse with whom you filed that return, check here.. . . . . .
+      </list_text>
+      <list_text>
+        <location value="69"/>
+        <location value="125"/>
+        <location value="374"/>
+        <location value="131"/>
+<![CDATA[• For Forms 706 and 706-NA, enter the decedent's name and social security number below.]]>      </list_text>
+      <list_text>
+        <location value="69"/>
+        <location value="139"/>
+        <location value="136"/>
+        <location value="145"/>
+<![CDATA[• Decedent's name]]>      </list_text>
+      <list_text>
+        <location value="287"/>
+        <location value="140"/>
+        <location value="371"/>
+        <location value="146"/>
+        Social security number
+      </list_text>
+      <list_text>
+        <location value="48"/>
+        <location value="148"/>
+        <location value="179"/>
+        <location value="154"/>
+        3а Your name (first name, initial, and last name)
+      </list_text>
+      <list_text>
+        <location value="377"/>
+        <location value="148"/>
+        <location value="470"/>
+        <location value="154"/>
+        3b Your social security number
+      </list_text>
+      <list_text>
+        <location value="48"/>
+        <location value="170"/>
+        <location value="192"/>
+        <location value="176"/>
+<![CDATA[4a Spouse's name (first name, initial, and last name)]]>      </list_text>
+      <list_text>
+        <location value="377"/>
+        <location value="171"/>
+        <location value="480"/>
+        <location value="177"/>
+<![CDATA[4b Spouse's social security number]]>      </list_text>
+    </list>
+  </list>
+  <location value="473"/>
+  <location value="103"/>
+  <location value="480"/>
+  <location value="109"/>
+  <checkbox class="unselected"/>
+  <text>
+    <location value="420"/>
+    <location value="43"/>
+    <location value="473"/>
+    <location value="48"/>
+    OMB No. 1545-1163
+  </text>
+  <heading level="2">
+    <location value="45"/>
+    <location value="65"/>
+    <location value="67"/>
+    <location value="71"/>
+    Part
+  </heading>
+  <heading level="2">
+    <location value="82"/>
+    <location value="65"/>
+    <location value="313"/>
+    <location value="72"/>
+    Complete This Part To Change Your Home Mailing Address
+  </heading>
+  <text>
+    <location value="41"/>
+    <location value="76"/>
+    <location value="161"/>
+    <location value="82"/>
+    Check all boxes this change affects:
+  </text>
+  <location value="48"/>
+  <location value="84"/>
+  <location value="293"/>
+  <location value="96"/>
+  <checkbox class="selected"/>
+  1 * Individual income tax returns (Forms 1040, 1040-SR, 1040-NR, etc.)
+  <location value="48"/>
+  <location value="117"/>
+  <location value="323"/>
+  <location value="125"/>
+  <checkbox class="unselected"/>
+  2 [ Gift, estate, or generation-skipping transfer tax returns (Forms 706, 709, etc.)
+  <floating_group class="picture">
+    <picture>
+      <location value="62"/>
+      <location value="154"/>
+      <location value="228"/>
+      <location value="166"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <location value="381"/>
+      <location value="155"/>
+      <location value="492"/>
+      <location value="166"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <location value="69"/>
+      <location value="177"/>
+      <location value="97"/>
+      <location value="189"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="370"/>
+    <location value="169"/>
+    <location value="481"/>
+    <location value="192"/>
+<![CDATA[4b Spouse's social security number]]>  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="48"/>
+      <location value="192"/>
+      <location value="161"/>
+      <location value="198"/>
+      5a Your prior name(s). See instructions.
+    </list_text>
+  </list>
+  <floating_group class="picture">
+    <picture>
+      <location value="69"/>
+      <location value="199"/>
+      <location value="100"/>
+      <location value="210"/>
+    </picture>
+  </floating_group>
+  <list ordered="false">
+    <list_text>
+      <location value="48"/>
+      <location value="214"/>
+      <location value="172"/>
+      <location value="221"/>
+<![CDATA[5b Spouse's prior name(s). See instructions.]]>    </list_text>
+  </list>
+  <floating_group class="picture">
+    <picture>
+      <location value="69"/>
+      <location value="221"/>
+      <location value="100"/>
+      <location value="233"/>
+    </picture>
+  </floating_group>
+  <list ordered="false">
+    <list_text>
+      <location value="47"/>
+      <location value="237"/>
+      <location value="452"/>
+      <location value="246"/>
+      6а Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,
+    </list_text>
+  </list>
+  <floating_group class="picture">
+    <picture>
+      <location value="71"/>
+      <location value="244"/>
+      <location value="500"/>
+      <location value="257"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="42"/>
+    <location value="259"/>
+    <location value="98"/>
+    <location value="264"/>
+    Foreign country name
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <location value="77"/>
+      <location value="264"/>
+      <location value="115"/>
+      <location value="275"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="277"/>
+    <location value="259"/>
+    <location value="340"/>
+    <location value="264"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <location value="285"/>
+      <location value="263"/>
+      <location value="313"/>
+      <location value="277"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="423"/>
+    <location value="259"/>
+    <location value="475"/>
+    <location value="265"/>
+    Foreign postal code
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <location value="433"/>
+      <location value="264"/>
+      <location value="461"/>
+      <location value="276"/>
+    </picture>
+  </floating_group>
+  <list ordered="false">
+    <list_text>
+      <location value="47"/>
+      <location value="274"/>
+      <location value="462"/>
+      <location value="284"/>
+      complete spaces below, see instructions.
+    </list_text>
+  </list>
+  <floating_group class="picture">
+    <picture>
+      <location value="83"/>
+      <location value="284"/>
+      <location value="116"/>
+      <location value="294"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="42"/>
+    <location value="296"/>
+    <location value="99"/>
+    <location value="301"/>
+    Foreign country name
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <location value="85"/>
+      <location value="297"/>
+      <location value="120"/>
+      <location value="310"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="275"/>
+    <location value="296"/>
+    <location value="422"/>
+    <location value="311"/>
+    Foreign province/county
+  </text>
+  <text>
+    <location value="276"/>
+    <location value="296"/>
+    <location value="339"/>
+    <location value="302"/>
+    Foreign province/county
+  </text>
+  <text>
+    <location value="422"/>
+    <location value="296"/>
+    <location value="481"/>
+    <location value="311"/>
+    Foreign postal code
+  </text>
+  <text>
+    <location value="424"/>
+    <location value="297"/>
+    <location value="475"/>
+    <location value="302"/>
+    Foreign postal code
+  </text>
+  <list ordered="false">
+    <list_text>
+      <location value="47"/>
+      <location value="312"/>
+      <location value="453"/>
+      <location value="321"/>
+      7 New address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below, see instructions.
+    </list_text>
+  </list>
+  <floating_group class="picture">
+    <picture>
+      <location value="62"/>
+      <location value="316"/>
+      <location value="464"/>
+      <location value="334"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="41"/>
+    <location value="333"/>
+    <location value="99"/>
+    <location value="339"/>
+    Foreign country name
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <location value="113"/>
+      <location value="336"/>
+      <location value="149"/>
+      <location value="347"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="276"/>
+    <location value="334"/>
+    <location value="339"/>
+    <location value="339"/>
+    Foreign province/county
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <location value="282"/>
+      <location value="339"/>
+      <location value="311"/>
+      <location value="350"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="423"/>
+    <location value="334"/>
+    <location value="475"/>
+    <location value="339"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <location value="428"/>
+      <location value="337"/>
+      <location value="463"/>
+      <location value="348"/>
+    </picture>
+  </floating_group>
+  <heading level="2">
+    <location value="43"/>
+    <location value="348"/>
+    <location value="67"/>
+    <location value="354"/>
+    Part
+  </heading>
+  <heading level="2">
+    <location value="80"/>
+    <location value="348"/>
+    <location value="118"/>
+    <location value="355"/>
+    Signature
+  </heading>
+  <text>
+    <location value="40"/>
+    <location value="360"/>
+    <location value="229"/>
+    <location value="366"/>
+    Daytime telephone number of person to contact (optional)
+  </text>
+  <text>
+    <location value="233"/>
+    <location value="356"/>
+    <location value="483"/>
+    <location value="370"/>
+    »
+  </text>
+  <heading level="2">
+    <location value="39"/>
+    <location value="391"/>
+    <location value="62"/>
+    <location value="407"/>
+    Sign Here
+  </heading>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="72"/>
+      <location value="385"/>
+      <location value="79"/>
+      <location value="400"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <location value="93"/>
+      <location value="374"/>
+      <location value="222"/>
+      <location value="393"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="80"/>
+    <location value="393"/>
+    <location value="118"/>
+    <location value="398"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <location value="236"/>
+      <location value="379"/>
+      <location value="279"/>
+      <location value="394"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="236"/>
+    <location value="394"/>
+    <location value="249"/>
+    <location value="398"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="72"/>
+      <location value="400"/>
+      <location value="79"/>
+      <location value="414"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="80"/>
+    <location value="398"/>
+    <location value="234"/>
+    <location value="407"/>
+  </text>
+  <text>
+    <location value="80"/>
+    <location value="408"/>
+    <location value="164"/>
+    <location value="413"/>
+  </text>
+  <text>
+    <location value="234"/>
+    <location value="398"/>
+    <location value="274"/>
+    <location value="407"/>
+  </text>
+  <text>
+    <location value="237"/>
+    <location value="409"/>
+    <location value="249"/>
+    <location value="412"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="278"/>
+      <location value="386"/>
+      <location value="284"/>
+      <location value="400"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="286"/>
+    <location value="370"/>
+    <location value="444"/>
+    <location value="393"/>
+  </text>
+  <text>
+    <location value="286"/>
+    <location value="394"/>
+    <location value="443"/>
+    <location value="399"/>
+  </text>
+  <text>
+    <location value="446"/>
+    <location value="371"/>
+    <location value="481"/>
+    <location value="393"/>
+  </text>
+  <text>
+    <location value="448"/>
+    <location value="394"/>
+    <location value="461"/>
+    <location value="398"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="277"/>
+      <location value="401"/>
+      <location value="284"/>
+      <location value="415"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="286"/>
+    <location value="409"/>
+    <location value="298"/>
+    <location value="413"/>
+  </text>
+  <text>
+    <location value="300"/>
+    <location value="408"/>
+    <location value="482"/>
+    <location value="415"/>
+  </text>
+  <text>
+    <location value="39"/>
+    <location value="417"/>
+    <location value="262"/>
+    <location value="422"/>
+    For Privacy Act and Paperwork Reduction Act Notice, see back of form.
+  </text>
+  <text>
+    <location value="309"/>
+    <location value="418"/>
+    <location value="352"/>
+    <location value="423"/>
+    Cat. No. 12081V
+  </text>
+  <text>
+    <location value="407"/>
+    <location value="418"/>
+    <location value="421"/>
+    <location value="422"/>
+    Form
+  </text>
+  <text>
+    <location value="424"/>
+    <location value="417"/>
+    <location value="443"/>
+    <location value="422"/>
+    8822
+  </text>
+  <text>
+    <location value="446"/>
+    <location value="418"/>
+    <location value="480"/>
+    <location value="423"/>
+    (Rev. 2-2021)
+  </text>
+</doclang>

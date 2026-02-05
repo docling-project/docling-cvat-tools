@@ -327,8 +327,8 @@
           ]
         }
       ],
-      "orig": "Ul / UX Designer",
-      "text": "Ul / UX Designer",
+      "orig": "UI / UX Designer",
+      "text": "UI / UX Designer",
       "formatting": null,
       "hyperlink": null
     },
@@ -1469,7 +1469,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "person"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1511,7 +1525,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "icon"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1553,7 +1581,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "icon"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1595,7 +1637,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "icon"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1637,7 +1693,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "icon"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1689,7 +1759,21 @@
         }
       ],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "chart"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1703,7 +1787,7 @@
           },
           "charspan": [
             0,
-            68
+            62
           ]
         }
       ],
@@ -2041,8 +2125,8 @@
           {
             "label": "value",
             "cell_id": 13,
-            "text": "*****",
-            "orig": "*****",
+            "text": "",
+            "orig": "",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -2054,7 +2138,7 @@
               },
               "charspan": [
                 0,
-                5
+                0
               ]
             },
             "item_ref": null

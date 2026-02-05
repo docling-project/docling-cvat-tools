@@ -1,0 +1,410 @@
+<doclang version="1.0.0">
+  <heading level="1">
+    <location value="93"/>
+    <location value="31"/>
+    <location value="418"/>
+    <location value="52"/>
+    UNITED STATES SECURITIES AND EXCHANGE COMMISSION
+  </heading>
+  <text>
+    <location value="203"/>
+    <location value="53"/>
+    <location value="308"/>
+    <location value="61"/>
+    Washington, D.C. 20549
+  </text>
+  <text>
+    <location value="221"/>
+    <location value="66"/>
+    <location value="291"/>
+    <location value="75"/>
+    Form 20-F
+  </text>
+  <location value="55"/>
+  <location value="77"/>
+  <location value="427"/>
+  <location value="90"/>
+  <checkbox class="unselected"/>
+<![CDATA[' REGISTRATION STATEMENT PURSUANT TO SECTION 12(b) OR (g) OF THE SECURITIES EXCHANGE ACT OF 1934]]>  
+  <text>
+    <location value="249"/>
+    <location value="93"/>
+    <location value="263"/>
+    <location value="98"/>
+    OR
+  </text>
+  <location value="55"/>
+  <location value="100"/>
+  <location value="428"/>
+  <location value="114"/>
+  <checkbox class="selected"/>
+  È ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+  <text>
+    <location value="175"/>
+    <location value="116"/>
+    <location value="337"/>
+    <location value="122"/>
+    For the fiscal year ended September 30, 2013
+  </text>
+  <text>
+    <location value="249"/>
+    <location value="124"/>
+    <location value="263"/>
+    <location value="129"/>
+    OR
+  </text>
+  <location value="55"/>
+  <location value="131"/>
+  <location value="446"/>
+  <location value="145"/>
+  <checkbox class="unselected"/>
+<![CDATA[' TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934]]>  
+  <text>
+    <location value="249"/>
+    <location value="148"/>
+    <location value="263"/>
+    <location value="154"/>
+    OR
+  </text>
+  <location value="55"/>
+  <location value="156"/>
+  <location value="416"/>
+  <location value="169"/>
+  <checkbox class="unselected"/>
+<![CDATA[' SHELL COMPANY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934]]>  
+  <text>
+    <location value="71"/>
+    <location value="171"/>
+    <location value="249"/>
+    <location value="178"/>
+    Date of event requiring this shell company report
+  </text>
+  <text>
+    <location value="160"/>
+    <location value="176"/>
+    <location value="353"/>
+    <location value="184"/>
+    For the transition period from to .
+  </text>
+  <text>
+    <location value="271"/>
+    <location value="178"/>
+    <location value="304"/>
+    <location value="184"/>
+  </text>
+  <text>
+    <location value="316"/>
+    <location value="178"/>
+    <location value="349"/>
+    <location value="184"/>
+  </text>
+  <text>
+    <location value="195"/>
+    <location value="185"/>
+    <location value="318"/>
+    <location value="191"/>
+    Commission File Number 1-14840
+  </text>
+  <heading level="1">
+    <location value="171"/>
+    <location value="196"/>
+    <location value="340"/>
+    <location value="207"/>
+    AMDOCS LIMITED
+  </heading>
+  <text>
+    <location value="181"/>
+    <location value="209"/>
+    <location value="331"/>
+    <location value="214"/>
+    (Exact name of Registrant as specified in its charter)
+  </text>
+  <text>
+    <location value="229"/>
+    <location value="215"/>
+    <location value="283"/>
+    <location value="220"/>
+    Island of Guernsey
+  </text>
+  <text>
+    <location value="197"/>
+    <location value="221"/>
+    <location value="314"/>
+    <location value="226"/>
+    (Jurisdiction of incorporation or organization)
+  </text>
+  <text>
+    <location value="165"/>
+    <location value="227"/>
+    <location value="347"/>
+    <location value="250"/>
+    Hirzel House, Smith Street, St. Peter Port, Island of Guernsey, GY1 2NG Amdocs, Inc. 1390 Timberlake Manor Parkway, Chesterfield, Missouri 63017
+  </text>
+  <text>
+    <location value="207"/>
+    <location value="250"/>
+    <location value="305"/>
+    <location value="255"/>
+    (Address of principal executive offices)
+  </text>
+  <text>
+    <location value="163"/>
+    <location value="256"/>
+    <location value="347"/>
+    <location value="285"/>
+    Elizabeth W. McDermon Amdocs, Inc. 1390 Timberlake Manor Parkway, Chesterfield, Missouri 63017 Telephone: 314-212-8328 Email: dox_info@amdocs.com
+  </text>
+  <text>
+    <location value="138"/>
+    <location value="286"/>
+    <location value="374"/>
+    <location value="290"/>
+    (Name, Telephone, Email and/or Facsimile number and Address of Company Contact Person)
+  </text>
+  <text>
+    <location value="147"/>
+    <location value="291"/>
+    <location value="365"/>
+    <location value="297"/>
+    Securities registered or to be registered pursuant to Section 12(b) of the Act:
+  </text>
+  <text>
+    <location value="130"/>
+    <location value="297"/>
+    <location value="177"/>
+    <location value="301"/>
+    Title of Each Class
+  </text>
+  <text>
+    <location value="109"/>
+    <location value="304"/>
+    <location value="197"/>
+    <location value="309"/>
+    Ordinary Shares, par value £0.01
+  </text>
+  <text>
+    <location value="305"/>
+    <location value="297"/>
+    <location value="407"/>
+    <location value="302"/>
+    Name of Exchange on Which Registered
+  </text>
+  <text>
+    <location value="319"/>
+    <location value="303"/>
+    <location value="393"/>
+    <location value="309"/>
+    New York Stock Exchange
+  </text>
+  <text>
+    <location value="147"/>
+    <location value="310"/>
+    <location value="365"/>
+    <location value="315"/>
+    Securities registered or to be registered pursuant to Section 12(g) of the Act:
+  </text>
+  <text>
+    <location value="248"/>
+    <location value="316"/>
+    <location value="264"/>
+    <location value="320"/>
+    None
+  </text>
+  <text>
+    <location value="130"/>
+    <location value="323"/>
+    <location value="381"/>
+    <location value="329"/>
+    Securities for which there is a reporting obligation pursuant to Section 15(d) of the Act:
+  </text>
+  <text>
+    <location value="248"/>
+    <location value="329"/>
+    <location value="264"/>
+    <location value="334"/>
+    None
+  </text>
+  <text>
+    <location value="55"/>
+    <location value="337"/>
+    <location value="453"/>
+    <location value="349"/>
+<![CDATA[Indicate the number of outstanding shares of each of the issuer's classes of capital or common stock as of the close of the period covered by the annual report.]]>  </text>
+  <text>
+    <location value="109"/>
+    <location value="349"/>
+    <location value="198"/>
+    <location value="355"/>
+    Ordinary Shares, par value £0.01
+  </text>
+  <text>
+    <location value="134"/>
+    <location value="355"/>
+    <location value="173"/>
+    <location value="361"/>
+    (Title of class)
+  </text>
+  <text>
+    <location value="336"/>
+    <location value="349"/>
+    <location value="378"/>
+    <location value="355"/>
+    160,061,975(1)
+  </text>
+  <text>
+    <location value="330"/>
+    <location value="355"/>
+    <location value="383"/>
+    <location value="361"/>
+    (Number of shares)
+  </text>
+  <text>
+    <location value="68"/>
+    <location value="361"/>
+    <location value="383"/>
+    <location value="367"/>
+    Indicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act.
+  </text>
+  <location value="389"/>
+  <location value="361"/>
+  <location value="410"/>
+  <location value="366"/>
+  <checkbox class="selected"/>
+  Yes È
+  <location value="416"/>
+  <location value="361"/>
+  <location value="435"/>
+  <location value="367"/>
+  <checkbox class="unselected"/>
+<![CDATA[No ']]>  
+  <text>
+    <location value="56"/>
+    <location value="368"/>
+    <location value="443"/>
+    <location value="379"/>
+<![CDATA[If this report is an annual or transition report, indicate by check mark if the registrant is not required to file reports pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934. Yes ' No È]]>  </text>
+  <location value="184"/>
+  <location value="373"/>
+  <location value="206"/>
+  <location value="379"/>
+  <checkbox class="unselected"/>
+<![CDATA[Yes ']]>  
+  <location value="212"/>
+  <location value="373"/>
+  <location value="231"/>
+  <location value="379"/>
+  <checkbox class="selected"/>
+  No È
+  <text>
+    <location value="55"/>
+    <location value="380"/>
+    <location value="453"/>
+    <location value="397"/>
+<![CDATA[Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes È No ']]>  </text>
+  <location value="209"/>
+  <location value="391"/>
+  <location value="228"/>
+  <location value="396"/>
+  <checkbox class="unselected"/>
+<![CDATA[No ']]>  
+  <location value="182"/>
+  <location value="391"/>
+  <location value="203"/>
+  <location value="396"/>
+  <checkbox class="selected"/>
+  Yes È
+  <text>
+    <location value="54"/>
+    <location value="398"/>
+    <location value="451"/>
+    <location value="416"/>
+<![CDATA[Indicate by check mark whether the registrant has submitted electronically and posted on its corporate Web site, if any, every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (§ 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files). Yes È No ']]>  </text>
+  <location value="279"/>
+  <location value="409"/>
+  <location value="300"/>
+  <location value="414"/>
+  <checkbox class="selected"/>
+  Yes È
+  <location value="306"/>
+  <location value="409"/>
+  <location value="325"/>
+  <location value="414"/>
+  <checkbox class="unselected"/>
+<![CDATA[No ']]>  
+  <text>
+    <location value="55"/>
+    <location value="416"/>
+    <location value="436"/>
+    <location value="427"/>
+<![CDATA[Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, or a non-accelerated filer. See definition of 'accelerated filer and large accelerated filer' in Rule 12b-2 of the Exchange Act. (Check one):]]>  </text>
+  <location value="55"/>
+  <location value="429"/>
+  <location value="125"/>
+  <location value="435"/>
+  <checkbox class="selected"/>
+  Large accelerated filer È
+  <location value="264"/>
+  <location value="429"/>
+  <location value="319"/>
+  <location value="435"/>
+  <checkbox class="unselected"/>
+<![CDATA[Accelerated filer ']]>  
+  <location value="389"/>
+  <location value="429"/>
+  <location value="457"/>
+  <location value="435"/>
+  <checkbox class="unselected"/>
+<![CDATA[Non-accelerated filer ']]>  
+  <text>
+    <location value="68"/>
+    <location value="436"/>
+    <location value="418"/>
+    <location value="442"/>
+    Indicate by check mark which basis of accounting the registrant has used to prepare the financial statements included in this filing:
+  </text>
+  <location value="88"/>
+  <location value="443"/>
+  <location value="131"/>
+  <location value="449"/>
+  <checkbox class="selected"/>
+  U.S. GAAP È
+  <location value="187"/>
+  <location value="443"/>
+  <location value="341"/>
+  <location value="455"/>
+  <checkbox class="unselected"/>
+<![CDATA[International Financial Reporting Standards as issued ' by the International Accounting Standards Board]]>  
+  <location value="397"/>
+  <location value="443"/>
+  <location value="424"/>
+  <location value="449"/>
+  <checkbox class="unselected"/>
+<![CDATA[Other ']]>  
+  <text>
+    <location value="54"/>
+    <location value="456"/>
+    <location value="427"/>
+    <location value="467"/>
+<![CDATA[If this is an annual report, indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ' No È]]>  </text>
+  <location value="75"/>
+  <location value="461"/>
+  <location value="96"/>
+  <location value="467"/>
+  <checkbox class="unselected"/>
+<![CDATA[Yes ']]>  
+  <location value="102"/>
+  <location value="461"/>
+  <location value="121"/>
+  <location value="467"/>
+  <checkbox class="selected"/>
+  No È
+  <list ordered="false">
+    <list_text>
+      <location value="54"/>
+      <location value="468"/>
+      <location value="456"/>
+      <location value="485"/>
+      (1) Net of 99,605,716 shares held in treasury. Does not include (a) 12,137,186 ordinary shares reserved for issuance upon exercise of stock options granted under our stock option plan or by companies we have acquired, and (b) 24,096 ordinary shares reserved for issuance upon conversion of outstanding convertible debt securities.
+    </list_text>
+  </list>
+</doclang>

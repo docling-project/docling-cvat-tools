@@ -910,7 +910,21 @@
         }
       ],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "chart"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -952,7 +966,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -994,7 +1022,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1036,7 +1078,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1078,7 +1134,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1120,7 +1190,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1162,7 +1246,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1204,7 +1302,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1246,7 +1358,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1325,7 +1451,21 @@
         }
       ],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "chart"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1367,7 +1507,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1409,7 +1563,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1451,7 +1619,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1493,7 +1675,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {
@@ -1535,7 +1731,21 @@
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
+      "meta": {
+        "summary": null,
+        "description": null,
+        "classification": {
+          "predictions": [
+            {
+              "confidence": 1.0,
+              "created_by": "cvat_to_docling",
+              "class_name": "other"
+            }
+          ]
+        },
+        "molecule": null,
+        "tabular_chart": null
+      },
       "label": "picture",
       "prov": [
         {

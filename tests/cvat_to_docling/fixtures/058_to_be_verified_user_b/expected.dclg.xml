@@ -1,0 +1,577 @@
+<doclang version="1.0.0">
+  <heading level="1">
+    <location value="381"/>
+    <location value="27"/>
+    <location value="448"/>
+    <location value="35"/>
+    Pay Statement
+  </heading>
+  <text>
+    <location value="382"/>
+    <location value="42"/>
+    <location value="463"/>
+    <location value="47"/>
+    Period Start Date    08/05/2018
+  </text>
+  <text>
+    <location value="382"/>
+    <location value="47"/>
+    <location value="463"/>
+    <location value="51"/>
+    Period End Date     08/18/2018
+  </text>
+  <text>
+    <location value="382"/>
+    <location value="51"/>
+    <location value="464"/>
+    <location value="56"/>
+    Pay Date                 08/24/2018
+  </text>
+  <text>
+    <location value="382"/>
+    <location value="56"/>
+    <location value="442"/>
+    <location value="60"/>
+    Document              543
+  </text>
+  <text>
+    <location value="18"/>
+    <location value="34"/>
+    <location value="68"/>
+    <location value="57"/>
+    Bridge Building  Inc. 360 Webster Street Suite  2 01 Mesa, AZ 8 7 202
+  </text>
+  <heading level="2">
+    <location value="18"/>
+    <location value="85"/>
+    <location value="54"/>
+    <location value="90"/>
+    Pay Details
+  </heading>
+  <text>
+    <location value="16"/>
+    <location value="95"/>
+    <location value="77"/>
+    <location value="121"/>
+    Wilfred L. McCormick 656 Big Elm Kansas City, MO 64106 USA
+  </text>
+  <text>
+    <location value="142"/>
+    <location value="95"/>
+    <location value="214"/>
+    <location value="106"/>
+    Employee Number 010 67 3
+  </text>
+  <text>
+    <location value="142"/>
+    <location value="109"/>
+    <location value="226"/>
+    <location value="114"/>
+    SSN 489-64 -52 25
+  </text>
+  <text>
+    <location value="142"/>
+    <location value="117"/>
+    <location value="226"/>
+    <location value="128"/>
+    Job Psych Nurse Practitioner
+  </text>
+  <text>
+    <location value="142"/>
+    <location value="131"/>
+    <location value="217"/>
+    <location value="136"/>
+    Pay Rate $83.7104
+  </text>
+  <text>
+    <location value="142"/>
+    <location value="139"/>
+    <location value="216"/>
+    <location value="144"/>
+    Pay Frequency Biweekly
+  </text>
+  <text>
+    <location value="258"/>
+    <location value="96"/>
+    <location value="334"/>
+    <location value="100"/>
+    Pay Group B BI Practitioners
+  </text>
+  <text>
+    <location value="257"/>
+    <location value="103"/>
+    <location value="313"/>
+    <location value="108"/>
+    Location Javelina
+  </text>
+  <text>
+    <location value="258"/>
+    <location value="111"/>
+    <location value="353"/>
+    <location value="121"/>
+    PROGRAM CPEC - CRISIS PSYCH EMERG CTR
+  </text>
+  <text>
+    <location value="258"/>
+    <location value="125"/>
+    <location value="369"/>
+    <location value="130"/>
+    SOURCE MERCY - MERCY MARICOPA
+  </text>
+  <text>
+    <location value="258"/>
+    <location value="133"/>
+    <location value="351"/>
+    <location value="138"/>
+    GRID PRACTS - Practitioners
+  </text>
+  <text>
+    <location value="257"/>
+    <location value="141"/>
+    <location value="347"/>
+    <location value="145"/>
+    VP J J  - JOHN  JOHNSON
+  </text>
+  <text>
+    <location value="373"/>
+    <location value="95"/>
+    <location value="477"/>
+    <location value="100"/>
+    Federal Income Tax S 5
+  </text>
+  <text>
+    <location value="373"/>
+    <location value="103"/>
+    <location value="477"/>
+    <location value="108"/>
+    AZ State Income Tax (Residence) B 0
+  </text>
+  <text>
+    <location value="373"/>
+    <location value="111"/>
+    <location value="477"/>
+    <location value="116"/>
+    AZ  State Income Tax (Work) B 0
+  </text>
+  <heading level="2">
+    <location value="18"/>
+    <location value="152"/>
+    <location value="47"/>
+    <location value="157"/>
+    Earnings
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="15"/>
+      <location value="159"/>
+      <location value="496"/>
+      <location value="217"/>
+      <ched/>
+      Pay Type
+      <ched/>
+      Hours
+      <ched/>
+      Pay Rate
+      <ched/>
+      Current
+      <ched/>
+      YTD
+      <nl/>
+      <rhed/>
+      Paid Time Off
+      <fcel/>
+      0.0000
+      <fcel/>
+      $0.0000
+      <fcel/>
+      $0.00
+      <fcel/>
+      $5,859.72
+      <nl/>
+      <rhed/>
+      PR Regular TIme
+      <fcel/>
+      30.0000
+      <fcel/>
+      $83.7104
+      <fcel/>
+      $2,511.31
+      <ecel/>
+      <nl/>
+      <rhed/>
+      PR Regular TIme
+      <fcel/>
+      20.0000
+      <fcel/>
+      $83.7104
+      <fcel/>
+      $1,674.21
+      <fcel/>
+      $67,805.39
+      <nl/>
+      <rhed/>
+      PR Weekend Days
+      <fcel/>
+      4.0000
+      <fcel/>
+      $83.7104
+      <fcel/>
+      $334.84
+      <ecel/>
+      <nl/>
+      <rhed/>
+      PR Weekend Days
+      <fcel/>
+      4.0000
+      <fcel/>
+      $83.7104
+      <fcel/>
+      $334.84
+      <fcel/>
+      $8,873.26
+      <nl/>
+      <rhed/>
+      PR Wkend Nights
+      <fcel/>
+      0.0000
+      <fcel/>
+      $0.0000
+      <fcel/>
+      $0.00
+      <fcel/>
+      $334.84
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="19"/>
+    <location value="232"/>
+    <location value="94"/>
+    <location value="238"/>
+    Total Hours Worked 58.0000
+  </text>
+  <text>
+    <location value="131"/>
+    <location value="233"/>
+    <location value="185"/>
+    <location value="238"/>
+    Total Hours 58.0000
+  </text>
+  <heading level="2">
+    <location value="18"/>
+    <location value="246"/>
+    <location value="55"/>
+    <location value="251"/>
+    Deductions
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="15"/>
+      <location value="254"/>
+      <location value="496"/>
+      <location value="334"/>
+      <ecel/>
+      <ecel/>
+      <ched/>
+      Employee
+      <lcel/>
+      <ched/>
+      Employer
+      <lcel/>
+      <nl/>
+      <ched/>
+      Deduction
+      <ched/>
+      Pre-Tax
+      <ched/>
+      Current
+      <ched/>
+      YTD
+      <ched/>
+      Current
+      <ched/>
+      YTD
+      <nl/>
+      <rhed/>
+<![CDATA[AD&D Employee]]>      <fcel/>
+      No
+      <fcel/>
+      $2.09
+      <fcel/>
+      $34.54
+      <fcel/>
+      $0.00
+      <fcel/>
+      $0.00
+      <nl/>
+      <rhed/>
+      Dental Low
+      <fcel/>
+      Yes
+      <fcel/>
+      $15.56
+      <fcel/>
+      $186.72
+      <fcel/>
+      $7.50
+      <fcel/>
+      $90.00
+      <nl/>
+      <rhed/>
+      Medical PPO
+      <fcel/>
+      Yes
+      <fcel/>
+      $188.42
+      <fcel/>
+      $2,232.06
+      <fcel/>
+      $440.07
+      <fcel/>
+      $5,329.91
+      <nl/>
+      <rhed/>
+      PET Insurance
+      <fcel/>
+      No
+      <fcel/>
+      $10.10
+      <fcel/>
+      $101.00
+      <fcel/>
+      $0.00
+      <fcel/>
+      $0.00
+      <nl/>
+      <rhed/>
+      Vision
+      <fcel/>
+      Yes
+      <fcel/>
+      $4.25
+      <fcel/>
+      $51.00
+      <fcel/>
+      $2.79
+      <fcel/>
+      $33.48
+      <nl/>
+      <rhed/>
+      Vol Life
+      <fcel/>
+      No
+      <fcel/>
+      $157.22
+      <fcel/>
+      $1,572.20
+      <fcel/>
+      $0.00
+      <fcel/>
+      $0.00
+      <nl/>
+      <rhed/>
+<![CDATA[AD&D AD]]>      <fcel/>
+      No
+      <fcel/>
+      $0.00
+      <fcel/>
+      $0.00
+      <fcel/>
+      $0.15
+      <fcel/>
+      $1.80
+      <nl/>
+      <rhed/>
+      GTL - Life
+      <fcel/>
+      No
+      <fcel/>
+      $0.00
+      <fcel/>
+      $0.00
+      <fcel/>
+      $0.84
+      <fcel/>
+      $10.08
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="18"/>
+    <location value="344"/>
+    <location value="37"/>
+    <location value="349"/>
+    Taxes
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="15"/>
+      <location value="353"/>
+      <location value="496"/>
+      <location value="394"/>
+      <ched/>
+      Tax
+      <ched/>
+      Current
+      <ched/>
+      YTD
+      <nl/>
+      <rhed/>
+      Federal Income Tax
+      <fcel/>
+      $669.95
+      <fcel/>
+      $12,681.61
+      <nl/>
+      <rhed/>
+      Employee Medicare
+      <fcel/>
+      $67.38
+      <fcel/>
+      $1,165.85
+      <nl/>
+      <rhed/>
+      Social Security Employee Tax
+      <fcel/>
+      $288.11
+      <fcel/>
+      $4,985.01
+      <nl/>
+      <rhed/>
+      AZ State Income Tax
+      <fcel/>
+      $125.47
+      <fcel/>
+      $2,170.89
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="18"/>
+    <location value="403"/>
+    <location value="62"/>
+    <location value="408"/>
+    Paid Time Off
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="15"/>
+      <location value="412"/>
+      <location value="255"/>
+      <location value="431"/>
+      <ched/>
+      Plan
+      <ched/>
+      Taken
+      <ched/>
+      Current
+      <ched/>
+      Balance
+      <nl/>
+      <rhed/>
+      Paid Time Off
+      <fcel/>
+      70.0000
+      <fcel/>
+      8.0000
+      <fcel/>
+      34.0000
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="259"/>
+    <location value="403"/>
+    <location value="325"/>
+    <location value="409"/>
+    Net Pay Distribution
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="256"/>
+      <location value="412"/>
+      <location value="497"/>
+      <location value="436"/>
+      <ched/>
+      Account Number
+      <ched/>
+      Account Type
+      <ched/>
+      Amount
+      <nl/>
+      <rhed/>
+      xxxxxx6984
+      <fcel/>
+      Checking
+      <fcel/>
+      $3,326.65
+      <nl/>
+      <rhed/>
+      Total
+      <ecel/>
+      <fcel/>
+      $3,326.65
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="18"/>
+    <location value="445"/>
+    <location value="63"/>
+    <location value="452"/>
+    Pay Summary
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="15"/>
+      <location value="453"/>
+      <location value="496"/>
+      <location value="485"/>
+      <ecel/>
+      <ched/>
+      Gross
+      <ched/>
+      FIT Taxable Wages
+      <ched/>
+      Taxes
+      <ched/>
+      Deductions
+      <ched/>
+      Net Pay
+      <nl/>
+      <rhed/>
+      Current
+      <fcel/>
+      $4,855.20
+      <fcel/>
+      $4,646.97
+      <fcel/>
+      $1,150.91
+      <fcel/>
+      $377.64
+      <fcel/>
+      $3,326.65
+      <nl/>
+      <rhed/>
+      YTD
+      <fcel/>
+      $82,873.21
+      <fcel/>
+      $80,403.43
+      <fcel/>
+      $21,003.36
+      <fcel/>
+      $4,177.52
+      <fcel/>
+      $57,692.33
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="382"/>
+    <location value="60"/>
+    <location value="459"/>
+    <location value="65"/>
+    Net Pay                  $3,326.65
+  </text>
+</doclang>

@@ -1,0 +1,336 @@
+<doclang version="1.0.0">
+  <floating_group class="table">
+    <otsl>
+      <location value="30"/>
+      <location value="23"/>
+      <location value="256"/>
+      <location value="200"/>
+      <ched/>
+      CULTURE
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Railroads
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Single Track
+      <fcel/>
+      <floating_group class="picture">
+        <picture>
+          <meta>
+            <classification>Illustration</classification>
+          </meta>
+          <location value="140"/>
+          <location value="52"/>
+          <location value="231"/>
+          <location value="58"/>
+        </picture>
+      </floating_group>
+      <nl/>
+      <rhed/>
+      Double Track
+      <fcel/>
+      <floating_group class="picture">
+        <picture>
+          <meta>
+            <classification>Illustration</classification>
+          </meta>
+          <location value="140"/>
+          <location value="76"/>
+          <location value="231"/>
+          <location value="82"/>
+        </picture>
+      </floating_group>
+      <nl/>
+      <rhed/>
+      Bridges
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Bridges
+      <fcel/>
+      <floating_group class="picture">
+        <picture>
+          <meta>
+            <classification>Illustration</classification>
+          </meta>
+          <location value="150"/>
+          <location value="112"/>
+          <location value="223"/>
+          <location value="151"/>
+        </picture>
+      </floating_group>
+      <nl/>
+      <rhed/>
+      Populated Places          Built-up Areas
+      <fcel/>
+      <floating_group class="picture">
+        <picture>
+          <meta>
+            <classification>Illustration</classification>
+          </meta>
+          <location value="153"/>
+          <location value="170"/>
+          <location value="202"/>
+          <location value="199"/>
+        </picture>
+      </floating_group>
+      <nl/>
+    </otsl>
+  </floating_group>
+  <floating_group class="table">
+    <otsl>
+      <location value="260"/>
+      <location value="36"/>
+      <location value="485"/>
+      <location value="259"/>
+      <ched/>
+      Roads
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Dual-Lane:
+      <fcel/>
+      <floating_group class="picture">
+        <picture>
+          <meta>
+            <classification>Illustration</classification>
+          </meta>
+          <location value="386"/>
+          <location value="44"/>
+          <location value="477"/>
+          <location value="52"/>
+        </picture>
+      </floating_group>
+      <nl/>
+      <rhed/>
+      Divided Highways
+      <fcel/>
+      <floating_group class="picture">
+        <picture>
+          <meta>
+            <classification>Illustration</classification>
+          </meta>
+          <location value="386"/>
+          <location value="57"/>
+          <location value="477"/>
+          <location value="68"/>
+        </picture>
+      </floating_group>
+      <nl/>
+      <rhed/>
+<![CDATA[Major Boulevards & Major Streets Primary]]>      <ecel/>
+      <nl/>
+      <rhed/>
+      Boundaries
+      <ecel/>
+      <nl/>
+      <rhed/>
+      Boundaries
+      <ecel/>
+      <nl/>
+      <rhed/>
+      International
+      <fcel/>
+      <floating_group class="picture">
+        <picture>
+          <meta>
+            <classification>Illustration</classification>
+          </meta>
+          <location value="363"/>
+          <location value="114"/>
+          <location value="480"/>
+          <location value="118"/>
+        </picture>
+      </floating_group>
+      <nl/>
+      <rhed/>
+      State or Province
+      <fcel/>
+      <floating_group class="picture">
+        <picture>
+          <meta>
+            <classification>Illustration</classification>
+          </meta>
+          <location value="363"/>
+          <location value="132"/>
+          <location value="481"/>
+          <location value="135"/>
+        </picture>
+      </floating_group>
+      <nl/>
+      <rhed/>
+      Power Transmission Lines
+      <fcel/>
+      <floating_group class="picture">
+        <picture>
+          <meta>
+            <classification>Illustration</classification>
+          </meta>
+          <location value="366"/>
+          <location value="152"/>
+          <location value="479"/>
+          <location value="158"/>
+        </picture>
+      </floating_group>
+      <nl/>
+      <rhed/>
+      Prominent Pictorials
+      <fcel/>
+      <floating_group class="picture">
+        <picture>
+          <meta>
+            <classification>Illustration</classification>
+          </meta>
+          <location value="415"/>
+          <location value="177"/>
+          <location value="463"/>
+          <location value="204"/>
+        </picture>
+      </floating_group>
+      <nl/>
+      <rhed/>
+      Landmarks
+      <ecel/>
+      <nl/>
+    </otsl>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="387"/>
+      <location value="70"/>
+      <location value="477"/>
+      <location value="80"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="386"/>
+      <location value="83"/>
+      <location value="476"/>
+      <location value="93"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="369"/>
+      <location value="215"/>
+      <location value="374"/>
+      <location value="218"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="380"/>
+    <location value="214"/>
+    <location value="424"/>
+    <location value="222"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="369"/>
+      <location value="233"/>
+      <location value="374"/>
+      <location value="237"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="381"/>
+    <location value="232"/>
+    <location value="400"/>
+    <location value="240"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="369"/>
+      <location value="253"/>
+      <location value="376"/>
+      <location value="257"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="381"/>
+    <location value="251"/>
+    <location value="400"/>
+    <location value="258"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="437"/>
+      <location value="215"/>
+      <location value="442"/>
+      <location value="220"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="449"/>
+    <location value="214"/>
+    <location value="468"/>
+    <location value="222"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="437"/>
+      <location value="234"/>
+      <location value="444"/>
+      <location value="237"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="449"/>
+    <location value="234"/>
+    <location value="474"/>
+    <location value="237"/>
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Other</classification>
+      </meta>
+      <location value="439"/>
+      <location value="253"/>
+      <location value="443"/>
+      <location value="256"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="448"/>
+    <location value="251"/>
+    <location value="475"/>
+    <location value="258"/>
+  </text>
+  <text>
+    <location value="493"/>
+    <location value="178"/>
+    <location value="500"/>
+    <location value="335"/>
+  </text>
+  <text>
+    <location value="251"/>
+    <location value="493"/>
+    <location value="260"/>
+    <location value="498"/>
+    55
+  </text>
+</doclang>

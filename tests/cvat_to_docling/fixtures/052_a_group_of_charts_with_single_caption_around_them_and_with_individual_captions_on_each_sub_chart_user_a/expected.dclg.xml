@@ -1,0 +1,116 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="445"/>
+    <location value="20"/>
+    <location value="452"/>
+    <location value="24"/>
+    16
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="68"/>
+      <location value="50"/>
+      <location value="246"/>
+      <location value="158"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="271"/>
+      <location value="51"/>
+      <location value="450"/>
+      <location value="157"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="68"/>
+      <location value="179"/>
+      <location value="246"/>
+      <location value="286"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <caption>
+      <location value="60"/>
+      <location value="305"/>
+      <location value="411"/>
+      <location value="312"/>
+      Fig. 3. MSE for joint phase and timing estimation (31) versus the SNR p with A = 0 . 7 , N = 100 and N p = 16 .
+    </caption>
+    <picture>
+      <meta>
+        <classification>Chart</classification>
+      </meta>
+      <location value="271"/>
+      <location value="179"/>
+      <location value="448"/>
+      <location value="285"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="110"/>
+    <location value="162"/>
+    <location value="213"/>
+    <location value="168"/>
+    (a) F = 1 , MSE of timing offset
+  </text>
+  <text>
+    <location value="314"/>
+    <location value="162"/>
+    <location value="415"/>
+    <location value="168"/>
+    (b) F = 1 , MSE of phase offset
+  </text>
+  <text>
+    <location value="110"/>
+    <location value="290"/>
+    <location value="213"/>
+    <location value="296"/>
+    (c) F = 2 , MSE of timing offset
+  </text>
+  <text>
+    <location value="314"/>
+    <location value="290"/>
+    <location value="415"/>
+    <location value="296"/>
+    (d) F = 2 , MSE of phase offset
+  </text>
+  <text>
+    <location value="60"/>
+    <location value="335"/>
+    <location value="451"/>
+    <location value="403"/>
+    k/N p ( n + ˜ τ ) . We evaluate the performance of the estimator (31) in terms of MSEs of time and phase offsets by considering the quantization noise with both the optimized PSD obtained from Algorithm 1 and a white PSD that is constant across all frequencies and is selected to satisfy the from the constraint (24b). The white-PSD compression scheme is considered as reference as it does not attempt to optimize quantization with the aim of enhancing synchronization.
+  </text>
+  <text>
+    <location value="59"/>
+    <location value="409"/>
+    <location value="452"/>
+    <location value="461"/>
+    Fig. 3(a) and Fig. 3(b) illustrate the MSE of the timing and phase offset estimates, respectively, as a function of SNR p for C = 1 bits/sample and C = 3 bits/sample with F = 1 , A = 0 . 7 , N = 100 , and N p = 16 . In addition, we plot the MSE of the timing and phase offset estimates in case of F = 2 in Fig. 3(c) and Fig. 3(d), respectively, under the same parameters. We observe
+  </text>
+  <text>
+    <location value="60"/>
+    <location value="487"/>
+    <location value="94"/>
+    <location value="492"/>
+    July 9, 2018
+  </text>
+  <text>
+    <location value="429"/>
+    <location value="487"/>
+    <location value="452"/>
+    <location value="491"/>
+    DRAFT
+  </text>
+</doclang>

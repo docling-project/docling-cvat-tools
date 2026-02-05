@@ -1,0 +1,1116 @@
+<doclang version="1.0.0">
+  <floating_group class="table">
+    <caption>
+      <location value="60"/>
+      <location value="422"/>
+      <location value="452"/>
+      <location value="438"/>
+      Table 3: Results of simulation study for effectiveness of estimator for log marginal like- lihood.
+    </caption>
+    <otsl>
+      <location value="82"/>
+      <location value="72"/>
+      <location value="430"/>
+      <location value="415"/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ched/>
+      MAPE-GDS
+      <lcel/>
+      <ched/>
+      MAPE-LENK
+      <lcel/>
+      <ched/>
+      Accept %
+      <lcel/>
+      <ched/>
+      Time (mins)
+      <lcel/>
+      <nl/>
+      <ched/>
+      k
+      <ched/>
+      n
+      <ched/>
+      M
+      <ched/>
+      scale
+      <ched/>
+      mean
+      <ched/>
+      sd
+      <ched/>
+      mean
+      <ched/>
+      sd
+      <ched/>
+      mean
+      <ched/>
+      sd
+      <ched/>
+      mean
+      <ched/>
+      sd
+      <nl/>
+      <fcel/>
+      5
+      <fcel/>
+      200
+      <fcel/>
+      1000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.23
+      <fcel/>
+      0.16
+      <fcel/>
+      0.47
+      <fcel/>
+      0.39
+      <fcel/>
+      22.05
+      <fcel/>
+      7.64
+      <fcel/>
+      0.09
+      <fcel/>
+      0.24
+      <nl/>
+      <fcel/>
+      5 5
+      <fcel/>
+      200 200
+      <fcel/>
+      1000 1000
+      <fcel/>
+      0.5 0.6
+      <fcel/>
+      0.23 0.11
+      <fcel/>
+      0.16 0.12
+      <fcel/>
+      0.47 0.52
+      <fcel/>
+      0.39 0.45
+      <fcel/>
+      22.05 40.46
+      <fcel/>
+      7.64 10.82
+      <fcel/>
+      0.09 0.02
+      <fcel/>
+      0.24 0.04
+      <nl/>
+      <fcel/>
+      5
+      <fcel/>
+      200
+      <fcel/>
+      1000
+      <fcel/>
+      0.7
+      <fcel/>
+      0.06
+      <fcel/>
+      0.05
+      <fcel/>
+      0.47
+      <fcel/>
+      0.39
+      <fcel/>
+      57.13
+      <fcel/>
+      8.46
+      <fcel/>
+      0.01
+      <fcel/>
+      0.00
+      <nl/>
+      <fcel/>
+      5
+      <fcel/>
+      200
+      <fcel/>
+      10000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.17
+      <fcel/>
+      0.08
+      <fcel/>
+      0.50
+      <fcel/>
+      0.37
+      <fcel/>
+      23.99
+      <fcel/>
+      5.32
+      <fcel/>
+      0.04
+      <fcel/>
+      0.01
+      <nl/>
+      <fcel/>
+      5
+      <fcel/>
+      200
+      <fcel/>
+      10000
+      <fcel/>
+      0.6
+      <fcel/>
+      0.10
+      <fcel/>
+      0.06
+      <fcel/>
+      0.54
+      <fcel/>
+      0.46
+      <fcel/>
+      40.85
+      <fcel/>
+      7.19
+      <fcel/>
+      0.04
+      <fcel/>
+      0.01
+      <nl/>
+      <fcel/>
+      5
+      <fcel/>
+      200
+      <fcel/>
+      10000
+      <fcel/>
+      0.7
+      <fcel/>
+      0.07
+      <fcel/>
+      0.07
+      <fcel/>
+      0.48
+      <fcel/>
+      0.35
+      <fcel/>
+      55.15
+      <fcel/>
+      9.15
+      <fcel/>
+      0.04
+      <fcel/>
+      0.01
+      <nl/>
+      <fcel/>
+      5
+      <fcel/>
+      2000
+      <fcel/>
+      1000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.02
+      <fcel/>
+      0.01
+      <fcel/>
+      0.07
+      <fcel/>
+      0.05
+      <fcel/>
+      22.14
+      <fcel/>
+      7.65
+      <fcel/>
+      0.04
+      <fcel/>
+      0.07
+      <nl/>
+      <fcel/>
+      5
+      <fcel/>
+      2000
+      <fcel/>
+      1000
+      <fcel/>
+      0.6
+      <fcel/>
+      0.01
+      <fcel/>
+      0.01
+      <fcel/>
+      0.06
+      <fcel/>
+      0.06
+      <fcel/>
+      37.76
+      <fcel/>
+      10.34
+      <fcel/>
+      0.03
+      <fcel/>
+      0.08
+      <nl/>
+      <fcel/>
+      5 5
+      <fcel/>
+      2000 2000
+      <fcel/>
+      1000 1000
+      <fcel/>
+      0.6 0.7
+      <fcel/>
+      0.01 0.01
+      <fcel/>
+      0.01 0.01
+      <fcel/>
+      0.06 0.06
+      <fcel/>
+      0.06 0.05
+      <fcel/>
+      37.76 49.55
+      <fcel/>
+      10.34 13.39
+      <fcel/>
+      0.03 0.01
+      <fcel/>
+      0.08 0.00
+      <nl/>
+      <fcel/>
+      5 5
+      <fcel/>
+      2000 2000
+      <fcel/>
+      1000 1000
+      <fcel/>
+      0.7 0.8
+      <fcel/>
+      0.01 0.01
+      <fcel/>
+      0.01 0.01
+      <fcel/>
+      0.06 0.04
+      <fcel/>
+      0.05 0.02
+      <fcel/>
+      49.55 64.60
+      <fcel/>
+      13.39 12.93
+      <fcel/>
+      0.01 0.01
+      <fcel/>
+      0.00 0.00
+      <nl/>
+      <fcel/>
+      5
+      <fcel/>
+      2000
+      <fcel/>
+      10000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.02
+      <fcel/>
+      0.01
+      <fcel/>
+      0.05
+      <fcel/>
+      0.05
+      <fcel/>
+      25.30
+      <fcel/>
+      6.65
+      <fcel/>
+      0.06
+      <fcel/>
+      0.07
+      <nl/>
+      <fcel/>
+      5
+      <fcel/>
+      2000
+      <fcel/>
+      10000
+      <fcel/>
+      0.6
+      <fcel/>
+      0.01
+      <fcel/>
+      0.01
+      <fcel/>
+      0.04
+      <fcel/>
+      0.03
+      <fcel/>
+      36.28
+      <fcel/>
+      7.06
+      <fcel/>
+      0.04
+      <fcel/>
+      0.01
+      <nl/>
+      <fcel/>
+      5 5
+      <fcel/>
+      2000 2000
+      <fcel/>
+      10000 10000
+      <fcel/>
+      0.6 0.7
+      <fcel/>
+      0.01 0.01
+      <fcel/>
+      0.01 0.01
+      <fcel/>
+      0.04 0.05
+      <fcel/>
+      0.03 0.03
+      <fcel/>
+      36.28 51.43
+      <fcel/>
+      7.06 14.49
+      <fcel/>
+      0.04 0.05
+      <fcel/>
+      0.01 0.03
+      <nl/>
+      <fcel/>
+      5
+      <fcel/>
+      2000
+      <fcel/>
+      10000
+      <fcel/>
+      0.8
+      <fcel/>
+      0.00
+      <fcel/>
+      0.01
+      <fcel/>
+      0.04
+      <fcel/>
+      0.03
+      <fcel/>
+      71.95
+      <fcel/>
+      11.83
+      <fcel/>
+      0.04
+      <fcel/>
+      0.00
+      <nl/>
+      <fcel/>
+      25
+      <fcel/>
+      200
+      <fcel/>
+      1000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.49
+      <fcel/>
+      0.36
+      <fcel/>
+      0.98
+      <fcel/>
+      0.47
+      <fcel/>
+      2.77
+      <fcel/>
+      2.50
+      <fcel/>
+      0.47
+      <fcel/>
+      0.60
+      <nl/>
+      <fcel/>
+      25
+      <fcel/>
+      200
+      <fcel/>
+      1000
+      <fcel/>
+      0.6
+      <fcel/>
+      0.26
+      <fcel/>
+      0.13
+      <fcel/>
+      1.06
+      <fcel/>
+      0.46
+      <fcel/>
+      8.07
+      <fcel/>
+      3.36
+      <fcel/>
+      0.13
+      <fcel/>
+      0.18
+      <nl/>
+      <fcel/>
+      25 25
+      <fcel/>
+      200 200
+      <fcel/>
+      1000 1000
+      <fcel/>
+      0.6 0.7
+      <fcel/>
+      0.26 0.18
+      <fcel/>
+      0.13 0.10
+      <fcel/>
+      1.06 0.80
+      <fcel/>
+      0.46 0.43
+      <fcel/>
+      8.07 16.16
+      <fcel/>
+      3.36 5.08
+      <fcel/>
+      0.13 0.06
+      <fcel/>
+      0.18 0.11
+      <nl/>
+      <fcel/>
+      25
+      <fcel/>
+      200
+      <fcel/>
+      10000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.52
+      <fcel/>
+      0.25
+      <fcel/>
+      0.93
+      <fcel/>
+      0.65
+      <fcel/>
+      1.67
+      <fcel/>
+      0.87
+      <fcel/>
+      1.15
+      <fcel/>
+      1.99
+      <nl/>
+      <fcel/>
+      25 25
+      <fcel/>
+      200 200
+      <fcel/>
+      10000 10000
+      <fcel/>
+      0.5 0.6
+      <fcel/>
+      0.52 0.35
+      <fcel/>
+      0.25 0.19
+      <fcel/>
+      0.93 1.03
+      <fcel/>
+      0.65 0.68
+      <fcel/>
+      1.67 6.24
+      <fcel/>
+      0.87 3.72
+      <fcel/>
+      1.15 0.72
+      <fcel/>
+      1.99 1.39
+      <nl/>
+      <fcel/>
+      25 25
+      <fcel/>
+      200 200
+      <fcel/>
+      10000 10000
+      <fcel/>
+      0.6 0.7
+      <fcel/>
+      0.35 0.11
+      <fcel/>
+      0.19 0.05
+      <fcel/>
+      1.03 0.88
+      <fcel/>
+      0.68 0.77
+      <fcel/>
+      6.24 20.01
+      <fcel/>
+      3.72 3.23
+      <fcel/>
+      0.72 0.04
+      <fcel/>
+      1.39 0.01
+      <nl/>
+      <fcel/>
+      25
+      <fcel/>
+      2000
+      <fcel/>
+      1000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.04
+      <fcel/>
+      0.03
+      <fcel/>
+      0.11
+      <fcel/>
+      0.10
+      <fcel/>
+      2.69
+      <fcel/>
+      1.98
+      <fcel/>
+      0.28
+      <fcel/>
+      0.25
+      <nl/>
+      <fcel/>
+      25
+      <fcel/>
+      2000
+      <fcel/>
+      1000
+      <fcel/>
+      0.6
+      <fcel/>
+      0.06
+      <fcel/>
+      0.03
+      <fcel/>
+      0.09
+      <fcel/>
+      0.06
+      <fcel/>
+      4.57
+      <fcel/>
+      3.03
+      <fcel/>
+      0.75
+      <fcel/>
+      1.02
+      <nl/>
+      <fcel/>
+      25
+      <fcel/>
+      2000
+      <fcel/>
+      1000
+      <fcel/>
+      0.7
+      <fcel/>
+      0.04
+      <fcel/>
+      0.03
+      <fcel/>
+      0.09
+      <fcel/>
+      0.09
+      <fcel/>
+      15.44
+      <fcel/>
+      9.61
+      <fcel/>
+      0.59
+      <fcel/>
+      1.36
+      <nl/>
+      <fcel/>
+      25
+      <fcel/>
+      2000
+      <fcel/>
+      1000
+      <fcel/>
+      0.8
+      <fcel/>
+      0.01
+      <fcel/>
+      0.01
+      <fcel/>
+      0.09
+      <fcel/>
+      0.07
+      <fcel/>
+      43.14
+      <fcel/>
+      12.62
+      <fcel/>
+      0.03
+      <fcel/>
+      0.02
+      <nl/>
+      <fcel/>
+      25
+      <fcel/>
+      2000
+      <fcel/>
+      10000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.10
+      <fcel/>
+      0.05
+      <fcel/>
+      0.08
+      <fcel/>
+      0.06
+      <fcel/>
+      0.75
+      <fcel/>
+      0.68
+      <fcel/>
+      4.34
+      <fcel/>
+      9.53
+      <nl/>
+      <fcel/>
+      25
+      <fcel/>
+      2000
+      <fcel/>
+      10000
+      <fcel/>
+      0.6
+      <fcel/>
+      0.07
+      <fcel/>
+      0.03
+      <fcel/>
+      0.09
+      <fcel/>
+      0.05
+      <fcel/>
+      3.65
+      <fcel/>
+      2.76
+      <fcel/>
+      1.97
+      <fcel/>
+      5.95
+      <nl/>
+      <fcel/>
+      25 25
+      <fcel/>
+      2000 2000
+      <fcel/>
+      10000 10000
+      <fcel/>
+      0.6 0.7
+      <fcel/>
+      0.07 0.03
+      <fcel/>
+      0.03 0.03
+      <fcel/>
+      0.09 0.08
+      <fcel/>
+      0.05 0.06
+      <fcel/>
+      3.65 17.07
+      <fcel/>
+      2.76 6.33
+      <fcel/>
+      1.97 0.42
+      <fcel/>
+      5.95 1.45
+      <nl/>
+      <fcel/>
+      25
+      <fcel/>
+      2000
+      <fcel/>
+      10000
+      <fcel/>
+      0.8
+      <fcel/>
+      0.01
+      <fcel/>
+      0.01
+      <fcel/>
+      0.10
+      <fcel/>
+      0.08
+      <fcel/>
+      43.27
+      <fcel/>
+      10.27
+      <fcel/>
+      0.05
+      <fcel/>
+      0.01
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      200
+      <fcel/>
+      1000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.27
+      <fcel/>
+      0.23
+      <fcel/>
+      3.50
+      <fcel/>
+      0.82
+      <fcel/>
+      0.32
+      <fcel/>
+      0.29
+      <fcel/>
+      0.49
+      <fcel/>
+      0.85
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      200
+      <fcel/>
+      1000
+      <fcel/>
+      0.6
+      <fcel/>
+      0.17
+      <fcel/>
+      0.22
+      <fcel/>
+      2.74
+      <fcel/>
+      0.71
+      <fcel/>
+      0.30
+      <fcel/>
+      0.22
+      <fcel/>
+      1.05
+      <fcel/>
+      3.06
+      <nl/>
+      <fcel/>
+      100 100
+      <fcel/>
+      200 200
+      <fcel/>
+      1000 1000
+      <fcel/>
+      0.6 0.7
+      <fcel/>
+      0.17 0.26
+      <fcel/>
+      0.22 0.22
+      <fcel/>
+      2.74 1.93
+      <fcel/>
+      0.71 0.81
+      <fcel/>
+      0.30 0.40
+      <fcel/>
+      0.22 0.37
+      <fcel/>
+      1.05 1.17
+      <fcel/>
+      3.06 2.18
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      200
+      <fcel/>
+      10000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.20
+      <fcel/>
+      0.12
+      <fcel/>
+      3.21
+      <fcel/>
+      0.93
+      <fcel/>
+      0.04
+      <fcel/>
+      0.03
+      <fcel/>
+      9.64
+      <fcel/>
+      24.67
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      200
+      <fcel/>
+      10000
+      <fcel/>
+      0.6
+      <fcel/>
+      0.22
+      <fcel/>
+      0.14
+      <fcel/>
+      2.62
+      <fcel/>
+      0.75
+      <fcel/>
+      0.08
+      <fcel/>
+      0.07
+      <fcel/>
+      7.62
+      <fcel/>
+      27.89
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      200
+      <fcel/>
+      10000
+      <fcel/>
+      0.7
+      <fcel/>
+      0.28
+      <fcel/>
+      0.17
+      <fcel/>
+      2.18
+      <fcel/>
+      0.64
+      <fcel/>
+      0.08
+      <fcel/>
+      0.06
+      <fcel/>
+      1.66
+      <fcel/>
+      1.62
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      2000
+      <fcel/>
+      1000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.06
+      <fcel/>
+      0.05
+      <fcel/>
+      0.24
+      <fcel/>
+      0.14
+      <fcel/>
+      0.34
+      <fcel/>
+      0.38
+      <fcel/>
+      12.03
+      <fcel/>
+      26.31
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      2000
+      <fcel/>
+      1000
+      <fcel/>
+      0.6
+      <fcel/>
+      0.04
+      <fcel/>
+      0.04
+      <fcel/>
+      0.19
+      <fcel/>
+      0.12
+      <fcel/>
+      0.60
+      <fcel/>
+      0.53
+      <fcel/>
+      4.61
+      <fcel/>
+      10.84
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      2000
+      <fcel/>
+      1000
+      <fcel/>
+      0.7
+      <fcel/>
+      0.07
+      <fcel/>
+      0.04
+      <fcel/>
+      0.23
+      <fcel/>
+      0.13
+      <fcel/>
+      1.10
+      <fcel/>
+      0.88
+      <fcel/>
+      3.66
+      <fcel/>
+      8.46
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      2000
+      <fcel/>
+      1000
+      <fcel/>
+      0.8
+      <fcel/>
+      0.06
+      <fcel/>
+      0.03
+      <fcel/>
+      0.21
+      <fcel/>
+      0.12
+      <fcel/>
+      3.16
+      <fcel/>
+      2.26
+      <fcel/>
+      2.74
+      <fcel/>
+      8.74
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      2000
+      <fcel/>
+      10000
+      <fcel/>
+      0.5
+      <fcel/>
+      0.05
+      <fcel/>
+      0.04
+      <fcel/>
+      0.27
+      <fcel/>
+      0.12
+      <fcel/>
+      0.04
+      <fcel/>
+      0.05
+      <fcel/>
+      52.26
+      <fcel/>
+      85.06
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      2000
+      <fcel/>
+      10000
+      <fcel/>
+      0.6
+      <fcel/>
+      0.08
+      <fcel/>
+      0.05
+      <fcel/>
+      0.15
+      <fcel/>
+      0.13
+      <fcel/>
+      0.14
+      <fcel/>
+      0.16
+      <fcel/>
+      64.11
+      <fcel/>
+      189.53
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      2000
+      <fcel/>
+      10000
+      <fcel/>
+      0.7
+      <fcel/>
+      0.09
+      <fcel/>
+      0.04
+      <fcel/>
+      0.19
+      <fcel/>
+      0.13
+      <fcel/>
+      0.44
+      <fcel/>
+      0.42
+      <fcel/>
+      11.31
+      <fcel/>
+      23.94
+      <nl/>
+      <fcel/>
+      100
+      <fcel/>
+      2000
+      <fcel/>
+      10000
+      <fcel/>
+      0.8
+      <fcel/>
+      0.05
+      <fcel/>
+      0.02
+      <fcel/>
+      0.15
+      <fcel/>
+      0.11
+      <fcel/>
+      3.04
+      <fcel/>
+      1.81
+      <fcel/>
+      2.08
+      <fcel/>
+      4.04
+      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="251"/>
+    <location value="479"/>
+    <location value="260"/>
+    <location value="485"/>
+    21
+  </text>
+</doclang>

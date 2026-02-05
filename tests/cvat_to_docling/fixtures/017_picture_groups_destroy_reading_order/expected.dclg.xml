@@ -1,0 +1,493 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="436"/>
+    <location value="24"/>
+    <location value="440"/>
+    <location value="29"/>
+    6
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Decoration</classification>
+      </meta>
+      <location value="401"/>
+      <location value="29"/>
+      <location value="462"/>
+      <location value="37"/>
+    </picture>
+  </floating_group>
+  <heading level="1">
+    <location value="143"/>
+    <location value="43"/>
+    <location value="378"/>
+    <location value="55"/>
+    第 4 课 时   图 形 的 认 识 与 测 量 （ 4
+  </heading>
+  <heading level="2">
+    <location value="73"/>
+    <location value="71"/>
+    <location value="112"/>
+    <location value="78"/>
+    基 础 训 练
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="61"/>
+      <location value="83"/>
+      <location value="100"/>
+      <location value="90"/>
+      1 . 选 择 题 。
+    </list_text>
+    <list ordered="false">
+      <list_text>
+        <location value="70"/>
+        <location value="93"/>
+        <location value="249"/>
+        <location value="111"/>
+        （ 1 ） 观 察 下 面 立 体 图 形 ， 从 右 面 看 ， 看 到 的 形 状 相 同 的 是 （ A ） 。
+      </list_text>
+      <list ordered="false">
+        <list_text>
+          <location value="69"/>
+          <location value="154"/>
+          <location value="110"/>
+          <location value="161"/>
+          A. OFI3
+        </list_text>
+        <list_text>
+          <location value="162"/>
+          <location value="154"/>
+          <location value="203"/>
+          <location value="161"/>
+          B .   ① 和 ②
+        </list_text>
+        <list_text>
+          <location value="69"/>
+          <location value="165"/>
+          <location value="110"/>
+          <location value="172"/>
+          C . ② 和 ④
+        </list_text>
+        <list_text>
+          <location value="162"/>
+          <location value="165"/>
+          <location value="203"/>
+          <location value="172"/>
+          D .   ③ 和 ④
+        </list_text>
+      </list>
+      <list_text>
+        <location value="70"/>
+        <location value="176"/>
+        <location value="249"/>
+        <location value="204"/>
+        （ 2 ）   用 5 块 体 积 都 是 1   c m ” 的 正 方 体 积 木 搭 建 一 个 模 型 ， 下 图 分 别 是 从 上 面 和 左 面 看 到 的 图 形 ， 这 个 图 形 可 能 是 （ D ） 。
+      </list_text>
+      <list_text>
+        <location value="70"/>
+        <location value="289"/>
+        <location value="248"/>
+        <location value="306"/>
+        （ 3 ）   一 个 物 体 从 上 面 和 正 面 看 到 的 形 状 如 ， 它 的 体 积 是 （ C ） c m ” 。
+      </list_text>
+      <list ordered="false">
+        <list_text>
+          <location value="70"/>
+          <location value="359"/>
+          <location value="101"/>
+          <location value="365"/>
+          A. 1256
+        </list_text>
+        <list_text>
+          <location value="119"/>
+          <location value="360"/>
+          <location value="150"/>
+          <location value="365"/>
+          B. 2286
+        </list_text>
+        <list_text>
+          <location value="167"/>
+          <location value="360"/>
+          <location value="194"/>
+          <location value="365"/>
+          C. 314
+        </list_text>
+        <list_text>
+          <location value="212"/>
+          <location value="360"/>
+          <location value="238"/>
+          <location value="365"/>
+          D. 120
+        </list_text>
+      </list>
+    </list>
+  </list>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="69"/>
+      <location value="116"/>
+      <location value="114"/>
+      <location value="151"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="118"/>
+      <location value="115"/>
+      <location value="151"/>
+      <location value="150"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="155"/>
+      <location value="115"/>
+      <location value="197"/>
+      <location value="151"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="200"/>
+      <location value="118"/>
+      <location value="241"/>
+      <location value="151"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="106"/>
+      <location value="208"/>
+      <location value="212"/>
+      <location value="248"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="68"/>
+      <location value="255"/>
+      <location value="108"/>
+      <location value="285"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="117"/>
+      <location value="253"/>
+      <location value="152"/>
+      <location value="285"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="161"/>
+      <location value="252"/>
+      <location value="200"/>
+      <location value="285"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="210"/>
+      <location value="255"/>
+      <location value="248"/>
+      <location value="284"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="109"/>
+      <location value="316"/>
+      <location value="149"/>
+      <location value="355"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="161"/>
+      <location value="310"/>
+      <location value="210"/>
+      <location value="354"/>
+    </picture>
+  </floating_group>
+  <list ordered="false">
+    <list_text>
+      <location value="60"/>
+      <location value="370"/>
+      <location value="249"/>
+      <location value="397"/>
+      2 . 把 下 面 图 形 折 成 一 个 正 方 体 后 ， B 面 所 对 的 是 哪 一 个 面 ？ D   面 所 对 的 是 哪 一 个 面 ？ 如 果 E 面 在 底 部 ， 那 么 哪 一 个 面 在 上 面 ？
+    </list_text>
+  </list>
+  <text>
+    <location value="72"/>
+    <location value="411"/>
+    <location value="190"/>
+    <location value="439"/>
+    B 面 所 対 的 是 A 面 ；   D 面 所 対 的 是 F 面 ； 如 果 E 面 在 底 部 ， 那 么 C 面 在 上 面 。
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="196"/>
+      <location value="401"/>
+      <location value="250"/>
+      <location value="430"/>
+    </picture>
+  </floating_group>
+  <list ordered="false">
+    <list_text>
+      <location value="272"/>
+      <location value="63"/>
+      <location value="461"/>
+      <location value="80"/>
+      3 .   在 方 格 纸 上 分 别 画 出 下 面 立 体 图 形 从 正 面 、 左 面 、 上 面 看 到 的 图 形 。
+    </list_text>
+  </list>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="281"/>
+      <location value="98"/>
+      <location value="331"/>
+      <location value="122"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="336"/>
+      <location value="85"/>
+      <location value="451"/>
+      <location value="130"/>
+    </picture>
+  </floating_group>
+  <heading level="2">
+    <location value="286"/>
+    <location value="140"/>
+    <location value="324"/>
+    <location value="147"/>
+    能 力 提 升
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="272"/>
+      <location value="152"/>
+      <location value="462"/>
+      <location value="213"/>
+      4 .   淘 气 把 一 个 圆 锥 形 的 铅 锤 放 入 一 个 底 面 周 长 是 2 5 . 1 2 c m   的 圆 柱 形 烧 杯 里 ， 然 后 倒 入 水 ， 使 水 面 没 过 铅 锤 ， 当 把 铅 锤 完 全 拿 出 水 面 以 后 （ 铅 锤 带 出 的 水 忽 略 不 计 ） ， 水 面 下 降 了 0 . 7 5   c m 。 这 个 铅 锤 的 体 积 是 多 少 ？ 量 得 铅 锤 的 底 面 直 径 是 4   c m ， 铅 锤 的 高 是 多 少 ？
+    </list_text>
+  </list>
+  <formula>
+    <location value="283"/>
+    <location value="217"/>
+    <location value="373"/>
+    <location value="224"/>
+    2 5 . 1 2 + 3 . 1 4 + 2 = 4 （ c m ）
+  </formula>
+  <formula>
+    <location value="283"/>
+    <location value="228"/>
+    <location value="413"/>
+    <location value="234"/>
+<![CDATA[体 秋 ： 3 . 1 4 ✕ 4 ✕ 0 . 7 5 ＝ 3 7 . 6 8 （ c m ' ）]]>  </formula>
+  <formula>
+    <location value="283"/>
+    <location value="238"/>
+    <location value="435"/>
+    <location value="244"/>
+    高 ： 3 7 . 6 8 ✕ 3 ＝ ［ 3 . 1 4 ✕ （ 4 ＝ 2 ） 2 = 9 （ c m ）
+  </formula>
+  <list ordered="false">
+    <list_text>
+      <location value="272"/>
+      <location value="269"/>
+      <location value="462"/>
+      <location value="287"/>
+      5 .   下 图 是 一 个 圆 柱 形 油 桶 的 展 开 图 （ 接 头 处 、 铁 皮 厚 度 忽 略 不 计 ） ， 求 这 个 油 桶 的 体 积 。 （ 单 位 ： d m ）
+    </list_text>
+  </list>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="369"/>
+      <location value="291"/>
+      <location value="461"/>
+      <location value="331"/>
+    </picture>
+  </floating_group>
+  <formula>
+    <location value="297"/>
+    <location value="335"/>
+    <location value="396"/>
+    <location value="341"/>
+    1 6 . 5 6 + （ 3 . 1 4 + 1 ） = 4 （ d m ）
+  </formula>
+  <formula>
+    <location value="296"/>
+    <location value="345"/>
+    <location value="440"/>
+    <location value="351"/>
+    3.14 X (4÷2)ªX(4X2)= 100.48(dm*)
+  </formula>
+  <heading level="2">
+    <location value="286"/>
+    <location value="364"/>
+    <location value="324"/>
+    <location value="371"/>
+    思 维 拓 展
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="272"/>
+      <location value="376"/>
+      <location value="461"/>
+      <location value="415"/>
+      6 .   一 个 由 若 干 个 小 正 方 体 搭 成 的 立 体 图 形 ， 从 正 面 和 上 面 看 到 的 图 形 如 下 图 。 搭 这 个 立 体 图 形 最 少 需 要 （ 7 ） 个 小 正 方 体 ， 最 多 需 要 （ 9 ） 个 小 正 方 体 。
+    </list_text>
+  </list>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="289"/>
+      <location value="427"/>
+      <location value="343"/>
+      <location value="466"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Illustration</classification>
+      </meta>
+      <location value="387"/>
+      <location value="419"/>
+      <location value="445"/>
+      <location value="463"/>
+    </picture>
+  </floating_group>
+  <text>
+    <location value="128"/>
+    <location value="502"/>
+    <location value="378"/>
+    <location value="511"/>
+    关 注 微 信 哈 众 另   “ 教 辅 资 料 站 ” 获 取 更 多 吗 习 资 料
+  </text>
+  <text>
+    <location value="443"/>
+    <location value="479"/>
+    <location value="452"/>
+    <location value="484"/>
+    61
+  </text>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Decoration</classification>
+      </meta>
+      <location value="109"/>
+      <location value="44"/>
+      <location value="137"/>
+      <location value="55"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Decoration</classification>
+      </meta>
+      <location value="385"/>
+      <location value="44"/>
+      <location value="412"/>
+      <location value="55"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Decoration</classification>
+      </meta>
+      <location value="59"/>
+      <location value="63"/>
+      <location value="119"/>
+      <location value="79"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Decoration</classification>
+      </meta>
+      <location value="272"/>
+      <location value="133"/>
+      <location value="330"/>
+      <location value="148"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Decoration</classification>
+      </meta>
+      <location value="272"/>
+      <location value="357"/>
+      <location value="330"/>
+      <location value="372"/>
+    </picture>
+  </floating_group>
+  <floating_group class="picture">
+    <picture>
+      <meta>
+        <classification>Decoration</classification>
+      </meta>
+      <location value="438"/>
+      <location value="476"/>
+      <location value="461"/>
+      <location value="507"/>
+    </picture>
+  </floating_group>
+</doclang>

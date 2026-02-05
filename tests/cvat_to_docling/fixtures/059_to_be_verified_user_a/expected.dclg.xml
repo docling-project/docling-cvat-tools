@@ -1,0 +1,896 @@
+<doclang version="1.0.0">
+  <text>
+    <location value="2"/>
+    <location value="1"/>
+    <location value="59"/>
+    <location value="5"/>
+    Form 990 (2020)
+  </text>
+  <text>
+    <location value="481"/>
+    <location value="1"/>
+    <location value="504"/>
+    <location value="6"/>
+    Page 9
+  </text>
+  <heading level="2">
+    <location value="10"/>
+    <location value="8"/>
+    <location value="36"/>
+    <location value="12"/>
+    Part
+  </heading>
+  <heading level="2">
+    <location value="52"/>
+    <location value="8"/>
+    <location value="148"/>
+    <location value="12"/>
+    Statement of Revenue
+  </heading>
+  <location value="52"/>
+  <location value="13"/>
+  <location value="493"/>
+  <location value="19"/>
+  <checkbox class="unselected"/>
+  Check if Schedule O contains a response or note to any line in this Part VIII . 口
+  <floating_group class="table">
+    <otsl>
+      <location value="235"/>
+      <location value="19"/>
+      <location value="505"/>
+      <location value="42"/>
+      <fcel/>
+      (A) Total revenue
+      <fcel/>
+      (B). Related or exempt function revenue
+      <fcel/>
+      (c) Unrelated business revenue
+      <fcel/>
+      (D) Revenue excluded from tax under sections 512 - 514
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="4"/>
+    <location value="47"/>
+    <location value="23"/>
+    <location value="113"/>
+    Contributions, Gifts, Grants and Other Similar Amounts
+  </heading>
+  <list ordered="false">
+    <list_text>
+      <location value="24"/>
+      <location value="44"/>
+      <location value="144"/>
+      <location value="48"/>
+      la Federated campaigns.
+    </list_text>
+    <list_text>
+      <location value="29"/>
+      <location value="51"/>
+      <location value="118"/>
+      <location value="55"/>
+      b Membership dues
+    </list_text>
+    <list_text>
+      <location value="29"/>
+      <location value="59"/>
+      <location value="123"/>
+      <location value="64"/>
+      c Fundraising events.
+    </list_text>
+    <list_text>
+      <location value="29"/>
+      <location value="67"/>
+      <location value="111"/>
+      <location value="71"/>
+      d Related organizations
+    </list_text>
+    <list_text>
+      <location value="29"/>
+      <location value="74"/>
+      <location value="139"/>
+      <location value="78"/>
+      e Government grants (contributions)
+    </list_text>
+    <list_text>
+      <location value="29"/>
+      <location value="82"/>
+      <location value="143"/>
+      <location value="93"/>
+      f All other contributions, gifts, grants, and similar amounts not included above
+    </list_text>
+    <list_text>
+      <location value="29"/>
+      <location value="95"/>
+      <location value="135"/>
+      <location value="102"/>
+      Noncash contributions included in lines 1a - 1f:$
+    </list_text>
+    <list_text>
+      <location value="30"/>
+      <location value="107"/>
+      <location value="214"/>
+      <location value="111"/>
+      h Total. Add lines la-lf ・
+    </list_text>
+  </list>
+  <text>
+    <location value="268"/>
+    <location value="109"/>
+    <location value="293"/>
+    <location value="113"/>
+    602,073
+  </text>
+  <text>
+    <location value="155"/>
+    <location value="45"/>
+    <location value="163"/>
+    <location value="48"/>
+    1a
+  </text>
+  <text>
+    <location value="171"/>
+    <location value="44"/>
+    <location value="228"/>
+    <location value="49"/>
+  </text>
+  <text>
+    <location value="154"/>
+    <location value="52"/>
+    <location value="164"/>
+    <location value="56"/>
+  </text>
+  <text>
+    <location value="172"/>
+    <location value="51"/>
+    <location value="229"/>
+    <location value="57"/>
+    59,488
+  </text>
+  <text>
+    <location value="154"/>
+    <location value="60"/>
+    <location value="164"/>
+    <location value="63"/>
+  </text>
+  <text>
+    <location value="171"/>
+    <location value="59"/>
+    <location value="228"/>
+    <location value="65"/>
+    161,923
+  </text>
+  <text>
+    <location value="154"/>
+    <location value="67"/>
+    <location value="163"/>
+    <location value="71"/>
+  </text>
+  <text>
+    <location value="171"/>
+    <location value="65"/>
+    <location value="229"/>
+    <location value="72"/>
+  </text>
+  <text>
+    <location value="155"/>
+    <location value="75"/>
+    <location value="164"/>
+    <location value="79"/>
+  </text>
+  <text>
+    <location value="171"/>
+    <location value="74"/>
+    <location value="229"/>
+    <location value="80"/>
+    93,128
+  </text>
+  <text>
+    <location value="155"/>
+    <location value="88"/>
+    <location value="164"/>
+    <location value="92"/>
+  </text>
+  <text>
+    <location value="172"/>
+    <location value="87"/>
+    <location value="229"/>
+    <location value="92"/>
+    287,534
+  </text>
+  <text>
+    <location value="155"/>
+    <location value="100"/>
+    <location value="164"/>
+    <location value="104"/>
+  </text>
+  <text>
+    <location value="170"/>
+    <location value="94"/>
+    <location value="227"/>
+    <location value="105"/>
+  </text>
+  <heading level="2">
+    <location value="11"/>
+    <location value="130"/>
+    <location value="20"/>
+    <location value="184"/>
+    P r o g r a m   S e r v i c e   R e v e n u e
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="24"/>
+      <location value="115"/>
+      <location value="506"/>
+      <location value="199"/>
+      <ecel/>
+      <ched/>
+      Business Code
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="27"/>
+        <location value="123"/>
+        <location value="101"/>
+        <location value="127"/>
+        2a Program Service Fees
+      </list_text>
+      <fcel/>
+      711300
+      <fcel/>
+      307,411
+      <fcel/>
+      307,411
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="31"/>
+        <location value="138"/>
+        <location value="36"/>
+        <location value="142"/>
+        b
+      </list_text>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="31"/>
+        <location value="151"/>
+        <location value="36"/>
+        <location value="154"/>
+      </list_text>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="31"/>
+        <location value="162"/>
+        <location value="36"/>
+        <location value="166"/>
+        d
+      </list_text>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="31"/>
+        <location value="175"/>
+        <location value="36"/>
+        <location value="178"/>
+      </list_text>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="31"/>
+        <location value="186"/>
+        <location value="155"/>
+        <location value="191"/>
+        f All other program service revenue.
+      </list_text>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list ordered="false">
+        <list_text>
+          <location value="30"/>
+          <location value="195"/>
+          <location value="169"/>
+          <location value="199"/>
+          g Total. Add lines 2a-2f.
+        </list_text>
+      </list>
+      <fcel/>
+      <text>
+        <location value="211"/>
+        <location value="194"/>
+        <location value="235"/>
+        <location value="198"/>
+        307,411
+      </text>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+    </otsl>
+  </floating_group>
+  <heading level="2">
+    <location value="8"/>
+    <location value="333"/>
+    <location value="16"/>
+    <location value="372"/>
+    Other Revenue
+  </heading>
+  <floating_group class="table">
+    <otsl>
+      <location value="23"/>
+      <location value="200"/>
+      <location value="507"/>
+      <location value="507"/>
+      <fcel/>
+      <list_text>
+        <location value="28"/>
+        <location value="202"/>
+        <location value="240"/>
+        <location value="211"/>
+        3 Investment income (including dividends, interest, and other similar amounts)
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      306
+      <ecel/>
+      <ecel/>
+      <fcel/>
+      306
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="27"/>
+        <location value="213"/>
+        <location value="239"/>
+        <location value="217"/>
+        4 Income from investment of tax-exempt bond proceeds
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="28"/>
+        <location value="219"/>
+        <location value="240"/>
+        <location value="224"/>
+        5 Royalties •
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+      ба
+      <fcel/>
+      (i) Real
+      <ecel/>
+      <fcel/>
+      (ii) Personal
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <ucel/>
+      <ucel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <ucel/>
+      <fcel/>
+      6b
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <ucel/>
+      <fcel/>
+      6с
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="32"/>
+        <location value="266"/>
+        <location value="234"/>
+        <location value="271"/>
+        d Net rental income or (loss) •
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <ecel/>
+      <fcel/>
+      7a
+      <fcel/>
+      (i) Securities
+      <ecel/>
+      <fcel/>
+      (i) Other
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <ucel/>
+      <ucel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <ucel/>
+      <fcel/>
+      7b
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <ucel/>
+      <fcel/>
+      7c
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="27"/>
+        <location value="323"/>
+        <location value="227"/>
+        <location value="328"/>
+        d Net gain or (loss)
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="26"/>
+        <location value="330"/>
+        <location value="153"/>
+        <location value="349"/>
+        8a Gross income from fundraising events (not including $ 161,923 of contributions reported on line 1c). See Part IV, line 18
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      8a
+      <fcel/>
+      11,351
+      <fcel/>
+      <text>
+        <location value="303"/>
+        <location value="360"/>
+        <location value="307"/>
+        <location value="363"/>
+      </text>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="32"/>
+        <location value="353"/>
+        <location value="148"/>
+        <location value="358"/>
+        b Less: direct expenses
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      8b
+      <fcel/>
+      11,351
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="32"/>
+        <location value="360"/>
+        <location value="231"/>
+        <location value="364"/>
+        c Net income or (loss) from fundraising events .
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="24"/>
+        <location value="372"/>
+        <location value="155"/>
+        <location value="380"/>
+        9a Gross income from gaming activities. See Part IV, line 19
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      9a
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="32"/>
+        <location value="384"/>
+        <location value="148"/>
+        <location value="389"/>
+        b Less: direct expenses
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      9b
+      <ecel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="32"/>
+        <location value="391"/>
+        <location value="230"/>
+        <location value="396"/>
+        c Net income or (loss) from gaming activities
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="24"/>
+        <location value="403"/>
+        <location value="140"/>
+        <location value="412"/>
+        10aGross sales of inventory, less returns and allowances
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      10a
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="32"/>
+        <location value="416"/>
+        <location value="143"/>
+        <location value="420"/>
+        b Less: cost of goods sold
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      10b
+      <ecel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <fcel/>
+      <list ordered="false">
+        <list_text>
+          <location value="32"/>
+          <location value="424"/>
+          <location value="230"/>
+          <location value="428"/>
+          c Net income or (loss) from sales of inventory • •
+        </list_text>
+      </list>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <fcel/>
+      <text>
+        <location value="61"/>
+        <location value="429"/>
+        <location value="138"/>
+        <location value="433"/>
+        Miscellaneous Revenue
+      </text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      Business Code
+      <fcel/>
+      147,100
+      <ecel/>
+      <ecel/>
+      <fcel/>
+      147,100
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="27"/>
+        <location value="436"/>
+        <location value="79"/>
+        <location value="442"/>
+        11a Recycling
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      900099
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <ucel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="32"/>
+        <location value="452"/>
+        <location value="109"/>
+        <location value="459"/>
+        Education Income
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      900099
+      <fcel/>
+      28,553
+      <fcel/>
+      28,553
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="31"/>
+        <location value="468"/>
+        <location value="112"/>
+        <location value="474"/>
+        Research Services
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      900099
+      <fcel/>
+      26,677
+      <fcel/>
+      26,677
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list ordered="false">
+        <list_text>
+          <location value="31"/>
+          <location value="483"/>
+          <location value="146"/>
+          <location value="488"/>
+          d All other revenue . . . .
+        </list_text>
+      </list>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list_text>
+        <location value="32"/>
+        <location value="490"/>
+        <location value="230"/>
+        <location value="495"/>
+        e Total. Add lines 11a-11d
+      </list_text>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      202,330
+      <ecel/>
+      <ecel/>
+      <ecel/>
+      <nl/>
+      <fcel/>
+      <list ordered="false">
+        <list_text>
+          <location value="27"/>
+          <location value="499"/>
+          <location value="231"/>
+          <location value="504"/>
+          12 Total revenue. See instructions
+        </list_text>
+      </list>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <lcel/>
+      <fcel/>
+      1,112,120
+      <fcel/>
+      362,641
+      <ecel/>
+      <fcel/>
+      147,406
+      <nl/>
+    </otsl>
+  </floating_group>
+  <list_text>
+    <location value="27"/>
+    <location value="237"/>
+    <location value="79"/>
+    <location value="241"/>
+    6a Gross rents
+  </list_text>
+  <list_text>
+    <location value="26"/>
+    <location value="244"/>
+    <location value="79"/>
+    <location value="252"/>
+    b Less: rental expenses
+  </list_text>
+  <list_text>
+    <location value="27"/>
+    <location value="255"/>
+    <location value="87"/>
+    <location value="264"/>
+    c Rental income or (loss)
+  </list_text>
+  <list ordered="false">
+    <list_text>
+      <location value="27"/>
+      <location value="280"/>
+      <location value="81"/>
+      <location value="296"/>
+      7a Gross amount from sales of assets other than Inventory
+    </list_text>
+  </list>
+  <list ordered="false">
+    <list_text>
+      <location value="27"/>
+      <location value="299"/>
+      <location value="83"/>
+      <location value="311"/>
+      b Less. cost Ol other basis and sales expenses
+    </list_text>
+    <list_text>
+      <location value="27"/>
+      <location value="317"/>
+      <location value="78"/>
+      <location value="321"/>
+      Gain or (loss)
+    </list_text>
+  </list>
+  <text>
+    <location value="445"/>
+    <location value="508"/>
+    <location value="504"/>
+    <location value="511"/>
+    o r m   g 9 o   ( 2 0 2 9
+  </text>
+</doclang>

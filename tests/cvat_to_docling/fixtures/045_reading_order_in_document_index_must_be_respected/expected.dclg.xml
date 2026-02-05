@@ -1,0 +1,19 @@
+<doclang version="1.0.0">
+  <floating_group class="table">
+    <otsl>
+      <location value="59"/>
+      <location value="39"/>
+      <location value="419"/>
+      <location value="471"/>
+      <fcel/>
+<![CDATA[Section 12.18.3, 'Functions That Search JSON Values' Section 13.8.3, 'HELP Statement' Section A.11, 'MySQL 8.0 FAQ: MySQL Chinese, Japanese, and Korean Character Sets' Section 4.5.1.4, 'mysql Client Server-Side Help' Section 1.7.1, 'MySQL Extensions to Standard SQL' Section 23.6.4, 'NDB Cluster Replication Schema and Tables' Section 12.4.1, 'Operator Precedence' Section 3.3.4.7, 'Pattern Matching' Section 27.4.4, 'Pre-Filtering by Instrument' Section 23.5.16, 'Quick Reference: NDB Cluster SQL Statements' Section 8.2.1.2, 'Range Optimization' Section 17.1.6.3, 'Replica Server Options and Variables' Section 5.1.11, 'Server SQL Modes' Section 13.7.7.3, 'SHOW CHARACTER SET Statement' Section 13.7.7.4, 'SHOW COLLATION Statement' Section 13.7.7.5, 'SHOW COLUMNS Statement' Section 13.7.7.14, 'SHOW DATABASES Statement' Section 13.7.7.18, 'SHOW EVENTS Statement' Section 13.7.7.24, 'SHOW OPEN TABLES Statement' Section 13.7.7.28, 'SHOW PROCEDURE STATUS Statement' Section 13.7.7.37, 'SHOW STATUS Statement' Section 13.7.7.38, 'SHOW TABLE STATUS Statement' Section 13.7.7.39, 'SHOW TABLES Statement' Section 13.7.7.40, 'SHOW TRIGGERS Statement' Section 13.7.7.41, 'SHOW VARIABLES Statement' Section 6.2.4, 'Specifying Account Names' Section 12.8.1, 'String Comparison Functions and Operators' Section 9.1.1, 'String Literals' Section 5.1.9.5, 'Structured System Variables' Section 10.8.5, 'The binary Collation Compared to _bin Collations' Section 28.4.4.5, 'The ps_setup_disable_consumer() Procedure' Section 28.4.4.6, 'The ps_setup_disable_instrument() Procedure' Section 28.4.4.9, 'The ps_setup_enable_consumer() Procedure' Section 28.4.4.10, 'The ps_setup_enable_instrument() Procedure' Section 11.3.6, 'The SET Type' Section 5.1.9, 'Using System Variables' LIKE '_A%' Section A.11, 'MySQL 8.0 FAQ: MySQL Chinese, Japanese, and Korean Character Sets' LIKE 'pattern' Section 8.2.1.2, 'Range Optimization' Section 13.7.7, 'SHOW Statements' LIKE ... ESCAPE Section B.3.7, 'Known Issues in MySQL' M [index top] MEMBER OF() Section 13.1.15, 'CREATE INDEX Statement']]>      <nl/>
+    </otsl>
+  </floating_group>
+  <text>
+    <location value="30"/>
+    <location value="482"/>
+    <location value="49"/>
+    <location value="487"/>
+    5746
+  </text>
+</doclang>

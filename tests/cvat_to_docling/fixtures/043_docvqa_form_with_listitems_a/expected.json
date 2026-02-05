@@ -433,12 +433,12 @@
           },
           "charspan": [
             0,
-            23
+            21
           ]
         }
       ],
-      "orig": "• TDY. UCMR PROPER STA.",
-      "text": "• TDY. UCMR PROPER STA.",
+      "orig": "TDY. UCMR PROPER STA.",
+      "text": "TDY. UCMR PROPER STA.",
       "formatting": null,
       "hyperlink": null
     },
@@ -463,12 +463,12 @@
           },
           "charspan": [
             0,
-            19
+            21
           ]
         }
       ],
-      "orig": "PCS (Civilian only)",
-      "text": "PCS (Civilian only)",
+      "orig": "[ PCS (Civilian only)",
+      "text": "[ PCS (Civilian only)",
       "formatting": null,
       "hyperlink": null
     },
@@ -555,12 +555,12 @@
           },
           "charspan": [
             0,
-            5
+            6
           ]
         }
       ],
-      "orig": "00 25",
-      "text": "00 25",
+      "orig": "0n. 25",
+      "text": "0n. 25",
       "formatting": null,
       "hyperlink": null
     },
@@ -585,12 +585,12 @@
           },
           "charspan": [
             0,
-            17
+            16
           ]
         }
       ],
-      "orig": "3. TELEPHONE EXT.",
-      "text": "3. TELEPHONE EXT.",
+      "orig": "3. TELEPHONE EXT",
+      "text": "3. TELEPHONE EXT",
       "formatting": null,
       "hyperlink": null,
       "enumerated": false,
@@ -679,12 +679,12 @@
           },
           "charspan": [
             0,
-            9
+            10
           ]
         }
       ],
-      "orig": "20 May 62",
-      "text": "20 May 62",
+      "orig": "20 Kiny 62",
+      "text": "20 Kiny 62",
       "formatting": null,
       "hyperlink": null
     },
@@ -987,12 +987,12 @@
           },
           "charspan": [
             0,
-            18
+            19
           ]
         }
       ],
-      "orig": "Ste Louie, Hecours",
-      "text": "Ste Louie, Hecours",
+      "orig": "Sto Louis, Hissourt",
+      "text": "Sto Louis, Hissourt",
       "formatting": null,
       "hyperlink": null
     },
@@ -1017,12 +1017,12 @@
           },
           "charspan": [
             0,
-            2
+            0
           ]
         }
       ],
-      "orig": "20",
-      "text": "20",
+      "orig": "",
+      "text": "",
       "formatting": null,
       "hyperlink": null
     },
@@ -1047,12 +1047,12 @@
           },
           "charspan": [
             0,
-            33
+            34
           ]
         }
       ],
-      "orig": "Derer, Colorado SCAR St Louis, Mo",
-      "text": "Derer, Colorado SCAR St Louis, Mo",
+      "orig": "Denver, Colorado UCAR St Jouds. No",
+      "text": "Denver, Colorado UCAR St Jouds. No",
       "formatting": null,
       "hyperlink": null
     },
@@ -1169,12 +1169,12 @@
           },
           "charspan": [
             0,
-            17
+            15
           ]
         }
       ],
-      "orig": "I COMMON CARRIER:",
-      "text": "I COMMON CARRIER:",
+      "orig": "COMMON CARRIER:",
+      "text": "COMMON CARRIER:",
       "formatting": null,
       "hyperlink": null
     },
@@ -1199,12 +1199,12 @@
           },
           "charspan": [
             0,
-            5
+            4
           ]
         }
       ],
-      "orig": "L AIR",
-      "text": "L AIR",
+      "orig": "FAIR",
+      "text": "FAIR",
       "formatting": null,
       "hyperlink": null
     },
@@ -1229,12 +1229,12 @@
           },
           "charspan": [
             0,
-            9
+            7
           ]
         }
       ],
-      "orig": "- SURFACE",
-      "text": "- SURFACE",
+      "orig": "SURFACE",
+      "text": "SURFACE",
       "formatting": null,
       "hyperlink": null
     },
@@ -1263,8 +1263,8 @@
           ]
         }
       ],
-      "orig": "• WATER",
-      "text": "• WATER",
+      "orig": "1 WATER",
+      "text": "1 WATER",
       "formatting": null,
       "hyperlink": null
     },
@@ -1319,12 +1319,12 @@
           },
           "charspan": [
             0,
-            19
+            17
           ]
         }
       ],
-      "orig": "• GOVERNMENT OWNED:",
-      "text": "• GOVERNMENT OWNED:",
+      "orig": "GOVERNMENT OWNED:",
+      "text": "GOVERNMENT OWNED:",
       "formatting": null,
       "hyperlink": null
     },
@@ -1353,8 +1353,8 @@
           ]
         }
       ],
-      "orig": "[ VEHICLE",
-      "text": "[ VEHICLE",
+      "orig": "D VEHICLE",
+      "text": "D VEHICLE",
       "formatting": null,
       "hyperlink": null
     },
@@ -1447,8 +1447,8 @@
           ]
         }
       ],
-      "orig": "PRIVATELY-OWNED VEHICLE AT RATE OF. . CENTS PER MILE",
-      "text": "PRIVATELY-OWNED VEHICLE AT RATE OF. . CENTS PER MILE",
+      "orig": "PRIVATELY-OWNED VEHICLE AT RATE OF_ . CENTS PER MILE",
+      "text": "PRIVATELY-OWNED VEHICLE AT RATE OF_ . CENTS PER MILE",
       "formatting": null,
       "hyperlink": null
     },
@@ -1503,12 +1503,12 @@
           },
           "charspan": [
             0,
-            9
+            11
           ]
         }
       ],
-      "orig": "TPA-TMDAG",
-      "text": "TPA-TMDAG",
+      "orig": "] TPA-TMDAG",
+      "text": "] TPA-TMDAG",
       "formatting": null,
       "hyperlink": null
     },
@@ -1533,12 +1533,12 @@
           },
           "charspan": [
             0,
-            118
+            116
           ]
         }
       ],
-      "orig": "• REIMBURSEMENT LIMITED TO COST TO GOVT OF TRAVEL BY USUAL MODE OF TRANSPORTATION, INCLUDING PER DIEM. (Civilian only)",
-      "text": "• REIMBURSEMENT LIMITED TO COST TO GOVT OF TRAVEL BY USUAL MODE OF TRANSPORTATION, INCLUDING PER DIEM. (Civilian only)",
+      "orig": "REIMBURSEMENT LIMITED TO COST TO GOVT OF TRAVEL BY USUAL MODE OF TRANSPORTATION. INCLUDING PER DIEM. (Civilian only)",
+      "text": "REIMBURSEMENT LIMITED TO COST TO GOVT OF TRAVEL BY USUAL MODE OF TRANSPORTATION. INCLUDING PER DIEM. (Civilian only)",
       "formatting": null,
       "hyperlink": null
     },
@@ -1689,8 +1689,8 @@
           ]
         }
       ],
-      "orig": "] EMPLOYEE REQUESTS TRANSPORTATION OF DEPENDENTS WHOSE NAMES) AGES) AND RELATIONSHIPS) APPEAR",
-      "text": "] EMPLOYEE REQUESTS TRANSPORTATION OF DEPENDENTS WHOSE NAMES) AGES) AND RELATIONSHIPS) APPEAR",
+      "orig": "EMPLOYEE REQUESTS TRANSPORTATION OF DEPENDENTS WHOSE NAMES) AGE(S) AND RELATIONSHIP(S) APPEAR",
+      "text": "EMPLOYEE REQUESTS TRANSPORTATION OF DEPENDENTS WHOSE NAMES) AGE(S) AND RELATIONSHIP(S) APPEAR",
       "formatting": null,
       "hyperlink": null
     },
@@ -1715,12 +1715,12 @@
           },
           "charspan": [
             0,
-            40
+            39
           ]
         }
       ],
-      "orig": "TRANSPORTATION AUTHORIZED BY GOVERNMENT]",
-      "text": "TRANSPORTATION AUTHORIZED BY GOVERNMENT]",
+      "orig": "TRANSPORTATION AUTHORIZED BY GOVERNMENT",
+      "text": "TRANSPORTATION AUTHORIZED BY GOVERNMENT",
       "formatting": null,
       "hyperlink": null
     },
@@ -1775,12 +1775,12 @@
           },
           "charspan": [
             0,
-            10
+            8
           ]
         }
       ],
-      "orig": "C AIRCRAFT",
-      "text": "C AIRCRAFT",
+      "orig": "AIRCRAFT",
+      "text": "AIRCRAFT",
       "formatting": null,
       "hyperlink": null
     },
@@ -1865,12 +1865,12 @@
           },
           "charspan": [
             0,
-            57
+            55
           ]
         }
       ],
-      "orig": "• TRANSPORTATION AUTHORIZED BY PRIVATELY-OWNED CONVEYANCE",
-      "text": "• TRANSPORTATION AUTHORIZED BY PRIVATELY-OWNED CONVEYANCE",
+      "orig": "TRANSPORTATION AUTHORIZED BY PRIVATELY-OWNED CONVEYANCE",
+      "text": "TRANSPORTATION AUTHORIZED BY PRIVATELY-OWNED CONVEYANCE",
       "formatting": null,
       "hyperlink": null
     },
@@ -1960,8 +1960,8 @@
           ]
         }
       ],
-      "orig": "]EMPLOYEE DOES NOT HAVE DEPENDENTS AND IS AUTHOR IZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 2500 POUNDS NET WEIGHT",
-      "text": "]EMPLOYEE DOES NOT HAVE DEPENDENTS AND IS AUTHOR IZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 2500 POUNDS NET WEIGHT",
+      "orig": "EMPLOYEE DOES NOT HAVE DEPENDENTS AND IS AUTHOR- IZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 2500 POUNDS NET WEIGHT",
+      "text": "EMPLOYEE DOES NOT HAVE DEPENDENTS AND IS AUTHOR- IZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 2500 POUNDS NET WEIGHT",
       "formatting": null,
       "hyperlink": null
     },
@@ -2021,12 +2021,12 @@
           },
           "charspan": [
             0,
-            74
+            85
           ]
         }
       ],
-      "orig": "2 e t c o u g c u t g e n b L e to 5030 I$ 207oh6 48.00 D Cond Cund 155.46",
-      "text": "2 e t c o u g c u t g e n b L e to 5030 I$ 207oh6 48.00 D Cond Cund 155.46",
+      "orig": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
+      "text": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
       "formatting": null,
       "hyperlink": null
     },
@@ -2051,12 +2051,12 @@
           },
           "charspan": [
             0,
-            74
+            85
           ]
         }
       ],
-      "orig": "2 e t c o u g c u t g e n b L e to 5030 I$ 207oh6 48.00 D Cond Cund 155.46",
-      "text": "2 e t c o u g c u t g e n b L e to 5030 I$ 207oh6 48.00 D Cond Cund 155.46",
+      "orig": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
+      "text": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
       "formatting": null,
       "hyperlink": null
     },
@@ -2117,12 +2117,12 @@
           },
           "charspan": [
             0,
-            54
+            44
           ]
         }
       ],
-      "orig": "FRANK RSHARDAR, Major, Bayu tanly (Name, grade or atte",
-      "text": "FRANK RSHARDAR, Major, Bayu tanly (Name, grade or atte",
+      "orig": "FRANK R SHARDA, Major, (Name, grade or ttle)",
+      "text": "FRANK R SHARDA, Major, (Name, grade or ttle)",
       "formatting": null,
       "hyperlink": null
     },
@@ -2209,12 +2209,12 @@
           },
           "charspan": [
             0,
-            55
+            54
           ]
         }
       ],
-      "orig": "421x2040 206-300%, P5010-21 S49-02) (92513-552) 1256.00",
-      "text": "421x2040 206-300%, P5010-21 S49-02) (92513-552) 1256.00",
+      "orig": "A21X2040 206-300l P5010-21 549-02l (92513-552) $156.00",
+      "text": "A21X2040 206-300l P5010-21 549-02l (92513-552) $156.00",
       "formatting": null,
       "hyperlink": null
     },
@@ -2269,12 +2269,12 @@
           },
           "charspan": [
             0,
-            29
+            39
           ]
         }
       ],
-      "orig": "LABONGE, FinlAcet OFF 5/10/62",
-      "text": "LABONGE, FinlAcet OFF 5/10/62",
+      "orig": "PORECARE LABONGE, FinbAcete 01$ 5/10/52",
+      "text": "PORECARE LABONGE, FinbAcete 01$ 5/10/52",
       "formatting": null,
       "hyperlink": null
     },
@@ -2366,8 +2366,8 @@
           ]
         }
       ],
-      "orig": "ORDER NUMBEFURERERENCERROS G20. DATE",
-      "text": "ORDER NUMBEFURERERENCERROS G20. DATE",
+      "orig": "ORDER NUMBERREFERENCE GOS Gº20. BATE",
+      "text": "ORDER NUMBERREFERENCE GOS Gº20. BATE",
       "formatting": null,
       "hyperlink": null
     },
@@ -2556,8 +2556,8 @@
           ]
         }
       ],
-      "orig": "FOR THE SURGSON GENENAL:",
-      "text": "FOR THE SURGSON GENENAL:",
+      "orig": "FOR THE SURGEON GENERAL:",
+      "text": "FOR THE SURGEON GENERAL:",
       "formatting": null,
       "hyperlink": null
     },
@@ -2586,8 +2586,8 @@
           ]
         }
       ],
-      "orig": "FOR THE SURGSON GENENAL:",
-      "text": "FOR THE SURGSON GENENAL:",
+      "orig": "FOR THE SURGEON GENERAL:",
+      "text": "FOR THE SURGEON GENERAL:",
       "formatting": null,
       "hyperlink": null
     },
@@ -2642,12 +2642,12 @@
           },
           "charspan": [
             0,
-            45
+            44
           ]
         }
       ],
-      "orig": "W. LaCROSS, Chial Civilien Personnel Division",
-      "text": "W. LaCROSS, Chial Civilien Personnel Division",
+      "orig": "W. LaCkOSs, Chief Civilien Persomel Division",
+      "text": "W. LaCkOSs, Chief Civilien Persomel Division",
       "formatting": null,
       "hyperlink": null
     },
@@ -2852,12 +2852,12 @@
           },
           "charspan": [
             0,
-            0
+            7
           ]
         }
       ],
-      "orig": "",
-      "text": "",
+      "orig": "15W NET",
+      "text": "15W NET",
       "formatting": null,
       "hyperlink": null,
       "level": 1
@@ -2957,7 +2957,7 @@
           },
           "charspan": [
             0,
-            161
+            170
           ]
         }
       ],
@@ -3081,7 +3081,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "Shenk",
+            "text": "Bobert Sherde",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -3141,7 +3141,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 3,
             "end_col_offset_idx": 4,
-            "text": "Conmultant",
+            "text": "Commul tent",
             "column_header": false,
             "row_header": false,
             "row_section": false,
@@ -3288,7 +3288,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "Shenk",
+              "text": "Bobert Sherde",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -3348,7 +3348,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 3,
               "end_col_offset_idx": 4,
-              "text": "Conmultant",
+              "text": "Commul tent",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -3423,8 +3423,8 @@
           {
             "label": "value",
             "cell_id": 1,
-            "text": "00 25",
-            "orig": "00 25",
+            "text": "0n. 25",
+            "orig": "0n. 25",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3436,7 +3436,7 @@
               },
               "charspan": [
                 0,
-                5
+                6
               ]
             },
             "item_ref": {
@@ -3446,8 +3446,8 @@
           {
             "label": "key",
             "cell_id": 2,
-            "text": "3. TELEPHONE EXT.",
-            "orig": "3. TELEPHONE EXT.",
+            "text": "3. TELEPHONE EXT",
+            "orig": "3. TELEPHONE EXT",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3459,7 +3459,7 @@
               },
               "charspan": [
                 0,
-                17
+                16
               ]
             },
             "item_ref": {
@@ -3515,8 +3515,8 @@
           {
             "label": "value",
             "cell_id": 5,
-            "text": "20 May 62",
-            "orig": "20 May 62",
+            "text": "20 Kiny 62",
+            "orig": "20 Kiny 62",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3528,7 +3528,7 @@
               },
               "charspan": [
                 0,
-                9
+                10
               ]
             },
             "item_ref": {
@@ -3561,8 +3561,8 @@
           {
             "label": "value",
             "cell_id": 7,
-            "text": "Ste Louie, Hecours",
-            "orig": "Ste Louie, Hecours",
+            "text": "Sto Louis, Hissourt",
+            "orig": "Sto Louis, Hissourt",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3574,7 +3574,7 @@
               },
               "charspan": [
                 0,
-                18
+                19
               ]
             },
             "item_ref": {
@@ -3584,8 +3584,8 @@
           {
             "label": "key",
             "cell_id": 8,
-            "text": "20",
-            "orig": "20",
+            "text": "",
+            "orig": "",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3597,7 +3597,7 @@
               },
               "charspan": [
                 0,
-                2
+                0
               ]
             },
             "item_ref": {
@@ -3607,8 +3607,8 @@
           {
             "label": "value",
             "cell_id": 9,
-            "text": "Derer, Colorado SCAR St Louis, Mo",
-            "orig": "Derer, Colorado SCAR St Louis, Mo",
+            "text": "Denver, Colorado UCAR St Jouds. No",
+            "orig": "Denver, Colorado UCAR St Jouds. No",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3620,7 +3620,7 @@
               },
               "charspan": [
                 0,
-                33
+                34
               ]
             },
             "item_ref": {
@@ -3837,8 +3837,8 @@
           {
             "label": "value",
             "cell_id": 19,
-            "text": "FRANK RSHARDAR, Major, Bayu tanly (Name, grade or atte",
-            "orig": "FRANK RSHARDAR, Major, Bayu tanly (Name, grade or atte",
+            "text": "FRANK R SHARDA, Major, (Name, grade or ttle)",
+            "orig": "FRANK R SHARDA, Major, (Name, grade or ttle)",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3850,7 +3850,7 @@
               },
               "charspan": [
                 0,
-                54
+                44
               ]
             },
             "item_ref": {
@@ -3883,8 +3883,8 @@
           {
             "label": "value",
             "cell_id": 21,
-            "text": "ORDER NUMBEFURERERENCERROS G20. DATE",
-            "orig": "ORDER NUMBEFURERERENCERROS G20. DATE",
+            "text": "ORDER NUMBERREFERENCE GOS Gº20. BATE",
+            "orig": "ORDER NUMBERREFERENCE GOS Gº20. BATE",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3998,8 +3998,8 @@
           {
             "label": "key",
             "cell_id": 26,
-            "text": "FOR THE SURGSON GENENAL:",
-            "orig": "FOR THE SURGSON GENENAL:",
+            "text": "FOR THE SURGEON GENERAL:",
+            "orig": "FOR THE SURGEON GENERAL:",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4021,8 +4021,8 @@
           {
             "label": "value",
             "cell_id": 27,
-            "text": "FOR THE SURGSON GENENAL:",
-            "orig": "FOR THE SURGSON GENENAL:",
+            "text": "FOR THE SURGEON GENERAL:",
+            "orig": "FOR THE SURGEON GENERAL:",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4067,8 +4067,8 @@
           {
             "label": "value",
             "cell_id": 29,
-            "text": "W. LaCROSS, Chial Civilien Personnel Division",
-            "orig": "W. LaCROSS, Chial Civilien Personnel Division",
+            "text": "W. LaCkOSs, Chief Civilien Persomel Division",
+            "orig": "W. LaCkOSs, Chief Civilien Persomel Division",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4080,7 +4080,7 @@
               },
               "charspan": [
                 0,
-                45
+                44
               ]
             },
             "item_ref": {
@@ -4155,8 +4155,8 @@
           {
             "label": "value",
             "cell_id": 33,
-            "text": "• TDY. UCMR PROPER STA.",
-            "orig": "• TDY. UCMR PROPER STA.",
+            "text": "TDY. UCMR PROPER STA.",
+            "orig": "TDY. UCMR PROPER STA.",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4168,7 +4168,7 @@
               },
               "charspan": [
                 0,
-                23
+                21
               ]
             },
             "item_ref": {
@@ -4178,8 +4178,8 @@
           {
             "label": "value",
             "cell_id": 34,
-            "text": "PCS (Civilian only)",
-            "orig": "PCS (Civilian only)",
+            "text": "[ PCS (Civilian only)",
+            "orig": "[ PCS (Civilian only)",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4191,7 +4191,7 @@
               },
               "charspan": [
                 0,
-                19
+                21
               ]
             },
             "item_ref": {
@@ -4270,8 +4270,8 @@
           {
             "label": "key",
             "cell_id": 38,
-            "text": "I COMMON CARRIER:",
-            "orig": "I COMMON CARRIER:",
+            "text": "COMMON CARRIER:",
+            "orig": "COMMON CARRIER:",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4283,7 +4283,7 @@
               },
               "charspan": [
                 0,
-                17
+                15
               ]
             },
             "item_ref": {
@@ -4293,8 +4293,8 @@
           {
             "label": "value",
             "cell_id": 39,
-            "text": "L AIR",
-            "orig": "L AIR",
+            "text": "FAIR",
+            "orig": "FAIR",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4306,7 +4306,7 @@
               },
               "charspan": [
                 0,
-                5
+                4
               ]
             },
             "item_ref": {
@@ -4316,8 +4316,8 @@
           {
             "label": "value",
             "cell_id": 40,
-            "text": "- SURFACE",
-            "orig": "- SURFACE",
+            "text": "SURFACE",
+            "orig": "SURFACE",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4329,7 +4329,7 @@
               },
               "charspan": [
                 0,
-                9
+                7
               ]
             },
             "item_ref": {
@@ -4339,8 +4339,8 @@
           {
             "label": "value",
             "cell_id": 41,
-            "text": "• WATER",
-            "orig": "• WATER",
+            "text": "1 WATER",
+            "orig": "1 WATER",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4385,8 +4385,8 @@
           {
             "label": "key",
             "cell_id": 43,
-            "text": "• GOVERNMENT OWNED:",
-            "orig": "• GOVERNMENT OWNED:",
+            "text": "GOVERNMENT OWNED:",
+            "orig": "GOVERNMENT OWNED:",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4398,7 +4398,7 @@
               },
               "charspan": [
                 0,
-                19
+                17
               ]
             },
             "item_ref": {
@@ -4408,8 +4408,8 @@
           {
             "label": "value",
             "cell_id": 44,
-            "text": "[ VEHICLE",
-            "orig": "[ VEHICLE",
+            "text": "D VEHICLE",
+            "orig": "D VEHICLE",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4500,8 +4500,8 @@
           {
             "label": "value",
             "cell_id": 48,
-            "text": "TPA-TMDAG",
-            "orig": "TPA-TMDAG",
+            "text": "] TPA-TMDAG",
+            "orig": "] TPA-TMDAG",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4513,7 +4513,7 @@
               },
               "charspan": [
                 0,
-                9
+                11
               ]
             },
             "item_ref": {
@@ -4523,8 +4523,8 @@
           {
             "label": "key",
             "cell_id": 49,
-            "text": "TRANSPORTATION AUTHORIZED BY GOVERNMENT]",
-            "orig": "TRANSPORTATION AUTHORIZED BY GOVERNMENT]",
+            "text": "TRANSPORTATION AUTHORIZED BY GOVERNMENT",
+            "orig": "TRANSPORTATION AUTHORIZED BY GOVERNMENT",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4536,7 +4536,7 @@
               },
               "charspan": [
                 0,
-                40
+                39
               ]
             },
             "item_ref": {
@@ -4569,8 +4569,8 @@
           {
             "label": "value",
             "cell_id": 51,
-            "text": "C AIRCRAFT",
-            "orig": "C AIRCRAFT",
+            "text": "AIRCRAFT",
+            "orig": "AIRCRAFT",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4582,7 +4582,7 @@
               },
               "charspan": [
                 0,
-                10
+                8
               ]
             },
             "item_ref": {
@@ -4638,8 +4638,8 @@
           {
             "label": "value",
             "cell_id": 54,
-            "text": "2 e t c o u g c u t g e n b L e to 5030 I$ 207oh6 48.00 D Cond Cund 155.46",
-            "orig": "2 e t c o u g c u t g e n b L e to 5030 I$ 207oh6 48.00 D Cond Cund 155.46",
+            "text": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
+            "orig": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4651,7 +4651,7 @@
               },
               "charspan": [
                 0,
-                74
+                85
               ]
             },
             "item_ref": {
@@ -4919,7 +4919,7 @@
           },
           "charspan": [
             0,
-            2485
+            2491
           ]
         }
       ],

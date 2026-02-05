@@ -2,7 +2,7 @@
 
 This module provides functionality to convert a populated DocumentStructure
 from the CVAT parser into a DoclingDocument, handling text extraction via OCR
-or PDF parsing, reading order, containment hierarchy, groups, merges, and 
+or PDF parsing, reading order, containment hierarchy, groups, merges, and
 caption/footnote relationships.
 
 Coordinate System Invariants:
@@ -46,6 +46,9 @@ from docling_core.types.doc.document import (
     NodeItem,
     PictureClassificationClass,
     PictureClassificationData,
+    PictureClassificationMetaField,
+    PictureClassificationPrediction,
+    PictureMeta,
     ProvenanceItem,
     RefItem,
     Size,
@@ -2302,6 +2305,19 @@ class CVATToDoclingConverter:
                 pic_class = element.type
                 pic_class_harmonized = pic_classes[pic_class]
 
+                if pic_item.meta is None:
+                    pic_item.meta = PictureMeta()
+                pic_item.meta.classification = PictureClassificationMetaField(
+                    predictions=[
+                        PictureClassificationPrediction(
+                            class_name=pic_class_harmonized,
+                            confidence=1.0,
+                            created_by="cvat_to_docling",
+                        )
+                    ]
+                )
+
+                # legacy annotations:
                 pic_item.annotations.append(
                     PictureClassificationData(
                         provenance="human",
