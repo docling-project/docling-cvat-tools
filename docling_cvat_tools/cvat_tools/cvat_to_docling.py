@@ -761,7 +761,7 @@ class CVATToDoclingConverter:
                         current_parent,
                         node_cref,
                     )
-                    child_item.parent = node_ref
+                    self._move_item_to_parent(item=child_item, new_parent=node)
 
                 _visit(child_item)
 
@@ -770,6 +770,24 @@ class CVATToDoclingConverter:
         for root in (self.doc.body, self.doc.furniture):
             if root.children:
                 _visit(root)
+
+    def _move_item_to_parent(self, item: NodeItem, new_parent: NodeItem) -> None:
+        """Move a node to a new parent while keeping the tree links consistent."""
+        item_ref = item.get_ref()
+        new_parent_ref = new_parent.get_ref()
+
+        if item.parent:
+            old_parent = item.parent.resolve(self.doc)
+            old_parent.children = [
+                child_ref
+                for child_ref in old_parent.children
+                if child_ref.cref != item_ref.cref
+            ]
+
+        item.parent = new_parent_ref
+
+        if all(child_ref.cref != item_ref.cref for child_ref in new_parent.children):
+            new_parent.children.append(item_ref)
 
     def _reset_list_state(self):
         """Reset list processing state for clean conversion."""
@@ -1429,18 +1447,9 @@ class CVATToDoclingConverter:
                                     continue
                                 seen_refs.add(ref.cref)
                                 rich_cell = True
-                                item_parent = (
-                                    parent_group.parent.resolve(self.doc)
-                                    if parent_group.parent
-                                    else None
+                                self._move_item_to_parent(
+                                    item=parent_group, new_parent=table_item
                                 )
-                                if (
-                                    item_parent
-                                    and item_parent != table_item
-                                    and ref in item_parent.children
-                                ):
-                                    item_parent.children.remove(ref)
-                                parent_group.parent = table_item.get_ref()
                                 provs_in_cell.append(ref)
                                 continue
 
@@ -1453,19 +1462,9 @@ class CVATToDoclingConverter:
                                     continue
                                 seen_refs.add(ref.cref)
                                 rich_cell = True
-                                item_parent = (
-                                    item.parent.resolve(self.doc)
-                                    if item.parent
-                                    else None
+                                self._move_item_to_parent(
+                                    item=item, new_parent=table_item
                                 )
-                                # Only remove from parent if parent is not the table itself
-                                if (
-                                    item_parent
-                                    and item_parent != table_item
-                                    and item.get_ref() in item_parent.children
-                                ):
-                                    item_parent.children.remove(item.get_ref())
-                                item.parent = table_item.get_ref()
                                 provs_in_cell.append(ref)
                 if rich_cell:
                     # Get Ref
@@ -1480,9 +1479,10 @@ class CVATToDoclingConverter:
                             parent=table_item,
                         )
                         for pr in provs_in_cell:
-                            group_element.children.append(pr)
                             pr_item = pr.resolve(self.doc)
-                            pr_item.parent = group_element.get_ref()
+                            self._move_item_to_parent(
+                                item=pr_item, new_parent=group_element
+                            )
                         ref_for_rich_cell = group_element.get_ref()
 
                     cell = RichTableCell(
