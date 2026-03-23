@@ -1389,10 +1389,19 @@ class CVATToDoclingConverter:
             page_no = self.tabular_data[tind]["page_no"]
             page_height = self.doc.pages[page_no].size.height
 
+            existing_table_children = list(table_item.children)
             table_item.children = []
             all_items = []
+            seen_item_refs: Set[str] = set()
+            for item_ref in existing_table_children:
+                if item_ref.cref not in seen_item_refs:
+                    seen_item_refs.add(item_ref.cref)
+                    all_items.append(item_ref)
             for item, _ in self.doc.iterate_items(page_no=page_no):
-                all_items.append(item.get_ref())
+                item_ref = item.get_ref()
+                if item_ref.cref not in seen_item_refs:
+                    seen_item_refs.add(item_ref.cref)
+                    all_items.append(item_ref)
 
             for c in table_cell_data:
                 # Get text to populate TableData
