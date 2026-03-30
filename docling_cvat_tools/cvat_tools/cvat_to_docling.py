@@ -371,11 +371,13 @@ class ListHierarchyManager:
     and level tracking that was previously scattered across multiple data structures.
     """
 
-    def __init__(self, doc: DoclingDocument):
+    def __init__(
+        self, doc: DoclingDocument, shared_group_registry: Dict[int, GroupItem]
+    ):
         self.doc = doc
 
-        # Single source of truth for all group containers
-        self.group_containers: Dict[int, NodeItem] = {}  # path_id -> container
+        # Reference to shared group registry (owned by CVATToDoclingConverter)
+        self.shared_group_registry = shared_group_registry
 
         # Track level hierarchy for nested lists
         self.level_stack: Dict[int, ListItem] = {}  # level -> most recent list item
@@ -387,7 +389,6 @@ class ListHierarchyManager:
 
     def clear(self):
         """Reset all list hierarchy state."""
-        self.group_containers.clear()
         self.level_stack.clear()
         self.sublist_containers.clear()
 
@@ -396,28 +397,25 @@ class ListHierarchyManager:
         group_id: Optional[int],
         element: CVATElement,
         group_parent_finder,
-        existing_groups: Optional[Dict[int, GroupItem]] = None,
     ) -> NodeItem:
-        """Get or create a list container for top-level list items."""
+        """Get or create a list container for top-level list items using shared registry."""
         if group_id is not None:
-            if group_id not in self.group_containers:
-                # Check if group already exists in existing_groups (for mixed content groups)
-                if existing_groups and group_id in existing_groups:
-                    self.group_containers[group_id] = existing_groups[group_id]
-                else:
-                    group_parent = group_parent_finder(element)
-                    self.group_containers[group_id] = self.doc.add_group(
-                        label=GroupLabel.LIST,
-                        name=f"group_{group_id}",
-                        parent=group_parent,
-                    )
-                    # Sync back to existing_groups if provided
-                    if existing_groups:
-                        # GroupItem is a subclass of NodeItem, so this is safe
-                        existing_groups[group_id] = self.group_containers[group_id]  # type: ignore
-            return self.group_containers[group_id]
+            # Check shared registry first (may already exist from non-list path)
+            if group_id in self.shared_group_registry:
+                return self.shared_group_registry[group_id]
+
+            # Create new group with distinct prefix
+            group_parent = group_parent_finder(element)
+            group = self.doc.add_group(
+                label=GroupLabel.LIST,
+                name=f"list_group_{group_id}",
+                parent=group_parent,
+            )
+            # Store in shared registry
+            self.shared_group_registry[group_id] = group
+            return group
         else:
-            # Create standalone list container
+            # Create standalone list container (no shared registry needed)
             group_parent = group_parent_finder(element)
             return self.doc.add_group(
                 label=GroupLabel.LIST,
@@ -442,7 +440,7 @@ class ListHierarchyManager:
                 else None
             )
             return self.get_or_create_list_container(
-                group_id, element, group_parent_finder, None
+                group_id, element, group_parent_finder
             )
 
         parent_list_item = self.level_stack[level - 1]
@@ -544,11 +542,12 @@ class CVATToDoclingConverter:
         self.element_to_item: Dict[int, Optional[NodeItem]] = {}
         self.processed_elements: Set[int] = set()
 
-        # Track which groups have been created
-        self.created_groups: Dict[int, GroupItem] = {}  # path_id -> GroupItem
+        # Unified group registry: tracks ALL groups by their identifier
+        # This prevents duplicate group creation across different code paths
+        self.all_groups: Dict[int, GroupItem] = {}  # group_id/path_id -> GroupItem
 
-        # Centralized list hierarchy management
-        self.list_manager = ListHierarchyManager(self.doc)
+        # Centralized list hierarchy management (shares all_groups registry)
+        self.list_manager = ListHierarchyManager(self.doc, self.all_groups)
         self._list_sequence_active = False
         self._active_list_group_id: Optional[int] = None
 
@@ -661,6 +660,9 @@ class CVATToDoclingConverter:
         # Ensure tree invariants hold before scaling
         self._ensure_tree_parent_consistency()
 
+        # Validate no duplicate crefs
+        self._validate_unique_crefs()
+
         # Scale document coordinates from cvat_input_scale to storage_scale
         if self.storage_scale != self.cvat_input_scale:
             self._scale_document_to_storage()
@@ -767,9 +769,28 @@ class CVATToDoclingConverter:
 
             node.children = unique_children
 
-        for root in (self.doc.body, self.doc.furniture):
-            if root.children:
-                _visit(root)
+    def _validate_unique_crefs(self) -> None:
+        """Validate that all items have unique cref values.
+
+        Raises:
+            ValueError: If duplicate cref values are found
+        """
+        seen_crefs: Set[str] = set()
+        duplicates: List[str] = []
+
+        # Iterate through all items in the document
+        for item, _ in self.doc.iterate_items(with_groups=True):
+            ref = item.get_ref()
+            if ref.cref in seen_crefs:
+                duplicates.append(ref.cref)
+                _logger.error(f"Duplicate cref found: {ref.cref} for item: {item}")
+            seen_crefs.add(ref.cref)
+
+        if duplicates:
+            raise ValueError(
+                f"Duplicate cref values found in document: {duplicates}. "
+                f"This indicates a bug in group creation logic."
+            )
 
     def _move_item_to_parent(self, item: NodeItem, new_parent: NodeItem) -> None:
         """Move a node to a new parent while keeping the tree links consistent."""
@@ -874,21 +895,21 @@ class CVATToDoclingConverter:
     def _create_group_on_demand(
         self, path_id: int, element_ids: List[int], parent: Optional[NodeItem]
     ) -> NodeItem:
-        """Create a group when first encountered."""
-        # Check if already created
-        if path_id in self.created_groups:
-            return self.created_groups[path_id]
+        """Create a group when first encountered, using shared registry."""
+        # Check shared registry (includes list groups)
+        if path_id in self.all_groups:
+            return self.all_groups[path_id]
 
         # Determine group label based on contained elements
         group_label = self._determine_group_label(element_ids)
 
-        # Create group with proper parent
+        # Create group with distinct prefix for non-list groups
         group = self.doc.add_group(
-            label=group_label, name=f"group_{path_id}", parent=parent
+            label=group_label, name=f"path_group_{path_id}", parent=parent
         )
 
-        # Track that we created this group
-        self.created_groups[path_id] = group
+        # Track in shared registry
+        self.all_groups[path_id] = group
 
         return group
 
@@ -941,7 +962,7 @@ class CVATToDoclingConverter:
         if level == 1:
             # Top-level item - needs a list container (group)
             actual_parent = self.list_manager.get_or_create_list_container(
-                group_id, element, self._find_group_parent, self.created_groups
+                group_id, element, self._find_group_parent
             )
         else:
             # Nested item - create sublist group
@@ -988,9 +1009,8 @@ class CVATToDoclingConverter:
     def _get_active_list_container(self) -> Optional[NodeItem]:
         """Return the list container for the active sequence, if available."""
         if self._active_list_group_id is not None:
-            container = self.list_manager.group_containers.get(
-                self._active_list_group_id
-            )
+            # Check shared registry for the group container
+            container = self.all_groups.get(self._active_list_group_id)
             if container is not None:
                 return container
 
@@ -1068,9 +1088,9 @@ class CVATToDoclingConverter:
         self.doc.delete_items(node_items=empty_groups)
 
         # Keep local bookkeeping in sync for any removed groups
-        for path_id, group in list(self.created_groups.items()):
+        for path_id, group in list(self.all_groups.items()):
             if group in empty_groups:
-                self.created_groups.pop(path_id)
+                self.all_groups.pop(path_id)
 
     def _find_logical_children_for_list_item(
         self, list_element: CVATElement, global_order: List[int], current_pos: int
@@ -1341,7 +1361,8 @@ class CVATToDoclingConverter:
         self._close_list_sequence()
 
         if group_id is not None:
-            self.created_groups.pop(group_id, None)
+            # Remove from all_groups if it exists (will be recreated if needed)
+            self.all_groups.pop(group_id, None)
 
         self._list_sequence_active = True
         self._active_list_group_id = group_id
@@ -1352,7 +1373,8 @@ class CVATToDoclingConverter:
             return
 
         if self._active_list_group_id is not None:
-            self.created_groups.pop(self._active_list_group_id, None)
+            # Remove from all_groups if it exists
+            self.all_groups.pop(self._active_list_group_id, None)
 
         self.list_manager.clear()
         self._list_sequence_active = False
@@ -1360,21 +1382,19 @@ class CVATToDoclingConverter:
 
     def _snapshot_list_state(
         self,
-    ) -> Tuple[Dict[int, NodeItem], Dict[int, ListItem], Dict[str, NodeItem]]:
+    ) -> Tuple[Dict[int, ListItem], Dict[str, NodeItem]]:
         """Capture list manager state for temporary isolation."""
         return (
-            dict(self.list_manager.group_containers),
             dict(self.list_manager.level_stack),
             dict(self.list_manager.sublist_containers),
         )
 
     def _restore_list_state(
         self,
-        state: Tuple[Dict[int, NodeItem], Dict[int, ListItem], Dict[str, NodeItem]],
+        state: Tuple[Dict[int, ListItem], Dict[str, NodeItem]],
     ) -> None:
         """Restore list manager state after isolated processing."""
-        group_containers, level_stack, sublist_containers = state
-        self.list_manager.group_containers = group_containers
+        level_stack, sublist_containers = state
         self.list_manager.level_stack = level_stack
         self.list_manager.sublist_containers = sublist_containers
 
@@ -1482,7 +1502,7 @@ class CVATToDoclingConverter:
                     if len(provs_in_cell) > 1:
                         group_element = self.doc.add_group(
                             label=GroupLabel.UNSPECIFIED,
-                            name="rich_cell_group_{}_{}_{}".format(
+                            name="table_{}_cell_{}_{}".format(
                                 tind, c.start_column, c.start_row
                             ),
                             parent=table_item,
