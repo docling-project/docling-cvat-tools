@@ -44,8 +44,7 @@ from docling_core.types.doc.labels import GraphCellLabel, GraphLinkLabel
 from PIL import Image
 
 from docling_cvat_tools.cvat_tools.geometry import bbox_intersection
-from docling_cvat_tools.cvat_tools.models import CVATElement, TableStructLabel
-from docling_cvat_tools.cvat_tools.tree import TreeNode, build_containment_tree
+from docling_cvat_tools.cvat_tools.models import TableStructLabel
 from docling_cvat_tools.utils import classify_cells, sort_cell_ids
 
 from .list_hierarchy import build_element_to_groups, build_group_membership
@@ -390,14 +389,14 @@ def parse_regions(
 
 def resolve_connected_regions(
     doc: LSDocument,
-) -> Tuple[ResolvedPaths, List[LSPath]]:
+) -> Tuple[ResolvedPaths, List[LSPath], List[LSPath]]:
     """Resolve connectedRegions to actual elements via dictionary lookup.
 
     Args:
         doc: Parsed LSDocument
 
     Returns:
-        Tuple of (ResolvedPaths, list of group LSPath objects for reference)
+        Tuple of (ResolvedPaths, list of group LSPath objects, list of reading_order LSPath objects)
     """
     reading_orders: List[List[LSElement]] = []
     merges: List[List[LSElement]] = []
@@ -406,6 +405,7 @@ def resolve_connected_regions(
     footnotes: List[Tuple[LSElement, LSElement]] = []
     to_values: List[Tuple[LSElement, LSElement]] = []
     group_paths: List[LSPath] = []
+    reading_order_paths: List[LSPath] = []
 
     for path in doc.paths:
         resolved_elements: List[LSElement] = []
@@ -425,6 +425,7 @@ def resolve_connected_regions(
 
         if path.label == "reading_order":
             reading_orders.append(resolved_elements)
+            reading_order_paths.append(path)
         elif path.label == "merge":
             if len(resolved_elements) >= 2:
                 merges.append(resolved_elements)
@@ -450,53 +451,88 @@ def resolve_connected_regions(
         to_values=to_values,
     )
 
-    return resolved, group_paths
+    return resolved, group_paths, reading_order_paths
 
 
-def build_global_reading_order(resolved: ResolvedPaths) -> List[LSElement]:
-    """Build global reading order by concatenating all reading_order paths.
+def build_global_reading_order(
+    resolved: ResolvedPaths,
+    reading_order_paths: List[LSPath],
+) -> List[LSElement]:
+    """Build global reading order with recursive DFS splice for child paths.
 
-    The invariant guarantees each element appears exactly once across all
-    reading_order paths, so simple concatenation gives the complete order.
+    Top-level paths (level is None or 1) form the primary sequence. Child paths
+    (level > 1) are spliced in immediately after their parent element via DFS.
 
     Args:
         resolved: Resolved path mappings
+        reading_order_paths: LSPath objects parallel to resolved.reading_orders
 
     Returns:
         Flat ordered list of all elements in reading order
     """
+    # Step 1: Classify paths into top-level and child paths
+    top_level_elements: List[List[LSElement]] = []
+    child_path_pairs: List[Tuple[LSPath, List[LSElement]]] = []
+
+    for path, elements in zip(reading_order_paths, resolved.reading_orders):
+        if path.level is None or path.level <= 1:
+            top_level_elements.append(elements)
+        else:
+            child_path_pairs.append((path, elements))
+
+    # Step 2: Build child_paths_by_parent with validation
+    child_paths_by_parent: Dict[str, List[LSElement]] = {}
+
+    for path, elements in child_path_pairs:
+        parent_ids = {el.parent_ls_id for el in elements if el.parent_ls_id}
+        if not parent_ids:
+            logger.warning(
+                "Child path %s (level=%s) has elements with no parent_ls_id",
+                path.ls_id,
+                path.level,
+            )
+            continue
+        if len(parent_ids) > 1:
+            logger.warning(
+                "Child path %s (level=%s) has elements with multiple parent_ls_ids: %s",
+                path.ls_id,
+                path.level,
+                parent_ids,
+            )
+        anchor = next((el.parent_ls_id for el in elements if el.parent_ls_id), None)
+        if anchor:
+            existing = child_paths_by_parent.setdefault(anchor, [])
+            for el in elements:
+                if el.ls_id not in {e.ls_id for e in existing}:
+                    existing.append(el)
+
+    # Validate: warn if top-level path elements carry a parent_ls_id
+    for elements in top_level_elements:
+        for el in elements:
+            if el.parent_ls_id:
+                logger.warning(
+                    "Top-level path element %s carries parent_ls_id %s (mismatch)",
+                    el.ls_id,
+                    el.parent_ls_id,
+                )
+
+    # Steps 3+4: DFS traversal - primary sequence with children spliced in
     global_order: List[LSElement] = []
     seen: Set[str] = set()
 
-    for path_elements in resolved.reading_orders:
+    def _dfs(element: LSElement) -> None:
+        if element.ls_id in seen:
+            return
+        seen.add(element.ls_id)
+        global_order.append(element)
+        for child in child_paths_by_parent.get(element.ls_id, []):
+            _dfs(child)
+
+    for path_elements in top_level_elements:
         for element in path_elements:
-            if element.ls_id not in seen:
-                global_order.append(element)
-                seen.add(element.ls_id)
+            _dfs(element)
 
     return global_order
-
-
-def ls_element_to_cvat_element(element: LSElement) -> CVATElement:
-    """Convert LSElement to CVATElement for compatibility with cvat_tools utilities.
-
-    Args:
-        element: LSElement to convert
-
-    Returns:
-        CVATElement with equivalent data
-    """
-    return CVATElement(
-        id=element.int_id,
-        label=element.label,
-        bbox=element.bbox,
-        rotation_deg=element.rotation_deg,
-        content_layer=element.content_layer,
-        type=element.picture_type,
-        level=element.level,
-        attributes={},
-        text=element.text,
-    )
 
 
 def compute_cells(
@@ -729,9 +765,9 @@ class DocumentBuilder:
     doc: DoclingDocument
     ls_doc: LSDocument
     resolved: ResolvedPaths
-    containment_tree: List[TreeNode]
-    tree_index: Dict[int, TreeNode]
+    reading_order_paths: List[LSPath]
     group_paths: List[LSPath]
+    children_by_parent: Dict[str, List[LSElement]]
 
     # Track created items by element ls_id
     element_to_item: Dict[str, NodeItem] = field(default_factory=dict)
@@ -762,7 +798,9 @@ class DocumentBuilder:
         self.element_to_groups = build_element_to_groups(group_membership)
 
         # Process elements in reading order
-        global_order = build_global_reading_order(self.resolved)
+        global_order = build_global_reading_order(
+            self.resolved, self.reading_order_paths
+        )
         self._compute_effective_levels(global_order)
 
         for element in global_order:
@@ -903,13 +941,24 @@ class DocumentBuilder:
 
     def _process_remaining_children(self, page_height: float) -> None:
         """Create contained elements that are not present in reading order."""
-        pending = [
+        all_remaining = [
             element
             for element in self.ls_doc.elements
             if element.ls_id not in self.element_to_item
             and not is_table_structure_label(element.label)
             and not isinstance(element.label, GraphCellLabel)
         ]
+
+        # Drop elements with no parent_ls_id — they are orphaned
+        pending = []
+        for element in all_remaining:
+            if element.parent_ls_id is None:
+                logger.warning(
+                    "Dropping element %s: not in reading order and no parent_ls_id",
+                    element.ls_id,
+                )
+            else:
+                pending.append(element)
 
         while pending:
             progressed = False
@@ -941,24 +990,10 @@ class DocumentBuilder:
 
     def _has_unresolved_parent(self, element: LSElement) -> bool:
         """Check whether an element has an explicit parent that is not ready."""
-        if (
+        return (
             element.parent_ls_id is not None
             and element.parent_ls_id not in self.element_to_item
-        ):
-            return True
-
-        tree_node = self._find_tree_node(element)
-        if tree_node and tree_node.parent:
-            parent_element = self.ls_doc.element_by_int_id.get(
-                tree_node.parent.element.id
-            )
-            if (
-                parent_element is not None
-                and parent_element.ls_id not in self.element_to_item
-            ):
-                return True
-
-        return False
+        )
 
     def _create_list_item(
         self,
@@ -1092,16 +1127,9 @@ class DocumentBuilder:
         Returns:
             Created table item
         """
-        # Find table structure children using containment tree
-        tree_node = self._find_tree_node(element)
-        if not tree_node:
-            return self.doc.add_table(
-                data=TableData(num_rows=0, num_cols=0, table_cells=[]),
-                prov=prov,
-                parent=parent,
-            )
+        # Collect structure elements via explicit parent_ls_id lookup
+        children = self.children_by_parent.get(element.ls_id, [])
 
-        # Collect structure elements
         rows: List[LSElement] = []
         columns: List[LSElement] = []
         merges: List[LSElement] = []
@@ -1110,10 +1138,7 @@ class DocumentBuilder:
         row_sections: List[LSElement] = []
         fillable_cells: List[LSElement] = []
 
-        def collect_structure(node: TreeNode) -> None:
-            el = self.ls_doc.element_by_int_id.get(node.element.id)
-            if el is None:
-                return
+        for el in children:
             if el.label == TableStructLabel.TABLE_ROW:
                 rows.append(el)
             elif el.label == TableStructLabel.TABLE_COLUMN:
@@ -1128,11 +1153,6 @@ class DocumentBuilder:
                 row_sections.append(el)
             elif el.label == TableStructLabel.TABLE_FILLABLE_CELLS:
                 fillable_cells.append(el)
-            for child in node.children:
-                collect_structure(child)
-
-        for child in tree_node.children:
-            collect_structure(child)
 
         if not rows or not columns:
             return self.doc.add_table(
@@ -1220,7 +1240,7 @@ class DocumentBuilder:
         )
 
     def _determine_parent(self, element: LSElement) -> Optional[NodeItem]:
-        """Determine the parent for an element based on containment tree.
+        """Determine the parent for an element based on explicit parent_ls_id.
 
         Args:
             element: Element to find parent for
@@ -1229,29 +1249,8 @@ class DocumentBuilder:
             Parent NodeItem or None
         """
         if element.parent_ls_id:
-            explicit_parent = self.element_to_item.get(element.parent_ls_id)
-            if explicit_parent is not None:
-                return explicit_parent
-
-        tree_node = self._find_tree_node(element)
-        if tree_node and tree_node.parent:
-            parent_element = self.ls_doc.element_by_int_id.get(
-                tree_node.parent.element.id
-            )
-            if parent_element:
-                return self.element_to_item.get(parent_element.ls_id)
+            return self.element_to_item.get(element.parent_ls_id)
         return None
-
-    def _find_tree_node(self, element: LSElement) -> Optional[TreeNode]:
-        """Find the tree node for an element.
-
-        Args:
-            element: Element to find
-
-        Returns:
-            TreeNode or None
-        """
-        return self.tree_index.get(element.int_id)
 
     def _apply_caption_paths(self, page_height: float) -> None:
         """Apply caption relationships."""
@@ -1408,22 +1407,13 @@ def convert_ls_to_docling(
         )
 
     # Step 2: Resolve connectedRegions
-    resolved, group_paths = resolve_connected_regions(ls_doc)
+    resolved, group_paths, reading_order_paths = resolve_connected_regions(ls_doc)
 
-    # Step 3: Build containment tree using cvat_tools
-    cvat_elements = [ls_element_to_cvat_element(el) for el in ls_doc.elements]
-    tree_roots = build_containment_tree(cvat_elements)
-
-    # Build tree index
-    tree_index: Dict[int, TreeNode] = {}
-
-    def index_tree(node: TreeNode) -> None:
-        tree_index[node.element.id] = node
-        for child in node.children:
-            index_tree(child)
-
-    for root in tree_roots:
-        index_tree(root)
+    # Step 3: Build children_by_parent index from explicit parent_ls_id annotations
+    children_by_parent: Dict[str, List[LSElement]] = {}
+    for el in ls_doc.elements:
+        if el.parent_ls_id:
+            children_by_parent.setdefault(el.parent_ls_id, []).append(el)
 
     # Step 4: Create DoclingDocument
     doc = DoclingDocument(name=document_name)
@@ -1448,9 +1438,9 @@ def convert_ls_to_docling(
         doc=doc,
         ls_doc=ls_doc,
         resolved=resolved,
-        containment_tree=tree_roots,
-        tree_index=tree_index,
+        reading_order_paths=reading_order_paths,
         group_paths=group_paths,
+        children_by_parent=children_by_parent,
     )
     builder.build(page_height=image_height)
 

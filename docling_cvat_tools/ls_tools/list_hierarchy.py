@@ -123,30 +123,13 @@ def should_terminate_list(
         # No active list
         return False
 
-    # Check group-based termination
+    # Group-based termination only
     if state.active_group_id is not None:
         element_groups = element_to_groups.get(element.ls_id, [])
         if state.active_group_id not in element_groups:
             # Element is not in the active group - terminate
             return True
         return False
-
-    # Fallback: level-based termination (when no group paths)
-    if not is_list_item_element(element):
-        # Non-list-item elements don't terminate lists by themselves
-        # unless they have an explicit lower level
-        if element.level is not None and element.level < state.level_stack[-1]:
-            return True
-        return False
-
-    # For list items, check level conditions
-    if element.level is None:
-        # Unset level terminates the list
-        return True
-
-    if element.level < state.level_stack[-1]:
-        # Lower level terminates inner lists
-        return True
 
     return False
 
@@ -171,22 +154,16 @@ def should_start_list(
 
     # Check if element is part of a group
     element_groups = element_to_groups.get(element.ls_id, [])
+    if not element_groups:
+        logger.warning(
+            "list_item %s has no group path — treating as standalone item",
+            element.ls_id,
+        )
+        return False
+
     if element_groups and state.active_group_id is None:
         # Element is in a group but no active group - start new list
         return True
-
-    if not state.level_stack:
-        # No active list and this is a list item - start list
-        return True
-
-    # Check for nested list (higher level)
-    effective_level = (
-        element.level if element.level is not None else state.current_level
-    )
-    if effective_level is not None and state.level_stack:
-        if effective_level > state.level_stack[-1]:
-            # Higher level - start nested list
-            return True
 
     return False
 
