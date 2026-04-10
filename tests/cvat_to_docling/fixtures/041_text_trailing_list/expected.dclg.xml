@@ -188,6 +188,7 @@
     <location value="475"/>
     <location value="463"/>
     <location value="481"/>
+    <layer class="furniture"/>
     15
   </text>
   <text>
@@ -195,6 +196,7 @@
     <location value="485"/>
     <location value="464"/>
     <location value="493"/>
+    <layer class="furniture"/>
     FR
   </text>
 </doclang>

@@ -1,42 +1,37 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/texts/0"
+        "$ref": "#/texts/0"
       },
       {
-        "cref": "#/texts/1"
+        "$ref": "#/texts/1"
       },
       {
-        "cref": "#/texts/2"
+        "$ref": "#/texts/2"
       },
       {
-        "cref": "#/texts/3"
+        "$ref": "#/texts/3"
       },
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/key_value_items/0"
+        "$ref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -45,11 +40,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -68,18 +62,15 @@
         }
       ],
       "orig": "U.S.  Patent",
-      "text": "U.S.  Patent",
-      "formatting": null,
-      "hyperlink": null
+      "text": "U.S.  Patent"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -98,18 +89,15 @@
         }
       ],
       "orig": "Dec. 12, 2017",
-      "text": "Dec. 12, 2017",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Dec. 12, 2017"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -128,18 +116,15 @@
         }
       ],
       "orig": "Sheet 2  of 2",
-      "text": "Sheet 2  of 2",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Sheet 2  of 2"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -158,18 +143,15 @@
         }
       ],
       "orig": "US  9,840,656 B2",
-      "text": "US  9,840,656 B2",
-      "formatting": null,
-      "hyperlink": null
+      "text": "US  9,840,656 B2"
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -188,22 +170,19 @@
         }
       ],
       "orig": "\"- .EB  en  UJ  UJ  ?fi.?fi.  N..- - c::  -- -- enena,- a,  0:::  LL  0:::  c::  e:!e:!oc  ::::J  LL  LL",
-      "text": "\"- .EB  en  UJ  UJ  ?fi.?fi.  N..- - c::  -- -- enena,- a,  0:::  LL  0:::  c::  e:!e:!oc  ::::J  LL  LL",
-      "formatting": null,
-      "hyperlink": null
+      "text": "\"- .EB  en  UJ  UJ  ?fi.?fi.  N..- - c::  -- -- enena,- a,  0:::  LL  0:::  c::  e:!e:!oc  ::::J  LL  LL"
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [
         {
-          "cref": "#/pictures/3"
+          "$ref": "#/pictures/3"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -222,18 +201,15 @@
         }
       ],
       "orig": "c::  c::  -- en  enena,- a,  0:::  LL  ~  e:!e:!oc  C.  0  UJ  (.)",
-      "text": "c::  c::  -- en  enena,- a,  0:::  LL  ~  e:!e:!oc  C.  0  UJ  (.)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "c::  c::  -- en  enena,- a,  0:::  LL  ~  e:!e:!oc  C.  0  UJ  (.)"
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -252,18 +228,15 @@
         }
       ],
       "orig": "\"'C  -- ::::J  enena,- a,  0:::  LL  - ~  e  e:!e:!oc  C.  0  UJ  (.)",
-      "text": "\"'C  -- ::::J  enena,- a,  0:::  LL  - ~  e  e:!e:!oc  C.  0  UJ  (.)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "\"'C  -- ::::J  enena,- a,  0:::  LL  - ~  e  e:!e:!oc  C.  0  UJ  (.)"
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -282,18 +255,15 @@
         }
       ],
       "orig": "UJ  UJ  ?fi.?fi.  N..- - c::  -- -- enena,- a,  0:::  0:::  c::",
-      "text": "UJ  UJ  ?fi.?fi.  N..- - c::  -- -- enena,- a,  0:::  0:::  c::",
-      "formatting": null,
-      "hyperlink": null
+      "text": "UJ  UJ  ?fi.?fi.  N..- - c::  -- -- enena,- a,  0:::  0:::  c::"
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -312,18 +282,15 @@
         }
       ],
       "orig": "- E  E  .c  .c  - a,  E  i=",
-      "text": "- E  E  .c  .c  - a,  E  i=",
-      "formatting": null,
-      "hyperlink": null
+      "text": "- E  E  .c  .c  - a,  E  i="
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -342,18 +309,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "caption",
       "prov": [
         {
@@ -371,54 +335,50 @@
           ]
         }
       ],
-      "orig": "N  ■  c.,  LL.",
-      "text": "N  ■  c.,  LL.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "N  \u25a0  c.,  LL.",
+      "text": "N  \u25a0  c.,  LL."
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/pictures/1"
+          "$ref": "#/pictures/1"
         },
         {
-          "cref": "#/pictures/2"
+          "$ref": "#/pictures/2"
         },
         {
-          "cref": "#/texts/4"
+          "$ref": "#/texts/4"
         },
         {
-          "cref": "#/texts/5"
+          "$ref": "#/texts/5"
         },
         {
-          "cref": "#/pictures/4"
+          "$ref": "#/pictures/4"
         },
         {
-          "cref": "#/texts/6"
+          "$ref": "#/texts/6"
         },
         {
-          "cref": "#/texts/7"
+          "$ref": "#/texts/7"
         },
         {
-          "cref": "#/texts/8"
+          "$ref": "#/texts/8"
         },
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         },
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -427,9 +387,7 @@
               "class_name": "chart"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -450,12 +408,11 @@
       ],
       "captions": [
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         }
       ],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -472,13 +429,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -487,9 +442,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -511,7 +464,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -528,13 +480,11 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -543,9 +493,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -567,7 +515,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -584,13 +531,11 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "cref": "#/texts/5"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -599,9 +544,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -623,7 +566,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -640,13 +582,11 @@
     {
       "self_ref": "#/pictures/4",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -655,9 +595,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -679,7 +617,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -699,17 +636,15 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [
           {
@@ -732,7 +667,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/1"
+              "$ref": "#/pictures/1"
             }
           },
           {
@@ -755,7 +690,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/0"
+              "$ref": "#/pictures/0"
             }
           },
           {
@@ -778,7 +713,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/2"
+              "$ref": "#/pictures/2"
             }
           },
           {
@@ -801,7 +736,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/4"
+              "$ref": "#/texts/4"
             }
           },
           {
@@ -824,7 +759,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/3"
+              "$ref": "#/pictures/3"
             }
           },
           {
@@ -847,7 +782,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/5"
+              "$ref": "#/texts/5"
             }
           },
           {
@@ -870,7 +805,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/4"
+              "$ref": "#/pictures/4"
             }
           },
           {
@@ -893,7 +828,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/6"
+              "$ref": "#/texts/6"
             }
           }
         ],

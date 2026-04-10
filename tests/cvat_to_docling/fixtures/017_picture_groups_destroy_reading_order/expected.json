@@ -1,84 +1,79 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/texts/0"
+        "$ref": "#/texts/0"
       },
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/2"
+        "$ref": "#/texts/2"
       },
       {
-        "cref": "#/texts/3"
+        "$ref": "#/texts/3"
       },
       {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       {
-        "cref": "#/groups/8"
+        "$ref": "#/groups/8"
       },
       {
-        "cref": "#/pictures/16"
+        "$ref": "#/pictures/16"
       },
       {
-        "cref": "#/pictures/17"
+        "$ref": "#/pictures/17"
       },
       {
-        "cref": "#/texts/38"
+        "$ref": "#/texts/38"
       },
       {
-        "cref": "#/texts/39"
+        "$ref": "#/texts/39"
       },
       {
-        "cref": "#/pictures/18"
+        "$ref": "#/pictures/18"
       },
       {
-        "cref": "#/pictures/19"
+        "$ref": "#/pictures/19"
       },
       {
-        "cref": "#/pictures/20"
+        "$ref": "#/pictures/20"
       },
       {
-        "cref": "#/pictures/21"
+        "$ref": "#/pictures/21"
       },
       {
-        "cref": "#/pictures/22"
+        "$ref": "#/pictures/22"
       },
       {
-        "cref": "#/pictures/23"
+        "$ref": "#/pictures/23"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -86,174 +81,165 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/4"
+          "$ref": "#/texts/4"
         },
         {
-          "cref": "#/groups/1"
+          "$ref": "#/groups/1"
         },
         {
-          "cref": "#/pictures/10"
+          "$ref": "#/pictures/10"
         },
         {
-          "cref": "#/pictures/11"
+          "$ref": "#/pictures/11"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_8",
       "label": "list"
     },
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "cref": "#/texts/5"
+          "$ref": "#/texts/5"
         },
         {
-          "cref": "#/groups/2"
+          "$ref": "#/groups/2"
         },
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         },
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         },
         {
-          "cref": "#/groups/3"
+          "$ref": "#/groups/3"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_2_of_4",
       "label": "list"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/6"
+          "$ref": "#/texts/6"
         },
         {
-          "cref": "#/texts/7"
+          "$ref": "#/texts/7"
         },
         {
-          "cref": "#/texts/8"
+          "$ref": "#/texts/8"
         },
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_3_of_5",
       "label": "list"
     },
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/16"
+          "$ref": "#/texts/16"
         },
         {
-          "cref": "#/texts/17"
+          "$ref": "#/texts/17"
         },
         {
-          "cref": "#/texts/18"
+          "$ref": "#/texts/18"
         },
         {
-          "cref": "#/texts/19"
+          "$ref": "#/texts/19"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_3_of_13",
       "label": "list"
     },
     {
       "self_ref": "#/groups/4",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/20"
+          "$ref": "#/texts/20"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_35",
       "label": "list"
     },
     {
       "self_ref": "#/groups/5",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/22"
+          "$ref": "#/texts/22"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_38",
       "label": "list"
     },
     {
       "self_ref": "#/groups/6",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/27"
+          "$ref": "#/texts/27"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_46",
       "label": "list"
     },
     {
       "self_ref": "#/groups/7",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/31"
+          "$ref": "#/texts/31"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_50",
       "label": "list"
     },
     {
       "self_ref": "#/groups/8",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/35"
+          "$ref": "#/texts/35"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_56",
       "label": "list"
     }
@@ -262,11 +248,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -285,18 +270,15 @@
         }
       ],
       "orig": "6",
-      "text": "6",
-      "formatting": null,
-      "hyperlink": null
+      "text": "6"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -314,19 +296,16 @@
           ]
         }
       ],
-      "orig": "整 理 和 复 习",
-      "text": "整 理 和 复 习",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u6574 \u7406 \u548c \u590d \u4e60",
+      "text": "\u6574 \u7406 \u548c \u590d \u4e60"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -344,20 +323,17 @@
           ]
         }
       ],
-      "orig": "第 4 课 时   图 形 的 认 识 与 测 量 （ 4",
-      "text": "第 4 课 时   图 形 的 认 识 与 测 量 （ 4",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u7b2c 4 \u8bfe \u65f6   \u56fe \u5f62 \u7684 \u8ba4 \u8bc6 \u4e0e \u6d4b \u91cf \uff08 4",
+      "text": "\u7b2c 4 \u8bfe \u65f6   \u56fe \u5f62 \u7684 \u8ba4 \u8bc6 \u4e0e \u6d4b \u91cf \uff08 4",
       "level": 1
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -375,20 +351,17 @@
           ]
         }
       ],
-      "orig": "基 础 训 练",
-      "text": "基 础 训 练",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u57fa \u7840 \u8bad \u7ec3",
+      "text": "\u57fa \u7840 \u8bad \u7ec3",
       "level": 2
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -406,34 +379,31 @@
           ]
         }
       ],
-      "orig": "1 . 选 择 题 。",
-      "text": "1 . 选 择 题 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "1 . \u9009 \u62e9 \u9898 \u3002",
+      "text": "1 . \u9009 \u62e9 \u9898 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/pictures/1"
+          "$ref": "#/pictures/1"
         },
         {
-          "cref": "#/pictures/2"
+          "$ref": "#/pictures/2"
         },
         {
-          "cref": "#/pictures/3"
+          "$ref": "#/pictures/3"
         },
         {
-          "cref": "#/pictures/4"
+          "$ref": "#/pictures/4"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -451,21 +421,18 @@
           ]
         }
       ],
-      "orig": "（ 1 ） 观 察 下 面 立 体 图 形 ， 从 右 面 看 ， 看 到 的 形 状 相 同 的 是 （ A ） 。",
-      "text": "（ 1 ） 观 察 下 面 立 体 图 形 ， 从 右 面 看 ， 看 到 的 形 状 相 同 的 是 （ A ） 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\uff08 1 \uff09 \u89c2 \u5bdf \u4e0b \u9762 \u7acb \u4f53 \u56fe \u5f62 \uff0c \u4ece \u53f3 \u9762 \u770b \uff0c \u770b \u5230 \u7684 \u5f62 \u72b6 \u76f8 \u540c \u7684 \u662f \uff08 A \uff09 \u3002",
+      "text": "\uff08 1 \uff09 \u89c2 \u5bdf \u4e0b \u9762 \u7acb \u4f53 \u56fe \u5f62 \uff0c \u4ece \u53f3 \u9762 \u770b \uff0c \u770b \u5230 \u7684 \u5f62 \u72b6 \u76f8 \u540c \u7684 \u662f \uff08 A \uff09 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -485,19 +452,16 @@
       ],
       "orig": "A. OFI3",
       "text": "A. OFI3",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -515,21 +479,18 @@
           ]
         }
       ],
-      "orig": "B .   ① 和 ②",
-      "text": "B .   ① 和 ②",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "B .   \u2460 \u548c \u2461",
+      "text": "B .   \u2460 \u548c \u2461",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -547,21 +508,18 @@
           ]
         }
       ],
-      "orig": "C . ② 和 ④",
-      "text": "C . ② 和 ④",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "C . \u2461 \u548c \u2463",
+      "text": "C . \u2461 \u548c \u2463",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -579,37 +537,34 @@
           ]
         }
       ],
-      "orig": "D .   ③ 和 ④",
-      "text": "D .   ③ 和 ④",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "D .   \u2462 \u548c \u2463",
+      "text": "D .   \u2462 \u548c \u2463",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/pictures/5"
+          "$ref": "#/pictures/5"
         },
         {
-          "cref": "#/pictures/6"
+          "$ref": "#/pictures/6"
         },
         {
-          "cref": "#/pictures/7"
+          "$ref": "#/pictures/7"
         },
         {
-          "cref": "#/pictures/8"
+          "$ref": "#/pictures/8"
         },
         {
-          "cref": "#/pictures/9"
+          "$ref": "#/pictures/9"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -627,21 +582,18 @@
           ]
         }
       ],
-      "orig": "（ 2 ）   用 5 块 体 积 都 是 1   c m ” 的 正 方 体 积 木 搭 建 一 个 模 型 ， 下 图 分 别 是 从 上 面 和 左 面 看 到 的 图 形 ， 这 个 图 形 可 能 是 （ D ） 。",
-      "text": "（ 2 ）   用 5 块 体 积 都 是 1   c m ” 的 正 方 体 积 木 搭 建 一 个 模 型 ， 下 图 分 别 是 从 上 面 和 左 面 看 到 的 图 形 ， 这 个 图 形 可 能 是 （ D ） 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\uff08 2 \uff09   \u7528 5 \u5757 \u4f53 \u79ef \u90fd \u662f 1   c m \u201d \u7684 \u6b63 \u65b9 \u4f53 \u79ef \u6728 \u642d \u5efa \u4e00 \u4e2a \u6a21 \u578b \uff0c \u4e0b \u56fe \u5206 \u522b \u662f \u4ece \u4e0a \u9762 \u548c \u5de6 \u9762 \u770b \u5230 \u7684 \u56fe \u5f62 \uff0c \u8fd9 \u4e2a \u56fe \u5f62 \u53ef \u80fd \u662f \uff08 D \uff09 \u3002",
+      "text": "\uff08 2 \uff09   \u7528 5 \u5757 \u4f53 \u79ef \u90fd \u662f 1   c m \u201d \u7684 \u6b63 \u65b9 \u4f53 \u79ef \u6728 \u642d \u5efa \u4e00 \u4e2a \u6a21 \u578b \uff0c \u4e0b \u56fe \u5206 \u522b \u662f \u4ece \u4e0a \u9762 \u548c \u5de6 \u9762 \u770b \u5230 \u7684 \u56fe \u5f62 \uff0c \u8fd9 \u4e2a \u56fe \u5f62 \u53ef \u80fd \u662f \uff08 D \uff09 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/pictures/5"
+        "$ref": "#/pictures/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -659,19 +611,16 @@
           ]
         }
       ],
-      "orig": "从 上 面 者",
-      "text": "从 上 面 者",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u4ece \u4e0a \u9762 \u8005",
+      "text": "\u4ece \u4e0a \u9762 \u8005"
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/pictures/5"
+        "$ref": "#/pictures/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -689,19 +638,16 @@
           ]
         }
       ],
-      "orig": "从 左 面 看",
-      "text": "从 左 面 看",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u4ece \u5de6 \u9762 \u770b",
+      "text": "\u4ece \u5de6 \u9762 \u770b"
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -719,21 +665,18 @@
           ]
         }
       ],
-      "orig": "（ 3 ）   一 个 物 体 从 上 面 和 正 面 看 到 的 形 状 如 ， 它 的 体 积 是 （ C ） c m ” 。",
-      "text": "（ 3 ）   一 个 物 体 从 上 面 和 正 面 看 到 的 形 状 如 ， 它 的 体 积 是 （ C ） c m ” 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\uff08 3 \uff09   \u4e00 \u4e2a \u7269 \u4f53 \u4ece \u4e0a \u9762 \u548c \u6b63 \u9762 \u770b \u5230 \u7684 \u5f62 \u72b6 \u5982 \uff0c \u5b83 \u7684 \u4f53 \u79ef \u662f \uff08 C \uff09 c m \u201d \u3002",
+      "text": "\uff08 3 \uff09   \u4e00 \u4e2a \u7269 \u4f53 \u4ece \u4e0a \u9762 \u548c \u6b63 \u9762 \u770b \u5230 \u7684 \u5f62 \u72b6 \u5982 \uff0c \u5b83 \u7684 \u4f53 \u79ef \u662f \uff08 C \uff09 c m \u201d \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/pictures/10"
+        "$ref": "#/pictures/10"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -751,19 +694,16 @@
           ]
         }
       ],
-      "orig": "从 上 面 看",
-      "text": "从 上 面 看",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u4ece \u4e0a \u9762 \u770b",
+      "text": "\u4ece \u4e0a \u9762 \u770b"
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/pictures/11"
+        "$ref": "#/pictures/11"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -781,19 +721,16 @@
           ]
         }
       ],
-      "orig": "从 正 面 看",
-      "text": "从 正 面 看",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u4ece \u6b63 \u9762 \u770b",
+      "text": "\u4ece \u6b63 \u9762 \u770b"
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -813,19 +750,16 @@
       ],
       "orig": "A. 1256",
       "text": "A. 1256",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -845,19 +779,16 @@
       ],
       "orig": "B. 2286",
       "text": "B. 2286",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -877,19 +808,16 @@
       ],
       "orig": "C. 314",
       "text": "C. 314",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -909,26 +837,23 @@
       ],
       "orig": "D. 120",
       "text": "D. 120",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/21"
+          "$ref": "#/texts/21"
         },
         {
-          "cref": "#/pictures/12"
+          "$ref": "#/pictures/12"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -946,21 +871,18 @@
           ]
         }
       ],
-      "orig": "2 . 把 下 面 图 形 折 成 一 个 正 方 体 后 ， B 面 所 对 的 是 哪 一 个 面 ？ D   面 所 对 的 是 哪 一 个 面 ？ 如 果 E 面 在 底 部 ， 那 么 哪 一 个 面 在 上 面 ？",
-      "text": "2 . 把 下 面 图 形 折 成 一 个 正 方 体 后 ， B 面 所 对 的 是 哪 一 个 面 ？ D   面 所 对 的 是 哪 一 个 面 ？ 如 果 E 面 在 底 部 ， 那 么 哪 一 个 面 在 上 面 ？",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "2 . \u628a \u4e0b \u9762 \u56fe \u5f62 \u6298 \u6210 \u4e00 \u4e2a \u6b63 \u65b9 \u4f53 \u540e \uff0c B \u9762 \u6240 \u5bf9 \u7684 \u662f \u54ea \u4e00 \u4e2a \u9762 \uff1f D   \u9762 \u6240 \u5bf9 \u7684 \u662f \u54ea \u4e00 \u4e2a \u9762 \uff1f \u5982 \u679c E \u9762 \u5728 \u5e95 \u90e8 \uff0c \u90a3 \u4e48 \u54ea \u4e00 \u4e2a \u9762 \u5728 \u4e0a \u9762 \uff1f",
+      "text": "2 . \u628a \u4e0b \u9762 \u56fe \u5f62 \u6298 \u6210 \u4e00 \u4e2a \u6b63 \u65b9 \u4f53 \u540e \uff0c B \u9762 \u6240 \u5bf9 \u7684 \u662f \u54ea \u4e00 \u4e2a \u9762 \uff1f D   \u9762 \u6240 \u5bf9 \u7684 \u662f \u54ea \u4e00 \u4e2a \u9762 \uff1f \u5982 \u679c E \u9762 \u5728 \u5e95 \u90e8 \uff0c \u90a3 \u4e48 \u54ea \u4e00 \u4e2a \u9762 \u5728 \u4e0a \u9762 \uff1f",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/texts/20"
+        "$ref": "#/texts/20"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -978,29 +900,26 @@
           ]
         }
       ],
-      "orig": "B 面 所 対 的 是 A 面 ；   D 面 所 対 的 是 F 面 ； 如 果 E 面 在 底 部 ， 那 么 C 面 在 上 面 。",
-      "text": "B 面 所 対 的 是 A 面 ；   D 面 所 対 的 是 F 面 ； 如 果 E 面 在 底 部 ， 那 么 C 面 在 上 面 。",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "B \u9762 \u6240 \u5bfe \u7684 \u662f A \u9762 \uff1b   D \u9762 \u6240 \u5bfe \u7684 \u662f F \u9762 \uff1b \u5982 \u679c E \u9762 \u5728 \u5e95 \u90e8 \uff0c \u90a3 \u4e48 C \u9762 \u5728 \u4e0a \u9762 \u3002",
+      "text": "B \u9762 \u6240 \u5bfe \u7684 \u662f A \u9762 \uff1b   D \u9762 \u6240 \u5bfe \u7684 \u662f F \u9762 \uff1b \u5982 \u679c E \u9762 \u5728 \u5e95 \u90e8 \uff0c \u90a3 \u4e48 C \u9762 \u5728 \u4e0a \u9762 \u3002"
     },
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [
         {
-          "cref": "#/pictures/13"
+          "$ref": "#/pictures/13"
         },
         {
-          "cref": "#/pictures/14"
+          "$ref": "#/pictures/14"
         },
         {
-          "cref": "#/texts/26"
+          "$ref": "#/texts/26"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1018,21 +937,18 @@
           ]
         }
       ],
-      "orig": "3 .   在 方 格 纸 上 分 别 画 出 下 面 立 体 图 形 从 正 面 、 左 面 、 上 面 看 到 的 图 形 。",
-      "text": "3 .   在 方 格 纸 上 分 别 画 出 下 面 立 体 图 形 从 正 面 、 左 面 、 上 面 看 到 的 图 形 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "3 .   \u5728 \u65b9 \u683c \u7eb8 \u4e0a \u5206 \u522b \u753b \u51fa \u4e0b \u9762 \u7acb \u4f53 \u56fe \u5f62 \u4ece \u6b63 \u9762 \u3001 \u5de6 \u9762 \u3001 \u4e0a \u9762 \u770b \u5230 \u7684 \u56fe \u5f62 \u3002",
+      "text": "3 .   \u5728 \u65b9 \u683c \u7eb8 \u4e0a \u5206 \u522b \u753b \u51fa \u4e0b \u9762 \u7acb \u4f53 \u56fe \u5f62 \u4ece \u6b63 \u9762 \u3001 \u5de6 \u9762 \u3001 \u4e0a \u9762 \u770b \u5230 \u7684 \u56fe \u5f62 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/pictures/14"
+        "$ref": "#/pictures/14"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1050,19 +966,16 @@
           ]
         }
       ],
-      "orig": "正 面",
-      "text": "正 面",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u6b63 \u9762",
+      "text": "\u6b63 \u9762"
     },
     {
       "self_ref": "#/texts/24",
       "parent": {
-        "cref": "#/pictures/14"
+        "$ref": "#/pictures/14"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1080,19 +993,16 @@
           ]
         }
       ],
-      "orig": "左 面",
-      "text": "左 面",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u5de6 \u9762",
+      "text": "\u5de6 \u9762"
     },
     {
       "self_ref": "#/texts/25",
       "parent": {
-        "cref": "#/pictures/14"
+        "$ref": "#/pictures/14"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1110,19 +1020,16 @@
           ]
         }
       ],
-      "orig": "上 面",
-      "text": "上 面",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u4e0a \u9762",
+      "text": "\u4e0a \u9762"
     },
     {
       "self_ref": "#/texts/26",
       "parent": {
-        "cref": "#/texts/22"
+        "$ref": "#/texts/22"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1140,30 +1047,27 @@
           ]
         }
       ],
-      "orig": "能 力 提 升",
-      "text": "能 力 提 升",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u80fd \u529b \u63d0 \u5347",
+      "text": "\u80fd \u529b \u63d0 \u5347",
       "level": 2
     },
     {
       "self_ref": "#/texts/27",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [
         {
-          "cref": "#/texts/28"
+          "$ref": "#/texts/28"
         },
         {
-          "cref": "#/texts/29"
+          "$ref": "#/texts/29"
         },
         {
-          "cref": "#/texts/30"
+          "$ref": "#/texts/30"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1181,21 +1085,18 @@
           ]
         }
       ],
-      "orig": "4 .   淘 气 把 一 个 圆 锥 形 的 铅 锤 放 入 一 个 底 面 周 长 是 2 5 . 1 2 c m   的 圆 柱 形 烧 杯 里 ， 然 后 倒 入 水 ， 使 水 面 没 过 铅 锤 ， 当 把 铅 锤 完 全 拿 出 水 面 以 后 （ 铅 锤 带 出 的 水 忽 略 不 计 ） ， 水 面 下 降 了 0 . 7 5   c m 。 这 个 铅 锤 的 体 积 是 多 少 ？ 量 得 铅 锤 的 底 面 直 径 是 4   c m ， 铅 锤 的 高 是 多 少 ？",
-      "text": "4 .   淘 气 把 一 个 圆 锥 形 的 铅 锤 放 入 一 个 底 面 周 长 是 2 5 . 1 2 c m   的 圆 柱 形 烧 杯 里 ， 然 后 倒 入 水 ， 使 水 面 没 过 铅 锤 ， 当 把 铅 锤 完 全 拿 出 水 面 以 后 （ 铅 锤 带 出 的 水 忽 略 不 计 ） ， 水 面 下 降 了 0 . 7 5   c m 。 这 个 铅 锤 的 体 积 是 多 少 ？ 量 得 铅 锤 的 底 面 直 径 是 4   c m ， 铅 锤 的 高 是 多 少 ？",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "4 .   \u6dd8 \u6c14 \u628a \u4e00 \u4e2a \u5706 \u9525 \u5f62 \u7684 \u94c5 \u9524 \u653e \u5165 \u4e00 \u4e2a \u5e95 \u9762 \u5468 \u957f \u662f 2 5 . 1 2 c m   \u7684 \u5706 \u67f1 \u5f62 \u70e7 \u676f \u91cc \uff0c \u7136 \u540e \u5012 \u5165 \u6c34 \uff0c \u4f7f \u6c34 \u9762 \u6ca1 \u8fc7 \u94c5 \u9524 \uff0c \u5f53 \u628a \u94c5 \u9524 \u5b8c \u5168 \u62ff \u51fa \u6c34 \u9762 \u4ee5 \u540e \uff08 \u94c5 \u9524 \u5e26 \u51fa \u7684 \u6c34 \u5ffd \u7565 \u4e0d \u8ba1 \uff09 \uff0c \u6c34 \u9762 \u4e0b \u964d \u4e86 0 . 7 5   c m \u3002 \u8fd9 \u4e2a \u94c5 \u9524 \u7684 \u4f53 \u79ef \u662f \u591a \u5c11 \uff1f \u91cf \u5f97 \u94c5 \u9524 \u7684 \u5e95 \u9762 \u76f4 \u5f84 \u662f 4   c m \uff0c \u94c5 \u9524 \u7684 \u9ad8 \u662f \u591a \u5c11 \uff1f",
+      "text": "4 .   \u6dd8 \u6c14 \u628a \u4e00 \u4e2a \u5706 \u9525 \u5f62 \u7684 \u94c5 \u9524 \u653e \u5165 \u4e00 \u4e2a \u5e95 \u9762 \u5468 \u957f \u662f 2 5 . 1 2 c m   \u7684 \u5706 \u67f1 \u5f62 \u70e7 \u676f \u91cc \uff0c \u7136 \u540e \u5012 \u5165 \u6c34 \uff0c \u4f7f \u6c34 \u9762 \u6ca1 \u8fc7 \u94c5 \u9524 \uff0c \u5f53 \u628a \u94c5 \u9524 \u5b8c \u5168 \u62ff \u51fa \u6c34 \u9762 \u4ee5 \u540e \uff08 \u94c5 \u9524 \u5e26 \u51fa \u7684 \u6c34 \u5ffd \u7565 \u4e0d \u8ba1 \uff09 \uff0c \u6c34 \u9762 \u4e0b \u964d \u4e86 0 . 7 5   c m \u3002 \u8fd9 \u4e2a \u94c5 \u9524 \u7684 \u4f53 \u79ef \u662f \u591a \u5c11 \uff1f \u91cf \u5f97 \u94c5 \u9524 \u7684 \u5e95 \u9762 \u76f4 \u5f84 \u662f 4   c m \uff0c \u94c5 \u9524 \u7684 \u9ad8 \u662f \u591a \u5c11 \uff1f",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/28",
       "parent": {
-        "cref": "#/texts/27"
+        "$ref": "#/texts/27"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "formula",
       "prov": [
         {
@@ -1213,19 +1114,16 @@
           ]
         }
       ],
-      "orig": "2 5 . 1 2 + 3 . 1 4 + 2 = 4 （ c m ）",
-      "text": "2 5 . 1 2 + 3 . 1 4 + 2 = 4 （ c m ）",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "2 5 . 1 2 + 3 . 1 4 + 2 = 4 \uff08 c m \uff09",
+      "text": "2 5 . 1 2 + 3 . 1 4 + 2 = 4 \uff08 c m \uff09"
     },
     {
       "self_ref": "#/texts/29",
       "parent": {
-        "cref": "#/texts/27"
+        "$ref": "#/texts/27"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "formula",
       "prov": [
         {
@@ -1243,19 +1141,16 @@
           ]
         }
       ],
-      "orig": "体 秋 ： 3 . 1 4 ✕ 4 ✕ 0 . 7 5 ＝ 3 7 . 6 8 （ c m ' ）",
-      "text": "体 秋 ： 3 . 1 4 ✕ 4 ✕ 0 . 7 5 ＝ 3 7 . 6 8 （ c m ' ）",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u4f53 \u79cb \uff1a 3 . 1 4 \u2715 4 \u2715 0 . 7 5 \uff1d 3 7 . 6 8 \uff08 c m ' \uff09",
+      "text": "\u4f53 \u79cb \uff1a 3 . 1 4 \u2715 4 \u2715 0 . 7 5 \uff1d 3 7 . 6 8 \uff08 c m ' \uff09"
     },
     {
       "self_ref": "#/texts/30",
       "parent": {
-        "cref": "#/texts/27"
+        "$ref": "#/texts/27"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "formula",
       "prov": [
         {
@@ -1273,32 +1168,29 @@
           ]
         }
       ],
-      "orig": "高 ： 3 7 . 6 8 ✕ 3 ＝ ［ 3 . 1 4 ✕ （ 4 ＝ 2 ） 2 = 9 （ c m ）",
-      "text": "高 ： 3 7 . 6 8 ✕ 3 ＝ ［ 3 . 1 4 ✕ （ 4 ＝ 2 ） 2 = 9 （ c m ）",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u9ad8 \uff1a 3 7 . 6 8 \u2715 3 \uff1d \uff3b 3 . 1 4 \u2715 \uff08 4 \uff1d 2 \uff09 2 = 9 \uff08 c m \uff09",
+      "text": "\u9ad8 \uff1a 3 7 . 6 8 \u2715 3 \uff1d \uff3b 3 . 1 4 \u2715 \uff08 4 \uff1d 2 \uff09 2 = 9 \uff08 c m \uff09"
     },
     {
       "self_ref": "#/texts/31",
       "parent": {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       "children": [
         {
-          "cref": "#/pictures/15"
+          "$ref": "#/pictures/15"
         },
         {
-          "cref": "#/texts/32"
+          "$ref": "#/texts/32"
         },
         {
-          "cref": "#/texts/33"
+          "$ref": "#/texts/33"
         },
         {
-          "cref": "#/texts/34"
+          "$ref": "#/texts/34"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1316,21 +1208,18 @@
           ]
         }
       ],
-      "orig": "5 .   下 图 是 一 个 圆 柱 形 油 桶 的 展 开 图 （ 接 头 处 、 铁 皮 厚 度 忽 略 不 计 ） ， 求 这 个 油 桶 的 体 积 。 （ 单 位 ： d m ）",
-      "text": "5 .   下 图 是 一 个 圆 柱 形 油 桶 的 展 开 图 （ 接 头 处 、 铁 皮 厚 度 忽 略 不 计 ） ， 求 这 个 油 桶 的 体 积 。 （ 单 位 ： d m ）",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "5 .   \u4e0b \u56fe \u662f \u4e00 \u4e2a \u5706 \u67f1 \u5f62 \u6cb9 \u6876 \u7684 \u5c55 \u5f00 \u56fe \uff08 \u63a5 \u5934 \u5904 \u3001 \u94c1 \u76ae \u539a \u5ea6 \u5ffd \u7565 \u4e0d \u8ba1 \uff09 \uff0c \u6c42 \u8fd9 \u4e2a \u6cb9 \u6876 \u7684 \u4f53 \u79ef \u3002 \uff08 \u5355 \u4f4d \uff1a d m \uff09",
+      "text": "5 .   \u4e0b \u56fe \u662f \u4e00 \u4e2a \u5706 \u67f1 \u5f62 \u6cb9 \u6876 \u7684 \u5c55 \u5f00 \u56fe \uff08 \u63a5 \u5934 \u5904 \u3001 \u94c1 \u76ae \u539a \u5ea6 \u5ffd \u7565 \u4e0d \u8ba1 \uff09 \uff0c \u6c42 \u8fd9 \u4e2a \u6cb9 \u6876 \u7684 \u4f53 \u79ef \u3002 \uff08 \u5355 \u4f4d \uff1a d m \uff09",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/32",
       "parent": {
-        "cref": "#/texts/31"
+        "$ref": "#/texts/31"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "formula",
       "prov": [
         {
@@ -1348,19 +1237,16 @@
           ]
         }
       ],
-      "orig": "1 6 . 5 6 + （ 3 . 1 4 + 1 ） = 4 （ d m ）",
-      "text": "1 6 . 5 6 + （ 3 . 1 4 + 1 ） = 4 （ d m ）",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "1 6 . 5 6 + \uff08 3 . 1 4 + 1 \uff09 = 4 \uff08 d m \uff09",
+      "text": "1 6 . 5 6 + \uff08 3 . 1 4 + 1 \uff09 = 4 \uff08 d m \uff09"
     },
     {
       "self_ref": "#/texts/33",
       "parent": {
-        "cref": "#/texts/31"
+        "$ref": "#/texts/31"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "formula",
       "prov": [
         {
@@ -1378,19 +1264,16 @@
           ]
         }
       ],
-      "orig": "3.14 X (4÷2)ªX(4X2)= 100.48(dm*)",
-      "text": "3.14 X (4÷2)ªX(4X2)= 100.48(dm*)",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "3.14 X (4\u00f72)\u00aaX(4X2)= 100.48(dm*)",
+      "text": "3.14 X (4\u00f72)\u00aaX(4X2)= 100.48(dm*)"
     },
     {
       "self_ref": "#/texts/34",
       "parent": {
-        "cref": "#/texts/31"
+        "$ref": "#/texts/31"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1408,20 +1291,17 @@
           ]
         }
       ],
-      "orig": "思 维 拓 展",
-      "text": "思 维 拓 展",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u601d \u7ef4 \u62d3 \u5c55",
+      "text": "\u601d \u7ef4 \u62d3 \u5c55",
       "level": 2
     },
     {
       "self_ref": "#/texts/35",
       "parent": {
-        "cref": "#/groups/8"
+        "$ref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1439,21 +1319,18 @@
           ]
         }
       ],
-      "orig": "6 .   一 个 由 若 干 个 小 正 方 体 搭 成 的 立 体 图 形 ， 从 正 面 和 上 面 看 到 的 图 形 如 下 图 。 搭 这 个 立 体 图 形 最 少 需 要 （ 7 ） 个 小 正 方 体 ， 最 多 需 要 （ 9 ） 个 小 正 方 体 。",
-      "text": "6 .   一 个 由 若 干 个 小 正 方 体 搭 成 的 立 体 图 形 ， 从 正 面 和 上 面 看 到 的 图 形 如 下 图 。 搭 这 个 立 体 图 形 最 少 需 要 （ 7 ） 个 小 正 方 体 ， 最 多 需 要 （ 9 ） 个 小 正 方 体 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "6 .   \u4e00 \u4e2a \u7531 \u82e5 \u5e72 \u4e2a \u5c0f \u6b63 \u65b9 \u4f53 \u642d \u6210 \u7684 \u7acb \u4f53 \u56fe \u5f62 \uff0c \u4ece \u6b63 \u9762 \u548c \u4e0a \u9762 \u770b \u5230 \u7684 \u56fe \u5f62 \u5982 \u4e0b \u56fe \u3002 \u642d \u8fd9 \u4e2a \u7acb \u4f53 \u56fe \u5f62 \u6700 \u5c11 \u9700 \u8981 \uff08 7 \uff09 \u4e2a \u5c0f \u6b63 \u65b9 \u4f53 \uff0c \u6700 \u591a \u9700 \u8981 \uff08 9 \uff09 \u4e2a \u5c0f \u6b63 \u65b9 \u4f53 \u3002",
+      "text": "6 .   \u4e00 \u4e2a \u7531 \u82e5 \u5e72 \u4e2a \u5c0f \u6b63 \u65b9 \u4f53 \u642d \u6210 \u7684 \u7acb \u4f53 \u56fe \u5f62 \uff0c \u4ece \u6b63 \u9762 \u548c \u4e0a \u9762 \u770b \u5230 \u7684 \u56fe \u5f62 \u5982 \u4e0b \u56fe \u3002 \u642d \u8fd9 \u4e2a \u7acb \u4f53 \u56fe \u5f62 \u6700 \u5c11 \u9700 \u8981 \uff08 7 \uff09 \u4e2a \u5c0f \u6b63 \u65b9 \u4f53 \uff0c \u6700 \u591a \u9700 \u8981 \uff08 9 \uff09 \u4e2a \u5c0f \u6b63 \u65b9 \u4f53 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/36",
       "parent": {
-        "cref": "#/pictures/16"
+        "$ref": "#/pictures/16"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1471,19 +1348,16 @@
           ]
         }
       ],
-      "orig": "正 面",
-      "text": "正 面",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u6b63 \u9762",
+      "text": "\u6b63 \u9762"
     },
     {
       "self_ref": "#/texts/37",
       "parent": {
-        "cref": "#/pictures/17"
+        "$ref": "#/pictures/17"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1501,19 +1375,16 @@
           ]
         }
       ],
-      "orig": "上 面",
-      "text": "上 面",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u4e0a \u9762",
+      "text": "\u4e0a \u9762"
     },
     {
       "self_ref": "#/texts/38",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1531,19 +1402,16 @@
           ]
         }
       ],
-      "orig": "关 注 微 信 哈 众 另   “ 教 辅 资 料 站 ” 获 取 更 多 吗 习 资 料",
-      "text": "关 注 微 信 哈 众 另   “ 教 辅 资 料 站 ” 获 取 更 多 吗 习 资 料",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u5173 \u6ce8 \u5fae \u4fe1 \u54c8 \u4f17 \u53e6   \u201c \u6559 \u8f85 \u8d44 \u6599 \u7ad9 \u201d \u83b7 \u53d6 \u66f4 \u591a \u5417 \u4e60 \u8d44 \u6599",
+      "text": "\u5173 \u6ce8 \u5fae \u4fe1 \u54c8 \u4f17 \u53e6   \u201c \u6559 \u8f85 \u8d44 \u6599 \u7ad9 \u201d \u83b7 \u53d6 \u66f4 \u591a \u5417 \u4e60 \u8d44 \u6599"
     },
     {
       "self_ref": "#/texts/39",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1562,26 +1430,22 @@
         }
       ],
       "orig": "61",
-      "text": "61",
-      "formatting": null,
-      "hyperlink": null
+      "text": "61"
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/1"
+          "$ref": "#/texts/1"
         }
       ],
       "content_layer": "furniture",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1590,9 +1454,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1614,7 +1476,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1631,13 +1492,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/texts/5"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1646,9 +1505,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1670,7 +1527,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1687,13 +1543,11 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "cref": "#/texts/5"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1702,9 +1556,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1726,7 +1578,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1743,13 +1594,11 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "cref": "#/texts/5"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1758,9 +1607,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1782,7 +1629,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1799,13 +1645,11 @@
     {
       "self_ref": "#/pictures/4",
       "parent": {
-        "cref": "#/texts/5"
+        "$ref": "#/texts/5"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1814,9 +1658,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1838,7 +1680,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1855,20 +1696,18 @@
     {
       "self_ref": "#/pictures/5",
       "parent": {
-        "cref": "#/texts/10"
+        "$ref": "#/texts/10"
       },
       "children": [
         {
-          "cref": "#/texts/11"
+          "$ref": "#/texts/11"
         },
         {
-          "cref": "#/texts/12"
+          "$ref": "#/texts/12"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1877,9 +1716,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1901,7 +1738,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1918,13 +1754,11 @@
     {
       "self_ref": "#/pictures/6",
       "parent": {
-        "cref": "#/texts/10"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1933,9 +1767,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1957,7 +1789,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1974,13 +1805,11 @@
     {
       "self_ref": "#/pictures/7",
       "parent": {
-        "cref": "#/texts/10"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1989,9 +1818,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2013,7 +1840,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2030,13 +1856,11 @@
     {
       "self_ref": "#/pictures/8",
       "parent": {
-        "cref": "#/texts/10"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2045,9 +1869,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2069,7 +1891,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2086,13 +1907,11 @@
     {
       "self_ref": "#/pictures/9",
       "parent": {
-        "cref": "#/texts/10"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2101,9 +1920,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2125,7 +1942,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2142,17 +1958,15 @@
     {
       "self_ref": "#/pictures/10",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2161,9 +1975,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2185,7 +1997,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2202,17 +2013,15 @@
     {
       "self_ref": "#/pictures/11",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "cref": "#/texts/15"
+          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2221,9 +2030,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2245,7 +2052,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2262,13 +2068,11 @@
     {
       "self_ref": "#/pictures/12",
       "parent": {
-        "cref": "#/texts/20"
+        "$ref": "#/texts/20"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2277,9 +2081,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2301,7 +2103,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2318,13 +2119,11 @@
     {
       "self_ref": "#/pictures/13",
       "parent": {
-        "cref": "#/texts/22"
+        "$ref": "#/texts/22"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2333,9 +2132,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2357,7 +2154,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2374,23 +2170,21 @@
     {
       "self_ref": "#/pictures/14",
       "parent": {
-        "cref": "#/texts/22"
+        "$ref": "#/texts/22"
       },
       "children": [
         {
-          "cref": "#/texts/23"
+          "$ref": "#/texts/23"
         },
         {
-          "cref": "#/texts/24"
+          "$ref": "#/texts/24"
         },
         {
-          "cref": "#/texts/25"
+          "$ref": "#/texts/25"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2399,9 +2193,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2423,7 +2215,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2440,13 +2231,11 @@
     {
       "self_ref": "#/pictures/15",
       "parent": {
-        "cref": "#/texts/31"
+        "$ref": "#/texts/31"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2455,9 +2244,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2479,7 +2266,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2496,17 +2282,15 @@
     {
       "self_ref": "#/pictures/16",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/36"
+          "$ref": "#/texts/36"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2515,9 +2299,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2539,7 +2321,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2556,17 +2337,15 @@
     {
       "self_ref": "#/pictures/17",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/37"
+          "$ref": "#/texts/37"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2575,9 +2354,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2599,7 +2376,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2616,13 +2392,11 @@
     {
       "self_ref": "#/pictures/18",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2631,9 +2405,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2655,7 +2427,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2672,13 +2443,11 @@
     {
       "self_ref": "#/pictures/19",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2687,9 +2456,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2711,7 +2478,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2728,13 +2494,11 @@
     {
       "self_ref": "#/pictures/20",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2743,9 +2507,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2767,7 +2529,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2784,13 +2545,11 @@
     {
       "self_ref": "#/pictures/21",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2799,9 +2558,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2823,7 +2580,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2840,13 +2596,11 @@
     {
       "self_ref": "#/pictures/22",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2855,9 +2609,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2879,7 +2631,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2896,13 +2647,11 @@
     {
       "self_ref": "#/pictures/23",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2911,9 +2660,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2935,7 +2682,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",

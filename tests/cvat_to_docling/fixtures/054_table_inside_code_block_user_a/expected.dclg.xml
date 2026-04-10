@@ -4,6 +4,7 @@
     <location value="24"/>
     <location value="354"/>
     <location value="30"/>
+    <layer class="furniture"/>
     ndb_select_all - Print Rows from an NDB Table
   </text>
   <list ordered="false">
@@ -199,6 +200,7 @@
     <location value="482"/>
     <location value="482"/>
     <location value="487"/>
+    <layer class="furniture"/>
     4405
   </text>
 </doclang>

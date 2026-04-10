@@ -4,6 +4,7 @@
     <location value="13"/>
     <location value="53"/>
     <location value="32"/>
+    <layer class="furniture"/>
     7
   </text>
   <text>
@@ -11,6 +12,7 @@
     <location value="24"/>
     <location value="169"/>
     <location value="28"/>
+    <layer class="furniture"/>
     CORPORATE GOVERNANCE
   </text>
   <text>
@@ -18,6 +20,7 @@
     <location value="35"/>
     <location value="110"/>
     <location value="40"/>
+    <layer class="furniture"/>
     Compensation
   </text>
   <text>
@@ -193,6 +196,7 @@
     <location value="494"/>
     <location value="47"/>
     <location value="500"/>
+    <layer class="furniture"/>
     322
   </text>
   <text>
@@ -200,6 +204,7 @@
     <location value="496"/>
     <location value="201"/>
     <location value="501"/>
+    <layer class="furniture"/>
     Sodexo  - Registration Document Fiscal 2013
   </text>
 </doclang>

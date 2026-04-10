@@ -4,6 +4,7 @@
     <location value="24"/>
     <location value="329"/>
     <location value="31"/>
+    <layer class="furniture"/>
     Retrieving Information from a Table
   </text>
   <code>
@@ -227,6 +228,7 @@
     <location value="482"/>
     <location value="482"/>
     <location value="487"/>
+    <layer class="furniture"/>
     319
   </text>
 </doclang>

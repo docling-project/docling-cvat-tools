@@ -1,57 +1,52 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/1"
+        "$ref": "#/texts/1"
       },
       {
-        "cref": "#/texts/2"
+        "$ref": "#/texts/2"
       },
       {
-        "cref": "#/texts/3"
+        "$ref": "#/texts/3"
       },
       {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       {
-        "cref": "#/texts/12"
+        "$ref": "#/texts/12"
       },
       {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       {
-        "cref": "#/texts/17"
+        "$ref": "#/texts/17"
       },
       {
-        "cref": "#/texts/18"
+        "$ref": "#/texts/18"
       },
       {
-        "cref": "#/key_value_items/0"
+        "$ref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -59,93 +54,88 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         },
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         },
         {
-          "cref": "#/texts/15"
+          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_1",
       "label": "list"
     },
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       "children": [
         {
-          "cref": "#/texts/4"
+          "$ref": "#/texts/4"
         },
         {
-          "cref": "#/texts/5"
+          "$ref": "#/texts/5"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "rich_cell_group_0_2_1",
       "label": "unspecified"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       "children": [
         {
-          "cref": "#/texts/6"
+          "$ref": "#/texts/6"
         },
         {
-          "cref": "#/texts/7"
+          "$ref": "#/texts/7"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "rich_cell_group_0_2_7",
       "label": "unspecified"
     },
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       "children": [
         {
-          "cref": "#/texts/8"
+          "$ref": "#/texts/8"
         },
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "rich_cell_group_0_2_10",
       "label": "unspecified"
     },
     {
       "self_ref": "#/groups/4",
       "parent": {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       "children": [
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         },
         {
-          "cref": "#/texts/11"
+          "$ref": "#/texts/11"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "rich_cell_group_0_2_12",
       "label": "unspecified"
     }
@@ -154,11 +144,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -177,18 +166,15 @@
         }
       ],
       "orig": "European investment Bank The Ell bank",
-      "text": "European investment Bank The Ell bank",
-      "formatting": null,
-      "hyperlink": null
+      "text": "European investment Bank The Ell bank"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -207,18 +193,15 @@
         }
       ],
       "orig": "General Administrative and Submission Clauses",
-      "text": "General Administrative and Submission Clauses",
-      "formatting": null,
-      "hyperlink": null
+      "text": "General Administrative and Submission Clauses"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -238,18 +221,15 @@
       ],
       "orig": "II. Information to be submitted",
       "text": "II. Information to be submitted",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -268,18 +248,15 @@
         }
       ],
       "orig": "Tenderers must ensure that their tenders submitted via e-Submission contain all the information and documents required by the ElB at the time of submission as set out in the 'Terms of Reference' including:",
-      "text": "Tenderers must ensure that their tenders submitted via e-Submission contain all the information and documents required by the ElB at the time of submission as set out in the 'Terms of Reference' including:",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Tenderers must ensure that their tenders submitted via e-Submission contain all the information and documents required by the ElB at the time of submission as set out in the 'Terms of Reference' including:"
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -298,18 +275,15 @@
         }
       ],
       "orig": "and dated forms listed in the column to the",
-      "text": "and dated forms listed in the column to the",
-      "formatting": null,
-      "hyperlink": null
+      "text": "and dated forms listed in the column to the"
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -328,18 +302,15 @@
         }
       ],
       "orig": "Submission. To be uploaded in section concerned in e-",
-      "text": "Submission. To be uploaded in section concerned in e-",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Submission. To be uploaded in section concerned in e-"
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -358,18 +329,15 @@
         }
       ],
       "orig": "Sole tenderers, members of a Group of economic operators (e.g. consortium) including subcontractors - if applicable - to selection criteria. must provide the documentation in relation",
-      "text": "Sole tenderers, members of a Group of economic operators (e.g. consortium) including subcontractors - if applicable - to selection criteria. must provide the documentation in relation",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Sole tenderers, members of a Group of economic operators (e.g. consortium) including subcontractors - if applicable - to selection criteria. must provide the documentation in relation"
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -388,18 +356,15 @@
         }
       ],
       "orig": "Submission. To be uploaded in section concerned in e-",
-      "text": "Submission. To be uploaded in section concerned in e-",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Submission. To be uploaded in section concerned in e-"
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -418,18 +383,15 @@
         }
       ],
       "orig": "down in 'Terms of Reference'. It must address all the requirements laid",
-      "text": "down in 'Terms of Reference'. It must address all the requirements laid",
-      "formatting": null,
-      "hyperlink": null
+      "text": "down in 'Terms of Reference'. It must address all the requirements laid"
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -448,18 +410,15 @@
         }
       ],
       "orig": "Submission. To be uploaded in section concerned in e-",
-      "text": "Submission. To be uploaded in section concerned in e-",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Submission. To be uploaded in section concerned in e-"
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -478,18 +437,15 @@
         }
       ],
       "orig": "proposal form. The completed and signed financial",
-      "text": "proposal form. The completed and signed financial",
-      "formatting": null,
-      "hyperlink": null
+      "text": "proposal form. The completed and signed financial"
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -508,18 +464,15 @@
         }
       ],
       "orig": "Submission. To be uploaded in section concerned in e-",
-      "text": "Submission. To be uploaded in section concerned in e-",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Submission. To be uploaded in section concerned in e-"
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -538,18 +491,15 @@
         }
       ],
       "orig": "N.B. The following documents shall be dated and signed, either by hand or by applying an advanced electronic signature based on a qualified certificate, by an authorised representative of the signatory:",
-      "text": "N.B. The following documents shall be dated and signed, either by hand or by applying an advanced electronic signature based on a qualified certificate, by an authorised representative of the signatory:",
-      "formatting": null,
-      "hyperlink": null
+      "text": "N.B. The following documents shall be dated and signed, either by hand or by applying an advanced electronic signature based on a qualified certificate, by an authorised representative of the signatory:"
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -567,21 +517,18 @@
           ]
         }
       ],
-      "orig": "• Declaration(s) on honour (Form 5 of the 'Administrative Forms for EIB Tenders'), in case of a joint tender to be signed by the authorised representatives of each member of the Group;",
-      "text": "• Declaration(s) on honour (Form 5 of the 'Administrative Forms for EIB Tenders'), in case of a joint tender to be signed by the authorised representatives of each member of the Group;",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Declaration(s) on honour (Form 5 of the 'Administrative Forms for EIB Tenders'), in case of a joint tender to be signed by the authorised representatives of each member of the Group;",
+      "text": "\u2022 Declaration(s) on honour (Form 5 of the 'Administrative Forms for EIB Tenders'), in case of a joint tender to be signed by the authorised representatives of each member of the Group;",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -601,19 +548,16 @@
       ],
       "orig": "The tender report (a document generated by e-Submission and listing all the documents included in the tender, to be signed by the tenderer or the group leader in case of a joint tender);",
       "text": "The tender report (a document generated by e-Submission and listing all the documents included in the tender, to be signed by the tenderer or the group leader in case of a joint tender);",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -631,21 +575,18 @@
           ]
         }
       ],
-      "orig": "• If applicable, the group member/subcontractor declarations (Form 3 and/or Form 4 of the 'Administrative Forms for EIB Tenders'), to be signed by the respective consortium member or subcontractor.",
-      "text": "• If applicable, the group member/subcontractor declarations (Form 3 and/or Form 4 of the 'Administrative Forms for EIB Tenders'), to be signed by the respective consortium member or subcontractor.",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 If applicable, the group member/subcontractor declarations (Form 3 and/or Form 4 of the 'Administrative Forms for EIB Tenders'), to be signed by the respective consortium member or subcontractor.",
+      "text": "\u2022 If applicable, the group member/subcontractor declarations (Form 3 and/or Form 4 of the 'Administrative Forms for EIB Tenders'), to be signed by the respective consortium member or subcontractor.",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -664,18 +605,15 @@
         }
       ],
       "orig": "Public",
-      "text": "Public",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Public"
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -694,18 +632,15 @@
         }
       ],
       "orig": "Last updated: June 2020",
-      "text": "Last updated: June 2020",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Last updated: June 2020"
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -724,26 +659,22 @@
         }
       ],
       "orig": "Page 20 of 21",
-      "text": "Page 20 of 21",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Page 20 of 21"
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/0"
+          "$ref": "#/texts/0"
         }
       ],
       "content_layer": "furniture",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -752,9 +683,7 @@
               "class_name": "logo"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -776,7 +705,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -793,17 +721,15 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/16"
+          "$ref": "#/texts/16"
         }
       ],
       "content_layer": "furniture",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -812,9 +738,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -836,7 +760,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -855,24 +778,23 @@
     {
       "self_ref": "#/tables/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/groups/1"
+          "$ref": "#/groups/1"
         },
         {
-          "cref": "#/groups/2"
+          "$ref": "#/groups/2"
         },
         {
-          "cref": "#/groups/3"
+          "$ref": "#/groups/3"
         },
         {
-          "cref": "#/groups/4"
+          "$ref": "#/groups/4"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -893,11 +815,9 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "data": {
         "table_cells": [
           {
-            "bbox": null,
             "row_span": 5,
             "col_span": 1,
             "start_row_offset_idx": 1,
@@ -910,11 +830,10 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/1"
+              "$ref": "#/groups/1"
             }
           },
           {
-            "bbox": null,
             "row_span": 2,
             "col_span": 1,
             "start_row_offset_idx": 7,
@@ -927,7 +846,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/2"
+              "$ref": "#/groups/2"
             }
           },
           {
@@ -1431,7 +1350,6 @@
             "fillable": false
           },
           {
-            "bbox": null,
             "row_span": 1,
             "col_span": 1,
             "start_row_offset_idx": 10,
@@ -1444,7 +1362,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/3"
+              "$ref": "#/groups/3"
             }
           },
           {
@@ -1548,7 +1466,6 @@
             "fillable": false
           },
           {
-            "bbox": null,
             "row_span": 1,
             "col_span": 1,
             "start_row_offset_idx": 12,
@@ -1561,7 +1478,7 @@
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/4"
+              "$ref": "#/groups/4"
             }
           },
           {
@@ -1732,7 +1649,6 @@
               "fillable": false
             },
             {
-              "bbox": null,
               "row_span": 5,
               "col_span": 1,
               "start_row_offset_idx": 1,
@@ -1788,7 +1704,6 @@
               "fillable": false
             },
             {
-              "bbox": null,
               "row_span": 5,
               "col_span": 1,
               "start_row_offset_idx": 1,
@@ -1844,7 +1759,6 @@
               "fillable": false
             },
             {
-              "bbox": null,
               "row_span": 5,
               "col_span": 1,
               "start_row_offset_idx": 1,
@@ -1900,7 +1814,6 @@
               "fillable": false
             },
             {
-              "bbox": null,
               "row_span": 5,
               "col_span": 1,
               "start_row_offset_idx": 1,
@@ -1956,7 +1869,6 @@
               "fillable": false
             },
             {
-              "bbox": null,
               "row_span": 5,
               "col_span": 1,
               "start_row_offset_idx": 1,
@@ -2074,7 +1986,6 @@
               "fillable": false
             },
             {
-              "bbox": null,
               "row_span": 2,
               "col_span": 1,
               "start_row_offset_idx": 7,
@@ -2130,7 +2041,6 @@
               "fillable": false
             },
             {
-              "bbox": null,
               "row_span": 2,
               "col_span": 1,
               "start_row_offset_idx": 7,
@@ -2248,7 +2158,6 @@
               "fillable": false
             },
             {
-              "bbox": null,
               "row_span": 1,
               "col_span": 1,
               "start_row_offset_idx": 10,
@@ -2366,7 +2275,6 @@
               "fillable": false
             },
             {
-              "bbox": null,
               "row_span": 1,
               "col_span": 1,
               "start_row_offset_idx": 12,
@@ -2451,17 +2359,15 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [
           {
@@ -2482,8 +2388,7 @@
                 0,
                 13
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2503,8 +2408,7 @@
                 0,
                 9
               ]
-            },
-            "item_ref": null
+            }
           }
         ],
         "links": [

@@ -138,6 +138,7 @@
       <location value="0"/>
       <location value="511"/>
       <location value="511"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -149,6 +150,7 @@
       <location value="0"/>
       <location value="169"/>
       <location value="511"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -160,6 +162,7 @@
       <location value="439"/>
       <location value="214"/>
       <location value="511"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -171,6 +174,7 @@
       <location value="462"/>
       <location value="327"/>
       <location value="478"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -182,6 +186,7 @@
       <location value="476"/>
       <location value="263"/>
       <location value="497"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -193,6 +198,7 @@
       <location value="485"/>
       <location value="287"/>
       <location value="511"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
 </doclang>

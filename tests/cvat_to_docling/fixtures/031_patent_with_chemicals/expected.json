@@ -1,99 +1,94 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/texts/0"
+        "$ref": "#/texts/0"
       },
       {
-        "cref": "#/texts/1"
+        "$ref": "#/texts/1"
       },
       {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       {
-        "cref": "#/groups/8"
+        "$ref": "#/groups/8"
       },
       {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       {
-        "cref": "#/groups/10"
+        "$ref": "#/groups/10"
       },
       {
-        "cref": "#/texts/19"
+        "$ref": "#/texts/19"
       },
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/20"
+        "$ref": "#/texts/20"
       },
       {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       {
-        "cref": "#/pictures/2"
+        "$ref": "#/pictures/2"
       },
       {
-        "cref": "#/pictures/3"
+        "$ref": "#/pictures/3"
       },
       {
-        "cref": "#/texts/21"
+        "$ref": "#/texts/21"
       },
       {
-        "cref": "#/pictures/4"
+        "$ref": "#/pictures/4"
       },
       {
-        "cref": "#/texts/22"
+        "$ref": "#/texts/22"
       },
       {
-        "cref": "#/texts/23"
+        "$ref": "#/texts/23"
       },
       {
-        "cref": "#/key_value_items/0"
+        "$ref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -101,171 +96,160 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/2"
+          "$ref": "#/texts/2"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_30",
       "label": "list"
     },
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/3"
+          "$ref": "#/texts/3"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_31",
       "label": "list"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/4"
+          "$ref": "#/texts/4"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_2",
       "label": "list"
     },
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/5"
+          "$ref": "#/texts/5"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_3",
       "label": "list"
     },
     {
       "self_ref": "#/groups/4",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/6"
+          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_4",
       "label": "list"
     },
     {
       "self_ref": "#/groups/5",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/7"
+          "$ref": "#/texts/7"
         },
         {
-          "cref": "#/texts/8"
+          "$ref": "#/texts/8"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_1",
       "label": "list"
     },
     {
       "self_ref": "#/groups/6",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_7",
       "label": "list"
     },
     {
       "self_ref": "#/groups/7",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         },
         {
-          "cref": "#/texts/11"
+          "$ref": "#/texts/11"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_2",
       "label": "list"
     },
     {
       "self_ref": "#/groups/8",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/12"
+          "$ref": "#/texts/12"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_10",
       "label": "list"
     },
     {
       "self_ref": "#/groups/9",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_11",
       "label": "list"
     },
     {
       "self_ref": "#/groups/10",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/18"
+          "$ref": "#/texts/18"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_12",
       "label": "list"
     }
@@ -274,11 +258,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -298,18 +281,15 @@
       ],
       "orig": "United States Patent (19)",
       "text": "United States Patent (19)",
-      "formatting": null,
-      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -328,18 +308,15 @@
         }
       ],
       "orig": "Kawamura et al.",
-      "text": "Kawamura et al.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Kawamura et al."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -359,19 +336,16 @@
       ],
       "orig": "[11] 4,315,983",
       "text": "[11] 4,315,983",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -391,19 +365,16 @@
       ],
       "orig": "[45] Feb. 16, 1982",
       "text": "[45] Feb. 16, 1982",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -423,19 +394,16 @@
       ],
       "orig": "(54) 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
       "text": "(54) 2,6-DI-TERT-BUTYL-4-SUBSTITUTED THIOPYRYLIUM SALT, PROCESS FOR PRODUCTION OF SAME, AND A PHOTOCONDUCTIVE COMPOSITION CONTAINING SAME",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -455,19 +423,16 @@
       ],
       "orig": "[75] Inventors: Koichi Kawamura; Harumi Katsuyama; Hideo Sato, all of Asaka, Japan",
       "text": "[75] Inventors: Koichi Kawamura; Harumi Katsuyama; Hideo Sato, all of Asaka, Japan",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -487,19 +452,16 @@
       ],
       "orig": "[73] Assignee: Fuji Photo Film Co., Ltd., Kanagawa, Japan",
       "text": "[73] Assignee: Fuji Photo Film Co., Ltd., Kanagawa, Japan",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -519,19 +481,16 @@
       ],
       "orig": "[21] Appl. No.: 168,855",
       "text": "[21] Appl. No.: 168,855",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -551,19 +510,16 @@
       ],
       "orig": "[22] Filed: Jul. 14, 1980",
       "text": "[22] Filed: Jul. 14, 1980",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -583,19 +539,16 @@
       ],
       "orig": "[30] Foreign Application Priority Data",
       "text": "[30] Foreign Application Priority Data",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -615,19 +568,16 @@
       ],
       "orig": "[51] Int. C1.3 G03G 5/09",
       "text": "[51] Int. C1.3 G03G 5/09",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -647,19 +597,16 @@
       ],
       "orig": "(52] U.S. Cl. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
       "text": "(52] U.S. Cl. 430/70; 430/83; 430/81; 430/95; 430/82; 542/448; 542/449; 542/471; 542/473; 542/454; 549/13",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/groups/8"
+        "$ref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -679,32 +626,29 @@
       ],
       "orig": "[58] Field of Search 542/448, 549, 471, 473, 542/454; 549/13; 430/81, 83, 82, 95",
       "text": "[58] Field of Search 542/448, 549, 471, 473, 542/454; 549/13; 430/81, 83, 82, 95",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         },
         {
-          "cref": "#/texts/15"
+          "$ref": "#/texts/15"
         },
         {
-          "cref": "#/texts/16"
+          "$ref": "#/texts/16"
         },
         {
-          "cref": "#/texts/17"
+          "$ref": "#/texts/17"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -724,19 +668,16 @@
       ],
       "orig": "[56] References Cited",
       "text": "[56] References Cited",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/texts/13"
+        "$ref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -756,18 +697,15 @@
       ],
       "orig": "U.S. PATENT DOCUMENTS",
       "text": "U.S. PATENT DOCUMENTS",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/texts/13"
+        "$ref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -786,18 +724,15 @@
         }
       ],
       "orig": "4,283,475 8/1981 Kawamura et al. 430/81",
-      "text": "4,283,475 8/1981 Kawamura et al. 430/81",
-      "formatting": null,
-      "hyperlink": null
+      "text": "4,283,475 8/1981 Kawamura et al. 430/81"
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/texts/13"
+        "$ref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -816,18 +751,15 @@
         }
       ],
       "orig": "Primary Examiner-John D. Welsh",
-      "text": "Primary Examiner-John D. Welsh",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Primary Examiner-John D. Welsh"
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/texts/13"
+        "$ref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -846,18 +778,15 @@
         }
       ],
       "orig": "Attorney, Agent, or Firm-Sughrue, Mion, Zinn, Macpeak and Seas",
-      "text": "Attorney, Agent, or Firm-Sughrue, Mion, Zinn, Macpeak and Seas",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Attorney, Agent, or Firm-Sughrue, Mion, Zinn, Macpeak and Seas"
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/groups/10"
+        "$ref": "#/groups/10"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -877,19 +806,16 @@
       ],
       "orig": "[57] ABSTRACT",
       "text": "[57] ABSTRACT",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -922,18 +848,15 @@
         }
       ],
       "orig": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said salt and a photoconductive composition containing said salt.",
-      "text": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said salt and a photoconductive composition containing said salt.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "2,6-Di-tert-Butyl-4-substituted thiopyrylium salt repre- sented by formula (I), a process for production of said salt and a photoconductive composition containing said salt."
     },
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -952,18 +875,15 @@
         }
       ],
       "orig": "wherein A is",
-      "text": "wherein A is",
-      "formatting": null,
-      "hyperlink": null
+      "text": "wherein A is"
     },
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -982,18 +902,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1012,18 +929,15 @@
         }
       ],
       "orig": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and R? are the same or different and include alkyl groups.",
-      "text": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and R? are the same or different and include alkyl groups.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "wherein ZO is an anion, X is a hydrogen atom, an aryl group, a substituted aryl group or an alkyl group, and R' and R? are the same or different and include alkyl groups."
     },
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1042,22 +956,18 @@
         }
       ],
       "orig": "47 Claims, 9 Drawing Figures",
-      "text": "47 Claims, 9 Drawing Figures",
-      "formatting": null,
-      "hyperlink": null
+      "text": "47 Claims, 9 Drawing Figures"
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1066,9 +976,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1090,7 +998,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1107,13 +1014,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1122,9 +1027,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1146,7 +1049,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1163,13 +1065,11 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1178,9 +1078,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1202,7 +1100,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1219,13 +1116,11 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1234,9 +1129,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1258,7 +1151,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1275,13 +1167,11 @@
     {
       "self_ref": "#/pictures/4",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1290,9 +1180,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1314,7 +1202,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1333,11 +1220,10 @@
     {
       "self_ref": "#/tables/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -1358,7 +1244,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "data": {
         "table_cells": [
           {
@@ -1984,17 +1869,15 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [
           {
@@ -2015,8 +1898,7 @@
                 0,
                 10
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2036,8 +1918,7 @@
                 0,
                 7
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2057,8 +1938,7 @@
                 0,
                 6
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2078,8 +1958,7 @@
                 0,
                 13
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2099,8 +1978,7 @@
                 0,
                 10
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2120,8 +1998,7 @@
                 0,
                 66
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2141,8 +2018,7 @@
                 0,
                 9
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2162,8 +2038,7 @@
                 0,
                 42
               ]
-            },
-            "item_ref": null
+            }
           }
         ],
         "links": [

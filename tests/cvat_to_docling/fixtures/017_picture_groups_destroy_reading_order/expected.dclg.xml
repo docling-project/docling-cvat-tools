@@ -4,6 +4,7 @@
     <location value="24"/>
     <location value="440"/>
     <location value="29"/>
+    <layer class="furniture"/>
     6
   </text>
   <floating_group class="picture">
@@ -15,6 +16,7 @@
       <location value="29"/>
       <location value="462"/>
       <location value="37"/>
+      <layer class="furniture"/>
     </picture>
   </floating_group>
   <heading level="1">
@@ -415,6 +417,7 @@
     <location value="502"/>
     <location value="378"/>
     <location value="511"/>
+    <layer class="furniture"/>
     关 注 微 信 哈 众 另   “ 教 辅 资 料 站 ” 获 取 更 多 吗 习 资 料
   </text>
   <text>
@@ -422,6 +425,7 @@
     <location value="479"/>
     <location value="452"/>
     <location value="484"/>
+    <layer class="furniture"/>
     61
   </text>
   <floating_group class="picture">
@@ -433,6 +437,7 @@
       <location value="44"/>
       <location value="137"/>
       <location value="55"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -444,6 +449,7 @@
       <location value="44"/>
       <location value="412"/>
       <location value="55"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -455,6 +461,7 @@
       <location value="63"/>
       <location value="119"/>
       <location value="79"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -466,6 +473,7 @@
       <location value="133"/>
       <location value="330"/>
       <location value="148"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -477,6 +485,7 @@
       <location value="357"/>
       <location value="330"/>
       <location value="372"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -488,6 +497,7 @@
       <location value="476"/>
       <location value="461"/>
       <location value="507"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
 </doclang>

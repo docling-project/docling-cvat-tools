@@ -113,42 +113,54 @@
     <location value="65"/>
     B Check if applicable:
   </heading>
-  <location value="3"/>
-  <location value="65"/>
-  <location value="57"/>
-  <location value="70"/>
-  <checkbox class="unselected"/>
-  • Address change
-  <location value="3"/>
-  <location value="72"/>
-  <location value="51"/>
-  <location value="76"/>
-  <checkbox class="unselected"/>
-  • Name change
-  <location value="3"/>
-  <location value="78"/>
-  <location value="48"/>
-  <location value="82"/>
-  <checkbox class="selected"/>
-  • Initial return
-  <location value="4"/>
-  <location value="83"/>
-  <location value="67"/>
-  <location value="88"/>
-  <checkbox class="unselected"/>
-  • Final return/terminated
-  <location value="4"/>
-  <location value="89"/>
-  <location value="59"/>
-  <location value="93"/>
-  <checkbox class="unselected"/>
-  • Amended return
-  <location value="4"/>
-  <location value="95"/>
-  <location value="68"/>
-  <location value="100"/>
-  <checkbox class="unselected"/>
-  Application pending
+  <text>
+    <location value="3"/>
+    <location value="65"/>
+    <location value="57"/>
+    <location value="70"/>
+    <checkbox class="unselected"/>
+    • Address change
+  </text>
+  <text>
+    <location value="3"/>
+    <location value="72"/>
+    <location value="51"/>
+    <location value="76"/>
+    <checkbox class="unselected"/>
+    • Name change
+  </text>
+  <text>
+    <location value="3"/>
+    <location value="78"/>
+    <location value="48"/>
+    <location value="82"/>
+    <checkbox class="selected"/>
+    • Initial return
+  </text>
+  <text>
+    <location value="4"/>
+    <location value="83"/>
+    <location value="67"/>
+    <location value="88"/>
+    <checkbox class="unselected"/>
+    • Final return/terminated
+  </text>
+  <text>
+    <location value="4"/>
+    <location value="89"/>
+    <location value="59"/>
+    <location value="93"/>
+    <checkbox class="unselected"/>
+    • Amended return
+  </text>
+  <text>
+    <location value="4"/>
+    <location value="95"/>
+    <location value="68"/>
+    <location value="100"/>
+    <checkbox class="unselected"/>
+    Application pending
+  </text>
   <list ordered="false">
     <list_text>
       <location value="0"/>
@@ -190,12 +202,12 @@
     <location value="130"/>
     <location value="68"/>
     <location value="148"/>
-  </text>
-  <text>
-    <location value="0"/>
-    <location value="131"/>
-    <location value="27"/>
-    <location value="136"/>
+    <text>
+      <location value="0"/>
+      <location value="131"/>
+      <location value="27"/>
+      <location value="136"/>
+    </text>
   </text>
   <text>
     <location value="0"/>
@@ -277,27 +289,35 @@
       n u
     </list_text>
   </list>
-  <location value="21"/>
-  <location value="174"/>
-  <location value="42"/>
-  <location value="182"/>
-  <checkbox class="unselected"/>
+  <text>
+    <location value="21"/>
+    <location value="174"/>
+    <location value="42"/>
+    <location value="182"/>
+    <checkbox class="unselected"/>
+  </text>
+  <text>
+    <location value="4"/>
+    <location value="239"/>
+    <location value="23"/>
+    <location value="251"/>
+    <checkbox class="selected"/>
+  </text>
+  <text>
+    <location value="21"/>
+    <location value="185"/>
+    <location value="44"/>
+    <location value="194"/>
+    <checkbox class="unselected"/>
+  </text>
+  <text>
+    <location value="6"/>
+    <location value="256"/>
+    <location value="23"/>
+    <location value="267"/>
+    <checkbox class="unselected"/>
+  </text>
   <page_break/>
-  <location value="4"/>
-  <location value="239"/>
-  <location value="23"/>
-  <location value="251"/>
-  <checkbox class="selected"/>
-  <location value="21"/>
-  <location value="185"/>
-  <location value="44"/>
-  <location value="194"/>
-  <checkbox class="unselected"/>
-  <location value="6"/>
-  <location value="256"/>
-  <location value="23"/>
-  <location value="267"/>
-  <checkbox class="unselected"/>
   <text>
     <location value="0"/>
     <location value="166"/>
@@ -320,29 +340,37 @@
       I Tax-exempt
     </list_text>
   </list>
-  <location value="0"/>
-  <location value="173"/>
-  <location value="29"/>
-  <location value="182"/>
-  <checkbox class="selected"/>
-  for
-  <location value="0"/>
-  <location value="172"/>
-  <location value="86"/>
-  <location value="180"/>
-  <checkbox class="unselected"/>
-  26 Did the organization officer, director,
-  <location value="11"/>
-  <location value="171"/>
-  <location value="64"/>
-  <location value="179"/>
-  <checkbox class="unselected"/>
-  persons other
-  <location value="29"/>
-  <location value="160"/>
-  <location value="53"/>
-  <location value="167"/>
-  <checkbox class="unselected"/>
+  <text>
+    <location value="0"/>
+    <location value="173"/>
+    <location value="29"/>
+    <location value="182"/>
+    <checkbox class="selected"/>
+    for
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="172"/>
+    <location value="86"/>
+    <location value="180"/>
+    <checkbox class="unselected"/>
+    26 Did the organization officer, director,
+  </text>
+  <text>
+    <location value="11"/>
+    <location value="171"/>
+    <location value="64"/>
+    <location value="179"/>
+    <checkbox class="unselected"/>
+    persons other
+  </text>
+  <text>
+    <location value="29"/>
+    <location value="160"/>
+    <location value="53"/>
+    <location value="167"/>
+    <checkbox class="unselected"/>
+  </text>
   <list ordered="false">
     <list_text>
       <location value="1"/>
@@ -367,28 +395,36 @@
       K Form of organization:
     </list_text>
   </list>
-  <location value="0"/>
-  <location value="201"/>
-  <location value="36"/>
-  <location value="209"/>
-  <checkbox class="selected"/>
-  <location value="0"/>
-  <location value="199"/>
-  <location value="24"/>
-  <location value="206"/>
-  <checkbox class="unselected"/>
-  <location value="0"/>
-  <location value="190"/>
-  <location value="30"/>
-  <location value="197"/>
-  <checkbox class="unselected"/>
-  c Did
-  <location value="0"/>
-  <location value="198"/>
-  <location value="29"/>
-  <location value="205"/>
-  <checkbox class="unselected"/>
-  a
+  <text>
+    <location value="0"/>
+    <location value="201"/>
+    <location value="36"/>
+    <location value="209"/>
+    <checkbox class="selected"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="199"/>
+    <location value="24"/>
+    <location value="206"/>
+    <checkbox class="unselected"/>
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="190"/>
+    <location value="30"/>
+    <location value="197"/>
+    <checkbox class="unselected"/>
+    c Did
+  </text>
+  <text>
+    <location value="0"/>
+    <location value="198"/>
+    <location value="29"/>
+    <location value="205"/>
+    <checkbox class="unselected"/>
+    a
+  </text>
   <list ordered="false">
     <list_text>
       <location value="0"/>
@@ -744,24 +780,24 @@
     <location value="511"/>
     <location value="102"/>
     <location value="511"/>
-  </text>
-  <text>
-    <location value="0"/>
-    <location value="511"/>
-    <location value="59"/>
-    <location value="511"/>
+    <text>
+      <location value="0"/>
+      <location value="511"/>
+      <location value="59"/>
+      <location value="511"/>
+    </text>
   </text>
   <text>
     <location value="0"/>
     <location value="511"/>
     <location value="98"/>
     <location value="511"/>
-  </text>
-  <text>
-    <location value="0"/>
-    <location value="511"/>
-    <location value="35"/>
-    <location value="511"/>
+    <text>
+      <location value="0"/>
+      <location value="511"/>
+      <location value="35"/>
+      <location value="511"/>
+    </text>
   </text>
   <text>
     <location value="17"/>
@@ -775,12 +811,14 @@
     <location value="46"/>
     <location value="511"/>
   </text>
-  <location value="14"/>
-  <location value="412"/>
-  <location value="55"/>
-  <location value="422"/>
-  <checkbox class="unselected"/>
-  b Less:
+  <text>
+    <location value="14"/>
+    <location value="412"/>
+    <location value="55"/>
+    <location value="422"/>
+    <checkbox class="unselected"/>
+    b Less:
+  </text>
   <text>
     <location value="14"/>
     <location value="414"/>
@@ -887,16 +925,20 @@
     <location value="235"/>
     <location value="511"/>
   </text>
-  <location value="0"/>
-  <location value="511"/>
-  <location value="17"/>
-  <location value="511"/>
-  <checkbox class="selected"/>
-  <location value="22"/>
-  <location value="511"/>
-  <location value="43"/>
-  <location value="511"/>
-  <checkbox class="unselected"/>
+  <text>
+    <location value="0"/>
+    <location value="511"/>
+    <location value="17"/>
+    <location value="511"/>
+    <checkbox class="selected"/>
+  </text>
+  <text>
+    <location value="22"/>
+    <location value="511"/>
+    <location value="43"/>
+    <location value="511"/>
+    <checkbox class="unselected"/>
+  </text>
   <text>
     <location value="1"/>
     <location value="191"/>
@@ -1085,17 +1127,20 @@
       </list_text>
     </list>
   </list>
-  <location value="0"/>
-  <location value="256"/>
-  <location value="212"/>
-  <location value="265"/>
-  <checkbox class="unselected"/>
-<![CDATA[b If "Yes," did the organization have written policies and]]>  
-  <location value="13"/>
-  <location value="260"/>
-  <location value="22"/>
-  <location value="267"/>
-  <checkbox class="unselected"/>
+  <text>
+    <location value="0"/>
+    <location value="256"/>
+    <location value="212"/>
+    <location value="265"/>
+    <checkbox class="unselected"/>
+<![CDATA[b If "Yes," did the organization have written policies and]]>  </text>
+  <text>
+    <location value="13"/>
+    <location value="260"/>
+    <location value="22"/>
+    <location value="267"/>
+    <checkbox class="unselected"/>
+  </text>
   <text>
     <location value="0"/>
     <location value="230"/>
@@ -1107,17 +1152,20 @@
     <location value="511"/>
     <location value="167"/>
     <location value="511"/>
+    <layer class="furniture"/>
   </text>
   <text>
     <location value="0"/>
     <location value="454"/>
     <location value="47"/>
     <location value="458"/>
+    <layer class="furniture"/>
   </text>
   <text>
     <location value="0"/>
     <location value="511"/>
     <location value="33"/>
     <location value="511"/>
+    <layer class="furniture"/>
   </text>
 </doclang>

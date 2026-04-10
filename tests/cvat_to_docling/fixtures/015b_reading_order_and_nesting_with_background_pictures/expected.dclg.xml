@@ -29,6 +29,7 @@
       <location value="98"/>
       <location value="460"/>
       <location value="246"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <text>
@@ -54,6 +55,7 @@
       <location value="298"/>
       <location value="460"/>
       <location value="446"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <text>
@@ -68,6 +70,7 @@
     <location value="485"/>
     <location value="437"/>
     <location value="491"/>
+    <layer class="furniture"/>
     Chapter 8. Getting Started with Print Format Utility
   </text>
   <text>
@@ -75,6 +78,7 @@
     <location value="484"/>
     <location value="461"/>
     <location value="489"/>
+    <layer class="furniture"/>
     107
   </text>
   <heading level="3">

@@ -240,6 +240,7 @@
     <location value="472"/>
     <location value="399"/>
     <location value="495"/>
+    <layer class="furniture"/>
     The customer approach used is Segmentation Approach, which is based on market segmentation, as customers from different geographic segments will have different needs and preferences.
   </text>
   <floating_group class="picture">
@@ -251,6 +252,7 @@
       <location value="20"/>
       <location value="482"/>
       <location value="37"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
 </doclang>

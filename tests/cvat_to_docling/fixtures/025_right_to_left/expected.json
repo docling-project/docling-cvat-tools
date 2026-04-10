@@ -1,126 +1,121 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/texts/0"
+        "$ref": "#/texts/0"
       },
       {
-        "cref": "#/texts/1"
+        "$ref": "#/texts/1"
       },
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/2"
+        "$ref": "#/texts/2"
       },
       {
-        "cref": "#/texts/3"
+        "$ref": "#/texts/3"
       },
       {
-        "cref": "#/texts/4"
+        "$ref": "#/texts/4"
       },
       {
-        "cref": "#/texts/5"
+        "$ref": "#/texts/5"
       },
       {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       {
-        "cref": "#/texts/6"
+        "$ref": "#/texts/6"
       },
       {
-        "cref": "#/pictures/2"
+        "$ref": "#/pictures/2"
       },
       {
-        "cref": "#/texts/7"
+        "$ref": "#/texts/7"
       },
       {
-        "cref": "#/pictures/5"
+        "$ref": "#/pictures/5"
       },
       {
-        "cref": "#/texts/8"
+        "$ref": "#/texts/8"
       },
       {
-        "cref": "#/pictures/6"
+        "$ref": "#/pictures/6"
       },
       {
-        "cref": "#/texts/9"
+        "$ref": "#/texts/9"
       },
       {
-        "cref": "#/texts/10"
+        "$ref": "#/texts/10"
       },
       {
-        "cref": "#/pictures/8"
+        "$ref": "#/pictures/8"
       },
       {
-        "cref": "#/pictures/9"
+        "$ref": "#/pictures/9"
       },
       {
-        "cref": "#/texts/11"
+        "$ref": "#/texts/11"
       },
       {
-        "cref": "#/pictures/10"
+        "$ref": "#/pictures/10"
       },
       {
-        "cref": "#/pictures/11"
+        "$ref": "#/pictures/11"
       },
       {
-        "cref": "#/pictures/12"
+        "$ref": "#/pictures/12"
       },
       {
-        "cref": "#/pictures/13"
+        "$ref": "#/pictures/13"
       },
       {
-        "cref": "#/pictures/14"
+        "$ref": "#/pictures/14"
       },
       {
-        "cref": "#/pictures/15"
+        "$ref": "#/pictures/15"
       },
       {
-        "cref": "#/pictures/16"
+        "$ref": "#/pictures/16"
       },
       {
-        "cref": "#/pictures/17"
+        "$ref": "#/pictures/17"
       },
       {
-        "cref": "#/pictures/18"
+        "$ref": "#/pictures/18"
       },
       {
-        "cref": "#/pictures/19"
+        "$ref": "#/pictures/19"
       },
       {
-        "cref": "#/pictures/20"
+        "$ref": "#/pictures/20"
       },
       {
-        "cref": "#/pictures/21"
+        "$ref": "#/pictures/21"
       },
       {
-        "cref": "#/pictures/22"
+        "$ref": "#/pictures/22"
       },
       {
-        "cref": "#/pictures/23"
+        "$ref": "#/pictures/23"
       },
       {
-        "cref": "#/pictures/24"
+        "$ref": "#/pictures/24"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -129,11 +124,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -152,18 +146,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -197,18 +188,15 @@
       ],
       "orig": "Style WITH OUR COLLECTION",
       "text": "Style WITH OUR COLLECTION",
-      "formatting": null,
-      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -227,18 +215,15 @@
         }
       ],
       "orig": "BORCELLE",
-      "text": "BORCELLE",
-      "formatting": null,
-      "hyperlink": null
+      "text": "BORCELLE"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -258,18 +243,15 @@
       ],
       "orig": "Find Your Perfect Style",
       "text": "Find Your Perfect Style",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -288,18 +270,15 @@
         }
       ],
       "orig": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order.",
-      "text": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order."
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -319,18 +298,15 @@
       ],
       "orig": "let's get in touch with us",
       "text": "let's get in touch with us",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -349,18 +325,15 @@
         }
       ],
       "orig": "123-456-7890",
-      "text": "123-456-7890",
-      "formatting": null,
-      "hyperlink": null
+      "text": "123-456-7890"
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -379,18 +352,15 @@
         }
       ],
       "orig": "hello@reallygreatsite.com",
-      "text": "hello@reallygreatsite.com",
-      "formatting": null,
-      "hyperlink": null
+      "text": "hello@reallygreatsite.com"
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -409,18 +379,15 @@
         }
       ],
       "orig": "www.reallygreatsite.com",
-      "text": "www.reallygreatsite.com",
-      "formatting": null,
-      "hyperlink": null
+      "text": "www.reallygreatsite.com"
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -439,18 +406,15 @@
         }
       ],
       "orig": "123 Anywhere St., Any City",
-      "text": "123 Anywhere St., Any City",
-      "formatting": null,
-      "hyperlink": null
+      "text": "123 Anywhere St., Any City"
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -470,18 +434,15 @@
       ],
       "orig": "LET'S GET TO KNOW MORE About us",
       "text": "LET'S GET TO KNOW MORE About us",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -500,22 +461,18 @@
         }
       ],
       "orig": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels- two outer panels that fold inward to cover the central panel.",
-      "text": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels- two outer panels that fold inward to cover the central panel.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "A trifold brochure is a printed marketing or informational document that is folded into three equal sections, with each section typically presenting content in a sequential order. This type of brochure is characterized by two parallel folds, creating three panels- two outer panels that fold inward to cover the central panel."
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -524,9 +481,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -548,7 +503,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -565,13 +519,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -580,9 +532,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -604,7 +554,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -621,17 +570,15 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/pictures/3"
+          "$ref": "#/pictures/3"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -640,9 +587,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -664,7 +609,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -681,17 +625,15 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "cref": "#/pictures/2"
+        "$ref": "#/pictures/2"
       },
       "children": [
         {
-          "cref": "#/pictures/4"
+          "$ref": "#/pictures/4"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -700,9 +642,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -724,7 +664,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -741,13 +680,11 @@
     {
       "self_ref": "#/pictures/4",
       "parent": {
-        "cref": "#/pictures/3"
+        "$ref": "#/pictures/3"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -756,9 +693,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -780,7 +715,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -797,13 +731,11 @@
     {
       "self_ref": "#/pictures/5",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -812,9 +744,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -836,7 +766,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -853,17 +782,15 @@
     {
       "self_ref": "#/pictures/6",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/pictures/7"
+          "$ref": "#/pictures/7"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -872,9 +799,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -896,7 +821,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -913,13 +837,11 @@
     {
       "self_ref": "#/pictures/7",
       "parent": {
-        "cref": "#/pictures/6"
+        "$ref": "#/pictures/6"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -928,9 +850,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -952,7 +872,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -969,13 +888,11 @@
     {
       "self_ref": "#/pictures/8",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -984,9 +901,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1008,7 +923,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1025,13 +939,11 @@
     {
       "self_ref": "#/pictures/9",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1040,9 +952,7 @@
               "class_name": "person"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1064,7 +974,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1081,13 +990,11 @@
     {
       "self_ref": "#/pictures/10",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1096,9 +1003,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1120,7 +1025,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1137,13 +1041,11 @@
     {
       "self_ref": "#/pictures/11",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1152,9 +1054,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1176,7 +1076,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1193,13 +1092,11 @@
     {
       "self_ref": "#/pictures/12",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1208,9 +1105,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1232,7 +1127,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1249,13 +1143,11 @@
     {
       "self_ref": "#/pictures/13",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1264,9 +1156,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1288,7 +1178,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1305,13 +1194,11 @@
     {
       "self_ref": "#/pictures/14",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1320,9 +1207,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1344,7 +1229,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1361,13 +1245,11 @@
     {
       "self_ref": "#/pictures/15",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1376,9 +1258,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1400,7 +1280,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1417,13 +1296,11 @@
     {
       "self_ref": "#/pictures/16",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1432,9 +1309,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1456,7 +1331,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1473,13 +1347,11 @@
     {
       "self_ref": "#/pictures/17",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1488,9 +1360,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1512,7 +1382,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1529,13 +1398,11 @@
     {
       "self_ref": "#/pictures/18",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1544,9 +1411,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1568,7 +1433,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1585,13 +1449,11 @@
     {
       "self_ref": "#/pictures/19",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1600,9 +1462,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1624,7 +1484,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1641,13 +1500,11 @@
     {
       "self_ref": "#/pictures/20",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1656,9 +1513,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1680,7 +1535,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1697,13 +1551,11 @@
     {
       "self_ref": "#/pictures/21",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1712,9 +1564,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1736,7 +1586,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1753,13 +1602,11 @@
     {
       "self_ref": "#/pictures/22",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1768,9 +1615,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1792,7 +1637,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1809,13 +1653,11 @@
     {
       "self_ref": "#/pictures/23",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1824,9 +1666,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1848,7 +1688,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1865,13 +1704,11 @@
     {
       "self_ref": "#/pictures/24",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1880,9 +1717,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1904,7 +1739,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",

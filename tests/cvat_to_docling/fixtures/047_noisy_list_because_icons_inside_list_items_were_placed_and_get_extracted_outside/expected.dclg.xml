@@ -615,6 +615,7 @@
       <location value="437"/>
       <location value="500"/>
       <location value="484"/>
+      <layer class="furniture"/>
     </picture>
   </floating_group>
   <text>
@@ -622,6 +623,7 @@
     <location value="488"/>
     <location value="499"/>
     <location value="498"/>
+    <layer class="furniture"/>
     121
   </text>
 </doclang>

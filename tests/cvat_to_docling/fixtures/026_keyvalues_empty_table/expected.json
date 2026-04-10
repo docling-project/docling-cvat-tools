@@ -1,81 +1,76 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/1"
+        "$ref": "#/texts/1"
       },
       {
-        "cref": "#/texts/2"
+        "$ref": "#/texts/2"
       },
       {
-        "cref": "#/texts/3"
+        "$ref": "#/texts/3"
       },
       {
-        "cref": "#/texts/4"
+        "$ref": "#/texts/4"
       },
       {
-        "cref": "#/texts/5"
+        "$ref": "#/texts/5"
       },
       {
-        "cref": "#/texts/6"
+        "$ref": "#/texts/6"
       },
       {
-        "cref": "#/texts/7"
+        "$ref": "#/texts/7"
       },
       {
-        "cref": "#/texts/8"
+        "$ref": "#/texts/8"
       },
       {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       {
-        "cref": "#/texts/9"
+        "$ref": "#/texts/9"
       },
       {
-        "cref": "#/texts/10"
+        "$ref": "#/texts/10"
       },
       {
-        "cref": "#/texts/11"
+        "$ref": "#/texts/11"
       },
       {
-        "cref": "#/texts/12"
+        "$ref": "#/texts/12"
       },
       {
-        "cref": "#/texts/13"
+        "$ref": "#/texts/13"
       },
       {
-        "cref": "#/texts/14"
+        "$ref": "#/texts/14"
       },
       {
-        "cref": "#/texts/15"
+        "$ref": "#/texts/15"
       },
       {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       {
-        "cref": "#/key_value_items/0"
+        "$ref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -84,11 +79,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -107,18 +101,15 @@
         }
       ],
       "orig": "RIMBERIO",
-      "text": "RIMBERIO",
-      "formatting": null,
-      "hyperlink": null
+      "text": "RIMBERIO"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -138,18 +129,15 @@
       ],
       "orig": "REPORT CARD",
       "text": "REPORT CARD",
-      "formatting": null,
-      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -168,18 +156,15 @@
         }
       ],
       "orig": "SALFORD HIGH SCHOOL",
-      "text": "SALFORD HIGH SCHOOL",
-      "formatting": null,
-      "hyperlink": null
+      "text": "SALFORD HIGH SCHOOL"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -198,18 +183,15 @@
         }
       ],
       "orig": "Student :",
-      "text": "Student :",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Student :"
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -228,18 +210,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -258,18 +237,15 @@
         }
       ],
       "orig": "Level :",
-      "text": "Level :",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Level :"
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -288,18 +264,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -318,18 +291,15 @@
         }
       ],
       "orig": "Class :",
-      "text": "Class :",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Class :"
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -348,18 +318,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -379,18 +346,15 @@
       ],
       "orig": "GRADING SCALE:",
       "text": "GRADING SCALE:",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -409,18 +373,15 @@
         }
       ],
       "orig": "A = 90% -100%",
-      "text": "A = 90% -100%",
-      "formatting": null,
-      "hyperlink": null
+      "text": "A = 90% -100%"
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -439,18 +400,15 @@
         }
       ],
       "orig": "B = 80% - 89%",
-      "text": "B = 80% - 89%",
-      "formatting": null,
-      "hyperlink": null
+      "text": "B = 80% - 89%"
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -469,18 +427,15 @@
         }
       ],
       "orig": "C = 60% - 79%",
-      "text": "C = 60% - 79%",
-      "formatting": null,
-      "hyperlink": null
+      "text": "C = 60% - 79%"
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -499,18 +454,15 @@
         }
       ],
       "orig": "D = 0% - 59%",
-      "text": "D = 0% - 59%",
-      "formatting": null,
-      "hyperlink": null
+      "text": "D = 0% - 59%"
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -529,18 +481,15 @@
         }
       ],
       "orig": "Comment:",
-      "text": "Comment:",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Comment:"
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -559,26 +508,22 @@
         }
       ],
       "orig": "Comment:",
-      "text": "Comment:",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Comment:"
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/0"
+          "$ref": "#/texts/0"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -587,9 +532,7 @@
               "class_name": "logo"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -611,7 +554,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -628,13 +570,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -643,9 +583,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -667,7 +605,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -686,11 +623,10 @@
     {
       "self_ref": "#/tables/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -711,7 +647,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "data": {
         "table_cells": [
           {
@@ -2949,17 +2884,15 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [
           {
@@ -2982,7 +2915,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/3"
+              "$ref": "#/texts/3"
             }
           },
           {
@@ -3005,7 +2938,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/4"
+              "$ref": "#/texts/4"
             }
           },
           {
@@ -3028,7 +2961,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/5"
+              "$ref": "#/texts/5"
             }
           },
           {
@@ -3051,7 +2984,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/6"
+              "$ref": "#/texts/6"
             }
           },
           {
@@ -3074,7 +3007,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/7"
+              "$ref": "#/texts/7"
             }
           },
           {
@@ -3097,7 +3030,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/8"
+              "$ref": "#/texts/8"
             }
           },
           {
@@ -3120,7 +3053,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/14"
+              "$ref": "#/texts/14"
             }
           },
           {
@@ -3143,7 +3076,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/15"
+              "$ref": "#/texts/15"
             }
           },
           {
@@ -3164,8 +3097,7 @@
                 0,
                 3
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -3185,8 +3117,7 @@
                 0,
                 9
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -3206,8 +3137,7 @@
                 0,
                 3
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -3227,8 +3157,7 @@
                 0,
                 9
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -3248,8 +3177,7 @@
                 0,
                 3
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -3269,8 +3197,7 @@
                 0,
                 9
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -3290,8 +3217,7 @@
                 0,
                 3
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -3311,8 +3237,7 @@
                 0,
                 8
               ]
-            },
-            "item_ref": null
+            }
           }
         ],
         "links": [

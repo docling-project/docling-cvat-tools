@@ -4,6 +4,7 @@
     <location value="34"/>
     <location value="415"/>
     <location value="50"/>
+    <layer class="furniture"/>
     NOTES TO AND FORMING PART OF THE FINANCIAL STATEMENTS FOR THE FINANCIAL YEAR ENDED 30 JUNE 2000
   </text>
   <heading level="2">
@@ -298,6 +299,7 @@
     <location value="468"/>
     <location value="457"/>
     <location value="473"/>
+    <layer class="furniture"/>
     59
   </text>
   <floating_group class="picture">
@@ -309,6 +311,7 @@
       <location value="475"/>
       <location value="494"/>
       <location value="505"/>
+      <layer class="furniture"/>
     </picture>
   </floating_group>
   <floating_group class="picture">
@@ -320,6 +323,7 @@
       <location value="0"/>
       <location value="511"/>
       <location value="511"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
 </doclang>

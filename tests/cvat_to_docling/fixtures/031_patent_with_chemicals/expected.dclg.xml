@@ -4,6 +4,7 @@
     <location value="28"/>
     <location value="230"/>
     <location value="39"/>
+    <layer class="furniture"/>
     United States Patent (19)
   </heading>
   <text>
@@ -11,6 +12,7 @@
     <location value="43"/>
     <location value="147"/>
     <location value="48"/>
+    <layer class="furniture"/>
     Kawamura et al.
   </text>
   <list ordered="false">
@@ -19,6 +21,7 @@
       <location value="31"/>
       <location value="442"/>
       <location value="40"/>
+      <layer class="furniture"/>
       [11] 4,315,983
     </list_text>
   </list>
@@ -28,6 +31,7 @@
       <location value="44"/>
       <location value="442"/>
       <location value="51"/>
+      <layer class="furniture"/>
       [45] Feb. 16, 1982
     </list_text>
   </list>

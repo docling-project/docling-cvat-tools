@@ -4,6 +4,7 @@
     <location value="26"/>
     <location value="232"/>
     <location value="31"/>
+    <layer class="furniture"/>
     share ownership
   </text>
   <heading level="1">
@@ -201,6 +202,7 @@
     <location value="493"/>
     <location value="43"/>
     <location value="497"/>
+    <layer class="furniture"/>
     90
   </text>
 </doclang>

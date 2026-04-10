@@ -4,6 +4,7 @@
     <location value="35"/>
     <location value="283"/>
     <location value="42"/>
+    <layer class="furniture"/>
     5,901,666
   </text>
   <text>
@@ -11,6 +12,7 @@
     <location value="44"/>
     <location value="157"/>
     <location value="50"/>
+    <layer class="furniture"/>
     3
   </text>
   <text>
@@ -149,6 +151,7 @@
     <location value="44"/>
     <location value="372"/>
     <location value="50"/>
+    <layer class="furniture"/>
     4
   </text>
   <floating_group class="picture">
@@ -167,18 +170,21 @@
     <location value="79"/>
     <location value="263"/>
     <location value="82"/>
+    <layer class="background"/>
   </text>
   <text>
     <location value="258"/>
     <location value="110"/>
     <location value="265"/>
     <location value="113"/>
+    <layer class="background"/>
   </text>
   <text>
     <location value="258"/>
     <location value="141"/>
     <location value="265"/>
     <location value="145"/>
+    <layer class="background"/>
     15
   </text>
   <text>
@@ -186,12 +192,14 @@
     <location value="172"/>
     <location value="265"/>
     <location value="176"/>
+    <layer class="background"/>
   </text>
   <text>
     <location value="258"/>
     <location value="203"/>
     <location value="265"/>
     <location value="207"/>
+    <layer class="background"/>
     25
   </text>
   <text>
@@ -199,12 +207,14 @@
     <location value="235"/>
     <location value="265"/>
     <location value="238"/>
+    <layer class="background"/>
   </text>
   <text>
     <location value="258"/>
     <location value="266"/>
     <location value="265"/>
     <location value="269"/>
+    <layer class="background"/>
     35
   </text>
   <text>
@@ -212,6 +222,7 @@
     <location value="297"/>
     <location value="265"/>
     <location value="301"/>
+    <layer class="background"/>
     40
   </text>
   <text>
@@ -219,6 +230,7 @@
     <location value="328"/>
     <location value="265"/>
     <location value="332"/>
+    <layer class="background"/>
     45
   </text>
 </doclang>

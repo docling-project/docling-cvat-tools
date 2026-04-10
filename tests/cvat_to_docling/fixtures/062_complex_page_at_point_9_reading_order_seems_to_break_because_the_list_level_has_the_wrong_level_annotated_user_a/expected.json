@@ -1,39 +1,34 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       {
-        "cref": "#/texts/85"
+        "$ref": "#/texts/85"
       },
       {
-        "cref": "#/texts/86"
+        "$ref": "#/texts/86"
       },
       {
-        "cref": "#/texts/87"
+        "$ref": "#/texts/87"
       },
       {
-        "cref": "#/key_value_items/0"
+        "$ref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -41,267 +36,258 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         },
         {
-          "cref": "#/texts/11"
+          "$ref": "#/texts/11"
         },
         {
-          "cref": "#/texts/12"
+          "$ref": "#/texts/12"
         },
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         },
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         },
         {
-          "cref": "#/texts/15"
+          "$ref": "#/texts/15"
         },
         {
-          "cref": "#/texts/16"
+          "$ref": "#/texts/16"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_35",
       "label": "list"
     },
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/18"
+          "$ref": "#/texts/18"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_20",
       "label": "list"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/20"
+          "$ref": "#/texts/20"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_22",
       "label": "list"
     },
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "cref": "#/texts/22"
+        "$ref": "#/texts/22"
       },
       "children": [
         {
-          "cref": "#/texts/23"
+          "$ref": "#/texts/23"
         },
         {
-          "cref": "#/groups/7"
+          "$ref": "#/groups/7"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_21",
       "label": "list"
     },
     {
       "self_ref": "#/groups/4",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/25"
+          "$ref": "#/texts/25"
         },
         {
-          "cref": "#/texts/26"
+          "$ref": "#/texts/26"
         },
         {
-          "cref": "#/texts/27"
+          "$ref": "#/texts/27"
         },
         {
-          "cref": "#/texts/28"
+          "$ref": "#/texts/28"
         },
         {
-          "cref": "#/texts/29"
+          "$ref": "#/texts/29"
         },
         {
-          "cref": "#/texts/30"
+          "$ref": "#/texts/30"
         },
         {
-          "cref": "#/texts/31"
+          "$ref": "#/texts/31"
         },
         {
-          "cref": "#/texts/32"
+          "$ref": "#/texts/32"
         },
         {
-          "cref": "#/texts/33"
+          "$ref": "#/texts/33"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_17",
       "label": "form_area"
     },
     {
       "self_ref": "#/groups/5",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/35"
+          "$ref": "#/texts/35"
         },
         {
-          "cref": "#/texts/36"
+          "$ref": "#/texts/36"
         },
         {
-          "cref": "#/texts/37"
+          "$ref": "#/texts/37"
         },
         {
-          "cref": "#/texts/38"
+          "$ref": "#/texts/38"
         },
         {
-          "cref": "#/texts/39"
+          "$ref": "#/texts/39"
         },
         {
-          "cref": "#/texts/40"
+          "$ref": "#/texts/40"
         },
         {
-          "cref": "#/texts/41"
+          "$ref": "#/texts/41"
         },
         {
-          "cref": "#/texts/42"
+          "$ref": "#/texts/42"
         },
         {
-          "cref": "#/texts/43"
+          "$ref": "#/texts/43"
         },
         {
-          "cref": "#/texts/44"
+          "$ref": "#/texts/44"
         },
         {
-          "cref": "#/texts/45"
+          "$ref": "#/texts/45"
         },
         {
-          "cref": "#/texts/46"
+          "$ref": "#/texts/46"
         },
         {
-          "cref": "#/texts/47"
+          "$ref": "#/texts/47"
         },
         {
-          "cref": "#/texts/48"
+          "$ref": "#/texts/48"
         },
         {
-          "cref": "#/texts/49"
+          "$ref": "#/texts/49"
         },
         {
-          "cref": "#/texts/50"
+          "$ref": "#/texts/50"
         },
         {
-          "cref": "#/texts/51"
+          "$ref": "#/texts/51"
         },
         {
-          "cref": "#/texts/52"
+          "$ref": "#/texts/52"
         },
         {
-          "cref": "#/texts/53"
+          "$ref": "#/texts/53"
         },
         {
-          "cref": "#/texts/54"
+          "$ref": "#/texts/54"
         },
         {
-          "cref": "#/texts/55"
+          "$ref": "#/texts/55"
         },
         {
-          "cref": "#/texts/56"
+          "$ref": "#/texts/56"
         },
         {
-          "cref": "#/texts/57"
+          "$ref": "#/texts/57"
         },
         {
-          "cref": "#/texts/58"
+          "$ref": "#/texts/58"
         },
         {
-          "cref": "#/texts/59"
+          "$ref": "#/texts/59"
         },
         {
-          "cref": "#/texts/60"
+          "$ref": "#/texts/60"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_15",
       "label": "form_area"
     },
     {
       "self_ref": "#/groups/6",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/75"
+          "$ref": "#/texts/75"
         },
         {
-          "cref": "#/texts/76"
+          "$ref": "#/texts/76"
         },
         {
-          "cref": "#/texts/77"
+          "$ref": "#/texts/77"
         },
         {
-          "cref": "#/texts/78"
+          "$ref": "#/texts/78"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_18",
       "label": "form_area"
     },
     {
       "self_ref": "#/groups/7",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/79"
+          "$ref": "#/texts/79"
         },
         {
-          "cref": "#/texts/81"
+          "$ref": "#/texts/81"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_2_of_23",
       "label": "list"
     },
     {
       "self_ref": "#/groups/8",
       "parent": {
-        "cref": "#/texts/83"
+        "$ref": "#/texts/83"
       },
       "children": [
         {
-          "cref": "#/texts/84"
+          "$ref": "#/texts/84"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_28",
       "label": "list"
     }
@@ -310,11 +296,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -333,18 +318,15 @@
         }
       ],
       "orig": "Form W-SIMY",
-      "text": "Form W-SIMY",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Form W-SIMY"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -363,18 +345,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -393,18 +372,15 @@
         }
       ],
       "orig": "Department of the Treasury Internal Revenue Service",
-      "text": "Department of the Treasury Internal Revenue Service",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Department of the Treasury Internal Revenue Service"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -424,18 +400,15 @@
       ],
       "orig": "Certificate of Foreign Intermediary, Foreign Flow-Through Entity, or Certain U.S. Branches for United States Tax Withholding and Reporting",
       "text": "Certificate of Foreign Intermediary, Foreign Flow-Through Entity, or Certain U.S. Branches for United States Tax Withholding and Reporting",
-      "formatting": null,
-      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -454,18 +427,15 @@
         }
       ],
       "orig": "Section references are to the Internal Revenue Code.",
-      "text": "Section references are to the Internal Revenue Code.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Section references are to the Internal Revenue Code."
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -484,18 +454,15 @@
         }
       ],
       "orig": "Go to www.irs.gov/FormW8IMY for instructions and the latest information.",
-      "text": "Go to www.irs.gov/FormW8IMY for instructions and the latest information.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Go to www.irs.gov/FormW8IMY for instructions and the latest information."
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -514,18 +481,15 @@
         }
       ],
       "orig": "Give this form to the withholding agent or payer. Do not send to the IRS.",
-      "text": "Give this form to the withholding agent or payer. Do not send to the IRS.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Give this form to the withholding agent or payer. Do not send to the IRS."
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -544,18 +508,15 @@
         }
       ],
       "orig": "OMB No. 1545-1621",
-      "text": "OMB No. 1545-1621",
-      "formatting": null,
-      "hyperlink": null
+      "text": "OMB No. 1545-1621"
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -575,18 +536,15 @@
       ],
       "orig": "Do not use this form for:",
       "text": "Do not use this form for:",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -606,18 +564,15 @@
       ],
       "orig": "Instead, use Form:",
       "text": "Instead, use Form:",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -635,21 +590,18 @@
           ]
         }
       ],
-      "orig": "• A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Ql) acting as a qualified derivatives dealer (QDD)) . W-8BEN or W-8BEN-E",
-      "text": "• A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Ql) acting as a qualified derivatives dealer (QDD)) . W-8BEN or W-8BEN-E",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Ql) acting as a qualified derivatives dealer (QDD)) . W-8BEN or W-8BEN-E",
+      "text": "\u2022 A beneficial owner solely claiming foreign status or treaty benefits (other than a qualified intermediary (Ql) acting as a qualified derivatives dealer (QDD)) . W-8BEN or W-8BEN-E",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -667,21 +619,18 @@
           ]
         }
       ],
-      "orig": "• A hybrid entity claiming treaty benefits on its own behalf (other than a QI acting as a QDD)",
-      "text": "• A hybrid entity claiming treaty benefits on its own behalf (other than a QI acting as a QDD)",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 A hybrid entity claiming treaty benefits on its own behalf (other than a QI acting as a QDD)",
+      "text": "\u2022 A hybrid entity claiming treaty benefits on its own behalf (other than a QI acting as a QDD)",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -699,21 +648,18 @@
           ]
         }
       ],
-      "orig": "• A foreign person claiming that income is effectively connected with the conduct of a trade or business in the United States",
-      "text": "• A foreign person claiming that income is effectively connected with the conduct of a trade or business in the United States",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 A foreign person claiming that income is effectively connected with the conduct of a trade or business in the United States",
+      "text": "\u2022 A foreign person claiming that income is effectively connected with the conduct of a trade or business in the United States",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -731,21 +677,18 @@
           ]
         }
       ],
-      "orig": "• A disregarded entity with a single foreign owner that is the beneficial owner (other than a QI acting as a QDD) of the income to which this form relates. Instead, the single foreign owner should use W-8BEN, W-8ECI, or W-8BEN-E",
-      "text": "• A disregarded entity with a single foreign owner that is the beneficial owner (other than a QI acting as a QDD) of the income to which this form relates. Instead, the single foreign owner should use W-8BEN, W-8ECI, or W-8BEN-E",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 A disregarded entity with a single foreign owner that is the beneficial owner (other than a QI acting as a QDD) of the income to which this form relates. Instead, the single foreign owner should use W-8BEN, W-8ECI, or W-8BEN-E",
+      "text": "\u2022 A disregarded entity with a single foreign owner that is the beneficial owner (other than a QI acting as a QDD) of the income to which this form relates. Instead, the single foreign owner should use W-8BEN, W-8ECI, or W-8BEN-E",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -763,21 +706,18 @@
           ]
         }
       ],
-      "orig": "• A foreign government, international organization, foreign central bank of issue, foreign tax-exempt organization, foreign private foundation, or • W-8EXP",
-      "text": "• A foreign government, international organization, foreign central bank of issue, foreign tax-exempt organization, foreign private foundation, or • W-8EXP",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 A foreign government, international organization, foreign central bank of issue, foreign tax-exempt organization, foreign private foundation, or \u2022 W-8EXP",
+      "text": "\u2022 A foreign government, international organization, foreign central bank of issue, foreign tax-exempt organization, foreign private foundation, or \u2022 W-8EXP",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -795,21 +735,18 @@
           ]
         }
       ],
-      "orig": "W-9 • U.S. entity or U.S. citizen or resident",
-      "text": "W-9 • U.S. entity or U.S. citizen or resident",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "W-9 \u2022 U.S. entity or U.S. citizen or resident",
+      "text": "W-9 \u2022 U.S. entity or U.S. citizen or resident",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -827,21 +764,18 @@
           ]
         }
       ],
-      "orig": "• A foreign person documenting itself for purposes of section 6050W . W-8BEN, W-8BEN-E, or W-8ECI",
-      "text": "• A foreign person documenting itself for purposes of section 6050W . W-8BEN, W-8BEN-E, or W-8ECI",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 A foreign person documenting itself for purposes of section 6050W . W-8BEN, W-8BEN-E, or W-8ECI",
+      "text": "\u2022 A foreign person documenting itself for purposes of section 6050W . W-8BEN, W-8BEN-E, or W-8ECI",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -875,18 +809,15 @@
       ],
       "orig": "Part Identification of Entity",
       "text": "Part Identification of Entity",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -906,19 +837,16 @@
       ],
       "orig": "1 Name of organization that is acting as intermediary",
       "text": "1 Name of organization that is acting as intermediary",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -937,18 +865,15 @@
         }
       ],
       "orig": "The Groovy Technology LLC",
-      "text": "The Groovy Technology LLC",
-      "formatting": null,
-      "hyperlink": null
+      "text": "The Groovy Technology LLC"
     },
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -968,19 +893,16 @@
       ],
       "orig": "2 Country of incorporation or organization",
       "text": "2 Country of incorporation or organization",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -999,22 +921,19 @@
         }
       ],
       "orig": "Australia",
-      "text": "Australia",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Australia"
     },
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/groups/3"
+          "$ref": "#/groups/3"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -1033,18 +952,15 @@
         }
       ],
       "orig": "3 Name of disregarded entity (if applicable), see instructions",
-      "text": "3 Name of disregarded entity (if applicable), see instructions",
-      "formatting": null,
-      "hyperlink": null
+      "text": "3 Name of disregarded entity (if applicable), see instructions"
     },
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1064,19 +980,16 @@
       ],
       "orig": "3 Name of disregarded entity (if applicable), see instructions",
       "text": "3 Name of disregarded entity (if applicable), see instructions",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/24",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1096,18 +1009,15 @@
       ],
       "orig": "4 Chapter 3 Status (entity type) (Must check one box only.):",
       "text": "4 Chapter 3 Status (entity type) (Must check one box only.):",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/25",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_selected",
       "prov": [
         {
@@ -1125,19 +1035,16 @@
           ]
         }
       ],
-      "orig": "• QI (including a QDD). Complete Part III.",
-      "text": "• QI (including a QDD). Complete Part III.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 QI (including a QDD). Complete Part III.",
+      "text": "\u2022 QI (including a QDD). Complete Part III."
     },
     {
       "self_ref": "#/texts/26",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1155,19 +1062,16 @@
           ]
         }
       ],
-      "orig": "• Nonqualified intermediary. Complete Part IV.",
-      "text": "• Nonqualified intermediary. Complete Part IV.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Nonqualified intermediary. Complete Part IV.",
+      "text": "\u2022 Nonqualified intermediary. Complete Part IV."
     },
     {
       "self_ref": "#/texts/27",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1185,19 +1089,16 @@
           ]
         }
       ],
-      "orig": "• Territory financial institution. Complete Part V.",
-      "text": "• Territory financial institution. Complete Part V.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Territory financial institution. Complete Part V.",
+      "text": "\u2022 Territory financial institution. Complete Part V."
     },
     {
       "self_ref": "#/texts/28",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1215,19 +1116,16 @@
           ]
         }
       ],
-      "orig": "• U.S. branch. Complete Part VI.",
-      "text": "• U.S. branch. Complete Part VI.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 U.S. branch. Complete Part VI.",
+      "text": "\u2022 U.S. branch. Complete Part VI."
     },
     {
       "self_ref": "#/texts/29",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1245,19 +1143,16 @@
           ]
         }
       ],
-      "orig": "• Withholding foreign partnership. Complete Part VII.",
-      "text": "• Withholding foreign partnership. Complete Part VII.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Withholding foreign partnership. Complete Part VII.",
+      "text": "\u2022 Withholding foreign partnership. Complete Part VII."
     },
     {
       "self_ref": "#/texts/30",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1275,19 +1170,16 @@
           ]
         }
       ],
-      "orig": "• Withholding foreign trust. Complete Part VII.",
-      "text": "• Withholding foreign trust. Complete Part VII.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Withholding foreign trust. Complete Part VII.",
+      "text": "\u2022 Withholding foreign trust. Complete Part VII."
     },
     {
       "self_ref": "#/texts/31",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1306,18 +1198,15 @@
         }
       ],
       "orig": "Nonwithholding foreign partnership. Complete Part VIII.",
-      "text": "Nonwithholding foreign partnership. Complete Part VIII.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Nonwithholding foreign partnership. Complete Part VIII."
     },
     {
       "self_ref": "#/texts/32",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1335,19 +1224,16 @@
           ]
         }
       ],
-      "orig": "• Nonwithholding foreign simple trust. Complete Part VIII.",
-      "text": "• Nonwithholding foreign simple trust. Complete Part VIII.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Nonwithholding foreign simple trust. Complete Part VIII.",
+      "text": "\u2022 Nonwithholding foreign simple trust. Complete Part VIII."
     },
     {
       "self_ref": "#/texts/33",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1366,18 +1252,15 @@
         }
       ],
       "orig": "_ Nonwithholding foreign grantor trust. Complete Part VIII.",
-      "text": "_ Nonwithholding foreign grantor trust. Complete Part VIII.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "_ Nonwithholding foreign grantor trust. Complete Part VIII."
     },
     {
       "self_ref": "#/texts/34",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1397,18 +1280,15 @@
       ],
       "orig": "5 Chapter 4 Status (FATCA status) (See instructions for details and complete the certification below for the entity's applicable status.) (Must check one box only.):",
       "text": "5 Chapter 4 Status (FATCA status) (See instructions for details and complete the certification below for the entity's applicable status.) (Must check one box only.):",
-      "formatting": null,
-      "hyperlink": null,
       "level": 3
     },
     {
       "self_ref": "#/texts/35",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1426,19 +1306,16 @@
           ]
         }
       ],
-      "orig": "• Nonparticipating foreign financial institution (FFI) (including an FFI related to a Reporting IGA FFI other than a deemed-compliant FFI, participating FFI, or exempt beneficial owner). Complete Part IX (if applicable).",
-      "text": "• Nonparticipating foreign financial institution (FFI) (including an FFI related to a Reporting IGA FFI other than a deemed-compliant FFI, participating FFI, or exempt beneficial owner). Complete Part IX (if applicable).",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Nonparticipating foreign financial institution (FFI) (including an FFI related to a Reporting IGA FFI other than a deemed-compliant FFI, participating FFI, or exempt beneficial owner). Complete Part IX (if applicable).",
+      "text": "\u2022 Nonparticipating foreign financial institution (FFI) (including an FFI related to a Reporting IGA FFI other than a deemed-compliant FFI, participating FFI, or exempt beneficial owner). Complete Part IX (if applicable)."
     },
     {
       "self_ref": "#/texts/36",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1456,19 +1333,16 @@
           ]
         }
       ],
-      "orig": "• Participating FFI.",
-      "text": "• Participating FFI.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Participating FFI.",
+      "text": "\u2022 Participating FFI."
     },
     {
       "self_ref": "#/texts/37",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1486,19 +1360,16 @@
           ]
         }
       ],
-      "orig": "• Reporting Model 1 FFI.",
-      "text": "• Reporting Model 1 FFI.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Reporting Model 1 FFI.",
+      "text": "\u2022 Reporting Model 1 FFI."
     },
     {
       "self_ref": "#/texts/38",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1516,19 +1387,16 @@
           ]
         }
       ],
-      "orig": "• Reporting Model 2 FFI.",
-      "text": "• Reporting Model 2 FFI.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Reporting Model 2 FFI.",
+      "text": "\u2022 Reporting Model 2 FFI."
     },
     {
       "self_ref": "#/texts/39",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1547,18 +1415,15 @@
         }
       ],
       "orig": "Registered deemed-compliant FFI (other than a reporting Model 1 FFI, sponsored FFI, or nonreporting IGA FFI covered in Part XIX).",
-      "text": "Registered deemed-compliant FFI (other than a reporting Model 1 FFI, sponsored FFI, or nonreporting IGA FFI covered in Part XIX).",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Registered deemed-compliant FFI (other than a reporting Model 1 FFI, sponsored FFI, or nonreporting IGA FFI covered in Part XIX)."
     },
     {
       "self_ref": "#/texts/40",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1577,18 +1442,15 @@
         }
       ],
       "orig": "Territory financial institution. Complete Part V.",
-      "text": "Territory financial institution. Complete Part V.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Territory financial institution. Complete Part V."
     },
     {
       "self_ref": "#/texts/41",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1607,18 +1469,15 @@
         }
       ],
       "orig": "Sponsored FFI (other than a certified deemed-compliant sponsored, closely held investment vehicle). Complete Part X.",
-      "text": "Sponsored FFI (other than a certified deemed-compliant sponsored, closely held investment vehicle). Complete Part X.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Sponsored FFI (other than a certified deemed-compliant sponsored, closely held investment vehicle). Complete Part X."
     },
     {
       "self_ref": "#/texts/42",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1636,19 +1495,16 @@
           ]
         }
       ],
-      "orig": "• Certified deemed-compliant nonregistering local bank. Complete Part XII.",
-      "text": "• Certified deemed-compliant nonregistering local bank. Complete Part XII.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Certified deemed-compliant nonregistering local bank. Complete Part XII.",
+      "text": "\u2022 Certified deemed-compliant nonregistering local bank. Complete Part XII."
     },
     {
       "self_ref": "#/texts/43",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1667,18 +1523,15 @@
         }
       ],
       "orig": "Certified deemed-compliant FI with only low-value accounts. Complete Part XII.",
-      "text": "Certified deemed-compliant FI with only low-value accounts. Complete Part XII.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Certified deemed-compliant FI with only low-value accounts. Complete Part XII."
     },
     {
       "self_ref": "#/texts/44",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1696,19 +1549,16 @@
           ]
         }
       ],
-      "orig": "• Certified deemed-compliant sponsored, closely held investment vehicle. Complete Part XIV.",
-      "text": "• Certified deemed-compliant sponsored, closely held investment vehicle. Complete Part XIV.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Certified deemed-compliant sponsored, closely held investment vehicle. Complete Part XIV.",
+      "text": "\u2022 Certified deemed-compliant sponsored, closely held investment vehicle. Complete Part XIV."
     },
     {
       "self_ref": "#/texts/45",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1726,19 +1576,16 @@
           ]
         }
       ],
-      "orig": "• Certified deemed-compliant limited life debt investment entity. Complete Part XV.",
-      "text": "• Certified deemed-compliant limited life debt investment entity. Complete Part XV.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Certified deemed-compliant limited life debt investment entity. Complete Part XV.",
+      "text": "\u2022 Certified deemed-compliant limited life debt investment entity. Complete Part XV."
     },
     {
       "self_ref": "#/texts/46",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1756,19 +1603,16 @@
           ]
         }
       ],
-      "orig": "• Certain investment entities that do not maintain financial accounts. Complete Part XVI.",
-      "text": "• Certain investment entities that do not maintain financial accounts. Complete Part XVI.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Certain investment entities that do not maintain financial accounts. Complete Part XVI.",
+      "text": "\u2022 Certain investment entities that do not maintain financial accounts. Complete Part XVI."
     },
     {
       "self_ref": "#/texts/47",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1787,18 +1631,15 @@
         }
       ],
       "orig": "Owner-documented FFI. Complete Part XI.",
-      "text": "Owner-documented FFI. Complete Part XI.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Owner-documented FFI. Complete Part XI."
     },
     {
       "self_ref": "#/texts/48",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1816,19 +1657,16 @@
           ]
         }
       ],
-      "orig": "• Restricted distributor. Complete Part XVII.",
-      "text": "• Restricted distributor. Complete Part XVII.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Restricted distributor. Complete Part XVII.",
+      "text": "\u2022 Restricted distributor. Complete Part XVII."
     },
     {
       "self_ref": "#/texts/49",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1847,18 +1685,15 @@
         }
       ],
       "orig": "Foreign central bank of issue. Complete Part XVIII.",
-      "text": "Foreign central bank of issue. Complete Part XVIII.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Foreign central bank of issue. Complete Part XVIII."
     },
     {
       "self_ref": "#/texts/50",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1877,18 +1712,15 @@
         }
       ],
       "orig": "Nonreporting IGA FFI. Complete Part XIX.",
-      "text": "Nonreporting IGA FFI. Complete Part XIX.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Nonreporting IGA FFI. Complete Part XIX."
     },
     {
       "self_ref": "#/texts/51",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1907,18 +1739,15 @@
         }
       ],
       "orig": "Exempt retirement plans. Complete Part XX.",
-      "text": "Exempt retirement plans. Complete Part XX.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Exempt retirement plans. Complete Part XX."
     },
     {
       "self_ref": "#/texts/52",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1937,18 +1766,15 @@
         }
       ],
       "orig": "Excepted nonfinancial group entity. Complete Part XXI.",
-      "text": "Excepted nonfinancial group entity. Complete Part XXI.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Excepted nonfinancial group entity. Complete Part XXI."
     },
     {
       "self_ref": "#/texts/53",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1967,18 +1793,15 @@
         }
       ],
       "orig": "Excepted nonfinancial start-up company. Complete Part XXII.",
-      "text": "Excepted nonfinancial start-up company. Complete Part XXII.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Excepted nonfinancial start-up company. Complete Part XXII."
     },
     {
       "self_ref": "#/texts/54",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1997,18 +1820,15 @@
         }
       ],
       "orig": "I Excepted nonfinancial entity in liquidation or bankruptcy. Complete Part XXIII.",
-      "text": "I Excepted nonfinancial entity in liquidation or bankruptcy. Complete Part XXIII.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "I Excepted nonfinancial entity in liquidation or bankruptcy. Complete Part XXIII."
     },
     {
       "self_ref": "#/texts/55",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_selected",
       "prov": [
         {
@@ -2026,19 +1846,16 @@
           ]
         }
       ],
-      "orig": "• Publicly traded NFFE or NFFE affiliate of a publicly traded corporation. Complete Part XXIV.",
-      "text": "• Publicly traded NFFE or NFFE affiliate of a publicly traded corporation. Complete Part XXIV.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Publicly traded NFFE or NFFE affiliate of a publicly traded corporation. Complete Part XXIV.",
+      "text": "\u2022 Publicly traded NFFE or NFFE affiliate of a publicly traded corporation. Complete Part XXIV."
     },
     {
       "self_ref": "#/texts/56",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -2057,18 +1874,15 @@
         }
       ],
       "orig": "Excepted territory NFE. Complete Part XXV.",
-      "text": "Excepted territory NFE. Complete Part XXV.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Excepted territory NFE. Complete Part XXV."
     },
     {
       "self_ref": "#/texts/57",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -2087,18 +1901,15 @@
         }
       ],
       "orig": "Active NFFE. Complete Part XXVI.",
-      "text": "Active NFFE. Complete Part XXVI.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Active NFFE. Complete Part XXVI."
     },
     {
       "self_ref": "#/texts/58",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -2116,19 +1927,16 @@
           ]
         }
       ],
-      "orig": "• Passive NFFE. Complete Part XXVII.",
-      "text": "• Passive NFFE. Complete Part XXVII.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Passive NFFE. Complete Part XXVII.",
+      "text": "\u2022 Passive NFFE. Complete Part XXVII."
     },
     {
       "self_ref": "#/texts/59",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -2146,19 +1954,16 @@
           ]
         }
       ],
-      "orig": "• Direct reporting NFFE.",
-      "text": "• Direct reporting NFFE.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Direct reporting NFFE.",
+      "text": "\u2022 Direct reporting NFFE."
     },
     {
       "self_ref": "#/texts/60",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -2176,19 +1981,16 @@
           ]
         }
       ],
-      "orig": "• Sponsored direct reporting NFFE. Complete Part XXVII.",
-      "text": "• Sponsored direct reporting NFFE. Complete Part XXVII.",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 Sponsored direct reporting NFFE. Complete Part XXVII.",
+      "text": "\u2022 Sponsored direct reporting NFFE. Complete Part XXVII."
     },
     {
       "self_ref": "#/texts/61",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -2208,18 +2010,15 @@
       ],
       "orig": "6 Permanent residence address (street, apt. or suite no., or rural route). Do not use a P.O. box or in-care-of address (other than a registered address).",
       "text": "6 Permanent residence address (street, apt. or suite no., or rural route). Do not use a P.O. box or in-care-of address (other than a registered address).",
-      "formatting": null,
-      "hyperlink": null,
       "level": 3
     },
     {
       "self_ref": "#/texts/62",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2238,18 +2037,15 @@
         }
       ],
       "orig": "Cassandre Boulevard 17, Apt. 304-434",
-      "text": "Cassandre Boulevard 17, Apt. 304-434",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Cassandre Boulevard 17, Apt. 304-434"
     },
     {
       "self_ref": "#/texts/63",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2268,18 +2064,15 @@
         }
       ],
       "orig": "City or town, state or province. Include postal code where appropriate.",
-      "text": "City or town, state or province. Include postal code where appropriate.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "City or town, state or province. Include postal code where appropriate."
     },
     {
       "self_ref": "#/texts/64",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2298,18 +2091,15 @@
         }
       ],
       "orig": "New Durwardview, ACT 9579",
-      "text": "New Durwardview, ACT 9579",
-      "formatting": null,
-      "hyperlink": null
+      "text": "New Durwardview, ACT 9579"
     },
     {
       "self_ref": "#/texts/65",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2328,18 +2118,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/66",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2358,18 +2145,15 @@
         }
       ],
       "orig": "Australia",
-      "text": "Australia",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Australia"
     },
     {
       "self_ref": "#/texts/67",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -2389,18 +2173,15 @@
       ],
       "orig": "7 Mailing address (if different from above)",
       "text": "7 Mailing address (if different from above)",
-      "formatting": null,
-      "hyperlink": null,
       "level": 3
     },
     {
       "self_ref": "#/texts/68",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2419,18 +2200,15 @@
         }
       ],
       "orig": "Edwin Gates 12, Apt. 143",
-      "text": "Edwin Gates 12, Apt. 143",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Edwin Gates 12, Apt. 143"
     },
     {
       "self_ref": "#/texts/69",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2449,18 +2227,15 @@
         }
       ],
       "orig": "City or town, state or province. Include postal code where appropriate.",
-      "text": "City or town, state or province. Include postal code where appropriate.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "City or town, state or province. Include postal code where appropriate."
     },
     {
       "self_ref": "#/texts/70",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2479,18 +2254,15 @@
         }
       ],
       "orig": "Kautzermouth, WA 2291",
-      "text": "Kautzermouth, WA 2291",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Kautzermouth, WA 2291"
     },
     {
       "self_ref": "#/texts/71",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2509,18 +2281,15 @@
         }
       ],
       "orig": "Country",
-      "text": "Country",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Country"
     },
     {
       "self_ref": "#/texts/72",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2539,18 +2308,15 @@
         }
       ],
       "orig": "Australia",
-      "text": "Australia",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Australia"
     },
     {
       "self_ref": "#/texts/73",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -2570,18 +2336,15 @@
       ],
       "orig": "8 U.S. taxpayer identification number, if required",
       "text": "8 U.S. taxpayer identification number, if required",
-      "formatting": null,
-      "hyperlink": null,
       "level": 3
     },
     {
       "self_ref": "#/texts/74",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2600,18 +2363,15 @@
         }
       ],
       "orig": "926-60-5327",
-      "text": "926-60-5327",
-      "formatting": null,
-      "hyperlink": null
+      "text": "926-60-5327"
     },
     {
       "self_ref": "#/texts/75",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_selected",
       "prov": [
         {
@@ -2629,19 +2389,16 @@
           ]
         }
       ],
-      "orig": "• QI-EIN",
-      "text": "• QI-EIN",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 QI-EIN",
+      "text": "\u2022 QI-EIN"
     },
     {
       "self_ref": "#/texts/76",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -2659,19 +2416,16 @@
           ]
         }
       ],
-      "orig": "• WP-EIN",
-      "text": "• WP-EIN",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 WP-EIN",
+      "text": "\u2022 WP-EIN"
     },
     {
       "self_ref": "#/texts/77",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -2689,19 +2443,16 @@
           ]
         }
       ],
-      "orig": "• WT-EIN",
-      "text": "• WT-EIN",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 WT-EIN",
+      "text": "\u2022 WT-EIN"
     },
     {
       "self_ref": "#/texts/78",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -2719,19 +2470,16 @@
           ]
         }
       ],
-      "orig": "• EN",
-      "text": "• EN",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 EN",
+      "text": "\u2022 EN"
     },
     {
       "self_ref": "#/texts/79",
       "parent": {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2751,19 +2499,16 @@
       ],
       "orig": "9a GIIN (if applicable)",
       "text": "9a GIIN (if applicable)",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/80",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2782,18 +2527,15 @@
         }
       ],
       "orig": "G51Q21.00000.LE.276",
-      "text": "G51Q21.00000.LE.276",
-      "formatting": null,
-      "hyperlink": null
+      "text": "G51Q21.00000.LE.276"
     },
     {
       "self_ref": "#/texts/81",
       "parent": {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2813,19 +2555,16 @@
       ],
       "orig": "b Foreign taxpayer identification number, if required",
       "text": "b Foreign taxpayer identification number, if required",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/82",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2844,22 +2583,19 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/83",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/groups/8"
+          "$ref": "#/groups/8"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2878,18 +2614,15 @@
         }
       ],
       "orig": "10 Reference number(s) (see instructions)",
-      "text": "10 Reference number(s) (see instructions)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "10 Reference number(s) (see instructions)"
     },
     {
       "self_ref": "#/texts/84",
       "parent": {
-        "cref": "#/groups/8"
+        "$ref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2909,19 +2642,16 @@
       ],
       "orig": "10 Reference number(s) (see instructions)",
       "text": "10 Reference number(s) (see instructions)",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/85",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2940,18 +2670,15 @@
         }
       ],
       "orig": "For Paperwork Reduction Act Notice, see separate instructions.",
-      "text": "For Paperwork Reduction Act Notice, see separate instructions.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "For Paperwork Reduction Act Notice, see separate instructions."
     },
     {
       "self_ref": "#/texts/86",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2970,18 +2697,15 @@
         }
       ],
       "orig": "Cat. No. 25402Q",
-      "text": "Cat. No. 25402Q",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Cat. No. 25402Q"
     },
     {
       "self_ref": "#/texts/87",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -3000,22 +2724,18 @@
         }
       ],
       "orig": "Form W-8IMY (Rev. 10-2021)",
-      "text": "Form W-8IMY (Rev. 10-2021)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Form W-8IMY (Rev. 10-2021)"
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -3024,9 +2744,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -3048,7 +2766,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -3065,13 +2782,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -3080,9 +2795,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -3104,7 +2817,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -3121,13 +2833,11 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -3136,9 +2846,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -3160,7 +2868,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -3177,13 +2884,11 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -3192,9 +2897,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -3216,7 +2919,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -3233,13 +2935,11 @@
     {
       "self_ref": "#/pictures/4",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -3248,9 +2948,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -3272,7 +2970,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -3289,13 +2986,11 @@
     {
       "self_ref": "#/pictures/5",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -3304,9 +2999,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -3328,7 +3021,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -3348,17 +3040,15 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [
           {
@@ -3379,8 +3069,7 @@
                 0,
                 7
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -3400,8 +3089,7 @@
                 0,
                 9
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -3423,7 +3111,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/18"
+              "$ref": "#/texts/18"
             }
           },
           {
@@ -3446,7 +3134,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/19"
+              "$ref": "#/texts/19"
             }
           },
           {
@@ -3469,7 +3157,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/20"
+              "$ref": "#/texts/20"
             }
           },
           {
@@ -3492,7 +3180,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/21"
+              "$ref": "#/texts/21"
             }
           },
           {
@@ -3515,7 +3203,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/23"
+              "$ref": "#/texts/23"
             }
           },
           {
@@ -3538,7 +3226,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/22"
+              "$ref": "#/texts/22"
             }
           },
           {
@@ -3561,7 +3249,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/61"
+              "$ref": "#/texts/61"
             }
           },
           {
@@ -3584,7 +3272,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/62"
+              "$ref": "#/texts/62"
             }
           },
           {
@@ -3607,7 +3295,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/63"
+              "$ref": "#/texts/63"
             }
           },
           {
@@ -3630,7 +3318,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/64"
+              "$ref": "#/texts/64"
             }
           },
           {
@@ -3653,7 +3341,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/67"
+              "$ref": "#/texts/67"
             }
           },
           {
@@ -3676,7 +3364,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/68"
+              "$ref": "#/texts/68"
             }
           },
           {
@@ -3699,7 +3387,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/69"
+              "$ref": "#/texts/69"
             }
           },
           {
@@ -3722,7 +3410,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/70"
+              "$ref": "#/texts/70"
             }
           },
           {
@@ -3745,7 +3433,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/73"
+              "$ref": "#/texts/73"
             }
           },
           {
@@ -3768,7 +3456,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/74"
+              "$ref": "#/texts/74"
             }
           },
           {
@@ -3791,7 +3479,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/65"
+              "$ref": "#/texts/65"
             }
           },
           {
@@ -3814,7 +3502,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/66"
+              "$ref": "#/texts/66"
             }
           },
           {
@@ -3837,7 +3525,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/71"
+              "$ref": "#/texts/71"
             }
           },
           {
@@ -3860,7 +3548,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/72"
+              "$ref": "#/texts/72"
             }
           },
           {
@@ -3883,7 +3571,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/79"
+              "$ref": "#/texts/79"
             }
           },
           {
@@ -3906,7 +3594,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/80"
+              "$ref": "#/texts/80"
             }
           },
           {
@@ -3929,7 +3617,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/81"
+              "$ref": "#/texts/81"
             }
           },
           {
@@ -3952,7 +3640,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/82"
+              "$ref": "#/texts/82"
             }
           },
           {
@@ -3975,7 +3663,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/84"
+              "$ref": "#/texts/84"
             }
           },
           {
@@ -3998,7 +3686,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/83"
+              "$ref": "#/texts/83"
             }
           },
           {
@@ -4019,8 +3707,7 @@
                 0,
                 3
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4040,14 +3727,13 @@
                 0,
                 6
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
             "cell_id": 30,
-            "text": "• QI-EIN",
-            "orig": "• QI-EIN",
+            "text": "\u2022 QI-EIN",
+            "orig": "\u2022 QI-EIN",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4063,14 +3749,14 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/75"
+              "$ref": "#/texts/75"
             }
           },
           {
             "label": "value",
             "cell_id": 31,
-            "text": "• WP-EIN",
-            "orig": "• WP-EIN",
+            "text": "\u2022 WP-EIN",
+            "orig": "\u2022 WP-EIN",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4086,14 +3772,14 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/76"
+              "$ref": "#/texts/76"
             }
           },
           {
             "label": "value",
             "cell_id": 32,
-            "text": "• WT-EIN",
-            "orig": "• WT-EIN",
+            "text": "\u2022 WT-EIN",
+            "orig": "\u2022 WT-EIN",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4109,14 +3795,14 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/77"
+              "$ref": "#/texts/77"
             }
           },
           {
             "label": "value",
             "cell_id": 33,
-            "text": "• EN",
-            "orig": "• EN",
+            "text": "\u2022 EN",
+            "orig": "\u2022 EN",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4132,7 +3818,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/78"
+              "$ref": "#/texts/78"
             }
           },
           {
@@ -4153,8 +3839,7 @@
                 0,
                 170
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4174,8 +3859,7 @@
                 0,
                 18
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -4195,8 +3879,7 @@
                 0,
                 92
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4216,8 +3899,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -4237,8 +3919,7 @@
                 0,
                 123
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4258,8 +3939,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -4279,8 +3959,7 @@
                 0,
                 217
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4300,14 +3979,13 @@
                 0,
                 27
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
             "cell_id": 42,
-            "text": "A foreign government, international organization, foreign central bank of issue, foreign tax-exempt organization, foreign private foundation, or •",
-            "orig": "A foreign government, international organization, foreign central bank of issue, foreign tax-exempt organization, foreign private foundation, or •",
+            "text": "A foreign government, international organization, foreign central bank of issue, foreign tax-exempt organization, foreign private foundation, or \u2022",
+            "orig": "A foreign government, international organization, foreign central bank of issue, foreign tax-exempt organization, foreign private foundation, or \u2022",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4321,8 +3999,7 @@
                 0,
                 146
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4342,8 +4019,7 @@
                 0,
                 6
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -4363,8 +4039,7 @@
                 0,
                 39
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4384,8 +4059,7 @@
                 0,
                 3
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -4405,8 +4079,7 @@
                 0,
                 65
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4426,8 +4099,7 @@
                 0,
                 27
               ]
-            },
-            "item_ref": null
+            }
           }
         ],
         "links": [
@@ -4569,147 +4241,146 @@
     {
       "self_ref": "#/form_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/0"
+          "$ref": "#/texts/0"
         },
         {
-          "cref": "#/texts/1"
+          "$ref": "#/texts/1"
         },
         {
-          "cref": "#/texts/2"
+          "$ref": "#/texts/2"
         },
         {
-          "cref": "#/texts/3"
+          "$ref": "#/texts/3"
         },
         {
-          "cref": "#/pictures/0"
+          "$ref": "#/pictures/0"
         },
         {
-          "cref": "#/texts/4"
+          "$ref": "#/texts/4"
         },
         {
-          "cref": "#/pictures/1"
+          "$ref": "#/pictures/1"
         },
         {
-          "cref": "#/texts/5"
+          "$ref": "#/texts/5"
         },
         {
-          "cref": "#/pictures/2"
+          "$ref": "#/pictures/2"
         },
         {
-          "cref": "#/texts/6"
+          "$ref": "#/texts/6"
         },
         {
-          "cref": "#/texts/7"
+          "$ref": "#/texts/7"
         },
         {
-          "cref": "#/texts/8"
+          "$ref": "#/texts/8"
         },
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         },
         {
-          "cref": "#/groups/0"
+          "$ref": "#/groups/0"
         },
         {
-          "cref": "#/texts/17"
+          "$ref": "#/texts/17"
         },
         {
-          "cref": "#/groups/1"
+          "$ref": "#/groups/1"
         },
         {
-          "cref": "#/texts/19"
+          "$ref": "#/texts/19"
         },
         {
-          "cref": "#/groups/2"
+          "$ref": "#/groups/2"
         },
         {
-          "cref": "#/texts/21"
+          "$ref": "#/texts/21"
         },
         {
-          "cref": "#/texts/22"
+          "$ref": "#/texts/22"
         },
         {
-          "cref": "#/texts/24"
+          "$ref": "#/texts/24"
         },
         {
-          "cref": "#/groups/4"
+          "$ref": "#/groups/4"
         },
         {
-          "cref": "#/texts/34"
+          "$ref": "#/texts/34"
         },
         {
-          "cref": "#/groups/5"
+          "$ref": "#/groups/5"
         },
         {
-          "cref": "#/texts/61"
+          "$ref": "#/texts/61"
         },
         {
-          "cref": "#/texts/62"
+          "$ref": "#/texts/62"
         },
         {
-          "cref": "#/texts/63"
+          "$ref": "#/texts/63"
         },
         {
-          "cref": "#/texts/64"
+          "$ref": "#/texts/64"
         },
         {
-          "cref": "#/texts/65"
+          "$ref": "#/texts/65"
         },
         {
-          "cref": "#/texts/66"
+          "$ref": "#/texts/66"
         },
         {
-          "cref": "#/texts/67"
+          "$ref": "#/texts/67"
         },
         {
-          "cref": "#/texts/68"
+          "$ref": "#/texts/68"
         },
         {
-          "cref": "#/texts/69"
+          "$ref": "#/texts/69"
         },
         {
-          "cref": "#/texts/70"
+          "$ref": "#/texts/70"
         },
         {
-          "cref": "#/texts/71"
+          "$ref": "#/texts/71"
         },
         {
-          "cref": "#/texts/72"
+          "$ref": "#/texts/72"
         },
         {
-          "cref": "#/texts/73"
+          "$ref": "#/texts/73"
         },
         {
-          "cref": "#/pictures/3"
+          "$ref": "#/pictures/3"
         },
         {
-          "cref": "#/texts/74"
+          "$ref": "#/texts/74"
         },
         {
-          "cref": "#/groups/6"
+          "$ref": "#/groups/6"
         },
         {
-          "cref": "#/pictures/4"
+          "$ref": "#/pictures/4"
         },
         {
-          "cref": "#/texts/80"
+          "$ref": "#/texts/80"
         },
         {
-          "cref": "#/pictures/5"
+          "$ref": "#/pictures/5"
         },
         {
-          "cref": "#/texts/82"
+          "$ref": "#/texts/82"
         },
         {
-          "cref": "#/texts/83"
+          "$ref": "#/texts/83"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "form",
       "prov": [
         {
@@ -4730,7 +4401,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [],
         "links": []
