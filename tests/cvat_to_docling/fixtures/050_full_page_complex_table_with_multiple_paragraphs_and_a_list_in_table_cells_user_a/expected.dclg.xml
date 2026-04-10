@@ -18,6 +18,7 @@
     <location value="31"/>
     <location value="452"/>
     <location value="36"/>
+    <layer class="furniture"/>
     5 of 18
   </text>
   <floating_group class="table">
@@ -27,7 +28,27 @@
       <location value="463"/>
       <location value="478"/>
       <ecel/>
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="116"/>
+        <location value="40"/>
+        <location value="335"/>
+        <location value="47"/>
+        agreement with the Employer to amend the Contract.
+      </text>
+      <text>
+        <location value="116"/>
+        <location value="48"/>
+        <location value="458"/>
+        <location value="97"/>
+<![CDATA[If the Contractor takes any action pursuant to an End Recipient's communication  without  first  obtaining  confirmation  of  the  communication  from  the  Employer  and/or Engineer, the Contractor shall not be entitled to additional payment, or an  extension of the Time for Completion, and the Employer shall be discharged from  all  liability  in  connection  with  any  claim  in  respect  of  the  End  Recipient's  communication.]]>      </text>
+      <text>
+        <location value="116"/>
+        <location value="99"/>
+        <location value="458"/>
+        <location value="123"/>
+        This  Particular  Condition  2.6  will  remain  in  effect  throughout  the  life  of  the  Contact, including after taking-over of the Works, and the possible transfer of title  and ownership of the Works to the End Recipient has occurred.
+      </text>
       <nl/>
       <srow/>
       Clause 3 - The Engineer
@@ -37,7 +58,28 @@
 <![CDATA[3.1 - Engineer's Duties and Authority]]>      <lcel/>
       <nl/>
       <ecel/>
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="113"/>
+        <location value="162"/>
+        <location value="257"/>
+        <location value="169"/>
+        At the end of Sub-Clause 3.1,  add :
+      </text>
+      <text>
+        <location value="112"/>
+        <location value="174"/>
+        <location value="458"/>
+        <location value="240"/>
+        The Engineer shall obtain the specific comment of the Employer in writing before  taking any of the following actions specified hereafter: (a) As per Sub-Clause 20.1,  agreeing or determining for any matter, which will prolong the Extension of Time  for  Completion  and/or  change  the  Accepted  Contract  Amount  (b)  As  per  Sub- Clause 4.4, approval of a subcontract for which a different subcontractor is named  in  the  Contract  (c)  As  per  Clause  13:  Instructing  Variations  affecting  Accepted  Contract Amount, Time for Completion or substantial changes to the scope of this  contract.
+      </text>
+      <text>
+        <location value="114"/>
+        <location value="245"/>
+        <location value="459"/>
+        <location value="277"/>
+        The specific comment of the Employer shall be provided within 28 days and shall  not be unreasonably withheld or delayed. The specific comment of the Employer  will  not  have  any  impact  on  the  fair  determination  of  the  Engineer,  or  will  not  relieve him/her of his/her duties regarding making a fair determination.
+      </text>
       <nl/>
       <srow/>
       Clause 4 - The Contractor
@@ -48,114 +90,74 @@
       <lcel/>
       <nl/>
       <ecel/>
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="112"/>
+        <location value="318"/>
+        <location value="441"/>
+        <location value="326"/>
+        Delete  the first sentence of the second paragraph of Sub - Clause and  substitute :
+      </text>
+      <text>
+        <location value="112"/>
+        <location value="330"/>
+        <location value="458"/>
+        <location value="355"/>
+        The  Contractor  shall,  together  with  the  return  of  the  countersigned  Contract,  furnish  the  Contracting  Authority  with  a  Performance  Security  for  the  full  and  proper performance of the contract.
+      </text>
+      <text>
+        <location value="112"/>
+        <location value="360"/>
+        <location value="343"/>
+        <location value="367"/>
+        Delete  the last paragraph of Sub-Clause and  substitute :
+      </text>
+      <text>
+        <location value="112"/>
+        <location value="371"/>
+        <location value="458"/>
+        <location value="387"/>
+        The Performance Security shall be released within 60 days after completion of the  following events whichever occurs last:
+      </text>
+      <list ordered="false">
+        <list_text>
+          <location value="112"/>
+          <location value="392"/>
+          <location value="458"/>
+          <location value="407"/>
+          a)  the  issuance  of  Performance  Certificate  under  Sub-Clause  11.9  [ Performance  Certificate ],
+        </list_text>
+        <list_text>
+          <location value="112"/>
+          <location value="412"/>
+          <location value="459"/>
+          <location value="454"/>
+          b) the receipt from the Contractor of a written discharge together with a letter of  release issued by Ministry of Labour and Social Security confirming the Contractor  has  fulfilled  all  his  statutory  Social  Security  obligations  arising  out  of  or  in  connection with the performance of the Contract to the Employer provided that the  laws and regulations require so.
+        </list_text>
+      </list>
+      <text>
+        <location value="112"/>
+        <location value="458"/>
+        <location value="253"/>
+        <location value="464"/>
+        Add  at the end of the Sub-Clause:
+      </text>
+      <text>
+        <location value="112"/>
+        <location value="470"/>
+        <location value="458"/>
+        <location value="477"/>
+        Whenever the Engineer determines an addition or a reduction to the Contract Price
+      </text>
       <nl/>
     </otsl>
   </floating_group>
-  <text>
-    <location value="116"/>
-    <location value="40"/>
-    <location value="335"/>
-    <location value="47"/>
-    agreement with the Employer to amend the Contract.
-  </text>
-  <text>
-    <location value="116"/>
-    <location value="48"/>
-    <location value="458"/>
-    <location value="97"/>
-<![CDATA[If the Contractor takes any action pursuant to an End Recipient's communication  without  first  obtaining  confirmation  of  the  communication  from  the  Employer  and/or Engineer, the Contractor shall not be entitled to additional payment, or an  extension of the Time for Completion, and the Employer shall be discharged from  all  liability  in  connection  with  any  claim  in  respect  of  the  End  Recipient's  communication.]]>  </text>
-  <text>
-    <location value="116"/>
-    <location value="99"/>
-    <location value="458"/>
-    <location value="123"/>
-    This  Particular  Condition  2.6  will  remain  in  effect  throughout  the  life  of  the  Contact, including after taking-over of the Works, and the possible transfer of title  and ownership of the Works to the End Recipient has occurred.
-  </text>
-  <text>
-    <location value="113"/>
-    <location value="162"/>
-    <location value="257"/>
-    <location value="169"/>
-    At the end of Sub-Clause 3.1,  add :
-  </text>
-  <text>
-    <location value="112"/>
-    <location value="174"/>
-    <location value="458"/>
-    <location value="240"/>
-    The Engineer shall obtain the specific comment of the Employer in writing before  taking any of the following actions specified hereafter: (a) As per Sub-Clause 20.1,  agreeing or determining for any matter, which will prolong the Extension of Time  for  Completion  and/or  change  the  Accepted  Contract  Amount  (b)  As  per  Sub- Clause 4.4, approval of a subcontract for which a different subcontractor is named  in  the  Contract  (c)  As  per  Clause  13:  Instructing  Variations  affecting  Accepted  Contract Amount, Time for Completion or substantial changes to the scope of this  contract.
-  </text>
-  <text>
-    <location value="114"/>
-    <location value="245"/>
-    <location value="459"/>
-    <location value="277"/>
-    The specific comment of the Employer shall be provided within 28 days and shall  not be unreasonably withheld or delayed. The specific comment of the Employer  will  not  have  any  impact  on  the  fair  determination  of  the  Engineer,  or  will  not  relieve him/her of his/her duties regarding making a fair determination.
-  </text>
-  <text>
-    <location value="112"/>
-    <location value="318"/>
-    <location value="441"/>
-    <location value="326"/>
-    Delete  the first sentence of the second paragraph of Sub - Clause and  substitute :
-  </text>
-  <text>
-    <location value="112"/>
-    <location value="330"/>
-    <location value="458"/>
-    <location value="355"/>
-    The  Contractor  shall,  together  with  the  return  of  the  countersigned  Contract,  furnish  the  Contracting  Authority  with  a  Performance  Security  for  the  full  and  proper performance of the contract.
-  </text>
-  <text>
-    <location value="112"/>
-    <location value="360"/>
-    <location value="343"/>
-    <location value="367"/>
-    Delete  the last paragraph of Sub-Clause and  substitute :
-  </text>
-  <text>
-    <location value="112"/>
-    <location value="371"/>
-    <location value="458"/>
-    <location value="387"/>
-    The Performance Security shall be released within 60 days after completion of the  following events whichever occurs last:
-  </text>
-  <list ordered="false">
-    <list_text>
-      <location value="112"/>
-      <location value="392"/>
-      <location value="458"/>
-      <location value="407"/>
-      a)  the  issuance  of  Performance  Certificate  under  Sub-Clause  11.9  [ Performance  Certificate ],
-    </list_text>
-    <list_text>
-      <location value="112"/>
-      <location value="412"/>
-      <location value="459"/>
-      <location value="454"/>
-      b) the receipt from the Contractor of a written discharge together with a letter of  release issued by Ministry of Labour and Social Security confirming the Contractor  has  fulfilled  all  his  statutory  Social  Security  obligations  arising  out  of  or  in  connection with the performance of the Contract to the Employer provided that the  laws and regulations require so.
-    </list_text>
-  </list>
-  <text>
-    <location value="112"/>
-    <location value="458"/>
-    <location value="253"/>
-    <location value="464"/>
-    Add  at the end of the Sub-Clause:
-  </text>
-  <text>
-    <location value="112"/>
-    <location value="470"/>
-    <location value="458"/>
-    <location value="477"/>
-    Whenever the Engineer determines an addition or a reduction to the Contract Price
-  </text>
   <text>
     <location value="61"/>
     <location value="485"/>
     <location value="194"/>
     <location value="491"/>
+    <layer class="furniture"/>
     3_Vol2_d4_particularconditions_en_.docx
   </text>
 </doclang>

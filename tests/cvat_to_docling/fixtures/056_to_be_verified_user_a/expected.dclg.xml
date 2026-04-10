@@ -125,11 +125,13 @@
 <![CDATA[4b Spouse's social security number]]>      </list_text>
     </list>
   </list>
-  <location value="473"/>
-  <location value="103"/>
-  <location value="480"/>
-  <location value="109"/>
-  <checkbox class="unselected"/>
+  <text>
+    <location value="473"/>
+    <location value="103"/>
+    <location value="480"/>
+    <location value="109"/>
+    <checkbox class="unselected"/>
+  </text>
   <text>
     <location value="420"/>
     <location value="43"/>
@@ -158,18 +160,22 @@
     <location value="82"/>
     Check all boxes this change affects:
   </text>
-  <location value="48"/>
-  <location value="84"/>
-  <location value="293"/>
-  <location value="96"/>
-  <checkbox class="selected"/>
-  1 * Individual income tax returns (Forms 1040, 1040-SR, 1040-NR, etc.)
-  <location value="48"/>
-  <location value="117"/>
-  <location value="323"/>
-  <location value="125"/>
-  <checkbox class="unselected"/>
-  2 [ Gift, estate, or generation-skipping transfer tax returns (Forms 706, 709, etc.)
+  <text>
+    <location value="48"/>
+    <location value="84"/>
+    <location value="293"/>
+    <location value="96"/>
+    <checkbox class="selected"/>
+    1 * Individual income tax returns (Forms 1040, 1040-SR, 1040-NR, etc.)
+  </text>
+  <text>
+    <location value="48"/>
+    <location value="117"/>
+    <location value="323"/>
+    <location value="125"/>
+    <checkbox class="unselected"/>
+    2 [ Gift, estate, or generation-skipping transfer tax returns (Forms 706, 709, etc.)
+  </text>
   <floating_group class="picture">
     <picture>
       <location value="62"/>
@@ -587,6 +593,7 @@
     <location value="417"/>
     <location value="262"/>
     <location value="422"/>
+    <layer class="furniture"/>
     For Privacy Act and Paperwork Reduction Act Notice, see back of form.
   </text>
   <text>
@@ -594,6 +601,7 @@
     <location value="418"/>
     <location value="352"/>
     <location value="423"/>
+    <layer class="furniture"/>
     Cat. No. 12081V
   </text>
   <text>
@@ -601,6 +609,7 @@
     <location value="418"/>
     <location value="421"/>
     <location value="422"/>
+    <layer class="furniture"/>
     Form
   </text>
   <text>
@@ -608,6 +617,7 @@
     <location value="417"/>
     <location value="443"/>
     <location value="422"/>
+    <layer class="furniture"/>
     8822
   </text>
   <text>
@@ -615,6 +625,7 @@
     <location value="418"/>
     <location value="480"/>
     <location value="423"/>
+    <layer class="furniture"/>
     (Rev. 2-2021)
   </text>
 </doclang>

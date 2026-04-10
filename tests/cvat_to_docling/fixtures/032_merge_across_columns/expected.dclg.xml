@@ -59,6 +59,7 @@
     <location value="491"/>
     <location value="481"/>
     <location value="495"/>
+    <layer class="furniture"/>
     19
   </text>
 </doclang>

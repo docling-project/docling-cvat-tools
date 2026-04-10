@@ -1,129 +1,124 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/0"
+        "$ref": "#/texts/0"
       },
       {
-        "cref": "#/texts/1"
+        "$ref": "#/texts/1"
       },
       {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       {
-        "cref": "#/texts/2"
+        "$ref": "#/texts/2"
       },
       {
-        "cref": "#/pictures/2"
+        "$ref": "#/pictures/2"
       },
       {
-        "cref": "#/texts/3"
+        "$ref": "#/texts/3"
       },
       {
-        "cref": "#/texts/4"
+        "$ref": "#/texts/4"
       },
       {
-        "cref": "#/texts/5"
+        "$ref": "#/texts/5"
       },
       {
-        "cref": "#/texts/6"
+        "$ref": "#/texts/6"
       },
       {
-        "cref": "#/texts/7"
+        "$ref": "#/texts/7"
       },
       {
-        "cref": "#/texts/8"
+        "$ref": "#/texts/8"
       },
       {
-        "cref": "#/texts/9"
+        "$ref": "#/texts/9"
       },
       {
-        "cref": "#/texts/10"
+        "$ref": "#/texts/10"
       },
       {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       {
-        "cref": "#/texts/15"
+        "$ref": "#/texts/15"
       },
       {
-        "cref": "#/texts/16"
+        "$ref": "#/texts/16"
       },
       {
-        "cref": "#/texts/17"
+        "$ref": "#/texts/17"
       },
       {
-        "cref": "#/texts/18"
+        "$ref": "#/texts/18"
       },
       {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       {
-        "cref": "#/texts/22"
+        "$ref": "#/texts/22"
       },
       {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       {
-        "cref": "#/texts/28"
+        "$ref": "#/texts/28"
       },
       {
-        "cref": "#/texts/29"
+        "$ref": "#/texts/29"
       },
       {
-        "cref": "#/texts/30"
+        "$ref": "#/texts/30"
       },
       {
-        "cref": "#/texts/31"
+        "$ref": "#/texts/31"
       },
       {
-        "cref": "#/texts/32"
+        "$ref": "#/texts/32"
       },
       {
-        "cref": "#/texts/33"
+        "$ref": "#/texts/33"
       },
       {
-        "cref": "#/texts/34"
+        "$ref": "#/texts/34"
       },
       {
-        "cref": "#/texts/35"
+        "$ref": "#/texts/35"
       },
       {
-        "cref": "#/texts/36"
+        "$ref": "#/texts/36"
       },
       {
-        "cref": "#/texts/37"
+        "$ref": "#/texts/37"
       },
       {
-        "cref": "#/texts/38"
+        "$ref": "#/texts/38"
       },
       {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       {
-        "cref": "#/key_value_items/0"
+        "$ref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -131,96 +126,92 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/11"
+          "$ref": "#/texts/11"
         },
         {
-          "cref": "#/texts/12"
+          "$ref": "#/texts/12"
         },
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         },
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_3",
       "label": "list"
     },
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/19"
+          "$ref": "#/texts/19"
         },
         {
-          "cref": "#/texts/20"
+          "$ref": "#/texts/20"
         },
         {
-          "cref": "#/texts/21"
+          "$ref": "#/texts/21"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_5",
       "label": "list"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/23"
+          "$ref": "#/texts/23"
         },
         {
-          "cref": "#/texts/24"
+          "$ref": "#/texts/24"
         },
         {
-          "cref": "#/texts/25"
+          "$ref": "#/texts/25"
         },
         {
-          "cref": "#/texts/26"
+          "$ref": "#/texts/26"
         },
         {
-          "cref": "#/texts/27"
+          "$ref": "#/texts/27"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_2",
       "label": "list"
     },
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/39"
+          "$ref": "#/texts/39"
         },
         {
-          "cref": "#/texts/40"
+          "$ref": "#/texts/40"
         },
         {
-          "cref": "#/texts/41"
+          "$ref": "#/texts/41"
         },
         {
-          "cref": "#/texts/42"
+          "$ref": "#/texts/42"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_4",
       "label": "list"
     }
@@ -229,11 +220,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -253,18 +243,15 @@
       ],
       "orig": "HOWARD ONG",
       "text": "HOWARD ONG",
-      "formatting": null,
-      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -283,18 +270,15 @@
         }
       ],
       "orig": "PRODUCT MANAGER",
-      "text": "PRODUCT MANAGER",
-      "formatting": null,
-      "hyperlink": null
+      "text": "PRODUCT MANAGER"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -313,18 +297,15 @@
         }
       ],
       "orig": "+123-456-7890",
-      "text": "+123-456-7890",
-      "formatting": null,
-      "hyperlink": null
+      "text": "+123-456-7890"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -343,18 +324,15 @@
         }
       ],
       "orig": "hello@reallygreatsite.com",
-      "text": "hello@reallygreatsite.com",
-      "formatting": null,
-      "hyperlink": null
+      "text": "hello@reallygreatsite.com"
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -374,18 +352,15 @@
       ],
       "orig": "PROFILE",
       "text": "PROFILE",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -404,18 +379,15 @@
         }
       ],
       "orig": "Introduce my name is Howard Ong, I am a Product Manager with 7 years of experience in the field, I have handled many products and projects.",
-      "text": "Introduce my name is Howard Ong, I am a Product Manager with 7 years of experience in the field, I have handled many products and projects.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Introduce my name is Howard Ong, I am a Product Manager with 7 years of experience in the field, I have handled many products and projects."
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -435,18 +407,15 @@
       ],
       "orig": "WORK EXPERIENCE",
       "text": "WORK EXPERIENCE",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -466,18 +435,15 @@
       ],
       "orig": "Product Manager",
       "text": "Product Manager",
-      "formatting": null,
-      "hyperlink": null,
       "level": 3
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -496,18 +462,15 @@
         }
       ],
       "orig": "Borcelle Startup/ 2021 - 2022",
-      "text": "Borcelle Startup/ 2021 - 2022",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Borcelle Startup/ 2021 - 2022"
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -526,18 +489,15 @@
         }
       ],
       "orig": "Become a product manager at a unicorn",
-      "text": "Become a product manager at a unicorn",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Become a product manager at a unicorn"
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -556,18 +516,15 @@
         }
       ],
       "orig": "startup with a product marketplace.",
-      "text": "startup with a product marketplace.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "startup with a product marketplace."
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -585,21 +542,18 @@
           ]
         }
       ],
-      "orig": "• Manage Product",
-      "text": "• Manage Product",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Manage Product",
+      "text": "\u2022 Manage Product",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -617,21 +571,18 @@
           ]
         }
       ],
-      "orig": "• Manage Development Team",
-      "text": "• Manage Development Team",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Manage Development Team",
+      "text": "\u2022 Manage Development Team",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -649,21 +600,18 @@
           ]
         }
       ],
-      "orig": "• Track Development Progress",
-      "text": "• Track Development Progress",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Track Development Progress",
+      "text": "\u2022 Track Development Progress",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -681,21 +629,18 @@
           ]
         }
       ],
-      "orig": "• Scrum Master",
-      "text": "• Scrum Master",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Scrum Master",
+      "text": "\u2022 Scrum Master",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -715,18 +660,15 @@
       ],
       "orig": "Project Manager",
       "text": "Project Manager",
-      "formatting": null,
-      "hyperlink": null,
       "level": 3
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -745,18 +687,15 @@
         }
       ],
       "orig": "Fauget Design Agency / 2020 - 2021",
-      "text": "Fauget Design Agency / 2020 - 2021",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Fauget Design Agency / 2020 - 2021"
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -775,18 +714,15 @@
         }
       ],
       "orig": "Become a project manager in a design",
-      "text": "Become a project manager in a design",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Become a project manager in a design"
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -805,18 +741,15 @@
         }
       ],
       "orig": "agency, in charge of keeping the project in line with the final goal.",
-      "text": "agency, in charge of keeping the project in line with the final goal.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "agency, in charge of keeping the project in line with the final goal."
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -834,21 +767,18 @@
           ]
         }
       ],
-      "orig": "• Manage Project",
-      "text": "• Manage Project",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Manage Project",
+      "text": "\u2022 Manage Project",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -866,21 +796,18 @@
           ]
         }
       ],
-      "orig": "• Manage Design Team",
-      "text": "• Manage Design Team",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Manage Design Team",
+      "text": "\u2022 Manage Design Team",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -898,21 +825,18 @@
           ]
         }
       ],
-      "orig": "• Track Design Progress",
-      "text": "• Track Design Progress",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Track Design Progress",
+      "text": "\u2022 Track Design Progress",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -932,18 +856,15 @@
       ],
       "orig": "MY SKILLS",
       "text": "MY SKILLS",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -961,21 +882,18 @@
           ]
         }
       ],
-      "orig": "• Manage Project",
-      "text": "• Manage Project",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Manage Project",
+      "text": "\u2022 Manage Project",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/24",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -993,21 +911,18 @@
           ]
         }
       ],
-      "orig": "• Business Development",
-      "text": "• Business Development",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Business Development",
+      "text": "\u2022 Business Development",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/25",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1025,21 +940,18 @@
           ]
         }
       ],
-      "orig": "• User Experience",
-      "text": "• User Experience",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 User Experience",
+      "text": "\u2022 User Experience",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/26",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1057,21 +969,18 @@
           ]
         }
       ],
-      "orig": "• Data Analyst",
-      "text": "• Data Analyst",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Data Analyst",
+      "text": "\u2022 Data Analyst",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/27",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1089,21 +998,18 @@
           ]
         }
       ],
-      "orig": "• Full Stack Developer",
-      "text": "• Full Stack Developer",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Full Stack Developer",
+      "text": "\u2022 Full Stack Developer",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/28",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1123,18 +1029,15 @@
       ],
       "orig": "LANGUAGES",
       "text": "LANGUAGES",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/29",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1153,18 +1056,15 @@
         }
       ],
       "orig": "Indonesia",
-      "text": "Indonesia",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Indonesia"
     },
     {
       "self_ref": "#/texts/30",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1183,18 +1083,15 @@
         }
       ],
       "orig": "Native",
-      "text": "Native",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Native"
     },
     {
       "self_ref": "#/texts/31",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1213,18 +1110,15 @@
         }
       ],
       "orig": "English",
-      "text": "English",
-      "formatting": null,
-      "hyperlink": null
+      "text": "English"
     },
     {
       "self_ref": "#/texts/32",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1243,18 +1137,15 @@
         }
       ],
       "orig": "Fluent",
-      "text": "Fluent",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Fluent"
     },
     {
       "self_ref": "#/texts/33",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1274,18 +1165,15 @@
       ],
       "orig": "AWARDS",
       "text": "AWARDS",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/34",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1304,18 +1192,15 @@
         }
       ],
       "orig": "Best App in App Store",
-      "text": "Best App in App Store",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Best App in App Store"
     },
     {
       "self_ref": "#/texts/35",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1334,18 +1219,15 @@
         }
       ],
       "orig": "Product Design Awards",
-      "text": "Product Design Awards",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Product Design Awards"
     },
     {
       "self_ref": "#/texts/36",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1364,18 +1246,15 @@
         }
       ],
       "orig": "Get $1 Million in One Year",
-      "text": "Get $1 Million in One Year",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Get $1 Million in One Year"
     },
     {
       "self_ref": "#/texts/37",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1394,18 +1273,15 @@
         }
       ],
       "orig": "Fauget Achievement",
-      "text": "Fauget Achievement",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Fauget Achievement"
     },
     {
       "self_ref": "#/texts/38",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1425,18 +1301,15 @@
       ],
       "orig": "AWARDS",
       "text": "AWARDS",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/39",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1454,21 +1327,18 @@
           ]
         }
       ],
-      "orig": "• Music",
-      "text": "• Music",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Music",
+      "text": "\u2022 Music",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/40",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1486,21 +1356,18 @@
           ]
         }
       ],
-      "orig": "• Playing Game",
-      "text": "• Playing Game",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Playing Game",
+      "text": "\u2022 Playing Game",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/41",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1518,21 +1385,18 @@
           ]
         }
       ],
-      "orig": "• Fishing",
-      "text": "• Fishing",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Fishing",
+      "text": "\u2022 Fishing",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/42",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1550,10 +1414,8 @@
           ]
         }
       ],
-      "orig": "• Shadow Puppet",
-      "text": "• Shadow Puppet",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Shadow Puppet",
+      "text": "\u2022 Shadow Puppet",
       "enumerated": false,
       "marker": ""
     }
@@ -1562,13 +1424,11 @@
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1577,9 +1437,7 @@
               "class_name": "person"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1601,7 +1459,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1618,13 +1475,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1633,9 +1488,7 @@
               "class_name": "icon"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1657,7 +1510,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1674,13 +1526,11 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1689,9 +1539,7 @@
               "class_name": "icon"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1713,7 +1561,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1733,17 +1580,15 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [
           {
@@ -1766,7 +1611,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/1"
+              "$ref": "#/pictures/1"
             }
           },
           {
@@ -1789,7 +1634,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/2"
+              "$ref": "#/texts/2"
             }
           },
           {
@@ -1812,7 +1657,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/2"
+              "$ref": "#/pictures/2"
             }
           },
           {
@@ -1835,7 +1680,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/3"
+              "$ref": "#/texts/3"
             }
           }
         ],

@@ -4,6 +4,7 @@
     <location value="19"/>
     <location value="470"/>
     <location value="24"/>
+    <layer class="furniture"/>
     3
   </text>
   <text>
@@ -46,6 +47,7 @@
     <location value="148"/>
     <location value="259"/>
     <location value="155"/>
+    <layer class="background"/>
     (11)
   </text>
   <text>
@@ -81,6 +83,7 @@
     <location value="254"/>
     <location value="253"/>
     <location value="262"/>
+    <layer class="background"/>
     (12)
   </text>
   <text>
@@ -116,6 +119,7 @@
     <location value="344"/>
     <location value="250"/>
     <location value="350"/>
+    <layer class="background"/>
     (13)
   </text>
   <text>

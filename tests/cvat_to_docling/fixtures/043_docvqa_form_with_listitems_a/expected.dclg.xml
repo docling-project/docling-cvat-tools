@@ -71,24 +71,30 @@
       9. ITINERARY
     </list_text>
   </list>
-  <location value="59"/>
-  <location value="83"/>
-  <location value="156"/>
-  <location value="87"/>
-  <checkbox class="unselected"/>
-  TDY. UCMR PROPER STA.
-  <location value="158"/>
-  <location value="83"/>
-  <location value="226"/>
-  <location value="88"/>
-  <checkbox class="unselected"/>
-  [ PCS (Civilian only)
-  <location value="255"/>
-  <location value="83"/>
-  <location value="350"/>
-  <location value="87"/>
-  <checkbox class="unselected"/>
-  CONFIRMATORY ORDERS
+  <text>
+    <location value="59"/>
+    <location value="83"/>
+    <location value="156"/>
+    <location value="87"/>
+    <checkbox class="unselected"/>
+    TDY. UCMR PROPER STA.
+  </text>
+  <text>
+    <location value="158"/>
+    <location value="83"/>
+    <location value="226"/>
+    <location value="88"/>
+    <checkbox class="unselected"/>
+    [ PCS (Civilian only)
+  </text>
+  <text>
+    <location value="255"/>
+    <location value="83"/>
+    <location value="350"/>
+    <location value="87"/>
+    <checkbox class="unselected"/>
+    CONFIRMATORY ORDERS
+  </text>
   <text>
     <location value="38"/>
     <location value="98"/>
@@ -128,12 +134,14 @@
     <location value="196"/>
     <location value="186"/>
   </text>
-  <location value="337"/>
-  <location value="157"/>
-  <location value="369"/>
-  <location value="161"/>
-  <checkbox class="unselected"/>
-  • CIPAP
+  <text>
+    <location value="337"/>
+    <location value="157"/>
+    <location value="369"/>
+    <location value="161"/>
+    <checkbox class="unselected"/>
+    • CIPAP
+  </text>
   <text>
     <location value="266"/>
     <location value="165"/>
@@ -208,84 +216,108 @@
     <location value="204"/>
     11. TRANSPORTATION AUTHORIZED
   </heading>
-  <location value="45"/>
-  <location value="205"/>
-  <location value="120"/>
-  <location value="209"/>
-  <checkbox class="unselected"/>
-  COMMON CARRIER:
-  <location value="122"/>
-  <location value="205"/>
-  <location value="146"/>
-  <location value="209"/>
-  <checkbox class="unselected"/>
-  FAIR
-  <location value="156"/>
-  <location value="205"/>
-  <location value="198"/>
-  <location value="209"/>
-  <checkbox class="unselected"/>
-  SURFACE
-  <location value="207"/>
-  <location value="205"/>
-  <location value="244"/>
-  <location value="209"/>
-  <checkbox class="unselected"/>
-  1 WATER
-  <location value="249"/>
-  <location value="205"/>
-  <location value="450"/>
-  <location value="210"/>
-  <checkbox class="unselected"/>
-  AS DETERMINED BY TRANSPORTATION OFF. (Military only)
-  <location value="57"/>
-  <location value="210"/>
-  <location value="144"/>
-  <location value="214"/>
-  <checkbox class="unselected"/>
-  GOVERNMENT OWNED:
-  <location value="146"/>
-  <location value="211"/>
-  <location value="189"/>
-  <location value="215"/>
-  <checkbox class="unselected"/>
-  D VEHICLE
-  <location value="195"/>
-  <location value="211"/>
-  <location value="242"/>
-  <location value="215"/>
-  <checkbox class="unselected"/>
-  AIRCRAFT
-  <location value="256"/>
-  <location value="210"/>
-  <location value="295"/>
-  <location value="215"/>
-  <checkbox class="unselected"/>
-  • VESSEL
-  <location value="45"/>
-  <location value="217"/>
-  <location value="276"/>
-  <location value="221"/>
-  <checkbox class="unselected"/>
-  PRIVATELY-OWNED VEHICLE AT RATE OF_ . CENTS PER MILE
+  <text>
+    <location value="45"/>
+    <location value="205"/>
+    <location value="120"/>
+    <location value="209"/>
+    <checkbox class="unselected"/>
+    COMMON CARRIER:
+  </text>
+  <text>
+    <location value="122"/>
+    <location value="205"/>
+    <location value="146"/>
+    <location value="209"/>
+    <checkbox class="unselected"/>
+    FAIR
+  </text>
+  <text>
+    <location value="156"/>
+    <location value="205"/>
+    <location value="198"/>
+    <location value="209"/>
+    <checkbox class="unselected"/>
+    SURFACE
+  </text>
+  <text>
+    <location value="207"/>
+    <location value="205"/>
+    <location value="244"/>
+    <location value="209"/>
+    <checkbox class="unselected"/>
+    1 WATER
+  </text>
+  <text>
+    <location value="249"/>
+    <location value="205"/>
+    <location value="450"/>
+    <location value="210"/>
+    <checkbox class="unselected"/>
+    AS DETERMINED BY TRANSPORTATION OFF. (Military only)
+  </text>
+  <text>
+    <location value="57"/>
+    <location value="210"/>
+    <location value="144"/>
+    <location value="214"/>
+    <checkbox class="unselected"/>
+    GOVERNMENT OWNED:
+  </text>
+  <text>
+    <location value="146"/>
+    <location value="211"/>
+    <location value="189"/>
+    <location value="215"/>
+    <checkbox class="unselected"/>
+    D VEHICLE
+  </text>
+  <text>
+    <location value="195"/>
+    <location value="211"/>
+    <location value="242"/>
+    <location value="215"/>
+    <checkbox class="unselected"/>
+    AIRCRAFT
+  </text>
+  <text>
+    <location value="256"/>
+    <location value="210"/>
+    <location value="295"/>
+    <location value="215"/>
+    <checkbox class="unselected"/>
+    • VESSEL
+  </text>
+  <text>
+    <location value="45"/>
+    <location value="217"/>
+    <location value="276"/>
+    <location value="221"/>
+    <checkbox class="unselected"/>
+    PRIVATELY-OWNED VEHICLE AT RATE OF_ . CENTS PER MILE
+  </text>
   <text>
     <location value="194"/>
     <location value="218"/>
     <location value="218"/>
     <location value="221"/>
   </text>
-  <location value="280"/>
-  <location value="217"/>
-  <location value="331"/>
-  <location value="221"/>
-  <checkbox class="unselected"/>
-  ] TPA-TMDAG
-  <location value="57"/>
-  <location value="222"/>
-  <location value="436"/>
-  <location value="227"/>
-  <checkbox class="unselected"/>
-  REIMBURSEMENT LIMITED TO COST TO GOVT OF TRAVEL BY USUAL MODE OF TRANSPORTATION. INCLUDING PER DIEM. (Civilian only)
+  <text>
+    <location value="280"/>
+    <location value="217"/>
+    <location value="331"/>
+    <location value="221"/>
+    <checkbox class="unselected"/>
+    ] TPA-TMDAG
+  </text>
+  <text>
+    <location value="57"/>
+    <location value="222"/>
+    <location value="436"/>
+    <location value="227"/>
+    <checkbox class="unselected"/>
+    REIMBURSEMENT LIMITED TO COST TO GOVT OF TRAVEL BY USUAL MODE OF TRANSPORTATION. INCLUDING PER DIEM. (Civilian only)
+  </text>
   <heading level="2">
     <location value="36"/>
     <location value="229"/>
@@ -293,18 +325,22 @@
     <location value="234"/>
     12. PER DIEM AUTHORIZED (Civilian Personnel only)
   </heading>
-  <location value="46"/>
-  <location value="237"/>
-  <location value="175"/>
-  <location value="241"/>
-  <checkbox class="unselected"/>
-  MAXIMUM AUTHORIZED BY CPR T-3
-  <location value="204"/>
-  <location value="237"/>
-  <location value="339"/>
-  <location value="241"/>
-  <checkbox class="unselected"/>
-  • OTHER RATES OF PER DIEM (Specify)
+  <text>
+    <location value="46"/>
+    <location value="237"/>
+    <location value="175"/>
+    <location value="241"/>
+    <checkbox class="unselected"/>
+    MAXIMUM AUTHORIZED BY CPR T-3
+  </text>
+  <text>
+    <location value="204"/>
+    <location value="237"/>
+    <location value="339"/>
+    <location value="241"/>
+    <checkbox class="unselected"/>
+    • OTHER RATES OF PER DIEM (Specify)
+  </text>
   <heading level="2">
     <location value="36"/>
     <location value="244"/>
@@ -312,48 +348,62 @@
     <location value="249"/>
     TRANSPORTATION OF DEPENDENTS (Civilian Personnel only)
   </heading>
-  <location value="45"/>
-  <location value="250"/>
-  <location value="433"/>
-  <location value="257"/>
-  <checkbox class="unselected"/>
-  EMPLOYEE REQUESTS TRANSPORTATION OF DEPENDENTS WHOSE NAMES) AGE(S) AND RELATIONSHIP(S) APPEAR
-  <location value="57"/>
-  <location value="258"/>
-  <location value="235"/>
-  <location value="263"/>
-  <checkbox class="unselected"/>
-  TRANSPORTATION AUTHORIZED BY GOVERNMENT
-  <location value="240"/>
-  <location value="258"/>
-  <location value="280"/>
-  <location value="263"/>
-  <checkbox class="unselected"/>
-  VEHICLE
-  <location value="289"/>
-  <location value="258"/>
-  <location value="335"/>
-  <location value="262"/>
-  <checkbox class="unselected"/>
-  AIRCRAFT
-  <location value="343"/>
-  <location value="258"/>
-  <location value="381"/>
-  <location value="262"/>
-  <checkbox class="unselected"/>
-  • VESSEL
-  <location value="45"/>
-  <location value="263"/>
-  <location value="342"/>
-  <location value="268"/>
-  <checkbox class="unselected"/>
-  TRANSPORTATION AUTHORIZED BY COMMON CARRIER (Commercial Air, Rail, Bus, Vessel)
-  <location value="57"/>
-  <location value="268"/>
-  <location value="300"/>
-  <location value="272"/>
-  <checkbox class="unselected"/>
-  TRANSPORTATION AUTHORIZED BY PRIVATELY-OWNED CONVEYANCE
+  <text>
+    <location value="45"/>
+    <location value="250"/>
+    <location value="433"/>
+    <location value="257"/>
+    <checkbox class="unselected"/>
+    EMPLOYEE REQUESTS TRANSPORTATION OF DEPENDENTS WHOSE NAMES) AGE(S) AND RELATIONSHIP(S) APPEAR
+  </text>
+  <text>
+    <location value="57"/>
+    <location value="258"/>
+    <location value="235"/>
+    <location value="263"/>
+    <checkbox class="unselected"/>
+    TRANSPORTATION AUTHORIZED BY GOVERNMENT
+  </text>
+  <text>
+    <location value="240"/>
+    <location value="258"/>
+    <location value="280"/>
+    <location value="263"/>
+    <checkbox class="unselected"/>
+    VEHICLE
+  </text>
+  <text>
+    <location value="289"/>
+    <location value="258"/>
+    <location value="335"/>
+    <location value="262"/>
+    <checkbox class="unselected"/>
+    AIRCRAFT
+  </text>
+  <text>
+    <location value="343"/>
+    <location value="258"/>
+    <location value="381"/>
+    <location value="262"/>
+    <checkbox class="unselected"/>
+    • VESSEL
+  </text>
+  <text>
+    <location value="45"/>
+    <location value="263"/>
+    <location value="342"/>
+    <location value="268"/>
+    <checkbox class="unselected"/>
+    TRANSPORTATION AUTHORIZED BY COMMON CARRIER (Commercial Air, Rail, Bus, Vessel)
+  </text>
+  <text>
+    <location value="57"/>
+    <location value="268"/>
+    <location value="300"/>
+    <location value="272"/>
+    <checkbox class="unselected"/>
+    TRANSPORTATION AUTHORIZED BY PRIVATELY-OWNED CONVEYANCE
+  </text>
   <heading level="2">
     <location value="36"/>
     <location value="275"/>
@@ -361,18 +411,22 @@
     <location value="279"/>
     14. SHIPMENT OF HOUSEHOLD GOODS (Civilian personnel only)
   </heading>
-  <location value="45"/>
-  <location value="279"/>
-  <location value="267"/>
-  <location value="293"/>
-  <checkbox class="unselected"/>
-  EMPLOYEE HAS DEPENDENTS AND IS AUTHORIZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 7000 POUNDS NET WEIGHT
-  <location value="268"/>
-  <location value="279"/>
-  <location value="476"/>
-  <location value="293"/>
-  <checkbox class="unselected"/>
-  EMPLOYEE DOES NOT HAVE DEPENDENTS AND IS AUTHOR- IZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 2500 POUNDS NET WEIGHT
+  <text>
+    <location value="45"/>
+    <location value="279"/>
+    <location value="267"/>
+    <location value="293"/>
+    <checkbox class="unselected"/>
+    EMPLOYEE HAS DEPENDENTS AND IS AUTHORIZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 7000 POUNDS NET WEIGHT
+  </text>
+  <text>
+    <location value="268"/>
+    <location value="279"/>
+    <location value="476"/>
+    <location value="293"/>
+    <checkbox class="unselected"/>
+    EMPLOYEE DOES NOT HAVE DEPENDENTS AND IS AUTHOR- IZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 2500 POUNDS NET WEIGHT
+  </text>
   <heading level="2">
     <location value="37"/>
     <location value="296"/>
@@ -456,6 +510,7 @@
     <location value="486"/>
     <location value="473"/>
     <location value="493"/>
+    <layer class="furniture"/>
     5
   </text>
   <text>
@@ -463,6 +518,7 @@
     <location value="503"/>
     <location value="399"/>
     <location value="511"/>
+    <layer class="furniture"/>
     Source: https://www.industrydocuments.ucsf.edu/docs/tkwg0227
   </text>
   <text>
@@ -470,18 +526,21 @@
     <location value="11"/>
     <location value="131"/>
     <location value="16"/>
+    <layer class="background"/>
   </text>
   <text>
     <location value="216"/>
     <location value="17"/>
     <location value="290"/>
     <location value="22"/>
+    <layer class="background"/>
   </text>
   <heading level="1">
     <location value="108"/>
     <location value="24"/>
     <location value="405"/>
     <location value="36"/>
+    <layer class="background"/>
     15W NET
   </heading>
 </doclang>

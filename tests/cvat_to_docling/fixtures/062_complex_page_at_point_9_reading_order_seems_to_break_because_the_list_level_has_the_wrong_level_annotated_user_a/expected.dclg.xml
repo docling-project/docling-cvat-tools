@@ -237,222 +237,292 @@
     <location value="194"/>
     4 Chapter 3 Status (entity type) (Must check one box only.):
   </heading>
-  <location value="49"/>
-  <location value="195"/>
-  <location value="177"/>
-  <location value="201"/>
-  <checkbox class="selected"/>
-  • QI (including a QDD). Complete Part III.
-  <location value="49"/>
-  <location value="203"/>
-  <location value="193"/>
-  <location value="209"/>
-  <checkbox class="unselected"/>
-  • Nonqualified intermediary. Complete Part IV.
-  <location value="49"/>
-  <location value="210"/>
-  <location value="197"/>
-  <location value="217"/>
-  <checkbox class="unselected"/>
-  • Territory financial institution. Complete Part V.
-  <location value="49"/>
-  <location value="218"/>
-  <location value="152"/>
-  <location value="225"/>
-  <checkbox class="unselected"/>
-  • U.S. branch. Complete Part VI.
-  <location value="49"/>
-  <location value="226"/>
-  <location value="212"/>
-  <location value="232"/>
-  <checkbox class="unselected"/>
-  • Withholding foreign partnership. Complete Part VII.
-  <location value="284"/>
-  <location value="195"/>
-  <location value="426"/>
-  <location value="201"/>
-  <checkbox class="unselected"/>
-  • Withholding foreign trust. Complete Part VII.
-  <location value="284"/>
-  <location value="203"/>
-  <location value="460"/>
-  <location value="209"/>
-  <checkbox class="unselected"/>
-  Nonwithholding foreign partnership. Complete Part VIII.
-  <location value="284"/>
-  <location value="210"/>
-  <location value="461"/>
-  <location value="217"/>
-  <checkbox class="unselected"/>
-  • Nonwithholding foreign simple trust. Complete Part VIII.
-  <location value="284"/>
-  <location value="218"/>
-  <location value="463"/>
-  <location value="225"/>
-  <checkbox class="unselected"/>
-  _ Nonwithholding foreign grantor trust. Complete Part VIII.
+  <text>
+    <location value="49"/>
+    <location value="195"/>
+    <location value="177"/>
+    <location value="201"/>
+    <checkbox class="selected"/>
+    • QI (including a QDD). Complete Part III.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="203"/>
+    <location value="193"/>
+    <location value="209"/>
+    <checkbox class="unselected"/>
+    • Nonqualified intermediary. Complete Part IV.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="210"/>
+    <location value="197"/>
+    <location value="217"/>
+    <checkbox class="unselected"/>
+    • Territory financial institution. Complete Part V.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="218"/>
+    <location value="152"/>
+    <location value="225"/>
+    <checkbox class="unselected"/>
+    • U.S. branch. Complete Part VI.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="226"/>
+    <location value="212"/>
+    <location value="232"/>
+    <checkbox class="unselected"/>
+    • Withholding foreign partnership. Complete Part VII.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="195"/>
+    <location value="426"/>
+    <location value="201"/>
+    <checkbox class="unselected"/>
+    • Withholding foreign trust. Complete Part VII.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="203"/>
+    <location value="460"/>
+    <location value="209"/>
+    <checkbox class="unselected"/>
+    Nonwithholding foreign partnership. Complete Part VIII.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="210"/>
+    <location value="461"/>
+    <location value="217"/>
+    <checkbox class="unselected"/>
+    • Nonwithholding foreign simple trust. Complete Part VIII.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="218"/>
+    <location value="463"/>
+    <location value="225"/>
+    <checkbox class="unselected"/>
+    _ Nonwithholding foreign grantor trust. Complete Part VIII.
+  </text>
   <heading level="3">
     <location value="38"/>
     <location value="235"/>
     <location value="440"/>
     <location value="247"/>
 <![CDATA[5 Chapter 4 Status (FATCA status) (See instructions for details and complete the certification below for the entity's applicable status.) (Must check one box only.):]]>  </heading>
-  <location value="49"/>
-  <location value="249"/>
-  <location value="267"/>
-  <location value="265"/>
-  <checkbox class="unselected"/>
-  • Nonparticipating foreign financial institution (FFI) (including an FFI related to a Reporting IGA FFI other than a deemed-compliant FFI, participating FFI, or exempt beneficial owner). Complete Part IX (if applicable).
-  <location value="49"/>
-  <location value="265"/>
-  <location value="110"/>
-  <location value="271"/>
-  <checkbox class="unselected"/>
-  • Participating FFI.
-  <location value="49"/>
-  <location value="272"/>
-  <location value="129"/>
-  <location value="279"/>
-  <checkbox class="unselected"/>
-  • Reporting Model 1 FFI.
-  <location value="49"/>
-  <location value="280"/>
-  <location value="129"/>
-  <location value="287"/>
-  <checkbox class="unselected"/>
-  • Reporting Model 2 FFI.
-  <location value="49"/>
-  <location value="288"/>
-  <location value="270"/>
-  <location value="301"/>
-  <checkbox class="unselected"/>
-  Registered deemed-compliant FFI (other than a reporting Model 1 FFI, sponsored FFI, or nonreporting IGA FFI covered in Part XIX).
-  <location value="50"/>
-  <location value="304"/>
-  <location value="196"/>
-  <location value="309"/>
-  <checkbox class="unselected"/>
-  Territory financial institution. Complete Part V.
-  <location value="49"/>
-  <location value="311"/>
-  <location value="264"/>
-  <location value="323"/>
-  <checkbox class="unselected"/>
-  Sponsored FFI (other than a certified deemed-compliant sponsored, closely held investment vehicle). Complete Part X.
-  <location value="49"/>
-  <location value="327"/>
-  <location value="268"/>
-  <location value="333"/>
-  <checkbox class="unselected"/>
-  • Certified deemed-compliant nonregistering local bank. Complete Part XII.
-  <location value="49"/>
-  <location value="335"/>
-  <location value="269"/>
-  <location value="341"/>
-  <checkbox class="unselected"/>
-  Certified deemed-compliant FI with only low-value accounts. Complete Part XII.
-  <location value="49"/>
-  <location value="342"/>
-  <location value="251"/>
-  <location value="354"/>
-  <checkbox class="unselected"/>
-  • Certified deemed-compliant sponsored, closely held investment vehicle. Complete Part XIV.
-  <location value="49"/>
-  <location value="358"/>
-  <location value="270"/>
-  <location value="364"/>
-  <checkbox class="unselected"/>
-  • Certified deemed-compliant limited life debt investment entity. Complete Part XV.
-  <location value="49"/>
-  <location value="366"/>
-  <location value="270"/>
-  <location value="371"/>
-  <checkbox class="unselected"/>
-  • Certain investment entities that do not maintain financial accounts. Complete Part XVI.
-  <location value="284"/>
-  <location value="249"/>
-  <location value="423"/>
-  <location value="255"/>
-  <checkbox class="unselected"/>
-  Owner-documented FFI. Complete Part XI.
-  <location value="284"/>
-  <location value="257"/>
-  <location value="420"/>
-  <location value="263"/>
-  <checkbox class="unselected"/>
-  • Restricted distributor. Complete Part XVII.
-  <location value="284"/>
-  <location value="265"/>
-  <location value="445"/>
-  <location value="271"/>
-  <checkbox class="unselected"/>
-  Foreign central bank of issue. Complete Part XVIII.
-  <location value="284"/>
-  <location value="272"/>
-  <location value="419"/>
-  <location value="279"/>
-  <checkbox class="unselected"/>
-  Nonreporting IGA FFI. Complete Part XIX.
-  <location value="284"/>
-  <location value="280"/>
-  <location value="427"/>
-  <location value="287"/>
-  <checkbox class="unselected"/>
-  Exempt retirement plans. Complete Part XX.
-  <location value="284"/>
-  <location value="288"/>
-  <location value="459"/>
-  <location value="294"/>
-  <checkbox class="unselected"/>
-  Excepted nonfinancial group entity. Complete Part XXI.
-  <location value="284"/>
-  <location value="296"/>
-  <location value="479"/>
-  <location value="302"/>
-  <checkbox class="unselected"/>
-  Excepted nonfinancial start-up company. Complete Part XXII.
-  <location value="284"/>
-  <location value="304"/>
-  <location value="464"/>
-  <location value="316"/>
-  <checkbox class="unselected"/>
-  I Excepted nonfinancial entity in liquidation or bankruptcy. Complete Part XXIII.
-  <location value="284"/>
-  <location value="319"/>
-  <location value="467"/>
-  <location value="331"/>
-  <checkbox class="selected"/>
-  • Publicly traded NFFE or NFFE affiliate of a publicly traded corporation. Complete Part XXIV.
-  <location value="284"/>
-  <location value="335"/>
-  <location value="429"/>
-  <location value="341"/>
-  <checkbox class="unselected"/>
-  Excepted territory NFE. Complete Part XXV.
-  <location value="284"/>
-  <location value="342"/>
-  <location value="397"/>
-  <location value="349"/>
-  <checkbox class="unselected"/>
-  Active NFFE. Complete Part XXVI.
-  <location value="284"/>
-  <location value="350"/>
-  <location value="402"/>
-  <location value="356"/>
-  <checkbox class="unselected"/>
-  • Passive NFFE. Complete Part XXVII.
-  <location value="284"/>
-  <location value="358"/>
-  <location value="362"/>
-  <location value="364"/>
-  <checkbox class="unselected"/>
-  • Direct reporting NFFE.
-  <location value="284"/>
-  <location value="366"/>
-  <location value="462"/>
-  <location value="372"/>
-  <checkbox class="unselected"/>
-  • Sponsored direct reporting NFFE. Complete Part XXVII.
+  <text>
+    <location value="49"/>
+    <location value="249"/>
+    <location value="267"/>
+    <location value="265"/>
+    <checkbox class="unselected"/>
+    • Nonparticipating foreign financial institution (FFI) (including an FFI related to a Reporting IGA FFI other than a deemed-compliant FFI, participating FFI, or exempt beneficial owner). Complete Part IX (if applicable).
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="265"/>
+    <location value="110"/>
+    <location value="271"/>
+    <checkbox class="unselected"/>
+    • Participating FFI.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="272"/>
+    <location value="129"/>
+    <location value="279"/>
+    <checkbox class="unselected"/>
+    • Reporting Model 1 FFI.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="280"/>
+    <location value="129"/>
+    <location value="287"/>
+    <checkbox class="unselected"/>
+    • Reporting Model 2 FFI.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="288"/>
+    <location value="270"/>
+    <location value="301"/>
+    <checkbox class="unselected"/>
+    Registered deemed-compliant FFI (other than a reporting Model 1 FFI, sponsored FFI, or nonreporting IGA FFI covered in Part XIX).
+  </text>
+  <text>
+    <location value="50"/>
+    <location value="304"/>
+    <location value="196"/>
+    <location value="309"/>
+    <checkbox class="unselected"/>
+    Territory financial institution. Complete Part V.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="311"/>
+    <location value="264"/>
+    <location value="323"/>
+    <checkbox class="unselected"/>
+    Sponsored FFI (other than a certified deemed-compliant sponsored, closely held investment vehicle). Complete Part X.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="327"/>
+    <location value="268"/>
+    <location value="333"/>
+    <checkbox class="unselected"/>
+    • Certified deemed-compliant nonregistering local bank. Complete Part XII.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="335"/>
+    <location value="269"/>
+    <location value="341"/>
+    <checkbox class="unselected"/>
+    Certified deemed-compliant FI with only low-value accounts. Complete Part XII.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="342"/>
+    <location value="251"/>
+    <location value="354"/>
+    <checkbox class="unselected"/>
+    • Certified deemed-compliant sponsored, closely held investment vehicle. Complete Part XIV.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="358"/>
+    <location value="270"/>
+    <location value="364"/>
+    <checkbox class="unselected"/>
+    • Certified deemed-compliant limited life debt investment entity. Complete Part XV.
+  </text>
+  <text>
+    <location value="49"/>
+    <location value="366"/>
+    <location value="270"/>
+    <location value="371"/>
+    <checkbox class="unselected"/>
+    • Certain investment entities that do not maintain financial accounts. Complete Part XVI.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="249"/>
+    <location value="423"/>
+    <location value="255"/>
+    <checkbox class="unselected"/>
+    Owner-documented FFI. Complete Part XI.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="257"/>
+    <location value="420"/>
+    <location value="263"/>
+    <checkbox class="unselected"/>
+    • Restricted distributor. Complete Part XVII.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="265"/>
+    <location value="445"/>
+    <location value="271"/>
+    <checkbox class="unselected"/>
+    Foreign central bank of issue. Complete Part XVIII.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="272"/>
+    <location value="419"/>
+    <location value="279"/>
+    <checkbox class="unselected"/>
+    Nonreporting IGA FFI. Complete Part XIX.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="280"/>
+    <location value="427"/>
+    <location value="287"/>
+    <checkbox class="unselected"/>
+    Exempt retirement plans. Complete Part XX.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="288"/>
+    <location value="459"/>
+    <location value="294"/>
+    <checkbox class="unselected"/>
+    Excepted nonfinancial group entity. Complete Part XXI.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="296"/>
+    <location value="479"/>
+    <location value="302"/>
+    <checkbox class="unselected"/>
+    Excepted nonfinancial start-up company. Complete Part XXII.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="304"/>
+    <location value="464"/>
+    <location value="316"/>
+    <checkbox class="unselected"/>
+    I Excepted nonfinancial entity in liquidation or bankruptcy. Complete Part XXIII.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="319"/>
+    <location value="467"/>
+    <location value="331"/>
+    <checkbox class="selected"/>
+    • Publicly traded NFFE or NFFE affiliate of a publicly traded corporation. Complete Part XXIV.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="335"/>
+    <location value="429"/>
+    <location value="341"/>
+    <checkbox class="unselected"/>
+    Excepted territory NFE. Complete Part XXV.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="342"/>
+    <location value="397"/>
+    <location value="349"/>
+    <checkbox class="unselected"/>
+    Active NFFE. Complete Part XXVI.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="350"/>
+    <location value="402"/>
+    <location value="356"/>
+    <checkbox class="unselected"/>
+    • Passive NFFE. Complete Part XXVII.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="358"/>
+    <location value="362"/>
+    <location value="364"/>
+    <checkbox class="unselected"/>
+    • Direct reporting NFFE.
+  </text>
+  <text>
+    <location value="284"/>
+    <location value="366"/>
+    <location value="462"/>
+    <location value="372"/>
+    <checkbox class="unselected"/>
+    • Sponsored direct reporting NFFE. Complete Part XXVII.
+  </text>
   <heading level="3">
     <location value="39"/>
     <location value="381"/>
@@ -561,30 +631,38 @@
     <location value="450"/>
     926-60-5327
   </text>
-  <location value="49"/>
-  <location value="451"/>
-  <location value="80"/>
-  <location value="457"/>
-  <checkbox class="selected"/>
-  • QI-EIN
-  <location value="134"/>
-  <location value="451"/>
-  <location value="168"/>
-  <location value="457"/>
-  <checkbox class="unselected"/>
-  • WP-EIN
-  <location value="224"/>
-  <location value="451"/>
-  <location value="258"/>
-  <location value="457"/>
-  <checkbox class="unselected"/>
-  • WT-EIN
-  <location value="327"/>
-  <location value="451"/>
-  <location value="348"/>
-  <location value="457"/>
-  <checkbox class="unselected"/>
-  • EN
+  <text>
+    <location value="49"/>
+    <location value="451"/>
+    <location value="80"/>
+    <location value="457"/>
+    <checkbox class="selected"/>
+    • QI-EIN
+  </text>
+  <text>
+    <location value="134"/>
+    <location value="451"/>
+    <location value="168"/>
+    <location value="457"/>
+    <checkbox class="unselected"/>
+    • WP-EIN
+  </text>
+  <text>
+    <location value="224"/>
+    <location value="451"/>
+    <location value="258"/>
+    <location value="457"/>
+    <checkbox class="unselected"/>
+    • WT-EIN
+  </text>
+  <text>
+    <location value="327"/>
+    <location value="451"/>
+    <location value="348"/>
+    <location value="457"/>
+    <checkbox class="unselected"/>
+    • EN
+  </text>
   <floating_group class="picture">
     <picture>
       <meta>
@@ -641,6 +719,7 @@
     <location value="491"/>
     <location value="234"/>
     <location value="496"/>
+    <layer class="furniture"/>
     For Paperwork Reduction Act Notice, see separate instructions.
   </text>
   <text>
@@ -648,6 +727,7 @@
     <location value="492"/>
     <location value="332"/>
     <location value="496"/>
+    <layer class="furniture"/>
     Cat. No. 25402Q
   </text>
   <text>
@@ -655,6 +735,7 @@
     <location value="490"/>
     <location value="482"/>
     <location value="496"/>
+    <layer class="furniture"/>
     Form W-8IMY (Rev. 10-2021)
   </text>
 </doclang>

@@ -4,6 +4,7 @@
     <location value="23"/>
     <location value="329"/>
     <location value="29"/>
+    <layer class="furniture"/>
     Lot 1-   Construction of Giresun Wastewater Treatment Plant
   </heading>
   <text>
@@ -11,6 +12,7 @@
     <location value="31"/>
     <location value="231"/>
     <location value="36"/>
+    <layer class="furniture"/>
     VOLUME 2 - Section 3: Particular Conditions
   </text>
   <text>
@@ -18,6 +20,7 @@
     <location value="31"/>
     <location value="451"/>
     <location value="36"/>
+    <layer class="furniture"/>
     3 of 18
   </text>
   <text>
@@ -25,6 +28,7 @@
     <location value="485"/>
     <location value="194"/>
     <location value="491"/>
+    <layer class="furniture"/>
     3_Vol2_d4_particularconditions_en_.docx
   </text>
   <floating_group class="table">
@@ -48,19 +52,71 @@
       <nl/>
       <fcel/>
       1.1.1.2
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="113"/>
+        <location value="92"/>
+        <location value="272"/>
+        <location value="99"/>
+        Add at the end of the Subparagraph:
+      </text>
+      <text>
+        <location value="113"/>
+        <location value="104"/>
+        <location value="458"/>
+        <location value="119"/>
+<![CDATA['Wherever  the  expression  'Contract  Form'  appears,  it  shall  be  deemed  to  be  synonymous with 'Contract Agreement'.]]>      </text>
       <nl/>
       <fcel/>
       1.1.1.3
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="113"/>
+        <location value="128"/>
+        <location value="400"/>
+        <location value="135"/>
+        1   Delete the Sub-Clause 1.1.1.3 and substitute with the following:
+      </text>
+      <text>
+        <location value="113"/>
+        <location value="140"/>
+        <location value="458"/>
+        <location value="164"/>
+<![CDATA['Letter  of  Acceptance  means  the  Contract  Agreement  and  all  references  to  the  Letter of Acceptance in the General and Particular Conditions shall mean the date  of signing the Contract Agreement under sub-clause 1.6'.]]>      </text>
       <nl/>
       <fcel/>
       1.1.1.4
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="112"/>
+        <location value="173"/>
+        <location value="261"/>
+        <location value="180"/>
+        Add  at the end of the Subparagraph :
+      </text>
+      <text>
+        <location value="112"/>
+        <location value="185"/>
+        <location value="459"/>
+        <location value="199"/>
+<![CDATA['Wherever  the  expression  'Tender  Form'  appears,  it  shall  be  deemed  to  be  synonymous with 'Letter of Tender'.]]>      </text>
       <nl/>
       <fcel/>
       1.1.1.12
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="112"/>
+        <location value="202"/>
+        <location value="275"/>
+        <location value="209"/>
+        Add  Subparagraph 1.1.1.11 as follows:
+      </text>
+      <text>
+        <location value="113"/>
+        <location value="214"/>
+        <location value="458"/>
+        <location value="246"/>
+<![CDATA[' Notification  Letter '  means  the  letter  sent  by  the  Employer  to  the  Tenderer  notifying that it intends to award the Contract to the Tenderer, provided he submits  required  documentation.  If  the  Contractor  submits  satisfactory  documentation  within the time requested, the Employer will then issue the Contract for signature.]]>      </text>
       <nl/>
       <fcel/>
       1.1.2
@@ -69,7 +125,20 @@
       <nl/>
       <fcel/>
       1.1.2.2
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="113"/>
+        <location value="274"/>
+        <location value="260"/>
+        <location value="281"/>
+        Add  at the end of the Subparagraph :
+      </text>
+      <text>
+        <location value="112"/>
+        <location value="286"/>
+        <location value="458"/>
+        <location value="302"/>
+<![CDATA[Wherever the expression ' Contracting Authority ' appears, it shall be deemed to  be synonymous with ' Employer '.]]>      </text>
       <nl/>
       <srow/>
       Add  the new  Sub-Clauses 1.1.2.11  and  1.1.2.12  as follows:
@@ -81,7 +150,20 @@
 <![CDATA["End Recipient'  is the  Giresun Municipality  and means the owner of the  project after taking-over of the Works according to the system established under  Instrument for Pre-accession Assistance (IPA-2) Socio-economic and Regional  Development Component. In this Contract the Employer acts autonomously but in  the interest of the End Recipient.]]>      <nl/>
       <fcel/>
       1.1.2.12
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="116"/>
+        <location value="373"/>
+        <location value="234"/>
+        <location value="381"/>
+        Add  Subparagraph 1.1.2.12:
+      </text>
+      <text>
+        <location value="119"/>
+        <location value="385"/>
+        <location value="385"/>
+        <location value="392"/>
+<![CDATA[' EUD'  means the Delegation of the European Union to Turkey.]]>      </text>
       <nl/>
       <fcel/>
       1.1.6  Other Definitions
@@ -93,99 +175,21 @@
       <nl/>
       <fcel/>
       1.1.6.10
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="116"/>
+        <location value="433"/>
+        <location value="455"/>
+        <location value="466"/>
+<![CDATA[' Eligible   Source   Countries ' means; all countries eligible for Instrument for Pre- Accession Assistance-2 (IPA-2)  (Council Regulation (EC) No 231/2014 of 11  March 2014 establishing an instrument for pre-accession assistance (IPA II))   Please also refer to document A2a at;]]>      </text>
+      <text>
+        <location value="116"/>
+        <location value="472"/>
+        <location value="397"/>
+        <location value="479"/>
+        http://ec.europa.eu/europeaid/prag/annexes.do?chapterTitleCode=A
+      </text>
       <nl/>
     </otsl>
   </floating_group>
-  <text>
-    <location value="113"/>
-    <location value="92"/>
-    <location value="272"/>
-    <location value="99"/>
-    Add at the end of the Subparagraph:
-  </text>
-  <text>
-    <location value="113"/>
-    <location value="104"/>
-    <location value="458"/>
-    <location value="119"/>
-<![CDATA['Wherever  the  expression  'Contract  Form'  appears,  it  shall  be  deemed  to  be  synonymous with 'Contract Agreement'.]]>  </text>
-  <text>
-    <location value="113"/>
-    <location value="128"/>
-    <location value="400"/>
-    <location value="135"/>
-    1   Delete the Sub-Clause 1.1.1.3 and substitute with the following:
-  </text>
-  <text>
-    <location value="113"/>
-    <location value="140"/>
-    <location value="458"/>
-    <location value="164"/>
-<![CDATA['Letter  of  Acceptance  means  the  Contract  Agreement  and  all  references  to  the  Letter of Acceptance in the General and Particular Conditions shall mean the date  of signing the Contract Agreement under sub-clause 1.6'.]]>  </text>
-  <text>
-    <location value="112"/>
-    <location value="173"/>
-    <location value="261"/>
-    <location value="180"/>
-    Add  at the end of the Subparagraph :
-  </text>
-  <text>
-    <location value="112"/>
-    <location value="185"/>
-    <location value="459"/>
-    <location value="199"/>
-<![CDATA['Wherever  the  expression  'Tender  Form'  appears,  it  shall  be  deemed  to  be  synonymous with 'Letter of Tender'.]]>  </text>
-  <text>
-    <location value="112"/>
-    <location value="202"/>
-    <location value="275"/>
-    <location value="209"/>
-    Add  Subparagraph 1.1.1.11 as follows:
-  </text>
-  <text>
-    <location value="113"/>
-    <location value="214"/>
-    <location value="458"/>
-    <location value="246"/>
-<![CDATA[' Notification  Letter '  means  the  letter  sent  by  the  Employer  to  the  Tenderer  notifying that it intends to award the Contract to the Tenderer, provided he submits  required  documentation.  If  the  Contractor  submits  satisfactory  documentation  within the time requested, the Employer will then issue the Contract for signature.]]>  </text>
-  <text>
-    <location value="113"/>
-    <location value="274"/>
-    <location value="260"/>
-    <location value="281"/>
-    Add  at the end of the Subparagraph :
-  </text>
-  <text>
-    <location value="112"/>
-    <location value="286"/>
-    <location value="458"/>
-    <location value="302"/>
-<![CDATA[Wherever the expression ' Contracting Authority ' appears, it shall be deemed to  be synonymous with ' Employer '.]]>  </text>
-  <text>
-    <location value="116"/>
-    <location value="373"/>
-    <location value="234"/>
-    <location value="381"/>
-    Add  Subparagraph 1.1.2.12:
-  </text>
-  <text>
-    <location value="119"/>
-    <location value="385"/>
-    <location value="385"/>
-    <location value="392"/>
-<![CDATA[' EUD'  means the Delegation of the European Union to Turkey.]]>  </text>
-  <text>
-    <location value="116"/>
-    <location value="433"/>
-    <location value="455"/>
-    <location value="466"/>
-<![CDATA[' Eligible   Source   Countries ' means; all countries eligible for Instrument for Pre- Accession Assistance-2 (IPA-2)  (Council Regulation (EC) No 231/2014 of 11  March 2014 establishing an instrument for pre-accession assistance (IPA II))   Please also refer to document A2a at;]]>  </text>
-  <text>
-    <location value="116"/>
-    <location value="472"/>
-    <location value="397"/>
-    <location value="479"/>
-    http://ec.europa.eu/europeaid/prag/annexes.do?chapterTitleCode=A
-  </text>
 </doclang>

@@ -20,12 +20,13 @@
     <location value="75"/>
     Form 20-F
   </text>
-  <location value="55"/>
-  <location value="77"/>
-  <location value="427"/>
-  <location value="90"/>
-  <checkbox class="unselected"/>
-<![CDATA[' REGISTRATION STATEMENT PURSUANT TO SECTION 12(b) OR (g) OF THE SECURITIES EXCHANGE ACT OF 1934]]>  
+  <text>
+    <location value="55"/>
+    <location value="77"/>
+    <location value="427"/>
+    <location value="90"/>
+    <checkbox class="unselected"/>
+<![CDATA[' REGISTRATION STATEMENT PURSUANT TO SECTION 12(b) OR (g) OF THE SECURITIES EXCHANGE ACT OF 1934]]>  </text>
   <text>
     <location value="249"/>
     <location value="93"/>
@@ -33,12 +34,14 @@
     <location value="98"/>
     OR
   </text>
-  <location value="55"/>
-  <location value="100"/>
-  <location value="428"/>
-  <location value="114"/>
-  <checkbox class="selected"/>
-  È ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+  <text>
+    <location value="55"/>
+    <location value="100"/>
+    <location value="428"/>
+    <location value="114"/>
+    <checkbox class="selected"/>
+    È ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+  </text>
   <text>
     <location value="175"/>
     <location value="116"/>
@@ -53,12 +56,13 @@
     <location value="129"/>
     OR
   </text>
-  <location value="55"/>
-  <location value="131"/>
-  <location value="446"/>
-  <location value="145"/>
-  <checkbox class="unselected"/>
-<![CDATA[' TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934]]>  
+  <text>
+    <location value="55"/>
+    <location value="131"/>
+    <location value="446"/>
+    <location value="145"/>
+    <checkbox class="unselected"/>
+<![CDATA[' TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934]]>  </text>
   <text>
     <location value="249"/>
     <location value="148"/>
@@ -66,12 +70,13 @@
     <location value="154"/>
     OR
   </text>
-  <location value="55"/>
-  <location value="156"/>
-  <location value="416"/>
-  <location value="169"/>
-  <checkbox class="unselected"/>
-<![CDATA[' SHELL COMPANY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934]]>  
+  <text>
+    <location value="55"/>
+    <location value="156"/>
+    <location value="416"/>
+    <location value="169"/>
+    <checkbox class="unselected"/>
+<![CDATA[' SHELL COMPANY REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934]]>  </text>
   <text>
     <location value="71"/>
     <location value="171"/>
@@ -265,96 +270,112 @@
     <location value="367"/>
     Indicate by check mark if the registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act.
   </text>
-  <location value="389"/>
-  <location value="361"/>
-  <location value="410"/>
-  <location value="366"/>
-  <checkbox class="selected"/>
-  Yes È
-  <location value="416"/>
-  <location value="361"/>
-  <location value="435"/>
-  <location value="367"/>
-  <checkbox class="unselected"/>
-<![CDATA[No ']]>  
+  <text>
+    <location value="389"/>
+    <location value="361"/>
+    <location value="410"/>
+    <location value="366"/>
+    <checkbox class="selected"/>
+    Yes È
+  </text>
+  <text>
+    <location value="416"/>
+    <location value="361"/>
+    <location value="435"/>
+    <location value="367"/>
+    <checkbox class="unselected"/>
+<![CDATA[No ']]>  </text>
   <text>
     <location value="56"/>
     <location value="368"/>
     <location value="443"/>
     <location value="379"/>
 <![CDATA[If this report is an annual or transition report, indicate by check mark if the registrant is not required to file reports pursuant to Section 13 or 15(d) of the Securities Exchange Act of 1934. Yes ' No È]]>  </text>
-  <location value="184"/>
-  <location value="373"/>
-  <location value="206"/>
-  <location value="379"/>
-  <checkbox class="unselected"/>
-<![CDATA[Yes ']]>  
-  <location value="212"/>
-  <location value="373"/>
-  <location value="231"/>
-  <location value="379"/>
-  <checkbox class="selected"/>
-  No È
+  <text>
+    <location value="184"/>
+    <location value="373"/>
+    <location value="206"/>
+    <location value="379"/>
+    <checkbox class="unselected"/>
+<![CDATA[Yes ']]>  </text>
+  <text>
+    <location value="212"/>
+    <location value="373"/>
+    <location value="231"/>
+    <location value="379"/>
+    <checkbox class="selected"/>
+    No È
+  </text>
   <text>
     <location value="55"/>
     <location value="380"/>
     <location value="453"/>
     <location value="397"/>
 <![CDATA[Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports), and (2) has been subject to such filing requirements for the past 90 days. Yes È No ']]>  </text>
-  <location value="209"/>
-  <location value="391"/>
-  <location value="228"/>
-  <location value="396"/>
-  <checkbox class="unselected"/>
-<![CDATA[No ']]>  
-  <location value="182"/>
-  <location value="391"/>
-  <location value="203"/>
-  <location value="396"/>
-  <checkbox class="selected"/>
-  Yes È
+  <text>
+    <location value="209"/>
+    <location value="391"/>
+    <location value="228"/>
+    <location value="396"/>
+    <checkbox class="unselected"/>
+<![CDATA[No ']]>  </text>
+  <text>
+    <location value="182"/>
+    <location value="391"/>
+    <location value="203"/>
+    <location value="396"/>
+    <checkbox class="selected"/>
+    Yes È
+  </text>
   <text>
     <location value="54"/>
     <location value="398"/>
     <location value="451"/>
     <location value="416"/>
 <![CDATA[Indicate by check mark whether the registrant has submitted electronically and posted on its corporate Web site, if any, every Interactive Data File required to be submitted and posted pursuant to Rule 405 of Regulation S-T (§ 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit and post such files). Yes È No ']]>  </text>
-  <location value="279"/>
-  <location value="409"/>
-  <location value="300"/>
-  <location value="414"/>
-  <checkbox class="selected"/>
-  Yes È
-  <location value="306"/>
-  <location value="409"/>
-  <location value="325"/>
-  <location value="414"/>
-  <checkbox class="unselected"/>
-<![CDATA[No ']]>  
+  <text>
+    <location value="279"/>
+    <location value="409"/>
+    <location value="300"/>
+    <location value="414"/>
+    <checkbox class="selected"/>
+    Yes È
+  </text>
+  <text>
+    <location value="306"/>
+    <location value="409"/>
+    <location value="325"/>
+    <location value="414"/>
+    <checkbox class="unselected"/>
+<![CDATA[No ']]>  </text>
   <text>
     <location value="55"/>
     <location value="416"/>
     <location value="436"/>
     <location value="427"/>
 <![CDATA[Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, or a non-accelerated filer. See definition of 'accelerated filer and large accelerated filer' in Rule 12b-2 of the Exchange Act. (Check one):]]>  </text>
-  <location value="55"/>
-  <location value="429"/>
-  <location value="125"/>
-  <location value="435"/>
-  <checkbox class="selected"/>
-  Large accelerated filer È
-  <location value="264"/>
-  <location value="429"/>
-  <location value="319"/>
-  <location value="435"/>
-  <checkbox class="unselected"/>
-<![CDATA[Accelerated filer ']]>  
-  <location value="389"/>
-  <location value="429"/>
-  <location value="457"/>
-  <location value="435"/>
-  <checkbox class="unselected"/>
-<![CDATA[Non-accelerated filer ']]>  
+  <text>
+    <location value="55"/>
+    <location value="429"/>
+    <location value="125"/>
+    <location value="435"/>
+    <checkbox class="selected"/>
+    Large accelerated filer È
+  </text>
+  <text>
+    <location value="264"/>
+    <location value="429"/>
+    <location value="319"/>
+    <location value="435"/>
+    <checkbox class="unselected"/>
+<![CDATA[Accelerated filer ']]>  </text>
+  <text>
+    <location value="389"/>
+    <location value="429"/>
+    <location value="457"/>
+    <location value="435"/>
+    <checkbox class="unselected"/>
+<![CDATA[Non-accelerated filer ']]>  </text>
   <text>
     <location value="68"/>
     <location value="436"/>
@@ -362,42 +383,49 @@
     <location value="442"/>
     Indicate by check mark which basis of accounting the registrant has used to prepare the financial statements included in this filing:
   </text>
-  <location value="88"/>
-  <location value="443"/>
-  <location value="131"/>
-  <location value="449"/>
-  <checkbox class="selected"/>
-  U.S. GAAP È
-  <location value="187"/>
-  <location value="443"/>
-  <location value="341"/>
-  <location value="455"/>
-  <checkbox class="unselected"/>
-<![CDATA[International Financial Reporting Standards as issued ' by the International Accounting Standards Board]]>  
-  <location value="397"/>
-  <location value="443"/>
-  <location value="424"/>
-  <location value="449"/>
-  <checkbox class="unselected"/>
-<![CDATA[Other ']]>  
+  <text>
+    <location value="88"/>
+    <location value="443"/>
+    <location value="131"/>
+    <location value="449"/>
+    <checkbox class="selected"/>
+    U.S. GAAP È
+  </text>
+  <text>
+    <location value="187"/>
+    <location value="443"/>
+    <location value="341"/>
+    <location value="455"/>
+    <checkbox class="unselected"/>
+<![CDATA[International Financial Reporting Standards as issued ' by the International Accounting Standards Board]]>  </text>
+  <text>
+    <location value="397"/>
+    <location value="443"/>
+    <location value="424"/>
+    <location value="449"/>
+    <checkbox class="unselected"/>
+<![CDATA[Other ']]>  </text>
   <text>
     <location value="54"/>
     <location value="456"/>
     <location value="427"/>
     <location value="467"/>
 <![CDATA[If this is an annual report, indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Exchange Act). Yes ' No È]]>  </text>
-  <location value="75"/>
-  <location value="461"/>
-  <location value="96"/>
-  <location value="467"/>
-  <checkbox class="unselected"/>
-<![CDATA[Yes ']]>  
-  <location value="102"/>
-  <location value="461"/>
-  <location value="121"/>
-  <location value="467"/>
-  <checkbox class="selected"/>
-  No È
+  <text>
+    <location value="75"/>
+    <location value="461"/>
+    <location value="96"/>
+    <location value="467"/>
+    <checkbox class="unselected"/>
+<![CDATA[Yes ']]>  </text>
+  <text>
+    <location value="102"/>
+    <location value="461"/>
+    <location value="121"/>
+    <location value="467"/>
+    <checkbox class="selected"/>
+    No È
+  </text>
   <list ordered="false">
     <list_text>
       <location value="54"/>

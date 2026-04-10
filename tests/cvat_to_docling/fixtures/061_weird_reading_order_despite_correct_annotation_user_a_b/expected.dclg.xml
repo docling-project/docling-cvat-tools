@@ -4,6 +4,7 @@
     <location value="483"/>
     <location value="49"/>
     <location value="488"/>
+    <layer class="furniture"/>
     1-26
   </text>
   <text>
@@ -199,6 +200,7 @@
       <location value="373"/>
       <location value="451"/>
       <location value="471"/>
+      <layer class="furniture"/>
       Figure 1-20.  Terms/landing minima data.
     </caption>
     <picture>

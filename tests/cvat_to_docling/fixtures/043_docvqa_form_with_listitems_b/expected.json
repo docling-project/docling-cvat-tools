@@ -1,45 +1,40 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       {
-        "cref": "#/texts/76"
+        "$ref": "#/texts/76"
       },
       {
-        "cref": "#/texts/77"
+        "$ref": "#/texts/77"
       },
       {
-        "cref": "#/texts/78"
+        "$ref": "#/texts/78"
       },
       {
-        "cref": "#/texts/79"
+        "$ref": "#/texts/79"
       },
       {
-        "cref": "#/texts/80"
+        "$ref": "#/texts/80"
       },
       {
-        "cref": "#/key_value_items/0"
+        "$ref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -47,306 +42,292 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/2"
+          "$ref": "#/texts/2"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_2",
       "label": "list"
     },
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/3"
+          "$ref": "#/texts/3"
         },
         {
-          "cref": "#/texts/4"
+          "$ref": "#/texts/4"
         },
         {
-          "cref": "#/texts/5"
+          "$ref": "#/texts/5"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_0",
       "label": "form_area"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/6"
+          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_6",
       "label": "list"
     },
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/8"
+          "$ref": "#/texts/8"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_7",
       "label": "list"
     },
     {
       "self_ref": "#/groups/4",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_8",
       "label": "list"
     },
     {
       "self_ref": "#/groups/5",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/12"
+          "$ref": "#/texts/12"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_12",
       "label": "list"
     },
     {
       "self_ref": "#/groups/6",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_13",
       "label": "list"
     },
     {
       "self_ref": "#/groups/7",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/16"
+          "$ref": "#/texts/16"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_14",
       "label": "list"
     },
     {
       "self_ref": "#/groups/8",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/18"
+          "$ref": "#/texts/18"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_15",
       "label": "list"
     },
     {
       "self_ref": "#/groups/9",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/27"
+          "$ref": "#/texts/27"
         },
         {
-          "cref": "#/texts/28"
+          "$ref": "#/texts/28"
         },
         {
-          "cref": "#/texts/29"
+          "$ref": "#/texts/29"
         },
         {
-          "cref": "#/texts/30"
+          "$ref": "#/texts/30"
         },
         {
-          "cref": "#/texts/31"
+          "$ref": "#/texts/31"
         },
         {
-          "cref": "#/texts/32"
+          "$ref": "#/texts/32"
         },
         {
-          "cref": "#/texts/33"
+          "$ref": "#/texts/33"
         },
         {
-          "cref": "#/texts/34"
+          "$ref": "#/texts/34"
         },
         {
-          "cref": "#/texts/35"
+          "$ref": "#/texts/35"
         },
         {
-          "cref": "#/texts/36"
+          "$ref": "#/texts/36"
         },
         {
-          "cref": "#/texts/38"
+          "$ref": "#/texts/38"
         },
         {
-          "cref": "#/texts/39"
+          "$ref": "#/texts/39"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_10",
       "label": "form_area"
     },
     {
       "self_ref": "#/groups/10",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/41"
+          "$ref": "#/texts/41"
         },
         {
-          "cref": "#/texts/42"
+          "$ref": "#/texts/42"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_11",
       "label": "form_area"
     },
     {
       "self_ref": "#/groups/11",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/44"
+          "$ref": "#/texts/44"
         },
         {
-          "cref": "#/texts/45"
+          "$ref": "#/texts/45"
         },
         {
-          "cref": "#/texts/46"
+          "$ref": "#/texts/46"
         },
         {
-          "cref": "#/texts/47"
+          "$ref": "#/texts/47"
         },
         {
-          "cref": "#/texts/48"
+          "$ref": "#/texts/48"
         },
         {
-          "cref": "#/texts/49"
+          "$ref": "#/texts/49"
         },
         {
-          "cref": "#/texts/50"
+          "$ref": "#/texts/50"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_12",
       "label": "form_area"
     },
     {
       "self_ref": "#/groups/12",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/52"
+          "$ref": "#/texts/52"
         },
         {
-          "cref": "#/texts/53"
+          "$ref": "#/texts/53"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_13",
       "label": "form_area"
     },
     {
       "self_ref": "#/groups/13",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [
         {
-          "cref": "#/texts/57"
+          "$ref": "#/texts/57"
         },
         {
-          "cref": "#/texts/58"
+          "$ref": "#/texts/58"
         },
         {
-          "cref": "#/texts/60"
+          "$ref": "#/texts/60"
         },
         {
-          "cref": "#/texts/61"
+          "$ref": "#/texts/61"
         },
         {
-          "cref": "#/texts/65"
+          "$ref": "#/texts/65"
         },
         {
-          "cref": "#/texts/66"
+          "$ref": "#/texts/66"
         },
         {
-          "cref": "#/texts/67"
+          "$ref": "#/texts/67"
         },
         {
-          "cref": "#/texts/68"
+          "$ref": "#/texts/68"
         },
         {
-          "cref": "#/texts/69"
+          "$ref": "#/texts/69"
         },
         {
-          "cref": "#/texts/70"
+          "$ref": "#/texts/70"
         },
         {
-          "cref": "#/texts/71"
+          "$ref": "#/texts/71"
         },
         {
-          "cref": "#/texts/72"
+          "$ref": "#/texts/72"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_25",
       "label": "list"
     }
@@ -355,11 +336,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -379,18 +359,15 @@
       ],
       "orig": "REQUEST AND AUTHORIZATION FOR MILITARY PERSONNEL TDY TRAVEL AND CIVILIAN PERSONNEL TDY AND PCS TRAVEL",
       "text": "REQUEST AND AUTHORIZATION FOR MILITARY PERSONNEL TDY TRAVEL AND CIVILIAN PERSONNEL TDY AND PCS TRAVEL",
-      "formatting": null,
-      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -409,18 +386,15 @@
         }
       ],
       "orig": "(AR 310-10 and CPR T-3)",
-      "text": "(AR 310-10 and CPR T-3)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "(AR 310-10 and CPR T-3)"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -440,19 +414,16 @@
       ],
       "orig": "1. TYPE OF TRAVEL ORDERS",
       "text": "1. TYPE OF TRAVEL ORDERS",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -471,18 +442,15 @@
         }
       ],
       "orig": "TDY. UCMR PROPER STA.",
-      "text": "TDY. UCMR PROPER STA.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "TDY. UCMR PROPER STA."
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -501,18 +469,15 @@
         }
       ],
       "orig": "[ PCS (Civilian only)",
-      "text": "[ PCS (Civilian only)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "[ PCS (Civilian only)"
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -531,18 +496,15 @@
         }
       ],
       "orig": "CONFIRMATORY ORDERS",
-      "text": "CONFIRMATORY ORDERS",
-      "formatting": null,
-      "hyperlink": null
+      "text": "CONFIRMATORY ORDERS"
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -562,19 +524,16 @@
       ],
       "orig": "2. NAME OF REQUESTING OFFICE",
       "text": "2. NAME OF REQUESTING OFFICE",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -593,18 +552,15 @@
         }
       ],
       "orig": "0n. 25",
-      "text": "0n. 25",
-      "formatting": null,
-      "hyperlink": null
+      "text": "0n. 25"
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -624,19 +580,16 @@
       ],
       "orig": "3. TELEPHONE EXT",
       "text": "3. TELEPHONE EXT",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -655,18 +608,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -686,19 +636,16 @@
       ],
       "orig": "4. DATE",
       "text": "4. DATE",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -717,18 +664,15 @@
         }
       ],
       "orig": "20 Kiny 62",
-      "text": "20 Kiny 62",
-      "formatting": null,
-      "hyperlink": null
+      "text": "20 Kiny 62"
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -748,19 +692,16 @@
       ],
       "orig": "6. ORGANIZATION AND STATION",
       "text": "6. ORGANIZATION AND STATION",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -779,18 +720,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -810,19 +748,16 @@
       ],
       "orig": "7. TO PROCEED O/A",
       "text": "7. TO PROCEED O/A",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -841,18 +776,15 @@
         }
       ],
       "orig": "13",
-      "text": "13",
-      "formatting": null,
-      "hyperlink": null
+      "text": "13"
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -872,19 +804,16 @@
       ],
       "orig": "8. APPROXIMATE NUMBER OF DAYS",
       "text": "8. APPROXIMATE NUMBER OF DAYS",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -903,18 +832,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/groups/8"
+        "$ref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -934,19 +860,16 @@
       ],
       "orig": "9. ITINERARY",
       "text": "9. ITINERARY",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -964,19 +887,16 @@
           ]
         }
       ],
-      "orig": "• CIPAP",
-      "text": "• CIPAP",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 CIPAP",
+      "text": "\u2022 CIPAP"
     },
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -995,18 +915,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1025,18 +942,15 @@
         }
       ],
       "orig": "Sto Louis, Hissourt",
-      "text": "Sto Louis, Hissourt",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Sto Louis, Hissourt"
     },
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1055,18 +969,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1085,18 +996,15 @@
         }
       ],
       "orig": "Denver, Colorado UCAR St Jouds. No",
-      "text": "Denver, Colorado UCAR St Jouds. No",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Denver, Colorado UCAR St Jouds. No"
     },
     {
       "self_ref": "#/texts/24",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1116,18 +1024,15 @@
       ],
       "orig": "10. PURPOSE OF TEMPORARY DUTY",
       "text": "10. PURPOSE OF TEMPORARY DUTY",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/25",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1146,18 +1051,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/26",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1177,18 +1079,15 @@
       ],
       "orig": "11. TRANSPORTATION AUTHORIZED",
       "text": "11. TRANSPORTATION AUTHORIZED",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/27",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1207,18 +1106,15 @@
         }
       ],
       "orig": "COMMON CARRIER:",
-      "text": "COMMON CARRIER:",
-      "formatting": null,
-      "hyperlink": null
+      "text": "COMMON CARRIER:"
     },
     {
       "self_ref": "#/texts/28",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1237,18 +1133,15 @@
         }
       ],
       "orig": "FAIR",
-      "text": "FAIR",
-      "formatting": null,
-      "hyperlink": null
+      "text": "FAIR"
     },
     {
       "self_ref": "#/texts/29",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1267,18 +1160,15 @@
         }
       ],
       "orig": "SURFACE",
-      "text": "SURFACE",
-      "formatting": null,
-      "hyperlink": null
+      "text": "SURFACE"
     },
     {
       "self_ref": "#/texts/30",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1297,18 +1187,15 @@
         }
       ],
       "orig": "1 WATER",
-      "text": "1 WATER",
-      "formatting": null,
-      "hyperlink": null
+      "text": "1 WATER"
     },
     {
       "self_ref": "#/texts/31",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1327,18 +1214,15 @@
         }
       ],
       "orig": "AS DETERMINED BY TRANSPORTATION OFF. (Military only)",
-      "text": "AS DETERMINED BY TRANSPORTATION OFF. (Military only)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "AS DETERMINED BY TRANSPORTATION OFF. (Military only)"
     },
     {
       "self_ref": "#/texts/32",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1357,18 +1241,15 @@
         }
       ],
       "orig": "GOVERNMENT OWNED:",
-      "text": "GOVERNMENT OWNED:",
-      "formatting": null,
-      "hyperlink": null
+      "text": "GOVERNMENT OWNED:"
     },
     {
       "self_ref": "#/texts/33",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1387,18 +1268,15 @@
         }
       ],
       "orig": "D VEHICLE",
-      "text": "D VEHICLE",
-      "formatting": null,
-      "hyperlink": null
+      "text": "D VEHICLE"
     },
     {
       "self_ref": "#/texts/34",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1417,18 +1295,15 @@
         }
       ],
       "orig": "AIRCRAFT",
-      "text": "AIRCRAFT",
-      "formatting": null,
-      "hyperlink": null
+      "text": "AIRCRAFT"
     },
     {
       "self_ref": "#/texts/35",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1446,23 +1321,20 @@
           ]
         }
       ],
-      "orig": "• VESSEL",
-      "text": "• VESSEL",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 VESSEL",
+      "text": "\u2022 VESSEL"
     },
     {
       "self_ref": "#/texts/36",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [
         {
-          "cref": "#/texts/37"
+          "$ref": "#/texts/37"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1481,18 +1353,15 @@
         }
       ],
       "orig": "PRIVATELY-OWNED VEHICLE AT RATE OF_ . CENTS PER MILE",
-      "text": "PRIVATELY-OWNED VEHICLE AT RATE OF_ . CENTS PER MILE",
-      "formatting": null,
-      "hyperlink": null
+      "text": "PRIVATELY-OWNED VEHICLE AT RATE OF_ . CENTS PER MILE"
     },
     {
       "self_ref": "#/texts/37",
       "parent": {
-        "cref": "#/texts/36"
+        "$ref": "#/texts/36"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -1511,18 +1380,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/38",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1541,18 +1407,15 @@
         }
       ],
       "orig": "] TPA-TMDAG",
-      "text": "] TPA-TMDAG",
-      "formatting": null,
-      "hyperlink": null
+      "text": "] TPA-TMDAG"
     },
     {
       "self_ref": "#/texts/39",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1571,18 +1434,15 @@
         }
       ],
       "orig": "REIMBURSEMENT LIMITED TO COST TO GOVT OF TRAVEL BY USUAL MODE OF TRANSPORTATION. INCLUDING PER DIEM. (Civilian only)",
-      "text": "REIMBURSEMENT LIMITED TO COST TO GOVT OF TRAVEL BY USUAL MODE OF TRANSPORTATION. INCLUDING PER DIEM. (Civilian only)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "REIMBURSEMENT LIMITED TO COST TO GOVT OF TRAVEL BY USUAL MODE OF TRANSPORTATION. INCLUDING PER DIEM. (Civilian only)"
     },
     {
       "self_ref": "#/texts/40",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1602,18 +1462,15 @@
       ],
       "orig": "12. PER DIEM AUTHORIZED (Civilian Personnel only)",
       "text": "12. PER DIEM AUTHORIZED (Civilian Personnel only)",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/41",
       "parent": {
-        "cref": "#/groups/10"
+        "$ref": "#/groups/10"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1632,18 +1489,15 @@
         }
       ],
       "orig": "MAXIMUM AUTHORIZED BY CPR T-3",
-      "text": "MAXIMUM AUTHORIZED BY CPR T-3",
-      "formatting": null,
-      "hyperlink": null
+      "text": "MAXIMUM AUTHORIZED BY CPR T-3"
     },
     {
       "self_ref": "#/texts/42",
       "parent": {
-        "cref": "#/groups/10"
+        "$ref": "#/groups/10"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1661,19 +1515,16 @@
           ]
         }
       ],
-      "orig": "• OTHER RATES OF PER DIEM (Specify)",
-      "text": "• OTHER RATES OF PER DIEM (Specify)",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 OTHER RATES OF PER DIEM (Specify)",
+      "text": "\u2022 OTHER RATES OF PER DIEM (Specify)"
     },
     {
       "self_ref": "#/texts/43",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1693,18 +1544,15 @@
       ],
       "orig": "TRANSPORTATION OF DEPENDENTS (Civilian Personnel only)",
       "text": "TRANSPORTATION OF DEPENDENTS (Civilian Personnel only)",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/44",
       "parent": {
-        "cref": "#/groups/11"
+        "$ref": "#/groups/11"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1723,18 +1571,15 @@
         }
       ],
       "orig": "EMPLOYEE REQUESTS TRANSPORTATION OF DEPENDENTS WHOSE NAMES) AGE(S) AND RELATIONSHIP(S) APPEAR",
-      "text": "EMPLOYEE REQUESTS TRANSPORTATION OF DEPENDENTS WHOSE NAMES) AGE(S) AND RELATIONSHIP(S) APPEAR",
-      "formatting": null,
-      "hyperlink": null
+      "text": "EMPLOYEE REQUESTS TRANSPORTATION OF DEPENDENTS WHOSE NAMES) AGE(S) AND RELATIONSHIP(S) APPEAR"
     },
     {
       "self_ref": "#/texts/45",
       "parent": {
-        "cref": "#/groups/11"
+        "$ref": "#/groups/11"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1753,18 +1598,15 @@
         }
       ],
       "orig": "TRANSPORTATION AUTHORIZED BY GOVERNMENT",
-      "text": "TRANSPORTATION AUTHORIZED BY GOVERNMENT",
-      "formatting": null,
-      "hyperlink": null
+      "text": "TRANSPORTATION AUTHORIZED BY GOVERNMENT"
     },
     {
       "self_ref": "#/texts/46",
       "parent": {
-        "cref": "#/groups/11"
+        "$ref": "#/groups/11"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1783,18 +1625,15 @@
         }
       ],
       "orig": "VEHICLE",
-      "text": "VEHICLE",
-      "formatting": null,
-      "hyperlink": null
+      "text": "VEHICLE"
     },
     {
       "self_ref": "#/texts/47",
       "parent": {
-        "cref": "#/groups/11"
+        "$ref": "#/groups/11"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1813,18 +1652,15 @@
         }
       ],
       "orig": "AIRCRAFT",
-      "text": "AIRCRAFT",
-      "formatting": null,
-      "hyperlink": null
+      "text": "AIRCRAFT"
     },
     {
       "self_ref": "#/texts/48",
       "parent": {
-        "cref": "#/groups/11"
+        "$ref": "#/groups/11"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1842,19 +1678,16 @@
           ]
         }
       ],
-      "orig": "• VESSEL",
-      "text": "• VESSEL",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u2022 VESSEL",
+      "text": "\u2022 VESSEL"
     },
     {
       "self_ref": "#/texts/49",
       "parent": {
-        "cref": "#/groups/11"
+        "$ref": "#/groups/11"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1873,18 +1706,15 @@
         }
       ],
       "orig": "TRANSPORTATION AUTHORIZED BY COMMON CARRIER (Commercial Air, Rail, Bus, Vessel)",
-      "text": "TRANSPORTATION AUTHORIZED BY COMMON CARRIER (Commercial Air, Rail, Bus, Vessel)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "TRANSPORTATION AUTHORIZED BY COMMON CARRIER (Commercial Air, Rail, Bus, Vessel)"
     },
     {
       "self_ref": "#/texts/50",
       "parent": {
-        "cref": "#/groups/11"
+        "$ref": "#/groups/11"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1903,18 +1733,15 @@
         }
       ],
       "orig": "TRANSPORTATION AUTHORIZED BY PRIVATELY-OWNED CONVEYANCE",
-      "text": "TRANSPORTATION AUTHORIZED BY PRIVATELY-OWNED CONVEYANCE",
-      "formatting": null,
-      "hyperlink": null
+      "text": "TRANSPORTATION AUTHORIZED BY PRIVATELY-OWNED CONVEYANCE"
     },
     {
       "self_ref": "#/texts/51",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1934,18 +1761,15 @@
       ],
       "orig": "14. SHIPMENT OF HOUSEHOLD GOODS (Civilian personnel only)",
       "text": "14. SHIPMENT OF HOUSEHOLD GOODS (Civilian personnel only)",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/52",
       "parent": {
-        "cref": "#/groups/12"
+        "$ref": "#/groups/12"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1964,18 +1788,15 @@
         }
       ],
       "orig": "EMPLOYEE HAS DEPENDENTS AND IS AUTHORIZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 7000 POUNDS NET WEIGHT",
-      "text": "EMPLOYEE HAS DEPENDENTS AND IS AUTHORIZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 7000 POUNDS NET WEIGHT",
-      "formatting": null,
-      "hyperlink": null
+      "text": "EMPLOYEE HAS DEPENDENTS AND IS AUTHORIZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 7000 POUNDS NET WEIGHT"
     },
     {
       "self_ref": "#/texts/53",
       "parent": {
-        "cref": "#/groups/12"
+        "$ref": "#/groups/12"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -1994,18 +1815,15 @@
         }
       ],
       "orig": "EMPLOYEE DOES NOT HAVE DEPENDENTS AND IS AUTHOR- IZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 2500 POUNDS NET WEIGHT",
-      "text": "EMPLOYEE DOES NOT HAVE DEPENDENTS AND IS AUTHOR- IZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 2500 POUNDS NET WEIGHT",
-      "formatting": null,
-      "hyperlink": null
+      "text": "EMPLOYEE DOES NOT HAVE DEPENDENTS AND IS AUTHOR- IZED MOVEMENT OF HOUSEHOLD GOODS NOT IN EXCESS OF 2500 POUNDS NET WEIGHT"
     },
     {
       "self_ref": "#/texts/54",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -2025,22 +1843,19 @@
       ],
       "orig": "15. REMARKS (Use this space for special requirements, delay, authority for issuance, names of dependents, designation as courier, superior accommoda- tions, excess baggage, etc.)",
       "text": "15. REMARKS (Use this space for special requirements, delay, authority for issuance, names of dependents, designation as courier, superior accommoda- tions, excess baggage, etc.)",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/55",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/56"
+          "$ref": "#/texts/56"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2058,19 +1873,16 @@
           ]
         }
       ],
-      "orig": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
-      "text": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155\u202216",
+      "text": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155\u202216"
     },
     {
       "self_ref": "#/texts/56",
       "parent": {
-        "cref": "#/texts/55"
+        "$ref": "#/texts/55"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2088,19 +1900,16 @@
           ]
         }
       ],
-      "orig": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
-      "text": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155\u202216",
+      "text": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155\u202216"
     },
     {
       "self_ref": "#/texts/57",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2120,23 +1929,20 @@
       ],
       "orig": "16. ADMINISTRATIVE APPROVAL",
       "text": "16. ADMINISTRATIVE APPROVAL",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/58",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [
         {
-          "cref": "#/texts/59"
+          "$ref": "#/texts/59"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2155,18 +1961,15 @@
         }
       ],
       "orig": "FRANK R SHARDA, Major, (Name, grade or ttle)",
-      "text": "FRANK R SHARDA, Major, (Name, grade or ttle)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "FRANK R SHARDA, Major, (Name, grade or ttle)"
     },
     {
       "self_ref": "#/texts/59",
       "parent": {
-        "cref": "#/texts/58"
+        "$ref": "#/texts/58"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2185,18 +1988,15 @@
         }
       ],
       "orig": "grade or",
-      "text": "grade or",
-      "formatting": null,
-      "hyperlink": null
+      "text": "grade or"
     },
     {
       "self_ref": "#/texts/60",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2216,19 +2016,16 @@
       ],
       "orig": "17. FISCAL APPROVAL (Chargeable to)",
       "text": "17. FISCAL APPROVAL (Chargeable to)",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/61",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2247,18 +2044,15 @@
         }
       ],
       "orig": "A21X2040 206-300l P5010-21 549-02l (92513-552) $156.00",
-      "text": "A21X2040 206-300l P5010-21 549-02l (92513-552) $156.00",
-      "formatting": null,
-      "hyperlink": null
+      "text": "A21X2040 206-300l P5010-21 549-02l (92513-552) $156.00"
     },
     {
       "self_ref": "#/texts/62",
       "parent": {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2277,18 +2071,15 @@
         }
       ],
       "orig": "NAME, GRADE OR TITLE",
-      "text": "NAME, GRADE OR TITLE",
-      "formatting": null,
-      "hyperlink": null
+      "text": "NAME, GRADE OR TITLE"
     },
     {
       "self_ref": "#/texts/63",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2307,18 +2098,15 @@
         }
       ],
       "orig": "PORECARE LABONGE, FinbAcete 01$ 5/10/52",
-      "text": "PORECARE LABONGE, FinbAcete 01$ 5/10/52",
-      "formatting": null,
-      "hyperlink": null
+      "text": "PORECARE LABONGE, FinbAcete 01$ 5/10/52"
     },
     {
       "self_ref": "#/texts/64",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -2338,18 +2126,15 @@
       ],
       "orig": "FOR USE OF APPROVING OFFICE ONLY",
       "text": "FOR USE OF APPROVING OFFICE ONLY",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/65",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2369,19 +2154,16 @@
       ],
       "orig": "18. AGENCY",
       "text": "18. AGENCY",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/66",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2399,19 +2181,16 @@
           ]
         }
       ],
-      "orig": "ORDER NUMBERREFERENCE GOS Gº20. BATE",
-      "text": "ORDER NUMBERREFERENCE GOS Gº20. BATE",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "ORDER NUMBERREFERENCE GOS G\u00ba20. BATE",
+      "text": "ORDER NUMBERREFERENCE GOS G\u00ba20. BATE"
     },
     {
       "self_ref": "#/texts/67",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2431,19 +2210,16 @@
       ],
       "orig": "",
       "text": "",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/68",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2462,18 +2238,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/69",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2493,19 +2266,16 @@
       ],
       "orig": "",
       "text": "",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/70",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2524,18 +2294,15 @@
         }
       ],
       "orig": "IS NECESSAR",
-      "text": "IS NECESSAR",
-      "formatting": null,
-      "hyperlink": null
+      "text": "IS NECESSAR"
     },
     {
       "self_ref": "#/texts/71",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2555,23 +2322,20 @@
       ],
       "orig": "21. APPROVED. TRAVEL TO BE PERFORMED IN THE PUBLIC SERVICE. WP.",
       "text": "21. APPROVED. TRAVEL TO BE PERFORMED IN THE PUBLIC SERVICE. WP.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/72",
       "parent": {
-        "cref": "#/groups/13"
+        "$ref": "#/groups/13"
       },
       "children": [
         {
-          "cref": "#/texts/73"
+          "$ref": "#/texts/73"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2590,18 +2354,15 @@
         }
       ],
       "orig": "FOR THE SURGEON GENERAL:",
-      "text": "FOR THE SURGEON GENERAL:",
-      "formatting": null,
-      "hyperlink": null
+      "text": "FOR THE SURGEON GENERAL:"
     },
     {
       "self_ref": "#/texts/73",
       "parent": {
-        "cref": "#/texts/72"
+        "$ref": "#/texts/72"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2620,18 +2381,15 @@
         }
       ],
       "orig": "FOR THE SURGEON GENERAL:",
-      "text": "FOR THE SURGEON GENERAL:",
-      "formatting": null,
-      "hyperlink": null
+      "text": "FOR THE SURGEON GENERAL:"
     },
     {
       "self_ref": "#/texts/74",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2650,18 +2408,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/75",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2680,18 +2435,15 @@
         }
       ],
       "orig": "W. LaCkOSs, Chief Civilien Persomel Division",
-      "text": "W. LaCkOSs, Chief Civilien Persomel Division",
-      "formatting": null,
-      "hyperlink": null
+      "text": "W. LaCkOSs, Chief Civilien Persomel Division"
     },
     {
       "self_ref": "#/texts/76",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2710,18 +2462,15 @@
         }
       ],
       "orig": "DA FORM 662 1 OCT 61",
-      "text": "DA FORM 662 1 OCT 61",
-      "formatting": null,
-      "hyperlink": null
+      "text": "DA FORM 662 1 OCT 61"
     },
     {
       "self_ref": "#/texts/77",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2740,18 +2489,15 @@
         }
       ],
       "orig": "PREVIOUS EDITIONS ARE OBSOLETE",
-      "text": "PREVIOUS EDITIONS ARE OBSOLETE",
-      "formatting": null,
-      "hyperlink": null
+      "text": "PREVIOUS EDITIONS ARE OBSOLETE"
     },
     {
       "self_ref": "#/texts/78",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2770,18 +2516,15 @@
         }
       ],
       "orig": "5",
-      "text": "5",
-      "formatting": null,
-      "hyperlink": null
+      "text": "5"
     },
     {
       "self_ref": "#/texts/79",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2800,18 +2543,15 @@
         }
       ],
       "orig": "Source: https://www.industrydocuments.ucsf.edu/docs/tkwg0227",
-      "text": "Source: https://www.industrydocuments.ucsf.edu/docs/tkwg0227",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Source: https://www.industrydocuments.ucsf.edu/docs/tkwg0227"
     },
     {
       "self_ref": "#/texts/80",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2830,24 +2570,21 @@
         }
       ],
       "orig": "15W NET",
-      "text": "15W NET",
-      "formatting": null,
-      "hyperlink": null
+      "text": "15W NET"
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/groups/13"
+          "$ref": "#/groups/13"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2868,21 +2605,19 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/62"
+          "$ref": "#/texts/62"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2903,7 +2638,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     }
   ],
@@ -2911,11 +2645,10 @@
     {
       "self_ref": "#/tables/0",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -2936,7 +2669,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "data": {
         "table_cells": [
           {
@@ -3356,17 +3088,15 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [
           {
@@ -3389,7 +3119,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/6"
+              "$ref": "#/texts/6"
             }
           },
           {
@@ -3412,7 +3142,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/7"
+              "$ref": "#/texts/7"
             }
           },
           {
@@ -3435,7 +3165,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/8"
+              "$ref": "#/texts/8"
             }
           },
           {
@@ -3458,7 +3188,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/9"
+              "$ref": "#/texts/9"
             }
           },
           {
@@ -3481,7 +3211,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/10"
+              "$ref": "#/texts/10"
             }
           },
           {
@@ -3504,7 +3234,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/11"
+              "$ref": "#/texts/11"
             }
           },
           {
@@ -3527,7 +3257,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/20"
+              "$ref": "#/texts/20"
             }
           },
           {
@@ -3550,7 +3280,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/21"
+              "$ref": "#/texts/21"
             }
           },
           {
@@ -3573,7 +3303,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/22"
+              "$ref": "#/texts/22"
             }
           },
           {
@@ -3596,7 +3326,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/23"
+              "$ref": "#/texts/23"
             }
           },
           {
@@ -3619,7 +3349,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/12"
+              "$ref": "#/texts/12"
             }
           },
           {
@@ -3642,7 +3372,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/13"
+              "$ref": "#/texts/13"
             }
           },
           {
@@ -3665,7 +3395,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/14"
+              "$ref": "#/texts/14"
             }
           },
           {
@@ -3688,7 +3418,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/15"
+              "$ref": "#/texts/15"
             }
           },
           {
@@ -3711,7 +3441,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/16"
+              "$ref": "#/texts/16"
             }
           },
           {
@@ -3734,7 +3464,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/17"
+              "$ref": "#/texts/17"
             }
           },
           {
@@ -3757,7 +3487,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/24"
+              "$ref": "#/texts/24"
             }
           },
           {
@@ -3780,7 +3510,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/25"
+              "$ref": "#/texts/25"
             }
           },
           {
@@ -3803,7 +3533,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/57"
+              "$ref": "#/texts/57"
             }
           },
           {
@@ -3826,7 +3556,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/58"
+              "$ref": "#/texts/58"
             }
           },
           {
@@ -3849,14 +3579,14 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/65"
+              "$ref": "#/texts/65"
             }
           },
           {
             "label": "value",
             "cell_id": 21,
-            "text": "ORDER NUMBERREFERENCE GOS Gº20. BATE",
-            "orig": "ORDER NUMBERREFERENCE GOS Gº20. BATE",
+            "text": "ORDER NUMBERREFERENCE GOS G\u00ba20. BATE",
+            "orig": "ORDER NUMBERREFERENCE GOS G\u00ba20. BATE",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3872,7 +3602,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/66"
+              "$ref": "#/texts/66"
             }
           },
           {
@@ -3895,7 +3625,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/67"
+              "$ref": "#/texts/67"
             }
           },
           {
@@ -3918,7 +3648,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/68"
+              "$ref": "#/texts/68"
             }
           },
           {
@@ -3941,7 +3671,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/69"
+              "$ref": "#/texts/69"
             }
           },
           {
@@ -3964,7 +3694,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/70"
+              "$ref": "#/texts/70"
             }
           },
           {
@@ -3987,7 +3717,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/73"
+              "$ref": "#/texts/73"
             }
           },
           {
@@ -4010,7 +3740,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/72"
+              "$ref": "#/texts/72"
             }
           },
           {
@@ -4033,7 +3763,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/74"
+              "$ref": "#/texts/74"
             }
           },
           {
@@ -4056,7 +3786,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/75"
+              "$ref": "#/texts/75"
             }
           },
           {
@@ -4077,8 +3807,7 @@
                 0,
                 7
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4098,8 +3827,7 @@
                 0,
                 52
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -4121,7 +3849,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/2"
+              "$ref": "#/texts/2"
             }
           },
           {
@@ -4144,7 +3872,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/3"
+              "$ref": "#/texts/3"
             }
           },
           {
@@ -4167,7 +3895,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/4"
+              "$ref": "#/texts/4"
             }
           },
           {
@@ -4190,7 +3918,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/5"
+              "$ref": "#/texts/5"
             }
           },
           {
@@ -4213,14 +3941,14 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/54"
+              "$ref": "#/texts/54"
             }
           },
           {
             "label": "value",
             "cell_id": 37,
-            "text": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
-            "orig": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155•16",
+            "text": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155\u202216",
+            "orig": "2 e t c o u g c u t g e n b L e to 5010 D Gond fund I$ 207oh6 FDO 48e00 TOTALS 155\u202216",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -4236,7 +3964,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/55"
+              "$ref": "#/texts/55"
             }
           }
         ],
@@ -4349,135 +4077,134 @@
     {
       "self_ref": "#/form_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/0"
+          "$ref": "#/texts/0"
         },
         {
-          "cref": "#/texts/1"
+          "$ref": "#/texts/1"
         },
         {
-          "cref": "#/groups/0"
+          "$ref": "#/groups/0"
         },
         {
-          "cref": "#/groups/1"
+          "$ref": "#/groups/1"
         },
         {
-          "cref": "#/groups/2"
+          "$ref": "#/groups/2"
         },
         {
-          "cref": "#/texts/7"
+          "$ref": "#/texts/7"
         },
         {
-          "cref": "#/groups/3"
+          "$ref": "#/groups/3"
         },
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         },
         {
-          "cref": "#/groups/4"
+          "$ref": "#/groups/4"
         },
         {
-          "cref": "#/texts/11"
+          "$ref": "#/texts/11"
         },
         {
-          "cref": "#/tables/0"
+          "$ref": "#/tables/0"
         },
         {
-          "cref": "#/groups/5"
+          "$ref": "#/groups/5"
         },
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         },
         {
-          "cref": "#/groups/6"
+          "$ref": "#/groups/6"
         },
         {
-          "cref": "#/texts/15"
+          "$ref": "#/texts/15"
         },
         {
-          "cref": "#/groups/7"
+          "$ref": "#/groups/7"
         },
         {
-          "cref": "#/texts/17"
+          "$ref": "#/texts/17"
         },
         {
-          "cref": "#/groups/8"
+          "$ref": "#/groups/8"
         },
         {
-          "cref": "#/texts/19"
+          "$ref": "#/texts/19"
         },
         {
-          "cref": "#/texts/20"
+          "$ref": "#/texts/20"
         },
         {
-          "cref": "#/texts/21"
+          "$ref": "#/texts/21"
         },
         {
-          "cref": "#/texts/22"
+          "$ref": "#/texts/22"
         },
         {
-          "cref": "#/texts/23"
+          "$ref": "#/texts/23"
         },
         {
-          "cref": "#/texts/24"
+          "$ref": "#/texts/24"
         },
         {
-          "cref": "#/texts/25"
+          "$ref": "#/texts/25"
         },
         {
-          "cref": "#/texts/26"
+          "$ref": "#/texts/26"
         },
         {
-          "cref": "#/groups/9"
+          "$ref": "#/groups/9"
         },
         {
-          "cref": "#/texts/40"
+          "$ref": "#/texts/40"
         },
         {
-          "cref": "#/groups/10"
+          "$ref": "#/groups/10"
         },
         {
-          "cref": "#/texts/43"
+          "$ref": "#/texts/43"
         },
         {
-          "cref": "#/groups/11"
+          "$ref": "#/groups/11"
         },
         {
-          "cref": "#/texts/51"
+          "$ref": "#/texts/51"
         },
         {
-          "cref": "#/groups/12"
+          "$ref": "#/groups/12"
         },
         {
-          "cref": "#/texts/54"
+          "$ref": "#/texts/54"
         },
         {
-          "cref": "#/texts/55"
+          "$ref": "#/texts/55"
         },
         {
-          "cref": "#/pictures/0"
+          "$ref": "#/pictures/0"
         },
         {
-          "cref": "#/pictures/1"
+          "$ref": "#/pictures/1"
         },
         {
-          "cref": "#/texts/63"
+          "$ref": "#/texts/63"
         },
         {
-          "cref": "#/texts/64"
+          "$ref": "#/texts/64"
         },
         {
-          "cref": "#/texts/74"
+          "$ref": "#/texts/74"
         },
         {
-          "cref": "#/texts/75"
+          "$ref": "#/texts/75"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "form",
       "prov": [
         {
@@ -4498,7 +4225,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [],
         "links": []

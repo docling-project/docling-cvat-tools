@@ -1,42 +1,37 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/texts/0"
+        "$ref": "#/texts/0"
       },
       {
-        "cref": "#/texts/1"
+        "$ref": "#/texts/1"
       },
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/38"
+        "$ref": "#/texts/38"
       },
       {
-        "cref": "#/texts/39"
+        "$ref": "#/texts/39"
       },
       {
-        "cref": "#/key_value_items/0"
+        "$ref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -45,11 +40,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -68,18 +62,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -98,18 +89,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -128,18 +116,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -158,18 +143,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -188,18 +170,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -218,18 +197,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -248,18 +224,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -278,18 +251,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -308,18 +278,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -338,18 +305,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -368,18 +332,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -398,18 +359,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -428,18 +386,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -458,18 +413,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -488,18 +440,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -518,18 +467,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -548,18 +494,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -578,18 +521,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -608,18 +548,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -638,18 +575,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -668,18 +602,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -698,18 +629,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -728,18 +656,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -758,18 +683,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/24",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -788,18 +710,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/25",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -818,18 +737,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/26",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -848,18 +764,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/27",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -878,18 +791,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/28",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -908,18 +818,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/29",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -938,18 +845,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/30",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -968,18 +872,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/31",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -998,18 +899,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/32",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1028,18 +926,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/33",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1058,18 +953,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/34",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1088,18 +980,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/35",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1118,18 +1007,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/36",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1148,18 +1034,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/37",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1178,18 +1061,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/38",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "caption",
       "prov": [
         {
@@ -1208,18 +1088,15 @@
         }
       ],
       "orig": "Figure  3.7 1.  Schlieren  Photographs  of  Supersonic  Flight  (sheet  2  of  2)",
-      "text": "Figure  3.7 1.  Schlieren  Photographs  of  Supersonic  Flight  (sheet  2  of  2)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Figure  3.7 1.  Schlieren  Photographs  of  Supersonic  Flight  (sheet  2  of  2)"
     },
     {
       "self_ref": "#/texts/39",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1238,131 +1115,127 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/2"
+          "$ref": "#/texts/2"
         },
         {
-          "cref": "#/texts/3"
+          "$ref": "#/texts/3"
         },
         {
-          "cref": "#/texts/4"
+          "$ref": "#/texts/4"
         },
         {
-          "cref": "#/texts/5"
+          "$ref": "#/texts/5"
         },
         {
-          "cref": "#/texts/6"
+          "$ref": "#/texts/6"
         },
         {
-          "cref": "#/texts/7"
+          "$ref": "#/texts/7"
         },
         {
-          "cref": "#/texts/8"
+          "$ref": "#/texts/8"
         },
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         },
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         },
         {
-          "cref": "#/texts/11"
+          "$ref": "#/texts/11"
         },
         {
-          "cref": "#/texts/12"
+          "$ref": "#/texts/12"
         },
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         },
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         },
         {
-          "cref": "#/texts/15"
+          "$ref": "#/texts/15"
         },
         {
-          "cref": "#/texts/16"
+          "$ref": "#/texts/16"
         },
         {
-          "cref": "#/texts/17"
+          "$ref": "#/texts/17"
         },
         {
-          "cref": "#/texts/18"
+          "$ref": "#/texts/18"
         },
         {
-          "cref": "#/texts/19"
+          "$ref": "#/texts/19"
         },
         {
-          "cref": "#/texts/20"
+          "$ref": "#/texts/20"
         },
         {
-          "cref": "#/texts/21"
+          "$ref": "#/texts/21"
         },
         {
-          "cref": "#/texts/22"
+          "$ref": "#/texts/22"
         },
         {
-          "cref": "#/texts/23"
+          "$ref": "#/texts/23"
         },
         {
-          "cref": "#/texts/24"
+          "$ref": "#/texts/24"
         },
         {
-          "cref": "#/texts/25"
+          "$ref": "#/texts/25"
         },
         {
-          "cref": "#/texts/26"
+          "$ref": "#/texts/26"
         },
         {
-          "cref": "#/texts/27"
+          "$ref": "#/texts/27"
         },
         {
-          "cref": "#/texts/28"
+          "$ref": "#/texts/28"
         },
         {
-          "cref": "#/texts/29"
+          "$ref": "#/texts/29"
         },
         {
-          "cref": "#/texts/30"
+          "$ref": "#/texts/30"
         },
         {
-          "cref": "#/texts/31"
+          "$ref": "#/texts/31"
         },
         {
-          "cref": "#/texts/32"
+          "$ref": "#/texts/32"
         },
         {
-          "cref": "#/texts/33"
+          "$ref": "#/texts/33"
         },
         {
-          "cref": "#/texts/34"
+          "$ref": "#/texts/34"
         },
         {
-          "cref": "#/texts/35"
+          "$ref": "#/texts/35"
         },
         {
-          "cref": "#/texts/36"
+          "$ref": "#/texts/36"
         },
         {
-          "cref": "#/texts/37"
+          "$ref": "#/texts/37"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1371,9 +1244,7 @@
               "class_name": "illustration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1395,7 +1266,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1415,17 +1285,15 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [
           {
@@ -1446,8 +1314,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1467,8 +1334,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1488,8 +1354,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1509,8 +1374,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1530,8 +1394,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1551,8 +1414,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1572,8 +1434,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1593,8 +1454,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1614,8 +1474,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1635,8 +1494,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1656,8 +1514,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1677,8 +1534,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1698,8 +1554,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1719,8 +1574,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1740,8 +1594,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1761,8 +1614,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1782,8 +1634,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1803,8 +1654,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1824,8 +1674,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1845,8 +1694,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1866,8 +1714,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1887,8 +1734,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1908,8 +1754,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1929,8 +1774,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1950,8 +1794,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -1971,8 +1814,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -1992,8 +1834,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2013,8 +1854,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2034,8 +1874,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2055,8 +1894,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2076,8 +1914,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2097,8 +1934,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2118,8 +1954,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2139,8 +1974,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2160,8 +1994,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2181,8 +2014,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2202,8 +2034,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2223,8 +2054,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2244,8 +2074,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2265,8 +2094,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2286,8 +2114,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2307,8 +2134,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2328,8 +2154,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2349,8 +2174,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2370,8 +2194,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2391,8 +2214,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2412,8 +2234,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2433,8 +2254,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2454,8 +2274,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2475,8 +2294,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2496,8 +2314,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2517,8 +2334,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2538,8 +2354,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2559,8 +2374,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2580,8 +2394,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2601,8 +2414,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2622,8 +2434,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2643,8 +2454,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2664,8 +2474,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2685,8 +2494,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2706,8 +2514,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2727,8 +2534,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2748,8 +2554,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2769,8 +2574,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2790,8 +2594,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2811,8 +2614,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2832,8 +2634,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2853,8 +2654,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2874,8 +2674,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2895,8 +2694,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2916,8 +2714,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2937,8 +2734,7 @@
                 0,
                 0
               ]
-            },
-            "item_ref": null
+            }
           }
         ],
         "links": [

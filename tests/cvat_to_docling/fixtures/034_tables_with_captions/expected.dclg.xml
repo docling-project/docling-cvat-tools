@@ -4,12 +4,14 @@
     <location value="69"/>
     <location value="52"/>
     <location value="75"/>
+    <layer class="furniture"/>
   </text>
   <heading level="1">
     <location value="64"/>
     <location value="64"/>
     <location value="395"/>
     <location value="79"/>
+    <layer class="furniture"/>
 <![CDATA[Management's Discussion and Analysis of Financial Condition and Results of Operations]]>  </heading>
   <text>
     <location value="64"/>

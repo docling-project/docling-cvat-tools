@@ -4,12 +4,14 @@
     <location value="46"/>
     <location value="489"/>
     <location value="131"/>
+    <layer class="furniture"/>
   </text>
   <text>
     <location value="474"/>
     <location value="46"/>
     <location value="481"/>
     <location value="163"/>
+    <layer class="furniture"/>
   </text>
   <floating_group class="picture">
     <picture>
@@ -34,5 +36,6 @@
     <location value="256"/>
     <location value="28"/>
     <location value="269"/>
+    <layer class="furniture"/>
   </text>
 </doclang>

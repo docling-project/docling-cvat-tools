@@ -4,6 +4,7 @@
     <location value="17"/>
     <location value="465"/>
     <location value="22"/>
+    <layer class="furniture"/>
     FAIRFAX MEDIA  LIMITED  2013
   </text>
   <text>
@@ -11,6 +12,7 @@
     <location value="17"/>
     <location value="498"/>
     <location value="22"/>
+    <layer class="furniture"/>
     37
   </text>
   <heading level="1">
@@ -172,7 +174,19 @@
       <nl/>
       <rhed/>
       What is the STi?
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="146"/>
+        <location value="319"/>
+        <location value="463"/>
+        <location value="335"/>
+<![CDATA[Annual bonus payments for senior executives with an emphasis on the achievement of annual financial  performance	criteria	for	the	Group	as	well	as	specific	strategic	and	operational	criteria.	For	key	senior	executives	 other than the CEO, the bonus criteria were set by the P&CC. Bonus criteria for the CEO were set by the Board.]]>      </text>
+      <text>
+        <location value="145"/>
+        <location value="338"/>
+        <location value="456"/>
+        <location value="354"/>
+<![CDATA[For the 2013 financial year, an incentive gate applied which required a threshold level of financial performance  to be achieved before any bonuses became payable. The incentive gate was set at the achievement of the  Group's budgeted EBIT. This was not achieved in 2013 so no STI was paid.]]>      </text>
       <nl/>
       <rhed/>
       What were the performance  measures and why were  they chosen?
@@ -233,16 +247,4 @@
       <nl/>
     </otsl>
   </floating_group>
-  <text>
-    <location value="146"/>
-    <location value="319"/>
-    <location value="463"/>
-    <location value="335"/>
-<![CDATA[Annual bonus payments for senior executives with an emphasis on the achievement of annual financial  performance	criteria	for	the	Group	as	well	as	specific	strategic	and	operational	criteria.	For	key	senior	executives	 other than the CEO, the bonus criteria were set by the P&CC. Bonus criteria for the CEO were set by the Board.]]>  </text>
-  <text>
-    <location value="145"/>
-    <location value="338"/>
-    <location value="456"/>
-    <location value="354"/>
-<![CDATA[For the 2013 financial year, an incentive gate applied which required a threshold level of financial performance  to be achieved before any bonuses became payable. The incentive gate was set at the achievement of the  Group's budgeted EBIT. This was not achieved in 2013 so no STI was paid.]]>  </text>
 </doclang>

@@ -8,6 +8,7 @@
       <location value="29"/>
       <location value="185"/>
       <location value="58"/>
+      <layer class="furniture"/>
     </picture>
   </floating_group>
   <text>
@@ -15,6 +16,7 @@
     <location value="61"/>
     <location value="474"/>
     <location value="66"/>
+    <layer class="furniture"/>
     General Administrative and Submission Clauses
   </text>
   <heading level="2">
@@ -45,7 +47,21 @@
       <ecel/>
       <fcel/>
       Form 1: Tenderer Contact Form
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="303"/>
+        <location value="170"/>
+        <location value="486"/>
+        <location value="184"/>
+        and dated forms listed in the column to the
+      </text>
+      <text>
+        <location value="303"/>
+        <location value="186"/>
+        <location value="487"/>
+        <location value="199"/>
+        Submission. To be uploaded in section concerned in e-
+      </text>
       <nl/>
       <ecel/>
       <fcel/>
@@ -76,7 +92,21 @@
       <ecel/>
       <fcel/>
       Form 6: Financial capacity
-      <ecel/>
+      <fcel/>
+      <text>
+        <location value="302"/>
+        <location value="210"/>
+        <location value="489"/>
+        <location value="247"/>
+        Sole tenderers, members of a Group of economic operators (e.g. consortium) including subcontractors - if applicable - to selection criteria. must provide the documentation in relation
+      </text>
+      <text>
+        <location value="304"/>
+        <location value="248"/>
+        <location value="487"/>
+        <location value="262"/>
+        Submission. To be uploaded in section concerned in e-
+      </text>
       <nl/>
       <ecel/>
       <fcel/>
@@ -90,7 +120,20 @@
       <nl/>
       <ecel/>
       <fcel/>
-<![CDATA[As per the requirements stated in point 2.2 of the 'Terms of Reference' or in the 'Technical proposal form']]>      <ecel/>
+<![CDATA[As per the requirements stated in point 2.2 of the 'Terms of Reference' or in the 'Technical proposal form']]>      <fcel/>
+      <text>
+        <location value="303"/>
+        <location value="272"/>
+        <location value="487"/>
+        <location value="286"/>
+<![CDATA[down in 'Terms of Reference'. It must address all the requirements laid]]>      </text>
+      <text>
+        <location value="304"/>
+        <location value="288"/>
+        <location value="487"/>
+        <location value="301"/>
+        Submission. To be uploaded in section concerned in e-
+      </text>
       <nl/>
       <srow/>
       d)
@@ -100,7 +143,21 @@
       <nl/>
       <ecel/>
       <fcel/>
-<![CDATA[Financial proposal form as attached to the 'Terms of Reference']]>      <ecel/>
+<![CDATA[Financial proposal form as attached to the 'Terms of Reference']]>      <fcel/>
+      <text>
+        <location value="303"/>
+        <location value="319"/>
+        <location value="487"/>
+        <location value="334"/>
+        proposal form. The completed and signed financial
+      </text>
+      <text>
+        <location value="304"/>
+        <location value="335"/>
+        <location value="487"/>
+        <location value="348"/>
+        Submission. To be uploaded in section concerned in e-
+      </text>
       <nl/>
       <srow/>
       e) Any
@@ -111,61 +168,6 @@
       <nl/>
     </otsl>
   </floating_group>
-  <text>
-    <location value="303"/>
-    <location value="170"/>
-    <location value="486"/>
-    <location value="184"/>
-    and dated forms listed in the column to the
-  </text>
-  <text>
-    <location value="303"/>
-    <location value="186"/>
-    <location value="487"/>
-    <location value="199"/>
-    Submission. To be uploaded in section concerned in e-
-  </text>
-  <text>
-    <location value="302"/>
-    <location value="210"/>
-    <location value="489"/>
-    <location value="247"/>
-    Sole tenderers, members of a Group of economic operators (e.g. consortium) including subcontractors - if applicable - to selection criteria. must provide the documentation in relation
-  </text>
-  <text>
-    <location value="304"/>
-    <location value="248"/>
-    <location value="487"/>
-    <location value="262"/>
-    Submission. To be uploaded in section concerned in e-
-  </text>
-  <text>
-    <location value="303"/>
-    <location value="272"/>
-    <location value="487"/>
-    <location value="286"/>
-<![CDATA[down in 'Terms of Reference'. It must address all the requirements laid]]>  </text>
-  <text>
-    <location value="304"/>
-    <location value="288"/>
-    <location value="487"/>
-    <location value="301"/>
-    Submission. To be uploaded in section concerned in e-
-  </text>
-  <text>
-    <location value="303"/>
-    <location value="319"/>
-    <location value="487"/>
-    <location value="334"/>
-    proposal form. The completed and signed financial
-  </text>
-  <text>
-    <location value="304"/>
-    <location value="335"/>
-    <location value="487"/>
-    <location value="348"/>
-    Submission. To be uploaded in section concerned in e-
-  </text>
   <text>
     <location value="62"/>
     <location value="367"/>
@@ -203,6 +205,7 @@
       <location value="482"/>
       <location value="94"/>
       <location value="493"/>
+      <layer class="furniture"/>
     </picture>
   </floating_group>
   <text>
@@ -210,6 +213,7 @@
     <location value="489"/>
     <location value="312"/>
     <location value="495"/>
+    <layer class="furniture"/>
     Last updated: June 2020
   </text>
   <text>
@@ -217,6 +221,7 @@
     <location value="489"/>
     <location value="474"/>
     <location value="495"/>
+    <layer class="furniture"/>
     Page 20 of 21
   </text>
 </doclang>

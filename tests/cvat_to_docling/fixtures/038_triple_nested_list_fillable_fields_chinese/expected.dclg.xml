@@ -4,24 +4,28 @@
     <location value="291"/>
     <location value="34"/>
     <location value="332"/>
+    <layer class="furniture"/>
   </text>
   <text>
     <location value="21"/>
     <location value="214"/>
     <location value="29"/>
     <location value="257"/>
+    <layer class="furniture"/>
   </text>
   <text>
     <location value="26"/>
     <location value="154"/>
     <location value="34"/>
     <location value="195"/>
+    <layer class="furniture"/>
   </text>
   <text>
     <location value="42"/>
     <location value="240"/>
     <location value="47"/>
     <location value="276"/>
+    <layer class="furniture"/>
   </text>
   <floating_group class="picture">
     <picture>
@@ -32,6 +36,7 @@
       <location value="45"/>
       <location value="115"/>
       <location value="69"/>
+      <layer class="furniture"/>
     </picture>
   </floating_group>
   <text>
@@ -39,6 +44,7 @@
     <location value="58"/>
     <location value="249"/>
     <location value="71"/>
+    <layer class="furniture"/>
     三 年 級 科 学 下 ・ D X ％ 場
   </text>
   <heading level="1">
@@ -302,6 +308,7 @@
     <location value="476"/>
     <location value="166"/>
     <location value="483"/>
+    <layer class="furniture"/>
     - 7 1   ー
   </text>
   <list ordered="false">
@@ -639,6 +646,7 @@
     <location value="476"/>
     <location value="391"/>
     <location value="483"/>
+    <layer class="furniture"/>
     - 7 2   ー
   </text>
   <text>
@@ -646,6 +654,7 @@
     <location value="503"/>
     <location value="318"/>
     <location value="511"/>
+    <layer class="furniture"/>
     美 后 湖 成 必 众 是 一 我 就 资 孙 話 ” 衣 取 史 多 司 门 学 1
   </text>
   <text>
@@ -653,18 +662,21 @@
     <location value="179"/>
     <location value="20"/>
     <location value="195"/>
+    <layer class="furniture"/>
   </text>
   <text>
     <location value="16"/>
     <location value="252"/>
     <location value="22"/>
     <location value="267"/>
+    <layer class="furniture"/>
   </text>
   <text>
     <location value="14"/>
     <location value="312"/>
     <location value="20"/>
     <location value="328"/>
+    <layer class="furniture"/>
   </text>
   <floating_group class="picture">
     <picture>
@@ -675,6 +687,7 @@
       <location value="347"/>
       <location value="299"/>
       <location value="432"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
   <text>
@@ -682,6 +695,7 @@
     <location value="446"/>
     <location value="300"/>
     <location value="466"/>
+    <layer class="background"/>
     微 信 言 公 人 一 C .
   </text>
   <text>
@@ -689,6 +703,7 @@
     <location value="480"/>
     <location value="301"/>
     <location value="500"/>
+    <layer class="background"/>
     𢽴 辅 资 料 站
   </text>
 </doclang>

@@ -1111,6 +1111,7 @@
     <location value="479"/>
     <location value="260"/>
     <location value="485"/>
+    <layer class="furniture"/>
     21
   </text>
 </doclang>

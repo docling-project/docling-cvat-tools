@@ -4,6 +4,7 @@
     <location value="9"/>
     <location value="468"/>
     <location value="20"/>
+    <layer class="furniture"/>
     Ein Service des Bundesministeriums der Justiz und für Verbraucherschutz sowie des Bundesamts für Justiz - www.gesetze-im-internet.de
   </text>
   <text>
@@ -175,6 +176,7 @@
     <location value="498"/>
     <location value="289"/>
     <location value="502"/>
+    <layer class="furniture"/>
     - Seite 4 von 6 -
   </text>
 </doclang>

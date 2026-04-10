@@ -496,6 +496,7 @@
       <location value="466"/>
       <location value="105"/>
       <location value="493"/>
+      <layer class="furniture"/>
     </picture>
   </floating_group>
   <text>
@@ -503,12 +504,14 @@
     <location value="477"/>
     <location value="435"/>
     <location value="482"/>
+    <layer class="furniture"/>
   </text>
   <text>
     <location value="129"/>
     <location value="503"/>
     <location value="379"/>
     <location value="511"/>
+    <layer class="furniture"/>
     关 注 微 信 哈 众 “ 教 辅 资 料 站 ” 就 取 更 多 哈 习 资 料
   </text>
   <floating_group class="picture">
@@ -520,6 +523,7 @@
       <location value="355"/>
       <location value="317"/>
       <location value="474"/>
+      <layer class="background"/>
     </picture>
   </floating_group>
 </doclang>

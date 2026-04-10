@@ -1,72 +1,67 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/texts/0"
+        "$ref": "#/texts/0"
       },
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/1"
+        "$ref": "#/texts/1"
       },
       {
-        "cref": "#/texts/2"
+        "$ref": "#/texts/2"
       },
       {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       {
-        "cref": "#/texts/11"
+        "$ref": "#/texts/11"
       },
       {
-        "cref": "#/tables/1"
+        "$ref": "#/tables/1"
       },
       {
-        "cref": "#/texts/12"
+        "$ref": "#/texts/12"
       },
       {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       {
-        "cref": "#/texts/17"
+        "$ref": "#/texts/17"
       },
       {
-        "cref": "#/tables/2"
+        "$ref": "#/tables/2"
       },
       {
-        "cref": "#/texts/18"
+        "$ref": "#/texts/18"
       },
       {
-        "cref": "#/texts/19"
+        "$ref": "#/texts/19"
       },
       {
-        "cref": "#/pictures/3"
+        "$ref": "#/pictures/3"
       },
       {
-        "cref": "#/key_value_items/0"
+        "$ref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -74,69 +69,66 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       "children": [
         {
-          "cref": "#/texts/3"
+          "$ref": "#/texts/3"
         },
         {
-          "cref": "#/texts/4"
+          "$ref": "#/texts/4"
         },
         {
-          "cref": "#/texts/5"
+          "$ref": "#/texts/5"
         },
         {
-          "cref": "#/texts/6"
+          "$ref": "#/texts/6"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_1",
       "label": "list"
     },
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       "children": [
         {
-          "cref": "#/texts/7"
+          "$ref": "#/texts/7"
         },
         {
-          "cref": "#/texts/8"
+          "$ref": "#/texts/8"
         },
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         },
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_2",
       "label": "list"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         },
         {
-          "cref": "#/texts/15"
+          "$ref": "#/texts/15"
         },
         {
-          "cref": "#/texts/16"
+          "$ref": "#/texts/16"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_0",
       "label": "list"
     }
@@ -145,11 +137,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -169,18 +160,15 @@
       ],
       "orig": "Market Research",
       "text": "Market Research",
-      "formatting": null,
-      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -199,18 +187,15 @@
         }
       ],
       "orig": "Our knowledge of customers is very important to make the products we sell acceptable to them & can help solve their problems. We need to conduct customer research regularly to keep us aware of market movements & follow ongoing trends. These are the results of research that can be used as a guide to understand consumers & sell products to them better.",
-      "text": "Our knowledge of customers is very important to make the products we sell acceptable to them & can help solve their problems. We need to conduct customer research regularly to keep us aware of market movements & follow ongoing trends. These are the results of research that can be used as a guide to understand consumers & sell products to them better.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Our knowledge of customers is very important to make the products we sell acceptable to them & can help solve their problems. We need to conduct customer research regularly to keep us aware of market movements & follow ongoing trends. These are the results of research that can be used as a guide to understand consumers & sell products to them better."
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -230,18 +215,15 @@
       ],
       "orig": "Customer Profiling",
       "text": "Customer Profiling",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -259,21 +241,18 @@
           ]
         }
       ],
-      "orig": "• Sex: Female",
-      "text": "• Sex: Female",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Sex: Female",
+      "text": "\u2022 Sex: Female",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -291,21 +270,18 @@
           ]
         }
       ],
-      "orig": "• Age: 20 - 30 years",
-      "text": "• Age: 20 - 30 years",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Age: 20 - 30 years",
+      "text": "\u2022 Age: 20 - 30 years",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -323,21 +299,18 @@
           ]
         }
       ],
-      "orig": "• Income: Approximately $4000/month",
-      "text": "• Income: Approximately $4000/month",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Income: Approximately $4000/month",
+      "text": "\u2022 Income: Approximately $4000/month",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -355,21 +328,18 @@
           ]
         }
       ],
-      "orig": "• Location: Urban area",
-      "text": "• Location: Urban area",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Location: Urban area",
+      "text": "\u2022 Location: Urban area",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -387,21 +357,18 @@
           ]
         }
       ],
-      "orig": "• Sex: Male",
-      "text": "• Sex: Male",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Sex: Male",
+      "text": "\u2022 Sex: Male",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -419,21 +386,18 @@
           ]
         }
       ],
-      "orig": "• Age: 20 - 25 years",
-      "text": "• Age: 20 - 25 years",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Age: 20 - 25 years",
+      "text": "\u2022 Age: 20 - 25 years",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -451,21 +415,18 @@
           ]
         }
       ],
-      "orig": "• Income: Approximately $3500/month",
-      "text": "• Income: Approximately $3500/month",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Income: Approximately $3500/month",
+      "text": "\u2022 Income: Approximately $3500/month",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -483,21 +444,18 @@
           ]
         }
       ],
-      "orig": "• Location: Urban area",
-      "text": "• Location: Urban area",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Location: Urban area",
+      "text": "\u2022 Location: Urban area",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -517,18 +475,15 @@
       ],
       "orig": "Trends",
       "text": "Trends",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -548,18 +503,15 @@
       ],
       "orig": "Addressable Market Sizeds",
       "text": "Addressable Market Sizeds",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -578,18 +530,15 @@
         }
       ],
       "orig": "Addressable Market Size",
-      "text": "Addressable Market Size",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Addressable Market Size"
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -607,21 +556,18 @@
           ]
         }
       ],
-      "orig": "• TAM: Total Addressable Market",
-      "text": "• TAM: Total Addressable Market",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 TAM: Total Addressable Market",
+      "text": "\u2022 TAM: Total Addressable Market",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -639,21 +585,18 @@
           ]
         }
       ],
-      "orig": "• SAM: Serviceable Available Market",
-      "text": "• SAM: Serviceable Available Market",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 SAM: Serviceable Available Market",
+      "text": "\u2022 SAM: Serviceable Available Market",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -671,21 +614,18 @@
           ]
         }
       ],
-      "orig": "• SOM: Serviceable Obtainable Market",
-      "text": "• SOM: Serviceable Obtainable Market",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 SOM: Serviceable Obtainable Market",
+      "text": "\u2022 SOM: Serviceable Obtainable Market",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -705,18 +645,15 @@
       ],
       "orig": "Financial Projection",
       "text": "Financial Projection",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -736,18 +673,15 @@
       ],
       "orig": "Customer Approach",
       "text": "Customer Approach",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -766,22 +700,18 @@
         }
       ],
       "orig": "The customer approach used is Segmentation Approach, which is based on market segmentation, as customers from different geographic segments will have different needs and preferences.",
-      "text": "The customer approach used is Segmentation Approach, which is based on market segmentation, as customers from different geographic segments will have different needs and preferences.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "The customer approach used is Segmentation Approach, which is based on market segmentation, as customers from different geographic segments will have different needs and preferences."
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -790,9 +720,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -814,7 +742,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -831,20 +758,18 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/pictures/2"
+          "$ref": "#/pictures/2"
         },
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         }
       ],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -853,9 +778,7 @@
               "class_name": "chart"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -877,7 +800,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -894,13 +816,11 @@
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -909,9 +829,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -933,7 +851,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -950,13 +867,11 @@
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -965,9 +880,7 @@
               "class_name": "decoration"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -989,7 +902,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -1008,11 +920,17 @@
     {
       "self_ref": "#/tables/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
-      "children": [],
+      "children": [
+        {
+          "$ref": "#/groups/0"
+        },
+        {
+          "$ref": "#/groups/1"
+        }
+      ],
       "content_layer": "body",
-      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -1033,7 +951,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "data": {
         "table_cells": [
           {
@@ -1077,37 +994,35 @@
             "fillable": false
           },
           {
-            "bbox": null,
             "row_span": 1,
             "col_span": 1,
             "start_row_offset_idx": 1,
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "• Sex: Female • Age: 20 - 30 years • Income: Approximately $4000/month • Location: Urban area",
+            "text": "\u2022 Sex: Female \u2022 Age: 20 - 30 years \u2022 Income: Approximately $4000/month \u2022 Location: Urban area",
             "column_header": false,
             "row_header": false,
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/0"
+              "$ref": "#/groups/0"
             }
           },
           {
-            "bbox": null,
             "row_span": 1,
             "col_span": 1,
             "start_row_offset_idx": 1,
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 1,
             "end_col_offset_idx": 2,
-            "text": "• Sex: Male • Age: 20 - 25 years • Income: Approximately $3500/month • Location: Urban area",
+            "text": "\u2022 Sex: Male \u2022 Age: 20 - 25 years \u2022 Income: Approximately $3500/month \u2022 Location: Urban area",
             "column_header": false,
             "row_header": false,
             "row_section": false,
             "fillable": false,
             "ref": {
-              "cref": "#/groups/1"
+              "$ref": "#/groups/1"
             }
           }
         ],
@@ -1158,28 +1073,26 @@
           ],
           [
             {
-              "bbox": null,
               "row_span": 1,
               "col_span": 1,
               "start_row_offset_idx": 1,
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "• Sex: Female • Age: 20 - 30 years • Income: Approximately $4000/month • Location: Urban area",
+              "text": "\u2022 Sex: Female \u2022 Age: 20 - 30 years \u2022 Income: Approximately $4000/month \u2022 Location: Urban area",
               "column_header": false,
               "row_header": false,
               "row_section": false,
               "fillable": false
             },
             {
-              "bbox": null,
               "row_span": 1,
               "col_span": 1,
               "start_row_offset_idx": 1,
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 1,
               "end_col_offset_idx": 2,
-              "text": "• Sex: Male • Age: 20 - 25 years • Income: Approximately $3500/month • Location: Urban area",
+              "text": "\u2022 Sex: Male \u2022 Age: 20 - 25 years \u2022 Income: Approximately $3500/month \u2022 Location: Urban area",
               "column_header": false,
               "row_header": false,
               "row_section": false,
@@ -1193,11 +1106,10 @@
     {
       "self_ref": "#/tables/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -1218,7 +1130,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "data": {
         "table_cells": [
           {
@@ -1478,11 +1389,10 @@
     {
       "self_ref": "#/tables/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -1503,7 +1413,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "data": {
         "table_cells": [
           {
@@ -2167,17 +2076,15 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [
           {
@@ -2198,8 +2105,7 @@
                 0,
                 4
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2219,8 +2125,7 @@
                 0,
                 6
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2240,8 +2145,7 @@
                 0,
                 7
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2261,8 +2165,7 @@
                 0,
                 33
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2282,8 +2185,7 @@
                 0,
                 9
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2303,8 +2205,7 @@
                 0,
                 10
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2324,8 +2225,7 @@
                 0,
                 4
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2345,8 +2245,7 @@
                 0,
                 4
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2366,8 +2265,7 @@
                 0,
                 7
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2387,8 +2285,7 @@
                 0,
                 33
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2408,8 +2305,7 @@
                 0,
                 9
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2429,8 +2325,7 @@
                 0,
                 10
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2450,8 +2345,7 @@
                 0,
                 4
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2471,8 +2365,7 @@
                 0,
                 29
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2492,8 +2385,7 @@
                 0,
                 4
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2513,8 +2405,7 @@
                 0,
                 33
               ]
-            },
-            "item_ref": null
+            }
           }
         ],
         "links": [

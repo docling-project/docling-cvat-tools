@@ -4,6 +4,7 @@
     <location value="26"/>
     <location value="154"/>
     <location value="29"/>
+    <layer class="furniture"/>
     PART 2 - TERMS OF REFERENCE for LOT 1
   </text>
   <heading level="2">
@@ -116,6 +117,7 @@
     <location value="492"/>
     <location value="304"/>
     <location value="497"/>
+    <layer class="furniture"/>
     F-COD-20-T03:  LOT 1  - Development of Material for Exercises, Challenges and Trainings
   </text>
   <text>
@@ -123,6 +125,7 @@
     <location value="491"/>
     <location value="464"/>
     <location value="497"/>
+    <layer class="furniture"/>
     page 6 of 25
   </text>
 </doclang>

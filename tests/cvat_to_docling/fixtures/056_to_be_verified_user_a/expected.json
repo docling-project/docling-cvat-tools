@@ -1,45 +1,40 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       {
-        "cref": "#/texts/56"
+        "$ref": "#/texts/56"
       },
       {
-        "cref": "#/texts/57"
+        "$ref": "#/texts/57"
       },
       {
-        "cref": "#/texts/58"
+        "$ref": "#/texts/58"
       },
       {
-        "cref": "#/texts/59"
+        "$ref": "#/texts/59"
       },
       {
-        "cref": "#/texts/60"
+        "$ref": "#/texts/60"
       },
       {
-        "cref": "#/key_value_items/0"
+        "$ref": "#/key_value_items/0"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -47,156 +42,148 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/6"
+          "$ref": "#/texts/6"
         },
         {
-          "cref": "#/texts/7"
+          "$ref": "#/texts/7"
         },
         {
-          "cref": "#/texts/8"
+          "$ref": "#/texts/8"
         },
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         },
         {
-          "cref": "#/groups/2"
+          "$ref": "#/groups/2"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_28",
       "label": "list"
     },
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         },
         {
-          "cref": "#/texts/15"
+          "$ref": "#/texts/15"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_29",
       "label": "form_area"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         },
         {
-          "cref": "#/texts/16"
+          "$ref": "#/texts/16"
         },
         {
-          "cref": "#/texts/17"
+          "$ref": "#/texts/17"
         },
         {
-          "cref": "#/texts/18"
+          "$ref": "#/texts/18"
         },
         {
-          "cref": "#/texts/19"
+          "$ref": "#/texts/19"
         },
         {
-          "cref": "#/texts/20"
+          "$ref": "#/texts/20"
         },
         {
-          "cref": "#/texts/21"
+          "$ref": "#/texts/21"
         },
         {
-          "cref": "#/texts/23"
+          "$ref": "#/texts/23"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_2_of_9",
       "label": "list"
     },
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/24"
+          "$ref": "#/texts/24"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_26",
       "label": "list"
     },
     {
       "self_ref": "#/groups/4",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/25"
+          "$ref": "#/texts/25"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_27",
       "label": "list"
     },
     {
       "self_ref": "#/groups/5",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/26"
+          "$ref": "#/texts/26"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_28",
       "label": "list"
     },
     {
       "self_ref": "#/groups/6",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/30"
+          "$ref": "#/texts/30"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_31",
       "label": "list"
     },
     {
       "self_ref": "#/groups/7",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/36"
+          "$ref": "#/texts/36"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_37",
       "label": "list"
     }
@@ -205,11 +192,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -228,18 +214,15 @@
         }
       ],
       "orig": "Form",
-      "text": "Form",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Form"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -258,18 +241,15 @@
         }
       ],
       "orig": "8822",
-      "text": "8822",
-      "formatting": null,
-      "hyperlink": null
+      "text": "8822"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -288,18 +268,15 @@
         }
       ],
       "orig": "(Rev. February 2021)",
-      "text": "(Rev. February 2021)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "(Rev. February 2021)"
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -318,18 +295,15 @@
         }
       ],
       "orig": "Department of the Treasury Internal Revenue Service",
-      "text": "Department of the Treasury Internal Revenue Service",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Department of the Treasury Internal Revenue Service"
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -349,18 +323,15 @@
       ],
       "orig": "Change of Address",
       "text": "Change of Address",
-      "formatting": null,
-      "hyperlink": null,
       "level": 1
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -379,18 +350,15 @@
         }
       ],
       "orig": "(For Individual, Gift, Estate, or Generation-Skipping Transfer Tax Returns)",
-      "text": "(For Individual, Gift, Estate, or Generation-Skipping Transfer Tax Returns)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "(For Individual, Gift, Estate, or Generation-Skipping Transfer Tax Returns)"
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -408,21 +376,18 @@
           ]
         }
       ],
-      "orig": "• Please type or print.",
-      "text": "• Please type or print.",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Please type or print.",
+      "text": "\u2022 Please type or print.",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -440,21 +405,18 @@
           ]
         }
       ],
-      "orig": "• See instructions on back.",
-      "text": "• See instructions on back.",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 See instructions on back.",
+      "text": "\u2022 See instructions on back.",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -472,21 +434,18 @@
           ]
         }
       ],
-      "orig": "• Do not attach this form to your return.",
-      "text": "• Do not attach this form to your return.",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Do not attach this form to your return.",
+      "text": "\u2022 Do not attach this form to your return.",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -504,21 +463,18 @@
           ]
         }
       ],
-      "orig": "• Information about Form 8822 is available at www.irs.gov/form8822",
-      "text": "• Information about Form 8822 is available at www.irs.gov/form8822",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Information about Form 8822 is available at www.irs.gov/form8822",
+      "text": "\u2022 Information about Form 8822 is available at www.irs.gov/form8822",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -537,18 +493,15 @@
         }
       ],
       "orig": "OMB No. 1545-1163",
-      "text": "OMB No. 1545-1163",
-      "formatting": null,
-      "hyperlink": null
+      "text": "OMB No. 1545-1163"
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -582,18 +535,15 @@
       ],
       "orig": "Part Complete This Part To Change Your Home Mailing Address",
       "text": "Part Complete This Part To Change Your Home Mailing Address",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -612,18 +562,15 @@
         }
       ],
       "orig": "Check all boxes this change affects:",
-      "text": "Check all boxes this change affects:",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Check all boxes this change affects:"
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_selected",
       "prov": [
         {
@@ -642,22 +589,19 @@
         }
       ],
       "orig": "1 * Individual income tax returns (Forms 1040, 1040-SR, 1040-NR, etc.)",
-      "text": "1 * Individual income tax returns (Forms 1040, 1040-SR, 1040-NR, etc.)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "1 * Individual income tax returns (Forms 1040, 1040-SR, 1040-NR, etc.)"
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [
         {
-          "cref": "#/texts/61"
+          "$ref": "#/texts/61"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -675,21 +619,18 @@
           ]
         }
       ],
-      "orig": "• If your last return was a joint return and you are now establishing a residence separate from the spouse with whom you filed that return, check here.. . . . . .",
-      "text": "• If your last return was a joint return and you are now establishing a residence separate from the spouse with whom you filed that return, check here.. . . . . .",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 If your last return was a joint return and you are now establishing a residence separate from the spouse with whom you filed that return, check here.. . . . . .",
+      "text": "\u2022 If your last return was a joint return and you are now establishing a residence separate from the spouse with whom you filed that return, check here.. . . . . .",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -708,18 +649,15 @@
         }
       ],
       "orig": "2 [ Gift, estate, or generation-skipping transfer tax returns (Forms 706, 709, etc.)",
-      "text": "2 [ Gift, estate, or generation-skipping transfer tax returns (Forms 706, 709, etc.)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "2 [ Gift, estate, or generation-skipping transfer tax returns (Forms 706, 709, etc.)"
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -737,21 +675,18 @@
           ]
         }
       ],
-      "orig": "• For Forms 706 and 706-NA, enter the decedent's name and social security number below.",
-      "text": "• For Forms 706 and 706-NA, enter the decedent's name and social security number below.",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 For Forms 706 and 706-NA, enter the decedent's name and social security number below.",
+      "text": "\u2022 For Forms 706 and 706-NA, enter the decedent's name and social security number below.",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -769,21 +704,18 @@
           ]
         }
       ],
-      "orig": "• Decedent's name",
-      "text": "• Decedent's name",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u2022 Decedent's name",
+      "text": "\u2022 Decedent's name",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -803,19 +735,16 @@
       ],
       "orig": "Social security number",
       "text": "Social security number",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -833,21 +762,18 @@
           ]
         }
       ],
-      "orig": "3а Your name (first name, initial, and last name)",
-      "text": "3а Your name (first name, initial, and last name)",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "3\u0430 Your name (first name, initial, and last name)",
+      "text": "3\u0430 Your name (first name, initial, and last name)",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -867,19 +793,16 @@
       ],
       "orig": "3b Your social security number",
       "text": "3b Your social security number",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -899,19 +822,16 @@
       ],
       "orig": "4a Spouse's name (first name, initial, and last name)",
       "text": "4a Spouse's name (first name, initial, and last name)",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -930,18 +850,15 @@
         }
       ],
       "orig": "4b Spouse's social security number",
-      "text": "4b Spouse's social security number",
-      "formatting": null,
-      "hyperlink": null
+      "text": "4b Spouse's social security number"
     },
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -961,19 +878,16 @@
       ],
       "orig": "4b Spouse's social security number",
       "text": "4b Spouse's social security number",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/24",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -993,19 +907,16 @@
       ],
       "orig": "5a Your prior name(s). See instructions.",
       "text": "5a Your prior name(s). See instructions.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/25",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1025,19 +936,16 @@
       ],
       "orig": "5b Spouse's prior name(s). See instructions.",
       "text": "5b Spouse's prior name(s). See instructions.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/26",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1055,21 +963,18 @@
           ]
         }
       ],
-      "orig": "6а Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
-      "text": "6а Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "6\u0430 Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
+      "text": "6\u0430 Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/27",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1088,18 +993,15 @@
         }
       ],
       "orig": "Foreign country name",
-      "text": "Foreign country name",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Foreign country name"
     },
     {
       "self_ref": "#/texts/28",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1118,18 +1020,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/29",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1148,18 +1047,15 @@
         }
       ],
       "orig": "Foreign postal code",
-      "text": "Foreign postal code",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Foreign postal code"
     },
     {
       "self_ref": "#/texts/30",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1179,19 +1075,16 @@
       ],
       "orig": "complete spaces below, see instructions.",
       "text": "complete spaces below, see instructions.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/31",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1210,22 +1103,19 @@
         }
       ],
       "orig": "Foreign country name",
-      "text": "Foreign country name",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Foreign country name"
     },
     {
       "self_ref": "#/texts/32",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/33"
+          "$ref": "#/texts/33"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -1244,18 +1134,15 @@
         }
       ],
       "orig": "Foreign province/county",
-      "text": "Foreign province/county",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Foreign province/county"
     },
     {
       "self_ref": "#/texts/33",
       "parent": {
-        "cref": "#/texts/32"
+        "$ref": "#/texts/32"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1274,22 +1161,19 @@
         }
       ],
       "orig": "Foreign province/county",
-      "text": "Foreign province/county",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Foreign province/county"
     },
     {
       "self_ref": "#/texts/34",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [
         {
-          "cref": "#/texts/35"
+          "$ref": "#/texts/35"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -1308,18 +1192,15 @@
         }
       ],
       "orig": "Foreign postal code",
-      "text": "Foreign postal code",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Foreign postal code"
     },
     {
       "self_ref": "#/texts/35",
       "parent": {
-        "cref": "#/texts/34"
+        "$ref": "#/texts/34"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1338,18 +1219,15 @@
         }
       ],
       "orig": "Foreign postal code",
-      "text": "Foreign postal code",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Foreign postal code"
     },
     {
       "self_ref": "#/texts/36",
       "parent": {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1369,19 +1247,16 @@
       ],
       "orig": "7 New address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below, see instructions.",
       "text": "7 New address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below, see instructions.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/37",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1400,18 +1275,15 @@
         }
       ],
       "orig": "Foreign country name",
-      "text": "Foreign country name",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Foreign country name"
     },
     {
       "self_ref": "#/texts/38",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1430,18 +1302,15 @@
         }
       ],
       "orig": "Foreign province/county",
-      "text": "Foreign province/county",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Foreign province/county"
     },
     {
       "self_ref": "#/texts/39",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1460,18 +1329,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/40",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1505,18 +1371,15 @@
       ],
       "orig": "Part Signature",
       "text": "Part Signature",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/41",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1535,18 +1398,15 @@
         }
       ],
       "orig": "Daytime telephone number of person to contact (optional)",
-      "text": "Daytime telephone number of person to contact (optional)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Daytime telephone number of person to contact (optional)"
     },
     {
       "self_ref": "#/texts/42",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -1564,19 +1424,16 @@
           ]
         }
       ],
-      "orig": "»",
-      "text": "»",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u00bb",
+      "text": "\u00bb"
     },
     {
       "self_ref": "#/texts/43",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -1596,18 +1453,15 @@
       ],
       "orig": "Sign Here",
       "text": "Sign Here",
-      "formatting": null,
-      "hyperlink": null,
       "level": 2
     },
     {
       "self_ref": "#/texts/44",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1626,18 +1480,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/45",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1656,18 +1507,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/46",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -1686,18 +1534,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/47",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1716,18 +1561,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/48",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -1746,18 +1588,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/49",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1776,18 +1615,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/50",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -1806,18 +1642,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/51",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1836,18 +1669,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/52",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -1866,18 +1696,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/53",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1896,18 +1723,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/54",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1926,18 +1750,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/55",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -1956,18 +1777,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/56",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1986,18 +1804,15 @@
         }
       ],
       "orig": "For Privacy Act and Paperwork Reduction Act Notice, see back of form.",
-      "text": "For Privacy Act and Paperwork Reduction Act Notice, see back of form.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "For Privacy Act and Paperwork Reduction Act Notice, see back of form."
     },
     {
       "self_ref": "#/texts/57",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2016,18 +1831,15 @@
         }
       ],
       "orig": "Cat. No. 12081V",
-      "text": "Cat. No. 12081V",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Cat. No. 12081V"
     },
     {
       "self_ref": "#/texts/58",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2046,18 +1858,15 @@
         }
       ],
       "orig": "Form",
-      "text": "Form",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Form"
     },
     {
       "self_ref": "#/texts/59",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2076,18 +1885,15 @@
         }
       ],
       "orig": "8822",
-      "text": "8822",
-      "formatting": null,
-      "hyperlink": null
+      "text": "8822"
     },
     {
       "self_ref": "#/texts/60",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2106,18 +1912,15 @@
         }
       ],
       "orig": "(Rev. 2-2021)",
-      "text": "(Rev. 2-2021)",
-      "formatting": null,
-      "hyperlink": null
+      "text": "(Rev. 2-2021)"
     },
     {
       "self_ref": "#/texts/61",
       "parent": {
-        "cref": "#/texts/14"
+        "$ref": "#/texts/14"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "checkbox_unselected",
       "prov": [
         {
@@ -2136,20 +1939,17 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2170,17 +1970,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2201,17 +1999,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/2",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2232,17 +2028,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/3",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2263,17 +2057,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/4",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2294,17 +2086,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/5",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2325,17 +2115,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/6",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2356,17 +2144,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/7",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2387,17 +2173,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/8",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2418,17 +2202,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/9",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2449,17 +2231,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/10",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2480,17 +2260,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/11",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2511,17 +2289,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/12",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2542,17 +2318,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/13",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2573,17 +2347,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/14",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2604,19 +2376,16 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/15",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2625,9 +2394,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2649,7 +2416,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2666,11 +2432,10 @@
     {
       "self_ref": "#/pictures/16",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2691,17 +2456,15 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/17",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "picture",
       "prov": [
         {
@@ -2722,19 +2485,16 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": []
     },
     {
       "self_ref": "#/pictures/18",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2743,9 +2503,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2767,7 +2525,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2784,13 +2541,11 @@
     {
       "self_ref": "#/pictures/19",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2799,9 +2554,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2823,7 +2576,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2840,13 +2592,11 @@
     {
       "self_ref": "#/pictures/20",
       "parent": {
-        "cref": "#/form_items/0"
+        "$ref": "#/form_items/0"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -2855,9 +2605,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -2879,7 +2627,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -2899,17 +2646,15 @@
     {
       "self_ref": "#/key_value_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "key_value_region",
       "prov": [],
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [
           {
@@ -2930,8 +2675,7 @@
                 0,
                 7
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2951,8 +2695,7 @@
                 0,
                 9
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -2972,8 +2715,7 @@
                 0,
                 8
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -2993,14 +2735,13 @@
                 0,
                 6
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
             "cell_id": 4,
-            "text": "3а Your name (first name, initial, and last name)",
-            "orig": "3а Your name (first name, initial, and last name)",
+            "text": "3\u0430 Your name (first name, initial, and last name)",
+            "orig": "3\u0430 Your name (first name, initial, and last name)",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3016,7 +2757,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/19"
+              "$ref": "#/texts/19"
             }
           },
           {
@@ -3039,7 +2780,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/0"
+              "$ref": "#/pictures/0"
             }
           },
           {
@@ -3062,7 +2803,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/20"
+              "$ref": "#/texts/20"
             }
           },
           {
@@ -3085,7 +2826,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/1"
+              "$ref": "#/pictures/1"
             }
           },
           {
@@ -3108,7 +2849,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/21"
+              "$ref": "#/texts/21"
             }
           },
           {
@@ -3131,7 +2872,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/2"
+              "$ref": "#/pictures/2"
             }
           },
           {
@@ -3154,7 +2895,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/25"
+              "$ref": "#/texts/25"
             }
           },
           {
@@ -3177,14 +2918,14 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/4"
+              "$ref": "#/pictures/4"
             }
           },
           {
             "label": "key",
             "cell_id": 12,
-            "text": "6а Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
-            "orig": "6а Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
+            "text": "6\u0430 Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
+            "orig": "6\u0430 Your old address (no., street, apt. no., city or town, state, and ZIP code). If a P.O. box, see instructions. If foreign address, also complete spaces below,",
             "prov": {
               "page_no": 1,
               "bbox": {
@@ -3200,7 +2941,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/26"
+              "$ref": "#/texts/26"
             }
           },
           {
@@ -3223,7 +2964,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/5"
+              "$ref": "#/pictures/5"
             }
           },
           {
@@ -3246,7 +2987,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/27"
+              "$ref": "#/texts/27"
             }
           },
           {
@@ -3269,7 +3010,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/6"
+              "$ref": "#/pictures/6"
             }
           },
           {
@@ -3292,7 +3033,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/28"
+              "$ref": "#/texts/28"
             }
           },
           {
@@ -3315,7 +3056,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/7"
+              "$ref": "#/pictures/7"
             }
           },
           {
@@ -3338,7 +3079,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/29"
+              "$ref": "#/texts/29"
             }
           },
           {
@@ -3361,7 +3102,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/8"
+              "$ref": "#/pictures/8"
             }
           },
           {
@@ -3384,7 +3125,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/30"
+              "$ref": "#/texts/30"
             }
           },
           {
@@ -3407,7 +3148,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/9"
+              "$ref": "#/pictures/9"
             }
           },
           {
@@ -3430,7 +3171,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/31"
+              "$ref": "#/texts/31"
             }
           },
           {
@@ -3453,7 +3194,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/10"
+              "$ref": "#/pictures/10"
             }
           },
           {
@@ -3476,7 +3217,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/33"
+              "$ref": "#/texts/33"
             }
           },
           {
@@ -3499,7 +3240,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/32"
+              "$ref": "#/texts/32"
             }
           },
           {
@@ -3522,7 +3263,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/35"
+              "$ref": "#/texts/35"
             }
           },
           {
@@ -3545,7 +3286,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/34"
+              "$ref": "#/texts/34"
             }
           },
           {
@@ -3568,7 +3309,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/36"
+              "$ref": "#/texts/36"
             }
           },
           {
@@ -3591,7 +3332,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/11"
+              "$ref": "#/pictures/11"
             }
           },
           {
@@ -3614,7 +3355,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/37"
+              "$ref": "#/texts/37"
             }
           },
           {
@@ -3637,7 +3378,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/12"
+              "$ref": "#/pictures/12"
             }
           },
           {
@@ -3660,7 +3401,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/38"
+              "$ref": "#/texts/38"
             }
           },
           {
@@ -3683,7 +3424,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/13"
+              "$ref": "#/pictures/13"
             }
           },
           {
@@ -3706,7 +3447,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/39"
+              "$ref": "#/texts/39"
             }
           },
           {
@@ -3729,7 +3470,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/14"
+              "$ref": "#/pictures/14"
             }
           },
           {
@@ -3752,7 +3493,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/44"
+              "$ref": "#/texts/44"
             }
           },
           {
@@ -3775,7 +3516,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/16"
+              "$ref": "#/pictures/16"
             }
           },
           {
@@ -3798,7 +3539,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/47"
+              "$ref": "#/texts/47"
             }
           },
           {
@@ -3821,7 +3562,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/46"
+              "$ref": "#/texts/46"
             }
           },
           {
@@ -3844,7 +3585,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/45"
+              "$ref": "#/texts/45"
             }
           },
           {
@@ -3867,7 +3608,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/17"
+              "$ref": "#/pictures/17"
             }
           },
           {
@@ -3890,7 +3631,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/49"
+              "$ref": "#/texts/49"
             }
           },
           {
@@ -3913,7 +3654,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/48"
+              "$ref": "#/texts/48"
             }
           },
           {
@@ -3936,7 +3677,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/51"
+              "$ref": "#/texts/51"
             }
           },
           {
@@ -3959,7 +3700,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/50"
+              "$ref": "#/texts/50"
             }
           },
           {
@@ -3982,7 +3723,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/53"
+              "$ref": "#/texts/53"
             }
           },
           {
@@ -4005,7 +3746,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/52"
+              "$ref": "#/texts/52"
             }
           },
           {
@@ -4028,7 +3769,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/54"
+              "$ref": "#/texts/54"
             }
           },
           {
@@ -4051,7 +3792,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/55"
+              "$ref": "#/texts/55"
             }
           },
           {
@@ -4074,7 +3815,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/23"
+              "$ref": "#/texts/23"
             }
           },
           {
@@ -4097,7 +3838,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/22"
+              "$ref": "#/texts/22"
             }
           },
           {
@@ -4120,7 +3861,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/24"
+              "$ref": "#/texts/24"
             }
           },
           {
@@ -4143,7 +3884,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/pictures/3"
+              "$ref": "#/pictures/3"
             }
           },
           {
@@ -4166,7 +3907,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/0"
+              "$ref": "#/texts/0"
             }
           },
           {
@@ -4189,7 +3930,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/1"
+              "$ref": "#/texts/1"
             }
           },
           {
@@ -4210,8 +3951,7 @@
                 0,
                 5
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4231,8 +3971,7 @@
                 0,
                 7
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -4252,8 +3991,7 @@
                 0,
                 14
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "value",
@@ -4273,8 +4011,7 @@
                 0,
                 5
               ]
-            },
-            "item_ref": null
+            }
           },
           {
             "label": "key",
@@ -4296,7 +4033,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/58"
+              "$ref": "#/texts/58"
             }
           },
           {
@@ -4319,7 +4056,7 @@
               ]
             },
             "item_ref": {
-              "cref": "#/texts/59"
+              "$ref": "#/texts/59"
             }
           }
         ],
@@ -4487,201 +4224,200 @@
     {
       "self_ref": "#/form_items/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/0"
+          "$ref": "#/texts/0"
         },
         {
-          "cref": "#/texts/1"
+          "$ref": "#/texts/1"
         },
         {
-          "cref": "#/texts/2"
+          "$ref": "#/texts/2"
         },
         {
-          "cref": "#/texts/3"
+          "$ref": "#/texts/3"
         },
         {
-          "cref": "#/texts/4"
+          "$ref": "#/texts/4"
         },
         {
-          "cref": "#/texts/5"
+          "$ref": "#/texts/5"
         },
         {
-          "cref": "#/groups/0"
+          "$ref": "#/groups/0"
         },
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         },
         {
-          "cref": "#/texts/11"
+          "$ref": "#/texts/11"
         },
         {
-          "cref": "#/texts/12"
+          "$ref": "#/texts/12"
         },
         {
-          "cref": "#/groups/1"
+          "$ref": "#/groups/1"
         },
         {
-          "cref": "#/pictures/0"
+          "$ref": "#/pictures/0"
         },
         {
-          "cref": "#/pictures/1"
+          "$ref": "#/pictures/1"
         },
         {
-          "cref": "#/pictures/2"
+          "$ref": "#/pictures/2"
         },
         {
-          "cref": "#/texts/22"
+          "$ref": "#/texts/22"
         },
         {
-          "cref": "#/groups/3"
+          "$ref": "#/groups/3"
         },
         {
-          "cref": "#/pictures/3"
+          "$ref": "#/pictures/3"
         },
         {
-          "cref": "#/groups/4"
+          "$ref": "#/groups/4"
         },
         {
-          "cref": "#/pictures/4"
+          "$ref": "#/pictures/4"
         },
         {
-          "cref": "#/groups/5"
+          "$ref": "#/groups/5"
         },
         {
-          "cref": "#/pictures/5"
+          "$ref": "#/pictures/5"
         },
         {
-          "cref": "#/texts/27"
+          "$ref": "#/texts/27"
         },
         {
-          "cref": "#/pictures/6"
+          "$ref": "#/pictures/6"
         },
         {
-          "cref": "#/texts/28"
+          "$ref": "#/texts/28"
         },
         {
-          "cref": "#/pictures/7"
+          "$ref": "#/pictures/7"
         },
         {
-          "cref": "#/texts/29"
+          "$ref": "#/texts/29"
         },
         {
-          "cref": "#/pictures/8"
+          "$ref": "#/pictures/8"
         },
         {
-          "cref": "#/groups/6"
+          "$ref": "#/groups/6"
         },
         {
-          "cref": "#/pictures/9"
+          "$ref": "#/pictures/9"
         },
         {
-          "cref": "#/texts/31"
+          "$ref": "#/texts/31"
         },
         {
-          "cref": "#/pictures/10"
+          "$ref": "#/pictures/10"
         },
         {
-          "cref": "#/texts/32"
+          "$ref": "#/texts/32"
         },
         {
-          "cref": "#/texts/34"
+          "$ref": "#/texts/34"
         },
         {
-          "cref": "#/groups/7"
+          "$ref": "#/groups/7"
         },
         {
-          "cref": "#/pictures/11"
+          "$ref": "#/pictures/11"
         },
         {
-          "cref": "#/texts/37"
+          "$ref": "#/texts/37"
         },
         {
-          "cref": "#/pictures/12"
+          "$ref": "#/pictures/12"
         },
         {
-          "cref": "#/texts/38"
+          "$ref": "#/texts/38"
         },
         {
-          "cref": "#/pictures/13"
+          "$ref": "#/pictures/13"
         },
         {
-          "cref": "#/texts/39"
+          "$ref": "#/texts/39"
         },
         {
-          "cref": "#/pictures/14"
+          "$ref": "#/pictures/14"
         },
         {
-          "cref": "#/texts/40"
+          "$ref": "#/texts/40"
         },
         {
-          "cref": "#/texts/41"
+          "$ref": "#/texts/41"
         },
         {
-          "cref": "#/texts/42"
+          "$ref": "#/texts/42"
         },
         {
-          "cref": "#/texts/43"
+          "$ref": "#/texts/43"
         },
         {
-          "cref": "#/pictures/15"
+          "$ref": "#/pictures/15"
         },
         {
-          "cref": "#/pictures/16"
+          "$ref": "#/pictures/16"
         },
         {
-          "cref": "#/texts/44"
+          "$ref": "#/texts/44"
         },
         {
-          "cref": "#/pictures/17"
+          "$ref": "#/pictures/17"
         },
         {
-          "cref": "#/texts/45"
+          "$ref": "#/texts/45"
         },
         {
-          "cref": "#/pictures/18"
+          "$ref": "#/pictures/18"
         },
         {
-          "cref": "#/texts/46"
+          "$ref": "#/texts/46"
         },
         {
-          "cref": "#/texts/47"
+          "$ref": "#/texts/47"
         },
         {
-          "cref": "#/texts/48"
+          "$ref": "#/texts/48"
         },
         {
-          "cref": "#/texts/49"
+          "$ref": "#/texts/49"
         },
         {
-          "cref": "#/pictures/19"
+          "$ref": "#/pictures/19"
         },
         {
-          "cref": "#/texts/50"
+          "$ref": "#/texts/50"
         },
         {
-          "cref": "#/texts/51"
+          "$ref": "#/texts/51"
         },
         {
-          "cref": "#/texts/52"
+          "$ref": "#/texts/52"
         },
         {
-          "cref": "#/texts/53"
+          "$ref": "#/texts/53"
         },
         {
-          "cref": "#/pictures/20"
+          "$ref": "#/pictures/20"
         },
         {
-          "cref": "#/texts/54"
+          "$ref": "#/texts/54"
         },
         {
-          "cref": "#/texts/55"
+          "$ref": "#/texts/55"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "form",
       "prov": [
         {
@@ -4702,7 +4438,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "graph": {
         "cells": [],
         "links": []

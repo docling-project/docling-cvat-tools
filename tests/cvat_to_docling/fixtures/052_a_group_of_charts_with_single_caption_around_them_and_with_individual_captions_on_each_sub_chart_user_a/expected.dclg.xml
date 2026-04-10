@@ -4,6 +4,7 @@
     <location value="20"/>
     <location value="452"/>
     <location value="24"/>
+    <layer class="furniture"/>
     16
   </text>
   <floating_group class="picture">
@@ -104,6 +105,7 @@
     <location value="487"/>
     <location value="94"/>
     <location value="492"/>
+    <layer class="furniture"/>
     July 9, 2018
   </text>
   <text>
@@ -111,6 +113,7 @@
     <location value="487"/>
     <location value="452"/>
     <location value="491"/>
+    <layer class="furniture"/>
     DRAFT
   </text>
 </doclang>

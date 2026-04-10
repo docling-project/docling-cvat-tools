@@ -1,78 +1,73 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/texts/0"
+        "$ref": "#/texts/0"
       },
       {
-        "cref": "#/texts/1"
+        "$ref": "#/texts/1"
       },
       {
-        "cref": "#/texts/2"
+        "$ref": "#/texts/2"
       },
       {
-        "cref": "#/texts/3"
+        "$ref": "#/texts/3"
       },
       {
-        "cref": "#/texts/4"
+        "$ref": "#/texts/4"
       },
       {
-        "cref": "#/texts/5"
+        "$ref": "#/texts/5"
       },
       {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       {
-        "cref": "#/texts/12"
+        "$ref": "#/texts/12"
       },
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/22"
+        "$ref": "#/texts/22"
       },
       {
-        "cref": "#/texts/23"
+        "$ref": "#/texts/23"
       },
       {
-        "cref": "#/texts/24"
+        "$ref": "#/texts/24"
       },
       {
-        "cref": "#/texts/25"
+        "$ref": "#/texts/25"
       },
       {
-        "cref": "#/texts/26"
+        "$ref": "#/texts/26"
       },
       {
-        "cref": "#/texts/27"
+        "$ref": "#/texts/27"
       },
       {
-        "cref": "#/texts/28"
+        "$ref": "#/texts/28"
       },
       {
-        "cref": "#/texts/29"
+        "$ref": "#/texts/29"
       },
       {
-        "cref": "#/texts/30"
+        "$ref": "#/texts/30"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -80,57 +75,56 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/6"
+          "$ref": "#/texts/6"
         },
         {
-          "cref": "#/texts/7"
+          "$ref": "#/texts/7"
         },
         {
-          "cref": "#/texts/8"
+          "$ref": "#/texts/8"
         },
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         },
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         },
         {
-          "cref": "#/texts/11"
+          "$ref": "#/texts/11"
         },
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         },
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         },
         {
-          "cref": "#/texts/15"
+          "$ref": "#/texts/15"
         },
         {
-          "cref": "#/texts/16"
+          "$ref": "#/texts/16"
         },
         {
-          "cref": "#/texts/17"
+          "$ref": "#/texts/17"
         },
         {
-          "cref": "#/texts/18"
+          "$ref": "#/texts/18"
         },
         {
-          "cref": "#/texts/19"
+          "$ref": "#/texts/19"
         },
         {
-          "cref": "#/texts/20"
+          "$ref": "#/texts/20"
         },
         {
-          "cref": "#/texts/21"
+          "$ref": "#/texts/21"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_0",
       "label": "list"
     }
@@ -139,11 +133,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -162,18 +155,15 @@
         }
       ],
       "orig": "5,901,666",
-      "text": "5,901,666",
-      "formatting": null,
-      "hyperlink": null
+      "text": "5,901,666"
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -192,18 +182,15 @@
         }
       ],
       "orig": "3",
-      "text": "3",
-      "formatting": null,
-      "hyperlink": null
+      "text": "3"
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -222,18 +209,15 @@
         }
       ],
       "orig": "As  shown  in FIGS. 4  and  5, the pet display  belt 21  is of  Somewhat  Similar construction to the lower  or  waist  Section  of  the Vest as  upper  and  lower  annular, tubular, passageway  portions 23 and 24 joined along their entire  lengths,  as  indicated  schematically  by  the broken  lines in FIG.  4  and  5,  and are integral with annular waist band forming  Strip 22,  (also of heat Sealable plastic), with the lower passageway  portion  24  being  attached  to respective pocket-form animal  receiving chambers  3' also attached to the waist band, and  communicating with each other via a port 16'. Adjustable  fastening members 26 of intermeshing multiple hook and  eye type fabrics are provided  on  opposite ends  of  the waist  band  to secure the display belt about the waist of  a  wearer.  When the belt is not worn it  may  be supported by a flat  Surface  to  provide  a  permanent home for  the  pets,  as  illustrated in FIG. 5.",
-      "text": "As  shown  in FIGS. 4  and  5, the pet display  belt 21  is of  Somewhat  Similar construction to the lower  or  waist  Section  of  the Vest as  upper  and  lower  annular, tubular, passageway  portions 23 and 24 joined along their entire  lengths,  as  indicated  schematically  by  the broken  lines in FIG.  4  and  5,  and are integral with annular waist band forming  Strip 22,  (also of heat Sealable plastic), with the lower passageway  portion  24  being  attached  to respective pocket-form animal  receiving chambers  3' also attached to the waist band, and  communicating with each other via a port 16'. Adjustable  fastening members 26 of intermeshing multiple hook and  eye type fabrics are provided  on  opposite ends  of  the waist  band  to secure the display belt about the waist of  a  wearer.  When the belt is not worn it  may  be supported by a flat  Surface  to  provide  a  permanent home for  the  pets,  as  illustrated in FIG. 5.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "As  shown  in FIGS. 4  and  5, the pet display  belt 21  is of  Somewhat  Similar construction to the lower  or  waist  Section  of  the Vest as  upper  and  lower  annular, tubular, passageway  portions 23 and 24 joined along their entire  lengths,  as  indicated  schematically  by  the broken  lines in FIG.  4  and  5,  and are integral with annular waist band forming  Strip 22,  (also of heat Sealable plastic), with the lower passageway  portion  24  being  attached  to respective pocket-form animal  receiving chambers  3' also attached to the waist band, and  communicating with each other via a port 16'. Adjustable  fastening members 26 of intermeshing multiple hook and  eye type fabrics are provided  on  opposite ends  of  the waist  band  to secure the display belt about the waist of  a  wearer.  When the belt is not worn it  may  be supported by a flat  Surface  to  provide  a  permanent home for  the  pets,  as  illustrated in FIG. 5."
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -252,18 +236,15 @@
         }
       ],
       "orig": "In  use,  the  pockets  provide  access  of  the  wearer's  hand  for  pet recovery and, feeding areas. Fluid wastes  tend to gravi  tate to the pocket facilitating collection and removal while  the passageways  and  pockets  can  be  rinsed  by  attachment  to  a faucet.",
-      "text": "In  use,  the  pockets  provide  access  of  the  wearer's  hand  for  pet recovery and, feeding areas. Fluid wastes  tend to gravi  tate to the pocket facilitating collection and removal while  the passageways  and  pockets  can  be  rinsed  by  attachment  to  a faucet.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "In  use,  the  pockets  provide  access  of  the  wearer's  hand  for  pet recovery and, feeding areas. Fluid wastes  tend to gravi  tate to the pocket facilitating collection and removal while  the passageways  and  pockets  can  be  rinsed  by  attachment  to  a faucet."
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -282,18 +263,15 @@
         }
       ],
       "orig": "Either article of  clothing, could accommodate many  dif  ferent Small Such as mice, hamsters, gerbils, Snakes and,  possibly even insects.  The vest could be provided with  sleeves to form a coat or  jacket and  be of  increased length  to form an overcoat.",
-      "text": "Either article of  clothing, could accommodate many  dif  ferent Small Such as mice, hamsters, gerbils, Snakes and,  possibly even insects.  The vest could be provided with  sleeves to form a coat or  jacket and  be of  increased length  to form an overcoat.",
-      "formatting": null,
-      "hyperlink": null
+      "text": "Either article of  clothing, could accommodate many  dif  ferent Small Such as mice, hamsters, gerbils, Snakes and,  possibly even insects.  The vest could be provided with  sleeves to form a coat or  jacket and  be of  increased length  to form an overcoat."
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -312,18 +290,15 @@
         }
       ],
       "orig": "What I claim is:",
-      "text": "What I claim is:",
-      "formatting": null,
-      "hyperlink": null
+      "text": "What I claim is:"
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -343,19 +318,16 @@
       ],
       "orig": "1. A  pet display vest for a perSon, having an elongate,  enclosed, pet receiving, passageway extending there  acroSS  with  at least one  closable  pet  admitting  entry, at  least  part  of  the passageway being transparent So that, when  the Vest is  worn,  a pet moving  along  the passageway  acroSS  a wearer's  body  can  be viewed  by  a  spectator.",
       "text": "1. A  pet display vest for a perSon, having an elongate,  enclosed, pet receiving, passageway extending there  acroSS  with  at least one  closable  pet  admitting  entry, at  least  part  of  the passageway being transparent So that, when  the Vest is  worn,  a pet moving  along  the passageway  acroSS  a wearer's  body  can  be viewed  by  a  spectator.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -375,19 +347,16 @@
       ],
       "orig": "2.  A  pet  display vest  according  to  claim 1 wherein  at  least  the  passageway  is  made  from  waterproof material  and  provided with Ventilation apertures.",
       "text": "2.  A  pet  display vest  according  to  claim 1 wherein  at  least  the  passageway  is  made  from  waterproof material  and  provided with Ventilation apertures.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -407,19 +376,16 @@
       ],
       "orig": "3.  A  pet  display vest  according  to claim  2  which  is made  from a flexible plastic material.",
       "text": "3.  A  pet  display vest  according  to claim  2  which  is made  from a flexible plastic material.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -439,19 +405,16 @@
       ],
       "orig": "from a flexible plastic material.  4. A  pet display Vest according to claim 1 wherein the  passageway extends at least partly around a body of the  WCC.",
       "text": "from a flexible plastic material.  4. A  pet display Vest according to claim 1 wherein the  passageway extends at least partly around a body of the  WCC.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -471,19 +434,16 @@
       ],
       "orig": "5. A  pet display vest according to claim 1 including a  panel  portion marked  with  indica  depicting  Scenes  of  one  of  a natural  habitat  of  a  pet  and  a  story line of  a  pet,  the  indicia  extending  acroSS part of  a passageway.",
       "text": "5. A  pet display vest according to claim 1 including a  panel  portion marked  with  indica  depicting  Scenes  of  one  of  a natural  habitat  of  a  pet  and  a  story line of  a  pet,  the  indicia  extending  acroSS part of  a passageway.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -503,19 +463,16 @@
       ],
       "orig": "6. A  pet  display vest according  to claim 1 wherein  Said  at  least  one  closable  pet  admitting  entry  comprises  a  pet",
       "text": "6. A  pet  display vest according  to claim 1 wherein  Said  at  least  one  closable  pet  admitting  entry  comprises  a  pet",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -534,18 +491,15 @@
         }
       ],
       "orig": "4",
-      "text": "4",
-      "formatting": null,
-      "hyperlink": null
+      "text": "4"
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -565,19 +519,16 @@
       ],
       "orig": "receiving chamber of larger  croSS-Sectional  size  than  a  maximum  croSS-Sectional  size of  the  passageway  and  having  a closure member movable to an open position So as to  permit  hand access to the chamber  for manual  pet removal.",
       "text": "receiving chamber of larger  croSS-Sectional  size  than  a  maximum  croSS-Sectional  size of  the  passageway  and  having  a closure member movable to an open position So as to  permit  hand access to the chamber  for manual  pet removal.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -597,19 +548,16 @@
       ],
       "orig": "7.  A  pet  display  vest  according  to  claim  6  wherein  Said  pet  receiving chamber forms a pocket located at a front of a  waist  portion of  the Vest.",
       "text": "7.  A  pet  display  vest  according  to  claim  6  wherein  Said  pet  receiving chamber forms a pocket located at a front of a  waist  portion of  the Vest.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -629,19 +577,16 @@
       ],
       "orig": "8.  A  pet  display vest  according  to claim  6  wherein  Said  at  least one closable pet admitting entry comprises two pet  receiving chambers forming respective pockets located on  respective opposite Sides of  a  front  of  a  waist  portion of  the  Vest, each chamber being of larger croSS-Section than the  passageway and having a closure member movable to an  open  position  So  as  to  permit  hand  access  to the chamber  for  manual  pet removal.",
       "text": "8.  A  pet  display vest  according  to claim  6  wherein  Said  at  least one closable pet admitting entry comprises two pet  receiving chambers forming respective pockets located on  respective opposite Sides of  a  front  of  a  waist  portion of  the  Vest, each chamber being of larger croSS-Section than the  passageway and having a closure member movable to an  open  position  So  as  to  permit  hand  access  to the chamber  for  manual  pet removal.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -661,19 +606,16 @@
       ],
       "orig": "9. A  pet display vest according to claim 1 wherein Said  passageway extends around a waist portion, across a back  portion and  over  shoulder portions of  the Vest.",
       "text": "9. A  pet display vest according to claim 1 wherein Said  passageway extends around a waist portion, across a back  portion and  over  shoulder portions of  the Vest.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -693,19 +635,16 @@
       ],
       "orig": "10. A  pet display belt comprising  an elongate, enclosed,  pet receiving, passageway with at least one closable pet  admitting entry and means  for releasably Securing the pas  Sageway  extending  around  a  waist  of  a  perSon,  a  vent  means  in the passageway for providing  air to a  pet  therein, at least  part of  the passageway  being  transparent So that, when  the  belt  is worn  by  a  perSon,  a  pet  moving  along  the  passageway  around a wearer's waist can  be viewed  by a spectator.",
       "text": "10. A  pet display belt comprising  an elongate, enclosed,  pet receiving, passageway with at least one closable pet  admitting entry and means  for releasably Securing the pas  Sageway  extending  around  a  waist  of  a  perSon,  a  vent  means  in the passageway for providing  air to a  pet  therein, at least  part of  the passageway  being  transparent So that, when  the  belt  is worn  by  a  perSon,  a  pet  moving  along  the  passageway  around a wearer's waist can  be viewed  by a spectator.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -725,19 +664,16 @@
       ],
       "orig": "11. A  pet display belt according  to claim 10  wherein  said  at least one  closable pet  admitting  entry comprises  two  pet  receiving chambers forming respective pockets located on  respective  opposite  sides  of  a  front  of  the  belt,  each  chamber  being of larger croSS-Section than the passageway and  hav  ing a closure member  movable to an  open  position So  as to  permit  hand access to the chamber  for manual  pet removal.",
       "text": "11. A  pet display belt according  to claim 10  wherein  said  at least one  closable pet  admitting  entry comprises  two  pet  receiving chambers forming respective pockets located on  respective  opposite  sides  of  a  front  of  the  belt,  each  chamber  being of larger croSS-Section than the passageway and  hav  ing a closure member  movable to an  open  position So  as to  permit  hand access to the chamber  for manual  pet removal.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -757,19 +693,16 @@
       ],
       "orig": "12. A  pet display belt according to claim 10  wherein at  least  the  passageway-forming passageway is  made from  waterproof material.",
       "text": "12. A  pet display belt according to claim 10  wherein at  least  the  passageway-forming passageway is  made from  waterproof material.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -789,19 +722,16 @@
       ],
       "orig": "13.  A  pet  display  belt  according  to  claim  11  which  is made  from a flexible waterproof  plastic material.",
       "text": "13.  A  pet  display  belt  according  to  claim  11  which  is made  from a flexible waterproof  plastic material.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -821,19 +751,16 @@
       ],
       "orig": "14. Pet  display  clothing  for  a  perSon  having  an  inner  layer  and an outer layer providing  between them  a pet receiving  enclosure with at least one, closable, pet admitting entry  thereto, at least part of  the outer layer  being  transparent So  that a pet in the enclosure can  be viewed by a spectatator  when  the clothing is worn.",
       "text": "14. Pet  display  clothing  for  a  perSon  having  an  inner  layer  and an outer layer providing  between them  a pet receiving  enclosure with at least one, closable, pet admitting entry  thereto, at least part of  the outer layer  being  transparent So  that a pet in the enclosure can  be viewed by a spectatator  when  the clothing is worn.",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -852,18 +779,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -882,18 +806,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/24",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -912,18 +833,15 @@
         }
       ],
       "orig": "15",
-      "text": "15",
-      "formatting": null,
-      "hyperlink": null
+      "text": "15"
     },
     {
       "self_ref": "#/texts/25",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -942,18 +860,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/26",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -972,18 +887,15 @@
         }
       ],
       "orig": "25",
-      "text": "25",
-      "formatting": null,
-      "hyperlink": null
+      "text": "25"
     },
     {
       "self_ref": "#/texts/27",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1002,18 +914,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/28",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1032,18 +941,15 @@
         }
       ],
       "orig": "35",
-      "text": "35",
-      "formatting": null,
-      "hyperlink": null
+      "text": "35"
     },
     {
       "self_ref": "#/texts/29",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1062,18 +968,15 @@
         }
       ],
       "orig": "40",
-      "text": "40",
-      "formatting": null,
-      "hyperlink": null
+      "text": "40"
     },
     {
       "self_ref": "#/texts/30",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1092,22 +995,18 @@
         }
       ],
       "orig": "45",
-      "text": "45",
-      "formatting": null,
-      "hyperlink": null
+      "text": "45"
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -1116,9 +1015,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -1140,7 +1037,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",

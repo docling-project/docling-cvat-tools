@@ -1,87 +1,82 @@
 {
   "schema_name": "DoclingDocument",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "name": "input",
-  "origin": null,
   "furniture": {
     "self_ref": "#/furniture",
-    "parent": null,
     "children": [],
     "content_layer": "furniture",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
   "body": {
     "self_ref": "#/body",
-    "parent": null,
     "children": [
       {
-        "cref": "#/texts/0"
+        "$ref": "#/texts/0"
       },
       {
-        "cref": "#/texts/1"
+        "$ref": "#/texts/1"
       },
       {
-        "cref": "#/texts/2"
+        "$ref": "#/texts/2"
       },
       {
-        "cref": "#/texts/3"
+        "$ref": "#/texts/3"
       },
       {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       {
-        "cref": "#/texts/5"
+        "$ref": "#/texts/5"
       },
       {
-        "cref": "#/texts/6"
+        "$ref": "#/texts/6"
       },
       {
-        "cref": "#/texts/7"
+        "$ref": "#/texts/7"
       },
       {
-        "cref": "#/texts/8"
+        "$ref": "#/texts/8"
       },
       {
-        "cref": "#/tables/0"
+        "$ref": "#/tables/0"
       },
       {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       {
-        "cref": "#/texts/20"
+        "$ref": "#/texts/20"
       },
       {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       {
-        "cref": "#/texts/53"
+        "$ref": "#/texts/53"
       },
       {
-        "cref": "#/texts/54"
+        "$ref": "#/texts/54"
       },
       {
-        "cref": "#/texts/63"
+        "$ref": "#/texts/63"
       },
       {
-        "cref": "#/texts/73"
+        "$ref": "#/texts/73"
       },
       {
-        "cref": "#/texts/77"
+        "$ref": "#/texts/77"
       },
       {
-        "cref": "#/pictures/1"
+        "$ref": "#/pictures/1"
       },
       {
-        "cref": "#/texts/89"
+        "$ref": "#/texts/89"
       },
       {
-        "cref": "#/texts/92"
+        "$ref": "#/texts/92"
       }
     ],
     "content_layer": "body",
-    "meta": null,
     "name": "_root_",
     "label": "unspecified"
   },
@@ -89,288 +84,277 @@
     {
       "self_ref": "#/groups/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/9"
+          "$ref": "#/texts/9"
         },
         {
-          "cref": "#/groups/1"
+          "$ref": "#/groups/1"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "list_standalone_6",
       "label": "list"
     },
     {
       "self_ref": "#/groups/1",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [
         {
-          "cref": "#/texts/10"
+          "$ref": "#/texts/10"
         },
         {
-          "cref": "#/texts/11"
+          "$ref": "#/texts/11"
         },
         {
-          "cref": "#/texts/12"
+          "$ref": "#/texts/12"
         },
         {
-          "cref": "#/texts/13"
+          "$ref": "#/texts/13"
         },
         {
-          "cref": "#/texts/14"
+          "$ref": "#/texts/14"
         },
         {
-          "cref": "#/texts/15"
+          "$ref": "#/texts/15"
         },
         {
-          "cref": "#/texts/16"
+          "$ref": "#/texts/16"
         },
         {
-          "cref": "#/texts/17"
+          "$ref": "#/texts/17"
         },
         {
-          "cref": "#/texts/18"
+          "$ref": "#/texts/18"
         },
         {
-          "cref": "#/texts/19"
+          "$ref": "#/texts/19"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_2_of_9",
       "label": "list"
     },
     {
       "self_ref": "#/groups/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/21"
+          "$ref": "#/texts/21"
         },
         {
-          "cref": "#/groups/3"
+          "$ref": "#/groups/3"
         },
         {
-          "cref": "#/texts/32"
+          "$ref": "#/texts/32"
         },
         {
-          "cref": "#/groups/4"
+          "$ref": "#/groups/4"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_8",
       "label": "list"
     },
     {
       "self_ref": "#/groups/3",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [
         {
-          "cref": "#/texts/22"
+          "$ref": "#/texts/22"
         },
         {
-          "cref": "#/texts/23"
+          "$ref": "#/texts/23"
         },
         {
-          "cref": "#/texts/24"
+          "$ref": "#/texts/24"
         },
         {
-          "cref": "#/texts/25"
+          "$ref": "#/texts/25"
         },
         {
-          "cref": "#/texts/26"
+          "$ref": "#/texts/26"
         },
         {
-          "cref": "#/texts/27"
+          "$ref": "#/texts/27"
         },
         {
-          "cref": "#/texts/28"
+          "$ref": "#/texts/28"
         },
         {
-          "cref": "#/texts/29"
+          "$ref": "#/texts/29"
         },
         {
-          "cref": "#/texts/30"
+          "$ref": "#/texts/30"
         },
         {
-          "cref": "#/texts/31"
+          "$ref": "#/texts/31"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_2_of_21",
       "label": "list"
     },
     {
       "self_ref": "#/groups/4",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [
         {
-          "cref": "#/texts/33"
+          "$ref": "#/texts/33"
         },
         {
-          "cref": "#/groups/5"
+          "$ref": "#/groups/5"
         },
         {
-          "cref": "#/texts/37"
+          "$ref": "#/texts/37"
         },
         {
-          "cref": "#/groups/6"
+          "$ref": "#/groups/6"
         },
         {
-          "cref": "#/texts/41"
+          "$ref": "#/texts/41"
         },
         {
-          "cref": "#/groups/7"
+          "$ref": "#/groups/7"
         },
         {
-          "cref": "#/texts/45"
+          "$ref": "#/texts/45"
         },
         {
-          "cref": "#/groups/8"
+          "$ref": "#/groups/8"
         },
         {
-          "cref": "#/texts/49"
+          "$ref": "#/texts/49"
         },
         {
-          "cref": "#/groups/9"
+          "$ref": "#/groups/9"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_2_of_32",
       "label": "list"
     },
     {
       "self_ref": "#/groups/5",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/34"
+          "$ref": "#/texts/34"
         },
         {
-          "cref": "#/texts/35"
+          "$ref": "#/texts/35"
         },
         {
-          "cref": "#/texts/36"
+          "$ref": "#/texts/36"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_3_of_33",
       "label": "list"
     },
     {
       "self_ref": "#/groups/6",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/38"
+          "$ref": "#/texts/38"
         },
         {
-          "cref": "#/texts/39"
+          "$ref": "#/texts/39"
         },
         {
-          "cref": "#/texts/40"
+          "$ref": "#/texts/40"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_3_of_37",
       "label": "list"
     },
     {
       "self_ref": "#/groups/7",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/42"
+          "$ref": "#/texts/42"
         },
         {
-          "cref": "#/texts/43"
+          "$ref": "#/texts/43"
         },
         {
-          "cref": "#/texts/44"
+          "$ref": "#/texts/44"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_3_of_41",
       "label": "list"
     },
     {
       "self_ref": "#/groups/8",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/46"
+          "$ref": "#/texts/46"
         },
         {
-          "cref": "#/texts/47"
+          "$ref": "#/texts/47"
         },
         {
-          "cref": "#/texts/48"
+          "$ref": "#/texts/48"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_3_of_45",
       "label": "list"
     },
     {
       "self_ref": "#/groups/9",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/50"
+          "$ref": "#/texts/50"
         },
         {
-          "cref": "#/texts/51"
+          "$ref": "#/texts/51"
         },
         {
-          "cref": "#/texts/52"
+          "$ref": "#/texts/52"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "sublist_level_3_of_49",
       "label": "list"
     },
     {
       "self_ref": "#/groups/10",
       "parent": {
-        "cref": "#/texts/17"
+        "$ref": "#/texts/17"
       },
       "children": [
         {
-          "cref": "#/texts/83"
+          "$ref": "#/texts/83"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "name": "group_0",
       "label": "unspecified"
     }
@@ -379,11 +363,10 @@
     {
       "self_ref": "#/texts/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -402,18 +385,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -432,18 +412,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/2",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -462,18 +439,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/3",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -492,18 +466,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/4",
       "parent": {
-        "cref": "#/pictures/0"
+        "$ref": "#/pictures/0"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -521,19 +492,16 @@
           ]
         }
       ],
-      "orig": "夺 冠 新 课 篁",
-      "text": "夺 冠 新 课 篁",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u593a \u51a0 \u65b0 \u8bfe \u7bc1",
+      "text": "\u593a \u51a0 \u65b0 \u8bfe \u7bc1"
     },
     {
       "self_ref": "#/texts/5",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -551,19 +519,16 @@
           ]
         }
       ],
-      "orig": "三 年 級 科 学 下 ・ D X ％ 場",
-      "text": "三 年 級 科 学 下 ・ D X ％ 場",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u4e09 \u5e74 \u7d1a \u79d1 \u5b66 \u4e0b \u30fb D X \uff05 \u5834",
+      "text": "\u4e09 \u5e74 \u7d1a \u79d1 \u5b66 \u4e0b \u30fb D X \uff05 \u5834"
     },
     {
       "self_ref": "#/texts/6",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "section_header",
       "prov": [
         {
@@ -581,20 +546,17 @@
           ]
         }
       ],
-      "orig": "期 末 测 试 卷",
-      "text": "期 末 测 试 卷",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u671f \u672b \u6d4b \u8bd5 \u5377",
+      "text": "\u671f \u672b \u6d4b \u8bd5 \u5377",
       "level": 1
     },
     {
       "self_ref": "#/texts/7",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -612,19 +574,16 @@
           ]
         }
       ],
-      "orig": "时 间 ： 6 0 分 钟",
-      "text": "时 间 ： 6 0 分 钟",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u65f6 \u95f4 \uff1a 6 0 \u5206 \u949f",
+      "text": "\u65f6 \u95f4 \uff1a 6 0 \u5206 \u949f"
     },
     {
       "self_ref": "#/texts/8",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -642,19 +601,16 @@
           ]
         }
       ],
-      "orig": "滿 分 ： 1 0 0 分",
-      "text": "滿 分 ： 1 0 0 分",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u6eff \u5206 \uff1a 1 0 0 \u5206",
+      "text": "\u6eff \u5206 \uff1a 1 0 0 \u5206"
     },
     {
       "self_ref": "#/texts/9",
       "parent": {
-        "cref": "#/groups/0"
+        "$ref": "#/groups/0"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -672,28 +628,25 @@
           ]
         }
       ],
-      "orig": "一 、 填 空 题 （ 每 空 1 分 ， 共 2 3 分 ）",
-      "text": "一 、 填 空 题 （ 每 空 1 分 ， 共 2 3 分 ）",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u4e00 \u3001 \u586b \u7a7a \u9898 \uff08 \u6bcf \u7a7a 1 \u5206 \uff0c \u5171 2 3 \u5206 \uff09",
+      "text": "\u4e00 \u3001 \u586b \u7a7a \u9898 \uff08 \u6bcf \u7a7a 1 \u5206 \uff0c \u5171 2 3 \u5206 \uff09",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/10",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/64"
+          "$ref": "#/texts/64"
         },
         {
-          "cref": "#/texts/65"
+          "$ref": "#/texts/65"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -711,25 +664,22 @@
           ]
         }
       ],
-      "orig": "1 .   体 积 相 同 ， 质 量 不 同 的 两 种 液 体 ， 如 果 把 轻 的 液 体 倒 人 重 的 液 体 中 ， 它 会 ； 如 果 把 重 的 液 休 倒 人 轻 的 液 体 中 ， 它 会 二 。 （ 选 填 “ 沉 ” 或 “ 浮 ” ）",
-      "text": "1 .   体 积 相 同 ， 质 量 不 同 的 两 种 液 体 ， 如 果 把 轻 的 液 体 倒 人 重 的 液 体 中 ， 它 会 ； 如 果 把 重 的 液 休 倒 人 轻 的 液 体 中 ， 它 会 二 。 （ 选 填 “ 沉 ” 或 “ 浮 ” ）",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "1 .   \u4f53 \u79ef \u76f8 \u540c \uff0c \u8d28 \u91cf \u4e0d \u540c \u7684 \u4e24 \u79cd \u6db2 \u4f53 \uff0c \u5982 \u679c \u628a \u8f7b \u7684 \u6db2 \u4f53 \u5012 \u4eba \u91cd \u7684 \u6db2 \u4f53 \u4e2d \uff0c \u5b83 \u4f1a \uff1b \u5982 \u679c \u628a \u91cd \u7684 \u6db2 \u4f11 \u5012 \u4eba \u8f7b \u7684 \u6db2 \u4f53 \u4e2d \uff0c \u5b83 \u4f1a \u4e8c \u3002 \uff08 \u9009 \u586b \u201c \u6c89 \u201d \u6216 \u201c \u6d6e \u201d \uff09",
+      "text": "1 .   \u4f53 \u79ef \u76f8 \u540c \uff0c \u8d28 \u91cf \u4e0d \u540c \u7684 \u4e24 \u79cd \u6db2 \u4f53 \uff0c \u5982 \u679c \u628a \u8f7b \u7684 \u6db2 \u4f53 \u5012 \u4eba \u91cd \u7684 \u6db2 \u4f53 \u4e2d \uff0c \u5b83 \u4f1a \uff1b \u5982 \u679c \u628a \u91cd \u7684 \u6db2 \u4f11 \u5012 \u4eba \u8f7b \u7684 \u6db2 \u4f53 \u4e2d \uff0c \u5b83 \u4f1a \u4e8c \u3002 \uff08 \u9009 \u586b \u201c \u6c89 \u201d \u6216 \u201c \u6d6e \u201d \uff09",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/11",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/68"
+          "$ref": "#/texts/68"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -747,31 +697,28 @@
           ]
         }
       ],
-      "orig": "2 . 的 透 明 度 好 ， 可 以 做 窗 户",
-      "text": "2 . 的 透 明 度 好 ， 可 以 做 窗 户",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "2 . \u7684 \u900f \u660e \u5ea6 \u597d \uff0c \u53ef \u4ee5 \u505a \u7a97 \u6237",
+      "text": "2 . \u7684 \u900f \u660e \u5ea6 \u597d \uff0c \u53ef \u4ee5 \u505a \u7a97 \u6237",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/12",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/70"
+          "$ref": "#/texts/70"
         },
         {
-          "cref": "#/texts/71"
+          "$ref": "#/texts/71"
         },
         {
-          "cref": "#/texts/72"
+          "$ref": "#/texts/72"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -789,25 +736,22 @@
           ]
         }
       ],
-      "orig": "3 .   电 是 一 种 - 。 太 阳 发 出 的 、 物 体 发 出 的 等 也 都 是 能 量 的 不 同 表 现 形 式 。",
-      "text": "3 .   电 是 一 种 - 。 太 阳 发 出 的 、 物 体 发 出 的 等 也 都 是 能 量 的 不 同 表 现 形 式 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "3 .   \u7535 \u662f \u4e00 \u79cd - \u3002 \u592a \u9633 \u53d1 \u51fa \u7684 \u3001 \u7269 \u4f53 \u53d1 \u51fa \u7684 \u7b49 \u4e5f \u90fd \u662f \u80fd \u91cf \u7684 \u4e0d \u540c \u8868 \u73b0 \u5f62 \u5f0f \u3002",
+      "text": "3 .   \u7535 \u662f \u4e00 \u79cd - \u3002 \u592a \u9633 \u53d1 \u51fa \u7684 \u3001 \u7269 \u4f53 \u53d1 \u51fa \u7684 \u7b49 \u4e5f \u90fd \u662f \u80fd \u91cf \u7684 \u4e0d \u540c \u8868 \u73b0 \u5f62 \u5f0f \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/13",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/75"
+          "$ref": "#/texts/75"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -825,25 +769,22 @@
           ]
         }
       ],
-      "orig": "4 . 通 过 小 灯 泡 时 ， 小 灯 泡 就 发 光 了 。",
-      "text": "4 . 通 过 小 灯 泡 时 ， 小 灯 泡 就 发 光 了 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "4 . \u901a \u8fc7 \u5c0f \u706f \u6ce1 \u65f6 \uff0c \u5c0f \u706f \u6ce1 \u5c31 \u53d1 \u5149 \u4e86 \u3002",
+      "text": "4 . \u901a \u8fc7 \u5c0f \u706f \u6ce1 \u65f6 \uff0c \u5c0f \u706f \u6ce1 \u5c31 \u53d1 \u5149 \u4e86 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/14",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/76"
+          "$ref": "#/texts/76"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -861,25 +802,22 @@
           ]
         }
       ],
-      "orig": "5 .   小 狗 房 子 的 选 材 要 求 ： 婴 等 。",
-      "text": "5 .   小 狗 房 子 的 选 材 要 求 ： 婴 等 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "5 .   \u5c0f \u72d7 \u623f \u5b50 \u7684 \u9009 \u6750 \u8981 \u6c42 \uff1a \u5a74 \u7b49 \u3002",
+      "text": "5 .   \u5c0f \u72d7 \u623f \u5b50 \u7684 \u9009 \u6750 \u8981 \u6c42 \uff1a \u5a74 \u7b49 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/15",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/78"
+          "$ref": "#/texts/78"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -897,31 +835,28 @@
           ]
         }
       ],
-      "orig": "6 .   种 子 能 萌 发 成 能 帮 助 植 物 吸 收 水 分 和 营 养 。",
-      "text": "6 .   种 子 能 萌 发 成 能 帮 助 植 物 吸 收 水 分 和 营 养 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "6 .   \u79cd \u5b50 \u80fd \u840c \u53d1 \u6210 \u80fd \u5e2e \u52a9 \u690d \u7269 \u5438 \u6536 \u6c34 \u5206 \u548c \u8425 \u517b \u3002",
+      "text": "6 .   \u79cd \u5b50 \u80fd \u840c \u53d1 \u6210 \u80fd \u5e2e \u52a9 \u690d \u7269 \u5438 \u6536 \u6c34 \u5206 \u548c \u8425 \u517b \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/16",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/79"
+          "$ref": "#/texts/79"
         },
         {
-          "cref": "#/texts/80"
+          "$ref": "#/texts/80"
         },
         {
-          "cref": "#/texts/81"
+          "$ref": "#/texts/81"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -939,31 +874,28 @@
           ]
         }
       ],
-      "orig": "7 .   植 物 茎 内 有 许 多 “ ” ， 它 们 能 够 把 根 吸 收 的 和 输 送 到 植 物 的 叶 等 器 官 里 。",
-      "text": "7 .   植 物 茎 内 有 许 多 “ ” ， 它 们 能 够 把 根 吸 收 的 和 输 送 到 植 物 的 叶 等 器 官 里 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "7 .   \u690d \u7269 \u830e \u5185 \u6709 \u8bb8 \u591a \u201c \u201d \uff0c \u5b83 \u4eec \u80fd \u591f \u628a \u6839 \u5438 \u6536 \u7684 \u548c \u8f93 \u9001 \u5230 \u690d \u7269 \u7684 \u53f6 \u7b49 \u5668 \u5b98 \u91cc \u3002",
+      "text": "7 .   \u690d \u7269 \u830e \u5185 \u6709 \u8bb8 \u591a \u201c \u201d \uff0c \u5b83 \u4eec \u80fd \u591f \u628a \u6839 \u5438 \u6536 \u7684 \u548c \u8f93 \u9001 \u5230 \u690d \u7269 \u7684 \u53f6 \u7b49 \u5668 \u5b98 \u91cc \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/17",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/groups/10"
+          "$ref": "#/groups/10"
         },
         {
-          "cref": "#/texts/84"
+          "$ref": "#/texts/84"
         },
         {
-          "cref": "#/texts/85"
+          "$ref": "#/texts/85"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -981,25 +913,22 @@
           ]
         }
       ],
-      "orig": "8 .   人 们 根 据 土 壤 中 所 含 沙 粒 和 黏 粒 量 的 多 少 ， 把 士 壤 分 为 三 类 ： 含 黏 粒 多 的 士 壤 叫 」 ； 含 沙 粒 多 的 土 壤 叫 _ ； 沙 粒 和 黏 粒 的 含 量 差 不 多 的 土 壤 叫",
-      "text": "8 .   人 们 根 据 土 壤 中 所 含 沙 粒 和 黏 粒 量 的 多 少 ， 把 士 壤 分 为 三 类 ： 含 黏 粒 多 的 士 壤 叫 」 ； 含 沙 粒 多 的 土 壤 叫 _ ； 沙 粒 和 黏 粒 的 含 量 差 不 多 的 土 壤 叫",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "8 .   \u4eba \u4eec \u6839 \u636e \u571f \u58e4 \u4e2d \u6240 \u542b \u6c99 \u7c92 \u548c \u9ecf \u7c92 \u91cf \u7684 \u591a \u5c11 \uff0c \u628a \u58eb \u58e4 \u5206 \u4e3a \u4e09 \u7c7b \uff1a \u542b \u9ecf \u7c92 \u591a \u7684 \u58eb \u58e4 \u53eb \u300d \uff1b \u542b \u6c99 \u7c92 \u591a \u7684 \u571f \u58e4 \u53eb _ \uff1b \u6c99 \u7c92 \u548c \u9ecf \u7c92 \u7684 \u542b \u91cf \u5dee \u4e0d \u591a \u7684 \u571f \u58e4 \u53eb",
+      "text": "8 .   \u4eba \u4eec \u6839 \u636e \u571f \u58e4 \u4e2d \u6240 \u542b \u6c99 \u7c92 \u548c \u9ecf \u7c92 \u91cf \u7684 \u591a \u5c11 \uff0c \u628a \u58eb \u58e4 \u5206 \u4e3a \u4e09 \u7c7b \uff1a \u542b \u9ecf \u7c92 \u591a \u7684 \u58eb \u58e4 \u53eb \u300d \uff1b \u542b \u6c99 \u7c92 \u591a \u7684 \u571f \u58e4 \u53eb _ \uff1b \u6c99 \u7c92 \u548c \u9ecf \u7c92 \u7684 \u542b \u91cf \u5dee \u4e0d \u591a \u7684 \u571f \u58e4 \u53eb",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/18",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/88"
+          "$ref": "#/texts/88"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1017,28 +946,25 @@
           ]
         }
       ],
-      "orig": "9 .   固 体 有 确 定 的 形 状 ， 我 们 可 以 用 」 等 数 催 米 描 述 它 的 大 小 。",
-      "text": "9 .   固 体 有 确 定 的 形 状 ， 我 们 可 以 用 」 等 数 催 米 描 述 它 的 大 小 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "9 .   \u56fa \u4f53 \u6709 \u786e \u5b9a \u7684 \u5f62 \u72b6 \uff0c \u6211 \u4eec \u53ef \u4ee5 \u7528 \u300d \u7b49 \u6570 \u50ac \u7c73 \u63cf \u8ff0 \u5b83 \u7684 \u5927 \u5c0f \u3002",
+      "text": "9 .   \u56fa \u4f53 \u6709 \u786e \u5b9a \u7684 \u5f62 \u72b6 \uff0c \u6211 \u4eec \u53ef \u4ee5 \u7528 \u300d \u7b49 \u6570 \u50ac \u7c73 \u63cf \u8ff0 \u5b83 \u7684 \u5927 \u5c0f \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/19",
       "parent": {
-        "cref": "#/groups/1"
+        "$ref": "#/groups/1"
       },
       "children": [
         {
-          "cref": "#/texts/90"
+          "$ref": "#/texts/90"
         },
         {
-          "cref": "#/texts/91"
+          "$ref": "#/texts/91"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1056,21 +982,18 @@
           ]
         }
       ],
-      "orig": "1 0 . 空 气 没 有 确 定 的 _ ， 但 空 气 有",
-      "text": "1 0 . 空 气 没 有 确 定 的 _ ， 但 空 气 有",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "1 0 . \u7a7a \u6c14 \u6ca1 \u6709 \u786e \u5b9a \u7684 _ \uff0c \u4f46 \u7a7a \u6c14 \u6709",
+      "text": "1 0 . \u7a7a \u6c14 \u6ca1 \u6709 \u786e \u5b9a \u7684 _ \uff0c \u4f46 \u7a7a \u6c14 \u6709",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/20",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -1088,19 +1011,16 @@
           ]
         }
       ],
-      "orig": "- 7 1   ー",
-      "text": "- 7 1   ー",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "- 7 1   \u30fc",
+      "text": "- 7 1   \u30fc"
     },
     {
       "self_ref": "#/texts/21",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1118,25 +1038,22 @@
           ]
         }
       ],
-      "orig": "二 、 判 断 题 （ 对 的 画 “ V ” ， 错 的 画 “ × ” ） （ 1 0 分 ）",
-      "text": "二 、 判 断 题 （ 对 的 画 “ V ” ， 错 的 画 “ × ” ） （ 1 0 分 ）",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u4e8c \u3001 \u5224 \u65ad \u9898 \uff08 \u5bf9 \u7684 \u753b \u201c V \u201d \uff0c \u9519 \u7684 \u753b \u201c \u00d7 \u201d \uff09 \uff08 1 0 \u5206 \uff09",
+      "text": "\u4e8c \u3001 \u5224 \u65ad \u9898 \uff08 \u5bf9 \u7684 \u753b \u201c V \u201d \uff0c \u9519 \u7684 \u753b \u201c \u00d7 \u201d \uff09 \uff08 1 0 \u5206 \uff09",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/22",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/55"
+          "$ref": "#/texts/55"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1154,25 +1071,22 @@
           ]
         }
       ],
-      "orig": "1 . 种 子 和 根 是 植 物 的 重 要 器 官 。",
-      "text": "1 . 种 子 和 根 是 植 物 的 重 要 器 官 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "1 . \u79cd \u5b50 \u548c \u6839 \u662f \u690d \u7269 \u7684 \u91cd \u8981 \u5668 \u5b98 \u3002",
+      "text": "1 . \u79cd \u5b50 \u548c \u6839 \u662f \u690d \u7269 \u7684 \u91cd \u8981 \u5668 \u5b98 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/23",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/56"
+          "$ref": "#/texts/56"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1190,25 +1104,22 @@
           ]
         }
       ],
-      "orig": "2 .   𡠺 想 知 道 小 狗 房 子 的 大 小 是 否 合 适 ， 可 以 让 小 狗 钻 进 去 试 试 。",
-      "text": "2 .   𡠺 想 知 道 小 狗 房 子 的 大 小 是 否 合 适 ， 可 以 让 小 狗 钻 进 去 试 试 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "2 .   \ud846\udc3a \u60f3 \u77e5 \u9053 \u5c0f \u72d7 \u623f \u5b50 \u7684 \u5927 \u5c0f \u662f \u5426 \u5408 \u9002 \uff0c \u53ef \u4ee5 \u8ba9 \u5c0f \u72d7 \u94bb \u8fdb \u53bb \u8bd5 \u8bd5 \u3002",
+      "text": "2 .   \ud846\udc3a \u60f3 \u77e5 \u9053 \u5c0f \u72d7 \u623f \u5b50 \u7684 \u5927 \u5c0f \u662f \u5426 \u5408 \u9002 \uff0c \u53ef \u4ee5 \u8ba9 \u5c0f \u72d7 \u94bb \u8fdb \u53bb \u8bd5 \u8bd5 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/24",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/57"
+          "$ref": "#/texts/57"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1226,25 +1137,22 @@
           ]
         }
       ],
-      "orig": "3 .   变 成 油 条 的 面 团 物 质 发 生 变 化 。",
-      "text": "3 .   变 成 油 条 的 面 团 物 质 发 生 变 化 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "3 .   \u53d8 \u6210 \u6cb9 \u6761 \u7684 \u9762 \u56e2 \u7269 \u8d28 \u53d1 \u751f \u53d8 \u5316 \u3002",
+      "text": "3 .   \u53d8 \u6210 \u6cb9 \u6761 \u7684 \u9762 \u56e2 \u7269 \u8d28 \u53d1 \u751f \u53d8 \u5316 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/25",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/58"
+          "$ref": "#/texts/58"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1262,25 +1170,22 @@
           ]
         }
       ],
-      "orig": "4 .   可 以 用 导 线 直 接 连 接 电 池 的 两 粪 。",
-      "text": "4 .   可 以 用 导 线 直 接 连 接 电 池 的 两 粪 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "4 .   \u53ef \u4ee5 \u7528 \u5bfc \u7ebf \u76f4 \u63a5 \u8fde \u63a5 \u7535 \u6c60 \u7684 \u4e24 \u7caa \u3002",
+      "text": "4 .   \u53ef \u4ee5 \u7528 \u5bfc \u7ebf \u76f4 \u63a5 \u8fde \u63a5 \u7535 \u6c60 \u7684 \u4e24 \u7caa \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/26",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/59"
+          "$ref": "#/texts/59"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1298,25 +1203,22 @@
           ]
         }
       ],
-      "orig": "5 . 一 个 开 关 只 能 控 制 一 个 小 灯 泡 的 亮 和 灭 。",
-      "text": "5 . 一 个 开 关 只 能 控 制 一 个 小 灯 泡 的 亮 和 灭 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "5 . \u4e00 \u4e2a \u5f00 \u5173 \u53ea \u80fd \u63a7 \u5236 \u4e00 \u4e2a \u5c0f \u706f \u6ce1 \u7684 \u4eae \u548c \u706d \u3002",
+      "text": "5 . \u4e00 \u4e2a \u5f00 \u5173 \u53ea \u80fd \u63a7 \u5236 \u4e00 \u4e2a \u5c0f \u706f \u6ce1 \u7684 \u4eae \u548c \u706d \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/27",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/60"
+          "$ref": "#/texts/60"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1334,25 +1236,22 @@
           ]
         }
       ],
-      "orig": "6 . 油 菜 属 于 观 赏 植 物 。",
-      "text": "6 . 油 菜 属 于 观 赏 植 物 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "6 . \u6cb9 \u83dc \u5c5e \u4e8e \u89c2 \u8d4f \u690d \u7269 \u3002",
+      "text": "6 . \u6cb9 \u83dc \u5c5e \u4e8e \u89c2 \u8d4f \u690d \u7269 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/28",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/61"
+          "$ref": "#/texts/61"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1370,25 +1269,22 @@
           ]
         }
       ],
-      "orig": "7 . 清 洗 梨 子 时 ， 它 的 大 小 发 生 了 变 化 。",
-      "text": "7 . 清 洗 梨 子 时 ， 它 的 大 小 发 生 了 变 化 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "7 . \u6e05 \u6d17 \u68a8 \u5b50 \u65f6 \uff0c \u5b83 \u7684 \u5927 \u5c0f \u53d1 \u751f \u4e86 \u53d8 \u5316 \u3002",
+      "text": "7 . \u6e05 \u6d17 \u68a8 \u5b50 \u65f6 \uff0c \u5b83 \u7684 \u5927 \u5c0f \u53d1 \u751f \u4e86 \u53d8 \u5316 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/29",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/62"
+          "$ref": "#/texts/62"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1406,25 +1302,22 @@
           ]
         }
       ],
-      "orig": "8 . 在 观 察 土 壤 的 活 动 中 ， 要 戴 上 手 套 ， 完 成 活 动 之 后 ， 还 要 及 时 洗 手 。 （",
-      "text": "8 . 在 观 察 土 壤 的 活 动 中 ， 要 戴 上 手 套 ， 完 成 活 动 之 后 ， 还 要 及 时 洗 手 。 （",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "8 . \u5728 \u89c2 \u5bdf \u571f \u58e4 \u7684 \u6d3b \u52a8 \u4e2d \uff0c \u8981 \u6234 \u4e0a \u624b \u5957 \uff0c \u5b8c \u6210 \u6d3b \u52a8 \u4e4b \u540e \uff0c \u8fd8 \u8981 \u53ca \u65f6 \u6d17 \u624b \u3002 \uff08",
+      "text": "8 . \u5728 \u89c2 \u5bdf \u571f \u58e4 \u7684 \u6d3b \u52a8 \u4e2d \uff0c \u8981 \u6234 \u4e0a \u624b \u5957 \uff0c \u5b8c \u6210 \u6d3b \u52a8 \u4e4b \u540e \uff0c \u8fd8 \u8981 \u53ca \u65f6 \u6d17 \u624b \u3002 \uff08",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/30",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/66"
+          "$ref": "#/texts/66"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1442,25 +1335,22 @@
           ]
         }
       ],
-      "orig": "9 . 把 物 体 的 质 量 称 为 “ 重 量 ” ， 这 是 一 种 不 规 范 的 说 法 。",
-      "text": "9 . 把 物 体 的 质 量 称 为 “ 重 量 ” ， 这 是 一 种 不 规 范 的 说 法 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "9 . \u628a \u7269 \u4f53 \u7684 \u8d28 \u91cf \u79f0 \u4e3a \u201c \u91cd \u91cf \u201d \uff0c \u8fd9 \u662f \u4e00 \u79cd \u4e0d \u89c4 \u8303 \u7684 \u8bf4 \u6cd5 \u3002",
+      "text": "9 . \u628a \u7269 \u4f53 \u7684 \u8d28 \u91cf \u79f0 \u4e3a \u201c \u91cd \u91cf \u201d \uff0c \u8fd9 \u662f \u4e00 \u79cd \u4e0d \u89c4 \u8303 \u7684 \u8bf4 \u6cd5 \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/31",
       "parent": {
-        "cref": "#/groups/3"
+        "$ref": "#/groups/3"
       },
       "children": [
         {
-          "cref": "#/texts/67"
+          "$ref": "#/texts/67"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1478,21 +1368,18 @@
           ]
         }
       ],
-      "orig": "1 0 .   物 体 所 含 物 质 的 多 少 称 为 物 体 的 体 积 。",
-      "text": "1 0 .   物 体 所 含 物 质 的 多 少 称 为 物 体 的 体 积 。",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "1 0 .   \u7269 \u4f53 \u6240 \u542b \u7269 \u8d28 \u7684 \u591a \u5c11 \u79f0 \u4e3a \u7269 \u4f53 \u7684 \u4f53 \u79ef \u3002",
+      "text": "1 0 .   \u7269 \u4f53 \u6240 \u542b \u7269 \u8d28 \u7684 \u591a \u5c11 \u79f0 \u4e3a \u7269 \u4f53 \u7684 \u4f53 \u79ef \u3002",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/32",
       "parent": {
-        "cref": "#/groups/2"
+        "$ref": "#/groups/2"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1510,25 +1397,22 @@
           ]
         }
       ],
-      "orig": "三 、 迭 择 題 （ 将 正 确 答 案 的 序 号 填 在 括 号 里 ） （ 2 4   分",
-      "text": "三 、 迭 择 題 （ 将 正 确 答 案 的 序 号 填 在 括 号 里 ） （ 2 4   分",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "\u4e09 \u3001 \u8fed \u62e9 \u984c \uff08 \u5c06 \u6b63 \u786e \u7b54 \u6848 \u7684 \u5e8f \u53f7 \u586b \u5728 \u62ec \u53f7 \u91cc \uff09 \uff08 2 4   \u5206",
+      "text": "\u4e09 \u3001 \u8fed \u62e9 \u984c \uff08 \u5c06 \u6b63 \u786e \u7b54 \u6848 \u7684 \u5e8f \u53f7 \u586b \u5728 \u62ec \u53f7 \u91cc \uff09 \uff08 2 4   \u5206",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/33",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/69"
+          "$ref": "#/texts/69"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1546,21 +1430,18 @@
           ]
         }
       ],
-      "orig": "1 .   下 列 选 项 中 ， 属 于 天 然 材 料 的 是",
-      "text": "1 .   下 列 选 项 中 ， 属 于 天 然 材 料 的 是",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "1 .   \u4e0b \u5217 \u9009 \u9879 \u4e2d \uff0c \u5c5e \u4e8e \u5929 \u7136 \u6750 \u6599 \u7684 \u662f",
+      "text": "1 .   \u4e0b \u5217 \u9009 \u9879 \u4e2d \uff0c \u5c5e \u4e8e \u5929 \u7136 \u6750 \u6599 \u7684 \u662f",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/34",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1578,21 +1459,18 @@
           ]
         }
       ],
-      "orig": "A .   塑 料",
-      "text": "A .   塑 料",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "A .   \u5851 \u6599",
+      "text": "A .   \u5851 \u6599",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/35",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1610,21 +1488,18 @@
           ]
         }
       ],
-      "orig": "B .   钢 筋",
-      "text": "B .   钢 筋",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "B .   \u94a2 \u7b4b",
+      "text": "B .   \u94a2 \u7b4b",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/36",
       "parent": {
-        "cref": "#/groups/5"
+        "$ref": "#/groups/5"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1642,25 +1517,22 @@
           ]
         }
       ],
-      "orig": "C .   木 板",
-      "text": "C .   木 板",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "C .   \u6728 \u677f",
+      "text": "C .   \u6728 \u677f",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/37",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/74"
+          "$ref": "#/texts/74"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1678,21 +1550,18 @@
           ]
         }
       ],
-      "orig": "2 .   下 列 说 法 正 确 的 是",
-      "text": "2 .   下 列 说 法 正 确 的 是",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "2 .   \u4e0b \u5217 \u8bf4 \u6cd5 \u6b63 \u786e \u7684 \u662f",
+      "text": "2 .   \u4e0b \u5217 \u8bf4 \u6cd5 \u6b63 \u786e \u7684 \u662f",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/38",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1710,21 +1579,18 @@
           ]
         }
       ],
-      "orig": "A .   绝 缘 体 的 绝 缘 性 并 不 是 绝 对 的",
-      "text": "A .   绝 缘 体 的 绝 缘 性 并 不 是 绝 对 的",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "A .   \u7edd \u7f18 \u4f53 \u7684 \u7edd \u7f18 \u6027 \u5e76 \u4e0d \u662f \u7edd \u5bf9 \u7684",
+      "text": "A .   \u7edd \u7f18 \u4f53 \u7684 \u7edd \u7f18 \u6027 \u5e76 \u4e0d \u662f \u7edd \u5bf9 \u7684",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/39",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1742,21 +1608,18 @@
           ]
         }
       ],
-      "orig": "B .   可 以 用 潮 湿 的 本 棒 接 触 电 线",
-      "text": "B .   可 以 用 潮 湿 的 本 棒 接 触 电 线",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "B .   \u53ef \u4ee5 \u7528 \u6f6e \u6e7f \u7684 \u672c \u68d2 \u63a5 \u89e6 \u7535 \u7ebf",
+      "text": "B .   \u53ef \u4ee5 \u7528 \u6f6e \u6e7f \u7684 \u672c \u68d2 \u63a5 \u89e6 \u7535 \u7ebf",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/40",
       "parent": {
-        "cref": "#/groups/6"
+        "$ref": "#/groups/6"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1774,25 +1637,22 @@
           ]
         }
       ],
-      "orig": "C .   发 现 有 人 触 电 ， 应 直 接 用 手 将 触 电 者 拉 开",
-      "text": "C .   发 现 有 人 触 电 ， 应 直 接 用 手 将 触 电 者 拉 开",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "C .   \u53d1 \u73b0 \u6709 \u4eba \u89e6 \u7535 \uff0c \u5e94 \u76f4 \u63a5 \u7528 \u624b \u5c06 \u89e6 \u7535 \u8005 \u62c9 \u5f00",
+      "text": "C .   \u53d1 \u73b0 \u6709 \u4eba \u89e6 \u7535 \uff0c \u5e94 \u76f4 \u63a5 \u7528 \u624b \u5c06 \u89e6 \u7535 \u8005 \u62c9 \u5f00",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/41",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/82"
+          "$ref": "#/texts/82"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1810,21 +1670,18 @@
           ]
         }
       ],
-      "orig": "3 .   下 列 植 物 中 ， 会 借 助 水 来 传 播 种 子 的 是",
-      "text": "3 .   下 列 植 物 中 ， 会 借 助 水 来 传 播 种 子 的 是",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "3 .   \u4e0b \u5217 \u690d \u7269 \u4e2d \uff0c \u4f1a \u501f \u52a9 \u6c34 \u6765 \u4f20 \u64ad \u79cd \u5b50 \u7684 \u662f",
+      "text": "3 .   \u4e0b \u5217 \u690d \u7269 \u4e2d \uff0c \u4f1a \u501f \u52a9 \u6c34 \u6765 \u4f20 \u64ad \u79cd \u5b50 \u7684 \u662f",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/42",
       "parent": {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1842,21 +1699,18 @@
           ]
         }
       ],
-      "orig": "A .   柳 树",
-      "text": "A .   柳 树",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "A .   \u67f3 \u6811",
+      "text": "A .   \u67f3 \u6811",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/43",
       "parent": {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1874,21 +1728,18 @@
           ]
         }
       ],
-      "orig": "B .   豚 莲",
-      "text": "B .   豚 莲",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "B .   \u8c5a \u83b2",
+      "text": "B .   \u8c5a \u83b2",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/44",
       "parent": {
-        "cref": "#/groups/7"
+        "$ref": "#/groups/7"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1906,25 +1757,22 @@
           ]
         }
       ],
-      "orig": "C .   若 耳",
-      "text": "C .   若 耳",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "C .   \u82e5 \u8033",
+      "text": "C .   \u82e5 \u8033",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/45",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/86"
+          "$ref": "#/texts/86"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1942,21 +1790,18 @@
           ]
         }
       ],
-      "orig": "4 .   下 列 植 物 中 ， 会 借 助 动 物 来 传 播 种 子 的 是",
-      "text": "4 .   下 列 植 物 中 ， 会 借 助 动 物 来 传 播 种 子 的 是",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "4 .   \u4e0b \u5217 \u690d \u7269 \u4e2d \uff0c \u4f1a \u501f \u52a9 \u52a8 \u7269 \u6765 \u4f20 \u64ad \u79cd \u5b50 \u7684 \u662f",
+      "text": "4 .   \u4e0b \u5217 \u690d \u7269 \u4e2d \uff0c \u4f1a \u501f \u52a9 \u52a8 \u7269 \u6765 \u4f20 \u64ad \u79cd \u5b50 \u7684 \u662f",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/46",
       "parent": {
-        "cref": "#/groups/8"
+        "$ref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -1974,21 +1819,18 @@
           ]
         }
       ],
-      "orig": "A .   花 耳",
-      "text": "A .   花 耳",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "A .   \u82b1 \u8033",
+      "text": "A .   \u82b1 \u8033",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/47",
       "parent": {
-        "cref": "#/groups/8"
+        "$ref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2006,21 +1848,18 @@
           ]
         }
       ],
-      "orig": "B . 蒲 公 英",
-      "text": "B . 蒲 公 英",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "B . \u84b2 \u516c \u82f1",
+      "text": "B . \u84b2 \u516c \u82f1",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/48",
       "parent": {
-        "cref": "#/groups/8"
+        "$ref": "#/groups/8"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2038,25 +1877,22 @@
           ]
         }
       ],
-      "orig": "C . 油 菜",
-      "text": "C . 油 菜",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "C . \u6cb9 \u83dc",
+      "text": "C . \u6cb9 \u83dc",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/49",
       "parent": {
-        "cref": "#/groups/4"
+        "$ref": "#/groups/4"
       },
       "children": [
         {
-          "cref": "#/texts/87"
+          "$ref": "#/texts/87"
         }
       ],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2074,21 +1910,18 @@
           ]
         }
       ],
-      "orig": "5 .   下 列 说 法 正 确 的 是",
-      "text": "5 .   下 列 说 法 正 确 的 是",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "5 .   \u4e0b \u5217 \u8bf4 \u6cd5 \u6b63 \u786e \u7684 \u662f",
+      "text": "5 .   \u4e0b \u5217 \u8bf4 \u6cd5 \u6b63 \u786e \u7684 \u662f",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/50",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2106,21 +1939,18 @@
           ]
         }
       ],
-      "orig": "A .   所 有 绿 色 开 花 植 物 都 有 根 、 茎 、 叶 、 花 、 果 实 和 种 子 六 大 器 官",
-      "text": "A .   所 有 绿 色 开 花 植 物 都 有 根 、 茎 、 叶 、 花 、 果 实 和 种 子 六 大 器 官",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "A .   \u6240 \u6709 \u7eff \u8272 \u5f00 \u82b1 \u690d \u7269 \u90fd \u6709 \u6839 \u3001 \u830e \u3001 \u53f6 \u3001 \u82b1 \u3001 \u679c \u5b9e \u548c \u79cd \u5b50 \u516d \u5927 \u5668 \u5b98",
+      "text": "A .   \u6240 \u6709 \u7eff \u8272 \u5f00 \u82b1 \u690d \u7269 \u90fd \u6709 \u6839 \u3001 \u830e \u3001 \u53f6 \u3001 \u82b1 \u3001 \u679c \u5b9e \u548c \u79cd \u5b50 \u516d \u5927 \u5668 \u5b98",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/51",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2138,21 +1968,18 @@
           ]
         }
       ],
-      "orig": "B .   所 有 绿 色 开 花 植 物 都 可 以 通 过 根 、 茎 、 叶 等 来 繁 殖 后 代",
-      "text": "B .   所 有 绿 色 开 花 植 物 都 可 以 通 过 根 、 茎 、 叶 等 来 繁 殖 后 代",
-      "formatting": null,
-      "hyperlink": null,
+      "orig": "B .   \u6240 \u6709 \u7eff \u8272 \u5f00 \u82b1 \u690d \u7269 \u90fd \u53ef \u4ee5 \u901a \u8fc7 \u6839 \u3001 \u830e \u3001 \u53f6 \u7b49 \u6765 \u7e41 \u6b96 \u540e \u4ee3",
+      "text": "B .   \u6240 \u6709 \u7eff \u8272 \u5f00 \u82b1 \u690d \u7269 \u90fd \u53ef \u4ee5 \u901a \u8fc7 \u6839 \u3001 \u830e \u3001 \u53f6 \u7b49 \u6765 \u7e41 \u6b96 \u540e \u4ee3",
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/52",
       "parent": {
-        "cref": "#/groups/9"
+        "$ref": "#/groups/9"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "list_item",
       "prov": [
         {
@@ -2172,19 +1999,16 @@
       ],
       "orig": "",
       "text": "",
-      "formatting": null,
-      "hyperlink": null,
       "enumerated": false,
       "marker": ""
     },
     {
       "self_ref": "#/texts/53",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2202,19 +2026,16 @@
           ]
         }
       ],
-      "orig": "- 7 2   ー",
-      "text": "- 7 2   ー",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "- 7 2   \u30fc",
+      "text": "- 7 2   \u30fc"
     },
     {
       "self_ref": "#/texts/54",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2232,19 +2053,16 @@
           ]
         }
       ],
-      "orig": "美 后 湖 成 必 众 是 一 我 就 资 孙 話 ” 衣 取 史 多 司 门 学 1",
-      "text": "美 后 湖 成 必 众 是 一 我 就 资 孙 話 ” 衣 取 史 多 司 门 学 1",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u7f8e \u540e \u6e56 \u6210 \u5fc5 \u4f17 \u662f \u4e00 \u6211 \u5c31 \u8d44 \u5b59 \u8a71 \u201d \u8863 \u53d6 \u53f2 \u591a \u53f8 \u95e8 \u5b66 1",
+      "text": "\u7f8e \u540e \u6e56 \u6210 \u5fc5 \u4f17 \u662f \u4e00 \u6211 \u5c31 \u8d44 \u5b59 \u8a71 \u201d \u8863 \u53d6 \u53f2 \u591a \u53f8 \u95e8 \u5b66 1"
     },
     {
       "self_ref": "#/texts/55",
       "parent": {
-        "cref": "#/texts/22"
+        "$ref": "#/texts/22"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2263,18 +2081,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/56",
       "parent": {
-        "cref": "#/texts/23"
+        "$ref": "#/texts/23"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2293,18 +2108,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/57",
       "parent": {
-        "cref": "#/texts/24"
+        "$ref": "#/texts/24"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2323,18 +2135,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/58",
       "parent": {
-        "cref": "#/texts/25"
+        "$ref": "#/texts/25"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2353,18 +2162,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/59",
       "parent": {
-        "cref": "#/texts/26"
+        "$ref": "#/texts/26"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2383,18 +2189,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/60",
       "parent": {
-        "cref": "#/texts/27"
+        "$ref": "#/texts/27"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2413,18 +2216,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/61",
       "parent": {
-        "cref": "#/texts/28"
+        "$ref": "#/texts/28"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2443,18 +2243,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/62",
       "parent": {
-        "cref": "#/texts/29"
+        "$ref": "#/texts/29"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2472,19 +2269,16 @@
           ]
         }
       ],
-      "orig": "（",
-      "text": "（",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\uff08",
+      "text": "\uff08"
     },
     {
       "self_ref": "#/texts/63",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2503,18 +2297,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/64",
       "parent": {
-        "cref": "#/texts/10"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2532,19 +2323,16 @@
           ]
         }
       ],
-      "orig": "；",
-      "text": "；",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\uff1b",
+      "text": "\uff1b"
     },
     {
       "self_ref": "#/texts/65",
       "parent": {
-        "cref": "#/texts/10"
+        "$ref": "#/texts/10"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2562,19 +2350,16 @@
           ]
         }
       ],
-      "orig": "二",
-      "text": "二",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u4e8c",
+      "text": "\u4e8c"
     },
     {
       "self_ref": "#/texts/66",
       "parent": {
-        "cref": "#/texts/30"
+        "$ref": "#/texts/30"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2593,18 +2378,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/67",
       "parent": {
-        "cref": "#/texts/31"
+        "$ref": "#/texts/31"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2623,18 +2405,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/68",
       "parent": {
-        "cref": "#/texts/11"
+        "$ref": "#/texts/11"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2653,18 +2432,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/69",
       "parent": {
-        "cref": "#/texts/33"
+        "$ref": "#/texts/33"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2683,18 +2459,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/70",
       "parent": {
-        "cref": "#/texts/12"
+        "$ref": "#/texts/12"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2713,18 +2486,15 @@
         }
       ],
       "orig": "-",
-      "text": "-",
-      "formatting": null,
-      "hyperlink": null
+      "text": "-"
     },
     {
       "self_ref": "#/texts/71",
       "parent": {
-        "cref": "#/texts/12"
+        "$ref": "#/texts/12"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2742,19 +2512,16 @@
           ]
         }
       ],
-      "orig": "、",
-      "text": "、",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u3001",
+      "text": "\u3001"
     },
     {
       "self_ref": "#/texts/72",
       "parent": {
-        "cref": "#/texts/12"
+        "$ref": "#/texts/12"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2773,18 +2540,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/73",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2803,18 +2567,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/74",
       "parent": {
-        "cref": "#/texts/37"
+        "$ref": "#/texts/37"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2833,18 +2594,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/75",
       "parent": {
-        "cref": "#/texts/13"
+        "$ref": "#/texts/13"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2863,18 +2621,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/76",
       "parent": {
-        "cref": "#/texts/14"
+        "$ref": "#/texts/14"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2893,18 +2648,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/77",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "furniture",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -2923,18 +2675,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/78",
       "parent": {
-        "cref": "#/texts/15"
+        "$ref": "#/texts/15"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2953,18 +2702,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/79",
       "parent": {
-        "cref": "#/texts/16"
+        "$ref": "#/texts/16"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -2982,19 +2728,16 @@
           ]
         }
       ],
-      "orig": "“",
-      "text": "“",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u201c",
+      "text": "\u201c"
     },
     {
       "self_ref": "#/texts/80",
       "parent": {
-        "cref": "#/texts/16"
+        "$ref": "#/texts/16"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3013,18 +2756,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/81",
       "parent": {
-        "cref": "#/texts/16"
+        "$ref": "#/texts/16"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3043,18 +2783,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/82",
       "parent": {
-        "cref": "#/texts/41"
+        "$ref": "#/texts/41"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3073,18 +2810,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/83",
       "parent": {
-        "cref": "#/groups/10"
+        "$ref": "#/groups/10"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3102,19 +2836,16 @@
           ]
         }
       ],
-      "orig": "」",
-      "text": "」",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u300d",
+      "text": "\u300d"
     },
     {
       "self_ref": "#/texts/84",
       "parent": {
-        "cref": "#/texts/17"
+        "$ref": "#/texts/17"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3133,18 +2864,15 @@
         }
       ],
       "orig": "_",
-      "text": "_",
-      "formatting": null,
-      "hyperlink": null
+      "text": "_"
     },
     {
       "self_ref": "#/texts/85",
       "parent": {
-        "cref": "#/texts/17"
+        "$ref": "#/texts/17"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3163,18 +2891,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/86",
       "parent": {
-        "cref": "#/texts/45"
+        "$ref": "#/texts/45"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3193,18 +2918,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/87",
       "parent": {
-        "cref": "#/texts/49"
+        "$ref": "#/texts/49"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3223,18 +2945,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/88",
       "parent": {
-        "cref": "#/texts/18"
+        "$ref": "#/texts/18"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3252,19 +2971,16 @@
           ]
         }
       ],
-      "orig": "」",
-      "text": "」",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u300d",
+      "text": "\u300d"
     },
     {
       "self_ref": "#/texts/89",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -3282,19 +2998,16 @@
           ]
         }
       ],
-      "orig": "微 信 言 公 人 一 C .",
-      "text": "微 信 言 公 人 一 C .",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\u5fae \u4fe1 \u8a00 \u516c \u4eba \u4e00 C .",
+      "text": "\u5fae \u4fe1 \u8a00 \u516c \u4eba \u4e00 C ."
     },
     {
       "self_ref": "#/texts/90",
       "parent": {
-        "cref": "#/texts/19"
+        "$ref": "#/texts/19"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3313,18 +3026,15 @@
         }
       ],
       "orig": "_",
-      "text": "_",
-      "formatting": null,
-      "hyperlink": null
+      "text": "_"
     },
     {
       "self_ref": "#/texts/91",
       "parent": {
-        "cref": "#/texts/19"
+        "$ref": "#/texts/19"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "empty_value",
       "prov": [
         {
@@ -3343,18 +3053,15 @@
         }
       ],
       "orig": "",
-      "text": "",
-      "formatting": null,
-      "hyperlink": null
+      "text": ""
     },
     {
       "self_ref": "#/texts/92",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
-      "meta": null,
       "label": "text",
       "prov": [
         {
@@ -3372,27 +3079,23 @@
           ]
         }
       ],
-      "orig": "𢽴 辅 资 料 站",
-      "text": "𢽴 辅 资 料 站",
-      "formatting": null,
-      "hyperlink": null
+      "orig": "\ud84b\udf74 \u8f85 \u8d44 \u6599 \u7ad9",
+      "text": "\ud84b\udf74 \u8f85 \u8d44 \u6599 \u7ad9"
     }
   ],
   "pictures": [
     {
       "self_ref": "#/pictures/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [
         {
-          "cref": "#/texts/4"
+          "$ref": "#/texts/4"
         }
       ],
       "content_layer": "furniture",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -3401,9 +3104,7 @@
               "class_name": "logo"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -3425,7 +3126,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -3442,13 +3142,11 @@
     {
       "self_ref": "#/pictures/1",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "background",
       "meta": {
-        "summary": null,
-        "description": null,
         "classification": {
           "predictions": [
             {
@@ -3457,9 +3155,7 @@
               "class_name": "other"
             }
           ]
-        },
-        "molecule": null,
-        "tabular_chart": null
+        }
       },
       "label": "picture",
       "prov": [
@@ -3481,7 +3177,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "annotations": [
         {
           "kind": "classification",
@@ -3500,11 +3195,10 @@
     {
       "self_ref": "#/tables/0",
       "parent": {
-        "cref": "#/body"
+        "$ref": "#/body"
       },
       "children": [],
       "content_layer": "body",
-      "meta": null,
       "label": "table",
       "prov": [
         {
@@ -3525,7 +3219,6 @@
       "captions": [],
       "references": [],
       "footnotes": [],
-      "image": null,
       "data": {
         "table_cells": [
           {
@@ -3542,7 +3235,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "題 号",
+            "text": "\u984c \u53f7",
             "column_header": true,
             "row_header": false,
             "row_section": false,
@@ -3582,7 +3275,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 2,
             "end_col_offset_idx": 3,
-            "text": "ニ",
+            "text": "\u30cb",
             "column_header": true,
             "row_header": false,
             "row_section": false,
@@ -3602,7 +3295,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 3,
             "end_col_offset_idx": 4,
-            "text": "三",
+            "text": "\u4e09",
             "column_header": true,
             "row_header": false,
             "row_section": false,
@@ -3622,7 +3315,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 4,
             "end_col_offset_idx": 5,
-            "text": "四",
+            "text": "\u56db",
             "column_header": true,
             "row_header": false,
             "row_section": false,
@@ -3642,7 +3335,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 5,
             "end_col_offset_idx": 6,
-            "text": "죠",
+            "text": "\uc8e0",
             "column_header": true,
             "row_header": false,
             "row_section": false,
@@ -3662,7 +3355,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 6,
             "end_col_offset_idx": 7,
-            "text": "六",
+            "text": "\u516d",
             "column_header": true,
             "row_header": false,
             "row_section": false,
@@ -3682,7 +3375,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 7,
             "end_col_offset_idx": 8,
-            "text": "总 分",
+            "text": "\u603b \u5206",
             "column_header": true,
             "row_header": false,
             "row_section": false,
@@ -3702,7 +3395,7 @@
             "end_row_offset_idx": 1,
             "start_col_offset_idx": 8,
             "end_col_offset_idx": 9,
-            "text": "等 級",
+            "text": "\u7b49 \u7d1a",
             "column_header": true,
             "row_header": false,
             "row_section": false,
@@ -3722,7 +3415,7 @@
             "end_row_offset_idx": 2,
             "start_col_offset_idx": 0,
             "end_col_offset_idx": 1,
-            "text": "得 分",
+            "text": "\u5f97 \u5206",
             "column_header": false,
             "row_header": true,
             "row_section": false,
@@ -3907,7 +3600,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "題 号",
+              "text": "\u984c \u53f7",
               "column_header": true,
               "row_header": false,
               "row_section": false,
@@ -3947,7 +3640,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 2,
               "end_col_offset_idx": 3,
-              "text": "ニ",
+              "text": "\u30cb",
               "column_header": true,
               "row_header": false,
               "row_section": false,
@@ -3967,7 +3660,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 3,
               "end_col_offset_idx": 4,
-              "text": "三",
+              "text": "\u4e09",
               "column_header": true,
               "row_header": false,
               "row_section": false,
@@ -3987,7 +3680,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 4,
               "end_col_offset_idx": 5,
-              "text": "四",
+              "text": "\u56db",
               "column_header": true,
               "row_header": false,
               "row_section": false,
@@ -4007,7 +3700,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 5,
               "end_col_offset_idx": 6,
-              "text": "죠",
+              "text": "\uc8e0",
               "column_header": true,
               "row_header": false,
               "row_section": false,
@@ -4027,7 +3720,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 6,
               "end_col_offset_idx": 7,
-              "text": "六",
+              "text": "\u516d",
               "column_header": true,
               "row_header": false,
               "row_section": false,
@@ -4047,7 +3740,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 7,
               "end_col_offset_idx": 8,
-              "text": "总 分",
+              "text": "\u603b \u5206",
               "column_header": true,
               "row_header": false,
               "row_section": false,
@@ -4067,7 +3760,7 @@
               "end_row_offset_idx": 1,
               "start_col_offset_idx": 8,
               "end_col_offset_idx": 9,
-              "text": "等 級",
+              "text": "\u7b49 \u7d1a",
               "column_header": true,
               "row_header": false,
               "row_section": false,
@@ -4089,7 +3782,7 @@
               "end_row_offset_idx": 2,
               "start_col_offset_idx": 0,
               "end_col_offset_idx": 1,
-              "text": "得 分",
+              "text": "\u5f97 \u5206",
               "column_header": false,
               "row_header": true,
               "row_section": false,
