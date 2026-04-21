@@ -26,7 +26,7 @@ import sys
 from dataclasses import dataclass, field
 from enum import Enum
 from pathlib import Path
-from typing import Dict, List, Optional, Set, Tuple
+from typing import Dict, List, Optional, Set, Tuple, TypedDict
 
 from docling_core.types.doc import RichTableCell, TableCell
 from docling_core.types.doc.base import BoundingBox, CoordOrigin, ImageRefMode
@@ -185,6 +185,12 @@ class Cell:
     row_header: bool = False
     row_section: bool = False
     fillable_cell: bool = False
+
+
+class TabularDataEntry(TypedDict):
+    computed_table_cells: list[Cell]
+    bbox: BoundingBox
+    page_no: int
 
 
 def is_bbox_within(
@@ -558,7 +564,7 @@ class CVATToDoclingConverter:
         cumulative_width = 0.0
 
         # To track tables, structures and rich cell elements
-        self.tabular_data: List[object] = []
+        self.tabular_data: List[TabularDataEntry] = []
 
         # Use CVAT image info dimensions if available, otherwise calculate from pages
         if self.doc_structure.image_info:
@@ -815,7 +821,7 @@ class CVATToDoclingConverter:
             # Add page
             self.doc.add_page(page_no=page_no, size=page_size, image=image_ref)
 
-    def _apply_reading_order(self):
+    def _apply_reading_order(self) -> None:
         """Apply reading order to the containment tree."""
         # Combine all reading order elements into a global order
         all_ordered_elements: list[int] = []
@@ -1378,15 +1384,16 @@ class CVATToDoclingConverter:
         self.list_manager.level_stack = level_stack
         self.list_manager.sublist_containers = sublist_containers
 
-    def _process_table_data(self):
+    def _process_table_data(self) -> None:
         # After all CVAT elements have been processed,
         # go over tables and populate them with cells
         # This includes rich cell elements
 
         for tind, table_item in enumerate(self.doc.tables):
             # table_item.children - would be rich elements for each table cell
-            table_cell_data = self.tabular_data[tind]["computed_table_cells"]
-            page_no = self.tabular_data[tind]["page_no"]
+            table_entry = self.tabular_data[tind]
+            table_cell_data = table_entry["computed_table_cells"]
+            page_no = table_entry["page_no"]
             page_height = self.doc.pages[page_no].size.height
 
             table_item.children = []
@@ -1485,7 +1492,7 @@ class CVATToDoclingConverter:
                             )
                         ref_for_rich_cell = group_element.get_ref()
 
-                    cell = RichTableCell(
+                    rich_table_cell = RichTableCell(
                         # bbox=c.bbox,
                         text=cell_text,
                         row_span=c.row_span_length,
@@ -1500,9 +1507,9 @@ class CVATToDoclingConverter:
                         fillable=c.fillable_cell,
                         ref=ref_for_rich_cell,  # points to an artificial group around children, or to child directly
                     )
-                    self.doc.add_table_cell(table_item=table_item, cell=cell)
+                    self.doc.add_table_cell(table_item=table_item, cell=rich_table_cell)
                 else:
-                    cell = TableCell(
+                    table_cell = TableCell(
                         bbox=c.bbox,
                         text=cell_text,
                         row_span=c.row_span_length,
@@ -1516,7 +1523,7 @@ class CVATToDoclingConverter:
                         fillable=c.fillable_cell,
                         row_section=c.row_section,
                     )
-                    self.doc.add_table_cell(table_item=table_item, cell=cell)
+                    self.doc.add_table_cell(table_item=table_item, cell=table_cell)
 
     def _find_parent_node(self, node: TreeNode) -> Optional[TreeNode]:
         """Find the parent node of a given node in the tree."""
@@ -2365,7 +2372,7 @@ class CVATToDoclingConverter:
                 content_layer=content_layer,
             )
 
-    def _process_captions_and_footnotes(self):
+    def _process_captions_and_footnotes(self) -> None:
         """Process caption and footnote relationships.
 
         Skips invalid paths where neither side is a container element (these are

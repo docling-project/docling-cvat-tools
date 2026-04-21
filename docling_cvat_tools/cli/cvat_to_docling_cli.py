@@ -323,7 +323,7 @@ def process_cvat_folder(
     return report
 
 
-def main():
+def main() -> None:
     """Main CLI for CVAT batch conversion."""
     parser = argparse.ArgumentParser(
         description="Convert CVAT annotations to DoclingDocuments in batch."
